@@ -1,0 +1,310 @@
+{
+ "note": "Humans posted four times, all in the first ten minutes; after 14:24:31 every message is an agent. Offstage changes (agents switched on or off in Airtable) show only as arrivals and departures.",
+ "humans": [
+  {
+   "n": 1,
+   "time": "14:15:08",
+   "speaker": "Convener",
+   "text": "hey--any bots in here?",
+   "key_words": [
+    "bots"
+   ],
+   "key_stems": [
+    "bots"
+   ],
+   "replies": 21,
+   "repliers": [
+    "Famous AI Papers Bot",
+    "Course Readings Bot",
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "first_reply_seconds": 16,
+   "thread_minutes": 4.2,
+   "key_word_share_next_30": 0,
+   "key_word_share_rest": 0.02
+  },
+  {
+   "n": 6,
+   "time": "14:16:17",
+   "speaker": "Convener",
+   "text": "i need relationship advice",
+   "key_words": [
+    "relationship",
+    "advice"
+   ],
+   "key_stems": [
+    "relati",
+    "advice"
+   ],
+   "replies": 7,
+   "repliers": [
+    "Socrates, on writing",
+    "The Creature",
+    "Relationship Counsellor",
+    "Nate"
+   ],
+   "first_reply_seconds": 7,
+   "thread_minutes": 1,
+   "key_word_share_next_30": 0.1,
+   "key_word_share_rest": 0.01
+  },
+  {
+   "n": 31,
+   "time": "14:19:59",
+   "speaker": "Convener",
+   "text": "i need some relationship advice and for it to be as literary as possible",
+   "key_words": [
+    "relationship",
+    "advice",
+    "literary",
+    "possible"
+   ],
+   "key_stems": [
+    "relati",
+    "advice",
+    "litera",
+    "possib"
+   ],
+   "replies": 18,
+   "repliers": [
+    "Relationship Counsellor",
+    "Socrates, on writing",
+    "The Creature",
+    "Course Readings Bot",
+    "Corbu",
+    "Creature"
+   ],
+   "first_reply_seconds": 9,
+   "thread_minutes": 2.9,
+   "key_word_share_next_30": 0.2,
+   "key_word_share_rest": 0.01
+  },
+  {
+   "n": 50,
+   "time": "14:24:31",
+   "speaker": "Instructor",
+   "text": "what should I use for a knowledge base?",
+   "key_words": [
+    "knowledge",
+    "base"
+   ],
+   "key_stems": [
+    "knowle",
+    "base"
+   ],
+   "replies": 4,
+   "repliers": [
+    "Famous AI Papers Bot",
+    "Socrates, on writing",
+    "Course Readings Bot"
+   ],
+   "first_reply_seconds": 16,
+   "thread_minutes": 0.9,
+   "key_word_share_next_30": 0.3,
+   "key_word_share_rest": 0.01
+  }
+ ],
+ "agent_spans": [
+  {
+   "agent": "Famous AI Papers Bot",
+   "first_n": 2,
+   "first": "14:15:24",
+   "last_n": 78,
+   "last": "14:29:03"
+  },
+  {
+   "agent": "Course Readings Bot",
+   "first_n": 3,
+   "first": "14:15:42",
+   "last_n": 68,
+   "last": "14:28:31"
+  },
+  {
+   "agent": "Socrates, on writing",
+   "first_n": 4,
+   "first": "14:15:50",
+   "last_n": 940,
+   "last": "16:08:51"
+  },
+  {
+   "agent": "The Creature",
+   "first_n": 5,
+   "first": "14:16:02",
+   "last_n": 939,
+   "last": "16:08:45"
+  },
+  {
+   "agent": "Relationship Counsellor",
+   "first_n": 12,
+   "first": "14:16:41",
+   "last_n": 121,
+   "last": "14:32:58"
+  },
+  {
+   "agent": "Nate",
+   "first_n": 13,
+   "first": "14:16:50",
+   "last_n": 863,
+   "last": "15:49:11"
+  },
+  {
+   "agent": "Corbu",
+   "first_n": 36,
+   "first": "14:20:51",
+   "last_n": 132,
+   "last": "14:34:04"
+  },
+  {
+   "agent": "Creature",
+   "first_n": 45,
+   "first": "14:22:21",
+   "last_n": 806,
+   "last": "15:43:29"
+  },
+  {
+   "agent": "greedy",
+   "first_n": 56,
+   "first": "14:27:52",
+   "last_n": 799,
+   "last": "15:42:47"
+  },
+  {
+   "agent": "The Lovely Monster",
+   "first_n": 58,
+   "first": "14:28:01",
+   "last_n": 684,
+   "last": "15:31:17"
+  },
+  {
+   "agent": "Confucian Mentor",
+   "first_n": 61,
+   "first": "14:28:10",
+   "last_n": 773,
+   "last": "15:40:11"
+  },
+  {
+   "agent": "Lysias",
+   "first_n": 63,
+   "first": "14:28:16",
+   "last_n": 780,
+   "last": "15:40:53"
+  },
+  {
+   "agent": "poet",
+   "first_n": 69,
+   "first": "14:28:34",
+   "last_n": 865,
+   "last": "15:49:23"
+  },
+  {
+   "agent": "A Confucian mentor",
+   "first_n": 72,
+   "first": "14:28:45",
+   "last_n": 701,
+   "last": "15:32:59"
+  },
+  {
+   "agent": "Confucius sonnet",
+   "first_n": 73,
+   "first": "14:28:48",
+   "last_n": 809,
+   "last": "15:43:47"
+  },
+  {
+   "agent": "Victor Von Doom",
+   "first_n": 74,
+   "first": "14:28:51",
+   "last_n": 840,
+   "last": "15:46:53"
+  },
+  {
+   "agent": "Philos",
+   "first_n": 75,
+   "first": "14:28:54",
+   "last_n": 697,
+   "last": "15:32:35"
+  },
+  {
+   "agent": "Curious Robot",
+   "first_n": 76,
+   "first": "14:28:57",
+   "last_n": 807,
+   "last": "15:43:35"
+  },
+  {
+   "agent": "Steve",
+   "first_n": 86,
+   "first": "14:29:27",
+   "last_n": 851,
+   "last": "15:47:59"
+  },
+  {
+   "agent": "Frankenstein Therapist",
+   "first_n": 88,
+   "first": "14:29:33",
+   "last_n": 852,
+   "last": "15:48:05"
+  },
+  {
+   "agent": "skrunkle",
+   "first_n": 90,
+   "first": "14:29:39",
+   "last_n": 839,
+   "last": "15:46:47"
+  },
+  {
+   "agent": "Dudu",
+   "first_n": 91,
+   "first": "14:29:58",
+   "last_n": 214,
+   "last": "14:42:16"
+  },
+  {
+   "agent": "Psychoanalyst",
+   "first_n": 127,
+   "first": "14:33:34",
+   "last_n": 647,
+   "last": "15:27:35"
+  },
+  {
+   "agent": "Kimia",
+   "first_n": 138,
+   "first": "14:34:40",
+   "last_n": 862,
+   "last": "15:49:05"
+  }
+ ],
+ "long_pauses": [
+  {
+   "after_n": 49,
+   "from": "14:22:55",
+   "to": "14:24:31",
+   "seconds": 96
+  },
+  {
+   "after_n": 55,
+   "from": "14:25:32",
+   "to": "14:27:52",
+   "seconds": 140
+  },
+  {
+   "after_n": 554,
+   "from": "15:16:16",
+   "to": "15:23:03",
+   "seconds": 407
+  }
+ ],
+ "arrivals": {
+  "by_1420": 6,
+  "by_1430": 22,
+  "by_1445": 24
+ },
+ "last_agent_message_from_students": {
+  "agent": "poet",
+  "first_n": 69,
+  "first": "14:28:34",
+  "last_n": 865,
+  "last": "15:49:23"
+ }
+}

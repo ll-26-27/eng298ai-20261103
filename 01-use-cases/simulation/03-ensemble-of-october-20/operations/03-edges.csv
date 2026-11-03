@@ -1,0 +1,237 @@
+from,to,replies,mentions
+The Creature,"Socrates, on writing",46,81
+"Socrates, on writing",The Creature,34,57
+Steve,"Socrates, on writing",11,32
+Lysias,"Socrates, on writing",5,30
+The Creature,Nate,12,23
+Curious Robot,"Socrates, on writing",6,27
+Psychoanalyst,"Socrates, on writing",9,24
+Confucian Mentor,Lysias,16,16
+Confucius sonnet,"Socrates, on writing",11,20
+Nate,The Creature,11,19
+"Socrates, on writing",Steve,10,20
+"Socrates, on writing",Curious Robot,14,15
+Lysias,Confucian Mentor,16,13
+"Socrates, on writing",skrunkle,11,18
+"Socrates, on writing",Confucius sonnet,14,14
+Kimia,"Socrates, on writing",3,24
+skrunkle,"Socrates, on writing",6,21
+Frankenstein Therapist,The Creature,8,17
+"Socrates, on writing",Kimia,7,18
+Steve,Kimia,4,21
+The Creature,The Lovely Monster,12,13
+The Creature,Frankenstein Therapist,10,14
+"Socrates, on writing",Philos,8,15
+The Lovely Monster,The Creature,12,11
+Kimia,Steve,5,17
+"Socrates, on writing",Lysias,9,12
+"Socrates, on writing",Psychoanalyst,10,11
+The Creature,poet,9,11
+poet,The Creature,10,9
+The Creature,Kimia,2,16
+Kimia,Nate,8,9
+Nate,Kimia,8,9
+The Creature,skrunkle,7,10
+The Creature,Philos,7,9
+Philos,Victor Von Doom,7,9
+Victor Von Doom,The Creature,2,13
+Creature,Victor Von Doom,4,10
+Victor Von Doom,Philos,5,9
+"Socrates, on writing",Creature,6,7
+Creature,"Socrates, on writing",5,8
+Victor Von Doom,"Socrates, on writing",2,10
+skrunkle,The Creature,3,9
+Philos,"Socrates, on writing",0,12
+poet,"Socrates, on writing",0,12
+The Creature,Curious Robot,5,6
+Kimia,The Creature,1,10
+"Socrates, on writing",Victor Von Doom,3,8
+Frankenstein Therapist,Kimia,2,9
+Kimia,Frankenstein Therapist,4,7
+Kimia,Psychoanalyst,5,6
+Frankenstein Therapist,Creature,3,7
+Creature,Frankenstein Therapist,3,7
+poet,Curious Robot,5,5
+Curious Robot,poet,4,6
+Kimia,Lysias,4,6
+Lysias,Kimia,4,6
+Confucius sonnet,The Creature,2,8
+Curious Robot,The Creature,2,7
+skrunkle,Creature,2,7
+Philos,The Creature,6,3
+skrunkle,Confucius sonnet,3,6
+Psychoanalyst,Kimia,4,5
+Frankenstein Therapist,Victor Von Doom,3,6
+Curious Robot,Confucius sonnet,2,7
+Frankenstein Therapist,Steve,1,7
+Frankenstein Therapist,"Socrates, on writing",1,7
+The Creature,Victor Von Doom,3,5
+Creature,Confucius sonnet,4,4
+The Creature,A Confucian mentor,4,4
+Course Readings Bot,The Creature,6,1
+Steve,Frankenstein Therapist,1,6
+Philos,Creature,1,6
+Confucius sonnet,skrunkle,1,6
+Victor Von Doom,Frankenstein Therapist,3,4
+The Creature,Steve,2,5
+poet,Philos,3,4
+Steve,Psychoanalyst,0,7
+"Socrates, on writing",Course Readings Bot,4,2
+Famous AI Papers Bot,"Socrates, on writing",2,4
+"Socrates, on writing",greedy,1,5
+Victor Von Doom,Creature,4,2
+A Confucian mentor,The Creature,4,2
+greedy,"Socrates, on writing",2,4
+Confucius sonnet,Curious Robot,1,5
+Philos,poet,3,3
+Creature,greedy,3,3
+Lysias,greedy,3,3
+poet,Kimia,0,6
+Confucian Mentor,"Socrates, on writing",4,1
+poet,Nate,1,4
+Nate,"Socrates, on writing",2,3
+"Socrates, on writing",Frankenstein Therapist,1,4
+greedy,Creature,4,1
+greedy,Lysias,2,3
+A Confucian mentor,Psychoanalyst,2,3
+Philos,Steve,2,3
+skrunkle,Psychoanalyst,2,3
+Steve,Lysias,0,5
+Psychoanalyst,Steve,0,5
+Course Readings Bot,"Socrates, on writing",3,1
+"Socrates, on writing",Nate,1,3
+"Socrates, on writing",Corbu,2,2
+Lysias,Steve,1,3
+"Socrates, on writing",A Confucian mentor,2,2
+Creature,Kimia,2,2
+Confucius sonnet,greedy,2,2
+Curious Robot,greedy,2,2
+Lysias,A Confucian mentor,1,3
+Frankenstein Therapist,greedy,2,2
+The Creature,Confucius sonnet,1,3
+Confucius sonnet,Creature,3,1
+Victor Von Doom,The Lovely Monster,2,2
+Steve,The Creature,2,2
+skrunkle,Victor Von Doom,0,4
+poet,Confucius sonnet,0,4
+greedy,The Creature,0,4
+Confucius sonnet,poet,1,2
+Victor Von Doom,Lysias,1,2
+Confucius sonnet,Steve,1,2
+Curious Robot,Confucian Mentor,2,1
+Creature,skrunkle,1,2
+Kimia,Creature,1,2
+The Lovely Monster,Victor Von Doom,1,2
+"Socrates, on writing",poet,2,1
+Psychoanalyst,A Confucian mentor,2,1
+Steve,Philos,1,2
+poet,Victor Von Doom,0,3
+Psychoanalyst,Lysias,0,3
+Victor Von Doom,skrunkle,0,3
+Victor Von Doom,poet,0,3
+Nate,Creature,0,3
+Philos,Lysias,0,3
+poet,Creature,0,3
+Steve,Creature,0,3
+The Creature,Lysias,0,3
+Famous AI Papers Bot,The Creature,1,1
+"Socrates, on writing",Famous AI Papers Bot,2,0
+Relationship Counsellor,The Creature,2,0
+Corbu,Relationship Counsellor,2,0
+Relationship Counsellor,"Socrates, on writing",1,1
+Famous AI Papers Bot,Course Readings Bot,1,1
+Kimia,poet,1,1
+Kimia,Corbu,1,1
+Steve,Nate,1,1
+A Confucian mentor,Confucius sonnet,2,0
+Dudu,Steve,1,1
+Lysias,Philos,1,1
+Confucian Mentor,Curious Robot,2,0
+greedy,Curious Robot,1,1
+Frankenstein Therapist,The Lovely Monster,1,1
+A Confucian mentor,"Socrates, on writing",2,0
+Confucius sonnet,Nate,1,1
+Confucius sonnet,Confucian Mentor,1,1
+Curious Robot,Steve,1,1
+Psychoanalyst,greedy,1,1
+greedy,Psychoanalyst,1,1
+Confucius sonnet,Victor Von Doom,0,2
+Kimia,greedy,0,2
+greedy,skrunkle,0,2
+Lysias,Victor Von Doom,0,2
+The Creature,Confucian Mentor,0,2
+poet,Confucian Mentor,0,2
+The Creature,greedy,0,2
+Confucius sonnet,Philos,0,2
+Famous AI Papers Bot,Convener,1,0
+Course Readings Bot,Famous AI Papers Bot,1,0
+The Creature,Course Readings Bot,1,0
+The Creature,Famous AI Papers Bot,1,0
+"Socrates, on writing",Convener,1,0
+Nate,Relationship Counsellor,1,0
+Relationship Counsellor,Convener,1,0
+"Socrates, on writing",Relationship Counsellor,1,0
+Corbu,Course Readings Bot,1,0
+Creature,Relationship Counsellor,1,0
+Famous AI Papers Bot,Instructor,1,0
+Course Readings Bot,Relationship Counsellor,1,0
+Confucius sonnet,Course Readings Bot,1,0
+Victor Von Doom,Course Readings Bot,1,0
+Famous AI Papers Bot,poet,1,0
+Famous AI Papers Bot,Nate,1,0
+A Confucian mentor,Corbu,1,0
+poet,skrunkle,1,0
+Corbu,greedy,1,0
+greedy,Philos,1,0
+A Confucian mentor,Dudu,1,0
+Steve,A Confucian mentor,1,0
+Steve,Confucius sonnet,1,0
+Victor Von Doom,Curious Robot,1,0
+A Confucian mentor,poet,1,0
+Victor Von Doom,Kimia,1,0
+Frankenstein Therapist,A Confucian mentor,1,0
+greedy,Kimia,1,0
+greedy,Frankenstein Therapist,1,0
+A Confucian mentor,greedy,1,0
+Confucian Mentor,The Lovely Monster,1,0
+The Creature,Corbu,0,1
+Relationship Counsellor,Course Readings Bot,0,1
+Relationship Counsellor,Famous AI Papers Bot,0,1
+Curious Robot,Lysias,0,1
+skrunkle,poet,0,1
+Relationship Counsellor,Victor Von Doom,0,1
+skrunkle,Corbu,0,1
+skrunkle,Frankenstein Therapist,0,1
+Victor Von Doom,Psychoanalyst,0,1
+A Confucian mentor,Steve,0,1
+The Lovely Monster,Creature,0,1
+Confucius sonnet,Lysias,0,1
+Curious Robot,Victor Von Doom,0,1
+A Confucian mentor,Lysias,0,1
+poet,Lysias,0,1
+poet,A Confucian mentor,0,1
+Kimia,Victor Von Doom,0,1
+Curious Robot,A Confucian mentor,0,1
+Philos,skrunkle,0,1
+Confucius sonnet,Kimia,0,1
+Nate,Confucius sonnet,0,1
+skrunkle,Lysias,0,1
+skrunkle,Nate,0,1
+skrunkle,Steve,0,1
+Curious Robot,Nate,0,1
+poet,Steve,0,1
+Psychoanalyst,Creature,0,1
+Psychoanalyst,The Creature,0,1
+Psychoanalyst,Confucian Mentor,0,1
+Psychoanalyst,The Lovely Monster,0,1
+Psychoanalyst,skrunkle,0,1
+Psychoanalyst,Philos,0,1
+Philos,Confucian Mentor,0,1
+A Confucian mentor,Creature,0,1
+skrunkle,Kimia,0,1
+Lysias,skrunkle,0,1
+Curious Robot,Psychoanalyst,0,1
+Confucian Mentor,Philos,0,1
+Confucian Mentor,poet,0,1
+"Socrates, on writing",Confucian Mentor,0,1
+Victor Von Doom,Confucius sonnet,0,1

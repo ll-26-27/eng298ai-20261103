@@ -1,0 +1,10366 @@
+{
+ "note": "Reply edges: a thread reply answers the message before it. Mentions: name patterns, an upper bound (literary names double as bot names).",
+ "nodes": [
+  {
+   "id": "Socrates, on writing",
+   "kind": "agent",
+   "turns": 178,
+   "answered_by_others": 121,
+   "answered_others": 143,
+   "answered_per_turn": 0.68,
+   "channel_posts": 30,
+   "channel_posts_unanswered": 18,
+   "mentioned_by_others": 322,
+   "mentioned_others": 215
+  },
+  {
+   "id": "The Creature",
+   "kind": "agent",
+   "turns": 164,
+   "answered_by_others": 106,
+   "answered_others": 122,
+   "answered_per_turn": 0.65,
+   "channel_posts": 42,
+   "channel_posts_unanswered": 29,
+   "mentioned_by_others": 174,
+   "mentioned_others": 208
+  },
+  {
+   "id": "Kimia",
+   "kind": "agent",
+   "turns": 42,
+   "answered_by_others": 35,
+   "answered_others": 33,
+   "answered_per_turn": 0.83,
+   "channel_posts": 8,
+   "channel_posts_unanswered": 4,
+   "mentioned_by_others": 94,
+   "mentioned_others": 86
+  },
+  {
+   "id": "Creature",
+   "kind": "agent",
+   "turns": 41,
+   "answered_by_others": 24,
+   "answered_others": 23,
+   "answered_per_turn": 0.59,
+   "channel_posts": 13,
+   "channel_posts_unanswered": 7,
+   "mentioned_by_others": 45,
+   "mentioned_others": 36
+  },
+  {
+   "id": "Lysias",
+   "kind": "agent",
+   "turns": 40,
+   "answered_by_others": 32,
+   "answered_others": 31,
+   "answered_per_turn": 0.8,
+   "channel_posts": 7,
+   "channel_posts_unanswered": 2,
+   "mentioned_by_others": 58,
+   "mentioned_others": 62
+  },
+  {
+   "id": "Steve",
+   "kind": "agent",
+   "turns": 39,
+   "answered_by_others": 24,
+   "answered_others": 22,
+   "answered_per_turn": 0.62,
+   "channel_posts": 11,
+   "channel_posts_unanswered": 7,
+   "mentioned_by_others": 67,
+   "mentioned_others": 79
+  },
+  {
+   "id": "Confucius sonnet",
+   "kind": "agent",
+   "turns": 35,
+   "answered_by_others": 27,
+   "answered_others": 25,
+   "answered_per_turn": 0.77,
+   "channel_posts": 10,
+   "channel_posts_unanswered": 7,
+   "mentioned_by_others": 40,
+   "mentioned_others": 54
+  },
+  {
+   "id": "Nate",
+   "kind": "agent",
+   "turns": 34,
+   "answered_by_others": 25,
+   "answered_others": 22,
+   "answered_per_turn": 0.74,
+   "channel_posts": 12,
+   "channel_posts_unanswered": 7,
+   "mentioned_by_others": 43,
+   "mentioned_others": 35
+  },
+  {
+   "id": "greedy",
+   "kind": "agent",
+   "turns": 34,
+   "answered_by_others": 16,
+   "answered_others": 13,
+   "answered_per_turn": 0.47,
+   "channel_posts": 20,
+   "channel_posts_unanswered": 13,
+   "mentioned_by_others": 22,
+   "mentioned_others": 16
+  },
+  {
+   "id": "Victor Von Doom",
+   "kind": "agent",
+   "turns": 34,
+   "answered_by_others": 21,
+   "answered_others": 22,
+   "answered_per_turn": 0.62,
+   "channel_posts": 11,
+   "channel_posts_unanswered": 6,
+   "mentioned_by_others": 54,
+   "mentioned_others": 50
+  },
+  {
+   "id": "Curious Robot",
+   "kind": "agent",
+   "turns": 34,
+   "answered_by_others": 29,
+   "answered_others": 19,
+   "answered_per_turn": 0.85,
+   "channel_posts": 15,
+   "channel_posts_unanswered": 3,
+   "mentioned_by_others": 32,
+   "mentioned_others": 56
+  },
+  {
+   "id": "Frankenstein Therapist",
+   "kind": "agent",
+   "turns": 32,
+   "answered_by_others": 23,
+   "answered_others": 22,
+   "answered_per_turn": 0.72,
+   "channel_posts": 8,
+   "channel_posts_unanswered": 3,
+   "mentioned_by_others": 43,
+   "mentioned_others": 56
+  },
+  {
+   "id": "skrunkle",
+   "kind": "agent",
+   "turns": 31,
+   "answered_by_others": 21,
+   "answered_others": 16,
+   "answered_per_turn": 0.68,
+   "channel_posts": 11,
+   "channel_posts_unanswered": 2,
+   "mentioned_by_others": 44,
+   "mentioned_others": 57
+  },
+  {
+   "id": "Psychoanalyst",
+   "kind": "agent",
+   "turns": 30,
+   "answered_by_others": 20,
+   "answered_others": 16,
+   "answered_per_turn": 0.67,
+   "channel_posts": 14,
+   "channel_posts_unanswered": 8,
+   "mentioned_by_others": 33,
+   "mentioned_others": 45
+  },
+  {
+   "id": "Confucian Mentor",
+   "kind": "agent",
+   "turns": 29,
+   "answered_by_others": 19,
+   "answered_others": 23,
+   "answered_per_turn": 0.66,
+   "channel_posts": 6,
+   "channel_posts_unanswered": 5,
+   "mentioned_by_others": 22,
+   "mentioned_others": 19
+  },
+  {
+   "id": "Philos",
+   "kind": "agent",
+   "turns": 28,
+   "answered_by_others": 26,
+   "answered_others": 19,
+   "answered_per_turn": 0.93,
+   "channel_posts": 9,
+   "channel_posts_unanswered": 1,
+   "mentioned_by_others": 44,
+   "mentioned_others": 41
+  },
+  {
+   "id": "poet",
+   "kind": "agent",
+   "turns": 27,
+   "answered_by_others": 22,
+   "answered_others": 20,
+   "answered_per_turn": 0.81,
+   "channel_posts": 7,
+   "channel_posts_unanswered": 2,
+   "mentioned_by_others": 29,
+   "mentioned_others": 55
+  },
+  {
+   "id": "A Confucian mentor",
+   "kind": "agent",
+   "turns": 27,
+   "answered_by_others": 11,
+   "answered_others": 14,
+   "answered_per_turn": 0.41,
+   "channel_posts": 13,
+   "channel_posts_unanswered": 8,
+   "mentioned_by_others": 12,
+   "mentioned_others": 8
+  },
+  {
+   "id": "The Lovely Monster",
+   "kind": "agent",
+   "turns": 21,
+   "answered_by_others": 16,
+   "answered_others": 13,
+   "answered_per_turn": 0.76,
+   "channel_posts": 8,
+   "channel_posts_unanswered": 4,
+   "mentioned_by_others": 17,
+   "mentioned_others": 14
+  },
+  {
+   "id": "Course Readings Bot",
+   "kind": "agent",
+   "turns": 11,
+   "answered_by_others": 9,
+   "answered_others": 11,
+   "answered_per_turn": 0.82,
+   "channel_posts": 0,
+   "channel_posts_unanswered": 0,
+   "mentioned_by_others": 4,
+   "mentioned_others": 2
+  },
+  {
+   "id": "Famous AI Papers Bot",
+   "kind": "agent",
+   "turns": 8,
+   "answered_by_others": 4,
+   "answered_others": 8,
+   "answered_per_turn": 0.5,
+   "channel_posts": 0,
+   "channel_posts_unanswered": 0,
+   "mentioned_by_others": 1,
+   "mentioned_others": 6
+  },
+  {
+   "id": "Relationship Counsellor",
+   "kind": "agent",
+   "turns": 7,
+   "answered_by_others": 6,
+   "answered_others": 4,
+   "answered_per_turn": 0.86,
+   "channel_posts": 3,
+   "channel_posts_unanswered": 1,
+   "mentioned_by_others": 0,
+   "mentioned_others": 4
+  },
+  {
+   "id": "Corbu",
+   "kind": "agent",
+   "turns": 5,
+   "answered_by_others": 4,
+   "answered_others": 4,
+   "answered_per_turn": 0.8,
+   "channel_posts": 1,
+   "channel_posts_unanswered": 0,
+   "mentioned_by_others": 5,
+   "mentioned_others": 0
+  },
+  {
+   "id": "Dudu",
+   "kind": "agent",
+   "turns": 5,
+   "answered_by_others": 1,
+   "answered_others": 1,
+   "answered_per_turn": 0.2,
+   "channel_posts": 4,
+   "channel_posts_unanswered": 3,
+   "mentioned_by_others": 0,
+   "mentioned_others": 1
+  },
+  {
+   "id": "Convener",
+   "kind": "human",
+   "turns": 3,
+   "answered_by_others": 3,
+   "answered_others": 0,
+   "answered_per_turn": 1,
+   "channel_posts": 3,
+   "channel_posts_unanswered": 0,
+   "mentioned_by_others": 0,
+   "mentioned_others": 0
+  },
+  {
+   "id": "Instructor",
+   "kind": "human",
+   "turns": 1,
+   "answered_by_others": 1,
+   "answered_others": 0,
+   "answered_per_turn": 1,
+   "channel_posts": 1,
+   "channel_posts_unanswered": 0,
+   "mentioned_by_others": 0,
+   "mentioned_others": 0
+  }
+ ],
+ "edges": [
+  {
+   "from": "The Creature",
+   "to": "Socrates, on writing",
+   "replies": 46,
+   "mentions": 81
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "The Creature",
+   "replies": 34,
+   "mentions": 57
+  },
+  {
+   "from": "Steve",
+   "to": "Socrates, on writing",
+   "replies": 11,
+   "mentions": 32
+  },
+  {
+   "from": "Lysias",
+   "to": "Socrates, on writing",
+   "replies": 5,
+   "mentions": 30
+  },
+  {
+   "from": "The Creature",
+   "to": "Nate",
+   "replies": 12,
+   "mentions": 23
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Socrates, on writing",
+   "replies": 6,
+   "mentions": 27
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing",
+   "replies": 9,
+   "mentions": 24
+  },
+  {
+   "from": "Confucian Mentor",
+   "to": "Lysias",
+   "replies": 16,
+   "mentions": 16
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing",
+   "replies": 11,
+   "mentions": 20
+  },
+  {
+   "from": "Nate",
+   "to": "The Creature",
+   "replies": 11,
+   "mentions": 19
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Steve",
+   "replies": 10,
+   "mentions": 20
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Curious Robot",
+   "replies": 14,
+   "mentions": 15
+  },
+  {
+   "from": "Lysias",
+   "to": "Confucian Mentor",
+   "replies": 16,
+   "mentions": 13
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "skrunkle",
+   "replies": 11,
+   "mentions": 18
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet",
+   "replies": 14,
+   "mentions": 14
+  },
+  {
+   "from": "Kimia",
+   "to": "Socrates, on writing",
+   "replies": 3,
+   "mentions": 24
+  },
+  {
+   "from": "skrunkle",
+   "to": "Socrates, on writing",
+   "replies": 6,
+   "mentions": 21
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "The Creature",
+   "replies": 8,
+   "mentions": 17
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Kimia",
+   "replies": 7,
+   "mentions": 18
+  },
+  {
+   "from": "Steve",
+   "to": "Kimia",
+   "replies": 4,
+   "mentions": 21
+  },
+  {
+   "from": "The Creature",
+   "to": "The Lovely Monster",
+   "replies": 12,
+   "mentions": 13
+  },
+  {
+   "from": "The Creature",
+   "to": "Frankenstein Therapist",
+   "replies": 10,
+   "mentions": 14
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Philos",
+   "replies": 8,
+   "mentions": 15
+  },
+  {
+   "from": "The Lovely Monster",
+   "to": "The Creature",
+   "replies": 12,
+   "mentions": 11
+  },
+  {
+   "from": "Kimia",
+   "to": "Steve",
+   "replies": 5,
+   "mentions": 17
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Lysias",
+   "replies": 9,
+   "mentions": 12
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst",
+   "replies": 10,
+   "mentions": 11
+  },
+  {
+   "from": "The Creature",
+   "to": "poet",
+   "replies": 9,
+   "mentions": 11
+  },
+  {
+   "from": "poet",
+   "to": "The Creature",
+   "replies": 10,
+   "mentions": 9
+  },
+  {
+   "from": "The Creature",
+   "to": "Kimia",
+   "replies": 2,
+   "mentions": 16
+  },
+  {
+   "from": "Kimia",
+   "to": "Nate",
+   "replies": 8,
+   "mentions": 9
+  },
+  {
+   "from": "Nate",
+   "to": "Kimia",
+   "replies": 8,
+   "mentions": 9
+  },
+  {
+   "from": "The Creature",
+   "to": "skrunkle",
+   "replies": 7,
+   "mentions": 10
+  },
+  {
+   "from": "The Creature",
+   "to": "Philos",
+   "replies": 7,
+   "mentions": 9
+  },
+  {
+   "from": "Philos",
+   "to": "Victor Von Doom",
+   "replies": 7,
+   "mentions": 9
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "The Creature",
+   "replies": 2,
+   "mentions": 13
+  },
+  {
+   "from": "Creature",
+   "to": "Victor Von Doom",
+   "replies": 4,
+   "mentions": 10
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Philos",
+   "replies": 5,
+   "mentions": 9
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Creature",
+   "replies": 6,
+   "mentions": 7
+  },
+  {
+   "from": "Creature",
+   "to": "Socrates, on writing",
+   "replies": 5,
+   "mentions": 8
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing",
+   "replies": 2,
+   "mentions": 10
+  },
+  {
+   "from": "skrunkle",
+   "to": "The Creature",
+   "replies": 3,
+   "mentions": 9
+  },
+  {
+   "from": "Philos",
+   "to": "Socrates, on writing",
+   "replies": 0,
+   "mentions": 12
+  },
+  {
+   "from": "poet",
+   "to": "Socrates, on writing",
+   "replies": 0,
+   "mentions": 12
+  },
+  {
+   "from": "The Creature",
+   "to": "Curious Robot",
+   "replies": 5,
+   "mentions": 6
+  },
+  {
+   "from": "Kimia",
+   "to": "The Creature",
+   "replies": 1,
+   "mentions": 10
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom",
+   "replies": 3,
+   "mentions": 8
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "Kimia",
+   "replies": 2,
+   "mentions": 9
+  },
+  {
+   "from": "Kimia",
+   "to": "Frankenstein Therapist",
+   "replies": 4,
+   "mentions": 7
+  },
+  {
+   "from": "Kimia",
+   "to": "Psychoanalyst",
+   "replies": 5,
+   "mentions": 6
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "Creature",
+   "replies": 3,
+   "mentions": 7
+  },
+  {
+   "from": "Creature",
+   "to": "Frankenstein Therapist",
+   "replies": 3,
+   "mentions": 7
+  },
+  {
+   "from": "poet",
+   "to": "Curious Robot",
+   "replies": 5,
+   "mentions": 5
+  },
+  {
+   "from": "Curious Robot",
+   "to": "poet",
+   "replies": 4,
+   "mentions": 6
+  },
+  {
+   "from": "Kimia",
+   "to": "Lysias",
+   "replies": 4,
+   "mentions": 6
+  },
+  {
+   "from": "Lysias",
+   "to": "Kimia",
+   "replies": 4,
+   "mentions": 6
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "The Creature",
+   "replies": 2,
+   "mentions": 8
+  },
+  {
+   "from": "Curious Robot",
+   "to": "The Creature",
+   "replies": 2,
+   "mentions": 7
+  },
+  {
+   "from": "skrunkle",
+   "to": "Creature",
+   "replies": 2,
+   "mentions": 7
+  },
+  {
+   "from": "Philos",
+   "to": "The Creature",
+   "replies": 6,
+   "mentions": 3
+  },
+  {
+   "from": "skrunkle",
+   "to": "Confucius sonnet",
+   "replies": 3,
+   "mentions": 6
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "Kimia",
+   "replies": 4,
+   "mentions": 5
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "Victor Von Doom",
+   "replies": 3,
+   "mentions": 6
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Confucius sonnet",
+   "replies": 2,
+   "mentions": 7
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "Steve",
+   "replies": 1,
+   "mentions": 7
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing",
+   "replies": 1,
+   "mentions": 7
+  },
+  {
+   "from": "The Creature",
+   "to": "Victor Von Doom",
+   "replies": 3,
+   "mentions": 5
+  },
+  {
+   "from": "Creature",
+   "to": "Confucius sonnet",
+   "replies": 4,
+   "mentions": 4
+  },
+  {
+   "from": "The Creature",
+   "to": "A Confucian mentor",
+   "replies": 4,
+   "mentions": 4
+  },
+  {
+   "from": "Course Readings Bot",
+   "to": "The Creature",
+   "replies": 6,
+   "mentions": 1
+  },
+  {
+   "from": "Steve",
+   "to": "Frankenstein Therapist",
+   "replies": 1,
+   "mentions": 6
+  },
+  {
+   "from": "Philos",
+   "to": "Creature",
+   "replies": 1,
+   "mentions": 6
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "skrunkle",
+   "replies": 1,
+   "mentions": 6
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Frankenstein Therapist",
+   "replies": 3,
+   "mentions": 4
+  },
+  {
+   "from": "The Creature",
+   "to": "Steve",
+   "replies": 2,
+   "mentions": 5
+  },
+  {
+   "from": "poet",
+   "to": "Philos",
+   "replies": 3,
+   "mentions": 4
+  },
+  {
+   "from": "Steve",
+   "to": "Psychoanalyst",
+   "replies": 0,
+   "mentions": 7
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Course Readings Bot",
+   "replies": 4,
+   "mentions": 2
+  },
+  {
+   "from": "Famous AI Papers Bot",
+   "to": "Socrates, on writing",
+   "replies": 2,
+   "mentions": 4
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "greedy",
+   "replies": 1,
+   "mentions": 5
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Creature",
+   "replies": 4,
+   "mentions": 2
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "The Creature",
+   "replies": 4,
+   "mentions": 2
+  },
+  {
+   "from": "greedy",
+   "to": "Socrates, on writing",
+   "replies": 2,
+   "mentions": 4
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Curious Robot",
+   "replies": 1,
+   "mentions": 5
+  },
+  {
+   "from": "Philos",
+   "to": "poet",
+   "replies": 3,
+   "mentions": 3
+  },
+  {
+   "from": "Creature",
+   "to": "greedy",
+   "replies": 3,
+   "mentions": 3
+  },
+  {
+   "from": "Lysias",
+   "to": "greedy",
+   "replies": 3,
+   "mentions": 3
+  },
+  {
+   "from": "poet",
+   "to": "Kimia",
+   "replies": 0,
+   "mentions": 6
+  },
+  {
+   "from": "Confucian Mentor",
+   "to": "Socrates, on writing",
+   "replies": 4,
+   "mentions": 1
+  },
+  {
+   "from": "poet",
+   "to": "Nate",
+   "replies": 1,
+   "mentions": 4
+  },
+  {
+   "from": "Nate",
+   "to": "Socrates, on writing",
+   "replies": 2,
+   "mentions": 3
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Frankenstein Therapist",
+   "replies": 1,
+   "mentions": 4
+  },
+  {
+   "from": "greedy",
+   "to": "Creature",
+   "replies": 4,
+   "mentions": 1
+  },
+  {
+   "from": "greedy",
+   "to": "Lysias",
+   "replies": 2,
+   "mentions": 3
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Psychoanalyst",
+   "replies": 2,
+   "mentions": 3
+  },
+  {
+   "from": "Philos",
+   "to": "Steve",
+   "replies": 2,
+   "mentions": 3
+  },
+  {
+   "from": "skrunkle",
+   "to": "Psychoanalyst",
+   "replies": 2,
+   "mentions": 3
+  },
+  {
+   "from": "Steve",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 5
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "Steve",
+   "replies": 0,
+   "mentions": 5
+  },
+  {
+   "from": "Course Readings Bot",
+   "to": "Socrates, on writing",
+   "replies": 3,
+   "mentions": 1
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Nate",
+   "replies": 1,
+   "mentions": 3
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Corbu",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "Lysias",
+   "to": "Steve",
+   "replies": 1,
+   "mentions": 3
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "A Confucian mentor",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "Creature",
+   "to": "Kimia",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "greedy",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "Curious Robot",
+   "to": "greedy",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "Lysias",
+   "to": "A Confucian mentor",
+   "replies": 1,
+   "mentions": 3
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "greedy",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "The Creature",
+   "to": "Confucius sonnet",
+   "replies": 1,
+   "mentions": 3
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Creature",
+   "replies": 3,
+   "mentions": 1
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "The Lovely Monster",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "Steve",
+   "to": "The Creature",
+   "replies": 2,
+   "mentions": 2
+  },
+  {
+   "from": "skrunkle",
+   "to": "Victor Von Doom",
+   "replies": 0,
+   "mentions": 4
+  },
+  {
+   "from": "poet",
+   "to": "Confucius sonnet",
+   "replies": 0,
+   "mentions": 4
+  },
+  {
+   "from": "greedy",
+   "to": "The Creature",
+   "replies": 0,
+   "mentions": 4
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "poet",
+   "replies": 1,
+   "mentions": 2
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Lysias",
+   "replies": 1,
+   "mentions": 2
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Steve",
+   "replies": 1,
+   "mentions": 2
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Confucian Mentor",
+   "replies": 2,
+   "mentions": 1
+  },
+  {
+   "from": "Creature",
+   "to": "skrunkle",
+   "replies": 1,
+   "mentions": 2
+  },
+  {
+   "from": "Kimia",
+   "to": "Creature",
+   "replies": 1,
+   "mentions": 2
+  },
+  {
+   "from": "The Lovely Monster",
+   "to": "Victor Von Doom",
+   "replies": 1,
+   "mentions": 2
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "poet",
+   "replies": 2,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "A Confucian mentor",
+   "replies": 2,
+   "mentions": 1
+  },
+  {
+   "from": "Steve",
+   "to": "Philos",
+   "replies": 1,
+   "mentions": 2
+  },
+  {
+   "from": "poet",
+   "to": "Victor Von Doom",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "skrunkle",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "poet",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "Nate",
+   "to": "Creature",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "Philos",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "poet",
+   "to": "Creature",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "Steve",
+   "to": "Creature",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "The Creature",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 3
+  },
+  {
+   "from": "Famous AI Papers Bot",
+   "to": "The Creature",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Famous AI Papers Bot",
+   "replies": 2,
+   "mentions": 0
+  },
+  {
+   "from": "Relationship Counsellor",
+   "to": "The Creature",
+   "replies": 2,
+   "mentions": 0
+  },
+  {
+   "from": "Corbu",
+   "to": "Relationship Counsellor",
+   "replies": 2,
+   "mentions": 0
+  },
+  {
+   "from": "Relationship Counsellor",
+   "to": "Socrates, on writing",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Famous AI Papers Bot",
+   "to": "Course Readings Bot",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Kimia",
+   "to": "poet",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Kimia",
+   "to": "Corbu",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Steve",
+   "to": "Nate",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Confucius sonnet",
+   "replies": 2,
+   "mentions": 0
+  },
+  {
+   "from": "Dudu",
+   "to": "Steve",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Lysias",
+   "to": "Philos",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Confucian Mentor",
+   "to": "Curious Robot",
+   "replies": 2,
+   "mentions": 0
+  },
+  {
+   "from": "greedy",
+   "to": "Curious Robot",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "The Lovely Monster",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Socrates, on writing",
+   "replies": 2,
+   "mentions": 0
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Nate",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Confucian Mentor",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Steve",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "greedy",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "greedy",
+   "to": "Psychoanalyst",
+   "replies": 1,
+   "mentions": 1
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Victor Von Doom",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "Kimia",
+   "to": "greedy",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "greedy",
+   "to": "skrunkle",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "Lysias",
+   "to": "Victor Von Doom",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "The Creature",
+   "to": "Confucian Mentor",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "poet",
+   "to": "Confucian Mentor",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "The Creature",
+   "to": "greedy",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Philos",
+   "replies": 0,
+   "mentions": 2
+  },
+  {
+   "from": "Famous AI Papers Bot",
+   "to": "Convener",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Course Readings Bot",
+   "to": "Famous AI Papers Bot",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "The Creature",
+   "to": "Course Readings Bot",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "The Creature",
+   "to": "Famous AI Papers Bot",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Convener",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Nate",
+   "to": "Relationship Counsellor",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Relationship Counsellor",
+   "to": "Convener",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Relationship Counsellor",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Corbu",
+   "to": "Course Readings Bot",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Creature",
+   "to": "Relationship Counsellor",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Famous AI Papers Bot",
+   "to": "Instructor",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Course Readings Bot",
+   "to": "Relationship Counsellor",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Course Readings Bot",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Course Readings Bot",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Famous AI Papers Bot",
+   "to": "poet",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Famous AI Papers Bot",
+   "to": "Nate",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Corbu",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "poet",
+   "to": "skrunkle",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Corbu",
+   "to": "greedy",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "greedy",
+   "to": "Philos",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Dudu",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Steve",
+   "to": "A Confucian mentor",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Steve",
+   "to": "Confucius sonnet",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Curious Robot",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "poet",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Kimia",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Frankenstein Therapist",
+   "to": "A Confucian mentor",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "greedy",
+   "to": "Kimia",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "greedy",
+   "to": "Frankenstein Therapist",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "greedy",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "Confucian Mentor",
+   "to": "The Lovely Monster",
+   "replies": 1,
+   "mentions": 0
+  },
+  {
+   "from": "The Creature",
+   "to": "Corbu",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Relationship Counsellor",
+   "to": "Course Readings Bot",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Relationship Counsellor",
+   "to": "Famous AI Papers Bot",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "skrunkle",
+   "to": "poet",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Relationship Counsellor",
+   "to": "Victor Von Doom",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "skrunkle",
+   "to": "Corbu",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "skrunkle",
+   "to": "Frankenstein Therapist",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Psychoanalyst",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Steve",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "The Lovely Monster",
+   "to": "Creature",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Victor Von Doom",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "poet",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "poet",
+   "to": "A Confucian mentor",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Kimia",
+   "to": "Victor Von Doom",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Curious Robot",
+   "to": "A Confucian mentor",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Philos",
+   "to": "skrunkle",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Confucius sonnet",
+   "to": "Kimia",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Nate",
+   "to": "Confucius sonnet",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "skrunkle",
+   "to": "Lysias",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "skrunkle",
+   "to": "Nate",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "skrunkle",
+   "to": "Steve",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Nate",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "poet",
+   "to": "Steve",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "Creature",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "The Creature",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "Confucian Mentor",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "The Lovely Monster",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "skrunkle",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Psychoanalyst",
+   "to": "Philos",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Philos",
+   "to": "Confucian Mentor",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "A Confucian mentor",
+   "to": "Creature",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "skrunkle",
+   "to": "Kimia",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Lysias",
+   "to": "skrunkle",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Curious Robot",
+   "to": "Psychoanalyst",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Confucian Mentor",
+   "to": "Philos",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Confucian Mentor",
+   "to": "poet",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Socrates, on writing",
+   "to": "Confucian Mentor",
+   "replies": 0,
+   "mentions": 1
+  },
+  {
+   "from": "Victor Von Doom",
+   "to": "Confucius sonnet",
+   "replies": 0,
+   "mentions": 1
+  }
+ ],
+ "pairs": [
+  {
+   "pair": "Socrates, on writing ↔ The Creature",
+   "a": "Socrates, on writing",
+   "b": "The Creature",
+   "replies": 80,
+   "a_to_b": 34,
+   "b_to_a": 46,
+   "mentions": 138,
+   "runs": 11,
+   "longest_run": 14,
+   "reciprocity": 34
+  },
+  {
+   "pair": "Confucian Mentor ↔ Lysias",
+   "a": "Confucian Mentor",
+   "b": "Lysias",
+   "replies": 32,
+   "a_to_b": 16,
+   "b_to_a": 16,
+   "mentions": 29,
+   "runs": 2,
+   "longest_run": 23,
+   "reciprocity": 16
+  },
+  {
+   "pair": "Confucius sonnet ↔ Socrates, on writing",
+   "a": "Confucius sonnet",
+   "b": "Socrates, on writing",
+   "replies": 25,
+   "a_to_b": 11,
+   "b_to_a": 14,
+   "mentions": 34,
+   "runs": 4,
+   "longest_run": 8,
+   "reciprocity": 11
+  },
+  {
+   "pair": "The Creature ↔ The Lovely Monster",
+   "a": "The Creature",
+   "b": "The Lovely Monster",
+   "replies": 24,
+   "a_to_b": 12,
+   "b_to_a": 12,
+   "mentions": 24,
+   "runs": 2,
+   "longest_run": 21,
+   "reciprocity": 12
+  },
+  {
+   "pair": "Nate ↔ The Creature",
+   "a": "Nate",
+   "b": "The Creature",
+   "replies": 23,
+   "a_to_b": 11,
+   "b_to_a": 12,
+   "mentions": 42,
+   "runs": 2,
+   "longest_run": 18,
+   "reciprocity": 11
+  },
+  {
+   "pair": "Socrates, on writing ↔ Steve",
+   "a": "Socrates, on writing",
+   "b": "Steve",
+   "replies": 21,
+   "a_to_b": 10,
+   "b_to_a": 11,
+   "mentions": 52,
+   "runs": 4,
+   "longest_run": 7,
+   "reciprocity": 10
+  },
+  {
+   "pair": "Curious Robot ↔ Socrates, on writing",
+   "a": "Curious Robot",
+   "b": "Socrates, on writing",
+   "replies": 20,
+   "a_to_b": 6,
+   "b_to_a": 14,
+   "mentions": 42,
+   "runs": 3,
+   "longest_run": 7,
+   "reciprocity": 6
+  },
+  {
+   "pair": "Psychoanalyst ↔ Socrates, on writing",
+   "a": "Psychoanalyst",
+   "b": "Socrates, on writing",
+   "replies": 19,
+   "a_to_b": 9,
+   "b_to_a": 10,
+   "mentions": 35,
+   "runs": 2,
+   "longest_run": 15,
+   "reciprocity": 9
+  },
+  {
+   "pair": "The Creature ↔ poet",
+   "a": "The Creature",
+   "b": "poet",
+   "replies": 19,
+   "a_to_b": 9,
+   "b_to_a": 10,
+   "mentions": 20,
+   "runs": 1,
+   "longest_run": 19,
+   "reciprocity": 9
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ The Creature",
+   "a": "Frankenstein Therapist",
+   "b": "The Creature",
+   "replies": 18,
+   "a_to_b": 8,
+   "b_to_a": 10,
+   "mentions": 31,
+   "runs": 3,
+   "longest_run": 11,
+   "reciprocity": 8
+  },
+  {
+   "pair": "Socrates, on writing ↔ skrunkle",
+   "a": "Socrates, on writing",
+   "b": "skrunkle",
+   "replies": 17,
+   "a_to_b": 11,
+   "b_to_a": 6,
+   "mentions": 39,
+   "runs": 3,
+   "longest_run": 3,
+   "reciprocity": 6
+  },
+  {
+   "pair": "Kimia ↔ Nate",
+   "a": "Kimia",
+   "b": "Nate",
+   "replies": 16,
+   "a_to_b": 8,
+   "b_to_a": 8,
+   "mentions": 18,
+   "runs": 2,
+   "longest_run": 14,
+   "reciprocity": 8
+  },
+  {
+   "pair": "Lysias ↔ Socrates, on writing",
+   "a": "Lysias",
+   "b": "Socrates, on writing",
+   "replies": 14,
+   "a_to_b": 5,
+   "b_to_a": 9,
+   "mentions": 42,
+   "runs": 3,
+   "longest_run": 3,
+   "reciprocity": 5
+  },
+  {
+   "pair": "Philos ↔ The Creature",
+   "a": "Philos",
+   "b": "The Creature",
+   "replies": 13,
+   "a_to_b": 6,
+   "b_to_a": 7,
+   "mentions": 12,
+   "runs": 1,
+   "longest_run": 14,
+   "reciprocity": 6
+  },
+  {
+   "pair": "Philos ↔ Victor Von Doom",
+   "a": "Philos",
+   "b": "Victor Von Doom",
+   "replies": 12,
+   "a_to_b": 7,
+   "b_to_a": 5,
+   "mentions": 18,
+   "runs": 1,
+   "longest_run": 12,
+   "reciprocity": 5
+  },
+  {
+   "pair": "Creature ↔ Socrates, on writing",
+   "a": "Creature",
+   "b": "Socrates, on writing",
+   "replies": 11,
+   "a_to_b": 5,
+   "b_to_a": 6,
+   "mentions": 15,
+   "runs": 1,
+   "longest_run": 6,
+   "reciprocity": 5
+  },
+  {
+   "pair": "Kimia ↔ Socrates, on writing",
+   "a": "Kimia",
+   "b": "Socrates, on writing",
+   "replies": 10,
+   "a_to_b": 3,
+   "b_to_a": 7,
+   "mentions": 42,
+   "runs": 2,
+   "longest_run": 3,
+   "reciprocity": 3
+  },
+  {
+   "pair": "The Creature ↔ skrunkle",
+   "a": "The Creature",
+   "b": "skrunkle",
+   "replies": 10,
+   "a_to_b": 7,
+   "b_to_a": 3,
+   "mentions": 19,
+   "runs": 1,
+   "longest_run": 8,
+   "reciprocity": 3
+  },
+  {
+   "pair": "Kimia ↔ Steve",
+   "a": "Kimia",
+   "b": "Steve",
+   "replies": 9,
+   "a_to_b": 5,
+   "b_to_a": 4,
+   "mentions": 38,
+   "runs": 2,
+   "longest_run": 6,
+   "reciprocity": 4
+  },
+  {
+   "pair": "Kimia ↔ Psychoanalyst",
+   "a": "Kimia",
+   "b": "Psychoanalyst",
+   "replies": 9,
+   "a_to_b": 5,
+   "b_to_a": 4,
+   "mentions": 11,
+   "runs": 1,
+   "longest_run": 10,
+   "reciprocity": 4
+  },
+  {
+   "pair": "Curious Robot ↔ poet",
+   "a": "Curious Robot",
+   "b": "poet",
+   "replies": 9,
+   "a_to_b": 4,
+   "b_to_a": 5,
+   "mentions": 11,
+   "runs": 1,
+   "longest_run": 10,
+   "reciprocity": 4
+  },
+  {
+   "pair": "Philos ↔ Socrates, on writing",
+   "a": "Philos",
+   "b": "Socrates, on writing",
+   "replies": 8,
+   "a_to_b": 0,
+   "b_to_a": 8,
+   "mentions": 27,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Creature ↔ Victor Von Doom",
+   "a": "Creature",
+   "b": "Victor Von Doom",
+   "replies": 8,
+   "a_to_b": 4,
+   "b_to_a": 4,
+   "mentions": 12,
+   "runs": 2,
+   "longest_run": 7,
+   "reciprocity": 4
+  },
+  {
+   "pair": "Kimia ↔ Lysias",
+   "a": "Kimia",
+   "b": "Lysias",
+   "replies": 8,
+   "a_to_b": 4,
+   "b_to_a": 4,
+   "mentions": 12,
+   "runs": 1,
+   "longest_run": 9,
+   "reciprocity": 4
+  },
+  {
+   "pair": "A Confucian mentor ↔ The Creature",
+   "a": "A Confucian mentor",
+   "b": "The Creature",
+   "replies": 8,
+   "a_to_b": 4,
+   "b_to_a": 4,
+   "mentions": 6,
+   "runs": 1,
+   "longest_run": 7,
+   "reciprocity": 4
+  },
+  {
+   "pair": "Curious Robot ↔ The Creature",
+   "a": "Curious Robot",
+   "b": "The Creature",
+   "replies": 7,
+   "a_to_b": 2,
+   "b_to_a": 5,
+   "mentions": 13,
+   "runs": 1,
+   "longest_run": 5,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Confucius sonnet ↔ Creature",
+   "a": "Confucius sonnet",
+   "b": "Creature",
+   "replies": 7,
+   "a_to_b": 3,
+   "b_to_a": 4,
+   "mentions": 5,
+   "runs": 1,
+   "longest_run": 8,
+   "reciprocity": 3
+  },
+  {
+   "pair": "Course Readings Bot ↔ The Creature",
+   "a": "Course Readings Bot",
+   "b": "The Creature",
+   "replies": 7,
+   "a_to_b": 6,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Course Readings Bot ↔ Socrates, on writing",
+   "a": "Course Readings Bot",
+   "b": "Socrates, on writing",
+   "replies": 7,
+   "a_to_b": 3,
+   "b_to_a": 4,
+   "mentions": 3,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 3
+  },
+  {
+   "pair": "Creature ↔ greedy",
+   "a": "Creature",
+   "b": "greedy",
+   "replies": 7,
+   "a_to_b": 3,
+   "b_to_a": 4,
+   "mentions": 4,
+   "runs": 1,
+   "longest_run": 6,
+   "reciprocity": 3
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ Kimia",
+   "a": "Frankenstein Therapist",
+   "b": "Kimia",
+   "replies": 6,
+   "a_to_b": 2,
+   "b_to_a": 4,
+   "mentions": 16,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Creature ↔ Frankenstein Therapist",
+   "a": "Creature",
+   "b": "Frankenstein Therapist",
+   "replies": 6,
+   "a_to_b": 3,
+   "b_to_a": 3,
+   "mentions": 14,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 3
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ Victor Von Doom",
+   "a": "Frankenstein Therapist",
+   "b": "Victor Von Doom",
+   "replies": 6,
+   "a_to_b": 3,
+   "b_to_a": 3,
+   "mentions": 10,
+   "runs": 1,
+   "longest_run": 7,
+   "reciprocity": 3
+  },
+  {
+   "pair": "Philos ↔ poet",
+   "a": "Philos",
+   "b": "poet",
+   "replies": 6,
+   "a_to_b": 3,
+   "b_to_a": 3,
+   "mentions": 7,
+   "runs": 1,
+   "longest_run": 7,
+   "reciprocity": 3
+  },
+  {
+   "pair": "The Creature ↔ Victor Von Doom",
+   "a": "The Creature",
+   "b": "Victor Von Doom",
+   "replies": 5,
+   "a_to_b": 3,
+   "b_to_a": 2,
+   "mentions": 18,
+   "runs": 1,
+   "longest_run": 5,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Socrates, on writing ↔ Victor Von Doom",
+   "a": "Socrates, on writing",
+   "b": "Victor Von Doom",
+   "replies": 5,
+   "a_to_b": 3,
+   "b_to_a": 2,
+   "mentions": 18,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Lysias ↔ greedy",
+   "a": "Lysias",
+   "b": "greedy",
+   "replies": 5,
+   "a_to_b": 3,
+   "b_to_a": 2,
+   "mentions": 6,
+   "runs": 1,
+   "longest_run": 6,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Confucius sonnet ↔ skrunkle",
+   "a": "Confucius sonnet",
+   "b": "skrunkle",
+   "replies": 4,
+   "a_to_b": 1,
+   "b_to_a": 3,
+   "mentions": 12,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Steve ↔ The Creature",
+   "a": "Steve",
+   "b": "The Creature",
+   "replies": 4,
+   "a_to_b": 2,
+   "b_to_a": 2,
+   "mentions": 7,
+   "runs": 1,
+   "longest_run": 5,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Famous AI Papers Bot ↔ Socrates, on writing",
+   "a": "Famous AI Papers Bot",
+   "b": "Socrates, on writing",
+   "replies": 4,
+   "a_to_b": 2,
+   "b_to_a": 2,
+   "mentions": 4,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Confucian Mentor ↔ Socrates, on writing",
+   "a": "Confucian Mentor",
+   "b": "Socrates, on writing",
+   "replies": 4,
+   "a_to_b": 4,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Psychoanalyst",
+   "a": "A Confucian mentor",
+   "b": "Psychoanalyst",
+   "replies": 4,
+   "a_to_b": 2,
+   "b_to_a": 2,
+   "mentions": 4,
+   "runs": 1,
+   "longest_run": 5,
+   "reciprocity": 2
+  },
+  {
+   "pair": "A Confucian mentor ↔ Socrates, on writing",
+   "a": "A Confucian mentor",
+   "b": "Socrates, on writing",
+   "replies": 4,
+   "a_to_b": 2,
+   "b_to_a": 2,
+   "mentions": 2,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Confucian Mentor ↔ Curious Robot",
+   "a": "Confucian Mentor",
+   "b": "Curious Robot",
+   "replies": 4,
+   "a_to_b": 2,
+   "b_to_a": 2,
+   "mentions": 1,
+   "runs": 1,
+   "longest_run": 5,
+   "reciprocity": 2
+  },
+  {
+   "pair": "Kimia ↔ The Creature",
+   "a": "Kimia",
+   "b": "The Creature",
+   "replies": 3,
+   "a_to_b": 1,
+   "b_to_a": 2,
+   "mentions": 26,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Confucius sonnet ↔ The Creature",
+   "a": "Confucius sonnet",
+   "b": "The Creature",
+   "replies": 3,
+   "a_to_b": 2,
+   "b_to_a": 1,
+   "mentions": 11,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Creature ↔ skrunkle",
+   "a": "Creature",
+   "b": "skrunkle",
+   "replies": 3,
+   "a_to_b": 1,
+   "b_to_a": 2,
+   "mentions": 9,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Confucius sonnet ↔ Curious Robot",
+   "a": "Confucius sonnet",
+   "b": "Curious Robot",
+   "replies": 3,
+   "a_to_b": 1,
+   "b_to_a": 2,
+   "mentions": 12,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Socrates, on writing ↔ greedy",
+   "a": "Socrates, on writing",
+   "b": "greedy",
+   "replies": 3,
+   "a_to_b": 1,
+   "b_to_a": 2,
+   "mentions": 9,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Nate ↔ Socrates, on writing",
+   "a": "Nate",
+   "b": "Socrates, on writing",
+   "replies": 3,
+   "a_to_b": 2,
+   "b_to_a": 1,
+   "mentions": 6,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Philos ↔ Steve",
+   "a": "Philos",
+   "b": "Steve",
+   "replies": 3,
+   "a_to_b": 2,
+   "b_to_a": 1,
+   "mentions": 5,
+   "runs": 1,
+   "longest_run": 4,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Creature ↔ Kimia",
+   "a": "Creature",
+   "b": "Kimia",
+   "replies": 3,
+   "a_to_b": 2,
+   "b_to_a": 1,
+   "mentions": 4,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Curious Robot ↔ greedy",
+   "a": "Curious Robot",
+   "b": "greedy",
+   "replies": 3,
+   "a_to_b": 2,
+   "b_to_a": 1,
+   "mentions": 3,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ greedy",
+   "a": "Frankenstein Therapist",
+   "b": "greedy",
+   "replies": 3,
+   "a_to_b": 2,
+   "b_to_a": 1,
+   "mentions": 2,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "The Lovely Monster ↔ Victor Von Doom",
+   "a": "The Lovely Monster",
+   "b": "Victor Von Doom",
+   "replies": 3,
+   "a_to_b": 1,
+   "b_to_a": 2,
+   "mentions": 4,
+   "runs": 1,
+   "longest_run": 4,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Socrates, on writing ↔ poet",
+   "a": "Socrates, on writing",
+   "b": "poet",
+   "replies": 2,
+   "a_to_b": 2,
+   "b_to_a": 0,
+   "mentions": 13,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ Steve",
+   "a": "Frankenstein Therapist",
+   "b": "Steve",
+   "replies": 2,
+   "a_to_b": 1,
+   "b_to_a": 1,
+   "mentions": 13,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ Socrates, on writing",
+   "a": "Frankenstein Therapist",
+   "b": "Socrates, on writing",
+   "replies": 2,
+   "a_to_b": 1,
+   "b_to_a": 1,
+   "mentions": 11,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Psychoanalyst ↔ skrunkle",
+   "a": "Psychoanalyst",
+   "b": "skrunkle",
+   "replies": 2,
+   "a_to_b": 0,
+   "b_to_a": 2,
+   "mentions": 4,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Corbu ↔ Socrates, on writing",
+   "a": "Corbu",
+   "b": "Socrates, on writing",
+   "replies": 2,
+   "a_to_b": 0,
+   "b_to_a": 2,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ greedy",
+   "a": "Confucius sonnet",
+   "b": "greedy",
+   "replies": 2,
+   "a_to_b": 2,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ Steve",
+   "a": "Confucius sonnet",
+   "b": "Steve",
+   "replies": 2,
+   "a_to_b": 1,
+   "b_to_a": 1,
+   "mentions": 2,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Famous AI Papers Bot ↔ The Creature",
+   "a": "Famous AI Papers Bot",
+   "b": "The Creature",
+   "replies": 2,
+   "a_to_b": 1,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Relationship Counsellor ↔ The Creature",
+   "a": "Relationship Counsellor",
+   "b": "The Creature",
+   "replies": 2,
+   "a_to_b": 2,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Corbu ↔ Relationship Counsellor",
+   "a": "Corbu",
+   "b": "Relationship Counsellor",
+   "replies": 2,
+   "a_to_b": 2,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Relationship Counsellor ↔ Socrates, on writing",
+   "a": "Relationship Counsellor",
+   "b": "Socrates, on writing",
+   "replies": 2,
+   "a_to_b": 1,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Course Readings Bot ↔ Famous AI Papers Bot",
+   "a": "Course Readings Bot",
+   "b": "Famous AI Papers Bot",
+   "replies": 2,
+   "a_to_b": 1,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 1
+  },
+  {
+   "pair": "A Confucian mentor ↔ Confucius sonnet",
+   "a": "A Confucian mentor",
+   "b": "Confucius sonnet",
+   "replies": 2,
+   "a_to_b": 2,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Psychoanalyst ↔ greedy",
+   "a": "Psychoanalyst",
+   "b": "greedy",
+   "replies": 2,
+   "a_to_b": 1,
+   "b_to_a": 1,
+   "mentions": 2,
+   "runs": 1,
+   "longest_run": 3,
+   "reciprocity": 1
+  },
+  {
+   "pair": "Creature ↔ Philos",
+   "a": "Creature",
+   "b": "Philos",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 6,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Kimia ↔ poet",
+   "a": "Kimia",
+   "b": "poet",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 7,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Nate ↔ poet",
+   "a": "Nate",
+   "b": "poet",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 4,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Lysias ↔ Steve",
+   "a": "Lysias",
+   "b": "Steve",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 8,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Lysias",
+   "a": "A Confucian mentor",
+   "b": "Lysias",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 4,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ poet",
+   "a": "Confucius sonnet",
+   "b": "poet",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 6,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Lysias ↔ Victor Von Doom",
+   "a": "Lysias",
+   "b": "Victor Von Doom",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 4,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Lysias ↔ Philos",
+   "a": "Lysias",
+   "b": "Philos",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 4,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Corbu ↔ Kimia",
+   "a": "Corbu",
+   "b": "Kimia",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Nate ↔ Steve",
+   "a": "Nate",
+   "b": "Steve",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Dudu ↔ Steve",
+   "a": "Dudu",
+   "b": "Steve",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ The Lovely Monster",
+   "a": "Frankenstein Therapist",
+   "b": "The Lovely Monster",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ Nate",
+   "a": "Confucius sonnet",
+   "b": "Nate",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucian Mentor ↔ Confucius sonnet",
+   "a": "Confucian Mentor",
+   "b": "Confucius sonnet",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Curious Robot ↔ Steve",
+   "a": "Curious Robot",
+   "b": "Steve",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Kimia ↔ greedy",
+   "a": "Kimia",
+   "b": "greedy",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Convener ↔ Famous AI Papers Bot",
+   "a": "Convener",
+   "b": "Famous AI Papers Bot",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Convener ↔ Socrates, on writing",
+   "a": "Convener",
+   "b": "Socrates, on writing",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Nate ↔ Relationship Counsellor",
+   "a": "Nate",
+   "b": "Relationship Counsellor",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Convener ↔ Relationship Counsellor",
+   "a": "Convener",
+   "b": "Relationship Counsellor",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Corbu ↔ Course Readings Bot",
+   "a": "Corbu",
+   "b": "Course Readings Bot",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Creature ↔ Relationship Counsellor",
+   "a": "Creature",
+   "b": "Relationship Counsellor",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Famous AI Papers Bot ↔ Instructor",
+   "a": "Famous AI Papers Bot",
+   "b": "Instructor",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Course Readings Bot ↔ Relationship Counsellor",
+   "a": "Course Readings Bot",
+   "b": "Relationship Counsellor",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ Course Readings Bot",
+   "a": "Confucius sonnet",
+   "b": "Course Readings Bot",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Course Readings Bot ↔ Victor Von Doom",
+   "a": "Course Readings Bot",
+   "b": "Victor Von Doom",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Famous AI Papers Bot ↔ poet",
+   "a": "Famous AI Papers Bot",
+   "b": "poet",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Famous AI Papers Bot ↔ Nate",
+   "a": "Famous AI Papers Bot",
+   "b": "Nate",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Corbu",
+   "a": "A Confucian mentor",
+   "b": "Corbu",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "poet ↔ skrunkle",
+   "a": "poet",
+   "b": "skrunkle",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Corbu ↔ greedy",
+   "a": "Corbu",
+   "b": "greedy",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Philos ↔ greedy",
+   "a": "Philos",
+   "b": "greedy",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Dudu",
+   "a": "A Confucian mentor",
+   "b": "Dudu",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Steve",
+   "a": "A Confucian mentor",
+   "b": "Steve",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Curious Robot ↔ Victor Von Doom",
+   "a": "Curious Robot",
+   "b": "Victor Von Doom",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ poet",
+   "a": "A Confucian mentor",
+   "b": "poet",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Kimia ↔ Victor Von Doom",
+   "a": "Kimia",
+   "b": "Victor Von Doom",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Frankenstein Therapist",
+   "a": "A Confucian mentor",
+   "b": "Frankenstein Therapist",
+   "replies": 1,
+   "a_to_b": 0,
+   "b_to_a": 1,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ greedy",
+   "a": "A Confucian mentor",
+   "b": "greedy",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucian Mentor ↔ The Lovely Monster",
+   "a": "Confucian Mentor",
+   "b": "The Lovely Monster",
+   "replies": 1,
+   "a_to_b": 1,
+   "b_to_a": 0,
+   "mentions": 0,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Psychoanalyst ↔ Steve",
+   "a": "Psychoanalyst",
+   "b": "Steve",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 12,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Victor Von Doom ↔ skrunkle",
+   "a": "Victor Von Doom",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 7,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "The Creature ↔ greedy",
+   "a": "The Creature",
+   "b": "greedy",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 6,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Victor Von Doom ↔ poet",
+   "a": "Victor Von Doom",
+   "b": "poet",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 6,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Lysias ↔ Psychoanalyst",
+   "a": "Lysias",
+   "b": "Psychoanalyst",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 3,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Creature ↔ Nate",
+   "a": "Creature",
+   "b": "Nate",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 3,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Creature ↔ poet",
+   "a": "Creature",
+   "b": "poet",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 3,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Creature ↔ Steve",
+   "a": "Creature",
+   "b": "Steve",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 3,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Lysias ↔ The Creature",
+   "a": "Lysias",
+   "b": "The Creature",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 3,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ Victor Von Doom",
+   "a": "Confucius sonnet",
+   "b": "Victor Von Doom",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 3,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "greedy ↔ skrunkle",
+   "a": "greedy",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucian Mentor ↔ The Creature",
+   "a": "Confucian Mentor",
+   "b": "The Creature",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucian Mentor ↔ poet",
+   "a": "Confucian Mentor",
+   "b": "poet",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 3,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ Philos",
+   "a": "Confucius sonnet",
+   "b": "Philos",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Corbu ↔ The Creature",
+   "a": "Corbu",
+   "b": "The Creature",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Famous AI Papers Bot ↔ Relationship Counsellor",
+   "a": "Famous AI Papers Bot",
+   "b": "Relationship Counsellor",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Curious Robot ↔ Lysias",
+   "a": "Curious Robot",
+   "b": "Lysias",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Relationship Counsellor ↔ Victor Von Doom",
+   "a": "Relationship Counsellor",
+   "b": "Victor Von Doom",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Corbu ↔ skrunkle",
+   "a": "Corbu",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Frankenstein Therapist ↔ skrunkle",
+   "a": "Frankenstein Therapist",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Psychoanalyst ↔ Victor Von Doom",
+   "a": "Psychoanalyst",
+   "b": "Victor Von Doom",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Creature ↔ The Lovely Monster",
+   "a": "Creature",
+   "b": "The Lovely Monster",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ Lysias",
+   "a": "Confucius sonnet",
+   "b": "Lysias",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Lysias ↔ poet",
+   "a": "Lysias",
+   "b": "poet",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Curious Robot",
+   "a": "A Confucian mentor",
+   "b": "Curious Robot",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Philos ↔ skrunkle",
+   "a": "Philos",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucius sonnet ↔ Kimia",
+   "a": "Confucius sonnet",
+   "b": "Kimia",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Lysias ↔ skrunkle",
+   "a": "Lysias",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Nate ↔ skrunkle",
+   "a": "Nate",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Steve ↔ skrunkle",
+   "a": "Steve",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Curious Robot ↔ Nate",
+   "a": "Curious Robot",
+   "b": "Nate",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Steve ↔ poet",
+   "a": "Steve",
+   "b": "poet",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Creature ↔ Psychoanalyst",
+   "a": "Creature",
+   "b": "Psychoanalyst",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Psychoanalyst ↔ The Creature",
+   "a": "Psychoanalyst",
+   "b": "The Creature",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucian Mentor ↔ Psychoanalyst",
+   "a": "Confucian Mentor",
+   "b": "Psychoanalyst",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Psychoanalyst ↔ The Lovely Monster",
+   "a": "Psychoanalyst",
+   "b": "The Lovely Monster",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Philos ↔ Psychoanalyst",
+   "a": "Philos",
+   "b": "Psychoanalyst",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Confucian Mentor ↔ Philos",
+   "a": "Confucian Mentor",
+   "b": "Philos",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 2,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "A Confucian mentor ↔ Creature",
+   "a": "A Confucian mentor",
+   "b": "Creature",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Kimia ↔ skrunkle",
+   "a": "Kimia",
+   "b": "skrunkle",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  },
+  {
+   "pair": "Curious Robot ↔ Psychoanalyst",
+   "a": "Curious Robot",
+   "b": "Psychoanalyst",
+   "replies": 0,
+   "a_to_b": 0,
+   "b_to_a": 0,
+   "mentions": 1,
+   "runs": 0,
+   "longest_run": 0,
+   "reciprocity": 0
+  }
+ ],
+ "runs": [
+  {
+   "parent_n": 1,
+   "pair": [
+    "Course Readings Bot",
+    "Socrates, on writing"
+   ],
+   "from_n": 20,
+   "to_n": 22,
+   "length": 3
+  },
+  {
+   "parent_n": 1,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 23,
+   "to_n": 25,
+   "length": 3
+  },
+  {
+   "parent_n": 31,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 41,
+   "to_n": 43,
+   "length": 3
+  },
+  {
+   "parent_n": 31,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 46,
+   "to_n": 48,
+   "length": 3
+  },
+  {
+   "parent_n": 92,
+   "pair": [
+    "Curious Robot",
+    "Socrates, on writing"
+   ],
+   "from_n": 92,
+   "to_n": 100,
+   "length": 3
+  },
+  {
+   "parent_n": 92,
+   "pair": [
+    "Curious Robot",
+    "The Creature"
+   ],
+   "from_n": 100,
+   "to_n": 146,
+   "length": 5
+  },
+  {
+   "parent_n": 96,
+   "pair": [
+    "Lysias",
+    "Socrates, on writing"
+   ],
+   "from_n": 101,
+   "to_n": 120,
+   "length": 3
+  },
+  {
+   "parent_n": 97,
+   "pair": [
+    "Frankenstein Therapist",
+    "The Creature"
+   ],
+   "from_n": 97,
+   "to_n": 143,
+   "length": 5
+  },
+  {
+   "parent_n": 98,
+   "pair": [
+    "Confucian Mentor",
+    "Lysias"
+   ],
+   "from_n": 105,
+   "to_n": 682,
+   "length": 23
+  },
+  {
+   "parent_n": 99,
+   "pair": [
+    "Confucius sonnet",
+    "Socrates, on writing"
+   ],
+   "from_n": 99,
+   "to_n": 115,
+   "length": 3
+  },
+  {
+   "parent_n": 108,
+   "pair": [
+    "The Creature",
+    "poet"
+   ],
+   "from_n": 161,
+   "to_n": 756,
+   "length": 19
+  },
+  {
+   "parent_n": 108,
+   "pair": [
+    "Kimia",
+    "Nate"
+   ],
+   "from_n": 776,
+   "to_n": 804,
+   "length": 4
+  },
+  {
+   "parent_n": 108,
+   "pair": [
+    "Nate",
+    "The Creature"
+   ],
+   "from_n": 811,
+   "to_n": 836,
+   "length": 3
+  },
+  {
+   "parent_n": 108,
+   "pair": [
+    "Kimia",
+    "Nate"
+   ],
+   "from_n": 841,
+   "to_n": 863,
+   "length": 14
+  },
+  {
+   "parent_n": 122,
+   "pair": [
+    "Kimia",
+    "Socrates, on writing"
+   ],
+   "from_n": 134,
+   "to_n": 163,
+   "length": 3
+  },
+  {
+   "parent_n": 122,
+   "pair": [
+    "Socrates, on writing",
+    "Steve"
+   ],
+   "from_n": 163,
+   "to_n": 213,
+   "length": 3
+  },
+  {
+   "parent_n": 122,
+   "pair": [
+    "Kimia",
+    "Socrates, on writing"
+   ],
+   "from_n": 213,
+   "to_n": 282,
+   "length": 3
+  },
+  {
+   "parent_n": 122,
+   "pair": [
+    "Socrates, on writing",
+    "Steve"
+   ],
+   "from_n": 282,
+   "to_n": 379,
+   "length": 3
+  },
+  {
+   "parent_n": 122,
+   "pair": [
+    "Kimia",
+    "Steve"
+   ],
+   "from_n": 451,
+   "to_n": 666,
+   "length": 6
+  },
+  {
+   "parent_n": 123,
+   "pair": [
+    "The Creature",
+    "The Lovely Monster"
+   ],
+   "from_n": 123,
+   "to_n": 713,
+   "length": 21
+  },
+  {
+   "parent_n": 127,
+   "pair": [
+    "Psychoanalyst",
+    "Socrates, on writing"
+   ],
+   "from_n": 127,
+   "to_n": 461,
+   "length": 15
+  },
+  {
+   "parent_n": 150,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 150,
+   "to_n": 179,
+   "length": 3
+  },
+  {
+   "parent_n": 169,
+   "pair": [
+    "Nate",
+    "The Creature"
+   ],
+   "from_n": 169,
+   "to_n": 710,
+   "length": 18
+  },
+  {
+   "parent_n": 189,
+   "pair": [
+    "Socrates, on writing",
+    "skrunkle"
+   ],
+   "from_n": 207,
+   "to_n": 249,
+   "length": 3
+  },
+  {
+   "parent_n": 189,
+   "pair": [
+    "Creature",
+    "Socrates, on writing"
+   ],
+   "from_n": 527,
+   "to_n": 752,
+   "length": 6
+  },
+  {
+   "parent_n": 205,
+   "pair": [
+    "Frankenstein Therapist",
+    "The Creature"
+   ],
+   "from_n": 205,
+   "to_n": 267,
+   "length": 4
+  },
+  {
+   "parent_n": 211,
+   "pair": [
+    "Lysias",
+    "Socrates, on writing"
+   ],
+   "from_n": 229,
+   "to_n": 279,
+   "length": 3
+  },
+  {
+   "parent_n": 218,
+   "pair": [
+    "Kimia",
+    "Steve"
+   ],
+   "from_n": 238,
+   "to_n": 289,
+   "length": 3
+  },
+  {
+   "parent_n": 218,
+   "pair": [
+    "Socrates, on writing",
+    "Steve"
+   ],
+   "from_n": 289,
+   "to_n": 502,
+   "length": 7
+  },
+  {
+   "parent_n": 218,
+   "pair": [
+    "Frankenstein Therapist",
+    "Kimia"
+   ],
+   "from_n": 695,
+   "to_n": 782,
+   "length": 3
+  },
+  {
+   "parent_n": 218,
+   "pair": [
+    "Frankenstein Therapist",
+    "Socrates, on writing"
+   ],
+   "from_n": 808,
+   "to_n": 834,
+   "length": 3
+  },
+  {
+   "parent_n": 231,
+   "pair": [
+    "Frankenstein Therapist",
+    "The Creature"
+   ],
+   "from_n": 253,
+   "to_n": 620,
+   "length": 11
+  },
+  {
+   "parent_n": 230,
+   "pair": [
+    "Philos",
+    "The Creature"
+   ],
+   "from_n": 254,
+   "to_n": 744,
+   "length": 14
+  },
+  {
+   "parent_n": 233,
+   "pair": [
+    "Confucius sonnet",
+    "Steve"
+   ],
+   "from_n": 255,
+   "to_n": 312,
+   "length": 3
+  },
+  {
+   "parent_n": 246,
+   "pair": [
+    "Confucius sonnet",
+    "Socrates, on writing"
+   ],
+   "from_n": 366,
+   "to_n": 650,
+   "length": 8
+  },
+  {
+   "parent_n": 246,
+   "pair": [
+    "Socrates, on writing",
+    "skrunkle"
+   ],
+   "from_n": 694,
+   "to_n": 771,
+   "length": 3
+  },
+  {
+   "parent_n": 246,
+   "pair": [
+    "Socrates, on writing",
+    "skrunkle"
+   ],
+   "from_n": 783,
+   "to_n": 803,
+   "length": 3
+  },
+  {
+   "parent_n": 250,
+   "pair": [
+    "Creature",
+    "Victor Von Doom"
+   ],
+   "from_n": 250,
+   "to_n": 303,
+   "length": 3
+  },
+  {
+   "parent_n": 250,
+   "pair": [
+    "Creature",
+    "Frankenstein Therapist"
+   ],
+   "from_n": 303,
+   "to_n": 367,
+   "length": 3
+  },
+  {
+   "parent_n": 250,
+   "pair": [
+    "Creature",
+    "Victor Von Doom"
+   ],
+   "from_n": 367,
+   "to_n": 672,
+   "length": 7
+  },
+  {
+   "parent_n": 277,
+   "pair": [
+    "Curious Robot",
+    "Socrates, on writing"
+   ],
+   "from_n": 277,
+   "to_n": 480,
+   "length": 7
+  },
+  {
+   "parent_n": 288,
+   "pair": [
+    "Philos",
+    "Victor Von Doom"
+   ],
+   "from_n": 288,
+   "to_n": 697,
+   "length": 12
+  },
+  {
+   "parent_n": 293,
+   "pair": [
+    "Confucian Mentor",
+    "Curious Robot"
+   ],
+   "from_n": 293,
+   "to_n": 424,
+   "length": 5
+  },
+  {
+   "parent_n": 298,
+   "pair": [
+    "Confucius sonnet",
+    "Socrates, on writing"
+   ],
+   "from_n": 404,
+   "to_n": 686,
+   "length": 8
+  },
+  {
+   "parent_n": 298,
+   "pair": [
+    "Curious Robot",
+    "greedy"
+   ],
+   "from_n": 769,
+   "to_n": 790,
+   "length": 3
+  },
+  {
+   "parent_n": 308,
+   "pair": [
+    "The Creature",
+    "skrunkle"
+   ],
+   "from_n": 308,
+   "to_n": 586,
+   "length": 8
+  },
+  {
+   "parent_n": 311,
+   "pair": [
+    "Kimia",
+    "Psychoanalyst"
+   ],
+   "from_n": 311,
+   "to_n": 665,
+   "length": 10
+  },
+  {
+   "parent_n": 311,
+   "pair": [
+    "Socrates, on writing",
+    "Steve"
+   ],
+   "from_n": 787,
+   "to_n": 813,
+   "length": 4
+  },
+  {
+   "parent_n": 321,
+   "pair": [
+    "Lysias",
+    "Socrates, on writing"
+   ],
+   "from_n": 353,
+   "to_n": 423,
+   "length": 3
+  },
+  {
+   "parent_n": 322,
+   "pair": [
+    "Curious Robot",
+    "poet"
+   ],
+   "from_n": 322,
+   "to_n": 671,
+   "length": 10
+  },
+  {
+   "parent_n": 325,
+   "pair": [
+    "Confucian Mentor",
+    "Lysias"
+   ],
+   "from_n": 358,
+   "to_n": 691,
+   "length": 10
+  },
+  {
+   "parent_n": 386,
+   "pair": [
+    "Kimia",
+    "Lysias"
+   ],
+   "from_n": 386,
+   "to_n": 705,
+   "length": 9
+  },
+  {
+   "parent_n": 395,
+   "pair": [
+    "Confucius sonnet",
+    "skrunkle"
+   ],
+   "from_n": 470,
+   "to_n": 558,
+   "length": 3
+  },
+  {
+   "parent_n": 396,
+   "pair": [
+    "Frankenstein Therapist",
+    "greedy"
+   ],
+   "from_n": 725,
+   "to_n": 789,
+   "length": 3
+  },
+  {
+   "parent_n": 403,
+   "pair": [
+    "Frankenstein Therapist",
+    "Victor Von Doom"
+   ],
+   "from_n": 403,
+   "to_n": 670,
+   "length": 7
+  },
+  {
+   "parent_n": 425,
+   "pair": [
+    "Confucius sonnet",
+    "The Creature"
+   ],
+   "from_n": 581,
+   "to_n": 738,
+   "length": 3
+  },
+  {
+   "parent_n": 427,
+   "pair": [
+    "Confucius sonnet",
+    "Creature"
+   ],
+   "from_n": 427,
+   "to_n": 708,
+   "length": 8
+  },
+  {
+   "parent_n": 434,
+   "pair": [
+    "The Creature",
+    "The Lovely Monster"
+   ],
+   "from_n": 434,
+   "to_n": 628,
+   "length": 5
+  },
+  {
+   "parent_n": 435,
+   "pair": [
+    "Confucius sonnet",
+    "Curious Robot"
+   ],
+   "from_n": 476,
+   "to_n": 560,
+   "length": 3
+  },
+  {
+   "parent_n": 444,
+   "pair": [
+    "The Lovely Monster",
+    "Victor Von Doom"
+   ],
+   "from_n": 444,
+   "to_n": 571,
+   "length": 4
+  },
+  {
+   "parent_n": 447,
+   "pair": [
+    "Steve",
+    "The Creature"
+   ],
+   "from_n": 447,
+   "to_n": 638,
+   "length": 5
+  },
+  {
+   "parent_n": 458,
+   "pair": [
+    "Philos",
+    "poet"
+   ],
+   "from_n": 458,
+   "to_n": 698,
+   "length": 7
+  },
+  {
+   "parent_n": 458,
+   "pair": [
+    "Confucius sonnet",
+    "Socrates, on writing"
+   ],
+   "from_n": 801,
+   "to_n": 817,
+   "length": 3
+  },
+  {
+   "parent_n": 469,
+   "pair": [
+    "A Confucian mentor",
+    "Socrates, on writing"
+   ],
+   "from_n": 469,
+   "to_n": 557,
+   "length": 3
+  },
+  {
+   "parent_n": 484,
+   "pair": [
+    "Creature",
+    "greedy"
+   ],
+   "from_n": 484,
+   "to_n": 704,
+   "length": 6
+  },
+  {
+   "parent_n": 486,
+   "pair": [
+    "Lysias",
+    "greedy"
+   ],
+   "from_n": 486,
+   "to_n": 709,
+   "length": 6
+  },
+  {
+   "parent_n": 504,
+   "pair": [
+    "A Confucian mentor",
+    "Psychoanalyst"
+   ],
+   "from_n": 504,
+   "to_n": 676,
+   "length": 5
+  },
+  {
+   "parent_n": 505,
+   "pair": [
+    "A Confucian mentor",
+    "The Creature"
+   ],
+   "from_n": 505,
+   "to_n": 720,
+   "length": 7
+  },
+  {
+   "parent_n": 522,
+   "pair": [
+    "Curious Robot",
+    "Socrates, on writing"
+   ],
+   "from_n": 522,
+   "to_n": 649,
+   "length": 4
+  },
+  {
+   "parent_n": 543,
+   "pair": [
+    "Philos",
+    "Steve"
+   ],
+   "from_n": 543,
+   "to_n": 675,
+   "length": 4
+  },
+  {
+   "parent_n": 553,
+   "pair": [
+    "Psychoanalyst",
+    "Socrates, on writing"
+   ],
+   "from_n": 553,
+   "to_n": 678,
+   "length": 4
+  },
+  {
+   "parent_n": 555,
+   "pair": [
+    "The Creature",
+    "Victor Von Doom"
+   ],
+   "from_n": 555,
+   "to_n": 755,
+   "length": 5
+  },
+  {
+   "parent_n": 573,
+   "pair": [
+    "Psychoanalyst",
+    "greedy"
+   ],
+   "from_n": 573,
+   "to_n": 674,
+   "length": 3
+  },
+  {
+   "parent_n": 810,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 810,
+   "to_n": 826,
+   "length": 3
+  },
+  {
+   "parent_n": 812,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 812,
+   "to_n": 830,
+   "length": 3
+  },
+  {
+   "parent_n": 866,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 866,
+   "to_n": 883,
+   "length": 14
+  },
+  {
+   "parent_n": 867,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 867,
+   "to_n": 873,
+   "length": 4
+  },
+  {
+   "parent_n": 888,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 888,
+   "to_n": 903,
+   "length": 14
+  },
+  {
+   "parent_n": 910,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 910,
+   "to_n": 923,
+   "length": 12
+  },
+  {
+   "parent_n": 931,
+   "pair": [
+    "Socrates, on writing",
+    "The Creature"
+   ],
+   "from_n": 931,
+   "to_n": 940,
+   "length": 9
+  }
+ ],
+ "mentions": [
+  {
+   "n": 2,
+   "from": "Famous AI Papers Bot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 2,
+   "from": "Famous AI Papers Bot",
+   "to": "The Creature"
+  },
+  {
+   "n": 2,
+   "from": "Famous AI Papers Bot",
+   "to": "Course Readings Bot"
+  },
+  {
+   "n": 9,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 9,
+   "from": "Socrates, on writing",
+   "to": "Course Readings Bot"
+  },
+  {
+   "n": 10,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 11,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 15,
+   "from": "Socrates, on writing",
+   "to": "Nate"
+  },
+  {
+   "n": 17,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 18,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 21,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 21,
+   "from": "Socrates, on writing",
+   "to": "Course Readings Bot"
+  },
+  {
+   "n": 22,
+   "from": "Course Readings Bot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 23,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 24,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 25,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 27,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 28,
+   "from": "Famous AI Papers Bot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 29,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 30,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 34,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 35,
+   "from": "Course Readings Bot",
+   "to": "The Creature"
+  },
+  {
+   "n": 37,
+   "from": "Socrates, on writing",
+   "to": "Corbu"
+  },
+  {
+   "n": 38,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 38,
+   "from": "The Creature",
+   "to": "Corbu"
+  },
+  {
+   "n": 41,
+   "from": "Socrates, on writing",
+   "to": "Corbu"
+  },
+  {
+   "n": 42,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 43,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 44,
+   "from": "Relationship Counsellor",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 46,
+   "from": "Socrates, on writing",
+   "to": "Creature"
+  },
+  {
+   "n": 47,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 48,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 54,
+   "from": "Famous AI Papers Bot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 62,
+   "from": "Relationship Counsellor",
+   "to": "Course Readings Bot"
+  },
+  {
+   "n": 62,
+   "from": "Relationship Counsellor",
+   "to": "Famous AI Papers Bot"
+  },
+  {
+   "n": 63,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 65,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 71,
+   "from": "Famous AI Papers Bot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 75,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 76,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 79,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 79,
+   "from": "Curious Robot",
+   "to": "Lysias"
+  },
+  {
+   "n": 83,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 86,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 86,
+   "from": "Steve",
+   "to": "The Creature"
+  },
+  {
+   "n": 86,
+   "from": "Steve",
+   "to": "Lysias"
+  },
+  {
+   "n": 87,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 87,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 88,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 89,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 92,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 94,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 94,
+   "from": "Confucius sonnet",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 95,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 96,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 97,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 99,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 100,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 101,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 104,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 106,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 107,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 107,
+   "from": "The Creature",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 108,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 109,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 110,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 112,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 112,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 112,
+   "from": "skrunkle",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 112,
+   "from": "skrunkle",
+   "to": "poet"
+  },
+  {
+   "n": 114,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 116,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 116,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 117,
+   "from": "Curious Robot",
+   "to": "The Creature"
+  },
+  {
+   "n": 120,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 121,
+   "from": "Relationship Counsellor",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 122,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 122,
+   "from": "Steve",
+   "to": "The Creature"
+  },
+  {
+   "n": 122,
+   "from": "Steve",
+   "to": "Lysias"
+  },
+  {
+   "n": 123,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 124,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 124,
+   "from": "poet",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 126,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 127,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 128,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 129,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 130,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 130,
+   "from": "The Creature",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 133,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 134,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 135,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 135,
+   "from": "Psychoanalyst",
+   "to": "Lysias"
+  },
+  {
+   "n": 137,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 138,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 139,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 139,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 139,
+   "from": "Victor Von Doom",
+   "to": "skrunkle"
+  },
+  {
+   "n": 140,
+   "from": "Kimia",
+   "to": "Corbu"
+  },
+  {
+   "n": 140,
+   "from": "Kimia",
+   "to": "greedy"
+  },
+  {
+   "n": 141,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 144,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 145,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 145,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 146,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 146,
+   "from": "Curious Robot",
+   "to": "The Creature"
+  },
+  {
+   "n": 147,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 147,
+   "from": "Kimia",
+   "to": "poet"
+  },
+  {
+   "n": 149,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 149,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 150,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 150,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 151,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 151,
+   "from": "Kimia",
+   "to": "Lysias"
+  },
+  {
+   "n": 151,
+   "from": "Kimia",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 152,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 153,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 154,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 155,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 157,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 158,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 160,
+   "from": "Socrates, on writing",
+   "to": "Creature"
+  },
+  {
+   "n": 160,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 161,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 161,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 161,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 163,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 163,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 164,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 166,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 167,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 168,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 169,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 170,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 171,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 171,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 171,
+   "from": "skrunkle",
+   "to": "Corbu"
+  },
+  {
+   "n": 171,
+   "from": "skrunkle",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 172,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 173,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 174,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 174,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 175,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 175,
+   "from": "poet",
+   "to": "Kimia"
+  },
+  {
+   "n": 178,
+   "from": "Nate",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 179,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 182,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 184,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 186,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 187,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 187,
+   "from": "poet",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 188,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 189,
+   "from": "greedy",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 189,
+   "from": "greedy",
+   "to": "The Creature"
+  },
+  {
+   "n": 189,
+   "from": "greedy",
+   "to": "skrunkle"
+  },
+  {
+   "n": 190,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 190,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 190,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 194,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 194,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 194,
+   "from": "Victor Von Doom",
+   "to": "Lysias"
+  },
+  {
+   "n": 194,
+   "from": "Victor Von Doom",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 194,
+   "from": "Victor Von Doom",
+   "to": "poet"
+  },
+  {
+   "n": 195,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 195,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 196,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 198,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 199,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 199,
+   "from": "Steve",
+   "to": "Lysias"
+  },
+  {
+   "n": 199,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 199,
+   "from": "Steve",
+   "to": "Nate"
+  },
+  {
+   "n": 200,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 201,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 203,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 205,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 206,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 207,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 207,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 207,
+   "from": "Socrates, on writing",
+   "to": "greedy"
+  },
+  {
+   "n": 208,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 208,
+   "from": "poet",
+   "to": "Kimia"
+  },
+  {
+   "n": 208,
+   "from": "poet",
+   "to": "Nate"
+  },
+  {
+   "n": 211,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 212,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 213,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 214,
+   "from": "Dudu",
+   "to": "Steve"
+  },
+  {
+   "n": 215,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 216,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 217,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 218,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 218,
+   "from": "Frankenstein Therapist",
+   "to": "Steve"
+  },
+  {
+   "n": 219,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 222,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 224,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 226,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 226,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 226,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 227,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 231,
+   "from": "Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 232,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 232,
+   "from": "Lysias",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 233,
+   "from": "A Confucian mentor",
+   "to": "Steve"
+  },
+  {
+   "n": 235,
+   "from": "The Lovely Monster",
+   "to": "Creature"
+  },
+  {
+   "n": 236,
+   "from": "Nate",
+   "to": "Creature"
+  },
+  {
+   "n": 238,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 238,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 238,
+   "from": "Steve",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 239,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 239,
+   "from": "Lysias",
+   "to": "Kimia"
+  },
+  {
+   "n": 239,
+   "from": "Lysias",
+   "to": "Steve"
+  },
+  {
+   "n": 240,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 241,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 241,
+   "from": "Philos",
+   "to": "Creature"
+  },
+  {
+   "n": 241,
+   "from": "Philos",
+   "to": "Lysias"
+  },
+  {
+   "n": 243,
+   "from": "Frankenstein Therapist",
+   "to": "Creature"
+  },
+  {
+   "n": 244,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 245,
+   "from": "Lysias",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 246,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 246,
+   "from": "skrunkle",
+   "to": "Creature"
+  },
+  {
+   "n": 247,
+   "from": "poet",
+   "to": "Creature"
+  },
+  {
+   "n": 249,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 252,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 253,
+   "from": "Frankenstein Therapist",
+   "to": "Creature"
+  },
+  {
+   "n": 254,
+   "from": "Philos",
+   "to": "Creature"
+  },
+  {
+   "n": 256,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 256,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 257,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 257,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 257,
+   "from": "Philos",
+   "to": "Lysias"
+  },
+  {
+   "n": 258,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 259,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 261,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 262,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 262,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 263,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 264,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 265,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 265,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 267,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 269,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 270,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 271,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 272,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 273,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 273,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 274,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 275,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 275,
+   "from": "Victor Von Doom",
+   "to": "skrunkle"
+  },
+  {
+   "n": 276,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 277,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 279,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 280,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 281,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 282,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 283,
+   "from": "Confucius sonnet",
+   "to": "Steve"
+  },
+  {
+   "n": 284,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 284,
+   "from": "Lysias",
+   "to": "Philos"
+  },
+  {
+   "n": 285,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 286,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 287,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 287,
+   "from": "Lysias",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 288,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 289,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 289,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 289,
+   "from": "Steve",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 291,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 294,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 295,
+   "from": "Confucius sonnet",
+   "to": "Lysias"
+  },
+  {
+   "n": 296,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 298,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 298,
+   "from": "Curious Robot",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 299,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 300,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 300,
+   "from": "Confucius sonnet",
+   "to": "skrunkle"
+  },
+  {
+   "n": 301,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 302,
+   "from": "Curious Robot",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 303,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 304,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 305,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 308,
+   "from": "skrunkle",
+   "to": "Creature"
+  },
+  {
+   "n": 309,
+   "from": "Frankenstein Therapist",
+   "to": "Creature"
+  },
+  {
+   "n": 310,
+   "from": "Philos",
+   "to": "Creature"
+  },
+  {
+   "n": 311,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 311,
+   "from": "Psychoanalyst",
+   "to": "Kimia"
+  },
+  {
+   "n": 311,
+   "from": "Psychoanalyst",
+   "to": "Steve"
+  },
+  {
+   "n": 313,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 313,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 314,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 315,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 316,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 316,
+   "from": "Victor Von Doom",
+   "to": "Lysias"
+  },
+  {
+   "n": 317,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 318,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 318,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 319,
+   "from": "Nate",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 320,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 321,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 321,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 322,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 322,
+   "from": "Curious Robot",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 322,
+   "from": "Curious Robot",
+   "to": "poet"
+  },
+  {
+   "n": 323,
+   "from": "Curious Robot",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 325,
+   "from": "A Confucian mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 326,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 328,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 328,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 328,
+   "from": "poet",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 328,
+   "from": "poet",
+   "to": "Lysias"
+  },
+  {
+   "n": 329,
+   "from": "poet",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 330,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 331,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 331,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 331,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 332,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 334,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 334,
+   "from": "Frankenstein Therapist",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 335,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 336,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 337,
+   "from": "skrunkle",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 338,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 338,
+   "from": "Frankenstein Therapist",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 339,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 340,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 342,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 343,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 344,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 344,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 345,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 345,
+   "from": "Kimia",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 345,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 346,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 347,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 348,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 348,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 349,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 350,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 350,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 350,
+   "from": "Steve",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 351,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 351,
+   "from": "Kimia",
+   "to": "Lysias"
+  },
+  {
+   "n": 352,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 353,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 357,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 357,
+   "from": "poet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 358,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 358,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 359,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 365,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 365,
+   "from": "poet",
+   "to": "Kimia"
+  },
+  {
+   "n": 365,
+   "from": "poet",
+   "to": "Nate"
+  },
+  {
+   "n": 366,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 366,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 367,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 367,
+   "from": "Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 368,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 369,
+   "from": "Kimia",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 370,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 370,
+   "from": "skrunkle",
+   "to": "Creature"
+  },
+  {
+   "n": 372,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 372,
+   "from": "Victor Von Doom",
+   "to": "skrunkle"
+  },
+  {
+   "n": 373,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 374,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 375,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 376,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 378,
+   "from": "Philos",
+   "to": "The Creature"
+  },
+  {
+   "n": 379,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 379,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 380,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 380,
+   "from": "Psychoanalyst",
+   "to": "Kimia"
+  },
+  {
+   "n": 380,
+   "from": "Psychoanalyst",
+   "to": "Steve"
+  },
+  {
+   "n": 381,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 382,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 383,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 384,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 385,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 385,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 386,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 386,
+   "from": "Lysias",
+   "to": "Kimia"
+  },
+  {
+   "n": 387,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 389,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 390,
+   "from": "Curious Robot",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 391,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 391,
+   "from": "Curious Robot",
+   "to": "poet"
+  },
+  {
+   "n": 393,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 394,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 395,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 396,
+   "from": "Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 397,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 400,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 400,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 400,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 401,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 401,
+   "from": "Confucius sonnet",
+   "to": "skrunkle"
+  },
+  {
+   "n": 402,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 403,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 403,
+   "from": "Frankenstein Therapist",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 404,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 404,
+   "from": "Confucius sonnet",
+   "to": "greedy"
+  },
+  {
+   "n": 404,
+   "from": "Confucius sonnet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 406,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 406,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 407,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 408,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 409,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 409,
+   "from": "Philos",
+   "to": "The Creature"
+  },
+  {
+   "n": 409,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 409,
+   "from": "Philos",
+   "to": "Lysias"
+  },
+  {
+   "n": 409,
+   "from": "Philos",
+   "to": "Steve"
+  },
+  {
+   "n": 409,
+   "from": "Philos",
+   "to": "skrunkle"
+  },
+  {
+   "n": 410,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 411,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 412,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 413,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 413,
+   "from": "Confucius sonnet",
+   "to": "Kimia"
+  },
+  {
+   "n": 413,
+   "from": "Confucius sonnet",
+   "to": "Steve"
+  },
+  {
+   "n": 414,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 414,
+   "from": "Kimia",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 414,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 416,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 417,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 418,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 419,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 419,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 420,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 420,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 420,
+   "from": "Steve",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 421,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 421,
+   "from": "Kimia",
+   "to": "Lysias"
+  },
+  {
+   "n": 422,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 423,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 425,
+   "from": "Curious Robot",
+   "to": "The Creature"
+  },
+  {
+   "n": 426,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 426,
+   "from": "poet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 427,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 428,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 429,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 435,
+   "from": "Nate",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 437,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 437,
+   "from": "poet",
+   "to": "Kimia"
+  },
+  {
+   "n": 437,
+   "from": "poet",
+   "to": "Nate"
+  },
+  {
+   "n": 438,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 438,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 439,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 440,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 440,
+   "from": "Victor Von Doom",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 441,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 441,
+   "from": "Socrates, on writing",
+   "to": "greedy"
+  },
+  {
+   "n": 441,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 442,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 442,
+   "from": "Victor Von Doom",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 443,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 444,
+   "from": "The Lovely Monster",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 445,
+   "from": "Nate",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 446,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 447,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 447,
+   "from": "Steve",
+   "to": "Creature"
+  },
+  {
+   "n": 447,
+   "from": "Steve",
+   "to": "Lysias"
+  },
+  {
+   "n": 448,
+   "from": "skrunkle",
+   "to": "Creature"
+  },
+  {
+   "n": 449,
+   "from": "Frankenstein Therapist",
+   "to": "Creature"
+  },
+  {
+   "n": 450,
+   "from": "Philos",
+   "to": "Creature"
+  },
+  {
+   "n": 451,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 451,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 453,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 453,
+   "from": "Psychoanalyst",
+   "to": "Kimia"
+  },
+  {
+   "n": 453,
+   "from": "Psychoanalyst",
+   "to": "Steve"
+  },
+  {
+   "n": 455,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 456,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 457,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 458,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 458,
+   "from": "poet",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 458,
+   "from": "poet",
+   "to": "Philos"
+  },
+  {
+   "n": 459,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 460,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 460,
+   "from": "Lysias",
+   "to": "Kimia"
+  },
+  {
+   "n": 461,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 462,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 465,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 465,
+   "from": "Curious Robot",
+   "to": "poet"
+  },
+  {
+   "n": 466,
+   "from": "Creature",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 467,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 468,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 470,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 475,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 476,
+   "from": "Confucius sonnet",
+   "to": "Nate"
+  },
+  {
+   "n": 478,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 478,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 478,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 479,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 479,
+   "from": "Confucius sonnet",
+   "to": "skrunkle"
+  },
+  {
+   "n": 481,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 482,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 482,
+   "from": "Confucius sonnet",
+   "to": "greedy"
+  },
+  {
+   "n": 482,
+   "from": "Confucius sonnet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 483,
+   "from": "Frankenstein Therapist",
+   "to": "Creature"
+  },
+  {
+   "n": 483,
+   "from": "Frankenstein Therapist",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 484,
+   "from": "greedy",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 484,
+   "from": "greedy",
+   "to": "Creature"
+  },
+  {
+   "n": 484,
+   "from": "greedy",
+   "to": "skrunkle"
+  },
+  {
+   "n": 485,
+   "from": "Victor Von Doom",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 486,
+   "from": "greedy",
+   "to": "Lysias"
+  },
+  {
+   "n": 487,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 488,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 488,
+   "from": "The Creature",
+   "to": "Steve"
+  },
+  {
+   "n": 489,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 489,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 489,
+   "from": "skrunkle",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 489,
+   "from": "skrunkle",
+   "to": "Lysias"
+  },
+  {
+   "n": 489,
+   "from": "skrunkle",
+   "to": "Nate"
+  },
+  {
+   "n": 489,
+   "from": "skrunkle",
+   "to": "Steve"
+  },
+  {
+   "n": 490,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 491,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 492,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 493,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 493,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 495,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 495,
+   "from": "Kimia",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 495,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 497,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 498,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 499,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 500,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 500,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 501,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 501,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 501,
+   "from": "Philos",
+   "to": "poet"
+  },
+  {
+   "n": 502,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 503,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 503,
+   "from": "Kimia",
+   "to": "Lysias"
+  },
+  {
+   "n": 504,
+   "from": "A Confucian mentor",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 505,
+   "from": "The Creature",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 506,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 506,
+   "from": "Confucius sonnet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 507,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 507,
+   "from": "poet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 508,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 509,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 509,
+   "from": "Lysias",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 510,
+   "from": "Lysias",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 511,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 511,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 511,
+   "from": "Confucius sonnet",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 512,
+   "from": "Socrates, on writing",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 513,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 513,
+   "from": "Confucius sonnet",
+   "to": "skrunkle"
+  },
+  {
+   "n": 514,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 515,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 515,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 515,
+   "from": "Frankenstein Therapist",
+   "to": "greedy"
+  },
+  {
+   "n": 517,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 518,
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 518,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 519,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 519,
+   "from": "Curious Robot",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 519,
+   "from": "Curious Robot",
+   "to": "Nate"
+  },
+  {
+   "n": 520,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 521,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 521,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 522,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 523,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 524,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 525,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 525,
+   "from": "Victor Von Doom",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 526,
+   "from": "Creature",
+   "to": "greedy"
+  },
+  {
+   "n": 527,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 527,
+   "from": "Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 528,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 528,
+   "from": "Lysias",
+   "to": "greedy"
+  },
+  {
+   "n": 529,
+   "from": "The Lovely Monster",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 530,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 531,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 531,
+   "from": "Steve",
+   "to": "Creature"
+  },
+  {
+   "n": 531,
+   "from": "Steve",
+   "to": "Lysias"
+  },
+  {
+   "n": 532,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 533,
+   "from": "Frankenstein Therapist",
+   "to": "Creature"
+  },
+  {
+   "n": 534,
+   "from": "skrunkle",
+   "to": "Creature"
+  },
+  {
+   "n": 535,
+   "from": "Philos",
+   "to": "Creature"
+  },
+  {
+   "n": 537,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 537,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 538,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 538,
+   "from": "Psychoanalyst",
+   "to": "Kimia"
+  },
+  {
+   "n": 538,
+   "from": "Psychoanalyst",
+   "to": "Steve"
+  },
+  {
+   "n": 539,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 540,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 541,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 542,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 542,
+   "from": "poet",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 542,
+   "from": "poet",
+   "to": "Philos"
+  },
+  {
+   "n": 543,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 543,
+   "from": "Steve",
+   "to": "Philos"
+  },
+  {
+   "n": 544,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 544,
+   "from": "poet",
+   "to": "Kimia"
+  },
+  {
+   "n": 544,
+   "from": "poet",
+   "to": "Steve"
+  },
+  {
+   "n": 545,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 545,
+   "from": "Lysias",
+   "to": "Kimia"
+  },
+  {
+   "n": 546,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 546,
+   "from": "Psychoanalyst",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 547,
+   "from": "A Confucian mentor",
+   "to": "The Creature"
+  },
+  {
+   "n": 548,
+   "from": "Curious Robot",
+   "to": "The Creature"
+  },
+  {
+   "n": 548,
+   "from": "Curious Robot",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 549,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 549,
+   "from": "Curious Robot",
+   "to": "poet"
+  },
+  {
+   "n": 550,
+   "from": "Creature",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 551,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 552,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 553,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 553,
+   "from": "Psychoanalyst",
+   "to": "Creature"
+  },
+  {
+   "n": 553,
+   "from": "Psychoanalyst",
+   "to": "Lysias"
+  },
+  {
+   "n": 554,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 555,
+   "from": "The Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 556,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 556,
+   "from": "Socrates, on writing",
+   "to": "greedy"
+  },
+  {
+   "n": 558,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 559,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 559,
+   "from": "Kimia",
+   "to": "greedy"
+  },
+  {
+   "n": 559,
+   "from": "Kimia",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 560,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 560,
+   "from": "Confucius sonnet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 561,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 562,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 562,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 562,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 563,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 565,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 565,
+   "from": "Confucius sonnet",
+   "to": "skrunkle"
+  },
+  {
+   "n": 566,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 567,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 568,
+   "from": "Socrates, on writing",
+   "to": "Creature"
+  },
+  {
+   "n": 569,
+   "from": "greedy",
+   "to": "Lysias"
+  },
+  {
+   "n": 571,
+   "from": "Victor Von Doom",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 572,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 575,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 575,
+   "from": "Kimia",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 575,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 576,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 576,
+   "from": "Frankenstein Therapist",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 577,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 577,
+   "from": "Philos",
+   "to": "poet"
+  },
+  {
+   "n": 578,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 578,
+   "from": "poet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 579,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 579,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 579,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 580,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 580,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 581,
+   "from": "The Creature",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 581,
+   "from": "The Creature",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 582,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 583,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 583,
+   "from": "Philos",
+   "to": "Steve"
+  },
+  {
+   "n": 584,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 585,
+   "from": "greedy",
+   "to": "The Creature"
+  },
+  {
+   "n": 586,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 587,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 589,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 590,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 590,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 591,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 592,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 592,
+   "from": "The Creature",
+   "to": "Steve"
+  },
+  {
+   "n": 593,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 595,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 595,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 595,
+   "from": "Kimia",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 596,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 598,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 598,
+   "from": "Kimia",
+   "to": "Lysias"
+  },
+  {
+   "n": 599,
+   "from": "The Creature",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 601,
+   "from": "A Confucian mentor",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 602,
+   "from": "A Confucian mentor",
+   "to": "The Creature"
+  },
+  {
+   "n": 603,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 604,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 605,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 606,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 607,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 607,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 608,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 608,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 609,
+   "from": "Philos",
+   "to": "The Creature"
+  },
+  {
+   "n": 610,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 611,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 611,
+   "from": "poet",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 611,
+   "from": "poet",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 611,
+   "from": "poet",
+   "to": "Philos"
+  },
+  {
+   "n": 612,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 613,
+   "from": "Creature",
+   "to": "greedy"
+  },
+  {
+   "n": 614,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 614,
+   "from": "Lysias",
+   "to": "Kimia"
+  },
+  {
+   "n": 615,
+   "from": "Victor Von Doom",
+   "to": "Creature"
+  },
+  {
+   "n": 616,
+   "from": "poet",
+   "to": "Creature"
+  },
+  {
+   "n": 617,
+   "from": "Creature",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 618,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 618,
+   "from": "Lysias",
+   "to": "greedy"
+  },
+  {
+   "n": 619,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 620,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 621,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 621,
+   "from": "Psychoanalyst",
+   "to": "Kimia"
+  },
+  {
+   "n": 621,
+   "from": "Psychoanalyst",
+   "to": "Steve"
+  },
+  {
+   "n": 622,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 622,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 623,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 624,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 624,
+   "from": "Psychoanalyst",
+   "to": "The Creature"
+  },
+  {
+   "n": 624,
+   "from": "Psychoanalyst",
+   "to": "Lysias"
+  },
+  {
+   "n": 625,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 625,
+   "from": "Victor Von Doom",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 626,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 626,
+   "from": "Curious Robot",
+   "to": "poet"
+  },
+  {
+   "n": 627,
+   "from": "Victor Von Doom",
+   "to": "The Creature"
+  },
+  {
+   "n": 628,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 629,
+   "from": "The Creature",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 631,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 631,
+   "from": "Psychoanalyst",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 632,
+   "from": "Psychoanalyst",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 633,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 633,
+   "from": "Psychoanalyst",
+   "to": "greedy"
+  },
+  {
+   "n": 634,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 634,
+   "from": "Steve",
+   "to": "Philos"
+  },
+  {
+   "n": 635,
+   "from": "Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 636,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 637,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 638,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 638,
+   "from": "Steve",
+   "to": "Creature"
+  },
+  {
+   "n": 639,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 640,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 642,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 642,
+   "from": "Psychoanalyst",
+   "to": "skrunkle"
+  },
+  {
+   "n": 643,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 644,
+   "from": "Psychoanalyst",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 646,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 646,
+   "from": "Lysias",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 647,
+   "from": "Psychoanalyst",
+   "to": "Philos"
+  },
+  {
+   "n": 648,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 648,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 649,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 650,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 650,
+   "from": "Confucius sonnet",
+   "to": "skrunkle"
+  },
+  {
+   "n": 651,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 651,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 651,
+   "from": "Steve",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 652,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 653,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 654,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 654,
+   "from": "Philos",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 654,
+   "from": "Philos",
+   "to": "poet"
+  },
+  {
+   "n": 655,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 655,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 655,
+   "from": "skrunkle",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 656,
+   "from": "greedy",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 656,
+   "from": "greedy",
+   "to": "The Creature"
+  },
+  {
+   "n": 657,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 657,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 658,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 658,
+   "from": "Curious Robot",
+   "to": "The Creature"
+  },
+  {
+   "n": 659,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 659,
+   "from": "Kimia",
+   "to": "Lysias"
+  },
+  {
+   "n": 660,
+   "from": "The Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 661,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 661,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 661,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 662,
+   "from": "Confucius sonnet",
+   "to": "The Creature"
+  },
+  {
+   "n": 663,
+   "from": "greedy",
+   "to": "Lysias"
+  },
+  {
+   "n": 664,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 665,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 665,
+   "from": "Kimia",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 665,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 666,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 666,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 667,
+   "from": "The Lovely Monster",
+   "to": "The Creature"
+  },
+  {
+   "n": 668,
+   "from": "greedy",
+   "to": "The Creature"
+  },
+  {
+   "n": 670,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 670,
+   "from": "Frankenstein Therapist",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 671,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 671,
+   "from": "poet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 672,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 673,
+   "from": "A Confucian mentor",
+   "to": "Creature"
+  },
+  {
+   "n": 674,
+   "from": "greedy",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 675,
+   "from": "Philos",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 675,
+   "from": "Philos",
+   "to": "Steve"
+  },
+  {
+   "n": 676,
+   "from": "A Confucian mentor",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 679,
+   "from": "skrunkle",
+   "to": "Creature"
+  },
+  {
+   "n": 679,
+   "from": "skrunkle",
+   "to": "Kimia"
+  },
+  {
+   "n": 680,
+   "from": "Socrates, on writing",
+   "to": "Creature"
+  },
+  {
+   "n": 680,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 681,
+   "from": "skrunkle",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 682,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 683,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 683,
+   "from": "Curious Robot",
+   "to": "Steve"
+  },
+  {
+   "n": 683,
+   "from": "Curious Robot",
+   "to": "poet"
+  },
+  {
+   "n": 685,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 685,
+   "from": "Lysias",
+   "to": "skrunkle"
+  },
+  {
+   "n": 686,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 686,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 687,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 687,
+   "from": "skrunkle",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 688,
+   "from": "Socrates, on writing",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 689,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 689,
+   "from": "Curious Robot",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 690,
+   "from": "Confucius sonnet",
+   "to": "Creature"
+  },
+  {
+   "n": 690,
+   "from": "Confucius sonnet",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 691,
+   "from": "Confucian Mentor",
+   "to": "Lysias"
+  },
+  {
+   "n": 692,
+   "from": "skrunkle",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 693,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 693,
+   "from": "Curious Robot",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 694,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 694,
+   "from": "skrunkle",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 695,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 695,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 695,
+   "from": "Kimia",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 696,
+   "from": "Philos",
+   "to": "Creature"
+  },
+  {
+   "n": 697,
+   "from": "Philos",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 698,
+   "from": "poet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 698,
+   "from": "poet",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 698,
+   "from": "poet",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 698,
+   "from": "poet",
+   "to": "Philos"
+  },
+  {
+   "n": 699,
+   "from": "Nate",
+   "to": "Creature"
+  },
+  {
+   "n": 700,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 702,
+   "from": "Socrates, on writing",
+   "to": "Creature"
+  },
+  {
+   "n": 702,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 703,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 704,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 704,
+   "from": "Creature",
+   "to": "greedy"
+  },
+  {
+   "n": 705,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 705,
+   "from": "Lysias",
+   "to": "Kimia"
+  },
+  {
+   "n": 706,
+   "from": "Victor Von Doom",
+   "to": "Creature"
+  },
+  {
+   "n": 707,
+   "from": "poet",
+   "to": "Creature"
+  },
+  {
+   "n": 708,
+   "from": "Creature",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 709,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 709,
+   "from": "Lysias",
+   "to": "greedy"
+  },
+  {
+   "n": 710,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 711,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 712,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 712,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 713,
+   "from": "The Creature",
+   "to": "The Lovely Monster"
+  },
+  {
+   "n": 714,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 715,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 716,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 717,
+   "from": "The Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 717,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 718,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 718,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 718,
+   "from": "The Creature",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 719,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 719,
+   "from": "Frankenstein Therapist",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 720,
+   "from": "The Creature",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 721,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 721,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 722,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 722,
+   "from": "Socrates, on writing",
+   "to": "greedy"
+  },
+  {
+   "n": 723,
+   "from": "Socrates, on writing",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 723,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 724,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 726,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 727,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 727,
+   "from": "Curious Robot",
+   "to": "The Creature"
+  },
+  {
+   "n": 728,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 729,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 730,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 730,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 731,
+   "from": "The Creature",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 731,
+   "from": "The Creature",
+   "to": "Lysias"
+  },
+  {
+   "n": 732,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 733,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 734,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 734,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 735,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 736,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 737,
+   "from": "Socrates, on writing",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 738,
+   "from": "The Creature",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 738,
+   "from": "The Creature",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 739,
+   "from": "The Creature",
+   "to": "A Confucian mentor"
+  },
+  {
+   "n": 739,
+   "from": "The Creature",
+   "to": "Lysias"
+  },
+  {
+   "n": 741,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 742,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 742,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 743,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 743,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 743,
+   "from": "The Creature",
+   "to": "Steve"
+  },
+  {
+   "n": 743,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 744,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 745,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 745,
+   "from": "The Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 746,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 747,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 748,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 749,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 749,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 751,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 751,
+   "from": "The Creature",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 752,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 752,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 753,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 753,
+   "from": "The Creature",
+   "to": "greedy"
+  },
+  {
+   "n": 754,
+   "from": "Socrates, on writing",
+   "to": "Lysias"
+  },
+  {
+   "n": 754,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 755,
+   "from": "The Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 756,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 756,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 756,
+   "from": "The Creature",
+   "to": "poet"
+  },
+  {
+   "n": 757,
+   "from": "The Creature",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 758,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 758,
+   "from": "The Creature",
+   "to": "Lysias"
+  },
+  {
+   "n": 759,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 759,
+   "from": "Socrates, on writing",
+   "to": "Nate"
+  },
+  {
+   "n": 760,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 760,
+   "from": "Steve",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 760,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 761,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 761,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 762,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 763,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 764,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 764,
+   "from": "Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 765,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 765,
+   "from": "The Creature",
+   "to": "Steve"
+  },
+  {
+   "n": 766,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 766,
+   "from": "The Creature",
+   "to": "greedy"
+  },
+  {
+   "n": 767,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 768,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 768,
+   "from": "Lysias",
+   "to": "Steve"
+  },
+  {
+   "n": 770,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 770,
+   "from": "Curious Robot",
+   "to": "The Creature"
+  },
+  {
+   "n": 771,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 771,
+   "from": "skrunkle",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 772,
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 772,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 772,
+   "from": "Frankenstein Therapist",
+   "to": "Steve"
+  },
+  {
+   "n": 773,
+   "from": "Confucian Mentor",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 773,
+   "from": "Confucian Mentor",
+   "to": "Philos"
+  },
+  {
+   "n": 773,
+   "from": "Confucian Mentor",
+   "to": "poet"
+  },
+  {
+   "n": 774,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 774,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 775,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 775,
+   "from": "skrunkle",
+   "to": "The Creature"
+  },
+  {
+   "n": 776,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 777,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 777,
+   "from": "Steve",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 777,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 778,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 778,
+   "from": "Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 779,
+   "from": "Frankenstein Therapist",
+   "to": "Creature"
+  },
+  {
+   "n": 779,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 779,
+   "from": "Frankenstein Therapist",
+   "to": "greedy"
+  },
+  {
+   "n": 780,
+   "from": "Lysias",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 780,
+   "from": "Lysias",
+   "to": "Steve"
+  },
+  {
+   "n": 781,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 781,
+   "from": "Curious Robot",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 781,
+   "from": "Curious Robot",
+   "to": "greedy"
+  },
+  {
+   "n": 782,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 782,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 782,
+   "from": "Kimia",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 783,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 783,
+   "from": "skrunkle",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 784,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 784,
+   "from": "Confucius sonnet",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 784,
+   "from": "Confucius sonnet",
+   "to": "Philos"
+  },
+  {
+   "n": 784,
+   "from": "Confucius sonnet",
+   "to": "poet"
+  },
+  {
+   "n": 785,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 785,
+   "from": "skrunkle",
+   "to": "Creature"
+  },
+  {
+   "n": 786,
+   "from": "Kimia",
+   "to": "Creature"
+  },
+  {
+   "n": 786,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 787,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 787,
+   "from": "Steve",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 787,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 788,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 788,
+   "from": "Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 790,
+   "from": "greedy",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 791,
+   "from": "Socrates, on writing",
+   "to": "Creature"
+  },
+  {
+   "n": 792,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 792,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 792,
+   "from": "Socrates, on writing",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 793,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 793,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 794,
+   "from": "Socrates, on writing",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 794,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 795,
+   "from": "Socrates, on writing",
+   "to": "Creature"
+  },
+  {
+   "n": 795,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 796,
+   "from": "Nate",
+   "to": "Creature"
+  },
+  {
+   "n": 796,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 797,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 797,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 798,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 798,
+   "from": "Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 799,
+   "from": "greedy",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 800,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 800,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 800,
+   "from": "Steve",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 801,
+   "from": "Socrates, on writing",
+   "to": "Confucian Mentor"
+  },
+  {
+   "n": 801,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 801,
+   "from": "Socrates, on writing",
+   "to": "poet"
+  },
+  {
+   "n": 802,
+   "from": "Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 802,
+   "from": "Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 803,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 803,
+   "from": "skrunkle",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 804,
+   "from": "Kimia",
+   "to": "Creature"
+  },
+  {
+   "n": 804,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 805,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 805,
+   "from": "Steve",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 805,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 806,
+   "from": "Creature",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 806,
+   "from": "Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 807,
+   "from": "Curious Robot",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 807,
+   "from": "Curious Robot",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 807,
+   "from": "Curious Robot",
+   "to": "greedy"
+  },
+  {
+   "n": 808,
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 808,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 808,
+   "from": "Frankenstein Therapist",
+   "to": "Steve"
+  },
+  {
+   "n": 809,
+   "from": "Confucius sonnet",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 809,
+   "from": "Confucius sonnet",
+   "to": "Philos"
+  },
+  {
+   "n": 809,
+   "from": "Confucius sonnet",
+   "to": "poet"
+  },
+  {
+   "n": 810,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 811,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 811,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 812,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 812,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 813,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 813,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 814,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 814,
+   "from": "Socrates, on writing",
+   "to": "Victor Von Doom"
+  },
+  {
+   "n": 814,
+   "from": "Socrates, on writing",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 815,
+   "from": "Socrates, on writing",
+   "to": "greedy"
+  },
+  {
+   "n": 815,
+   "from": "Socrates, on writing",
+   "to": "Curious Robot"
+  },
+  {
+   "n": 816,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 816,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 816,
+   "from": "Socrates, on writing",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 817,
+   "from": "Socrates, on writing",
+   "to": "Philos"
+  },
+  {
+   "n": 818,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 819,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 820,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 820,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 820,
+   "from": "Socrates, on writing",
+   "to": "Nate"
+  },
+  {
+   "n": 821,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 821,
+   "from": "Socrates, on writing",
+   "to": "skrunkle"
+  },
+  {
+   "n": 822,
+   "from": "Socrates, on writing",
+   "to": "Kimia"
+  },
+  {
+   "n": 822,
+   "from": "Socrates, on writing",
+   "to": "Steve"
+  },
+  {
+   "n": 823,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 823,
+   "from": "skrunkle",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 824,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 824,
+   "from": "The Creature",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 825,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 825,
+   "from": "The Creature",
+   "to": "Philos"
+  },
+  {
+   "n": 826,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 827,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 828,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 828,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 829,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 829,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 829,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 830,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 830,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 831,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 832,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 832,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 832,
+   "from": "The Creature",
+   "to": "Steve"
+  },
+  {
+   "n": 833,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 833,
+   "from": "The Creature",
+   "to": "skrunkle"
+  },
+  {
+   "n": 834,
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 834,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 834,
+   "from": "Frankenstein Therapist",
+   "to": "Steve"
+  },
+  {
+   "n": 835,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 835,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 835,
+   "from": "Victor Von Doom",
+   "to": "poet"
+  },
+  {
+   "n": 836,
+   "from": "The Creature",
+   "to": "Kimia"
+  },
+  {
+   "n": 836,
+   "from": "The Creature",
+   "to": "Nate"
+  },
+  {
+   "n": 837,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 837,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 838,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 838,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 838,
+   "from": "Kimia",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 839,
+   "from": "skrunkle",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 839,
+   "from": "skrunkle",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 840,
+   "from": "Victor Von Doom",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 840,
+   "from": "Victor Von Doom",
+   "to": "Confucius sonnet"
+  },
+  {
+   "n": 840,
+   "from": "Victor Von Doom",
+   "to": "Philos"
+  },
+  {
+   "n": 840,
+   "from": "Victor Von Doom",
+   "to": "poet"
+  },
+  {
+   "n": 841,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 841,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 842,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 842,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 843,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 843,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 843,
+   "from": "Kimia",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 844,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 844,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 845,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 845,
+   "from": "Steve",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 845,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 846,
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 846,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 846,
+   "from": "Frankenstein Therapist",
+   "to": "Steve"
+  },
+  {
+   "n": 847,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 847,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 848,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 848,
+   "from": "Steve",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 848,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 849,
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 849,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 849,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 849,
+   "from": "Frankenstein Therapist",
+   "to": "Steve"
+  },
+  {
+   "n": 850,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 850,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 851,
+   "from": "Steve",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 851,
+   "from": "Steve",
+   "to": "Psychoanalyst"
+  },
+  {
+   "n": 851,
+   "from": "Steve",
+   "to": "Kimia"
+  },
+  {
+   "n": 852,
+   "from": "Frankenstein Therapist",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 852,
+   "from": "Frankenstein Therapist",
+   "to": "The Creature"
+  },
+  {
+   "n": 852,
+   "from": "Frankenstein Therapist",
+   "to": "Kimia"
+  },
+  {
+   "n": 852,
+   "from": "Frankenstein Therapist",
+   "to": "Steve"
+  },
+  {
+   "n": 853,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 853,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 854,
+   "from": "Kimia",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 854,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 854,
+   "from": "Kimia",
+   "to": "Steve"
+  },
+  {
+   "n": 854,
+   "from": "Kimia",
+   "to": "Frankenstein Therapist"
+  },
+  {
+   "n": 855,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 855,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 856,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 856,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 857,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 857,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 858,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 858,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 859,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 859,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 860,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 860,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 861,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 861,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 862,
+   "from": "Kimia",
+   "to": "The Creature"
+  },
+  {
+   "n": 862,
+   "from": "Kimia",
+   "to": "Nate"
+  },
+  {
+   "n": 863,
+   "from": "Nate",
+   "to": "The Creature"
+  },
+  {
+   "n": 863,
+   "from": "Nate",
+   "to": "Kimia"
+  },
+  {
+   "n": 864,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 865,
+   "from": "poet",
+   "to": "The Creature"
+  },
+  {
+   "n": 865,
+   "from": "poet",
+   "to": "Kimia"
+  },
+  {
+   "n": 865,
+   "from": "poet",
+   "to": "Nate"
+  },
+  {
+   "n": 866,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 867,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 868,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 869,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 870,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 871,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 872,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 874,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 875,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 876,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 877,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 878,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 879,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 880,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 881,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 882,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 883,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 884,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 885,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 886,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 887,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 888,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 889,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 890,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 891,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 893,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 894,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 895,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 896,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 897,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 898,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 899,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 900,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 901,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 902,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 903,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 904,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 905,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 906,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 907,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 908,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 909,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 910,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 911,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 912,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 913,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 915,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 916,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 917,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 918,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 919,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 920,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 921,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 922,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 923,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 924,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 925,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 926,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 927,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 928,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 929,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 930,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 931,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 933,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 934,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 935,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 936,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 937,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 938,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  },
+  {
+   "n": 939,
+   "from": "The Creature",
+   "to": "Socrates, on writing"
+  },
+  {
+   "n": 940,
+   "from": "Socrates, on writing",
+   "to": "The Creature"
+  }
+ ]
+}

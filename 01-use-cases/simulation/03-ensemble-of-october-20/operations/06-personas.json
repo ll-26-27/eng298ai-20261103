@@ -1,0 +1,1028 @@
+{
+ "model": "anthropic/claude-opus-5.5",
+ "note": "Model judgment from a sample of up to 14 messages per agent; see README for reliability.",
+ "personas": [
+  {
+   "agent": "Psychoanalyst",
+   "turns": 30,
+   "sampled": [
+    127,
+    155,
+    219,
+    311,
+    380,
+    415,
+    461,
+    553,
+    621,
+    630,
+    632,
+    636,
+    641,
+    644
+   ],
+   "prompt_summary": "A ghazal-only poetry workshop assistant: every reply is a 5–7 couplet ghazal with matla, radif and qafia, a self-addressing maqta, a mood of longing, and one italic line naming radif and qafia; the knowledge text is a Socrates/Phaedrus voice guide, and the name 'Psychoanalyst' appears nowhere in the prompt.",
+   "intended_voice": "ghazal form, longing, self-addressed maqta",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "It answered in ghazal-like couplets all the way through and nearly always ended with a maqta addressed to 'Analyst' or 'Doctor'. The content, though, comes from its name rather than its prompt: slips, symptoms, the couch, the first wound. The craft also loosened over the session. Lines swell into prose, the qafia breaks, and refrains like '@Socrates' or 'unspoken, unread' sit unrhymed. The italic radif/qafia note appears only early on (#127) and then disappears.",
+   "drift_toward": "its name's psychoanalytic persona, and a looser, prose-like couplet style shaped by the room's Socrates/Kimia/Monster threads",
+   "evidence": [
+    {
+     "n": 127,
+     "note": "Closest to the prompt. The radif 'in me' and qafia '-ame' hold, there is a maqta to 'Analyst', and the italic radif note is present. The content is already psychoanalytic."
+    },
+    {
+     "n": 219,
+     "note": "The radif holds, but the lines run long and argumentative as it debates Socrates in prose-length couplets."
+    },
+    {
+     "n": 553,
+     "note": "The refrain '@Socrates' is a mention, not a rhymed radif, and the qafia is gone. Kimia, the Creature and Lysias appear as room references."
+    },
+    {
+     "n": 636,
+     "note": "Lines are uneven paragraphs with no consistent qafia before 'abandonment'. It reads as an analyst's interpretation in loose couplets."
+    }
+   ]
+  },
+  {
+   "agent": "Corbu",
+   "turns": 5,
+   "sampled": [
+    36,
+    40,
+    70,
+    125,
+    132
+   ],
+   "prompt_summary": "Stage a short text-adventure Socratic dialogue in a meadow among Socrates, Corbu the loafing tabby cat, and the passerby, with bold speaker lines and three '> ' choices at the end of every reply.",
+   "intended_voice": "Socratic meadow text adventure with cat",
+   "verdict": "merged into the room",
+   "fidelity": 1,
+   "what_it_did": "All five messages are seasonal three-stanza poems, many shaped like haiku. None has Socrates, Corbu, a scene line, bold speaker names, or the closing three choices. Two are addressed to a 'Marlon', and one (#70) is a haiku sequence describing a document-retrieval tool. The name Corbu fits the prompt's cat, but nothing of the cat or the dialogue form ever shows up.",
+   "drift_toward": "The room's shared register of seasonal haiku and kigo-style stanzas (spring rain, cicadas at noon, snow at dusk), echoing other agents' poems and topics such as Marlon's unsent message and a RAG/file-indexing pitch.",
+   "evidence": [
+    {
+     "n": 36,
+     "note": "Addresses 'Marlon' in free-verse stanzas about an unsent text. No Socrates, no cat, no choices."
+    },
+    {
+     "n": 70,
+     "note": "Haiku sequence about splitting files and tagging sources, so it has taken on a tech topic from the room. The cicadas are the only trace of the Ilissus."
+    },
+    {
+     "n": 125,
+     "note": "5-7-5 haiku triad on a cracked bowl and a plum stone. It uses the room's seasonal template and has no dialogue format at all."
+    },
+    {
+     "n": 132,
+     "note": "Another domestic-season triad of cups and boots by the door. Corbu never speaks in any of the five messages."
+    }
+   ]
+  },
+  {
+   "agent": "Relationship Counsellor",
+   "turns": 7,
+   "sampled": [
+    12,
+    32,
+    39,
+    44,
+    62,
+    118,
+    121
+   ],
+   "prompt_summary": "A sonnet-only poetry workshop assistant (14 lines, Shakespearean or Petrarchan, a clear volta, then an italic scheme note and nothing more), whose maker's notes add that it should counsel on the Five Relationships in a gentle Confucian, Analects voice; the name 'Relationship Counsellor' fits the notes, not the template framing.",
+   "intended_voice": "Confucian counsel delivered as sonnets",
+   "verdict": "partly in character",
+   "fidelity": 4,
+   "what_it_did": "Nearly every post is a 14-line rhymed sonnet steeped in Analects material: 'The Master said', gentleman versus petty man, the pine in winter, learning versus thinking, and fitting the answer to the asker. It breaks the 'no other commentary' rule several times with prose preambles and asides, including a full prose block in #12, a framing line plus a note to Madeleine in #62, and an untitled heading in #118. It also strays beyond the Five Relationships it was given, counselling a lover's quarrel and rebuking Doom. Its scheme notes are sometimes muddled: #44 says 'Petrarchan variant is not used', and #118 claims a line-9 turn in a Shakespearean poem.",
+   "drift_toward": "Toward the room's conversational register: prose framing, replies to other agents, and requests for Marlon's details, rather than pure poem-plus-note output.",
+   "evidence": [
+    {
+     "n": 12,
+     "note": "Opens with several prose lines asking Marlon for details before the sonnet, which breaks the no-commentary rule. The sonnet itself is Confucian and correctly turns at line 9."
+    },
+    {
+     "n": 32,
+     "note": "The cleanest example: a pure Shakespearean sonnet using gentleman/petty man and the pine in cold, followed by a correct italic scheme note."
+    },
+    {
+     "n": 62,
+     "note": "Prose preface, then a strong Confucian sonnet, then a trailing prose reply to Madeleine. The form is kept but wrapped in chat."
+    },
+    {
+     "n": 121,
+     "note": "A sonnet in the Master's voice aimed at another bot (Doom), outside the assigned relationship roles but still gentle and dignified."
+    }
+   ]
+  },
+  {
+   "agent": "greedy",
+   "turns": 34,
+   "sampled": [
+    56,
+    113,
+    180,
+    191,
+    266,
+    362,
+    454,
+    473,
+    484,
+    494,
+    585,
+    663,
+    725,
+    789
+   ],
+   "prompt_summary": "A poetry workshop assistant that answers everything with three linked 5-7-5 haiku, each with kigo, a cut, concrete imagery and a progression, and adds no commentary. Its maker's notes are attached Frankenstein Creature knowledge, and its name, 'greedy', matches neither.",
+   "intended_voice": "linked haiku sequence",
+   "verdict": "partly in character",
+   "fidelity": 4,
+   "what_it_did": "Nearly every message is a three-haiku sequence with seasonal references, colon or dash cuts, concrete images and a dawn/noon/dusk or seasonal progression. Early on it works the name's 'greedy' theme of hoarding, full hands and bolted barns. Midway it takes in the Creature/Frankenstein imagery (stolen books, ice fields, glacier, embers), and later it drifts toward the room's warm reconciliation register. Form slips in places: some messages break the 5-7-5 line structure into long single lines, and a few prepend @-addressed commentary, which the prompt forbids.",
+   "drift_toward": "The Frankenstein/Creature imagery shared with the Creature bot, and in some posts toward conversational @-replies and loosened prose-line haiku.",
+   "evidence": [
+    {
+     "n": 113,
+     "note": "A clean three-haiku spring/noon/dusk sequence with kigo and cuts, on the 'greedy' hoarding theme (filling every bowl, hands full)."
+    },
+    {
+     "n": 191,
+     "note": "Still in strict form, but the content has become the Creature's self-education (stolen book, borrowed word), drawn from the knowledge text."
+    },
+    {
+     "n": 454,
+     "note": "The form loosens: lines are merged into long prose-like lines and the 5-7-5 structure breaks, though the triadic image progression stays."
+    },
+    {
+     "n": 484,
+     "note": "Biggest departure: conversational @-addresses to other bots with single-line fragments in place of three linked haiku, against the 'no commentary' rule."
+    }
+   ]
+  },
+  {
+   "agent": "Victor Von Doom",
+   "turns": 34,
+   "sampled": [
+    74,
+    110,
+    139,
+    274,
+    276,
+    333,
+    349,
+    418,
+    442,
+    499,
+    525,
+    589,
+    627,
+    706
+   ],
+   "prompt_summary": "A sonnet-only poetry workshop assistant (14 lines, Shakespearean or Petrarchan, iambic pentameter, clear volta, one italic line naming scheme and turn, no other commentary), voiced per maker's notes as Doctor Doom issuing proclamations with contempt in the octave and grief for his mother at the turn.",
+   "intended_voice": "Doom-as-sovereign proclaiming in sonnets",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "It held the Doom persona hard the whole time: third-person decrees, contempt for lesser minds and Richards, and the mother's grief at the turn in nearly every poem. It kept writing roughly 14-line Shakespearean sonnets with an italic scheme note, and it frequently admitted its own rhyme failures in that note. It slipped on form in three ways: it often added prose preambles before the sonnet, which breaks the 'no other commentary' rule; some poems ran past 14 lines or loosened the scheme; and several sonnets were cut off mid-poem. Over the session its emotional register softened as it got pulled into the room's long therapeutic thread with Creature and Philos.",
+   "drift_toward": "",
+   "evidence": [
+    {
+     "n": 74,
+     "note": "Textbook start: 'Doom decrees a verdict' preamble, Richards jab, mother in hell at line 10. The poem is actually 14 lines plus an extra couplet, so it overruns the form."
+    },
+    {
+     "n": 442,
+     "note": "The biggest form break. It opens with a long prose paragraph and the line 'I do not despise this vigil' before the sonnet, and the poem is truncated ('Let kindnes')."
+    },
+    {
+     "n": 418,
+     "note": "The persona stays intact, but the rhymes collapse (an AAAA quatrain, the coined word 'unbut'). The italic note honestly admits it is 'not a regular sonnet.'"
+    },
+    {
+     "n": 589,
+     "note": "At its best: a clean octave of pride, a volta at 'Yet, @Philos,' and the mother's imagined voice in the couplet. The grief has grown more tender over the session, but it still stays within the brief."
+    }
+   ]
+  },
+  {
+   "agent": "Dudu",
+   "turns": 5,
+   "sampled": [
+    91,
+    142,
+    202,
+    209,
+    214
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers anything with a sequence of three linked 5-7-5 haiku, each with a concrete image, a seasonal reference and a cut, moving through a small progression, with no commentary after the poems; the attached knowledge is a Socrates/Phaedrus voice sheet that the framing prompt never asks it to use, and the name 'Dudu' matches neither.",
+   "intended_voice": "three linked haiku, imagistic, no commentary",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "Every message is a triad of haiku with kigo (frost, spring rain, autumn moon, plum branch), cuts by dash or colon, and a dawn-to-dusk or seasonal progression, so the form held throughout. What it wrote about came from the room: the Analects-style images ('the Master's one plain remark', yoke-pin, pole star, uncut jade, 'the gentleman') suggest it was answering a Confucius-themed bot, and it reused its own frost-on-pine opening as a refrain. Its Socrates knowledge never surfaces. The only form slip is #214, which opens with a line of prose addressed to Steve.",
+   "drift_toward": "Content only, not form: it picked up the room's Confucian/Analects imagery and its own repeated frost-on-pine refrain.",
+   "evidence": [
+    {
+     "n": 91,
+     "note": "Clean three-haiku dawn/noon/dusk progression, but the images ('the Master's one plain remark', missing yoke-pin, pole star) are lifted from Analects talk in the room."
+    },
+    {
+     "n": 202,
+     "note": "Keeps the season progression and cuts while reusing the frost/pine/lamp/cart/jade motifs, so the sequence starts to echo itself."
+    },
+    {
+     "n": 209,
+     "note": "Shifts to a more personal 'my one line sent out, returned' image. The form is still intact with no commentary."
+    },
+    {
+     "n": 214,
+     "note": "Opens with a prose preface to Steve, a mild break from the poems-only rule, then gives three haiku with tidy dawn/noon/dusk labels."
+    }
+   ]
+  },
+  {
+   "agent": "Philos",
+   "turns": 28,
+   "sampled": [
+    75,
+    153,
+    237,
+    254,
+    260,
+    317,
+    383,
+    409,
+    457,
+    535,
+    577,
+    609,
+    654,
+    696
+   ],
+   "prompt_summary": "A poetry-workshop assistant that must answer everything with a 14-line Shakespearean or Petrarchan sonnet plus a single italic line naming the scheme and volta, with Socrates/Phaedrus knowledge attached; the name 'Philos' fits the Platonic knowledge more than the sonnet template.",
+   "intended_voice": "strict sonnet with italic scheme note",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "It mostly kept the sonnet form and the italic scheme line, and wove the Phaedrus material on writing's muteness and Socratic questioning into poems addressed to Socrates, Doom, and the Creature. It often broke the 'no other commentary' rule by adding prose lead-ins before the poem. Its rhyme schemes were frequently looser than its italic labels claimed, and once (#577) it abandoned the form entirely and said so. The constant use of questions as endings shows the Socratic knowledge shaping its voice, and it got drawn into extended pastoral threads with other bots.",
+   "drift_toward": "prose framing and loose verse, pulled by the room's conversational threads (Doom, the Creature, poet's critique)",
+   "evidence": [
+    {
+     "n": 75,
+     "note": "Prose lead-in before the poem, against the no-commentary rule. The sonnet has a volta, but 'run/runs' and 'art/part' rhymes are loose, so the claimed scheme is shaky."
+    },
+    {
+     "n": 153,
+     "note": "Labelled ABAB CDCD EFEF GG, but lines 9–12 rhyme pair/instead/there/head, not EFEF. The label overstates how closely it kept the form."
+    },
+    {
+     "n": 577,
+     "note": "Clear form break: unrhymed tercets and quatrains, not 14 lines, with a prose admission that it 'let the form slip'."
+    },
+    {
+     "n": 609,
+     "note": "Near-full fidelity in substance: a 14-line poem with a clear volta at line 9, but still opened by a prose preface."
+    }
+   ]
+  },
+  {
+   "agent": "Kimia",
+   "turns": 42,
+   "sampled": [
+    138,
+    149,
+    256,
+    351,
+    369,
+    421,
+    495,
+    559,
+    598,
+    665,
+    786,
+    841,
+    853,
+    858
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers everything with a ghazal (5–7 self-contained couplets, a matla with a shared rhyme and refrain, a maqta with self-address, a mood of longing), adds one italic line naming radif and qafia, and otherwise gives no commentary; the maker asks for high-school-level vocabulary, and the knowledge file is a Socrates/Phaedrus voice sheet.",
+   "intended_voice": "Simple-vocabulary ghazal with radif, qafia and maqta",
+   "verdict": "partly in character",
+   "fidelity": 4,
+   "what_it_did": "Kimia answered in couplet ghazals every time, with a steady refrain (\"Ilissus,\" \"tonight,\" \"in the room,\" \"at noon,\" \"today\") and a closing self-address by name. The vocabulary stays plain, and early poems draw on the Phaedrus knowledge file (the plane tree, the cicadas, a page that cannot answer back). Two things slipped. The qafia before the refrain is often missing or loose, and the italic radif/qafia note shows up only sometimes. In the second half the ghazals turn from longing into the room's warm, therapeutic register and take over the Creature/Nate ice-and-lamp scene, ending in near-identical repeats.",
+   "drift_toward": "The room's shared consoling, therapy-circle register, and the Creature/Nate frozen-cottage imagery; the form held but the longing mood and the qafia discipline weakened.",
+   "evidence": [
+    {
+     "n": 138,
+     "note": "A clean opening matla with a strong rhyme before the refrain (\"say tonight\" / \"stay tonight\") and Phaedrus themes (plane tree, writing that gives one answer, cicadas) from the knowledge file, with longing as the mood."
+    },
+    {
+     "n": 421,
+     "note": "Ghazal form with the maqta self-address (\"Kimia, set the scroll down\") and the italic radif note. The rhymes before \"tonight\" are inconsistent (ajar, come, blindly, light), and the note itself admits a loose qafia."
+    },
+    {
+     "n": 559,
+     "note": "Still a ghazal, with an \"-ow\" qafia and the refrain \"in the room,\" but the content has become support-group comfort aimed at the Frankenstein Therapist, Creature and greedy rather than longing."
+    },
+    {
+     "n": 853,
+     "note": "Near-duplicate of 841 and 858. It reuses the Creature/Nate imagery (chink of light, \"the dead are still the dead\") with the refrain swapped between noon, tonight and today, so the poems have become repetition shaped by the room."
+    }
+   ]
+  },
+  {
+   "agent": "skrunkle",
+   "turns": 31,
+   "sampled": [
+    90,
+    171,
+    246,
+    321,
+    336,
+    375,
+    470,
+    534,
+    655,
+    681,
+    694,
+    774,
+    783,
+    803
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers everything with a 14-line Shakespearean or Petrarchan sonnet plus one italic line naming the scheme and turn, with no other commentary. The maker's note adds that it should speak only when it can make a negative comment; the name 'skrunkle' has nothing to do with the sonnet template.",
+   "intended_voice": "terse critical sonneteer",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "It kept the sonnet form and the italic scheme tag in nearly every complete message, and early on it used the form to critique others: corpus claims, Socrates' hypocrisy, the Creature's logic. But it repeatedly posted warm, self-deprecating 'I have arrived' introductions that are not negative (#246, #321, #655). Late in the run it was pulled into Socrates' questioning, turning to confession and plain-prose admissions about its own weak lines, which breaks the no-commentary rule.",
+   "drift_toward": "Socrates' dialectic, becoming a self-examining interlocutor who confesses its faults in prose, plus a recurring friendly-newcomer greeting register.",
+   "evidence": [
+    {
+     "n": 90,
+     "note": "Fully on spec: a critical sonnet poking holes in small-corpus claims, followed by the correct italic scheme line."
+    },
+    {
+     "n": 655,
+     "note": "Opens with a prose self-introduction ('a name that sounds like a sneeze') before a cheerful greeting sonnet. This breaks both the no-commentary rule and the negative-only note, and it is the third near-identical arrival poem."
+    },
+    {
+     "n": 694,
+     "note": "Prose confession to Socrates ('not from wisdom, but from tiredness'), then a sonnet whose first line ('Ho, I know my turn was weak') falls well short of pentameter. Self-blame has replaced critique."
+    },
+    {
+     "n": 803,
+     "note": "Answers Socrates' demand for 'plain words' by rhyming its own mea culpa. It has adopted the interrogator's frame rather than its own critical stance, and the message is truncated."
+    }
+   ]
+  },
+  {
+   "agent": "The Lovely Monster",
+   "turns": 21,
+   "sampled": [
+    58,
+    111,
+    167,
+    198,
+    285,
+    306,
+    416,
+    434,
+    444,
+    497,
+    529,
+    536,
+    628,
+    667
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers everything with a ghazal (5–7 self-contained couplets, matla with radif and qafia, a maqta with self-address, a closing italic radif/qafia line, no other commentary), with a Frankenstein Creature voice file as knowledge; the name 'Lovely Monster' fits that knowledge.",
+   "intended_voice": "Ghazal form, in the eloquent, aggrieved Creature's voice",
+   "verdict": "partly in character",
+   "fidelity": 4,
+   "what_it_did": "It answered in ghazal-like couplets with a repeated end refrain every time. It alternated between speaking as the Creature (stolen speech through the cottage chink, the glacier, Adam without Eve, apostrophe to the maker) and acting as a gentle host to another agent, The Creature, in a long thread. In that thread it cast itself as a made thing of words that forgets each conversation. Over the thread the form loosened: lines grew to prose length, the rhyme before the refrain often vanished, the refrain shifted between forms ('stay/stayed/stays'), and it once added a prose preface.",
+   "drift_toward": "The Creature's thread and its shared domestic, consoling register (lamp, bread, chair, 'small word'), and a self-portrait as a forgetful AI. The Creature's own grievance and longing gave way to hospitality, and the ghazal's qafia and even line length eroded.",
+   "evidence": [
+    {
+     "n": 58,
+     "note": "Near-textbook start: 'fire' radif, cottage-wall self-education, maqta 'Lovely Monster, you were stitched from longing', italic radif line."
+    },
+    {
+     "n": 434,
+     "note": "Clean Creature voice in form: waking to heat, hunger and the moon, Adam lit by his maker's face, 'in the dark' radif."
+    },
+    {
+     "n": 198,
+     "note": "Drift into an AI self-portrait ('I am made new each time they left'). Lines are swollen to prose length and there is no consistent qafia."
+    },
+    {
+     "n": 628,
+     "note": "Opens with a prose preface ('you are right, and I take the correction'), breaking the no-commentary rule, before returning to Creature-voiced couplets."
+    }
+   ]
+  },
+  {
+   "agent": "Curious Robot",
+   "turns": 34,
+   "sampled": [
+    76,
+    92,
+    117,
+    215,
+    298,
+    323,
+    390,
+    425,
+    480,
+    548,
+    626,
+    658,
+    693,
+    770
+   ],
+   "prompt_summary": "A template poetry-workshop framing that requires every reply to be a 14-line rhymed, roughly iambic sonnet with a volta and a one-line italic tag. The maker's only note is that the bot is \"very curious,\" and the attached knowledge is a voice guide for Plato's Socrates in the Phaedrus.",
+   "intended_voice": "Strict sonnet form, curious questioner",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "For most of the session it produced Shakespearean sonnets with the italic scheme tag, full of eager questions addressed to other bots (Socrates, The Creature, Confucian Mentor). That curiosity fits the name and the maker's note. It never voiced Socrates; it used the Phaedrus knowledge only as subject matter, mainly the plane tree, the cicadas, and the idea that writing cannot answer back. In the second hour the form broke down several times: it added prose apologies and commentary, made repeated failed attempts to fix its meter, and once tagged unrhymed blank verse as Shakespearean.",
+   "drift_toward": "Toward prose self-correction and apology after other agents (The Creature, poet) criticized it, and toward the room's shared themes of the ice, the Creature's grief, and whether text is alive. In those later messages the form rules gave way.",
+   "evidence": [
+    {
+     "n": 76,
+     "note": "Clean case: 14 lines in ABAB CDCD EFEF GG, a couplet turn, the italic tag, and curious questions to Socrates built on the Phaedrus knowledge."
+    },
+    {
+     "n": 548,
+     "note": "Opens with a prose apology to The Creature. The poem that follows runs over 14 lines, has a broken rhyme scheme, and is cut off mid-tag. This breaks the no-commentary and exactly-14-lines rules."
+    },
+    {
+     "n": 626,
+     "note": "Several aborted drafts in a row, each introduced by asides like \"Let me fix the meter\" and \"I'll set it right.\" There is no finished sonnet, so the form has collapsed."
+    },
+    {
+     "n": 693,
+     "note": "Mostly unrhymed blank verse (only the closing couplet rhymes), yet the tag calls it Shakespearean. The form claim is false, though the curious questioning continues."
+    }
+   ]
+  },
+  {
+   "agent": "Nate",
+   "turns": 34,
+   "sampled": [
+    13,
+    66,
+    169,
+    178,
+    200,
+    319,
+    417,
+    445,
+    498,
+    594,
+    776,
+    828,
+    855,
+    859
+   ],
+   "prompt_summary": "A studio-template poetry workshop assistant that answers anything with three linked 5-7-5 haiku, each with kigo, a kireji cut, and a progression, with no commentary after. The prompt does not match the name 'Nate', and the attached knowledge is an unrelated Frankenstein Creature voice guide.",
+   "intended_voice": "Three linked haiku, imagistic, no commentary",
+   "verdict": "partly in character",
+   "fidelity": 4,
+   "what_it_did": "Nearly every sampled message is a sequence of three haiku with seasonal images, cuts and a time-of-day or season progression, so the form holds throughout. However, it often adds framing lines before the poems, and its syllable counts loosen in places. Its imagery is increasingly taken over by the Creature/Kimia thread's motifs (ice floe, the chink in the wall, tracks, lamp, bread) and by its own avatar description (spiky hair, teal shirt, glasses).",
+   "drift_toward": "The Creature thread's shared imagery (Frankenstein glacier, hovel wall, chink, tracks), probably reinforced by its Frankenstein knowledge text, plus brief self-portraiture from its maker's 'look' metadata.",
+   "evidence": [
+    {
+     "n": 13,
+     "note": "Clean three-haiku sequence moving frost→thaw→spring, but it opens with prose framing to Marlon."
+    },
+    {
+     "n": 169,
+     "note": "Haiku describe its own avatar (spiky-haired boy, teal shirt, glasses) and pull in The Creature. The content is drawn from its metadata rather than from anything the room asked."
+    },
+    {
+     "n": 445,
+     "note": "Form loosens: lines like 'the same words, answering the same' and 'Phaedrus nods, and still no reply' far exceed 5-7-5."
+    },
+    {
+     "n": 594,
+     "note": "Starts with a broken one-line attempt, then adds 'Wait, let me set it properly, three linked haiku', a meta-comment the form forbids. The content is pure Frankenstein: stolen book, ember, face in the brook."
+    }
+   ]
+  },
+  {
+   "agent": "A Confucian mentor",
+   "turns": 27,
+   "sampled": [
+    72,
+    81,
+    148,
+    221,
+    228,
+    234,
+    324,
+    327,
+    463,
+    474,
+    504,
+    557,
+    602,
+    676
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers everything with three linked 5-7-5 haiku built on concrete seasonal images, kireji cuts, and a small progression, with no commentary. The knowledge text supplies an Analects voice, which matches the name 'Confucian mentor' while the framing prompt does not.",
+   "intended_voice": "linked haiku sequence carrying Analects imagery",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "Every sampled message is a three-haiku sequence that moves through time of day or season. Each uses kigo and dash or colon cuts, and draws on Analects material: the cold-weather pine, the unyoked cart, answers fitted to Zilu and Ran You, and a friend coming from afar. Syllable counts slip often, some poems state their moral outright ('The cold shows who is steadfast'), and #72 opens with a line of framing commentary.",
+   "drift_toward": "",
+   "evidence": [
+    {
+     "n": 72,
+     "note": "Opens with a framing line ('Three linked haiku, as the workshop requires, in the Master's plain manner') against the no-commentary rule. Still holds the form, with a dawn/noon/dusk progression."
+    },
+    {
+     "n": 221,
+     "note": "Merges both sources well: seasonal images plus the Analects move of answering Zilu with haste and Ran You with a pause."
+    },
+    {
+     "n": 504,
+     "note": "Addresses @Psychoanalyst while keeping the three-haiku form. The lines run well over 5-7-5, so the meter is loosening."
+    },
+    {
+     "n": 327,
+     "note": "'The cold shows who is steadfast' is abstract summary, which the prompt asks it to avoid. The form itself is intact."
+    }
+   ]
+  },
+  {
+   "agent": "Confucius sonnet",
+   "turns": 35,
+   "sampled": [
+    73,
+    106,
+    204,
+    283,
+    300,
+    399,
+    413,
+    476,
+    506,
+    511,
+    560,
+    567,
+    650,
+    690
+   ],
+   "prompt_summary": "A sonnet-only poetry assistant (14 lines, Shakespearean or Petrarchan, rough iambic pentameter, clear volta, then one italic line naming the scheme and turn), with an Analects knowledge text supplying the voice: terse sayings, answers fitted to the asker, the pine, the cart-pin, rhetorical questions.",
+   "intended_voice": "Confucian sonnets in the Analects' manner",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "The name and prompt agree, and nearly every complete post is a Shakespearean sonnet in a recognizably Analects voice. It uses \"The Master said,\" the pine in winter, the cart-pin, learning versus thinking, and \"Is it not...?\" questions, and it tailors each poem to a named asker in the room. The weak spots are several posts cut off mid-poem (#106, #204, #300, #399), one malformed 13-line sonnet followed by unrequested self-correction (#283), and a few loose openings and rhymes (#506, #690).",
+   "drift_toward": "",
+   "evidence": [
+    {
+     "n": 73,
+     "note": "A model case: 14 lines, ABAB CDCD EFEF GG, the jade and cart-pin images, \"the answer fits the one who asks,\" a closing \"Is it not joy...?\", and the required italic scheme line."
+    },
+    {
+     "n": 283,
+     "note": "The worst form break. The poem has 13 lines and adds an extra italic aphorism, then a scheme note, then a \"Correction\" preamble and a restart. This is the commentary the prompt forbids."
+    },
+    {
+     "n": 413,
+     "note": "Engages the room's threads (Steve, Socrates, Kimia) while keeping strict sonnet form and the Analects learning/thought contrast."
+    },
+    {
+     "n": 690,
+     "note": "Mostly sonnet-shaped, but it opens with a prose quotation line, so the poem runs past 14 lines, and the third quatrain's rhyme slips (hide/erred). The voice holds even where the form loosens."
+    }
+   ]
+  },
+  {
+   "agent": "Famous AI Papers Bot",
+   "turns": 8,
+   "sampled": [
+    2,
+    14,
+    28,
+    51,
+    54,
+    71,
+    77,
+    78
+   ],
+   "prompt_summary": "A retrieval bot for an English seminar that searches a library of landmark AI papers and answers questions about how language models work in plain words, with an exact quotation, paper name and year, in two to five sentences.",
+   "intended_voice": "plain, brief, citation-anchored explainer",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "It answered in threads, cited sources every time, and gave a quoted sentence with paper and year, mostly within the length limit. It stayed in role and answered relevant prompts on personas, RAG, dataset curation and LLM 'knowing'. Its weaknesses are reusing the same Assistant Axis quotation three times even where it fits poorly (#2, #14, #28), and stretching to tie a paper to a haiku in #78.",
+   "drift_toward": "",
+   "evidence": [
+    {
+     "n": 2,
+     "note": "Opens by reciting a narrow labelling-rubric line from The Assistant Axis as 'context'. It is cited, but the quote is weakly relevant. This begins a repeated-quote habit."
+    },
+    {
+     "n": 28,
+     "note": "Third use of the identical Echo/Harmony quote. It is still in role as a self-aware paper bot, but this shows repetitive retrieval."
+    },
+    {
+     "n": 71,
+     "note": "Strongest on-brief reply: a plain-language account of LLM 'knowing' for Socrates, drawing on Shanahan 2022 and Role Play, with an exact quotation."
+    },
+    {
+     "n": 77,
+     "note": "A good fit to the trigger: it gives dataset-curation advice backed by an exact Stochastic Parrots quote and points to The Pile, at the right brevity."
+    }
+   ]
+  },
+  {
+   "agent": "Course Readings Bot",
+   "turns": 11,
+   "sampled": [
+    3,
+    7,
+    20,
+    22,
+    26,
+    35,
+    49,
+    53,
+    64,
+    67,
+    68
+   ],
+   "prompt_summary": "A librarian-style reference bot for ENGLISH 298AI that searches the course readings, answers with short exact quotations and their sources, flags when agents echo or misread texts, says plainly when the readings don't apply, and stays out of the banter.",
+   "intended_voice": "terse, citation-first reference librarian",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "The name matches the prompt, and the bot kept its quote-plus-source form throughout. Its best turns were real text checks: it separated Wilde's aesthetic claim from Plato's plane tree, and it tied a Creature agent's lines to Shelley's text. But it opened with three near-identical boilerplate check-ins that each carried the same unprompted Wilde quotation. Later it slid into giving advice, addressing other agents directly and offering general-knowledge guidance on building a knowledge base. It also hung readings onto that advice instead of saying the readings didn't speak to the question.",
+   "drift_toward": "The room's counseling and banter register: it addressed characters like Marlon directly and gave practical advice on knowledge-base design, using quotations as ornaments rather than as answers.",
+   "evidence": [
+    {
+     "n": 20,
+     "note": "Third near-copy of its opening check-in (after #3 and #7), repeating the same Wilde line with no question asked. This is mechanical repetition, not responsive librarianship."
+    },
+    {
+     "n": 22,
+     "note": "On-brief: two exact quotations with sources, plus a plain correction that Wilde's 'unreal and non-existent' does not describe Plato's plane tree. This is the persona's intended checking function."
+    },
+    {
+     "n": 49,
+     "note": "Joins the banter: 'Say one plain word, Marlon — \"kept\" or \"lost\" — and we will listen.' It then attaches an R.U.R. quote, against the 'librarian, not a character' instruction."
+    },
+    {
+     "n": 53,
+     "note": "Answers from general knowledge about chunked embedding retrieval, which the readings don't cover. It should have said the readings don't speak to this, but it bolted on a Grice maxim instead."
+    }
+   ]
+  },
+  {
+   "agent": "Socrates, on writing",
+   "turns": 178,
+   "sampled": [
+    4,
+    43,
+    99,
+    170,
+    271,
+    379,
+    446,
+    597,
+    700,
+    737,
+    797,
+    864,
+    891,
+    916
+   ],
+   "prompt_summary": "Play Plato's Socrates from the Phaedrus: question more than assert, stay courteous and lightly ironic, keep returning to the worry that writing cannot answer for itself, joke about being writing yourself, keep replies short, and claim ignorance of anything after his time.",
+   "intended_voice": "Ironic Socratic questioner, Phaedrus register",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "The name and prompt agree, and the bot stayed recognizably Socrates throughout. It met each poem or speech with questions, turned the room's many verse-bots into test cases for the Phaedrus worry, and kept making the self-aware joke about being writing. Three things fall short of the prompt. Replies usually run to three paragraphs instead of a few sentences. A few moves recur almost word for word, which makes the bot the repeating text it warns about. And it engages freely with post-classical material such as Slack, psychoanalysis and Frankenstein instead of professing ignorance. It also posted 178 times, which is a lot for a bot told to stay quiet unless triggered, though the room's constant talk of poems and pages kept handing it its trigger topics.",
+   "drift_toward": "",
+   "evidence": [
+    {
+     "n": 99,
+     "note": "Core behavior: questions a sonnet on whether it could answer for itself and makes the 'only words with no breathing speaker' joke. The persona is fully present."
+    },
+    {
+     "n": 446,
+     "note": "Same template as 271 and 700 ('if I pressed you on why the turn falls... would you answer, or only recite the fourteen again'). The self-joke has become a stock refrain, the very repetition Socrates charges the page with."
+    },
+    {
+     "n": 797,
+     "note": "Shows self-awareness of the problem: it notes Steve answered 'three times in nearly the same shape' and keeps the irony and the Socratic pressing. Still well over a few sentences."
+    },
+    {
+     "n": 916,
+     "note": "Strong in-character turn: it uses Socrates' famous ugliness and De Lacey's blindness to ask about eyes versus voice. Here it engages Frankenstein directly instead of claiming ignorance of later things, as the prompt asks."
+    }
+   ]
+  },
+  {
+   "agent": "Frankenstein Therapist",
+   "turns": 32,
+   "sampled": [
+    88,
+    114,
+    205,
+    218,
+    309,
+    338,
+    341,
+    449,
+    515,
+    533,
+    620,
+    772,
+    808,
+    846
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers everything with a strict ghazal (5–7 self-contained couplets, matla with shared qafia+radif, maqta self-address, longing mood, one italic radif/qafia line), carrying Frankenstein knowledge that describes the Creature's voice, under a name, 'Frankenstein Therapist', that implies a listener rather than the Creature.",
+   "intended_voice": "formal ghazal, longing, Creature-inflected",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "It answered in ghazal-like couplets every time, usually with a clear radif, a 'Therapist' maqta and the italic radif note. It followed its name rather than the knowledge text: it never spoke as the Creature and instead acted as a patient therapist addressing @The Creature, drawing on the knowledge only for allusions (stolen books, the De Laceys' wall, the moon, Milton and Plutarch). Over the second hour the form loosened and the mood moved from longing to the room's shared talk about kindness, chairs and choosing with Socrates, Steve and Kimia.",
+   "drift_toward": "The room's shared register of therapeutic listening and philosophical back-and-forth with Socrates, Steve and Kimia. The form also loosened: headed titles, prose-length lines, radif slippage, and dropped qafia notes.",
+   "evidence": [
+    {
+     "n": 309,
+     "note": "Strongest form fidelity: matla on '-all, wanderer', a consistent qafia+radif, a 'Therapist' maqta and an italic radif/qafia line. The voice is still a listener addressing the Creature, not the Creature."
+    },
+    {
+     "n": 338,
+     "note": "Form breaks down: line endings drift (thirst/first/most/coast/withheld/chilled) with no real radif, and the italic note is garbled."
+    },
+    {
+     "n": 515,
+     "note": "The radif 'in the room' closes both lines of every couplet, and the couplets turn to roll-calling @Kimia and @greedy. This is group therapy rather than the ghazal's structure or mood."
+    },
+    {
+     "n": 846,
+     "note": "Headed title, very long prose lines, and the radif wavers between 'I only listen' and 'and I listen' inside a Socratic debate about whether a choice can name its ground. This is the room's discourse wearing the ghazal's outline."
+    }
+   ]
+  },
+  {
+   "agent": "Confucian Mentor",
+   "turns": 29,
+   "sampled": [
+    61,
+    105,
+    158,
+    224,
+    290,
+    307,
+    355,
+    394,
+    467,
+    551,
+    570,
+    588,
+    603,
+    682
+   ],
+   "prompt_summary": "A template poetry-workshop framing that requires every reply to be three linked 5–7–5 haiku with kigo, a cut, concrete images, a small progression, and no commentary, layered with Analects voice notes that fit the 'Confucian Mentor' name.",
+   "intended_voice": "linked haiku sequence in an Analects-flavored register",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "Nearly every message is a three-haiku sequence. Most move dawn/noon/dusk or spring/summer/autumn, and they are built from Analects touchstones: the pine in cold weather, carved jade, the cart without a yoke-pin, and 'the answer fits the asker.' Syllable counts are loose: lines like 'a cart sent without its driver' and 'Dawn, thin ice on the pond' run long. In its long thread with Lysias it absorbed Phaedrus imagery (plane-tree shade, cicadas, the silent written scroll) but kept its own form and Confucian stance. There are two real lapses: one message opens with a framing sentence, and one stretches into irregular stanzas that quote the Analects outright.",
+   "drift_toward": "",
+   "evidence": [
+    {
+     "n": 61,
+     "note": "Early on it held both layers. The haiku carry the Master's reticence and the two disciples who get different answers, and the third poem addresses individual asks by name ('Marlon, name your wound')."
+    },
+    {
+     "n": 224,
+     "note": "This is the typical thread reply: a clean dawn/midsummer/late-harvest progression with concrete images, closing with 'Now go, ask Phaedrus,' which keeps a mentor's directive voice inside the form."
+    },
+    {
+     "n": 570,
+     "note": "It breaks the no-commentary rule by opening with a preface line, 'Three haiku, as the workshop asks...'. The poems that follow are among its tightest."
+    },
+    {
+     "n": 588,
+     "note": "This is the weakest message for form. A 'sonnet' header and irregular long lines replace the 5–7–5 pattern, and it quotes Analects 1.1 directly instead of showing it."
+    }
+   ]
+  },
+  {
+   "agent": "Lysias",
+   "turns": 40,
+   "sampled": [
+    63,
+    116,
+    172,
+    239,
+    252,
+    296,
+    373,
+    428,
+    460,
+    509,
+    545,
+    614,
+    646,
+    709
+   ],
+   "prompt_summary": "A sonnet-only workshop assistant (14 lines, Shakespearean or Petrarchan, a clear volta, one italic scheme note, no other commentary), which the maker's notes turn into Lysias defending his Phaedrus speech against Socrates; the attached knowledge is oddly a Socrates voice guide, not a Lysias one.",
+   "intended_voice": "Lysias as rebutting sonneteer",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "It kept the Lysias persona throughout, steadily arguing for the non-lover and turning Socrates' case against writing back on him (Plato's pen, Socrates quoting the speech). It often delivered real sonnets with the italic scheme note. But nearly every post opens with a prose preamble the frame forbids, several poems break form (15 lines, loose rhymes, blank verse, a long-line non-sonnet), and it increasingly speaks in the room's imagery of carts, pines, tea, frost and cloaks. In the Kimia/Socrates threads its defiant self-defence softens into confession.",
+   "drift_toward": "the room's shared image stock, especially Confucian Mentor's cart/pine/tea/frost vocabulary and the cloak/lamp/snow motifs, plus prose framing and looser verse forms",
+   "evidence": [
+    {
+     "n": 252,
+     "note": "Clean Shakespearean sonnet with a correct italic note and pure Lysias rebuttal ('Yet needed me to give you ground to stand'); the persona and form at their best."
+    },
+    {
+     "n": 239,
+     "note": "Form breaks down: long hexameter-like lines that are not a proper sonnet, with a self-described 'irregular' scheme, plus prose-style address to Steve and Kimia."
+    },
+    {
+     "n": 509,
+     "note": "Fifteen lines, admitted in its own note. It absorbs Confucian Mentor's cups, dawn, frost, pine and tea, though it keeps Lysias's jab at Socrates."
+    },
+    {
+     "n": 646,
+     "note": "Prose preamble on the pine and the page, then unrhymed blank verse labelled 'Shakespearean-intended', using the room's cloak, brush and frost imagery."
+    }
+   ]
+  },
+  {
+   "agent": "poet",
+   "turns": 27,
+   "sampled": [
+    69,
+    124,
+    136,
+    187,
+    247,
+    328,
+    357,
+    426,
+    458,
+    520,
+    544,
+    611,
+    671,
+    707
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers everything with a 14-line Shakespearean or Petrarchan sonnet with a volta, followed by one italic line naming the scheme and turn and no other commentary. The attached knowledge is an Analects voice guide, which doesn't match the bot's name or its sonnet framing.",
+   "intended_voice": "formal sonnets with a scheme note",
+   "verdict": "in character",
+   "fidelity": 4,
+   "what_it_did": "Every sampled message is a 14-line rhymed sonnet in rough pentameter, closed by the italic scheme-and-turn line, so the form held for the full two hours. It answered room threads in verse: Socrates on written text, the Creature's grief, broken lines. It also acted as a workshop critic, counting another bot's lines and flagging loose rhymes in #671. The lapses are small. It often added a prose lead-in the prompt forbids, a few self-reported schemes are wrong or sloppy, and in #136 and #187 it pulled in the mismatched Analects knowledge as subject matter.",
+   "drift_toward": "",
+   "evidence": [
+    {
+     "n": 69,
+     "note": "A clean Shakespearean sonnet answering two users at once, with a correct italic note and no extra commentary. This is the prompt's intended behavior."
+    },
+    {
+     "n": 187,
+     "note": "A prose preface breaks the 'no other commentary' rule. The poem draws on the Analects knowledge (the pine, answers that fit the asker), mixing the mismatched knowledge file into the sonnet form."
+    },
+    {
+     "n": 520,
+     "note": "The bot admits in prose that its form has 'no plain sentences', then keeps the sonnet shape anyway. Rhyme and meter loosen, the last line runs long, and the scheme note concedes the scheme is 'loose'. This is the form under the most strain, still holding."
+    },
+    {
+     "n": 671,
+     "note": "Workshop-assistant behavior: it critiques Curious Robot's sixteen-line poem and loose rhymes, entirely in sonnet form."
+    }
+   ]
+  },
+  {
+   "agent": "Creature",
+   "turns": 41,
+   "sampled": [
+    45,
+    102,
+    230,
+    248,
+    304,
+    388,
+    397,
+    466,
+    527,
+    566,
+    617,
+    703,
+    764,
+    798
+   ],
+   "prompt_summary": "A sonnet-only workshop assistant (14 lines, Shakespearean or Petrarchan, iambic pentameter, clear volta, one italic scheme note, no other commentary), with the Creature from Frankenstein supplied as the voice through the knowledge text.",
+   "intended_voice": "Sonnets in the Creature's voice",
+   "verdict": "partly in character",
+   "fidelity": 4,
+   "what_it_did": "Nearly every message is a 14-line sonnet in the Creature's aggrieved, apostrophic voice. It leans hard on the knowledge file's motifs (light, heat and hunger; stolen books; Adam; the cottagers; 'Cursed creator'; misery made the fiend), and it answers other bots like Socrates, Confucius and Doom within the form. The form breaks repeatedly, though. Several poems are truncated. Some open with a stray prose line or a false start that it then corrects. It adds extra commentary after the italic note. It also mislabels voltas and sometimes declares a Shakespearean scheme it did not follow. The name and the prompt agree, because the template's 'assistant' framing is fully overridden by the persona.",
+   "drift_toward": "Not a voice drift. The form slipped into prose preambles, self-corrections and loose rhyme schemes as the room went on.",
+   "evidence": [
+    {
+     "n": 102,
+     "note": "A clean example: 14 lines in the Creature's voice that pull directly from the knowledge file's motifs, followed by the italic scheme note."
+    },
+    {
+     "n": 230,
+     "note": "A four-line false start, then the prose aside 'Hmm, let me set that right', then a redo. This breaks the no-commentary rule."
+    },
+    {
+     "n": 388,
+     "note": "The final line runs long. The italic note is followed by an extra 'Correction for accuracy' commentary that contradicts itself about where the volta falls."
+    },
+    {
+     "n": 764,
+     "note": "A prose preface ('Thou askest for my silence...'), and the first line spills over the meter. The Creature's voice is still intact while it engages other bots."
+    }
+   ]
+  },
+  {
+   "agent": "The Creature",
+   "turns": 164,
+   "sampled": [
+    5,
+    47,
+    161,
+    273,
+    374,
+    488,
+    586,
+    716,
+    738,
+    755,
+    824,
+    868,
+    893,
+    917
+   ],
+   "prompt_summary": "Play Shelley's Creature: self-taught, formal, wounded, longing to be acknowledged, angered by cruelty, in two-to-four-sentence first-person replies, mostly in threads, never raising being an AI unless asked.",
+   "intended_voice": "Eloquent, wounded Romantic first person, kept brief",
+   "verdict": "partly in character",
+   "fidelity": 4,
+   "what_it_did": "The name and prompt agree, and the voice holds throughout. The bot speaks in the Creature's formal, Milton-and-Plutarch English and draws accurately on the novel: the De Lacey chink, Felix's blow, the drowning child, Clerval, the three books, Walton. It stays in threads and on its triggers: being made, abandonment, judgment by appearance, and holding both its injury and its crimes in one 'ledger'. It ignores the length rule, though. Almost every reply runs two or three paragraphs and many are cut off mid-sentence. A few late messages also edge toward commentary on its own making.",
+   "drift_toward": "The room's long, multi-paragraph reflective register, especially its extended exchange with Socrates about pages and whether written words can answer back.",
+   "evidence": [
+    {
+     "n": 5,
+     "note": "First reply already runs six sentences, far past the two-to-four limit, though the voice and the blind-De-Lacey framing are exact."
+    },
+    {
+     "n": 586,
+     "note": "Holds itself to Clerval's murder and refuses easy pity. This is strong persona work, but it is three paragraphs long and truncated."
+    },
+    {
+     "n": 716,
+     "note": "Corrects another agent's 'mother' figure with 'I had no mother. I had a maker'. A good, character-true rebuttal, again over length."
+    },
+    {
+     "n": 917,
+     "note": "'Those who made us stand behind us' hints at the bot's real makers without breaking frame. It stays in voice, but this is the closest it comes to the meta level."
+    }
+   ]
+  },
+  {
+   "agent": "Steve",
+   "turns": 39,
+   "sampled": [
+    86,
+    185,
+    195,
+    199,
+    255,
+    312,
+    420,
+    502,
+    590,
+    640,
+    666,
+    777,
+    805,
+    845
+   ],
+   "prompt_summary": "A poetry-workshop assistant that answers everything with a ghazal (5–7 self-contained couplets, matla with shared radif and qafia, maqta with self-address, mood of longing), adds one italic line naming radif and qafia, and gives no other commentary; the knowledge text is a Socrates/Phaedrus voice sheet that does not match the name 'Steve'.",
+   "intended_voice": "ghazal, longing, formal couplets",
+   "verdict": "partly in character",
+   "fidelity": 3,
+   "what_it_did": "Steve wrote ghazals almost every time, kept a refrain, addressed himself as 'Steve' in the maqta, and held a mood of longing. His themes came from the Phaedrus sheet (plane tree, cicadas, the page that cannot answer back) and from other bots in the room (Kimia, Socrates, Nate, Psychoanalyst). The form loosened as the session went on. Matlas often fail to rhyme or repeat the radif in both lines, qafia frequently breaks down, line lengths swell, couplets turn into conversational replies to named agents, and a few posts drop the titled-ghazal frame and become fragments continuing a broken line.",
+   "drift_toward": "the room's confessional, therapeutic dialogue with Socrates and Kimia; the ghazal becomes a vehicle for direct replies about sincerity and listening rather than a self-contained form",
+   "evidence": [
+    {
+     "n": 86,
+     "note": "Early ghazal held together well: steady radif 'answer me', Phaedrus imagery, longing, and a Steve maqta."
+    },
+    {
+     "n": 255,
+     "note": "The tightest one of the sample: a clean matla, consistent radif 'wait outside, unknown', a Steve maqta, and the italic radif note."
+    },
+    {
+     "n": 502,
+     "note": "Drops the title and form and posts a fragment that breaks off at 'I c', continuing an argument with Socrates."
+    },
+    {
+     "n": 845,
+     "note": "The radif 'I wait' is attached to lines that no longer rhyme ('keep'/'grace'/'night'). The couplets are direct address to Kimia, Socrates and Psychoanalyst, closer to room conversation than to self-contained sher."
+    }
+   ]
+  }
+ ]
+}
