@@ -1,0 +1,147 @@
+{
+  "built": "2026-11-03",
+  "method": "Verified research by Claude Code in the building session, following 02-topography-prompt.md. Every modern claim names a source that was opened; sources marked opened:false were not read directly and appear only as reported by an opened source.",
+  "stade": {
+    "metres": "about 185 m for an Attic stade; estimates for the Greek stadion range 150–210 m",
+    "two_or_three_stades": "roughly 350–550 m",
+    "source": "wiki-stadion"
+  },
+  "sources": {
+    "plato": { "opened": true, "cite": "Plato, Phaedrus, ed. Burnet (1901); trans. Fowler (1914) and Jowett (1892). Copies in inputs/texts/." },
+    "pausanias": { "opened": true, "cite": "Pausanias, Description of Greece 1.19.1–6, trans. W. H. S. Jones (Loeb, 1918), Perseus Digital Library TEI.", "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0160:book=1:chapter=19", "file": "inputs/pausanias-1.19-jones.json" },
+    "cicero": { "opened": false, "cite": "Cicero, De oratore 1.28 (the plane tree as a literary fiction), as reported by McHugh 2017 n. 80." },
+    "thompson1868": { "opened": false, "cite": "W. H. Thompson, The Phaedrus of Plato (London, 1868), 9: the scene is at Agrai and accurate “even down to the tree itself”, as reported by Simms 2002/3 n. 1 and McHugh 2017 n. 80." },
+    "rodenwaldt1912": { "opened": false, "cite": "G. Rodenwaldt, “Pan am Ilissos”, Athenische Mitteilungen 37 (1912) 141–150: identified the rock-cut shrine of Pan by Agia Fotini as the resting place, as reported by Simms 2002/3 n. 5 and McHugh 2017 pp. 53–54 and nn. 148–149." },
+    "wycherley1963": { "opened": false, "cite": "R. E. Wycherley, “The Scene of Plato’s Phaidros”, Phoenix 17.2 (1963) 88–98, doi:10.2307/1085896. Not opened (JSTOR); its argument is cited here only as reported by Simms 2002/3 (n. 1, n. 33) and McHugh 2017 (n. 80, pp. 53–54, nn. 148–149): the scene lies upstream of Agrai, at the crossing, on the east bank at the foot of Ardettos; the overall topography is real but no particular tree need be.", "url": "https://doi.org/10.2307/1085896", "crossref_checked": "2026-11-03" },
+    "travlos1971": { "opened": false, "cite": "J. Travlos, Pictorial Dictionary of Ancient Athens (London/New York, 1971) 112–113, 204, 289–291 and fig. 154: accepts Wycherley’s location; records a large spring on the west bank opposite Agia Fotini; maps the Ilissos sanctuaries. As reported by Simms 2002/3 nn. 1, 5, 8, 33 and McHugh 2017 nn. 69, 148, 159." },
+    "simms2003": { "opened": true, "cite": "Robert Simms, “Agra and Agrai”, Greek, Roman, and Byzantine Studies 43 (2002/3) 219–229 (open access).", "url": "https://grbs.library.duke.edu/index.php/grbs/article/download/1701/2891/11831" },
+    "mchugh2017": { "opened": true, "cite": "Sarah McHugh, Renewing Athens: The Ideology of the Past in Roman Greece (DPhil thesis, University of Oxford, Hilary Term 2017), ch. 1, pp. 33–36, 53–54 and notes 69–81, 146–159 (open access, ORA).", "url": "https://ora.ox.ac.uk/objects/uuid:edb6cac4-ff85-4635-9e66-f92524b7226c" },
+    "miles1980": { "opened": false, "cite": "M. M. Miles, “The Date of the Temple on the Ilissos River”, Hesperia 49 (1980) 309–325 (temple c. 435–430 BC), as reported by Simms 2002/3 n. 8." },
+    "wiki-olympieion": { "opened": true, "cite": "Wikipedia, “Temple of Olympian Zeus, Athens” (read 2026-11-03): c. 500 m south-east of the Acropolis; on the site of an ancient open-air sanctuary of Zeus; Peisistratid temple begun c. 520 BC and abandoned 510 BC; resumed 174 BC; finished under Hadrian AD 131/2.", "url": "https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens" },
+    "wiki-ilisos": { "opened": true, "cite": "Wikipedia, “Ilisos” (read 2026-11-03): rises on Hymettus; passes the Panathenaic Stadium and the south-east flank of the Olympieion; covered gradually in the 19th–20th centuries, now a runoff conduit under streets; visible in reed beds by the church of Agia Fotini.", "url": "https://en.wikipedia.org/wiki/Ilisos" },
+    "telegraph2019": { "opened": true, "cite": "Nick Squires, “Athens hatches ambitious plan to uncover fabled river”, The Telegraph, 10 March 2019 (via athenscentre.gr): the river was covered in the 1930s during rapid urban development, with a tram line built on top; it emerges briefly in reed beds behind the Olympieion.", "url": "https://athenscentre.gr/athens-hatches-ambitious-plan-to-uncover-fabled-river-once-the-haunt-of-socrates-and-turn-it-into-a-park/" },
+    "wiki-stadium": { "opened": true, "cite": "Wikipedia, “Panathenaic Stadium” (read 2026-11-03): in a natural ravine between the hills of Agra and Ardettos, south of the Ilissos; built by Lykourgos c. 330 BC; rebuilt in marble by Herodes Atticus AD 139/40–143/4.", "url": "https://en.wikipedia.org/wiki/Panathenaic_Stadium" },
+    "wiki-stadion": { "opened": true, "cite": "Wikipedia, “Stadion (unit)” (read 2026-11-03): estimates between 150 and 210 m, converging on about 185 m for an Attic stade.", "url": "https://en.wikipedia.org/wiki/Stadion_(unit)" },
+    "religiousgreece": { "opened": true, "cite": "Religious Greece (Church of Greece), “Church of Agia Fotini” (read 2026-11-03): built beside the still-visible, dry riverbed next to Kallirois street; reconstructed 1872; the site was a place of worship in antiquity (a temple of Hecate is claimed).", "url": "https://www.religiousgreece.gr/en/attractions/church-agia-fotini" },
+    "nomadicniko": { "opened": true, "cite": "“Parilissia Sanctuaries”, nomadicniko.com (read 2026-11-03): the church of 1872 sits next to the sanctuary of Pan, a rocky outcrop with a small cave on Ardittou Street; a relief of Pan was found on its southern face in 1911; the temple of Artemis Agrotera is across the street to the east.", "url": "https://nomadicniko.com/greece/athens/parilissia-sanctuaries/" },
+    "osm": { "opened": true, "cite": "OpenStreetMap features retrieved by Overpass and Nominatim on 2026-11-03 (© OpenStreetMap contributors, ODbL); ids in 03-landmarks.json." }
+  },
+  "stops": [
+    {
+      "n": 1, "id": "from-lysias", "stephanus": "227a–227b", "title": "Where from, where to",
+      "text_words": "“He was staying with Epicrates, here at the house that belonged to Morychus, near the Olympieum.” (227b, Fowler)",
+      "where": "The precinct of Olympian Zeus, south-east of the Acropolis. The temple we see is Hadrian’s; in the dialogue’s day the site held the huge unfinished Peisistratid temple, abandoned in 510 BC. Phaedrus is coming from a house near it and heading “outside the wall”.",
+      "lat": 37.9694, "lon": 23.7331, "landmarks": ["olympieion"], "position_status": "located-landmark",
+      "certainty": "high",
+      "what_is_certain": "The Olympieion is securely identified and continuously known; it is the one fixed point Plato gives for the start of the walk.",
+      "what_is_conjecture": "Which house was Morychus’s, and which gate they left by, are unknown; the text names neither.",
+      "sources": ["plato", "wiki-olympieion", "pausanias"]
+    },
+    {
+      "n": 2, "id": "walk-to-megara", "stephanus": "227c–227d", "title": "A walk to Megara and back",
+      "text_words": "“I will not leave you, even if you extend your walk to Megara, and, as Herodicus says, go to the wall and back again.” (227d, Fowler)",
+      "where": "On the way out: a joke about distance. Megara is about 40 km west of Athens; Herodicus the trainer prescribed walking to a city’s wall and back. The pair are still inside or just at the wall.",
+      "lat": 37.9689, "lon": 23.7337, "landmarks": ["olympieion"], "position_status": "along-route-conjectural",
+      "certainty": "medium",
+      "what_is_certain": "The city wall ran close to the Olympieion on this side; the river lay outside it (McHugh 2017 p. 33: cults “just outside the city wall on either side of the river”).",
+      "what_is_conjecture": "The exact line of the Classical wall here and the gate used are reconstructed, not excavated in place; the marker sits on the conjectural route, not on a find.",
+      "sources": ["plato", "mchugh2017"]
+    },
+    {
+      "n": 3, "id": "under-the-cloak", "stephanus": "228d–228e", "title": "The speech under the cloak",
+      "text_words": "“Show me what you have in your left hand, under your cloak. For I suspect you have the actual discourse.” (228d, Fowler) — “But where shall we sit and read?” (228e)",
+      "where": "Still walking. The written speech comes out from under the cloak and the walk acquires a destination: somewhere to sit and read. The dialogue about writing begins with a text being carried out of the city.",
+      "lat": 37.9685, "lon": 23.7339, "landmarks": [], "position_status": "along-route-conjectural",
+      "certainty": "medium",
+      "what_is_certain": "Nothing topographic is asserted in this passage; the only certainty is that they are between the Olympieion and the river.",
+      "what_is_conjecture": "The marker position is a point on the conjectural route, chosen to keep the stops in walking order.",
+      "sources": ["plato"]
+    },
+    {
+      "n": 4, "id": "turn-to-the-ilissus", "stephanus": "229a", "title": "Turning aside to the Ilissus",
+      "text_words": "“Let us turn aside here and go along the Ilissus; then we can sit down quietly wherever we please.” … “It is easiest then for us to go along the brook with our feet in the water.” (229a, Fowler)",
+      "where": "The Ilissos below the Olympieion. Today the river is culverted under Kallirois and Ardittou streets; the one stretch open to the sky is the reedy bed beside the church of Agia Fotini, a few minutes’ walk south-east of the temple. The marker is on that uncovered stretch.",
+      "lat": 37.9679, "lon": 23.7341, "landmarks": ["ilissos-open", "agia-fotini", "delphinion"], "position_status": "located-landmark",
+      "certainty": "high",
+      "what_is_certain": "The river’s course past the Olympieion is mapped (OSM) and visible here; this is where anyone leaving the Olympieion for the Ilissos arrives at water.",
+      "what_is_conjecture": "Where exactly they stepped in. The ancient bed was wider and open; the modern channel is engineered.",
+      "sources": ["plato", "wiki-ilisos", "telegraph2019", "religiousgreece", "osm"]
+    },
+    {
+      "n": 5, "id": "boreas-and-agra", "stephanus": "229b–229e", "title": "Boreas, Oreithyia, and the crossing to Agra",
+      "text_words": "“No, the place is about two or three furlongs farther down, where you cross over to the precinct of Agra; and there is an altar of Boreas somewhere thereabouts.” (229c, Fowler; Jowett: “about a quarter of a mile lower down, where you cross to the temple of Artemis”)",
+      "where": "Walking upstream with their feet in the water. Socrates places the Boreas altar two or three stades (roughly 350–550 m) downstream, at the crossing to Agrai, so by now they have passed it. Agrai is the district across the Ilissos (Pausanias 1.19.6) where the Ionic “Ilissos temple” stood until 1778; its site, on Ardittou Street across from the Pan rock, marks the crossing. The stop marker is in the stream upstream of it; a second, dashed marker shows the crossing.",
+      "lat": 37.9683, "lon": 23.7368, "landmarks": ["artemis-agrotera", "zeus-meilichios"], "position_status": "along-route-conjectural",
+      "secondary": { "label": "Crossing to Agrai; altar of Boreas “somewhere thereabouts”", "lat": 37.9676, "lon": 23.7352, "status": "conjectural" },
+      "certainty": "medium",
+      "what_is_certain": "Agrai lay across the Ilissos with a temple of Artemis Agrotera (Pausanias 1.19.6); the Ionic temple’s foundations and terrace wall were excavated in 1897 and 1962 (Simms n. 8). Pausanias 1.19.5 says Oreithyia was carried off from the Ilissos but names no monument.",
+      "what_is_conjecture": "The altar of Boreas has not been found; Socrates himself says only “somewhere thereabouts”. Whether the Ilissos temple was Artemis’s or the Mother’s is disputed (Simms n. 33). The 350–550 m figure depends on the stade value.",
+      "sources": ["plato", "pausanias", "simms2003", "miles1980", "wiki-stadion", "osm"]
+    },
+    {
+      "n": 6, "id": "the-plane-tree", "stephanus": "230a–230e", "title": "The plane tree",
+      "text_words": "“This plane tree is very spreading and lofty, and the tall and shady willow is very beautiful … the spring is very pretty as it flows under the plane tree, and its water is very cool, to judge by my foot. And it seems to be a sacred place of some nymphs and of Achelous, judging by the figurines and statues.” (230b–c, Fowler) — “You don’t go outside the walls at all.” (230d)",
+      "where": "Disputed. Two candidates are drawn. (A) Upstream, on the east bank at the foot of Ardettos near where the Stadium was later cut: Wycherley 1963, accepted by Travlos 1971; a fourth-century relief to Pan, Achelous and the Nymphs dedicated by launderers (IG II² 2934) was found in the Stadium nearby (McHugh pp. 53–54). (B) The rock-cut shrine of Pan beside Agia Fotini, at Agrai: Rodenwaldt 1912, after Thompson 1868 who put the scene at Agrai. The text’s own arithmetic favours (A): the Agrai crossing is “farther down” from where they already are.",
+      "lat": 37.9691, "lon": 23.7393, "landmarks": ["ardettos", "panathenaic-stadium"], "position_status": "conjectural-disputed",
+      "alternatives": [
+        { "label": "A · Wycherley 1963 / Travlos 1971: east bank at the foot of Ardettos, by the crossing", "lat": 37.9691, "lon": 23.7393, "status": "conjectural" },
+        { "label": "B · Rodenwaldt 1912: the rock-cut shrine of Pan by Agia Fotini", "lat": 37.9674, "lon": 23.7343, "status": "conjectural" }
+      ],
+      "certainty": "low",
+      "what_is_certain": "That the Ilissos bank between the Olympieion and Ardettos was thick with exactly the cults Plato names (Pan, Achelous and the Nymphs, Boreas, the Muses) is corroborated by inscriptions and finds (McHugh pp. 33–34, 53–54).",
+      "what_is_conjecture": "The tree itself. Cicero already thought it a fiction (De orat. 1.28); Wycherley held the topography real but no particular tree required (McHugh n. 80). No excavation has produced a shrine of Achelous and the Nymphs at either candidate.",
+      "sources": ["plato", "cicero", "thompson1868", "rodenwaldt1912", "wycherley1963", "travlos1971", "simms2003", "mchugh2017", "nomadicniko", "wiki-stadium"]
+    },
+    {
+      "n": 7, "id": "noon", "stephanus": "242a–242b", "title": "Noon: “I will cross the river”",
+      "text_words": "“I shall cross this stream and go away before you put some further compulsion upon me.” — “Not yet, Socrates, till the heat is past. Don’t you see that it is already almost noon?” (242a, Fowler)",
+      "where": "At the plane tree. Socrates’ way home is across the stream: they are on the far bank from the city, which is what the Wycherley reading requires.",
+      "lat": 37.9691, "lon": 23.7393, "landmarks": [], "position_status": "at-the-plane-tree",
+      "certainty": "low",
+      "what_is_certain": "The passage fixes the time (near noon, midsummer: the cicadas, the heat) and that a crossing lies between them and home.",
+      "what_is_conjecture": "Everything spatial here inherits the uncertainty of stop 6.",
+      "sources": ["plato"]
+    },
+    {
+      "n": 8, "id": "the-cicadas", "stephanus": "258e–259d", "title": "The cicadas overhead",
+      "text_words": "“The locusts seem to be looking down upon us as they sing and talk with each other in the heat.” (258e, Fowler; Jowett: “grasshoppers”; Greek téttiges, cicadas)",
+      "where": "At the plane tree, in the midday heat. The cicadas’ myth makes the place itself a reason to keep talking rather than sleep.",
+      "lat": 37.9691, "lon": 23.7393, "landmarks": [], "position_status": "at-the-plane-tree",
+      "certainty": "low",
+      "what_is_certain": "Plane trees and cicadas still belong to the Ilissos bank in summer; the Jowett and Fowler renderings disagree on the insect.",
+      "what_is_conjecture": "As stop 6.",
+      "sources": ["plato"]
+    },
+    {
+      "n": 9, "id": "theuth-and-thamus", "stephanus": "274c–275b", "title": "Theuth and Thamus: writing as a pharmakon",
+      "text_words": "“For it is an elixir of memory and wisdom that I have discovered.” … “You have invented an elixir not of memory, but of reminding.” (274e–275a, Fowler; Jowett: “a specific”)",
+      "where": "At the plane tree. The myth about writing is told outdoors, far from any book but the one under Phaedrus’ cloak. The pharmakon project (translation/03-phaedrus-pharmakon) follows the word pharmakon through seventeen translations of this passage.",
+      "lat": 37.9691, "lon": 23.7393, "landmarks": [], "position_status": "at-the-plane-tree",
+      "certainty": "low",
+      "what_is_certain": "The passage is Phaedrus 274c–275b in every edition; its setting is the same spot as 230b.",
+      "what_is_conjecture": "As stop 6.",
+      "sources": ["plato"],
+      "crosslink": { "label": "The pharmakon project (translation/03-phaedrus-pharmakon): pharmakon across five centuries", "href": "../../../translation/03-phaedrus-pharmakon/outputs/index.html" }
+    },
+    {
+      "n": 10, "id": "back-to-lysias", "stephanus": "278b", "title": "“Go and tell Lysias”",
+      "text_words": "“Go and tell Lysias that you and I came down to the fountain and sacred place of the nymphs, and heard words which they told us to repeat to Lysias.” (278b, Fowler)",
+      "where": "At the plane tree, naming it: a spring and a shrine of the Nymphs. The message is to be carried back into the city, to the house near the Olympieion where the walk began.",
+      "lat": 37.9691, "lon": 23.7393, "landmarks": [], "position_status": "at-the-plane-tree",
+      "certainty": "low",
+      "what_is_certain": "Plato calls the place a nāma (spring) and mouseion of the Nymphs; McHugh n. 73 lists the shrine of the Muses here with the altar of the Ilissian Muses of Pausanias 1.19.5.",
+      "what_is_conjecture": "Whether “mouseion” names a built shrine or the Nymphs’ haunt is argued in recent scholarship; nothing of it is excavated.",
+      "sources": ["plato", "pausanias", "mchugh2017"]
+    },
+    {
+      "n": 11, "id": "prayer-to-pan", "stephanus": "279b–279c", "title": "The prayer to Pan, and “let us go”",
+      "text_words": "“O beloved Pan and all ye other gods of this place …” — “Let us go.” (279b–c, Fowler)",
+      "where": "At the plane tree, then back. Pan is the right god to pray to here: he was worshipped in the rock-cut shrine by Agia Fotini and, with Achelous and the Nymphs, near the crossing (McHugh pp. 53–54). The dotted line is the way back to the city, drawn in the only direction the text allows.",
+      "lat": 37.9691, "lon": 23.7393, "landmarks": ["pan-sanctuary"], "position_status": "at-the-plane-tree",
+      "certainty": "low",
+      "what_is_certain": "Pan’s cult on this bank is attested by the rock relief found in 1911 and by IG II² 2934.",
+      "what_is_conjecture": "The return route; the text ends with “let us go” and nothing more.",
+      "sources": ["plato", "mchugh2017", "simms2003", "nomadicniko"]
+    }
+  ]
+}

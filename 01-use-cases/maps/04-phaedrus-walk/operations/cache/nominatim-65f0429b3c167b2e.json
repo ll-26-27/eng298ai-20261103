@@ -1,0 +1,27 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&q=Delphinion%2C%20Athens&viewbox=23.70,37.99,23.78,37.95&bounded=1",
+  "fetched": "2026-11-03T15:45:01.876Z",
+  "data": [
+    {
+      "place_id": 55951343,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 146815833,
+      "lat": "37.9685709",
+      "lon": "23.7329860",
+      "category": "building",
+      "type": "yes",
+      "place_rank": 30,
+      "importance": 0.1570394422394589,
+      "addresstype": "building",
+      "name": "Δελφίνιον",
+      "display_name": "Δελφίνιον, Αθανάσιου Διάκου, Συνοικία Νέου Κόσμου, 2η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 58, Ελλάς",
+      "boundingbox": [
+        "37.9684689",
+        "37.9686727",
+        "23.7327823",
+        "23.7331896"
+      ]
+    }
+  ]
+}

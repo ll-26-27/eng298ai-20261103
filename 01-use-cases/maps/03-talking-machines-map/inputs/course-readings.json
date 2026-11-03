@@ -1,0 +1,43 @@
+{
+  "note": "Metadata only: the readings of ENGLISH 298AI (Fall 2026) by seminar, as listed on the course syllabus, plus the folder of technical papers on AI the course works through. Years here are what a reader would write down from the syllabus; the verify step checks each one. No text from any reading is included.",
+  "course": "ENGLISH 298AI: AI Humanities Lab, Fall 2026",
+  "seminar_readings": [
+    { "seminar": 2, "date": "2026-09-15", "role": "required", "author": "Mary Shelley", "title": "Frankenstein; or, The Modern Prometheus", "year": 1818 },
+    { "seminar": 2, "date": "2026-09-15", "role": "suggested", "author": "James Whale (director)", "title": "Frankenstein (film)", "year": 1931 },
+    { "seminar": 3, "date": "2026-09-22", "role": "required", "author": "Oscar Wilde", "title": "The Picture of Dorian Gray", "year": 1890 },
+    { "seminar": 3, "date": "2026-09-22", "role": "recommended", "author": "Oscar Wilde", "title": "The Critic as Artist (in Intentions)", "year": 1891 },
+    { "seminar": 4, "date": "2026-09-29", "role": "required", "author": "Karel Čapek", "title": "R.U.R. (Rossum's Universal Robots)", "year": 1920 },
+    { "seminar": 4, "date": "2026-09-29", "role": "recommended", "author": "Henri Bergson", "title": "Laughter (Le Rire)", "year": 1900 },
+    { "seminar": 4, "date": "2026-09-29", "role": "further", "author": "Nina Beguš", "title": "Artificial Humanities", "year": 2025 },
+    { "seminar": 5, "date": "2026-10-06", "role": "required", "author": "Plato", "title": "Phaedrus", "year": -370 },
+    { "seminar": 5, "date": "2026-10-06", "role": "recommended", "author": "Confucius (attributed; compiled by disciples)", "title": "Analects", "year": -475 },
+    { "seminar": 6, "date": "2026-10-13", "role": "required", "author": "Harvey Sacks, Emanuel Schegloff, Gail Jefferson", "title": "A Simplest Systematics for the Organization of Turn-Taking for Conversation (Language 50:4)", "year": 1974 },
+    { "seminar": 6, "date": "2026-10-13", "role": "required", "author": "H. P. Grice", "title": "Logic and Conversation (in Syntax and Semantics 3)", "year": 1975 },
+    { "seminar": 7, "date": "2026-10-20", "role": "required", "author": "Murray Shanahan, Kyle McDonell, Laria Reynolds", "title": "Role Play with Large Language Models (Nature 623)", "year": 2023 },
+    { "seminar": 7, "date": "2026-10-20", "role": "referenced", "author": "Amanda Askell et al.", "title": "A General Language Assistant as a Laboratory for Alignment", "year": 2021 }
+  ],
+  "papers_on_ai_folder": [
+    { "arxiv": "1301.3781", "title": "Efficient Estimation of Word Representations in Vector Space" },
+    { "arxiv": "1409.0473", "title": "Neural Machine Translation by Jointly Learning to Align and Translate" },
+    { "arxiv": "1706.03741", "title": "Deep Reinforcement Learning from Human Preferences" },
+    { "arxiv": "1706.03762", "title": "Attention Is All You Need" },
+    { "arxiv": "1810.04805", "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" },
+    { "arxiv": "1910.10683", "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer" },
+    { "arxiv": "2001.08361", "title": "Scaling Laws for Neural Language Models" },
+    { "arxiv": "2005.11401", "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks" },
+    { "arxiv": "2005.14165", "title": "Language Models are Few-Shot Learners" },
+    { "arxiv": "2009.01325", "title": "Learning to Summarize from Human Feedback" },
+    { "arxiv": "2106.09685", "title": "LoRA: Low-Rank Adaptation of Large Language Models" },
+    { "arxiv": "2112.00861", "title": "A General Language Assistant as a Laboratory for Alignment" },
+    { "arxiv": "2201.08239", "title": "LaMDA: Language Models for Dialog Applications" },
+    { "arxiv": "2201.11903", "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models" },
+    { "arxiv": "2203.02155", "title": "Training Language Models to Follow Instructions with Human Feedback" },
+    { "arxiv": "2203.15556", "title": "Training Compute-Optimal Large Language Models" },
+    { "arxiv": "2210.03629", "title": "ReAct: Synergizing Reasoning and Acting in Language Models" },
+    { "arxiv": "2212.03551", "title": "Talking About Large Language Models" },
+    { "arxiv": "2212.08073", "title": "Constitutional AI: Harmlessness from AI Feedback" },
+    { "arxiv": "2302.13971", "title": "LLaMA: Open and Efficient Foundation Language Models" },
+    { "arxiv": "2304.03442", "title": "Generative Agents: Interactive Simulacra of Human Behavior" },
+    { "arxiv": "2305.16367", "title": "Role Play with Large Language Models" }
+  ]
+}

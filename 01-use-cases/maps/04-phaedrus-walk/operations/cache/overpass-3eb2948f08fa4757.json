@@ -1,0 +1,245 @@
+{
+  "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3B(way(63765671)%3Brelation(4423249)%3Bway(175107932)%3Bway(146815833)%3Bway(81830941)%3Bnode(4881822067)%3Bway(395596983)%3Bway(479255983)%3Bnode(9517245642)%3Brelation(19023844)%3B)%3Bout%20center%20tags%3B",
+  "fetched": "2026-11-03T15:52:01.827Z",
+  "data": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-11-03T15:50:27Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 4881822067,
+        "lat": 37.9674159,
+        "lon": 23.7342523,
+        "tags": {
+          "archaeological_site": "petroglyph",
+          "description": "Εικόνα του Πάνα",
+          "historic": "archaeological_site",
+          "historic:civilization": "ancient_greek",
+          "historic:period": "classical_greece",
+          "name": "Ιερό Πανός"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9517245642,
+        "lat": 37.9675371,
+        "lon": 23.7356737,
+        "tags": {
+          "historic": "archaeological_site",
+          "name": "Ναός του Μειλιχίου Διός",
+          "wikidata": "Q110833611"
+        }
+      },
+      {
+        "type": "way",
+        "id": 63765671,
+        "center": {
+          "lat": 37.9693685,
+          "lon": 23.7330942
+        },
+        "tags": {
+          "alt_name": "Στύλοι του Ολυμπίου Διός",
+          "fee": "regular 2 euros, reduced 1 euro",
+          "historic": "ruins",
+          "historic:civilization": "ancient_greek",
+          "name": "Ναός του Ολυμπίου Διός",
+          "name:da": "Templet for den Olympiske Zeus",
+          "name:de": "Tempel des Olympischen Zeus",
+          "name:el": "Ναός του Ολυμπίου Διός",
+          "name:en": "Temple of Olympian Zeus",
+          "name:es": "Templo de Zeus Olímpico",
+          "name:fr": "Olympiéion",
+          "name:it": "Tempio di Zeus Olimpio",
+          "name:ml": "ഒളിമ്പിയോൺ സിയൂസിന്റെ ക്ഷേത്രം",
+          "opening_hours": "Mo-Su 08:00-18:30",
+          "ruin_type": "temple",
+          "tourism": "attraction",
+          "wheelchair": "no",
+          "wikidata": "Q1123019",
+          "wikipedia": "el:Ναός του Ολυμπίου Διός"
+        }
+      },
+      {
+        "type": "way",
+        "id": 81830941,
+        "center": {
+          "lat": 37.9676498,
+          "lon": 23.7342716
+        },
+        "tags": {
+          "amenity": "place_of_worship",
+          "building": "church",
+          "check_date": "2026-10-09",
+          "denomination": "greek_orthodox",
+          "name": "Αγία Φωτεινή",
+          "religion": "christian",
+          "source": "http://www.panoramio.com/photo/46703109",
+          "start_date": "1872"
+        }
+      },
+      {
+        "type": "way",
+        "id": 146815833,
+        "center": {
+          "lat": 37.9685708,
+          "lon": 23.7329859
+        },
+        "tags": {
+          "building": "yes",
+          "historic": "ruins",
+          "historic:civilization": "ancient_greek",
+          "name": "Δελφίνιον",
+          "name:el": "Δελφίνιον",
+          "name:en": "Temple of Apollo Delphinios",
+          "ruin_type": "temple",
+          "wikidata": "Q97206898",
+          "wikipedia": "el:Δελφίνιον"
+        }
+      },
+      {
+        "type": "way",
+        "id": 175107932,
+        "center": {
+          "lat": 37.9701868,
+          "lon": 23.732013
+        },
+        "tags": {
+          "building": "yes",
+          "historic": "yes",
+          "name": "Πύλη του Αδριανού",
+          "name:ca": "Arc d'Adrià",
+          "name:de": "Hadrianstor",
+          "name:el": "Πύλη του Αδριανού",
+          "name:en": "Arch of Hadrian",
+          "name:es": "Arco de Adriano",
+          "name:fr": "Porte d'Hadrien",
+          "name:it": "Arco di Adriano",
+          "name:ko": "하드리아누스의 개선문",
+          "name:nl": "Poort van Hadrianus",
+          "name:pl": "Łuk Hadriana",
+          "name:pt": "Arco de Adriano",
+          "name:ru": "Арка Адриана",
+          "name:zh": "哈德良拱门",
+          "tourism": "attraction",
+          "wheelchair": "yes",
+          "wikidata": "Q1567576",
+          "wikipedia": "el:Πύλη του Αδριανού"
+        }
+      },
+      {
+        "type": "way",
+        "id": 395596983,
+        "center": {
+          "lat": 37.9678039,
+          "lon": 23.7343265
+        },
+        "tags": {
+          "layer": "-1",
+          "name": "Ιλισσός",
+          "tunnel": "no",
+          "waterway": "river",
+          "width": "2"
+        }
+      },
+      {
+        "type": "way",
+        "id": 479255983,
+        "center": {
+          "lat": 37.9675299,
+          "lon": 23.7354744
+        },
+        "tags": {
+          "archaeological_site": "temple",
+          "historic": "archaeological_site",
+          "historic:civilization": "ancient_greek",
+          "name": "Ναός Αγροτέρας Αρτέμιδος",
+          "name:el": "Ναός Αγροτέρας Αρτέμιδος",
+          "name:en": "Temple of Artemis Agrotera",
+          "ruins": "yes",
+          "website": "https://www.artemisagrotera.org",
+          "wikidata": "Q20084335"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 4423249,
+        "center": {
+          "lat": 37.9717048,
+          "lon": 23.7264289
+        },
+        "tags": {
+          "castle_type": "fortress",
+          "dog": "no",
+          "ele": "156",
+          "heritage": "1",
+          "heritage:operator": "whc",
+          "historic": "castle",
+          "historic:civilization": "ancient_greek",
+          "landmark": "1",
+          "name": "Ακρόπολη",
+          "name:ar": "أكروبوليس أثينا",
+          "name:bg": "Акропол",
+          "name:ckb": "ئاکرۆپۆلیسی ئەتینا",
+          "name:de": "Akropolis",
+          "name:el": "Ακρόπολη",
+          "name:en": "Acropolis",
+          "name:es": "Acrópolis",
+          "name:fa": "آکروپولیس شهر آتن",
+          "name:fr": "Acropole",
+          "name:hr": "Atenska akropola",
+          "name:ja": "衛城",
+          "name:ko": "아크로폴리스",
+          "name:ml": "അക്രോപൊളീസ്",
+          "name:zh": "雅典卫城",
+          "ref:whc": "404",
+          "source:ele": "wikipedia",
+          "tourism": "attraction",
+          "type": "multipolygon",
+          "whc:criteria": "i,ii,iii,iv,vi",
+          "whc:inscription_date": "1987",
+          "wheelchair": "yes",
+          "wikidata": "Q131013",
+          "wikipedia": "el:Ακρόπολη Αθηνών"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 19023844,
+        "center": {
+          "lat": 37.9683381,
+          "lon": 23.7409634
+        },
+        "tags": {
+          "alt_name": "Καλλιμάρμαρο",
+          "archaeological_site": "amphitheatre",
+          "contact:email": "info@panathenaicstadium.gr",
+          "contact:fax": "+ 30 210 75 26 386",
+          "contact:phone": "+ 30 210 75 22 984-6",
+          "contact:website": "http://www.panathenaicstadium.gr/Default.aspx?tabid=84&language=en-US",
+          "historic": "archaeological_site",
+          "historic:civilization": "ancient_greek",
+          "historic:period": "archaic_greece",
+          "layer": "-1",
+          "leisure": "stadium",
+          "name": "Παναθηναϊκό Στάδιο",
+          "name:de": "Panathinaiko-Stadion",
+          "name:el": "Παναθηναϊκό Στάδιο",
+          "name:en": "Panathenaic Stadium",
+          "name:es": "Estadio Panatenaico",
+          "name:fr": "Stade panathénaïque",
+          "name:ru": "Стадион Панатинаикос",
+          "opening_hours": "Mar-Oct: 08:00-19:00, Nov-Feb: 08:00-17:00",
+          "start_date": "C6 BC",
+          "tourism": "attraction",
+          "type": "multipolygon",
+          "wikidata": "Q208811",
+          "wikipedia": "en:Panathenaic Stadium"
+        }
+      }
+    ]
+  }
+}

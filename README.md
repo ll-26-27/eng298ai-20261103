@@ -57,7 +57,7 @@ the question, check the evidence, and decide what is worth sharing.
 
 | Folder | Contents |
 |---|---|
-| [01-use-cases/](01-use-cases/README.md) | Start with translation: a French source, a prompt chain, and an interactive bilingual HTML page. |
+| [01-use-cases/](01-use-cases/README.md) | Worked examples in four groups: `_writing/` (books, notebook, paper), `translation/`, `maps/`, and `distant-reading/`. |
 | [02-your-project/](02-your-project/) | Your workspace: `inputs/`, `operations/`, and `outputs/`. |
 | [context/](context/README.md) | Shared context pack from `eng-298ai-context`: full-text course readings and AI papers, plus reading notes, in Markdown. |
 | [resources/](resources/README.md) | Glossary, setup guides, and handouts adapted from the desktop-app workshop. |

@@ -1,0 +1,1045 @@
+{
+  "built": "2026-11-03",
+  "sources": {
+    "greek": {
+      "file": "inputs/texts/phaedrus-grc-burnet-perseus-grc2.xml",
+      "edition": "Plato, Platonis Opera, ed. John Burnet, vol. 2 (Oxford: Clarendon Press, 1901)",
+      "encoding": "Perseus Digital Library TEI (canonical-greekLit), CC BY-SA 4.0",
+      "notesDropped": 0
+    },
+    "fowler": {
+      "file": "inputs/texts/phaedrus-en-1914-fowler-perseus-eng2.xml",
+      "edition": "Plato in Twelve Volumes, vol. 1, trans. Harold North Fowler, Loeb Classical Library (Cambridge, MA: Harvard University Press; London: Heinemann, 1914)",
+      "encoding": "Perseus Digital Library TEI (canonical-greekLit), CC BY-SA 4.0",
+      "notesDropped": 11
+    },
+    "jowett": {
+      "file": "inputs/texts/phaedrus-en-1892-jowett-pg1636.txt",
+      "edition": "The Dialogues of Plato, trans. Benjamin Jowett, 3rd ed. (Oxford: Clarendon Press, 1892)",
+      "encoding": "Project Gutenberg #1636",
+      "stephanus": "none in the file; passages located by anchor phrases"
+    }
+  },
+  "stops": [
+    {
+      "n": 1,
+      "id": "from-lysias",
+      "title": "Where from, where to",
+      "stephanus": "227a–227b",
+      "greek": [
+        {
+          "speaker": "Socrates",
+          "text": "ὦ φίλε Φαῖδρε, ποῖ δὴ καὶ πόθεν;",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "παρὰ Λυσίου, ὦ Σώκρατες, τοῦ Κεφάλου, πορεύομαι δὲ πρὸς περίπατον ἔξω τείχους· συχνὸν γὰρ ἐκεῖ διέτριψα χρόνον καθήμενος ἐξ ἑωθινοῦ. τῷ δὲ σῷ καὶ ἐμῷ ἑταίρῳ πειθόμενος Ἀκουμενῷ κατὰ τὰς ὁδοὺς ποιοῦμαι τοὺς περιπάτους· φησὶ γὰρ ἀκοπωτέρους εἶναι τῶν ἐν τοῖς δρόμοις.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "καλῶς γάρ, ὦ ἑταῖρε, λέγει. ἀτὰρ Λυσίας ἦν, ὡς ἔοικεν, ἐν ἄστει.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "ναί, παρʼ Ἐπικράτει, ἐν τῇδε τῇ πλησίον τοῦ Ὀλυμπίου οἰκίᾳ τῇ Μορυχίᾳ.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "τίς οὖν δὴ ἦν ἡ διατριβή; ἢ δῆλον ὅτι τῶν λόγων ὑμᾶς Λυσίας εἱστία;",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "πεύσῃ, εἴ σοι σχολὴ προϊόντι ἀκούειν.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "τί δέ; οὐκ ἂν οἴει με κατὰ Πίνδαρον καὶ ἀσχολίας ὑπέρτερον πρᾶγμα ποιήσασθαι τὸ τεήν τε καὶ Λυσίου διατριβὴν ἀκοῦσαι;",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Socrates",
+          "text": "Dear Phaedrus, whither away, and where do you come from?",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "From Lysias, Socrates, the son of Cephalus; and I am going for a walk outside the wall. For I spent a long time there with Lysias, sitting since early morning; and on the advice of your friend and mine, Acumenus, I am taking my walk on the roads; for he says they are less fatiguing than the streets.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "He is right, my friend. Then Lysias, it seems,was in the city?",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Yes, at Epicrates’ house, the one that belonged to Morychus, near the Olympieum.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "What was your conversation? But it is obvious that Lysias entertained you with his speeches.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "You shall hear, if you have leisure to walk along and listen.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "What? Don’t you believe that I consider hearing your conversation with Lysias a greater thing even than business,Pind. Isthm 1.1as Pindar says?",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Socrates",
+          "text": "My dear Phaedrus, whence come you, and whither are you going?"
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "I come from Lysias the son of Cephalus, and I am going to take a walk outside the wall, for I have been sitting with him the whole morning; and our common friend Acumenus tells me that it is much more refreshing to walk in the open air than to be shut up in a cloister."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "There he is right. Lysias then, I suppose, was in the town?"
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Yes, he was staying with Epicrates, here at the house of Morychus; that house which is near the temple of Olympian Zeus."
+        }
+      ],
+      "jowettAnchors": {
+        "start": "SOCRATES: My dear Phaedrus, whence come you",
+        "end": "near the temple of Olympian Zeus."
+      }
+    },
+    {
+      "n": 2,
+      "id": "walk-to-megara",
+      "title": "A walk to Megara and back",
+      "stephanus": "227c–227d",
+      "greek": [
+        {
+          "speaker": "Phaedrus",
+          "text": "πρόαγε δή.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "λέγοις ἄν.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "καὶ μήν, ὦ Σώκρατες, προσήκουσα γέ σοι ἡ ἀκοή· ὁ γάρ τοι λόγος ἦν, περὶ ὃν διετρίβομεν, οὐκ οἶδʼ ὅντινα τρόπον ἐρωτικός. γέγραφε γὰρ δὴ ὁ Λυσίας πειρώμενόν τινα τῶν καλῶν, οὐχ ὑπʼ ἐραστοῦ δέ, ἀλλʼ αὐτὸ δὴ τοῦτο καὶ κεκόμψευται· λέγει γὰρ ὡς χαριστέον μὴ ἐρῶντι μᾶλλον ἢ ἐρῶντι.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ὢ γενναῖος. εἴθε γράψειεν ὡς χρὴ πένητι μᾶλλον ἢ πλουσίῳ, καὶ πρεσβυτέρῳ ἢ νεωτέρῳ, καὶ ὅσα ἄλλα ἐμοί τε πρόσεστι καὶ τοῖς πολλοῖς ἡμῶν· ἦ γὰρ ἂν ἀστεῖοι καὶ δημωφελεῖς εἶεν οἱ λόγοι. ἔγωγʼ οὖν οὕτως ἐπιτεθύμηκα ἀκοῦσαι, ὥστʼ ἐὰν βαδίζων ποιῇ τὸν περίπατον Μέγαράδε καὶ κατὰ Ἡρόδικον προσβὰς τῷ τείχει πάλιν ἀπίῃς, οὐ μή σου ἀπολειφθῶ.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "πῶς λέγεις, ὦ βέλτιστε Σώκρατες; οἴει με, ἃ",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Phaedrus",
+          "text": "Lead on, then.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Speak.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Indeed, Socrates, you are just the man to hear it. For the discourse about which we conversed, was in a way, a love-speech. For Lysias has represented one of the beauties being tempted, but not by a lover; this is just the clever thing about it; for he says that favors should be granted rather to the one who is not in love than to the lover.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "O noble Lysias! I wish he would write that they should be granted to the poor rather than to the rich, to the old rather than to the young, and so of all the other qualities that I and most of us have; for truly his discourse would be witty and of general utility. I am so determined to hear you, that I will not leave you, even if you extend your walk to Megara, and, as Herodicus says, go to the wall and back again.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "What are you saying, my dear Socrates?",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Phaedrus",
+          "text": "Will you go on?"
+        },
+        {
+          "speaker": "Socrates",
+          "text": "And will you go on with the narration?"
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "My tale, Socrates, is one of your sort, for love was the theme which occupied us--love after a fashion: Lysias has been writing about a fair youth who was being tempted, but not by a lover; and this was the point: he ingeniously proved that the non-lover should be accepted rather than the lover."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "O that is noble of him! I wish that he would say the poor man rather than the rich, and the old man rather than the young one;--then he would meet the case of me and of many a man; his words would be quite refreshing, and he would be a public benefactor. For my part, I do so long to hear his speech, that if you walk all the way to Megara, and when you have reached the wall come back, as Herodicus recommends, without going in, I will keep you company."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "What do you mean, my good Socrates?"
+        }
+      ],
+      "jowettAnchors": {
+        "start": "PHAEDRUS: Will you go on?",
+        "end": "PHAEDRUS: What do you mean, my good Socrates?"
+      }
+    },
+    {
+      "n": 3,
+      "id": "under-the-cloak",
+      "title": "The speech under the cloak",
+      "stephanus": "228d–228e",
+      "greek": [
+        {
+          "speaker": "Phaedrus",
+          "text": "οὑτωσὶ τοίνυν ποιήσω. τῷ ὄντι γάρ, ὦ Σώκρατες, παντὸς μᾶλλον τά γε ῥήματα οὐκ ἐξέμαθον· τὴν μέντοι διάνοιαν σχεδὸν ἁπάντων, οἷς ἔφη διαφέρειν τὰ τοῦ ἐρῶντος ἢ τὰ τοῦ μή, ἐν κεφαλαίοις ἕκαστον ἐφεξῆς δίειμι, ἀρξάμενος ἀπὸ τοῦ πρώτου.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "δείξας γε πρῶτον, ὦ φιλότης, τί ἄρα ἐν τῇ ἀριστερᾷ ἔχεις ὑπὸ τῷ ἱματίῳ· τοπάζω γάρ σε ἔχειν τὸν λόγον αὐτόν. εἰ δὲ τοῦτό ἐστιν, οὑτωσὶ διανοοῦ περὶ ἐμοῦ, ὡς ἐγώ σε πάνυ μὲν φιλῶ, παρόντος δὲ καὶ Λυσίου, ἐμαυτόν σοι ἐμμελετᾶν παρέχειν οὐ πάνυ δέδοκται. ἀλλʼ ἴθι, δείκνυε.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "παῦε. ἐκκέκρουκάς με ἐλπίδος, ὦ Σώκρατες, ἣν εἶχον ἐν σοὶ ὡς ἐγγυμνασόμενος. ἀλλὰ ποῦ δὴ βούλει καθιζόμενοι ἀναγνῶμεν;",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Phaedrus",
+          "text": "Then this is what I will do. Really, Socrates, I have not at all learned the words by heart; but I will repeat the general sense of the whole, the points in which he said the lover was superior to the non-lover, giving them in summary, one after the other, beginning with the first.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Yes, my dear, when you have first shown me what you have in your left hand, under your cloak. For I suspect you have the actual discourse. And if that is the case, believe this of me, that I am very fond of you, but when Lysias is here I have not the slightest intention of lending you my ears to practice on. Come now, show it.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Stop. You have robbed me of the hope I had of practicing on you. But where shall we sit and read?",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Phaedrus",
+          "text": "I will do as I say; but believe me, Socrates, I did not learn the very words--O no; nevertheless I have a general notion of what he said, and will give you a summary of the points in which the lover differed from the non-lover. Let me begin at the beginning."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Yes, my sweet one; but you must first of all show what you have in your left hand under your cloak, for that roll, as I suspect, is the actual discourse. Now, much as I love you, I would not have you suppose that I am going to have your memory exercised at my expense, if you have Lysias himself here."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Enough; I see that I have no hope of practising my art upon you. But if I am to read, where would you please to sit?"
+        }
+      ],
+      "jowettAnchors": {
+        "start": "PHAEDRUS: I will do as I say; but believe me",
+        "end": "where would you please to sit?"
+      }
+    },
+    {
+      "n": 4,
+      "id": "turn-to-the-ilissus",
+      "title": "Turning aside to the Ilissus",
+      "stephanus": "229a",
+      "greek": [
+        {
+          "speaker": "Socrates",
+          "text": "δεῦρʼ ἐκτραπόμενοι κατὰ τὸν Ἰλισὸν ἴωμεν, εἶτα ὅπου ἂν δόξῃ ἐν ἡσυχίᾳ καθιζησόμεθα.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "εἰς καιρόν, ὡς ἔοικεν, ἀνυπόδητος ὢν ἔτυχον· σὺ μὲν γὰρ δὴ ἀεί. ῥᾷστον οὖν ἡμῖν κατὰ τὸ ὑδάτιον βρέχουσι τοὺς πόδας ἰέναι, καὶ οὐκ ἀηδές, ἄλλως τε καὶ τήνδε τὴν ὥραν τοῦ ἔτους τε καὶ τῆς ἡμέρας.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "πρόαγε δή, καὶ σκόπει ἅμα ὅπου καθιζησόμεθα.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "ὁρᾷς οὖν ἐκείνην τὴν ὑψηλοτάτην πλάτανον;",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "τί μήν;",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Socrates",
+          "text": "Let us turn aside here and go along the Ilissus; then we can sit down quietly wherever we please.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "I am fortunate, it seems, in being barefoot; you are so always. It is easiest then for us to go along the brook with our feet in the water, and it is not unpleasant, especially at this time of the year and the day.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Lead on then, and look out for a good place where we may sit.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Do you see that very tall plane tree?",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "What of it?",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Socrates",
+          "text": "Let us turn aside and go by the Ilissus; we will sit down at some quiet spot."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "I am fortunate in not having my sandals, and as you never have any, I think that we may go along the brook and cool our feet in the water; this will be the easiest way, and at midday and in the summer is far from being unpleasant."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Lead on, and look out for a place in which we can sit down."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Do you see the tallest plane-tree in the distance?"
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Yes."
+        }
+      ],
+      "jowettAnchors": {
+        "start": "SOCRATES: Let us turn aside and go by the Ilissus",
+        "end": "the tallest plane-tree in the distance?\n\nSOCRATES: Yes."
+      }
+    },
+    {
+      "n": 5,
+      "id": "boreas-and-agra",
+      "title": "Boreas, Oreithyia, and the crossing to Agra",
+      "stephanus": "229b–229e",
+      "greek": [
+        {
+          "speaker": "Phaedrus",
+          "text": "ἐκεῖ σκιά τʼ ἐστὶν καὶ πνεῦμα μέτριον, καὶ πόα καθίζεσθαι ἢ ἂν βουλώμεθα κατακλινῆναι.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "προάγοις ἄν.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "εἰπέ μοι, ὦ Σώκρατες, οὐκ ἐνθένδε μέντοι ποθὲν ἀπὸ τοῦ Ἰλισοῦ λέγεται ὁ Βορέας τὴν Ὠρείθυιαν ἁρπάσαι;",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "λέγεται γάρ.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "ἆρʼ οὖν ἐνθένδε; χαρίεντα γοῦν καὶ καθαρὰ καὶ διαφανῆ τὰ ὑδάτια φαίνεται, καὶ ἐπιτήδεια κόραις παίζειν παρʼ αὐτά.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "οὔκ, ἀλλὰ κάτωθεν ὅσον δύʼ ἢ τρία στάδια, ᾗ πρὸς τὸ ἐν Ἄγρας διαβαίνομεν· καὶ πού τίς ἐστι βωμὸς αὐτόθι Βορέου.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "οὐ πάνυ νενόηκα· ἀλλʼ εἰπὲ πρὸς Διός, ὦ Σώκρατες, σὺ τοῦτο τὸ μυθολόγημα πείθῃ ἀληθὲς εἶναι;",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ἀλλʼ εἰ ἀπιστοίην, ὥσπερ οἱ σοφοί, οὐκ ἂν ἄτοπος εἴην, εἶτα σοφιζόμενος φαίην αὐτὴν πνεῦμα Βορέου κατὰ τῶν πλησίον πετρῶν σὺν Φαρμακείᾳ παίζουσαν ὦσαι, καὶ οὕτω δὴ τελευτήσασαν λεχθῆναι ὑπὸ τοῦ Βορέου ἀνάρπαστον γεγονέναι—ἢ ἐξ Ἀρείου πάγου· λέγεται γὰρ αὖ καὶ οὗτος ὁ λόγος, ὡς ἐκεῖθεν ἀλλʼ οὐκ ἐνθένδε ἡρπάσθη. ἐγὼ δέ, ὦ Φαῖδρε, ἄλλως μὲν τὰ τοιαῦτα χαρίεντα ἡγοῦμαι, λίαν δὲ δεινοῦ καὶ ἐπιπόνου καὶ οὐ πάνυ εὐτυχοῦς ἀνδρός, κατʼ ἄλλο μὲν οὐδέν, ὅτι δʼ αὐτῷ ἀνάγκη μετὰ τοῦτο τὸ τῶν Ἱπποκενταύρων εἶδος ἐπανορθοῦσθαι, καὶ αὖθις τὸ τῆς Χιμαίρας, καὶ ἐπιρρεῖ δὲ ὄχλος τοιούτων Γοργόνων καὶ Πηγάσων καὶ ἄλλων ἀμηχάνων πλήθη τε καὶ ἀτοπίαι τερατολόγων τινῶν φύσεων· αἷς εἴ τις ἀπιστῶν προσβιβᾷ κατὰ τὸ εἰκὸς ἕκαστον, ἅτε ἀγροίκῳ τινὶ σοφίᾳ χρώμενος, πολλῆς αὐτῷ σχολῆς δεήσει.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ἐμοὶ δὲ πρὸς αὐτὰ οὐδαμῶς ἐστι σχολή· τὸ δὲ αἴτιον, ὦ φίλε, τούτου τόδε. οὐ δύναμαί πω κατὰ τὸ Δελφικὸν γράμμα γνῶναι ἐμαυτόν· γελοῖον δή μοι φαίνεται",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Phaedrus",
+          "text": "There is shade there and a moderate breeze and grass to sit on, or, if we like, to lie down on.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Lead the way.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Tell me, Socrates, is it not from some place along here by the Ilissus that Boreas is said to have carried off Oreithyia?",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Yes, that is the story.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Well, is it from here? The streamlet looks very pretty and pure and clear and fit for girls to play by.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "No, the place is about two or three furlongs farther down, where you cross over to the precinct of Agra; and there is an altar of Boreas somewhere thereabouts.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "I have never noticed it. But, for Heaven’s sake, Socrates, tell me; do you believe this tale is true?",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "If I disbelieved, as the wise men do, I should not be extraordinary; then I might give a rational explanation, that a blast of Boreas, the north wind, pushed her off the neighboring rocks as she was playing with Pharmacea, and that when she had died in this manner she was said to have been carried off by Boreas. But I, Phaedrus, think such explanations are very pretty in general, but are the inventions of a very clever and laborious and not altogether enviable man, for no other reason than because after this he must explain the forms of the Centaurs, and then that of the Chimaera, and there presses in upon him a whole crowd of such creatures, Gorgons and Pegas, and multitudes of strange, inconceivable, portentous natures. If anyone disbelieves in these, and with a rustic sort of wisdom, undertakes to explain each in accordance with probability, he will need a great deal of leisure.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "But I have no leisure for them at all; and the reason, my friend, is this: I am not yet able, as the Delphic inscription has it, to know myself; so it seems to me ridiculous,",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Phaedrus",
+          "text": "There are shade and gentle breezes, and grass on which we may either sit or lie down."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Move forward."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "I should like to know, Socrates, whether the place is not somewhere here at which Boreas is said to have carried off Orithyia from the banks of the Ilissus?"
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Such is the tradition."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "And is this the exact spot? The little stream is delightfully clear and bright; I can fancy that there might be maidens playing near."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "I believe that the spot is not exactly here, but about a quarter of a mile lower down, where you cross to the temple of Artemis, and there is, I think, some sort of an altar of Boreas at the place."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "I have never noticed it; but I beseech you to tell me, Socrates, do you believe this tale?"
+        },
+        {
+          "speaker": "Socrates",
+          "text": "The wise are doubtful, and I should not be singular if, like them, I too doubted. I might have a rational explanation that Orithyia was playing with Pharmacia, when a northern gust carried her over the neighbouring rocks; and this being the manner of her death, she was said to have been carried away by Boreas. There is a discrepancy, however, about the locality; according to another version of the story she was taken from Areopagus, and not from this place. Now I quite acknowledge that these allegories are very nice, but he is not to be envied who has to invent them; much labour and ingenuity will be required of him; and when he has once begun, he must go on and rehabilitate Hippocentaurs and chimeras dire. Gorgons and winged steeds flow in apace, and numberless other inconceivable and portentous natures. And if he is sceptical about them, and would fain reduce them one after another to the rules of probability, this sort of crude philosophy will take up a great deal of time."
+        }
+      ],
+      "jowettAnchors": {
+        "start": "PHAEDRUS: There are shade and gentle breezes",
+        "end": "will take up a great deal of time."
+      }
+    },
+    {
+      "n": 6,
+      "id": "the-plane-tree",
+      "title": "The plane tree",
+      "stephanus": "230a–230e",
+      "greek": [
+        {
+          "speaker": "Socrates",
+          "text": "τοῦτο ἔτι ἀγνοοῦντα τὰ ἀλλότρια σκοπεῖν. ὅθεν δὴ χαίρειν ἐάσας ταῦτα, πειθόμενος δὲ τῷ νομιζομένῳ περὶ αὐτῶν, ὃ νυνδὴ ἔλεγον, σκοπῶ οὐ ταῦτα ἀλλʼ ἐμαυτόν, εἴτε τι θηρίον ὂν τυγχάνω Τυφῶνος πολυπλοκώτερον καὶ μᾶλλον ἐπιτεθυμμένον, εἴτε ἡμερώτερόν τε καὶ ἁπλούστερον ζῷον, θείας τινὸς καὶ ἀτύφου μοίρας φύσει μετέχον. ἀτάρ, ὦ ἑταῖρε, μεταξὺ τῶν λόγων, ἆρʼ οὐ τόδε ἦν τὸ δένδρον ἐφʼ ὅπερ ἦγες ἡμᾶς;",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "τοῦτο μὲν οὖν αὐτό.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "νὴ τὴν Ἥραν, καλή γε ἡ καταγωγή. ἥ τε γὰρ πλάτανος αὕτη μάλʼ ἀμφιλαφής τε καὶ ὑψηλή, τοῦ τε ἄγνου τὸ ὕψος καὶ τὸ σύσκιον πάγκαλον, καὶ ὡς ἀκμὴν ἔχει τῆς ἄνθης, ὡς ἂν εὐωδέστατον παρέχοι τὸν τόπον· ἥ τε αὖ πηγὴ χαριεστάτη ὑπὸ τῆς πλατάνου ῥεῖ μάλα ψυχροῦ ὕδατος, ὥστε γε τῷ ποδὶ τεκμήρασθαι. Νυμφῶν τέ τινων καὶ Ἀχελῴου ἱερὸν ἀπὸ τῶν κορῶν τε καὶ ἀγαλμάτων ἔοικεν εἶναι. εἰ δʼ αὖ βούλει, τὸ εὔπνουν τοῦ τόπου ὡς ἀγαπητὸν καὶ σφόδρα ἡδύ· θερινόν τε καὶ λιγυρὸν ὑπηχεῖ τῷ τῶν τεττίγων χορῷ. πάντων δὲ κομψότατον τὸ τῆς πόας, ὅτι ἐν ἠρέμα προσάντει ἱκανὴ πέφυκε κατακλινέντι τὴν κεφαλὴν παγκάλως ἔχειν. ὥστε ἄριστά σοι ἐξενάγηται, ὦ φίλε Φαῖδρε.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "σὺ δέ γε, ὦ θαυμάσιε, ἀτοπώτατός τις φαίνῃ. ἀτεχνῶς γάρ, ὃ λέγεις, ξεναγουμένῳ τινὶ καὶ οὐκ ἐπιχωρίῳ ἔοικας· οὕτως ἐκ τοῦ ἄστεος οὔτʼ εἰς τὴν ὑπερορίαν ἀποδημεῖς, οὔτʼ ἔξω τείχους ἔμοιγε δοκεῖς τὸ παράπαν ἐξιέναι.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "συγγίγνωσκέ μοι, ὦ ἄριστε. φιλομαθὴς γάρ εἰμι· τὰ μὲν οὖν χωρία καὶ τὰ δένδρα οὐδέν μʼ ἐθέλει διδάσκειν, οἱ δʼ ἐν τῷ ἄστει ἄνθρωποι. σὺ μέντοι δοκεῖς μοι τῆς ἐμῆς ἐξόδου τὸ φάρμακον ηὑρηκέναι. ὥσπερ γὰρ οἱ τὰ πεινῶντα θρέμματα θαλλὸν ἤ τινα καρπὸν προσείοντες ἄγουσιν, σὺ ἐμοὶ λόγους οὕτω προτείνων ἐν βιβλίοις τήν τε Ἀττικὴν φαίνῃ περιάξειν ἅπασαν καὶ ὅποι ἂν ἄλλοσε βούλῃ. νῦν δʼ οὖν ἐν τῷ παρόντι δεῦρʼ ἀφικόμενος ἐγὼ μέν μοι δοκῶ κατακείσεσθαι, σὺ δʼ ἐν ὁποίῳ σχήματι οἴει ῥᾷστα ἀναγνώσεσθαι, τοῦθʼ ἑλόμενος ἀναγίγνωσκε.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "ἄκουε δή.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "περὶ μὲν τῶν ἐμῶν πραγμάτων ἐπίστασαι, καὶ ὡς νομίζω συμφέρειν ἡμῖν γενομένων τούτων ἀκήκοας· ἀξιῶ δὲ μὴ διὰ",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Socrates",
+          "text": "when I do not yet know that, to investigate irrelevant things. And so I dismiss these matters and accepting the customary belief about them, as I was saying just now, I investigate not these things, but myself, to know whether I am a monster more complicated and more furious than Typhon or a gentler and simpler creature, to whom a divine and quiet lot is given by nature. But, my friend, while we were talking, is not this the tree to which you were leading us?",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Yes, this is it.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "By Hera, it is a charming resting place. For this plane tree is very spreading and lofty, and the tall and shady willow is very beautiful, and it is in full bloom, so as to make the place most fragrant; then, too, the spring is very pretty as it flows under the plane tree, and its water is very cool, to judge by my foot. And it seems to be a sacred place of some nymphs and of Achelous, judging by the figurines and statues. Then again, if you please, how lovely and perfectly charming the breeziness of the place is! and it resounds with the shrill summer music of the chorus of cicadas. But the most delightful thing of all is the grass, as it grows on the gentle slope, thick enough to be just right when you lay your head on it. So you have guided the stranger most excellently, dear Phaedrus.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "You are an amazing and most remarkable person. For you really do seem exactly like a stranger who is being guided about, and not like a native. You don’t go away from the city out over the border, and it seems to me you don’t go outside the walls at all.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Forgive me, my dear friend. You see, I am fond of learning. Now the country places and the trees won’t teach me anything, and the people in the city do. But you seem to have found the charm to bring me out. For as people lead hungry animals by shaking in front of them a branch of leaves or some fruit, just so, I think, you, by holding before me discourses in books, will lead me all over Attica and wherever else you please. So now that I have come here, I intend to lie down, and do you choose the position in which you think you can read most easily, and read.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Hear then.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "You know what my condition is, and you have heard how I think it is to our advantage to arrange these matters.",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Socrates",
+          "text": "Now I have no leisure for such enquiries; shall I tell you why? I must first know myself, as the Delphian inscription says; to be curious about that which is not my concern, while I am still in ignorance of my own self, would be ridiculous. And therefore I bid farewell to all this; the common opinion is enough for me. For, as I was saying, I want to know not about this, but about myself: am I a monster more complicated and swollen with passion than the serpent Typho, or a creature of a gentler and simpler sort, to whom Nature has given a diviner and lowlier destiny? But let me ask you, friend: have we not reached the plane-tree to which you were conducting us?",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Yes, this is the tree."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "By Here, a fair resting-place, full of summer sounds and scents. Here is this lofty and spreading plane-tree, and the agnus castus high and clustering, in the fullest blossom and the greatest fragrance; and the stream which flows beneath the plane-tree is deliciously cold to the feet. Judging from the ornaments and images, this must be a spot sacred to Achelous and the Nymphs. How delightful is the breeze:--so very sweet; and there is a sound in the air shrill and summerlike which makes answer to the chorus of the cicadae. But the greatest charm of all is the grass, like a pillow gently sloping to the head. My dear Phaedrus, you have been an admirable guide."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "What an incomprehensible being you are, Socrates: when you are in the country, as you say, you really are like some stranger who is led about by a guide. Do you ever cross the border? I rather think that you never venture even outside the gates."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Very true, my good friend; and I hope that you will excuse me when you hear the reason, which is, that I am a lover of knowledge, and the men who dwell in the city are my teachers, and not the trees or the country. Though I do indeed believe that you have found a spell with which to draw me out of the city into the country, like a hungry cow before whom a bough or a bunch of fruit is waved. For only hold up before me in like manner a book, and you may lead me all round Attica, and over the wide world. And now having arrived, I intend to lie down, and do you choose any posture in which you can read best. Begin."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Listen. You know how matters stand with me; and how, as I conceive, this affair may be arranged for the advantage of both of us."
+        }
+      ],
+      "jowettAnchors": {
+        "start": "Now I have no leisure for such enquiries",
+        "end": "may be arranged for the advantage of both of us."
+      }
+    },
+    {
+      "n": 7,
+      "id": "noon",
+      "title": "Noon: “I will cross the river”",
+      "stephanus": "242a–242b",
+      "greek": [
+        {
+          "speaker": "Socrates",
+          "text": "πείσεται· κἀγὼ τὸν ποταμὸν τοῦτον διαβὰς ἀπέρχομαι πρὶν ὑπὸ σοῦ τι μεῖζον ἀναγκασθῆναι.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "μήπω γε, ὦ Σώκρατες, πρὶν ἂν τὸ καῦμα παρέλθῃ. ἢ οὐχ ὁρᾷς ὡς σχεδὸν ἤδη μεσημβρία ἵσταται ἡ δὴ καλουμένη σταθερά; ἀλλὰ περιμείναντες καὶ ἅμα περὶ τῶν εἰρημένων διαλεχθέντες, τάχα ἐπειδὰν ἀποψυχῇ ἴμεν.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "θεῖός γʼ εἶ περὶ τοὺς λόγους, ὦ Φαῖδρε, καὶ ἀτεχνῶς θαυμάσιος. οἶμαι γὰρ ἐγὼ τῶν ἐπὶ τοῦ σοῦ βίου γεγονότων λόγων μηδένα πλείους ἢ σὲ πεποιηκέναι γεγενῆσθαι ἤτοι αὐτὸν λέγοντα ἢ ἄλλους ἑνί γέ τῳ τρόπῳ προσαναγκάζοντα —Σιμμίαν Θηβαῖον ἐξαιρῶ λόγου· τῶν δὲ ἄλλων πάμπολυ κρατεῖς—καὶ νῦν αὖ δοκεῖς αἴτιός μοι γεγενῆσθαι λόγῳ τινὶ ῥηθῆναι.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "οὐ πόλεμόν γε ἀγγέλλεις. ἀλλὰ πῶς δὴ καὶ τίνι τούτῳ;",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ἡνίκʼ ἔμελλον, ὠγαθέ, τὸν ποταμὸν διαβαίνειν, τὸ δαιμόνιόν τε καὶ τὸ εἰωθὸς σημεῖόν μοι γίγνεσθαι ἐγένετο",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Socrates",
+          "text": "as it may; I shall cross this stream and go away before you put some further compulsion upon me.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Not yet, Socrates, till the heat is past. Don’t you see that it is already almost noon? Let us stay and talk over what has been said, and then, when it is cooler, we will go away.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Phaedrus, you are simply a superhuman wonder as regards discourses! I believe no one of all those who have been born in your lifetime has produced more discourses than you, either by speaking them yourself or compelling others to do so. I except Simmias the Theban; but you are far ahead of all the rest. And now I think you have become the cause of another, spoken by me.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "That is not exactly a declaration of war! But how is this, and what is the discourse?",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "My good friend, when I was about to cross the stream, the spirit and the sign",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Socrates",
+          "text": "Leaving the tale to its fate, I will cross the river and make the best of my way home, lest a worse thing be inflicted upon me by you.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Not yet, Socrates; not until the heat of the day has passed; do you not see that the hour is almost noon? there is the midday sun standing still, as people say, in the meridian. Let us rather stay and talk over what has been said, and then return in the cool."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Your love of discourse, Phaedrus, is superhuman, simply marvellous, and I do not believe that there is any one of your contemporaries who has either made or in one way or another has compelled others to make an equal number of speeches. I would except Simmias the Theban, but all the rest are far behind you. And now I do verily believe that you have been the cause of another."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "That is good news. But what do you mean?"
+        },
+        {
+          "speaker": "Socrates",
+          "text": "I mean to say that as I was about to cross the stream the usual sign was given to me"
+        }
+      ],
+      "jowettAnchors": {
+        "start": "Leaving the tale to its fate, I will cross the river",
+        "end": "as I was about to cross the stream the usual sign was given to me"
+      }
+    },
+    {
+      "n": 8,
+      "id": "the-cicadas",
+      "title": "The cicadas overhead",
+      "stephanus": "258e–259d",
+      "greek": [
+        {
+          "speaker": "Phaedrus",
+          "text": "ἐρωτᾷς εἰ δεόμεθα; τίνος μὲν οὖν ἕνεκα κἄν τις ὡς εἰπεῖν ζῴη, ἀλλʼ ἢ τῶν τοιούτων ἡδονῶν ἕνεκα; οὐ γάρ που ἐκείνων γε ὧν προλυπηθῆναι δεῖ ἢ μηδὲ ἡσθῆναι, ὃ δὴ ὀλίγου πᾶσαι αἱ περὶ τὸ σῶμα ἡδοναὶ ἔχουσι· διὸ καὶ δικαίως ἀνδραποδώδεις κέκληνται.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "σχολὴ μὲν δή, ὡς ἔοικε· καὶ ἅμα μοι δοκοῦσιν ὡς ἐν τῷ πνίγει ὑπὲρ κεφαλῆς ἡμῶν οἱ τέττιγες ᾁδοντες καὶ ἀλλήλοις διαλεγόμενοι καθορᾶν καὶ ἡμᾶς. εἰ οὖν ἴδοιεν καὶ νὼ καθάπερ τοὺς πολλοὺς ἐν μεσημβρίᾳ μὴ διαλεγομένους ἀλλὰ νυστάζοντας καὶ κηλουμένους ὑφʼ αὑτῶν διʼ ἀργίαν τῆς διανοίας, δικαίως ἂν καταγελῷεν, ἡγούμενοι ἀνδράποδʼ ἄττα σφίσιν ἐλθόντα εἰς τὸ καταγώγιον ὥσπερ προβάτια μεσημβριάζοντα περὶ τὴν κρήνην εὕδειν· ἐὰν δὲ ὁρῶσι διαλεγομένους καὶ παραπλέοντάς σφας ὥσπερ Σειρῆνας ἀκηλήτους, ὃ γέρας παρὰ θεῶν ἔχουσιν ἀνθρώποις διδόναι, τάχʼ ἂν δοῖεν ἀγασθέντες.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "ἔχουσι δὲ δὴ τί τοῦτο; ἀνήκοος γάρ, ὡς ἔοικε, τυγχάνω ὤν.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "οὐ μὲν δὴ πρέπει γε φιλόμουσον ἄνδρα τῶν τοιούτων ἀνήκοον εἶναι. λέγεται δʼ ὥς ποτʼ ἦσαν οὗτοι ἄνθρωποι τῶν πρὶν μούσας γεγονέναι, γενομένων δὲ Μουσῶν καὶ φανείσης ᾠδῆς οὕτως ἄρα τινὲς τῶν τότε ἐξεπλάγησαν ὑφʼ ἡδονῆς, ὥστε ᾁδοντες ἠμέλησαν σίτων τε καὶ ποτῶν, καὶ ἔλαθον τελευτήσαντες αὑτούς· ἐξ ὧν τὸ τεττίγων γένος μετʼ ἐκεῖνο φύεται, γέρας τοῦτο παρὰ Μουσῶν λαβόν, μηδὲν τροφῆς δεῖσθαι γενόμενον, ἀλλʼ ἄσιτόν τε καὶ ἄποτον εὐθὺς ᾁδειν, ἕως ἂν τελευτήσῃ, καὶ μετὰ ταῦτα ἐλθὸν παρὰ μούσας ἀπαγγέλλειν τίς τίνα αὐτῶν τιμᾷ τῶν ἐνθάδε. Τερψιχόρᾳ μὲν οὖν τοὺς ἐν τοῖς χοροῖς τετιμηκότας αὐτὴν ἀπαγγέλλοντες ποιοῦσι προσφιλεστέρους, τῇ δὲ Ἐρατοῖ τοὺς ἐν τοῖς ἐρωτικοῖς, καὶ ταῖς ἄλλαις οὕτως, κατὰ τὸ εἶδος ἑκάστης τιμῆς· τῇ δὲ πρεσβυτάτῃ Καλλιόπῃ καὶ τῇ μετʼ αὐτὴν Οὐρανίᾳ τοὺς ἐν φιλοσοφίᾳ διάγοντάς τε καὶ τιμῶντας τὴν ἐκείνων μουσικὴν ἀγγέλλουσιν, αἳ δὴ μάλιστα τῶν Μουσῶν περί τε οὐρανὸν καὶ λόγους οὖσαι θείους τε καὶ ἀνθρωπίνους ἱᾶσιν καλλίστην φωνήν. πολλῶν δὴ οὖν ἕνεκα λεκτέον τι καὶ οὐ καθευδητέον ἐν τῇ μεσημβρίᾳ.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "λεκτέον γὰρ οὖν.",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Phaedrus",
+          "text": "You ask if we want to question them? What else should one live for, so to speak, but for such pleasures? Certainly not for those which cannot be enjoyed without previous pain, which is the case with nearly all bodily pleasures and causes them to be justly called slavish.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "We have plenty of time, apparently; and besides, the locusts seem to be looking down upon us as they sing and talk with each other in the heat. Now if they should see us not conversing at mid-day, but, like most people, dozing, lulled to sleep by their song because of our mental indolence, they would quite justly laugh at us, thinking that some slaves had come to their resort and were slumbering about the fountain at noon like sheep. But if they see us conversing and sailing past them unmoved by the charm of their Siren voices, perhaps they will be pleased and give us the gift which the gods bestowed on them to give to men.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "What is this gift? I don’t seem to have heard of it.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "It is quite improper for a lover of the Muses never to have heard of such things. The story goes that these locusts were once men, before the birth of the Muses, and when the Muses were born and song appeared, some of the men were so overcome with delight that they sang and sang, forgetting food and drink, until at last unconsciously they died. From them the locust tribe afterwards arose, and they have this gift from the Muses, that from the time of their birth they need no sustenance, but sing continually, without food or drink, until they die, when they go to the Muses and report who honors each of them on earth. They tell Terpsichore of those who have honored her in dances, and make them dearer to her; they gain the favor of Erato for the poets of love, and that of the other Muses for their votaries, according to their various ways of honoring them; and to Calliope, the eldest of the Muses, and to Urania who is next to her, they make report of those who pass their lives in philosophy and who worship these Muses who are most concerned with heaven and with thought divine and human and whose music is the sweetest. So for many reasons we ought to talk and not sleep in the noontime.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Yes, we ought to talk.",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Phaedrus",
+          "text": "Need we? For what should a man live if not for the pleasures of discourse? Surely not for the sake of bodily pleasures, which almost always have previous pain as a condition of them, and therefore are rightly called slavish."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "There is time enough. And I believe that the grasshoppers chirruping after their manner in the heat of the sun over our heads are talking to one another and looking down at us. What would they say if they saw that we, like the many, are not conversing, but slumbering at mid-day, lulled by their voices, too indolent to think? Would they not have a right to laugh at us? They might imagine that we were slaves, who, coming to rest at a place of resort of theirs, like sheep lie asleep at noon around the well. But if they see us discoursing, and like Odysseus sailing past them, deaf to their siren voices, they may perhaps, out of respect, give us of the gifts which they receive from the gods that they may impart them to men."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "What gifts do you mean? I never heard of any."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "A lover of music like yourself ought surely to have heard the story of the grasshoppers, who are said to have been human beings in an age before the Muses. And when the Muses came and song appeared they were ravished with delight; and singing always, never thought of eating and drinking, until at last in their forgetfulness they died. And now they live again in the grasshoppers; and this is the return which the Muses make to them--they neither hunger, nor thirst, but from the hour of their birth are always singing, and never eating or drinking; and when they die they go and inform the Muses in heaven who honours them on earth. They win the love of Terpsichore for the dancers by their report of them; of Erato for the lovers, and of the other Muses for those who do them honour, according to the several ways of honouring them;--of Calliope the eldest Muse and of Urania who is next to her, for the philosophers, of whose music the grasshoppers make report to them; for these are the Muses who are chiefly concerned with heaven and thought, divine as well as human, and they have the sweetest utterance. For many reasons, then, we ought always to talk and not to sleep at mid-day."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Let us talk."
+        }
+      ],
+      "jowettAnchors": {
+        "start": "PHAEDRUS: Need we? For what should a man live",
+        "end": "PHAEDRUS: Let us talk."
+      }
+    },
+    {
+      "n": 9,
+      "id": "theuth-and-thamus",
+      "title": "Theuth and Thamus: writing as a pharmakon",
+      "stephanus": "274c–275b",
+      "greek": [
+        {
+          "speaker": "Socrates",
+          "text": "ἀκοήν γʼ ἔχω λέγειν τῶν προτέρων, τὸ δʼ ἀληθὲς αὐτοὶ ἴσασιν. εἰ δὲ τοῦτο εὕροιμεν αὐτοί, ἆρά γʼ ἂν ἔθʼ ἡμῖν μέλοι τι τῶν ἀνθρωπίνων δοξασμάτων;",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "γελοῖον ἤρου· ἀλλʼ ἃ φῂς ἀκηκοέναι λέγε.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ἤκουσα τοίνυν περὶ Ναύκρατιν τῆς Αἰγύπτου γενέσθαι τῶν ἐκεῖ παλαιῶν τινα θεῶν, οὗ καὶ τὸ ὄρνεον ἱερὸν ὃ δὴ καλοῦσιν Ἶβιν· αὐτῷ δὲ ὄνομα τῷ δαίμονι εἶναι Θεύθ. τοῦτον δὴ πρῶτον ἀριθμόν τε καὶ λογισμὸν εὑρεῖν καὶ γεωμετρίαν καὶ ἀστρονομίαν, ἔτι δὲ πεττείας τε καὶ κυβείας, καὶ δὴ καὶ γράμματα. βασιλέως δʼ αὖ τότε ὄντος Αἰγύπτου ὅλης Θαμοῦ περὶ τὴν μεγάλην πόλιν τοῦ ἄνω τόπου ἣν οἱ Ἕλληνες Αἰγυπτίας Θήβας καλοῦσι, καὶ τὸν θεὸν Ἄμμωνα, παρὰ τοῦτον ἐλθὼν ὁ Θεὺθ τὰς τέχνας ἐπέδειξεν, καὶ ἔφη δεῖν διαδοθῆναι τοῖς ἄλλοις Αἰγυπτίοις· ὁ δὲ ἤρετο ἥντινα ἑκάστη ἔχοι ὠφελίαν, διεξιόντος δέ, ὅτι καλῶς ἢ μὴ καλῶς δοκοῖ λέγειν, τὸ μὲν ἔψεγεν, τὸ δʼ ἐπῄνει. πολλὰ μὲν δὴ περὶ ἑκάστης τῆς τέχνης ἐπʼ ἀμφότερα Θαμοῦν τῷ Θεὺθ λέγεται ἀποφήνασθαι, ἃ λόγος πολὺς ἂν εἴη διελθεῖν· ἐπειδὴ δὲ ἐπὶ τοῖς γράμμασιν ἦν, τοῦτο δέ, ὦ βασιλεῦ, τὸ μάθημα, ἔφη ὁ Θεύθ, σοφωτέρους Αἰγυπτίους καὶ μνημονικωτέρους παρέξει· μνήμης τε γὰρ καὶ σοφίας φάρμακον ηὑρέθη.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ὁ δʼ εἶπεν· ὦ τεχνικώτατε Θεύθ, ἄλλος μὲν τεκεῖν δυνατὸς τὰ τέχνης, ἄλλος δὲ κρῖναι τίνʼ ἔχει μοῖραν βλάβης τε καὶ ὠφελίας τοῖς μέλλουσι χρῆσθαι· καὶ νῦν σύ, πατὴρ ὢν γραμμάτων, διʼ εὔνοιαν τοὐναντίον εἶπες ἢ δύναται. τοῦτο γὰρ τῶν μαθόντων λήθην μὲν ἐν ψυχαῖς παρέξει μνήμης ἀμελετησίᾳ, ἅτε διὰ πίστιν γραφῆς ἔξωθεν ὑπʼ ἀλλοτρίων τύπων, οὐκ ἔνδοθεν αὐτοὺς ὑφʼ αὑτῶν ἀναμιμνῃσκομένους· οὔκουν μνήμης ἀλλὰ ὑπομνήσεως φάρμακον ηὗρες. σοφίας δὲ τοῖς μαθηταῖς δόξαν, οὐκ ἀλήθειαν πορίζεις· πολυήκοοι γάρ σοι γενόμενοι ἄνευ διδαχῆς πολυγνώμονες εἶναι δόξουσιν, ἀγνώμονες ὡς ἐπὶ τὸ πλῆθος ὄντες, καὶ χαλεποὶ συνεῖναι, δοξόσοφοι γεγονότες ἀντὶ σοφῶν.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "ὦ Σώκρατες, ῥᾳδίως σὺ Αἰγυπτίους καὶ ὁποδαποὺς ἂν ἐθέλῃς λόγους ποιεῖς.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "οἱ δέ γʼ, ὦ φίλε, ἐν τῷ τοῦ Διὸς τοῦ Δωδωναίου ἱερῷ δρυὸς λόγους ἔφησαν μαντικοὺς πρώτους γενέσθαι. τοῖς μὲν οὖν τότε, ἅτε οὐκ οὖσι σοφοῖς ὥσπερ ὑμεῖς οἱ νέοι, ἀπέχρη δρυὸς καὶ πέτρας ἀκούειν ὑπʼ εὐηθείας, εἰ μόνον",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Socrates",
+          "text": "I can tell something I have heard of the ancients; but whether it is true, they only know. But if we ourselves should find it out, should we care any longer for human opinions?",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "A ridiculous question! But tell me what you say you have heard.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "I heard, then, that at Naucratis, in Egypt, was one of the ancient gods of that country, the one whose sacred bird is called the ibis, and the name of the god himself was Theuth. He it was who invented numbers and arithmetic and geometry and astronomy, also draughts and dice, and, most important of all, letters. Now the king of all Egypt at that time was the god Thamus, who lived in the great city of the upper region, which the Greeks call the Egyptian Thebes, and they call the god himself Ammon. To him came Theuth to show his inventions, saying that they ought to be imparted to the other Egyptians. But Thamus asked what use there was in each, and as Theuth enumerated their uses, expressed praise or blame, according as he approved or disapproved. The story goes that Thamus said many things to Theuth in praise or blame of the various arts, which it would take too long to repeat; but when they came to the letters, This invention, O king, said Theuth, will make the Egyptians wiser and will improve their memories; for it is an elixir of memory and wisdom that I have discovered.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "But Thamus replied, Most ingenious Theuth, one man has the ability to beget arts, but the ability to judge of their usefulness or harmfulness to their users belongs to another; and now you, who are the father of letters, have been led by your affection to ascribe to them a power the opposite of that which they really possess. For this invention will produce forgetfulness in the minds of those who learn to use it, because they will not practice their memory. Their trust in writing, produced by external characters which are no part of themselves, will discourage the use of their own memory within them. You have invented an elixir not of memory, but of reminding; and you offer your pupils the appearance of wisdom, not true wisdom, for they will read many things without instruction and will therefore seem to know many things, when they are for the most part ignorant and hard to get along with, since they are not wise, but only appear wise.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Socrates, you easily make up stories of Egypt or any country you please.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "They used to say, my friend, that the words of the oak in the holy place of Zeus at Dodona were the first prophetic utterances. The people of that time, not being so wise as you young folks, were content in their simplicity to hear an oak",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Socrates",
+          "text": "I have heard a tradition of the ancients, whether true or not they only know; although if we had found the truth ourselves, do you think that we should care much about the opinions of men?"
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Your question needs no answer; but I wish that you would tell me what you say that you have heard."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "At the Egyptian city of Naucratis, there was a famous old god, whose name was Theuth; the bird which is called the Ibis is sacred to him, and he was the inventor of many arts, such as arithmetic and calculation and geometry and astronomy and draughts and dice, but his great discovery was the use of letters. Now in those days the god Thamus was the king of the whole country of Egypt; and he dwelt in that great city of Upper Egypt which the Hellenes call Egyptian Thebes, and the god himself is called by them Ammon. To him came Theuth and showed his inventions, desiring that the other Egyptians might be allowed to have the benefit of them; he enumerated them, and Thamus enquired about their several uses, and praised some of them and censured others, as he approved or disapproved of them. It would take a long time to repeat all that Thamus said to Theuth in praise or blame of the various arts. But when they came to letters, This, said Theuth, will make the Egyptians wiser and give them better memories; it is a specific both for the memory and for the wit. Thamus replied: O most ingenious Theuth, the parent or inventor of an art is not always the best judge of the utility or inutility of his own inventions to the users of them. And in this instance, you who are the father of letters, from a paternal love of your own children have been led to attribute to them a quality which they cannot have; for this discovery of yours will create forgetfulness in the learners' souls, because they will not use their memories; they will trust to the external written characters and not remember of themselves. The specific which you have discovered is an aid not to memory, but to reminiscence, and you give your disciples not truth, but only the semblance of truth; they will be hearers of many things and will have learned nothing; they will appear to be omniscient and will generally know nothing; they will be tiresome company, having the show of wisdom without the reality."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Yes, Socrates, you can easily invent tales of Egypt, or of any other country."
+        }
+      ],
+      "jowettAnchors": {
+        "start": "SOCRATES: I have heard a tradition of the ancients",
+        "end": "PHAEDRUS: Yes, Socrates, you can easily invent tales of Egypt, or of any other country."
+      }
+    },
+    {
+      "n": 10,
+      "id": "back-to-lysias",
+      "title": "“Go and tell Lysias”",
+      "stephanus": "278b",
+      "greek": [
+        {
+          "speaker": "Socrates",
+          "text": "τε καὶ ἀδελφοὶ ἅμα ἐν ἄλλαισιν ἄλλων ψυχαῖς κατʼ ἀξίαν ἐνέφυσαν· τοὺς δὲ ἄλλους χαίρειν ἐῶν—οὗτος δὲ ὁ τοιοῦτος ἀνὴρ κινδυνεύει, ὦ Φαῖδρε, εἶναι οἷον ἐγώ τε καὶ σὺ εὐξαίμεθʼ ἂν σέ τε καὶ ἐμὲ γενέσθαι.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "παντάπασι μὲν οὖν ἔγωγε βούλομαί τε καὶ εὔχομαι ἃ λέγεις.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "οὐκοῦν ἤδη πεπαίσθω μετρίως ἡμῖν τὰ περὶ λόγων· καὶ σύ τε ἐλθὼν φράζε Λυσίᾳ ὅτι νὼ καταβάντε ἐς τὸ Νυμφῶν νᾶμά τε καὶ μουσεῖον ἠκούσαμεν λόγων, οἳ ἐπέστελλον",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Socrates",
+          "text": "its descendants or brothers which may have sprung up in worthy manner in the souls of others, and who pays no attention to the other words,—that man, Phaedrus, is likely to be such as you and I might pray that we ourselves may become.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "By all means that is what I wish and pray for.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "We have amused ourselves with talk about words long enough. Go and tell Lysias that you and I came down to the fountain and sacred place of the nymphs,",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Socrates",
+          "text": "secondly, the brethren and descendants and relations of his idea which have been duly implanted by him in the souls of others;--and who cares for them and no others--this is the right sort of man; and you and I, Phaedrus, would pray that we may become like him.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "That is most assuredly my desire and prayer."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "And now the play is played out; and of rhetoric enough. Go and tell Lysias that to the fountain and school of the Nymphs we went down, and were bidden by them to convey a message to him and to other composers of speeches--to Homer and other writers of poems, whether set to music or not; and to Solon and others who have composed writings in the form of political discourses which they would term laws--to all of them we are to say that if their compositions are based on knowledge of the truth, and they can defend or prove them, when they are put to the test, by spoken arguments, which leave their writings poor in comparison of them,"
+        }
+      ],
+      "jowettAnchors": {
+        "start": "secondly, the brethren and descendants and relations of his idea",
+        "end": "which leave their writings poor in comparison of them,"
+      }
+    },
+    {
+      "n": 11,
+      "id": "prayer-to-pan",
+      "title": "The prayer to Pan, and “let us go”",
+      "stephanus": "279b–279c",
+      "greek": [
+        {
+          "speaker": "Socrates",
+          "text": "τῇ τοῦ ἀνδρὸς διανοίᾳ. ταῦτα δὴ οὖν ἐγὼ μὲν παρὰ τῶνδε τῶν θεῶν ὡς ἐμοῖς παιδικοῖς Ἰσοκράτει ἐξαγγέλλω, σὺ δʼ ἐκεῖνα ὡς σοῖς Λυσίᾳ.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "ταῦτʼ ἔσται· ἀλλὰ ἴωμεν, ἐπειδὴ καὶ τὸ πνῖγος ἠπιώτερον γέγονεν.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "οὐκοῦν εὐξαμένῳ πρέπει τοῖσδε πορεύεσθαι;",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "τί μήν;",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ὦ φίλε Πάν τε καὶ ἄλλοι ὅσοι τῇδε θεοί, δοίητέ μοι καλῷ γενέσθαι τἄνδοθεν· ἔξωθεν δὲ ὅσα ἔχω, τοῖς ἐντὸς εἶναί μοι φίλια. πλούσιον δὲ νομίζοιμι τὸν σοφόν· τὸ δὲ χρυσοῦ πλῆθος εἴη μοι ὅσον μήτε φέρειν μήτε ἄγειν δύναιτο ἄλλος ἢ ὁ σώφρων.ἔτʼ ἄλλου του δεόμεθα, ὦ Φαῖδρε; ἐμοὶ μὲν γὰρ μετρίως ηὖκται.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "καὶ ἐμοὶ ταῦτα συνεύχου· κοινὰ γὰρ τὰ τῶν φίλων.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "ἴωμεν.",
+          "continues": false
+        }
+      ],
+      "fowler": [
+        {
+          "speaker": "Socrates",
+          "text": "will lead him to greater things; for my friend, something of philosophy is inborn in his mind. This is the message that I carry from these deities to my favorite Isocrates, and do you carry the other to Lysias, your favorite.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "It shall be done; but now let us go, since the heat has grown gentler.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Is it not well to pray to the deities here before we go?",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Of course.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "O beloved Pan and all ye other gods of this place, grant to me that I be made beautiful in my soul within, and that all external possessions be in harmony with my inner man. May I consider the wise man rich; and may I have such wealth as only the self-restrained man can bear or endure.—Do we need anything more, Phaedrus? For me that prayer is enough.",
+          "continues": false
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Let me also share in this prayer; for friends have all things in common.",
+          "continues": false
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Let us go.",
+          "continues": false
+        }
+      ],
+      "jowett": [
+        {
+          "speaker": "Socrates",
+          "text": "which will lead him to things higher still. For he has an element of philosophy in his nature. This is the message of the gods dwelling in this place, and which I will myself deliver to Isocrates, who is my delight; and do you give the other to Lysias, who is yours.",
+          "continues": true
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "I will; and now as the heat is abated let us depart."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Should we not offer up a prayer first of all to the local deities?"
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "By all means."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Beloved Pan, and all ye other gods who haunt this place, give me beauty in the inward soul; and may the outward and inward man be at one. May I reckon the wise to be the wealthy, and may I have such a quantity of gold as a temperate man and he only can bear and carry.--Anything more? The prayer, I think, is enough for me."
+        },
+        {
+          "speaker": "Phaedrus",
+          "text": "Ask the same for me, for friends should have all things in common."
+        },
+        {
+          "speaker": "Socrates",
+          "text": "Let us go."
+        }
+      ],
+      "jowettAnchors": {
+        "start": "which will lead him to things higher still.",
+        "end": "SOCRATES: Let us go."
+      }
+    }
+  ]
+}

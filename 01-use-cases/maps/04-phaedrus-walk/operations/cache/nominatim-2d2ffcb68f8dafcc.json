@@ -1,0 +1,27 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&q=Ardettos%2C%20Athens&viewbox=23.70,37.99,23.78,37.95&bounded=1",
+  "fetched": "2026-11-03T15:49:25.218Z",
+  "data": [
+    {
+      "place_id": 56112960,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8729317295,
+      "lat": "37.9676301",
+      "lon": "23.7398399",
+      "category": "natural",
+      "type": "peak",
+      "place_rank": 18,
+      "importance": 0.1679799034751623,
+      "addresstype": "peak",
+      "name": "Αρδηττός",
+      "display_name": "Αρδηττός, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 116 36, Ελλάς",
+      "boundingbox": [
+        "37.9675801",
+        "37.9676801",
+        "23.7397899",
+        "23.7398899"
+      ]
+    }
+  ]
+}

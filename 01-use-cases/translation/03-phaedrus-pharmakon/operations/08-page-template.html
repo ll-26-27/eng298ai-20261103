@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plato's Pharmakon in Translation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1b18; --muted: #6b665d; --rule: #e2ddd3; --accent: #7a2e1f; --hl: #fff1c2;
+  --ok: #2f6b3a; --warn: #a06000; --bad: #b3261e;
+  --c-remedy: #2e7d5b; --c-drug: #8a5a00; --c-poison: #b3261e; --c-elixir: #6a3fa0; --c-recipe: #1f6aa5; --c-specific: #0f7c86; --c-means: #6b7280; --c-other: #a3627a; --c-none: #c8c2b6; --c-kept: #3f3a33; --chip-ink: #fff;
+  --serif: "Noto Serif", "Gentium Plus", "Times New Roman", "Iowan Old Style", Georgia, serif;
+  --sans: "Noto Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #17150f; --panel: #1f1c16; --ink: #ece7dc; --muted: #a79f90; --rule: #39342a; --accent: #e08a6f; --hl: #4a3d12;
+  --ok: #7cc48a; --warn: #e0a84a; --bad: #f08a80;
+  --c-remedy: #5fbf92; --c-drug: #d4a03a; --c-poison: #f07b70; --c-elixir: #a98bd8; --c-recipe: #6aaee6; --c-specific: #4fc3cc; --c-means: #a3a9b4; --c-other: #d590aa; --c-none: #5a5447; --c-kept: #e7dfcf; --chip-ink: #141210;
+} }
+:root[data-theme="dark"] {
+  --bg: #17150f; --panel: #1f1c16; --ink: #ece7dc; --muted: #a79f90; --rule: #39342a; --accent: #e08a6f; --hl: #4a3d12;
+  --ok: #7cc48a; --warn: #e0a84a; --bad: #f08a80;
+  --c-remedy: #5fbf92; --c-drug: #d4a03a; --c-poison: #f07b70; --c-elixir: #a98bd8; --c-recipe: #6aaee6; --c-specific: #4fc3cc; --c-means: #a3a9b4; --c-other: #d590aa; --c-none: #5a5447; --c-kept: #e7dfcf; --chip-ink: #141210;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 var(--serif); }
+main { max-width: 1180px; margin: 0 auto; padding: 28px 16px 80px; }
+.cols > *, .panel { min-width: 0; overflow-wrap: break-word; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 6px; }
+h2 { font-size: 1.35rem; margin: 44px 0 8px; border-top: 1px solid var(--rule); padding-top: 22px; }
+h3 { font-size: 1.05rem; margin: 18px 0 6px; }
+p { margin: 8px 0; }
+.lede { color: var(--muted); font-size: 1.05rem; max-width: 60em; }
+.sans, table, .chip, .legend, button, select, .meta { font-family: var(--sans); }
+.small { font-size: .85rem; color: var(--muted); }
+a { color: var(--accent); }
+.panel { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 18px; }
+.greek { font-size: 1.15rem; line-height: 1.8; }
+.greek button.kw { font: inherit; background: var(--hl); color: var(--ink); border: 0; border-bottom: 2px solid var(--accent); padding: 0 2px; cursor: pointer; border-radius: 2px; }
+.greek button.kw.sel { background: var(--accent); color: var(--bg); }
+.crib { margin-top: 10px; }
+.slotbar { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+.slotbar button { font-size: .85rem; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); padding: 4px 9px; border-radius: 999px; cursor: pointer; }
+.slotbar button.sel { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .8rem; margin: 8px 0 12px; }
+.legend span::before { content: ""; display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; background: var(--c); }
+/* timeline */
+.tl { position: relative; overflow-x: auto; }
+.tl-inner { position: relative; min-width: 900px; }
+.tl-row { position: relative; height: 54px; border-bottom: 1px dashed var(--rule); }
+.tl-row .lab { position: absolute; left: 0; top: 8px; width: 92px; font: 600 .8rem var(--sans); color: var(--muted); }
+.tl-axis { position: relative; height: 26px; margin-left: 96px; font: .75rem var(--sans); color: var(--muted); }
+.tl-axis span { position: absolute; transform: translateX(-50%); top: 4px; }
+.tl-track { position: absolute; left: 96px; right: 0; top: 0; bottom: 0; }
+.chip { position: absolute; top: 12px; font-size: .74rem; padding: 2px 6px; border-radius: 5px; color: var(--chip-ink); background: var(--c); white-space: nowrap; cursor: pointer; border: 2px solid var(--c); max-width: 120px; overflow: hidden; text-overflow: ellipsis; transform: none; }
+.chip.meta-only { background: transparent; color: var(--ink); border-style: dashed; }
+.chip:hover { z-index: 5; max-width: none; }
+.chip.off { opacity: .25; }
+/* tables */
+table { border-collapse: collapse; width: 100%; font-size: .84rem; }
+th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; color: var(--muted); position: sticky; top: 0; background: var(--bg); }
+td.slot.sel, th.sel { background: color-mix(in srgb, var(--hl) 45%, transparent); }
+.scroll { overflow-x: auto; }
+td .r { font-family: var(--serif); font-size: .95rem; }
+td .g { color: var(--muted); display: block; font-size: .78rem; }
+.cat { display: inline-block; font-size: .7rem; padding: 0 6px; border-radius: 4px; color: var(--chip-ink); background: var(--c); margin-top: 2px; }
+.has-note { border-bottom: 1px dotted var(--muted); cursor: help; }
+.st-exact::after { content: " ✓"; color: var(--ok); }
+.st-loose::after { content: " ≈"; color: var(--warn); }
+.st-bad::after { content: " ✗ not in passage"; color: var(--bad); font-weight: 600; }
+.badge { display: inline-block; font: 600 .7rem var(--sans); padding: 1px 7px; border-radius: 999px; border: 1px solid; }
+.b-verified { color: var(--ok); } .b-partly { color: var(--warn); } .b-unverified { color: var(--bad); }
+/* side by side */
+.sbs-controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 8px 0 12px; }
+select { font-size: .95rem; padding: 4px 8px; background: var(--panel); color: var(--ink); border: 1px solid var(--rule); border-radius: 6px; }
+.cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.cols .panel h3 { margin-top: 0; font: 600 .85rem var(--sans); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.cols .panel { font-size: .98rem; line-height: 1.6; }
+mark { background: var(--hl); color: inherit; border-bottom: 2px solid var(--accent); padding: 0 1px; }
+.argument { margin-top: 12px; font-size: .95rem; }
+.note { border-left: 3px solid var(--accent); padding: 4px 12px; margin: 10px 0; color: var(--muted); }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <p class="small sans">ENGLISH 298AI · Seminar 9 · the pharmakon project (translation/03-phaedrus-pharmakon)</p>
+  <h1>Plato's <span lang="grc">φάρμακον</span> in translation</h1>
+  <p class="lede">In the <em>Phaedrus</em> (274c–275b) the god Theuth offers writing to King Thamus as a <em>pharmakon</em> of memory and wisdom. Thamus answers that it is a <em>pharmakon</em> not of memory but of reminding, and that it will make people seem wise instead of wise. The word means remedy, drug and poison at once, so every translator has to choose. This page lays out what <span id="n-versions"></span> translators chose, across <span id="n-langs"></span>.</p>
+  <p class="small sans" id="status-line"></p>
+</header>
+
+<h2>1. The Greek, and the words to follow</h2>
+<p class="small sans">Burnet's Oxford text (1901), as digitized by the Perseus Digital Library (CC BY-SA 4.0). Click a highlighted word to follow it through every translation below.</p>
+<div class="panel greek" id="greek" lang="grc"></div>
+<details class="crib"><summary class="sans small">A literal English crib of the Greek (model-made, for orientation only)</summary><div class="panel" id="greek-crib" style="margin-top:8px"></div></details>
+
+<h2>2. <span id="tl-title">Pharmakon</span> across the centuries</h2>
+<div class="slotbar" id="slotbar"></div>
+<p class="small sans" id="tl-explain"></p>
+<div class="legend" id="legend"></div>
+<div class="panel tl"><div class="tl-inner" id="timeline"></div></div>
+<p class="small sans">Solid chips are translations whose passage is in this folder and was checked word by word. Dashed chips show only the one word, taken from a cited source: in-copyright translations (never their text), or public-domain ones whose text we could not fetch or date reliably (see the inventory). Hover a chip for the whole rendering; click it to open the passage in section 4.</p>
+
+<h2>3. Every rendering, side by side</h2>
+<p class="small sans">One row per translation, oldest first. ✓ means code found the words verbatim in that translator's passage (step 5); ≈ means found ignoring case or spacing; ✗ means not found, so do not trust that cell. The gloss and category are a model's reading (step 4); hover a dotted rendering for the model's note on it.</p>
+<div class="scroll"><table id="matrix"></table></div>
+
+<h2>4. Read the passage in one translation</h2>
+<div class="sbs-controls sans"><label for="pick">Translation:</label> <select id="pick"></select> <span class="small" id="pick-meta"></span></div>
+<div class="cols">
+  <div class="panel" lang="grc"><h3>Greek (Burnet)</h3><div id="sbs-greek"></div></div>
+  <div class="panel"><h3 id="sbs-tr-h">Translation</h3><div id="sbs-tr"></div></div>
+  <div class="panel"><h3>Back into English (model)</h3><div id="sbs-back"></div></div>
+</div>
+<div class="argument panel" id="sbs-arg"></div>
+
+<h2 id="chain-h">5. A model translates, is critiqued, and revises</h2>
+<div id="chain"></div>
+
+<h2>6. The inventory: what we found, verified, and could not use</h2>
+<p class="small sans">Every bibliographic fact was checked against a catalogue record, a digitized title page, or a reliable scholarly source (the URLs are in each row). <span class="badge b-verified">verified</span> confirmed in at least one such record; <span class="badge b-partly">partly verified</span> some fields confirmed; <span class="badge b-unverified">unverified</span> a lead only.</p>
+<div class="scroll"><table id="inventory"></table></div>
+
+<h2>7. How this was made, and what to distrust</h2>
+<div id="method" class="panel"></div>
+</main>
+
+<script>
+const DATA = /*DATA*/null;
+const $ = s => document.querySelector(s);
+const byYear = (a, b) => (a.year ?? 9999) - (b.year ?? 9999);
+const yr = v => v.year ?? "n.d.";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const CAT_VAR = { "remedy/medicine": "--c-remedy", "drug": "--c-drug", "poison": "--c-poison", "elixir/potion": "--c-elixir", "recipe/prescription": "--c-recipe", "specific": "--c-specific", "means/aid": "--c-means", "kept the Greek word": "--c-kept", "other": "--c-other", "not translated": "--c-none" };
+const md = t => esc(t).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+const catColor = c => `var(${CAT_VAR[c] || "--c-other"})`;
+const LANG_COLOR = {};
+const SLOT_LABEL = {
+  pharmakon_274e: "φάρμακον (274e, Theuth)", mneme_274e: "μνήμης (274e)", sophia_274e: "σοφίας (274e)",
+  pharmakon_275a: "φάρμακον (275a, Thamus)", mneme_275a: "μνήμης (275a)", hypomnesis_275a: "ὑπομνήσεως (275a)",
+  sophia_275a: "σοφίας δόξαν (275a)", doxosophoi_275b: "δοξόσοφοι (275b)",
+};
+// Where each slot's Greek word sits in Burnet's text (n = which occurrence of the string in the passage).
+const GREEK_KW = [
+  ["μνήμης", 1, "mneme_274e"], ["σοφίας", 1, "sophia_274e"], ["φάρμακον", 1, "pharmakon_274e"],
+  ["μνήμης", 3, "mneme_275a"], ["ὑπομνήσεως", 1, "hypomnesis_275a"], ["φάρμακον", 2, "pharmakon_275a"],
+  ["σοφίας δὲ τοῖς μαθηταῖς δόξαν", 1, "sophia_275a"], ["δοξόσοφοι", 1, "doxosophoi_275b"],
+];
+let SEL = "pharmakon_274e", PICK = null;
+
+const versions = DATA.versions; // merged per translation by the build script
+const withText = versions.filter(v => v.renderings);
+const langs = [...new Set(versions.map(v => v.language))];
+$("#n-versions").textContent = `${withText.length}`;
+const cents = [...new Set(withText.filter(v => v.year).map(v => Math.floor(v.year / 100) + 1))].sort((a, b) => a - b);
+$("#n-langs").textContent = `${new Set(withText.map(v => v.language)).size} languages and ${cents.length} centuries (${cents.map(c => c + "th").join(", ")})`;
+$("#status-line").textContent = DATA.status;
+
+function greekHTML(text, interactive) {
+  // wrap each slot's word; work from the end so offsets stay valid
+  const spots = [];
+  for (const [w, n, slot] of GREEK_KW) {
+    let i = -1; for (let k = 0; k < n; k++) i = text.indexOf(w, i + 1);
+    if (i >= 0) spots.push([i, w.length, slot]);
+  }
+  spots.sort((a, b) => b[0] - a[0]);
+  let html = text, parts = [];
+  let last = text.length;
+  for (const [i, len, slot] of spots) {
+    parts.unshift(esc(text.slice(i + len, last)));
+    parts.unshift(interactive ? `<button class="kw${slot === SEL ? " sel" : ""}" data-slot="${slot}" title="${esc(SLOT_LABEL[slot])}">${esc(text.slice(i, i + len))}</button>` : `<mark>${esc(text.slice(i, i + len))}</mark>`);
+    last = i;
+  }
+  parts.unshift(esc(text.slice(0, last)));
+  return parts.join("");
+}
+function renderGreek() {
+  $("#greek").innerHTML = greekHTML(DATA.greek, true);
+  $("#greek").querySelectorAll("button.kw").forEach(b => b.onclick = () => select(b.dataset.slot));
+}
+$("#greek-crib").textContent = DATA.greek_crib || "(not available)";
+
+function renderSlotbar() {
+  $("#slotbar").innerHTML = DATA.slots.map(s => `<button data-slot="${s.key}" class="${s.key === SEL ? "sel" : ""}">${esc(SLOT_LABEL[s.key])}</button>`).join("");
+  $("#slotbar").querySelectorAll("button").forEach(b => b.onclick = () => select(b.dataset.slot));
+}
+function renderLegend() {
+  const isPh = SEL.startsWith("pharmakon");
+  $("#legend").innerHTML = isPh ? DATA.categories.map(c => `<span style="--c:${catColor(c)}">${esc(c)}</span>`).join("") : langs.map(l => `<span style="--c:${LANG_COLOR[l]}">${esc(l)}</span>`).join("");
+  $("#tl-title").textContent = SLOT_LABEL[SEL];
+  $("#tl-explain").textContent = isPh
+    ? "Colored by the category a model assigned to each rendering (step 4). The categories are an interpretive choice made for this page, not facts about the words: German Mittel and Russian средство, for instance, sit between 'means' and 'remedy'."
+    : "Colored by language. Only pharmakon is sorted into categories; for the other words, read the renderings themselves.";
+}
+const PALETTE = ["#7a2e1f", "#1f6aa5", "#2e7d5b", "#8a5a00", "#6a3fa0", "#0f7c86", "#a3627a", "#4d5b2a", "#5b4636", "#9a3412", "#334155", "#7c2d12"];
+langs.forEach((l, i) => LANG_COLOR[l] = PALETTE[i % PALETTE.length]);
+
+function renderTimeline() {
+  const isPh = SEL.startsWith("pharmakon");
+  const ys = versions.map(v => v.year).filter(Boolean);
+  const y0 = Math.floor((Math.min(...ys) - 20) / 50) * 50, y1 = Math.ceil((Math.max(...ys) + 20) / 50) * 50;
+  const x = y => ((y - y0) / (y1 - y0) * 100).toFixed(2) + "%";
+  const rowLangs = ["Latin", "English", "German", "French", "Italian", "Spanish", "Portuguese", "Russian", "Polish"].filter(l => langs.includes(l)).concat(langs.filter(l => !["Latin", "English", "German", "French", "Italian", "Spanish", "Portuguese", "Russian", "Polish", "Greek"].includes(l)));
+  let html = `<div class="tl-axis">`;
+  for (let y = y0; y <= y1; y += 50) html += `<span style="left:${x(y)}">${y}</span>`;
+  html += `</div>`;
+  for (const l of rowLangs) {
+    const vs = versions.filter(v => v.language === l && v.year && (v.renderings || (isPh && v.pharmakon_word))).sort(byYear);
+    if (!vs.length) continue;
+    // put each chip in the first lane where it won't overlap the previous chip (about 65 years of axis per chip)
+    const gap = (y1 - y0) * 0.11, laneEnd = [];
+    const placed = vs.map(v => { let k = laneEnd.findIndex(e => v.year - e >= gap); if (k < 0) { k = laneEnd.length; laneEnd.push(0); } laneEnd[k] = v.year; return k; });
+    html += `<div class="tl-row" style="height:${Math.max(1, laneEnd.length) * 27 + 14}px"><div class="lab">${esc(l)}</div><div class="tl-track">`;
+    vs.forEach((v, idx) => {
+      let word, cat, metaOnly = false;
+      if (v.renderings) { word = v.renderings[SEL]?.rendering; cat = v.renderings[SEL]?.category; }
+      else if (isPh && v.pharmakon_word) { word = v.pharmakon_word; cat = v.pharmakon_category; metaOnly = true; }
+      if (!word) { word = "(omitted)"; cat = "not translated"; }
+      const c = isPh ? catColor(cat) : LANG_COLOR[l];
+      html += `<div class="chip${metaOnly ? " meta-only" : ""}" data-id="${v.id}" style="left:${x(v.year)};--c:${c};top:${6 + placed[idx] * 27}px" title="${esc(`${v.year} · ${v.translator}: “${word}”${cat && isPh ? " · " + cat : ""}${metaOnly ? " · word only (" + (v.copyright || "") + "), source: " + (v.pharmakon_source || "") : ""}`)}">${v.year} ${esc(word)}</div>`;
+    });
+    html += `</div></div>`;
+  }
+  const undated = versions.filter(v => !v.year && v.renderings);
+  if (undated.length) html += `<p class="small sans" style="margin:8px 0 0">Undated, so not placed on the line: ${undated.map(v => `${esc(v.language)}, ${esc(v.translator)}: “${esc(v.renderings[SEL]?.rendering || "(omitted)")}”`).join("; ")}.</p>`;
+  $("#timeline").innerHTML = html;
+  $("#timeline").querySelectorAll(".chip:not(.meta-only)").forEach(ch => ch.onclick = () => { pick(ch.dataset.id); $("#pick").scrollIntoView({ behavior: "smooth", block: "center" }); });
+}
+
+function renderMatrix() {
+  const rows = withText.slice().sort(byYear);
+  let h = `<thead><tr><th>year</th><th>language</th><th>translator</th>${DATA.slots.map(s => `<th class="${s.key === SEL ? "sel" : ""}" data-slot="${s.key}" style="cursor:pointer">${esc(SLOT_LABEL[s.key])}</th>`).join("")}<th>same word for both pharmaka?</th></tr></thead><tbody>`;
+  for (const v of rows) {
+    h += `<tr><td>${yr(v)}</td><td>${esc(v.language)}</td><td><a href="#" data-id="${v.id}">${esc(v.translator)}</a></td>`;
+    for (const s of DATA.slots) {
+      const r = v.renderings[s.key] || {}, st = v.check?.[s.key];
+      const cls = st === "exact" ? "st-exact" : st === "loose" ? "st-loose" : st === "NOT FOUND" ? "st-bad" : "";
+      h += `<td class="slot${s.key === SEL ? " sel" : ""}"${r.note ? ` title="${esc(r.note)}"` : ""}><span class="r ${cls}${r.note ? " has-note" : ""}">${r.rendering ? esc(r.rendering) : "<em>omitted</em>"}</span><span class="g">${esc(r.gloss)}</span>${r.category ? `<span class="cat" style="--c:${catColor(r.category)}">${esc(r.category)}</span>` : ""}</td>`;
+    }
+    h += `<td>${v.same_word ? "yes" : "no"}</td></tr>`;
+  }
+  $("#matrix").innerHTML = h + "</tbody>";
+  $("#matrix").querySelectorAll("th[data-slot]").forEach(th => th.onclick = () => select(th.dataset.slot));
+  $("#matrix").querySelectorAll("a[data-id]").forEach(a => a.onclick = e => { e.preventDefault(); pick(a.dataset.id); $("#pick").scrollIntoView({ behavior: "smooth", block: "center" }); });
+}
+
+function markRenderings(text, r) {
+  const ranges = [];
+  for (const s of DATA.slots) {
+    const w = r?.[s.key]?.rendering; if (!w) continue;
+    const fold = x => x.toLowerCase().replace(/[’‘ʼ]/g, "'").replace(/[“”]/g, '"');
+    let i = text.indexOf(w); if (i < 0) i = fold(text).indexOf(fold(w));
+    if (i >= 0 && !ranges.some(([a, b]) => i < b && i + w.length > a)) ranges.push([i, i + w.length, s.key]);
+  }
+  ranges.sort((a, b) => a[0] - b[0]);
+  let out = "", last = 0;
+  for (const [a, b, k] of ranges) { out += esc(text.slice(last, a)) + `<mark title="${esc(SLOT_LABEL[k])}">${esc(text.slice(a, b))}</mark>`; last = b; }
+  return out + esc(text.slice(last));
+}
+function renderPick() {
+  const sel = $("#pick");
+  sel.innerHTML = withText.slice().sort(byYear).map(v => `<option value="${v.id}">${yr(v)} · ${esc(v.language)} · ${esc(v.translator)}</option>`).join("");
+  sel.onchange = () => pick(sel.value);
+}
+function pick(id) {
+  PICK = id; const v = withText.find(x => x.id === id); if (!v) return;
+  $("#pick").value = id;
+  $("#pick-meta").innerHTML = `${esc(v.title || "")}${v.source_url ? ` · <a href="${esc(v.source_url)}">digitized source</a>` : ""} · <span class="badge b-${(v.status || "unverified").split(" ")[0]}">${esc(v.status || "unverified")}</span>`;
+  $("#sbs-greek").innerHTML = greekHTML(DATA.greek, false);
+  $("#sbs-tr-h").textContent = `${v.language}, ${v.translator} (${yr(v)})`;
+  $("#sbs-tr").innerHTML = markRenderings(v.passage, v.renderings);
+  $("#sbs-tr").lang = v.lang_code || "";
+  $("#sbs-back").textContent = v.back_translation || (v.language === "English" ? "(English: not back-translated)" : "(not available)");
+  $("#sbs-arg").innerHTML = `<strong class="sans small">What these choices do (model's reading, step 4):</strong> ${esc(v.renderings.argument)}${v.locate_note ? `<p class="small sans">Locating note: ${esc(v.locate_note)}</p>` : ""}${v.spot_check ? `<p class="small sans"><strong>Hand spot-check:</strong> ${esc(v.spot_check)}</p>` : ""}`;
+}
+
+function renderChain() {
+  if (!DATA.chain?.length) { $("#chain-h").style.display = "none"; $("#chain").style.display = "none"; return; }
+  $("#chain").innerHTML = DATA.chain.map(c => `<div class="panel" style="margin-bottom:14px"><p class="small sans">${esc(c.label)}</p><div class="cols">
+    <div class="panel"><h3>First translation (${esc(c.translate_model)})</h3><p>${esc(c.first)}</p></div>
+    <div class="panel"><h3>Critique (${esc(c.critique_model)})</h3><p style="white-space:pre-wrap">${md(c.critique)}</p></div>
+    <div class="panel"><h3>Revision</h3><p>${esc(c.revised)}</p><p class="small sans">${esc(c.accepted)}</p></div></div></div>`).join("");
+}
+
+function renderInventory() {
+  const rows = versions.slice().sort(byYear);
+  let h = `<thead><tr><th>year</th><th>language</th><th>translator · title · imprint</th><th>copyright (US)</th><th>in this pipeline</th><th>pharmakon</th><th>status</th><th>sources</th></tr></thead><tbody>`;
+  for (const v of rows) {
+    const src = (v.catalogue_urls || "").split(/\s+/).filter(Boolean).map((u, i) => `<a href="${esc(u)}">[${i + 1}]</a>`).join(" ");
+    const ph = v.renderings ? esc(v.renderings.pharmakon_274e.rendering) + (v.renderings.pharmakon_275a.rendering !== v.renderings.pharmakon_274e.rendering ? " / " + esc(v.renderings.pharmakon_275a.rendering) : "") : v.pharmakon_word ? `${esc(v.pharmakon_word)} <span class="g">(word only; <a href="${esc(v.pharmakon_source)}">source</a>)</span>` : "<span class='g'>—</span>";
+    h += `<tr><td>${yr(v)}</td><td>${esc(v.language)}</td><td>${esc(v.translator)}<span class="g">${esc(v.title)} · ${esc(v.imprint)}${v.edition_used ? " · text from: " + esc(v.edition_used) : ""}</span>${v.notes ? `<span class="g">${esc(v.notes)}</span>` : ""}</td><td>${esc(v.copyright)}${v.digital_license ? `<span class="g">digital text: ${esc(v.digital_license)}</span>` : ""}</td><td>${v.renderings ? "yes" : `<span class="g">${esc(v.why_not || "no")}</span>`}</td><td class="r">${ph}</td><td><span class="badge b-${(v.status || "unverified").split(" ")[0]}">${esc(v.status || "unverified")}</span></td><td>${src}${v.source_url ? ` <a href="${esc(v.source_url)}">text</a>` : ""}</td></tr>`;
+  }
+  $("#inventory").innerHTML = h + "</tbody>";
+}
+
+$("#method").innerHTML = DATA.method_html;
+
+function select(slot) { SEL = slot; renderGreek(); renderSlotbar(); renderLegend(); renderTimeline(); renderMatrix(); }
+renderPick(); renderChain(); renderInventory(); select(SEL);
+pick(withText.slice().sort(byYear)[0].id);
+</script>
+</body>
+</html>

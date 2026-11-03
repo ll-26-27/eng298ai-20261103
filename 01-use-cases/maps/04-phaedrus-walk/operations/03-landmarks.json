@@ -1,0 +1,128 @@
+{
+  "built": "2026-11-03",
+  "userAgent": "eng298ai-20261103-phaedrus-walk/1.0 (Bok Center Learning Lab workshop; github.com/ll-26-27)",
+  "attribution": "Coordinates © OpenStreetMap contributors (ODbL) via Overpass and Nominatim; Wikidata (CC0) where noted.",
+  "landmarks": [
+    {
+      "id": "olympieion",
+      "name": "Temple of Olympian Zeus (Olympieion)",
+      "role": "anchor",
+      "why": "Phaedrus has come from Epicrates' house, “the one that was Morychus’s, near the Olympieion” (227b).",
+      "lat": 37.9693685,
+      "lon": 23.7330942,
+      "geocoder": "overpass",
+      "matched": "OSM way/63765671: Temple of Olympian Zeus",
+      "notes": []
+    },
+    {
+      "id": "acropolis",
+      "name": "Acropolis",
+      "role": "orientation",
+      "why": "Orientation only.",
+      "lat": 37.9717048,
+      "lon": 23.7264289,
+      "geocoder": "overpass",
+      "matched": "OSM relation/4423249: Acropolis",
+      "notes": []
+    },
+    {
+      "id": "arch-of-hadrian",
+      "name": "Arch of Hadrian",
+      "role": "orientation",
+      "why": "Orientation only (AD 131/2, long after the dialogue).",
+      "lat": 37.9701868,
+      "lon": 23.732013,
+      "geocoder": "overpass",
+      "matched": "OSM way/175107932: Arch of Hadrian",
+      "notes": []
+    },
+    {
+      "id": "delphinion",
+      "name": "Temple of Apollo Delphinios (site)",
+      "role": "landmark",
+      "why": "Pausanias 1.19.1 places it close to the Olympieion; marks the sanctuary quarter the pair walk through.",
+      "lat": 37.9685708,
+      "lon": 23.7329859,
+      "geocoder": "overpass",
+      "matched": "OSM way/146815833: Temple of Apollo Delphinios",
+      "notes": []
+    },
+    {
+      "id": "agia-fotini",
+      "name": "Church of Agia Fotini on the Ilissos",
+      "role": "landmark",
+      "why": "Built 1872 on the river bed; the one place the Ilissos is still open to the sky in central Athens.",
+      "lat": 37.9676498,
+      "lon": 23.7342716,
+      "geocoder": "overpass",
+      "matched": "OSM way/81830941: Αγία Φωτεινή (start_date 1872)",
+      "notes": []
+    },
+    {
+      "id": "pan-sanctuary",
+      "name": "Sanctuary of Pan (rock relief)",
+      "role": "landmark",
+      "why": "Rock-cut sanctuary beside the church; a relief of Pan was found on the rock in 1911. Some identify this rocky stretch with the shrine of Acheloos and the Nymphs of 230b–c; others do not.",
+      "lat": 37.9674159,
+      "lon": 23.7342523,
+      "geocoder": "overpass",
+      "matched": "OSM node/4881822067: Ιερό Πανός",
+      "notes": []
+    },
+    {
+      "id": "ilissos-open",
+      "name": "The Ilissos, uncovered stretch",
+      "role": "landmark",
+      "why": "The only section of the river mapped as not in a tunnel; everything else is culverted under streets.",
+      "lat": 37.9678039,
+      "lon": 23.7343265,
+      "geocoder": "overpass",
+      "matched": "OSM way/395596983: Ιλισσός",
+      "notes": []
+    },
+    {
+      "id": "artemis-agrotera",
+      "name": "Temple of Artemis Agrotera (site, Agrai)",
+      "role": "landmark",
+      "why": "Pausanias 1.19.6: “across the Ilisus is a district called Agrae and a temple of Artemis Agrotera.” Socrates at 229c: the altar of Boreas is “where you cross over to the precinct of Agra.” Demolished 1778; retaining wall found 1962.",
+      "lat": 37.9675299,
+      "lon": 23.7354744,
+      "geocoder": "overpass",
+      "matched": "OSM way/479255983: Temple of Artemis Agrotera",
+      "notes": []
+    },
+    {
+      "id": "zeus-meilichios",
+      "name": "Temple of Zeus Meilichios (site)",
+      "role": "landmark",
+      "why": "A 4th-century BC temple on the Agrai bank; shows how thick with sanctuaries this side of the river was.",
+      "lat": 37.9675371,
+      "lon": 23.7356737,
+      "geocoder": "overpass",
+      "matched": "OSM node/9517245642: Ναός του Μειλιχίου Διός",
+      "notes": []
+    },
+    {
+      "id": "panathenaic-stadium",
+      "name": "Panathenaic Stadium",
+      "role": "landmark",
+      "why": "Built by Lykourgos c. 330 BC, so not yet there in the dialogue’s dramatic date; marks the ravine between Agra and Ardettos.",
+      "lat": 37.9683381,
+      "lon": 23.7409634,
+      "geocoder": "overpass",
+      "matched": "OSM relation/19023844: Panathenaic Stadium (start_date C6 BC)",
+      "notes": []
+    },
+    {
+      "id": "ardettos",
+      "name": "Ardettos hill",
+      "role": "landmark",
+      "why": "Wycherley (1963) put the plane tree on the east bank at the foot of Ardettos.",
+      "lat": 37.9676301,
+      "lon": 23.7398399,
+      "geocoder": "nominatim",
+      "matched": "Αρδηττός, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 116 36, Ελλάς [peak] (OSM node/8729317295)",
+      "notes": []
+    }
+  ]
+}

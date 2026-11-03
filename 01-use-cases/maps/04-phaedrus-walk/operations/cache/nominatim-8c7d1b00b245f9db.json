@@ -1,0 +1,48 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&q=Arch%20of%20Hadrian%2C%20Athens&viewbox=23.70,37.99,23.78,37.95&bounded=1",
+  "fetched": "2026-11-03T15:45:00.139Z",
+  "data": [
+    {
+      "place_id": 56201799,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 175107932,
+      "lat": "37.9701869",
+      "lon": "23.7320130",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 0.39727265900251174,
+      "addresstype": "tourism",
+      "name": "Πύλη του Αδριανού",
+      "display_name": "Πύλη του Αδριανού, Βασιλίσσης Αμαλίας, 2η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 58, Ελλάς",
+      "boundingbox": [
+        "37.9701236",
+        "37.9702501",
+        "23.7319548",
+        "23.7320712"
+      ]
+    },
+    {
+      "place_id": 56283574,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1600503933,
+      "lat": "37.9701575",
+      "lon": "23.7321479",
+      "category": "tourism",
+      "type": "viewpoint",
+      "place_rank": 30,
+      "importance": 0.00008327382314789071,
+      "addresstype": "tourism",
+      "name": "Arch of Hadrian",
+      "display_name": "Arch of Hadrian, Βασιλίσσης Αμαλίας, 2η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 58, Ελλάς",
+      "boundingbox": [
+        "37.9701075",
+        "37.9702075",
+        "23.7320979",
+        "23.7321979"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where Does the Machine Speak From?</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+  :root {
+    --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6860; --rule: #e3e0d8;
+    --accent: #7a2e1f; --chip: #f1eee7;
+    --imagined: #9b3a3a; --built: #2e5f8f; --trained: #3a7656; --readings: #a8740a;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow-x: hidden; background: var(--bg); color: var(--ink); font: 14px/1.45 var(--sans); }
+  .app { display: grid; grid-template-columns: 390px 1fr; height: 100vh; }
+  aside { overflow-y: auto; border-right: 1px solid var(--rule); background: var(--panel); padding: 20px 20px 40px; }
+  #map { height: 100%; background: #e8e6e1; }
+  h1 { font: 600 26px/1.15 var(--serif); margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font: 600 13px/1.2 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 22px 0 8px; }
+  h3 { font: 600 19px/1.25 var(--serif); margin: 0 0 4px; }
+  p { margin: 0 0 8px; }
+  .lede { color: var(--muted); font-size: 13.5px; }
+  a { color: var(--accent); }
+  button { font: inherit; border: 1px solid var(--rule); background: var(--chip); color: var(--ink); border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+  button:hover { border-color: var(--muted); }
+  button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .views, .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .layers label { display: grid; grid-template-columns: 18px 12px 1fr auto; gap: 8px; align-items: center; padding: 3px 0; cursor: pointer; }
+  .swatch { width: 12px; height: 12px; border-radius: 50%; }
+  .num { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .row { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+  .row input[type=range] { flex: 1; }
+  .small { font-size: 12.5px; color: var(--muted); }
+  .year { font: 600 20px/1 var(--serif); min-width: 86px; text-align: right; font-variant-numeric: tabular-nums; }
+  input[type=search] { width: 100%; font: inherit; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 4px; background: var(--bg); }
+  #detail { border-top: 2px solid var(--ink); margin-top: 22px; padding-top: 14px; }
+  #detail:empty { display: none; }
+  .meta { font-size: 12.5px; color: var(--muted); margin-bottom: 8px; }
+  .tag { display: inline-block; font-size: 11px; padding: 0 6px; border-radius: 3px; background: var(--chip); color: var(--muted); margin-right: 4px; vertical-align: middle; }
+  .tag.yes { background: #e7efe4; color: #2f5d27; }
+  .tag.no { background: #efe7e7; color: #7a2e1f; }
+  .tag.low, .tag.unclear { background: #f7e9d7; color: #7a4a10; }
+  .tag.layer { color: #fff; }
+  .item { padding: 8px 0; border-bottom: 1px solid var(--rule); }
+  .item q { font-family: var(--serif); font-size: 14.5px; }
+  .item .t { font: 600 15px/1.3 var(--serif); }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  td, th { text-align: left; padding: 3px 4px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; }
+  details summary { cursor: pointer; color: var(--accent); margin: 6px 0; }
+  .legend { display: grid; grid-template-columns: 22px 1fr; gap: 4px 8px; align-items: center; font-size: 12.5px; color: var(--muted); }
+  .legend svg { display: block; }
+  .leaflet-tooltip { font: 12.5px/1.35 var(--sans); }
+  .osm-muted { filter: grayscale(0.9) contrast(0.85) brightness(1.06); }
+  @media (max-width: 800px) {
+    .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: 58vh auto; height: auto; }
+    #map { height: 58vh; order: -1; }
+    aside { border-right: 0; padding: 16px; min-width: 0; }
+    table { table-layout: fixed; word-wrap: break-word; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <h1>Where does the machine speak from?</h1>
+    <p class="lede">Where talking machines were <strong style="color:var(--imagined)">imagined</strong>, <strong style="color:var(--built)">built</strong>, and <strong style="color:var(--trained)">trained</strong>: the works that dreamed them, the machines that spoke, and the papers that shaped the assistant. Drag the year to watch the dream spread across Eurasia for two and a half millennia, and the machine itself appear in a handful of cities in sixty years. Click a circle to read what happened there.</p>
+
+    <h2>Up to the year</h2>
+    <div class="row"><input type="range" id="year" min="0" max="0" value="0"><span class="year" id="year-v"></span></div>
+    <div class="row small"><button id="play">Play</button><button id="reset">All years</button><span id="shown"></span></div>
+
+    <h2>Layers</h2>
+    <div class="layers" id="layers"></div>
+
+    <h2>Does the made thing speak?</h2>
+    <div class="chips" id="speaks">
+      <button data-s="all" aria-pressed="true">All</button>
+      <button data-s="yes">Speaks</button>
+      <button data-s="no">Silent</button>
+      <button data-s="unclear">Unclear</button>
+    </div>
+
+    <h2>View</h2>
+    <div class="views">
+      <button data-view="world">World</button>
+      <button data-view="europe">Europe</button>
+      <button data-view="bay">Bay Area</button>
+      <button data-view="east">Boston–New York</button>
+    </div>
+
+    <h2>Find</h2>
+    <input type="search" id="find" list="find-list" placeholder="e.g. ELIZA, Frankenstein, Alexandria, Mountain View">
+    <datalist id="find-list"></datalist>
+
+    <div id="detail"></div>
+
+    <h2>What the slider shows</h2>
+    <table id="stats"></table>
+
+    <h2>Key</h2>
+    <div class="legend">
+      <svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="#555" fill-opacity=".6" stroke="#fff"/></svg><span>a place where at least one row is located; area grows with the number of rows there</span>
+      <svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="#555" fill-opacity=".3" stroke="#555" stroke-dasharray="3 2"/></svg><span>dashed: every row here is a low-certainty placement (a legend, or an unknown place of composition)</span>
+      <span></span><span>Colour is the layer with the most rows at that place. Coordinates come from a gazetteer, never from a model.</span>
+    </div>
+
+    <h2>Not on the map</h2>
+    <p class="small" id="unmapped-sum"></p>
+    <table id="unmapped"></table>
+
+    <h2>About</h2>
+    <p class="small" id="about"></p>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+const LAYERS = [
+  { key: 'imagined', label: 'Imagined', color: '#9b3a3a', blurb: 'made beings in literature, legend, and film' },
+  { key: 'built', label: 'Built', color: '#2e5f8f', blurb: 'machines that spoke or conversed' },
+  { key: 'trained', label: 'Trained', color: '#3a7656', blurb: 'the 22 papers in the course folder, by first author’s affiliation' },
+  { key: 'readings', label: 'Course readings', color: '#a8740a', blurb: 'the literary works on the syllabus' },
+];
+const COLOR = Object.fromEntries(LAYERS.map((l) => [l.key, l.color]));
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const fmtYear = (y) => (y < 0 ? `${-y} BCE` : y <= 999 ? `${y} CE` : String(y));
+
+const map = L.map('map', { zoomSnap: 0.5, worldCopyJump: true });
+const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+const ESRI_ATTR = 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors';
+const gray = L.layerGroup([
+  L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16, attribution: ESRI_ATTR }),
+  L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }),
+]);
+const streets = L.tileLayer(ESRI + 'World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: ESRI_ATTR });
+const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, className: 'osm-muted', attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' });
+gray.addTo(map);
+L.control.layers({ 'Quiet base map (Esri light gray)': gray, 'Street map (Esri)': streets, 'OpenStreetMap (may be blocked from file://)': osm }, null, { position: 'topright' }).addTo(map);
+L.control.scale({ imperial: true, metric: true }).addTo(map);
+
+const VIEWS = { world: [[-20, -130], [62, 140]], europe: [[34, -12], [60, 30]], bay: [[37.2, -122.6], [37.95, -121.7]], east: [[38.6, -77.6], [42.7, -70.5]] };
+const fit = (v) => map.fitBounds(VIEWS[v]);
+fit('world');
+document.querySelectorAll('[data-view]').forEach((b) => (b.onclick = () => fit(b.dataset.view)));
+
+const rows = DATA.rows;
+const years = [...new Set(rows.map((r) => r.year))].sort((a, b) => a - b);
+const state = { yearIdx: years.length - 1, layers: new Set(LAYERS.map((l) => l.key)), speaks: 'all' };
+
+// Year slider over the sorted list of years, so 750 BCE and 2026 both get room.
+const slider = document.getElementById('year');
+slider.max = years.length - 1; slider.value = state.yearIdx;
+slider.oninput = () => { state.yearIdx = Number(slider.value); draw(); };
+document.getElementById('reset').onclick = () => { state.yearIdx = years.length - 1; slider.value = state.yearIdx; stopPlay(); draw(); };
+let timer = null;
+function stopPlay() { if (timer) { clearInterval(timer); timer = null; document.getElementById('play').textContent = 'Play'; } }
+document.getElementById('play').onclick = () => {
+  if (timer) return stopPlay();
+  state.yearIdx = 0; slider.value = 0; draw();
+  document.getElementById('play').textContent = 'Pause';
+  timer = setInterval(() => { if (state.yearIdx >= years.length - 1) return stopPlay(); state.yearIdx++; slider.value = state.yearIdx; draw(); }, 350);
+};
+
+// Layer checkboxes
+const lb = document.getElementById('layers');
+for (const l of LAYERS) {
+  const lab = document.createElement('label');
+  lab.innerHTML = `<input type="checkbox" checked data-k="${l.key}"><span class="swatch" style="background:${l.color}"></span><span>${l.label} <span class="small">${l.blurb}</span></span><span class="num" id="cnt-${l.key}"></span>`;
+  lb.appendChild(lab);
+}
+lb.addEventListener('change', (e) => { const k = e.target.dataset.k; e.target.checked ? state.layers.add(k) : state.layers.delete(k); draw(); });
+document.querySelectorAll('#speaks button').forEach((b) => (b.onclick = () => {
+  state.speaks = b.dataset.s;
+  document.querySelectorAll('#speaks button').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  draw();
+}));
+
+const visible = (r) => r.year <= years[state.yearIdx] && state.layers.has(r.layer) && (state.speaks === 'all' || r.speaks === state.speaks);
+
+const layer = L.layerGroup().addTo(map);
+const byId = new Map(rows.map((r) => [r.id, r]));
+const placeKey = (r) => `${Number(r.lat).toFixed(3)},${Number(r.lon).toFixed(3)}`;
+let currentPlace = null;
+
+function draw() {
+  layer.clearLayers();
+  const groups = new Map();
+  for (const r of rows) {
+    if (!r.mapped || !visible(r)) continue;
+    const k = placeKey(r);
+    if (!groups.has(k)) groups.set(k, { lat: Number(r.lat), lon: Number(r.lon), rows: [] });
+    groups.get(k).rows.push(r);
+  }
+  const list = [...groups.entries()].sort((a, b) => b[1].rows.length - a[1].rows.length);
+  for (const [k, g] of list) {
+    const counts = {}; for (const r of g.rows) counts[r.layer] = (counts[r.layer] || 0) + 1;
+    const dom = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+    const allLow = g.rows.every((r) => r.certainty === 'low');
+    const m = L.circleMarker([g.lat, g.lon], {
+      radius: Math.min(40, 6 + 3.2 * Math.sqrt(g.rows.length)), color: allLow ? COLOR[dom] : '#ffffff', weight: allLow ? 1.5 : 1.2,
+      dashArray: allLow ? '4 3' : null, fillColor: COLOR[dom], fillOpacity: allLow ? 0.3 : 0.7,
+    });
+    const names = g.rows.slice(0, 4).map((r) => esc(shortTitle(r))).join(' · ') + (g.rows.length > 4 ? ` · and ${g.rows.length - 4} more` : '');
+    m.bindTooltip(`<strong>${esc(g.rows[0].city)}</strong> · ${g.rows.length}<br>${names}`, { direction: 'top' });
+    m.on('click', () => showPlace(k));
+    m.addTo(layer);
+  }
+  // Counts and stats
+  const shown = rows.filter((r) => visible(r));
+  for (const l of LAYERS) document.getElementById(`cnt-${l.key}`).textContent = `${shown.filter((r) => r.layer === l.key && r.mapped).length}`;
+  document.getElementById('year-v').textContent = fmtYear(years[state.yearIdx]);
+  document.getElementById('shown').textContent = `${shown.filter((r) => r.mapped).length} rows at ${groups.size} places`;
+  stats(shown);
+  if (currentPlace && groups.has(currentPlace)) showPlace(currentPlace, true);
+}
+
+const shortTitle = (r) => r.layer === 'trained' ? (r.title.length > 48 ? r.title.slice(0, 46) + '…' : r.title) : r.title.replace(/^".*?"$/, (s) => s);
+
+function stats(shown) {
+  let html = '<tr><th>Layer</th><th class="n">rows</th><th class="n">places</th><th>span</th></tr>';
+  for (const l of LAYERS) {
+    const rs = shown.filter((r) => r.layer === l.key && r.mapped);
+    const cities = new Set(rs.map((r) => placeKey(r)));
+    const span = rs.length ? `${fmtYear(Math.min(...rs.map((r) => r.year)))} – ${fmtYear(Math.max(...rs.map((r) => r.year)))}` : '';
+    html += `<tr><td><span class="swatch" style="display:inline-block;background:${l.color}"></span> ${l.label}</td><td class="n">${rs.length}</td><td class="n">${cities.size}</td><td class="small">${span}</td></tr>`;
+  }
+  document.getElementById('stats').innerHTML = html;
+}
+
+function tagLayer(r) { return `<span class="tag layer" style="background:${COLOR[r.layer]}">${LAYERS.find((l) => l.key === r.layer).label}</span>`; }
+function tagSpeaks(r) { return r.speaks === 'n/a' ? '' : `<span class="tag ${r.speaks}" title="${esc(r.speaks_note || '')}">${r.speaks === 'yes' ? 'speaks' : r.speaks === 'no' ? 'silent' : 'speech unclear'}</span>`; }
+function tagCert(r) { return `<span class="tag ${r.certainty}" title="how sure the place is">${r.certainty} certainty</span>`; }
+
+function itemHTML(r, full) {
+  const src = (r.place_sources || []).map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace(/^www\./, ''))}</a>`).join(', ');
+  let html = `<div class="item" id="row-${esc(r.id)}"><div class="t">${esc(r.title)}</div><div class="meta">${tagLayer(r)}${tagSpeaks(r)}${tagCert(r)} ${esc(r.date_display)}${r.who ? ` · ${esc(r.who)}` : ''}</div>`;
+  if (full) {
+    if (r.description) html += `<p>${esc(r.description)}</p>`;
+    if (r.quote && r.copyright === 'public-domain') html += `<p><q>${esc(r.quote)}</q> <span class="small">${esc(r.quote_attribution)}</span></p>`;
+    html += `<p class="small"><strong>Place:</strong> ${esc(r.place_label)} <em>(${esc(r.place_kind)})</em>. ${esc(r.place_note || '')}</p>`;
+    if (r.affiliation_line) html += `<p class="small"><strong>As printed:</strong> ${esc(r.affiliation_line)}</p>`;
+    if (r.speaks_note && r.speaks !== 'n/a') html += `<p class="small"><strong>Speech:</strong> ${esc(r.speaks_note)}</p>`;
+    html += `<p class="small"><strong>Located by:</strong> ${esc(r.geocoder)}${r.geo_match ? `: ${esc(r.geo_match)}` : ''}${r.geo_link ? ` · <a href="${esc(r.geo_link)}" target="_blank" rel="noopener">record</a>` : ''}</p>`;
+    html += `<p class="small"><strong>Sources opened:</strong> ${src}${r.source_url ? ` · <a href="${esc(r.source_url)}" target="_blank" rel="noopener">event source</a>` : ''}${r.status ? ` · ${esc(r.status)}${r.origin ? ` (${esc(r.origin)})` : ''}` : ''}</p>`;
+    html += `<p class="small"><a href="#${esc(r.id)}">Link to this row</a></p>`;
+  }
+  return html + '</div>';
+}
+
+function showPlace(k, quiet) {
+  currentPlace = k;
+  const here = rows.filter((r) => r.mapped && placeKey(r) === k && visible(r)).sort((a, b) => a.year - b.year);
+  if (!here.length) return;
+  const d = document.getElementById('detail');
+  d.innerHTML = `<h3>${esc(here[0].city)}</h3><div class="meta">${here.length} row${here.length === 1 ? '' : 's'} here, ${fmtYear(here[0].year)} to ${fmtYear(here[here.length - 1].year)}. Click a title to expand.</div>` + here.map((r) => itemHTML(r, here.length === 1)).join('');
+  d.querySelectorAll('.item .t').forEach((t) => (t.style.cursor = 'pointer', t.onclick = () => { const r = byId.get(t.parentElement.id.slice(4)); t.parentElement.outerHTML = itemHTML(r, true); }));
+  if (!quiet) d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function showRow(id) {
+  const r = byId.get(id);
+  if (!r) return;
+  if (r.mapped) {
+    map.setView([Number(r.lat), Number(r.lon)], Math.max(map.getZoom(), 6));
+    if (!visible(r)) { state.yearIdx = years.indexOf(r.year); slider.value = state.yearIdx; state.layers.add(r.layer); document.querySelector(`[data-k="${r.layer}"]`).checked = true; draw(); }
+    currentPlace = placeKey(r);
+  }
+  const d = document.getElementById('detail');
+  d.innerHTML = `<h3>${esc(r.city || 'Not on the map')}</h3>` + itemHTML(r, true);
+  d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Search over titles, people, and cities
+const dl = document.getElementById('find-list');
+for (const r of rows) { const o = document.createElement('option'); o.value = r.title; dl.appendChild(o); }
+for (const c of new Set(rows.map((r) => r.city).filter(Boolean))) { const o = document.createElement('option'); o.value = c; dl.appendChild(o); }
+document.getElementById('find').addEventListener('change', (e) => {
+  const q = e.target.value.toLowerCase().trim();
+  if (!q) return;
+  const r = rows.find((x) => x.title.toLowerCase() === q) || rows.find((x) => (x.city || '').toLowerCase() === q)
+    || rows.find((x) => x.title.toLowerCase().includes(q) || (x.who || '').toLowerCase().includes(q) || (x.city || '').toLowerCase().includes(q));
+  if (r) showRow(r.id);
+});
+
+// Unmapped rows stay visible
+const un = rows.filter((r) => !r.mapped);
+document.getElementById('unmapped-sum').textContent = un.length ? `${un.length} row${un.length === 1 ? '' : 's'} could not be located by either gazetteer and are listed here instead of guessed.` : 'Every row was located by a gazetteer.';
+document.getElementById('unmapped').innerHTML = un.length ? '<tr><th>Row</th><th>place sought</th><th>why</th></tr>' + un.map((r) => `<tr><td><a href="#${esc(r.id)}">${esc(r.title)}</a></td><td>${esc(r.geocode_query || '')}</td><td class="small">${esc(r.geo_note || r.status_place || '')}</td></tr>`).join('') : '';
+
+document.getElementById('about').innerHTML = `${rows.length} rows: ${LAYERS.map((l) => `${rows.filter((r) => r.layer === l.key).length} ${l.label.toLowerCase()}`).join(', ')}. Dates and most sources come from the timeline (maps/02-ai-and-literature-timeline)'s verified timeline; places were researched for this map on ${esc(DATA.geocoded_on)} and located by OpenStreetMap's Nominatim, with Wikidata as a fallback. Built ${esc(DATA.built)}. Full chain, sources, and caveats: <code>01-use-cases/maps/03-talking-machines-map/README.md</code>.`;
+
+function fromHash() { const id = decodeURIComponent(location.hash.slice(1)); if (id && byId.has(id)) showRow(id); }
+window.addEventListener('hashchange', fromHash);
+draw();
+fromHash();
+</script>
+</body>
+</html>

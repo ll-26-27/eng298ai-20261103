@@ -1,0 +1,27 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&q=Temple%20of%20Olympian%20Zeus%2C%20Athens&viewbox=23.70,37.99,23.78,37.95&bounded=1",
+  "fetched": "2026-11-03T15:44:56.749Z",
+  "data": [
+    {
+      "place_id": 56357123,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 63765671,
+      "lat": "37.9694370",
+      "lon": "23.7330955",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 0.4907048743282424,
+      "addresstype": "tourism",
+      "name": "Ναός του Ολυμπίου Διός",
+      "display_name": "Ναός του Ολυμπίου Διός, Ανδρέα Συγγρού, 2η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 58, Ελλάς",
+      "boundingbox": [
+        "37.9691728",
+        "37.9695643",
+        "23.7324617",
+        "23.7337267"
+      ]
+    }
+  ]
+}

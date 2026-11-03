@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "Conjectural walking route of Socrates and Phaedrus (Plato, Phaedrus 227a-230b and 279c)",
+  "note": "HAND-DRAWN AND CONJECTURAL. These lines were drawn by the building session on 2026-11-03 over the OpenStreetMap features in 03-landmarks.json, following the reading of Wycherley (1963) as reported by Simms (2002/3) n.1 and McHugh (2017) pp. 34-36, 53: out of the city near the Olympieion, into the Ilissos, upstream past the crossing to Agrai, to the east bank at the foot of Ardettos. Nothing here is geocoded or excavated; the gate is not named in the text; the river's ancient bed is approximated by its culverted modern course. Treat every vertex as an illustration of a hypothesis.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "out", "label": "Out of the city and into the stream (227a–230b)", "status": "conjectural", "style": "dashed" },
+      "geometry": { "type": "LineString", "coordinates": [
+        [23.7331, 37.9694],
+        [23.7337, 37.9688],
+        [23.7340, 37.9682],
+        [23.7343, 37.9679],
+        [23.7352, 37.9677],
+        [23.7362, 37.9680],
+        [23.7372, 37.9684],
+        [23.7383, 37.9688],
+        [23.7393, 37.9691]
+      ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "back", "label": "“Let us go”: back toward the city (279c)", "status": "conjectural", "style": "dotted" },
+      "geometry": { "type": "LineString", "coordinates": [
+        [23.7393, 37.9691],
+        [23.7380, 37.9693],
+        [23.7362, 37.9690],
+        [23.7345, 37.9687],
+        [23.7331, 37.9694]
+      ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ilissos-approx", "label": "Approximate course of the Ilissos here (culverted except by Agia Fotini)", "status": "approximate", "style": "river" },
+      "geometry": { "type": "LineString", "coordinates": [
+        [23.7430, 37.9705],
+        [23.7410, 37.9698],
+        [23.7395, 37.9692],
+        [23.7380, 37.9687],
+        [23.7365, 37.9681],
+        [23.7352, 37.9678],
+        [23.7343, 37.9678],
+        [23.7335, 37.9676],
+        [23.7320, 37.9668],
+        [23.7300, 37.9660]
+      ] }
+    }
+  ]
+}

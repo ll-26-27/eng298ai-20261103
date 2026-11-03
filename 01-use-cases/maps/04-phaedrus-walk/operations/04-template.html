@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Walking the Phaedrus</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+  :root {
+    --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6860; --rule: #e3e0d8;
+    --accent: #7a2e1f; --chip: #f1eee7; --river: #3b6ea5; --walk: #7a2e1f; --conj: #b07a2a;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --greek: "New Athena Unicode", "Gentium Plus", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); font: 14px/1.45 var(--sans); }
+  .app { display: grid; grid-template-columns: 480px 1fr; height: 100vh; }
+  aside { overflow-y: auto; border-right: 1px solid var(--rule); background: var(--panel); padding: 20px 22px 60px; scroll-behavior: smooth; }
+  #map { height: 100%; background: #e8e6e1; }
+  h1 { font: 600 27px/1.12 var(--serif); margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font: 600 12.5px/1.2 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 22px 0 8px; }
+  h3 { font: 600 19px/1.2 var(--serif); margin: 0; }
+  p { margin: 0 0 8px; }
+  a { color: var(--accent); }
+  .lede { color: var(--muted); font-size: 13.5px; }
+  .controls { position: sticky; top: -20px; background: var(--panel); padding: 10px 0 10px; margin: 0 -2px; border-bottom: 1px solid var(--rule); z-index: 5; }
+  .row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  button { font: inherit; border: 1px solid var(--rule); background: var(--chip); color: var(--ink); border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+  button:hover { border-color: var(--muted); }
+  button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .counter { font: 600 13px var(--sans); color: var(--muted); min-width: 92px; text-align: center; }
+  .small { font-size: 12.5px; color: var(--muted); }
+  .stop { border-top: 1px solid var(--rule); padding: 18px 0 10px; scroll-margin-top: 70px; }
+  .stop.on { background: linear-gradient(90deg, #fbf5ea 0, transparent 70%); margin: 0 -10px; padding-left: 10px; padding-right: 10px; border-radius: 6px; }
+  .stop-head { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; cursor: pointer; }
+  .num { width: 30px; height: 30px; border-radius: 50%; background: var(--walk); color: #fff; font: 600 14px/30px var(--sans); text-align: center; }
+  .num.conj { background: #fff; color: var(--conj); border: 2px dashed var(--conj); line-height: 26px; }
+  .steph { font: 600 12px var(--sans); color: var(--muted); letter-spacing: 0.04em; }
+  .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 3px; margin-left: 6px; vertical-align: middle; font-weight: 600; letter-spacing: 0.02em; }
+  .badge.high { background: #e7efe4; color: #2f5d27; }
+  .badge.medium { background: #f7ecd1; color: #7a5410; }
+  .badge.low { background: #f6e0dc; color: #7a2e1f; }
+  .where { margin: 10px 0 8px; font-size: 13.5px; }
+  .words { font-family: var(--serif); font-size: 14.5px; color: var(--ink); border-left: 3px solid var(--rule); padding: 2px 0 2px 10px; margin: 8px 0 10px; }
+  .texts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 10px 0; }
+  .texts .col h4 { font: 600 11.5px var(--sans); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 6px; }
+  .sp { margin: 0 0 7px; font-size: 13.5px; line-height: 1.5; }
+  .sp .who { font: 600 11px var(--sans); color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; margin-right: 4px; }
+  .sp.grc { font-family: var(--greek); font-size: 14px; }
+  .sp.cont .who::after { content: " (cont.)"; text-transform: none; letter-spacing: 0; font-weight: 400; }
+  details { margin: 6px 0 8px; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 13px; }
+  .cc { display: grid; grid-template-columns: 92px 1fr; gap: 4px 10px; font-size: 12.5px; margin: 10px 0 6px; }
+  .cc dt { font-weight: 600; color: var(--muted); }
+  .cc dd { margin: 0; }
+  .srcs { font-size: 12px; color: var(--muted); }
+  .srcs a { color: var(--muted); }
+  .legend { display: grid; grid-template-columns: 26px 1fr; gap: 5px 8px; align-items: center; font-size: 12.5px; color: var(--muted); margin: 6px 0; }
+  .legend svg { display: block; }
+  .xlink { display: inline-block; margin-top: 6px; font-size: 13px; }
+  #sources li { margin: 0 0 7px; font-size: 12.5px; }
+  #sources .not { color: var(--muted); }
+  footer { margin-top: 26px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 12px; color: var(--muted); }
+  /* map markers */
+  .mk { width: 26px; height: 26px; border-radius: 50%; background: var(--walk); color: #fff; font: 600 12px/26px var(--sans); text-align: center; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35); }
+  .mk.conj { background: #fff; color: var(--conj); border: 2px dashed var(--conj); line-height: 22px; }
+  .mk.on { transform: scale(1.25); background: var(--ink); }
+  .mk.conj.on { background: #fff8e8; }
+  .lm { width: 10px; height: 10px; border-radius: 50%; background: #fff; border: 2px solid #555; }
+  .leaflet-tooltip.lmlabel { background: rgba(255,255,255,.85); border: 0; box-shadow: none; color: #333; font: 11.5px var(--sans); padding: 1px 4px; }
+  .leaflet-tooltip.stoplabel { font: 600 12px var(--sans); }
+  .leaflet-popup-content { font: 13px/1.4 var(--sans); }
+  .leaflet-container { font-family: var(--sans); }
+  @media (max-width: 860px) {
+    .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: 55vh auto; height: auto; }
+    #map { height: 55vh; order: -1; }
+    aside { border-right: 0; padding: 14px 16px 40px; }
+    .texts { grid-template-columns: 1fr; }
+    .controls { top: -14px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <h1>Walking the <em>Phaedrus</em></h1>
+    <p class="lede">One dialogue, one walk, one afternoon. Socrates and Phaedrus leave Athens by the Olympieion, wade up the Ilissos, and sit under a plane tree to talk about love and writing; then they walk back. The text is aligned to the ground. Solid markers stand on things that are known; dashed ones on conjecture.</p>
+
+    <div class="controls">
+      <div class="row">
+        <button id="prev" title="Previous stop (←)">← Previous</button>
+        <span class="counter" id="counter"></span>
+        <button id="next" title="Next stop (→)">Next →</button>
+        <span style="flex:1"></span>
+        <button id="base-gray" class="on" title="Esri light gray basemap">Map</button>
+        <button id="base-sat" title="Esri World Imagery: see the covered river's line in the modern city">Aerial</button>
+      </div>
+      <div class="row small" style="margin-top:6px">
+        <label><input type="checkbox" id="t-landmarks" checked> landmarks</label>
+        <label><input type="checkbox" id="t-route" checked> conjectural route</label>
+        <label><input type="checkbox" id="t-river" checked> river</label>
+        <label><input type="checkbox" id="t-alts" checked> rival plane trees</label>
+      </div>
+    </div>
+
+    <h2>Legend</h2>
+    <div class="legend">
+      <svg width="26" height="26"><circle cx="13" cy="13" r="10" fill="#7a2e1f" stroke="#fff" stroke-width="2"/><text x="13" y="17" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">1</text></svg><span>Stop at a located landmark or on the route</span>
+      <svg width="26" height="26"><circle cx="13" cy="13" r="10" fill="#fff" stroke="#b07a2a" stroke-width="2" stroke-dasharray="3 2"/><text x="13" y="17" fill="#b07a2a" font-size="11" font-weight="600" text-anchor="middle">6</text></svg><span>Stop whose place is conjecture (the plane tree and everything said under it)</span>
+      <svg width="26" height="14"><line x1="1" y1="7" x2="25" y2="7" stroke="#7a2e1f" stroke-width="2.5" stroke-dasharray="6 4"/></svg><span>Walk out, hand-drawn after Wycherley’s reading</span>
+      <svg width="26" height="14"><line x1="1" y1="7" x2="25" y2="7" stroke="#7a2e1f" stroke-width="2.5" stroke-dasharray="2 4"/></svg><span>Walk back (“let us go”)</span>
+      <svg width="26" height="14"><line x1="1" y1="7" x2="25" y2="7" stroke="#3b6ea5" stroke-width="3" opacity=".7"/></svg><span>Ilissos, approximate course (culverted except by Agia Fotini)</span>
+      <svg width="26" height="26"><circle cx="13" cy="13" r="5" fill="#fff" stroke="#555" stroke-width="2"/></svg><span>Located landmark (OpenStreetMap feature)</span>
+    </div>
+
+    <h2>The walk, stop by stop</h2>
+    <div id="stops"></div>
+
+    <h2>Sources</h2>
+    <p class="small">Every modern claim above names one of these. Entries marked “not opened” were not read directly and appear only as reported by an opened source.</p>
+    <ul id="sources"></ul>
+
+    <footer id="footer"></footer>
+  </aside>
+  <div id="map" role="region" aria-label="Map of the Ilissos valley, Athens"></div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+
+// ---------- map ----------
+const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+const ESRI_ATTR = 'Tiles &copy; Esri';
+const gray = L.layerGroup([
+  L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16, attribution: ESRI_ATTR }),
+  L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }),
+]);
+const sat = L.tileLayer(ESRI + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: ESRI_ATTR + ', Maxar, Earthstar Geographics' });
+const map = L.map('map', { layers: [gray], zoomControl: true, maxZoom: 18 });
+L.control.scale({ metric: true, imperial: false, maxWidth: 160 }).addTo(map);
+map.attributionControl.addAttribution('Features &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors (ODbL)');
+
+const walkStyle = { color: '#7a2e1f', weight: 3, dashArray: '8 6', opacity: .85 };
+const backStyle = { color: '#7a2e1f', weight: 2.5, dashArray: '2 6', opacity: .75 };
+const riverStyle = { color: '#3b6ea5', weight: 4, opacity: .55 };
+
+const riverLayer = L.layerGroup(), routeLayer = L.layerGroup(), lmLayer = L.layerGroup(), altLayer = L.layerGroup(), stopLayer = L.layerGroup();
+for (const f of DATA.route.features) {
+  const ll = f.geometry.coordinates.map(([x, y]) => [y, x]);
+  const style = f.properties.style === 'river' ? riverStyle : f.properties.style === 'dotted' ? backStyle : walkStyle;
+  const line = L.polyline(ll, style).bindTooltip(f.properties.label + (f.properties.status === 'conjectural' ? ' — conjectural' : ''), { sticky: true });
+  (f.properties.style === 'river' ? riverLayer : routeLayer).addLayer(line);
+}
+for (const lm of DATA.landmarks.landmarks) {
+  if (lm.lat == null) continue;
+  const m = L.marker([lm.lat, lm.lon], { icon: L.divIcon({ className: 'lm', iconSize: [10, 10] }), zIndexOffset: -100 });
+  const labelled = ['olympieion', 'agia-fotini', 'artemis-agrotera', 'panathenaic-stadium', 'ardettos', 'ilissos-open'];
+  m.bindTooltip(lm.name, { permanent: labelled.includes(lm.id), direction: lm.id === 'ilissos-open' ? 'bottom' : 'right', offset: lm.id === 'ilissos-open' ? [0, 6] : [6, 0], className: 'lmlabel' });
+  m.bindPopup(`<b>${esc(lm.name)}</b><br>${esc(lm.why || '')}<br><span style="color:#777">${esc(lm.geocoder)}: ${esc(lm.matched || '')}</span>`);
+  lmLayer.addLayer(m);
+}
+const stopMarkers = {};
+const plane = DATA.stops.stops.filter((s) => s.position_status === 'at-the-plane-tree' || s.id === 'the-plane-tree');
+for (const s of DATA.stops.stops) {
+  const conj = /conjectur|plane-tree/.test(s.position_status);
+  const shared = plane.includes(s);
+  if (shared && s.id !== 'the-plane-tree') continue; // one marker for stops 6–11
+  const label = shared ? `${plane[0].n}–${plane[plane.length - 1].n}` : String(s.n);
+  const m = L.marker([s.lat, s.lon], { icon: L.divIcon({ className: 'mk' + (conj ? ' conj' : ''), html: label, iconSize: [26, 26] }), zIndexOffset: 500 });
+  m.bindTooltip(shared ? `${plane[0].n}–${plane[plane.length - 1].n} · The plane tree (conjectural)` : `${s.n} · ${s.title}`, { direction: 'top', offset: [0, -14], className: 'stoplabel' });
+  m.on('click', () => go(s.n));
+  stopLayer.addLayer(m);
+  stopMarkers[s.n] = m;
+  if (shared) for (const p of plane) stopMarkers[p.n] = m;
+  if (s.secondary) {
+    const c = L.circleMarker([s.secondary.lat, s.secondary.lon], { radius: 8, color: '#b07a2a', dashArray: '3 3', fillColor: '#fff', fillOpacity: .9, weight: 2 })
+      .bindTooltip(s.secondary.label + ' — conjectural', { direction: 'right', offset: [8, 0], className: 'lmlabel' });
+    altLayer.addLayer(c);
+  }
+  if (s.alternatives) for (const a of s.alternatives) {
+    const c = L.circleMarker([a.lat, a.lon], { radius: 11, color: '#b07a2a', dashArray: '4 3', fillColor: '#fff8e8', fillOpacity: .6, weight: 2 })
+      .bindTooltip(a.label + ' — conjectural', { direction: 'bottom', offset: [0, 10], className: 'lmlabel' });
+    altLayer.addLayer(c);
+  }
+}
+riverLayer.addTo(map); routeLayer.addTo(map); lmLayer.addTo(map); altLayer.addTo(map); stopLayer.addTo(map);
+const walkLayers = lmLayer.getLayers().filter((_, i) => DATA.landmarks.landmarks.filter((l) => l.lat != null)[i].role !== 'orientation');
+const all = L.featureGroup([...new Set(Object.values(stopMarkers)), ...altLayer.getLayers(), ...walkLayers]);
+map.fitBounds(all.getBounds().pad(0.2));
+
+document.getElementById('base-gray').onclick = () => { map.removeLayer(sat); gray.addTo(map); toggle('base-gray', 'base-sat'); };
+document.getElementById('base-sat').onclick = () => { map.removeLayer(gray); sat.addTo(map); toggle('base-sat', 'base-gray'); };
+function toggle(on, off) { document.getElementById(on).classList.add('on'); document.getElementById(off).classList.remove('on'); }
+const tog = (id, layer) => document.getElementById(id).onchange = (e) => e.target.checked ? layer.addTo(map) : map.removeLayer(layer);
+tog('t-landmarks', lmLayer); tog('t-route', routeLayer); tog('t-river', riverLayer); tog('t-alts', altLayer);
+
+// ---------- text ----------
+function esc(s) { return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+const passagesById = Object.fromEntries(DATA.passages.stops.map((p) => [p.id, p]));
+const speeches = (arr, cls) => arr.map((x) => `<p class="sp ${cls}${x.continues ? ' cont' : ''}"><span class="who">${esc(x.speaker || '')}</span>${esc(x.text)}</p>`).join('');
+const srcLink = (k) => { const s = DATA.stops.sources[k]; if (!s) return esc(k); const short = s.cite.split(/[,(]/)[0].trim(); return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(short)}</a>` : esc(short); };
+
+const stopsEl = document.getElementById('stops');
+for (const s of DATA.stops.stops) {
+  const p = passagesById[s.id];
+  const conj = /conjectur|plane-tree/.test(s.position_status);
+  const el = document.createElement('section');
+  el.className = 'stop'; el.id = `stop-${s.n}`;
+  el.innerHTML = `
+    <div class="stop-head">
+      <div class="num${conj ? ' conj' : ''}">${s.n}</div>
+      <div>
+        <div class="steph">PHAEDRUS ${esc(s.stephanus)} <span class="badge ${esc(s.certainty)}">${esc(s.certainty)} certainty</span></div>
+        <h3>${esc(s.title)}</h3>
+      </div>
+    </div>
+    <p class="where">${esc(s.where)}</p>
+    <div class="words">${esc(s.text_words)}</div>
+    <div class="texts">
+      <div class="col"><h4>Greek · Burnet 1901</h4>${speeches(p.greek, 'grc')}</div>
+      <div class="col"><h4>English · Fowler 1914</h4>${speeches(p.fowler, 'eng')}</div>
+    </div>
+    <details><summary>Jowett 1892 (located by anchor phrases, no Stephanus numbers in the source)</summary>${speeches(p.jowett, 'eng')}</details>
+    <dl class="cc"><dt>Certain</dt><dd>${esc(s.what_is_certain)}</dd><dt>Conjecture</dt><dd>${esc(s.what_is_conjecture)}</dd></dl>
+    ${s.crosslink ? `<a class="xlink" href="${esc(s.crosslink.href)}">→ ${esc(s.crosslink.label)}</a>` : ''}
+    <p class="srcs">Sources: ${s.sources.map(srcLink).join(' · ')} · <a href="#stop-${s.n}">#stop-${s.n}</a></p>`;
+  el.querySelector('.stop-head').onclick = () => go(s.n);
+  stopsEl.appendChild(el);
+}
+
+const srcEl = document.getElementById('sources');
+for (const [k, s] of Object.entries(DATA.stops.sources)) {
+  const li = document.createElement('li');
+  li.innerHTML = `${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.cite)}</a>` : esc(s.cite)}${s.opened ? '' : ' <span class="not">(not opened; cited as reported)</span>'}${s.file ? ` <span class="not">· copy: ${esc(s.file)}</span>` : ''}`;
+  srcEl.appendChild(li);
+}
+document.getElementById('footer').innerHTML = `Built ${esc(DATA.built)} from <code>01-passages.json</code> (${DATA.passages.stops.length} passages), <code>02-stops.json</code>, <code>03-landmarks.json</code> (${DATA.landmarks.landmarks.length} landmarks, ${esc(DATA.landmarks.attribution)}) and <code>03-route.geojson</code> (hand-drawn, conjectural). Texts: ${esc(DATA.passages.sources.greek.edition)}; ${esc(DATA.passages.sources.fowler.edition)}; ${esc(DATA.passages.sources.jowett.edition)}. Greek and Fowler from the Perseus Digital Library (CC BY-SA 4.0); Jowett from Project Gutenberg. A stade is taken as ${esc(DATA.stops.stade.metres)}. Full chain, caveats and rights: <code>01-use-cases/maps/04-phaedrus-walk/README.md</code>.`;
+
+// ---------- walk control ----------
+let cur = 0;
+const N = DATA.stops.stops.length;
+function go(n, fromHash) {
+  cur = Math.max(1, Math.min(N, n));
+  const s = DATA.stops.stops[cur - 1];
+  document.querySelectorAll('.stop').forEach((e) => e.classList.toggle('on', e.id === `stop-${cur}`));
+  document.querySelectorAll('.mk').forEach((e) => e.classList.remove('on'));
+  const m = stopMarkers[cur];
+  if (m) { m.getElement()?.classList.add('on'); map.flyTo([s.lat, s.lon], Math.max(map.getZoom(), 16), { duration: .6 }); m.openTooltip(); }
+  document.getElementById('counter').textContent = `Stop ${cur} of ${N}`;
+  const el = document.getElementById(`stop-${cur}`);
+  if (el && !fromHash) el.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  if (!fromHash) history.replaceState(null, '', `#stop-${cur}`);
+}
+document.getElementById('prev').onclick = () => go(cur - 1);
+document.getElementById('next').onclick = () => go(cur + 1);
+document.addEventListener('keydown', (e) => { if (e.target.tagName === 'INPUT') return; if (e.key === 'ArrowRight') go(cur + 1); if (e.key === 'ArrowLeft') go(cur - 1); });
+const h = location.hash.match(/^#stop-(\d+)$/);
+if (h) { go(+h[1]); document.getElementById(`stop-${cur}`)?.scrollIntoView(); } else { cur = 0; document.getElementById('counter').textContent = `${N} stops`; }
+</script>
+</body>
+</html>

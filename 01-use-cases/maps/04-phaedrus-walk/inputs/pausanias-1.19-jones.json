@@ -1,0 +1,33 @@
+{
+  "work": "Pausanias, Description of Greece, book 1 chapter 19",
+  "translation": "W. H. S. Jones (Loeb Classical Library, 1918), Perseus Digital Library TEI (CC BY-SA 4.0)",
+  "source_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0525/tlg001/tlg0525.tlg001.perseus-eng2.xml",
+  "perseus_reader": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0160:book=1:chapter=19",
+  "fetched": "2026-11-03",
+  "sections": [
+    {
+      "ref": "1.19.1",
+      "text": "Close to the temple of Olympian Zeus is a statue of the Pythian Apollo. There is further a sanctuary of Apollo surnamed Delphinius. The story has it that when the temple was finished with the exception of the roof Theseus arrived in the city, a stranger as yet to everybody. When he came to the temple of the Delphinian, wearing a tunic that reached to his feet and with his hair neatly plaited, those who were building the roof mockingly inquired what a marriageable virgin was doing wandering about by herself. The only answer that Theseus made was to loose, it is said, the oxen from the cart hard by, and to throw them higher than the roof of the temple they were building."
+    },
+    {
+      "ref": "1.19.2",
+      "text": "Concerning the district called The Gardens, and the temple of Aphrodite, there is no story that is told by them, nor yet about the Aphrodite which stands near the temple. Now the shape of it is square, like that of the Hermae, and the inscription declares that the Heavenly Aphrodite is the oldest of those called Fates. But the statue of Aphrodite in the Gardens is the work of Alcamenes, and one of the most note worthy things in Athens."
+    },
+    {
+      "ref": "1.19.3",
+      "text": "There is also the place called Cynosarges, sacred to Heracles; the story of the white dog may be known by reading the oracle. There are altars of Heracles and Hebe, who they think is the daughter of Zeus and wife to Heracles. An altar has been built to Alcmena and to Iolaus, who shared with Heracles most of his labours. The Lyceum has its name from Lycus, the son of Pandion, but it was considered sacred to Apollo from the be ginning down to my time, and here was the god first named Lyceus. There is a legend that the Termilae also, to whom Lycus came when he fled from Aegeus, were called Lycii after him."
+    },
+    {
+      "ref": "1.19.4",
+      "text": "Behind the Lyceum is a monument of Nisus, who was killed while king of Megara by Minos, and the Athenians carried him here and buried him. About this Nisus there is a legend. His hair, they say, was red, and it was fated that he should die on its being cut off. When the Cretans attacked the country, they captured the other cities of the Megarid by assault, but Nisaea, in which Nisus had taken refuge, they beleaguered. The story says how the daughter of Nisus, falling in love here with Minos, cut off her father's hair."
+    },
+    {
+      "ref": "1.19.5",
+      "text": "Such is the legend.The rivers that flow through Athenian territory are the Ilisus and its tributary the Eridanus, whose name is the same as that of the Celtic river. This Ilisus is the river by which Oreithyia was playing when, according to the story, she was carried off by the North Wind. With Oreithyia he lived in wedlock, and be cause of the tie between him and the Athenians he helped them by destroying most of the foreigners' warships. The Athenians hold that the Ilisus is sacred to other deities as well, and on its bank is an altar of the Ilisian Muses. The place too is pointed out where the Peloponnesians killed Codrus, son of Melanthus and king of Athens."
+    },
+    {
+      "ref": "1.19.6",
+      "text": "Across the Ilisus is a district called Agrae and a temple of Artemis Agrotera (the Huntress). They say that Artemis first hunted here when she came from Delos, and for this reason the statue carries a bow. A marvel to the eyes, though not so impressive to hear of, is a race-course of white marble, the size of which can best be estimated from the fact that beginning in a crescent on the heights above the Ilisus it descends in two straight lines to the river bank. This was built by Herodes, an Athenian, and the greater part of the Pentelic quarry was exhausted in its construction."
+    }
+  ]
+}
