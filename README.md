@@ -1,81 +1,70 @@
-# eng298ai-20261103
+# AI Humanities Lab: Claude Code & vibe coding
 
-Materials for **ENGLISH 298AI: AI Humanities Lab**, Seminar 9, Tuesday, November 3, 2026, at the Bok Center's Learning Lab: using AI tools to research and present work in the humanities.
+**ENGLISH 298AI · Seminar 9 · November 3, 2026 · Bok Center Learning Lab**
 
-You do not need to understand every file. Start with the walkthrough.
+An introduction to Claude Code and *vibe coding* for the humanities: describe
+what you want in plain language, have Claude build it with you, then inspect,
+test, and revise the result. You don't need programming experience to start.
 
-## Getting it
+## A familiar shape
 
-```
-git clone https://github.com/ll-26-27/eng298ai-20261103.git
-cd eng298ai-20261103
-```
+Use this simple mental model to plan your work:
 
-Then open the folder with Claude Code, or add it as a folder in Claude Desktop's **Cowork**.
-
-## Repository guide
-
-| Folder | Contents | Start here |
-|---|---|---|
-| [`00-start-here/`](00-start-here/) | The workshop walkthrough and the tokenizer page. | [`walkthrough.md`](00-start-here/walkthrough.md) |
-| [`01-use-cases/`](01-use-cases/) | The session's use cases. Empty for now; they will arrive before class. | [`README.md`](01-use-cases/README.md) |
-| [`02-your-project/`](02-your-project/) | A blank project with empty `inputs/`, `operations/`, and `outputs/` folders. | [`inputs/README.md`](02-your-project/inputs/README.md) |
-| [`context/`](context/) | The context pack: the course readings and the Learning Lab's AI papers, as Markdown. | [`README.md`](context/README.md) |
-| [`resources/`](resources/) | A glossary, setup guides, and workshop handouts. | [`README.md`](resources/README.md) |
-
-## What we're doing
-
-This session teaches you to *vibe code* for the humanities lab: describe what
-you want in plain language and let an AI tool build it, read it, and revise it
-with you. No programming knowledge is needed. A simple mental model is.
-
-Every project here has three parts, in this order:
-
-| |
-|:--|
-| **Inputs** — what you give the model: readings, transcripts, notes, data, drafts |
-
-| |
-|:--|
-| **Operations** — what you ask it to do, saved as files: prompts, instructions, scripts |
-
-| |
-|:--|
-| **Outputs** — what it makes: tables, pages, summaries, essays, apps |
-
-In a chat, the conversation is the record of your work. Here the folder is the
-record. Each use case is laid out this way:
-
-```text
-inputs/       source files such as readings, transcripts, papers, or documents
-operations/   prompts, skills, and scripts used to process the source files
-outputs/      results produced from the source files
+```mermaid
+flowchart TD
+    I["Inputs — the materials you start with"]
+    O["Operations — what you do with them"]
+    R["Outputs — what you make for others"]
+    I --> O --> R
+    R -. "become new inputs" .-> I
 ```
 
-### The old way is the guide
+Humanists have worked this way for years. **Inputs** are the books and articles
+you read. **Operations** happen in your notebook: pulling out quotations,
+putting down thoughts, taking notes in lecture or seminar, making connections.
+**Outputs** are the papers, articles, and books you produce for others to read.
+Those outputs become someone else's inputs—or your own next starting point.
+An ouroboros of reading, thinking, and making.
 
-Humanists have always worked like this.
+That familiar shape is a heuristic and a guide for working with Claude. You
+can keep the same readings, notebook, and paper, using Claude to **organize,
+sort, and search**. Or you can **level up any part of the process**:
 
-- **Inputs:** the books and articles you read.
-- **Operations:** your notebook: the quotations you copy out, the thoughts you
-  put beside them, the notes you take in seminar.
-- **Outputs:** what you make for others to read: papers, articles, books.
+| Part | What could change? |
+|---|---|
+| **Inputs** | **Scale and language:** work across a collection of texts; explore material in another language with translation support. |
+| **Operations** | **Tools and loops:** build a search tool, compare passages, or save a process to repeat on each new batch of material. |
+| **Outputs** | **Form:** make an annotated edition, interactive map, searchable archive, or small app. Feed it into the next round of work. |
 
-Then the circle closes: your outputs become someone else's inputs. The
-ouroboros of outputs into inputs is what a field is.
+The workshop use cases will demonstrate these possibilities. You still choose
+the question, check the evidence, and decide what is worth sharing.
 
-Keep that shape as your heuristic. You can use it two ways:
+## Start here
 
-1. **Do exactly the same thing.** Same readings, same notebook, same essay.
-   The AI only helps you organize, sort, and search what you already have.
-2. **Level up a category.** Scale: a hundred readings instead of five. Form:
-   a searchable page or an app instead of an essay. Language: a text you could
-   not read before. Loops: an operation you run again on every new input.
-   Tools: a script that computes an answer instead of a model that guesses one.
+1. [Download the ZIP](https://github.com/ll-26-27/eng298ai-20261103/archive/refs/heads/main.zip)
+   and unzip it, or clone the repository:
 
-Either way, keep originals in `inputs/` and write new files to `outputs/`. The
-shared readings in `context/` are read-only.
+   ```sh
+   git clone https://github.com/ll-26-27/eng298ai-20261103.git
+   cd eng298ai-20261103
+   ```
 
-## Keys
+2. Open the folder in Claude Code. See the
+   [setup guides](resources/handouts/setup-checklists/code-ide/) if needed.
+3. Go straight to the use cases in [`01-use-cases/`](01-use-cases/README.md).
 
-API keys go in a `.env` file in this folder. It is gitignored, so it never leaves your machine.
+## What's here
+
+| Folder | Contents |
+|---|---|
+| [01-use-cases/](01-use-cases/README.md) | Humanities use cases—in progress; this folder is a placeholder for now. |
+| [02-your-project/](02-your-project/) | Your workspace: `inputs/`, `operations/`, and `outputs/`. |
+| [context/](context/README.md) | Shared context pack from `eng-298ai-context`: full-text course readings and AI papers, plus reading notes, in Markdown. |
+| [resources/](resources/README.md) | Glossary, setup guides, and handouts adapted from the desktop-app workshop. |
+
+Keep source material in `inputs/`, reusable prompts and scripts in `operations/`,
+and results in `outputs/`. The files preserve your work across conversations.
+Treat the shared `context/` pack as read-only; save your work in your project.
+
+If a project needs API keys, keep them in a local `.env` file. Git ignores this
+file; don't paste keys into prompts or other project files.

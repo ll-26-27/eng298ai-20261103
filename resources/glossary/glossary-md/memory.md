@@ -35,4 +35,3 @@ works.
 
 - [Context](context.md) — why memory is needed at all
 - [CLAUDE.md](claude-md.md) — deliberate, project-scoped "memory" you control
-- [outline/02 — Claude Web UI](../outline/02-claude-web-ui.md)

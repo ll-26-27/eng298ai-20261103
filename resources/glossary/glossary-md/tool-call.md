@@ -29,9 +29,8 @@ prompt can include the results of an earlier tool call.
 
 ## Why it matters in this workshop
 
-It resolves the tension set up in [outline/03](../outline/03-llm-basics-and-context.md):
-the model is unreliable at some things *until* it can use tools. Tool calls are
-*why* code and folder access make Claude trustworthy for real work.
+Tools let Claude read source files and compute results you can inspect.
+Check that it used the right inputs and that its code does what you intended.
 
 ## See also
 

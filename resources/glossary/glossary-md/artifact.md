@@ -32,4 +32,3 @@ on — the bridge from "AI chatbot" to "this can produce real teaching materials
 
 - [Context](context.md) — what the artifact is built from
 - [Markdown](markdown.md) — a common artifact format
-- [outline/04 — Artifacts from data](../outline/04-artifacts-from-data.md)

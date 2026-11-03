@@ -26,8 +26,7 @@ the heaviest one to reformat a list.
 ## Why it matters in this workshop
 
 It explains the model-picker menu and demos where the same prompt behaves
-differently (e.g. a smaller model fumbling the multiplication example in
-[outline/03](../outline/03-llm-basics-and-context.md)). Reduces "which one do I
+differently on the same task. Reduces "which one do I
 pick?" anxiety.
 
 ## See also

@@ -139,5 +139,3 @@ Markdown. You won't write much of it by hand — but recognizing the symbols mea
 - [Markdown](markdown.md) — the short glossary definition
 - [CLAUDE.md](claude-md.md) · [SKILL.md](skill-md.md) — Markdown files you'll meet
 - [Artifact](artifact.md) — other things Claude can produce
-</content>
-</invoke>

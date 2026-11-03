@@ -140,5 +140,3 @@ Markdown. You won't write much of it by hand — but recognizing the symbols mea
 - [Markdown](../../glossary/glossary-md/markdown.md) — the short glossary definition
 - [CLAUDE.md](../../glossary/glossary-md/claude-md.md) · [SKILL.md](../../glossary/glossary-md/skill-md.md) — Markdown files you'll meet
 - [Artifact](../../glossary/glossary-md/artifact.md) — other things an assistant can produce
-</content>
-</invoke>

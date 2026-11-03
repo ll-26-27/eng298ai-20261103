@@ -18,9 +18,9 @@ differ by version, plan, and institution.
 2. Start a local workspace or folder-based task and select the unzipped
    `eng298ai-20261103-main` folder. The exact label may vary by app version.
 3. Review the requested permissions and limit access to that folder.
-4. Ask `What's in here?` and confirm the response mentions `00-start-here`,
-   `01-workshop-example-use-case`, and `resources`.
-5. Continue with [`../../../../00-start-here/walkthrough.md`](../../../../00-start-here/walkthrough.md).
+4. Ask `What's in here?` and confirm the response mentions `01-use-cases`,
+   `02-your-project`, `context`, and `resources`.
+5. Continue with the use cases in [`01-use-cases/`](../../../../01-use-cases/README.md).
 
 If your ChatGPT app does not offer local folder access, use its coding workspace
 or Codex surface if your account provides one. Otherwise, upload only the files
@@ -32,9 +32,9 @@ the workshop demonstration.
 1. Open Claude Desktop and switch to **Cowork**.
 2. Choose **Add folder**, select `eng298ai-20261103-main`, and approve access
    to that folder.
-3. Ask `What's in here?` and confirm the response mentions `00-start-here`,
-   `01-workshop-example-use-case`, and `resources`.
-4. Continue with [`../../../../00-start-here/walkthrough.md`](../../../../00-start-here/walkthrough.md).
+3. Ask `What's in here?` and confirm the response mentions `01-use-cases`,
+   `02-your-project`, `context`, and `resources`.
+4. Continue with the use cases in [`01-use-cases/`](../../../../01-use-cases/README.md).
 
 For a longer Claude-specific Cowork guide, see
 [`claude-cowork-setup.md`](claude-cowork-setup.md).

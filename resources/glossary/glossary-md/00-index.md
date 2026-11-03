@@ -8,7 +8,7 @@ say why it matters here.
 ## How to use this
 
 - Entries are grouped by concept below, but each is a standalone doc you can link to
-  from any `outline/` segment.
+  from the workshop materials.
 - When a segment introduces a term for the first time, link to its glossary entry
   rather than re-explaining it.
 - Every entry follows the same shape: a one-line definition callout, an **In plain
@@ -96,6 +96,3 @@ If introducing these in sequence rather than by lookup:
 5. [Agent](agent.md) → [Agentic System](agentic-systems.md) →
    [Harness](harness.md) → [Model](model.md) → [API](api.md)
    *(forward-looking, for later in the series)*
-
-See also: [outline/00 — Overview](../outline/00-overview.md) ·
-[outline/03 — LLM basics & context](../outline/03-llm-basics-and-context.md).

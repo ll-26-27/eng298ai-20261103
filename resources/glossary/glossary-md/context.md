@@ -37,4 +37,3 @@ clicks into place.
 - [Context Window](context-window.md) — the limited space context lives in
 - [Context Rot](context-rot.md) — what happens as it fills with clutter
 - [Context Engineering](context-engineering.md) — deliberately curating it
-- [outline/03 — LLM basics & context](../outline/03-llm-basics-and-context.md)

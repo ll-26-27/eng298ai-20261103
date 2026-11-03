@@ -1,20 +1,41 @@
-# Context
+# Context pack
 
-The ENGLISH 298AI course materials, copied November 3, 2026, from
-`eng-298ai-context/_context/`. This is the shared context pack for the session:
-material you can point an AI assistant at, and material the use cases draw on.
+Shared source material for ENGLISH 298AI, kept in its own folder so projects
+can refer to it without changing the originals.
 
-- `course-readings/`: the syllabus (`syllabus.md`) and Markdown versions of
-  the readings in `course-readings-md/` (Plato's *Phaedrus*, the *Analects*,
-  Shelley, Wilde, Čapek, Bergson, Grice, Sacks–Schegloff–Jefferson).
-- `LL-readings/`: Learning Lab notes on the AI papers
-  (`papers-on-ai-notes.md`), with Markdown versions of each paper in
-  `papers-on-ai-md/` (word2vec through ReAct, including Askell et al. 2021,
-  *A General Language Assistant as a Laboratory for Alignment*).
+- **[Course readings](course-readings/syllabus.md):** the syllabus and nine
+  full-text Markdown readings in `course-readings/course-readings-md/`.
+  Each text records its edition and source.
+- **[AI papers](LL-readings/papers-on-ai-md/):** 22 full papers in Markdown,
+  including references and appendices where present. The
+  [Learning Lab reading notes](LL-readings/papers-on-ai-notes.md) introduce
+  the collection.
 
-Only the Markdown versions are included, not the PDFs. Markdown is plain text:
-it costs a model far fewer tokens than a PDF and keeps the structure of the
-text, so it is the form to give an assistant.
+## How the AI papers were prepared
 
-Treat this folder as read-only. Write anything you make from these files to a
-use case's `outputs/` folder or to `02-your-project/outputs/`.
+The original `eng-298ai-context` pack contained metadata, abstracts, and reading
+notes for the AI papers. For this workshop, those files have been replaced
+with cleaned full texts from the **matching arXiv HTML editions**. The original
+PDFs were located locally and checked against the SHA-256 hashes in the pack.
+
+The Markdown preserves section headings, continuous paragraphs, lists,
+footnotes, references, table cells, and LaTeX equations. It omits site
+navigation and redundant contents lists. Using structured source text avoids
+PDF column-order errors, page furniture, and line-break hyphenation.
+
+Figure captions and links to the source images are retained; the graphics
+are not turned into invented prose. A text-only model will need the linked
+image to inspect a chart or diagram. Every paper's metadata links to its
+original PDF and HTML edition.
+
+The [conversion manifest](LL-readings/extraction-manifest.json) records source
+hashes, PDF page counts, and conversion checks. To rebuild from cached HTML
+and PDFs, use [the conversion script](../resources/scripts/extract-ai-papers.py)
+with Python and `beautifulsoup4` installed:
+
+```sh
+python resources/scripts/extract-ai-papers.py --source-dir /path/to/html --pdf-dir /path/to/pdfs
+```
+
+Treat this folder as read-only during the workshop. Save prompts and results
+in a use case or `02-your-project/`.

@@ -31,4 +31,3 @@ and [Skills](skill-md.md).
 - [Claude](claude.md) — the assistant in general
 - [CLAUDE.md](claude-md.md) — the notes file Claude Code reads first
 - [Context](context.md) — why folder access changes what Claude can do
-- [outline/05 — Desktop app & cowork](../outline/05-desktop-app-and-cowork.md)

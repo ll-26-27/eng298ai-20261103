@@ -35,4 +35,3 @@ idea can transfer it everywhere.
 - [Context](context.md) · [Context Window](context-window.md) ·
   [Context Rot](context-rot.md) — the three ideas this builds on
 - [CLAUDE.md](claude-md.md) · [SKILL.md](skill-md.md) — tools for doing it
-- [outline/03 — LLM basics & context](../outline/03-llm-basics-and-context.md)

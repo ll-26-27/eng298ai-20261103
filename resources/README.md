@@ -1,12 +1,13 @@
 # Workshop resources
 
 This folder contains reference material for the workshop. The files can be read
-independently of the group exercise and use cases.
+independently of the use cases. These resources are adapted from the
+desktop-app workshop; some handouts retain examples from earlier sessions.
 
 ## Glossary
 
 The glossary defines 30 terms used in the workshop, including *token*, *context
-window*, *agent*, *skill*, *prompt injection*, and *data classification*.
+window*, *agent*, *skill*, and *data classification*.
 
 - [`glossary/glossary-md/`](glossary/glossary-md/) contains the Markdown source,
   with one file per term.

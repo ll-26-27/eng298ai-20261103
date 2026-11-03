@@ -35,4 +35,3 @@ context engineering to compensate.
 
 - [Token](token.md) — the "chunks" it predicts
 - [Context](context.md) — what its prediction is based on
-- [outline/03 — LLM basics & context](../outline/03-llm-basics-and-context.md)
