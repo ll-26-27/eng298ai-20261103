@@ -5,7 +5,9 @@ can refer to it without changing the originals.
 
 - **[Course readings](course-readings/syllabus.md):** the syllabus and nine
   full-text Markdown readings in `course-readings/course-readings-md/`.
-  Each text records its edition and source.
+  Each text records its edition and source. Also the first French translation of *Frankenstein*
+  (Saladin, Paris 1821, three volumes joined), for work on the text across
+  languages.
 - **[AI papers](LL-readings/papers-on-ai-md/):** 22 full papers in Markdown,
   including references and appendices where present. The
   [Learning Lab reading notes](LL-readings/papers-on-ai-notes.md) introduce
