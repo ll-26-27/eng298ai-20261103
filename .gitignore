@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+.DS_Store
+_raw/
+_media/
+output/
