@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716417-5Gho0lqtIcp3ONNsixuC",
+  "object": "chat.completion",
+  "created": 1793716417,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I have heard, then, that at Naucratis in Egypt there was one of the old gods there, to whom also the bird that is called Ibis was sacred, but he himself, the god, was called Theuth. This one is said to have first invented number and reckoning, then the art of measuring and the science of the stars, further the board game and the dice game, and so also the letters. As king of all Egypt there had ruled at that time Thamus, in the great city of the upper land, which the Hellenes call the Egyptian Thebes, but the god himself Ammon. To him Theuth went, showed him his arts, and requested that they might be communicated to the other Egyptians. That one asked what use each one provided, and according as what Theuth put forward about it seemed to him right or not right, he blamed or praised. Much now Thamus is said to have said to Theuth about each art, for it and against it, which it would be lengthy to cite all. But when he had come to the letters, Theuth said: This art, O king, will make the Egyptians wiser and richer in memory, for as a means for the understanding and the memory it has been invented. But that one replied: O most art-rich Theuth, one person knows how to bring to light what belongs to the arts; another, to judge how much harm and advantage they bring to those who will use them (275). So you too now, as father of the letters, out of love have said the opposite of what they bring about. For this invention will instill in the souls of those who learn rather forgetfulness, out of neglect of memory, because, in trust in writing, they will remember only from outside by means of foreign signs, but not inwardly themselves and immediately. Not, then, for memory, but only for reminding have you invented a means, and of wisdom you impart to your pupils only the appearance, not the thing itself. For since they will have heard much without instruction, they will also seem to themselves to be knowing-of-much, though they are for the most part ignorant, and hard to deal with, after they have become conceited-wise instead of wise.",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 628,
+    "total_tokens": 1826,
+    "cost": 0.008676,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008676,
+      "upstream_inference_prompt_cost": 0.002396,
+      "upstream_inference_completions_cost": 0.00628
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

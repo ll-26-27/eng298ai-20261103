@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793716283-MilBdUa4NOWojgdNzJua",
+  "object": "chat.completion",
+  "created": 1793716283,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"found\": true,\n  \"start_words\": \"J’ai entendu dire que près de Naucratis[55],\",\n  \"end_words\": \"les rendra insupportables dans le commerce de la vie.\",\n  \"stephanus_markers_seen\": \"[274c], [274d], [274e], [275a], [275b]\",\n  \"note\": \"\"\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a19U7ciYml+gYN7qU69YA6qKNIddFzJKdwrNo52nP8/2zifecYXUc456YNVXsYp3HIsJVUBB0EzfzaJSfPOmk84+FtJzYrzyelp8lGSzgJ3TDQx+",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3801,
+    "completion_tokens": 102,
+    "total_tokens": 3903,
+    "cost": 0.00323325,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00323325,
+      "upstream_inference_prompt_cost": 0.00285075,
+      "upstream_inference_completions_cost": 0.0003825
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

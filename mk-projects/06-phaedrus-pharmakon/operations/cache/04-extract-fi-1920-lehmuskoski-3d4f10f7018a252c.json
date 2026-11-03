@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716138-C0qKtQaIrnE0syQtvMil",
+  "object": "chat.completion",
+  "created": 1793716138,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"apukeinoksi\",\"gloss\":\"as an auxiliary means / helping device (translative case)\",\"category\":\"means/aid\",\"note\":\"Compound apu-keino: 'help-device/expedient'. Not 'lääke' (medicine). The sentence is rendered 'se on keksitty apukeinoksi muistille ja viisaudelle'; memory and wisdom are in the allative, 'for memory and wisdom'.\"},\"mneme_274e\":{\"rendering\":\"muistille\",\"gloss\":\"for memory (allative)\",\"note\":\"Dative-like beneficiary: the aid is 'for memory'. Elsewhere in the same sentence Theuth's 'mnemonikōterous' is rendered 'muistiltaan paremmiksi' (better in their memory).\"},\"sophia_274e\":{\"rendering\":\"viisaudelle\",\"gloss\":\"for wisdom (allative)\",\"note\":\"Standard word viisaus, 'wisdom'. It is the ordinary, positive word here.\"},\"pharmakon_275a\":{\"rendering\":\"apuneuvoa\",\"gloss\":\"an aid-instrument / helping tool (partitive)\",\"category\":\"means/aid\",\"note\":\"A different compound from 274e: apukeino (aid-device) versus apuneuvo (aid-tool). Both share the root 'apu-' (help) but are not the same word. Partitive because the clause is negated ('Et siis ole keksinyt apuneuvoa muistille').\"},\"mneme_275a\":{\"rendering\":\"muistille\",\"gloss\":\"for memory (allative)\",\"note\":\"Same form as at 274e, so memory is kept identical in both places.\"},\"hypomnesis_275a\":{\"rendering\":\"mieleenpalauttamiselle\",\"gloss\":\"for the calling-back-to-mind (allative of a verbal noun)\",\"note\":\"A literal calque on 'recalling to mind' (mieleen = to mind, palauttaminen = bringing back). It matches the verb 'palauttavat asioita mieleensä' used earlier in the speech.\"},\"sophia_275a\":{\"rendering\":\"rikkiviisauden\",\"gloss\":\"of broken/ruined wisdom (accusative)\",\"note\":\"The word 'rikkiviisaus' (rikki = broken, viisaus = wisdom) is a coinage or rare word meaning sham wisdom. It folds the Greek δόξαν σοφίας ('the seeming of wisdom') into one word and drops the doxa/alētheia contrast on 'seeming'. The antithesis survives only in 'et todellista viisautta' ('not real wisdom').\"},\"doxosophoi_275b\":{\"rendering\":\"rikkiviisaiksi\",\"gloss\":\"into broken-wise / sham-wise (translative plural)\",\"note\":\"Same stem as 'rikkiviisauden' at 275a, so the 'sham wisdom' and 'sham-wise' pair stays linked as in the Greek doxa/doxosophoi. It is contrasted with 'viisaiksi' (wise).\"},\"argument\":\"Lehmuskoski gives pharmakon a neutral helping-device sense (apukeino, apuneuvo) and avoids any word for medicine or poison, so the drug/cure/poison ambivalence is lost entirely. The two occurrences are also not the same word: Theuth's apukeino becomes Thamus's apuneuvo, so Thamus does not literally turn Theuth's own word against him, although the shared 'apu-' root keeps the connection audible. The memory/reminding contrast stays clear, and rikkiviisaus/rikkiviisaat preserves the wisdom/sham-wisdom link that closes the passage.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6032,
+    "completion_tokens": 1222,
+    "total_tokens": 7254,
+    "cost": 0.024284,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.024284,
+      "upstream_inference_prompt_cost": 0.012064,
+      "upstream_inference_completions_cost": 0.01222
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -7,7 +7,7 @@ created: 2026-11-03
 
 # mk-projects
 
-Five worked examples of using AI tools to research and present work on texts. Each project folder has the same three parts, so you can see the whole pipeline and borrow its shape for your own project.
+Six worked examples of using AI tools to research and present work on texts. Each project folder has the same three parts, so you can see the whole pipeline and borrow its shape for your own project.
 
 - **`inputs/`**: the material we start from (public-domain texts, data). Each folder's `README.md` gives every input's source and copyright status.
 - **`operations/`**: everything that turns inputs into outputs, numbered in the order it runs. An operation can be a **prompt** (a `.md` file you can give to Claude Code), a **script** (`.mjs`, run with Node), or an **intermediate file** that one step hands to the next (a `.csv` or `.json` of extracted data). Each README says which steps are plain code, which are a model's judgment, and which are checks.
@@ -20,6 +20,7 @@ Five worked examples of using AI tools to research and present work on texts. Ea
 | [`03-ai-and-literature-timeline/`](03-ai-and-literature-timeline/) | the course reading list and the history of AI | a model drafts events → each one checked against a source → sorted into lanes | an interactive timeline, with what the checking caught |
 | [`04-frankenstein-revisions/`](04-frankenstein-revisions/) | *Frankenstein*, 1818 and 1831 | code finds every change → a model sorts each change into categories → a second model and a reader check a sample | a filterable explorer of every revision |
 | [`05-distant-and-close-reading/`](05-distant-and-close-reading/) | *Frankenstein*, *R.U.R.*, *Dorian Gray*, *Phaedrus* | keyword search vs. a model reading every passage for "scenes of instruction" → a check → close readings | a page that moves from the whole corpus to single passages |
+| [`06-phaedrus-pharmakon/`](06-phaedrus-pharmakon/) | the Greek of *Phaedrus* 274c–275b and 17 translations, 1484–1922 | find the passage in each → pull out how each renders *pharmakon*, *mnēmē*, *hypomnēsis*, *sophia* → check them word for word → back-translate | the Greek with clickable key words, a timeline of renderings, the passages side by side |
 
 ## Running the operations yourself
 
@@ -39,4 +40,4 @@ Most folders keep a cache of the model responses, so rerunning an unchanged step
 
 ## Left out of this repo
 
-Two inputs are downloaded by their own fetch step instead of being included here: the German *Frankenstein* chapter in `02` (`operations/00-fetch-texts.mjs`) and the Wikipedia extracts used to check the timeline in `03` (`operations/02a-fetch-sources.mjs`). The large rebuildable files are left out too: the text chunks in `01` (rebuilt by `operations/01-clean-and-chunk.mjs`) and the response cache in `05`.
+Some inputs are downloaded by their own fetch step instead of being included here: the German *Frankenstein* chapter in `02` (`operations/00-fetch-texts.mjs`), the Wikipedia extracts used to check the timeline in `03` (`operations/02a-fetch-sources.mjs`), and four *Phaedrus* translations in `06` from sites with their own terms of use (`operations/02-fetch-texts.mjs`). The large rebuildable files are left out too: the text chunks in `01` (rebuilt by `operations/01-clean-and-chunk.mjs`) and the response cache in `05`.

@@ -1,0 +1,245 @@
+{
+  "about": "Step 5: does each extracted rendering occur verbatim in its passage? exact / loose (case or whitespace differs) / NOT FOUND / omitted.",
+  "checked": 136,
+  "not_found": 1,
+  "results": [
+    {
+      "id": "en-1892-jowett",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "en-1914-fowler",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "ru-1863-karpov",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "NOT FOUND",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "pl-1918-witwicki",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "fi-1920-lehmuskoski",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": false
+    },
+    {
+      "id": "el-nd-gounaris",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "fr-1831-cousin",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "loose"
+      },
+      "pharmakon_same_word": false
+    },
+    {
+      "id": "fr-1922-meunier",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "loose",
+        "sophia_275a": "loose",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": false
+    },
+    {
+      "id": "de-1804-schleiermacher",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "de-1853-georgii",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "it-1869-dalbono",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": false
+    },
+    {
+      "id": "es-1871-azcarate",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": false
+    },
+    {
+      "id": "la-1484-ficino",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "en-1792-taylor",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "en-1848-cary",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "en-1848-wright",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": true
+    },
+    {
+      "id": "en-1871-jowett",
+      "slots": {
+        "pharmakon_274e": "exact",
+        "mneme_274e": "exact",
+        "sophia_274e": "exact",
+        "pharmakon_275a": "exact",
+        "mneme_275a": "exact",
+        "hypomnesis_275a": "exact",
+        "sophia_275a": "exact",
+        "doxosophoi_275b": "exact"
+      },
+      "pharmakon_same_word": false
+    }
+  ]
+}

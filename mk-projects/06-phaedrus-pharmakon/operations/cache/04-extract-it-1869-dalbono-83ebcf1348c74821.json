@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716392-u3YGkJUKahcoF19XRX3a",
+  "object": "chat.completion",
+  "created": 1793716392,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"aiuto\",\"gloss\":\"aid, help\",\"category\":\"means/aid\",\"note\":\"Theuth's 'questo aiuto per la scienza e per la memoria' renders pharmakon as a neutral help; no medicinal or drug sense is kept.\"},\"mneme_274e\":{\"rendering\":\"memoria\",\"gloss\":\"memory\",\"note\":\"\"},\"sophia_274e\":{\"rendering\":\"scienza\",\"gloss\":\"knowledge, science\",\"note\":\"Sophia is rendered 'scienza' here, but 'sapienti' and 'sapienza' are used elsewhere in the passage. Also the order is reversed: 'scienza' comes before 'memoria'.\"},\"pharmakon_275a\":{\"rendering\":\"mezzo\",\"gloss\":\"means, medium\",\"category\":\"means/aid\",\"note\":\"The phrase is 'un mezzo di ritenere, ma di richiamare a memoria le cose'. The word differs from the 'aiuto' of 274e. A different word 'aiuto' also occurs in the same sentence, but it renders the 'external' help of written signs (ἔξωθεν), not pharmakon.\"},\"mneme_275a\":{\"rendering\":\"ritenere\",\"gloss\":\"to retain, to hold\",\"note\":\"Rendered as a verb, 'a means of retaining', not as the noun 'memoria'. This loses the lexical echo of mneme with 274e.\"},\"hypomnesis_275a\":{\"rendering\":\"richiamare a memoria le cose\",\"gloss\":\"to call things back to memory\",\"note\":\"A verbal periphrasis for hypomnesis (reminding). It contains the word 'memoria', which blurs the contrast with mneme.\"},\"sophia_275a\":{\"rendering\":\"una sapienza apparente e non la vera\",\"gloss\":\"an apparent wisdom and not the true one\",\"note\":\"Doxa is rendered as 'apparente' (apparent) and aletheia as 'la vera' (the true one), so the contrast is between apparent and true wisdom.\"},\"doxosophoi_275b\":{\"rendering\":\"avranno la sola apparenza\",\"gloss\":\"they will have only the appearance\",\"note\":\"The compound doxosophoi is dissolved into a clause: 'instead of being wise, they will have only the appearance (of wisdom)'. No single word corresponds to it.\"},\"argument\":\"Dalbono does not keep one word for pharmakon: Theuth offers an 'aiuto' (help), while Thamus answers with a 'mezzo' (means) of recalling. The two words are near-synonyms but not identical, so Thamus does not turn Theuth's own word against him. The medicinal or poisonous ambiguity is entirely lost. The memory/reminding contrast is also blurred, since 'richiamare a memoria' contains the word 'memoria'.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5875,
+    "completion_tokens": 928,
+    "total_tokens": 6803,
+    "cost": 0.02103,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02103,
+      "upstream_inference_prompt_cost": 0.01175,
+      "upstream_inference_completions_cost": 0.00928
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

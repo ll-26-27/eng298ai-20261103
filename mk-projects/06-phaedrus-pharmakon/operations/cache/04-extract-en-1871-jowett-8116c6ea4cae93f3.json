@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716739-UdS6R3uYqCc0LUYX9qmy",
+  "object": "chat.completion",
+  "created": 1793716739,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"cure\",\"gloss\":\"a cure, a healing remedy\",\"category\":\"remedy/medicine\",\"note\":\"Jowett writes 'this is the cure of forgetfulne^ and of folly' (OCR damage in 'forgetfulne^'). The word 'cure' is the noun used for pharmakon; the genitives 'of forgetfulness and of folly' reverse the Greek, which has memory and wisdom, not forgetfulness and folly.\"},\"mneme_274e\":{\"rendering\":\"better memories\",\"gloss\":\"improved memories\",\"note\":\"Not attached to pharmakon. In the 'make wiser and give better memories' clause, μνημονικωτέρους is rendered 'better memories'. In the pharmakon clause itself Jowett has 'forgetfulne^' (OCR for forgetfulness) in place of μνήμης, which inverts the genitive to its opposite and turns the remedy into a cure for the lack of memory.\"},\"sophia_274e\":{\"rendering\":\"folly\",\"gloss\":\"foolishness\",\"note\":\"Jowett renders σοφίας with its opposite, 'folly', as the thing cured. He treats the genitives as the ills cured, not as the goods produced. This is a paraphrase of the sense, not a literal rendering.\"},\"pharmakon_275a\":{\"rendering\":\"specific\",\"gloss\":\"a specific, a medicine for one particular disease\",\"category\":\"specific\",\"note\":\"'You have found a specific, not for memory but for reminiscence'. A different word from 'cure' in 274e.\"},\"mneme_275a\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"'not for memory'\"},\"hypomnesis_275a\":{\"rendering\":\"reminiscence\",\"gloss\":\"recollection, being reminded\",\"note\":\"'but for reminiscence'. Jowett's 'reminiscence' tilts toward the Platonic recollection (anamnesis) vocabulary and is not quite 'reminding' by an external prompt.\"},\"sophia_275a\":{\"rendering\":\"the pretence of wisdom\",\"gloss\":\"the pretending, the false show of wisdom\",\"note\":\"Jowett's 'pretence' implies deliberate fakery. The Greek δόξα is 'seeming/opinion/reputation'. The contrast with ἀλήθεια ('truth') is not rendered at this point; Jowett adds 'only' and has the 'reality' contrast later, at the end of the passage, with 'reputation of knowledge without the reality'.\"},\"doxosophoi_275b\":{\"rendering\":\"having the reputation of knowledge without the reality\",\"gloss\":\"having the repute of knowledge without the real thing\",\"note\":\"Jowett has no single word for δοξόσοφοι; he paraphrases it with a clause, and the compound 'wise-seeming' is lost. He earlier has 'appear to be omniscient' for πολυγνώμονες εἶναι δόξουσιν.\"},\"argument\":\"Jowett uses two different words, 'cure' at 274e and 'specific' at 275a, so Thamus does not turn Theuth's own word against him. The reader loses the pharmakon pun, the remedy and poison ambiguity, and the verbal echo is replaced by a shift from a general cure to a narrow, particular medicine. His inversion of the genitives in 274e (cure of forgetfulness and folly instead of a remedy for memory and wisdom) also blurs Theuth's claim, so the contrast between memory and reminiscence stands out less sharply as a reply to it.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5605,
+    "completion_tokens": 1168,
+    "total_tokens": 6773,
+    "cost": 0.02289,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02289,
+      "upstream_inference_prompt_cost": 0.01121,
+      "upstream_inference_completions_cost": 0.01168
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

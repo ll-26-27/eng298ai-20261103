@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793716469-B8fP7rM91oqIfHUIR3tK",
+  "object": "chat.completion",
+  "created": 1793716469,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"found\": true,\n  \"start_words\": \"Me contaron que cerca de Naucratis{31}, en\",\n  \"end_words\": \"en el comercio de la vida.»\",\n  \"stephanus_markers_seen\": \"[341]\",\n  \"note\": \"Page markers in brackets like [341] appear in the text rather than standard Stephanus letters.\"\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a18BdlSpZJviPjpYuKThh1Q+BwA1KI2qtmDeLWL8swGY2F+jzqoOmSZicfiASz+LxTm2gewUQR5tABXfBy6jP8PHpqo1feS14zfTk5Q3RpNXv4xS",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3506,
+    "completion_tokens": 93,
+    "total_tokens": 3599,
+    "cost": 0.00297825,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00297825,
+      "upstream_inference_prompt_cost": 0.0026295,
+      "upstream_inference_completions_cost": 0.00034875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

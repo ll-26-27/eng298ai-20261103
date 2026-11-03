@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716444-Bao5kPc9NQQdoGZ7FF9Z",
+  "object": "chat.completion",
+  "created": 1793716444,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I was told that near Naucratis{31}, in Egypt, there was a God, one of the most ancient of the country, the same one to whom the bird that the Egyptians call Ibis is consecrated. This God was called Teut{32}. It is said that he invented numbers, calculation, geometry, astronomy, as well as the games of chess and of dice, and, finally, writing. King Tamus was reigning then over all that country, and he lived in the great city of upper Egypt, which the Greeks call Egyptian Thebes, and which is under the protection of the God whom they call Ammon. Teut presented himself to the king and showed him the arts he had invented, and told him how convenient it was to spread them among the Egyptians. The king asked him of what usefulness each of them would be, and Teut went on explaining to him in detail the uses of each one; and according as the explanations seemed to him more or less satisfactory, Tamus approved or disapproved. It is said that the king alleged to the inventor, in each one of the inventions, many reasons for and against, which it would be long to enumerate. When they came to writing: \"O king!, Teut said to him, this invention will make the [341] Egyptians wiser and will serve their memory; I have discovered a remedy against the difficulty of learning and retaining{33}. —Ingenious Teut, the king answered, the genius that invents the arts is not in the case that the wisdom that appreciates the advantages and the disadvantages that must result from their application. Father of writing and enthusiastic about your invention, you attribute to it the entire opposite of its true effects. It will produce nothing but forgetfulness in the souls of those who know it, making them despise memory; trusting in this foreign aid they will abandon to material characters the care of preserving the recollections, whose trace their spirit will have lost. You have not found a means of cultivating memory, but of awakening reminiscences; and you give your disciples the shadow of science and not science itself. Because, when they see that they can learn many things without teachers, they will already consider themselves wise, and they will be nothing more than ignorant, for the most part, and false wise men unbearable in the commerce of life.\"",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 691,
+    "total_tokens": 2015,
+    "cost": 0.009558,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009558,
+      "upstream_inference_prompt_cost": 0.002648,
+      "upstream_inference_completions_cost": 0.00691
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

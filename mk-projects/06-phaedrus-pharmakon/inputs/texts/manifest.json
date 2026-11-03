@@ -1,0 +1,196 @@
+{
+  "about": "Every text step 2 downloads. Bibliographic facts and their verification live in operations/01-inventory.csv; this file only says where each file comes from and how to read it.",
+  "texts": [
+    {
+      "id": "grc-burnet",
+      "language": "Greek",
+      "translator": "(original; ed. John Burnet)",
+      "year": 1901,
+      "file": "phaedrus-grc-burnet-perseus-grc2.xml",
+      "format": "tei",
+      "fetch_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0059/tlg012/tlg0059.tlg012.perseus-grc2.xml",
+      "fetched": "2026-11-03",
+      "bytes": 256028
+    },
+    {
+      "id": "en-1892-jowett",
+      "language": "English",
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "file": "phaedrus-en-1892-jowett-pg1636.txt",
+      "format": "txt",
+      "fetch_url": "https://www.gutenberg.org/cache/epub/1636/pg1636.txt",
+      "fetched": "2026-11-03",
+      "bytes": 235362
+    },
+    {
+      "id": "en-1914-fowler",
+      "language": "English",
+      "translator": "Harold North Fowler",
+      "year": 1914,
+      "file": "phaedrus-en-1914-fowler-perseus-eng2.xml",
+      "format": "tei",
+      "fetch_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0059/tlg012/tlg0059.tlg012.perseus-eng2.xml",
+      "fetched": "2026-11-03",
+      "bytes": 177980
+    },
+    {
+      "id": "ru-1863-karpov",
+      "language": "Russian",
+      "translator": "Vasily Karpov",
+      "year": 1863,
+      "file": "phaedrus-ru-1863-karpov-ruwikisource.html",
+      "format": "html",
+      "fetch_url": "https://ru.wikisource.org/wiki/%D0%A4%D0%B5%D0%B4%D1%80_(%D0%9F%D0%BB%D0%B0%D1%82%D0%BE%D0%BD;_%D0%9A%D0%B0%D1%80%D0%BF%D0%BE%D0%B2)?action=render",
+      "fetched": "2026-11-03",
+      "bytes": 547938
+    },
+    {
+      "id": "pl-1918-witwicki",
+      "language": "Polish",
+      "translator": "Władysław Witwicki",
+      "year": 1918,
+      "file": "phaedrus-pl-witwicki-wolnelektury.txt",
+      "format": "txt",
+      "fetch_url": "https://wolnelektury.pl/media/book/txt/platon-fajdros.txt",
+      "fetched": "2026-11-03",
+      "bytes": 267741
+    },
+    {
+      "id": "fi-1920-lehmuskoski",
+      "language": "Finnish",
+      "translator": "Niilo Lehmuskoski",
+      "year": 1920,
+      "file": "phaedrus-fi-1920-lehmuskoski-pg59435.txt",
+      "format": "txt",
+      "fetch_url": "https://www.gutenberg.org/cache/epub/59435/pg59435.txt",
+      "fetched": "2026-11-03",
+      "bytes": 210652
+    },
+    {
+      "id": "el-nd-gounaris",
+      "language": "Modern Greek",
+      "translator": "K. S. Gounaris",
+      "year": null,
+      "file": "phaedrus-el-gounaris-pg35604.txt",
+      "format": "txt",
+      "fetch_url": "https://www.gutenberg.org/cache/epub/35604/pg35604.txt",
+      "fetched": "2026-11-03",
+      "bytes": 349552
+    },
+    {
+      "id": "fr-1831-cousin",
+      "language": "French",
+      "translator": "Victor Cousin",
+      "year": 1831,
+      "file": "phaedrus-fr-1831-cousin-frwikisource.html",
+      "format": "html",
+      "fetch_url": "https://fr.wikisource.org/wiki/Ph%C3%A8dre_(Platon,_trad._Cousin)?action=render",
+      "fetched": "2026-11-03",
+      "bytes": 347586
+    },
+    {
+      "id": "fr-1922-meunier",
+      "language": "French",
+      "translator": "Mario Meunier",
+      "year": 1922,
+      "file": "phaedrus-fr-1922-meunier-frwikisource.html",
+      "format": "html",
+      "fetch_url": "https://fr.wikisource.org/wiki/Ph%C3%A8dre_(Platon,_trad._Meunier)?action=render",
+      "fetched": "2026-11-03",
+      "bytes": 174872
+    },
+    {
+      "id": "de-1804-schleiermacher",
+      "language": "German",
+      "translator": "Friedrich Schleiermacher",
+      "year": 1804,
+      "file": "phaedrus-de-schleiermacher-projektgutenbergde-ch8.html",
+      "format": "html",
+      "fetch_url": "https://projekt-gutenberg.org/authors/friedrich-schleiermacher/books/friedrich-schleiermacher-platons-werke/chapter/8",
+      "fetched": "2026-11-03",
+      "bytes": 308193
+    },
+    {
+      "id": "de-1853-georgii",
+      "language": "German",
+      "translator": "Ludwig von Georgii",
+      "year": 1853,
+      "file": "phaedrus-de-1853-georgii-zeno-20009262660.html",
+      "format": "html",
+      "fetch_url": "http://www.zeno.org/Philosophie/M/Platon/Phaidros",
+      "fetched": "2026-11-03",
+      "bytes": 188892,
+      "encoding": "windows-1252"
+    },
+    {
+      "id": "it-1869-dalbono",
+      "language": "Italian",
+      "translator": "Cesare Dalbono",
+      "year": 1869,
+      "file": "phaedrus-it-1869-dalbono-itwikisource.html",
+      "format": "html",
+      "fetch_url": "https://it.wikisource.org/wiki/Fedro_(Dalbono,_1869)/Fedro?action=render",
+      "fetched": "2026-11-03",
+      "bytes": 473855
+    },
+    {
+      "id": "es-1871-azcarate",
+      "language": "Spanish",
+      "translator": "Patricio de Azcárate",
+      "year": 1871,
+      "file": "phaedrus-es-1871-azcarate-filosofia-azc02261.html",
+      "format": "html",
+      "fetch_url": "https://www.filosofia.org/cla/pla/azc02261.htm",
+      "fetched": "2026-11-03",
+      "bytes": 178170
+    },
+    {
+      "id": "la-1484-ficino",
+      "language": "Latin",
+      "translator": "Marsilio Ficino",
+      "year": 1484,
+      "file": "phaedrus-la-ficino-bekker1816-lawikisource.html",
+      "format": "html",
+      "fetch_url": "https://la.wikisource.org/w/index.php?title=Phaedrus_(ed._Bekker)&action=render"
+    },
+    {
+      "id": "en-1792-taylor",
+      "language": "English",
+      "translator": "Thomas Taylor",
+      "year": 1792,
+      "file": "phaedrus-en-1792-taylor-ia-bim_eighteenth-century.txt",
+      "format": "txt",
+      "fetch_url": "https://archive.org/download/bim_eighteenth-century_the-phdrus-of-plato-a-_plato_1792/bim_eighteenth-century_the-phdrus-of-plato-a-_plato_1792_djvu.txt"
+    },
+    {
+      "id": "en-1848-cary",
+      "language": "English",
+      "translator": "Henry Cary",
+      "year": 1848,
+      "file": "phaedrus-en-1848-cary-ia-theworksofplato01platiala.txt",
+      "format": "txt",
+      "fetch_url": "https://archive.org/download/theworksofplato01platiala/theworksofplato01platiala_djvu.txt"
+    },
+    {
+      "id": "en-1848-wright",
+      "language": "English",
+      "translator": "J. Wright",
+      "year": 1848,
+      "file": "phaedrus-en-wright-1900reprint-ia-110821.txt",
+      "format": "txt",
+      "fetch_url": "https://archive.org/download/india.history.resource.110821/110821_djvu.txt"
+    },
+    {
+      "id": "en-1871-jowett",
+      "language": "English",
+      "translator": "Benjamin Jowett",
+      "year": 1871,
+      "file": "phaedrus-en-1871-jowett-ia-cu31924092280043.txt",
+      "format": "txt",
+      "fetch_url": "https://ia801407.us.archive.org/33/items/cu31924092280043/cu31924092280043_djvu.txt",
+      "fetched": "2026-11-03",
+      "bytes": 1788579
+    }
+  ]
+}

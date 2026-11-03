@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793716286-ZfbxsInO6225J10Qf2Y0",
+  "object": "chat.completion",
+  "created": 1793716286,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"found\": true,\n  \"start_words\": \"J’ai donc oui dire qu’il existait près de Naucratis,\",\n  \"end_words\": \"des savants imaginaires au lieu de vrais savants. »\",\n  \"stephanus_markers_seen\": \"[275]\",\n  \"note\": \"\"\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a1+wM/fCCIRXwhtk5TJlPEZ+fA3lOvrKo8T3Z9WEqL3AbB/P1Okyny6XSvxBDIGX6CeN3InZA7PFe+9lVKDOHZ3j3xD8VR4K0E/H0aJxKJqxk/Pv",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3729,
+    "completion_tokens": 81,
+    "total_tokens": 3810,
+    "cost": 0.0031005,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0031005,
+      "upstream_inference_prompt_cost": 0.00279675,
+      "upstream_inference_completions_cost": 0.00030375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

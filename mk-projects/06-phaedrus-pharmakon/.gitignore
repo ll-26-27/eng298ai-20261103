@@ -1,0 +1,6 @@
+# Texts from sites with their own terms of use (Projekt Gutenberg-DE, zeno.org, filosofia.org)
+# or an unsettled copyright date (Witwicki): not redistributed here; operations/02-fetch-texts.mjs downloads them
+inputs/texts/*projektgutenbergde*
+inputs/texts/*zeno-*
+inputs/texts/*azcarate-filosofia*
+inputs/texts/*witwicki-wolnelektury*

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716703-j1fo8IfyeV19fjjkR36M",
+  "object": "chat.completion",
+  "created": 1793716703,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"remedium\",\"gloss\":\"remedy, cure (a healing means)\",\"category\":\"remedy/medicine\",\"note\":\"Ficino's Latin 'remedium' is used in 'memoriae namque et sapientiae remedium id est inventum'. It is a healing word with no ambivalence; the poison sense is lost.\"},\"mneme_274e\":{\"rendering\":\"memoriae\",\"gloss\":\"of memory (genitive)\",\"note\":\"Latin 'memoria'. 'magisque memoriosos' earlier renders mnemonikoteroi.\"},\"sophia_274e\":{\"rendering\":\"sapientiae\",\"gloss\":\"of wisdom (genitive)\",\"note\":\"Latin 'sapientia'. The Greek sophia is rendered as 'sapientia' throughout.\"},\"pharmakon_275a\":{\"rendering\":\"remedium\",\"gloss\":\"remedy, cure\",\"category\":\"remedy/medicine\",\"note\":\"Same word as at 274e: 'non memoriae, sed commemorationis, remedium invenisti'. The verb is 'invenisti' ('you found').\"},\"mneme_275a\":{\"rendering\":\"memoriae\",\"gloss\":\"of memory (genitive)\",\"note\":\"Identical to the 274e rendering.\"},\"hypomnesis_275a\":{\"rendering\":\"commemorationis\",\"gloss\":\"of commemoration, calling to mind, reminding (genitive)\",\"note\":\"Latin 'commemoratio' contrasts with 'memoria'. It shares the root of 'memoria' (mem-/mon-), keeping the verbal kinship that Greek has between mneme and hypomnesis. It also suggests recollection or mention rather than a bare prompt.\"},\"sophia_275a\":{\"rendering\":\"opinionem potius, quam veritatem\",\"gloss\":\"opinion rather than truth\",\"note\":\"'sapientiae quoque opinionem potius, quam veritatem, discipulis tradis'. Doxa is 'opinio'. The idea of 'seeming of wisdom' is not stated as such here, but it appears as 'opinione sapientiae' in the next clause, so doxa is rendered 'opinion', not 'reputation'. Sophia appears as 'sapientiae'.\"},\"doxosophoi_275b\":{\"rendering\":\"opinione sapientiae subornati\",\"gloss\":\"furnished/equipped with an opinion of wisdom\",\"note\":\"The compound doxosophoi is unpacked into a phrase: 'non sapientia ipsa sint praediti, sed opinione sapientiae subornati' ('not endowed with wisdom itself but fitted out with the opinion of wisdom'). 'Subornati' carries a hint of dressing up or fraudulent supply.\"},\"argument\":\"Ficino keeps one word, 'remedium', for both occurrences of pharmakon. Thamus therefore answers Theuth in his own term, and the dispute is over what the remedy treats: memoria against commemoratio. But 'remedium' is wholly positive, so the pharmakon's ambivalence as cure and poison is lost, and Thamus's rebuttal reads as a downgrade of the remedy's aim, not as a reversal of the word's valence.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5768,
+    "completion_tokens": 1059,
+    "total_tokens": 6827,
+    "cost": 0.022126,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.022126,
+      "upstream_inference_prompt_cost": 0.011536,
+      "upstream_inference_completions_cost": 0.01059
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793716351-tuLOF7VVJWNnBk66FTAJ",
+  "object": "chat.completion",
+  "created": 1793716351,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"found\": true, \"start_words\": \"Ich habe also gehört, zu Neukratis in Ägypten\", \"end_words\": \"nachdem sie dünkelweise geworden statt weise.\", \"stephanus_markers_seen\": \"(275)\", \"note\": \"\"}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a1/CrNfTMNSPaCvZCuX5XeF56TbQrQiLY+ZQNSOt71guU61C07dtQMSTYTjvE939BIzSloiAVJgHhH/u/F88qhXVZrqBTT9fa8vWNrmW4KnCGvcf",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3564,
+    "completion_tokens": 61,
+    "total_tokens": 3625,
+    "cost": 0.00290175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00290175,
+      "upstream_inference_prompt_cost": 0.002673,
+      "upstream_inference_completions_cost": 0.00022875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

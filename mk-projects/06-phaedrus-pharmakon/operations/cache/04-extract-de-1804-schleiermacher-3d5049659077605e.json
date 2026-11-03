@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716367-8Hr8Lho0bEqmhVdBClAP",
+  "object": "chat.completion",
+  "created": 1793716367,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"ein Mittel\",\"gloss\":\"a means / a remedy (a 'Mittel')\",\"category\":\"means/aid\",\"note\":\"Schleiermacher's 'Mittel' is a bare 'means' and not 'Heilmittel', so the medical sense is only faint. The sentence is 'als ein Mittel für den Verstand und das Gedächtnis ist sie erfunden'.\"},\"mneme_274e\":{\"rendering\":\"das Gedächtnis\",\"gloss\":\"the memory\",\"note\":\"Earlier in the same speech 'gedächtnisreicher' (rich in memory) renders μνημονικωτέρους. The genitive μνήμης is given as 'für ... das Gedächtnis'.\"},\"sophia_274e\":{\"rendering\":\"den Verstand\",\"gloss\":\"the understanding / intellect\",\"note\":\"σοφίας is rendered 'Verstand' here, not 'Weisheit'. The adjective in the preceding clause, 'weiser', is from the 'weise' family. So the wisdom-word is not kept across the two occurrences.\"},\"pharmakon_275a\":{\"rendering\":\"ein Mittel\",\"gloss\":\"a means / a remedy\",\"category\":\"means/aid\",\"note\":\"The same word as at 274e, 'Mittel'. The sentence is 'Nicht also für das Gedächtnis, sondern nur für die Erinnerung hast du ein Mittel erfunden'.\"},\"mneme_275a\":{\"rendering\":\"das Gedächtnis\",\"gloss\":\"the memory\",\"note\":\"Same word as at 274e. The phrase is 'für das Gedächtnis'.\"},\"hypomnesis_275a\":{\"rendering\":\"die Erinnerung\",\"gloss\":\"the remembrance / recollection\",\"note\":\"Contrasted with 'Gedächtnis'. The contrast is between two German words and does not use a compound that echoes 'reminding'. The 'nur' (only) is added by the translator.\"},\"sophia_275a\":{\"rendering\":\"den Schein\",\"gloss\":\"the semblance / appearance\",\"note\":\"'von der Weisheit bringst du deinen Lehrlingen nur den Schein bei, nicht die Sache selbst'. 'Weisheit' is used here, though at 274e σοφίας was 'Verstand'. δόξαν is 'Schein' (appearance), and ἀλήθειαν is 'die Sache selbst' (the thing itself), not 'Wahrheit'.\"},\"doxosophoi_275b\":{\"rendering\":\"dünkelweise\",\"gloss\":\"conceit-wise / wise in their own conceit\",\"note\":\"'dünkelweise geworden statt weise'. It is a coinage that echoes 'dünken' (seem, think oneself), which was used for δόξουσιν a few words earlier.\"},\"argument\":\"Schleiermacher renders both occurrences of pharmakon with the same word, 'Mittel', so Thamus does turn Theuth's own word against him. But 'Mittel' is only a neutral means, so the medicine/poison ambiguity of the Greek disappears and the exchange becomes a quarrel over what the invention is a means for. The change of 'Verstand' to 'Weisheit' for σοφία weakens the repeated link between Theuth's claim and Thamus's reply, while the 'Gedächtnis'/'Erinnerung' contrast and the 'Schein' and 'dünkelweise' vocabulary keep the seeming-versus-real opposition clear.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5962,
+    "completion_tokens": 1156,
+    "total_tokens": 7118,
+    "cost": 0.023484,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.023484,
+      "upstream_inference_prompt_cost": 0.011924,
+      "upstream_inference_completions_cost": 0.01156
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

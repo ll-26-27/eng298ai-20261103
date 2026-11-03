@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793715554-3u32nx6ShzsKl0DeJIGc",
+  "object": "chat.completion",
+  "created": 1793715554,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"an elixir of memory and wisdom\",\"gloss\":\"an elixir (of) memory and wisdom\",\"category\":\"elixir/potion\",\"note\":\"Fowler reorders the Greek: 'memory and wisdom' is a genitive dependent on 'elixir'. The word 'elixir' is the translator's choice; it is not a literal 'drug' or 'remedy'.\"},\"mneme_274e\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Also rendered 'improve their memories' just before, where the Greek has the adjective μνημονικωτέρους.\"},\"sophia_274e\":{\"rendering\":\"wisdom\",\"gloss\":\"wisdom\",\"note\":\"\"},\"pharmakon_275a\":{\"rendering\":\"an elixir\",\"gloss\":\"an elixir\",\"category\":\"elixir/potion\",\"note\":\"Same word as at 274e, so the repetition is preserved. The second 'elixir' is elliptical: the Greek φάρμακον is not repeated in the English clause 'not of memory, but of reminding'.\"},\"mneme_275a\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Same word as at 274e.\"},\"hypomnesis_275a\":{\"rendering\":\"reminding\",\"gloss\":\"reminding (the act of being reminded)\",\"note\":\"Verbal noun. It contrasts with 'memory', but the English gives no sense of ὑπό ('from under/prompting'), nor of the 'record/memorandum' sense.\"},\"sophia_275a\":{\"rendering\":\"the appearance of wisdom, not true wisdom\",\"gloss\":\"the appearance of wisdom, not true wisdom\",\"note\":\"δόξα is rendered 'appearance', not 'opinion' or 'reputation'. ἀλήθεια ('truth') becomes the adjective 'true' modifying 'wisdom'. The opposition is appearance versus real wisdom.\"},\"doxosophoi_275b\":{\"rendering\":\"not wise, but only appear wise\",\"gloss\":\"not wise, but only appear wise\",\"note\":\"The compound δοξόσοφοι ('wise-seeming') is unpacked into a clause, with no single word; the phrase ἀντὶ σοφῶν is turned into 'not wise, but only…'.\"},\"argument\":\"Fowler keeps 'elixir' for both occurrences of φάρμακον, so Thamus does turn Theuth's own word against him, and the 'memory/reminding' contrast stays visible. But 'elixir' picks the magical-potion sense of the word and drops the medicine/poison ambivalence, and the second occurrence is elliptical, which weakens the verbal echo. The wisdom/appearance opposition is carried by plain English phrases, and the compound δοξόσοφοι vanishes into a clause.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5434,
+    "completion_tokens": 925,
+    "total_tokens": 6359,
+    "cost": 0.020118,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.020118,
+      "upstream_inference_prompt_cost": 0.010868,
+      "upstream_inference_completions_cost": 0.00925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

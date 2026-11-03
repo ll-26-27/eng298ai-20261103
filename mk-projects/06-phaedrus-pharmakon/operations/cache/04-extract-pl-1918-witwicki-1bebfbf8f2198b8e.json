@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716019-wirjMxczgh2BqTIrV13W",
+  "object": "chat.completion",
+  "created": 1793716019,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"lekarstwem\",\"gloss\":\"medicine, remedy (instrumental case)\",\"category\":\"remedy/medicine\",\"note\":\"Polish 'lekarstwo' is a healing medicine; the construction is 'lekarstwem na pamięć i mądrość' ('a remedy for memory and wisdom'), so 'na' (for/against) makes it a remedy aimed at memory and wisdom, as if they were ailments, rather than a genitive 'of memory'.\"},\"mneme_274e\":{\"rendering\":\"pamięć\",\"gloss\":\"memory\",\"note\":\"Accusative after 'na' ('for memory').\"},\"sophia_274e\":{\"rendering\":\"mądrość\",\"gloss\":\"wisdom\",\"note\":\"Accusative after 'na' ('for ... wisdom').\"},\"pharmakon_275a\":{\"rendering\":\"lekarstwo\",\"gloss\":\"medicine, remedy\",\"category\":\"remedy/medicine\",\"note\":\"The second occurrence in the clause 'to nie jest lekarstwo na pamięć' is rendered with 'lekarstwo' as in Theuth's claim. The word for the second term in the same clause is 'środek' ('means, agent'), used for the pharmakon of reminding: 'tylko środek na przypominanie sobie'. The Greek single pharmakon is thus split in two words.\"},\"mneme_275a\":{\"rendering\":\"pamięć\",\"gloss\":\"memory\",\"note\":\"'lekarstwo na pamięć', 'a remedy for memory'.\"},\"hypomnesis_275a\":{\"rendering\":\"przypominanie sobie\",\"gloss\":\"reminding oneself, recalling to oneself\",\"note\":\"A reflexive verbal noun ('recollecting for oneself'), with 'środek na' ('a means for'); an active, self-directed process rather than a thing.\"},\"sophia_275a\":{\"rendering\":\"pozór mądrości\",\"gloss\":\"appearance, semblance of wisdom\",\"note\":\"'Pozór' is appearance or pretence, with a negative nuance; set against 'mądrość prawdziwą' ('true wisdom'), the contrast is rendered by appearance/true rather than doxa/aletheia.\"},\"doxosophoi_275b\":{\"rendering\":\"mędrcy z pozoru\",\"gloss\":\"sages from appearance, sages in appearance\",\"note\":\"Phrase, not a compound; the repeated 'pozór' ('appearance') echoes the preceding 'pozór mądrości'. Contrasted with 'ludzie mądrzy naprawdę' (people wise in truth).\"},\"argument\":\"Witwicki keeps 'lekarstwo' for both occurrences of pharmakon, so Thamus' denial ('nie jest lekarstwo na pamięć') does turn Theuth's own word against him; the same remedy wording is retained across both statements. But in the very same sentence he introduces a different word, 'środek' (means), for the pharmakon of reminding, so the repeated identical word is partly broken and the pharmakon of hypomnesis loses its medicine connotation. The ambiguity of pharmakon as poison is also lost: 'lekarstwo' is purely a healing remedy, and 'na' (for) frames memory as an ailment to be cured.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5905,
+    "completion_tokens": 1081,
+    "total_tokens": 6986,
+    "cost": 0.02262,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02262,
+      "upstream_inference_prompt_cost": 0.01181,
+      "upstream_inference_completions_cost": 0.01081
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716128-hHkIf29185cuxCAGg8ar",
+  "object": "chat.completion",
+  "created": 1793716128,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"lekarstwem\",\"gloss\":\"with/as a medicine (instrumental case of 'lekarstwo')\",\"category\":\"remedy/medicine\",\"note\":\"Theuth's clause is 'wynalazek ten jest lekarstwem na pamięć i mądrość', 'this invention is a medicine for memory and wisdom'. 'Na' ('for/against') gives the sense of a cure for a lack.\"},\"mneme_274e\":{\"rendering\":\"pamięć\",\"gloss\":\"memory\",\"note\":\"Accusative after 'na' ('for'). The translator also renders μνημονικωτέρους earlier as 'sprawniejszymi w pamiętaniu'.\"},\"sophia_274e\":{\"rendering\":\"mądrość\",\"gloss\":\"wisdom\",\"note\":\"\"},\"pharmakon_275a\":{\"rendering\":\"lekarstwo\",\"gloss\":\"medicine, remedy\",\"category\":\"remedy/medicine\",\"note\":\"The same lexeme as at 274e, only in the nominative case after 'nie jest'. Thamus then uses a different word, 'środek' (means, device), for what the invention actually is: 'środek na przypominanie sobie'. That second word stands where the Greek has φάρμακον in the second half of the antithesis, so it is the Greek φάρμακον split across two words.\"},\"mneme_275a\":{\"rendering\":\"pamięć\",\"gloss\":\"memory\",\"note\":\"Accusative after 'na'. The phrase is 'nie jest lekarstwo na pamięć', 'it is not a medicine for memory'.\"},\"hypomnesis_275a\":{\"rendering\":\"przypominanie sobie\",\"gloss\":\"reminding oneself, recalling to oneself\",\"note\":\"A verbal noun with a reflexive pronoun, so 'reminding' is made self-directed. Since it follows 'środek na', the whole phrase reads 'a means for reminding oneself'.\"},\"sophia_275a\":{\"rendering\":\"pozór mądrości\",\"gloss\":\"appearance/semblance of wisdom\",\"note\":\"Contrasted with 'mądrość prawdziwą', 'true wisdom'. This is a wording of 'doxa' as 'appearance', and it does not mean 'reputation' or 'opinion'. The Greek 'alētheia' is rendered by the adjective 'prawdziwą', 'true'.\"},\"doxosophoi_275b\":{\"rendering\":\"mędrcy z pozoru\",\"gloss\":\"sages from appearance, i.e. apparent sages\",\"note\":\"The compound is split into a noun plus a prepositional phrase. It is followed by 'a nie ludzie mądrzy naprawdę', 'and not people wise in truth'. It echoes 'pozór' from the earlier line.\"},\"argument\":\"Witwicki keeps one word, 'lekarstwo', for both occurrences of pharmakon in the first half of the antithesis, so Thamus does throw Theuth's own word back at him: 'not a lekarstwo for memory'. For the positive half he switches to 'środek na przypominanie', a neutral 'means', so the Greek second pharmakon is rendered by a different, less medical word. This keeps the medicine image in the denial but loses it in the affirmation, and the reply reads more as a correction of purpose than as a reversal of the drug's effect. The doxa vocabulary ('pozór', 'z pozoru') is kept consistent, which makes the opposition between appearance and truth clear.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5963,
+    "completion_tokens": 1146,
+    "total_tokens": 7109,
+    "cost": 0.023386,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.023386,
+      "upstream_inference_prompt_cost": 0.011926,
+      "upstream_inference_completions_cost": 0.01146
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

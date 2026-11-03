@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716043-l3BrPvGNTDZ7s7kZelVQ",
+  "object": "chat.completion",
+  "created": 1793716043,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"φάρμακον\",\"gloss\":\"pharmakon (drug, remedy, poison)\",\"category\":\"other\",\"note\":\"Modern Greek keeps the ancient word φάρμακον, which in modern usage normally means 'medicine/drug', so it is close to remedy/medicine, but it keeps the ambivalence of the original (drug/remedy/poison) more than a translated word would. Placed under 'other' because the same word is retained rather than rendered.\"},\"mneme_274e\":{\"rendering\":\"της μνήμης\",\"gloss\":\"of the memory\",\"note\":\"Genitive with article, as in 'the memory'; the article is not in the Greek.\"},\"sophia_274e\":{\"rendering\":\"της σοφίας\",\"gloss\":\"of the wisdom\",\"note\":\"Genitive with article, not in the Greek.\"},\"pharmakon_275a\":{\"rendering\":\"φάρμακον\",\"gloss\":\"pharmakon (drug, remedy, poison)\",\"category\":\"other\",\"note\":\"Same word φάρμακον as at 274e, with no article, so the repetition is preserved. See the note on 274e for the category.\"},\"mneme_275a\":{\"rendering\":\"μνήμης\",\"gloss\":\"of memory\",\"note\":\"Genitive without article, closely following the Greek.\"},\"hypomnesis_275a\":{\"rendering\":\"υπομνήσεως\",\"gloss\":\"of reminding\",\"note\":\"Keeps the ancient word ὑπόμνησις, which in modern Greek means 'reminder/reminding', so the contrast with memory remains.\"},\"sophia_275a\":{\"rendering\":\"φανταστικήν σοφίαν\",\"gloss\":\"imaginary/illusory wisdom\",\"note\":\"Renders δόξα σοφίας as an adjective plus noun, 'illusory wisdom', rather than 'the opinion or seeming of wisdom'. Thamus's contrast is 'not truth' (όχι αλήθειαν), which is kept.\"},\"doxosophoi_275b\":{\"rendering\":\"δοκησίσοφοι\",\"gloss\":\"those who think themselves wise, wise-in-their-own-conceit\",\"note\":\"Uses the Greek word δοκησίσοφος, a near-synonym of the Platonic coinage, for 'conceited wise men'; it is placed after 'instead of wise men' (αντί σοφών).\"},\"argument\":\"By keeping φάρμακον identical at 274e and 275a, Gounaris lets Thamus turn Theuth's very word against him, and the memory/reminding contrast remains visible through μνήμης and υπομνήσεως. The word φάρμακον in modern Greek leans toward 'medicine', so the poison side of the word is less audible than in the Greek of Plato, but it is not lost. The shift from 'seeming of wisdom' to 'illusory wisdom' and the use of δοκησίσοφοι keep the appearance-versus-truth point intact.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6269,
+    "completion_tokens": 967,
+    "total_tokens": 7236,
+    "cost": 0.022208,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.022208,
+      "upstream_inference_prompt_cost": 0.012538,
+      "upstream_inference_completions_cost": 0.00967
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}
