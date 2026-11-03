@@ -36,7 +36,7 @@ sort, and search**. Or you can **level up any part of the process**:
 | **Operations** | **Tools and loops:** build a search tool, compare passages, or save a process to repeat on each new batch of material. |
 | **Outputs** | **Form:** make an annotated edition, interactive map, searchable archive, or small app. Feed it into the next round of work. |
 
-The workshop use cases will demonstrate these possibilities. You still choose
+The workshop use cases demonstrate these possibilities. You still choose
 the question, check the evidence, and decide what is worth sharing.
 
 ## Start here
@@ -57,7 +57,7 @@ the question, check the evidence, and decide what is worth sharing.
 
 | Folder | Contents |
 |---|---|
-| [01-use-cases/](01-use-cases/README.md) | Humanities use cases—in progress; this folder is a placeholder for now. |
+| [01-use-cases/](01-use-cases/README.md) | Start with translation: a French source, a prompt chain, and an interactive bilingual HTML page. |
 | [02-your-project/](02-your-project/) | Your workspace: `inputs/`, `operations/`, and `outputs/`. |
 | [context/](context/README.md) | Shared context pack from `eng-298ai-context`: full-text course readings and AI papers, plus reading notes, in Markdown. |
 | [resources/](resources/README.md) | Glossary, setup guides, and handouts adapted from the desktop-app workshop. |

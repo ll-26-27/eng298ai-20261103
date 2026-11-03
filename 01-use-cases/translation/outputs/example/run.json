@@ -1,0 +1,124 @@
+{
+  "mode": "live",
+  "provider": "Anthropic",
+  "model": "claude-sonnet-5-5",
+  "rounds": 1,
+  "created_utc": "2026-11-03T14:53:37.453049+00:00",
+  "input_sha256": {
+    "editorial-brief.md": "7ca813013c5bd405a6f75ad23acbc51e637c1bfb557c4af122a6f0df3fc009b8",
+    "reference-en.md": "e44e48d10b6ee248fa8711b896f61cb5191ff9260527342e1798595f694fe1f8",
+    "source-fr.md": "0ee418571a1b727d89983643e33be2dd633e03dd965acb0c9187055b55dc4906",
+    "sources.json": "55838a9a31768b3026c7e3fe3a06f3b6a4af4a135411695a6c0fdbad64e28716"
+  },
+  "stages": [
+    {
+      "stage": "01-source-check",
+      "file": "01-source-check.md",
+      "prompt_sha256": "5adcede8ed8e11dc78f529da8c3a5f88765df09e7b9ae7360a6ffcf5583ca56a",
+      "response_id": "msg_011CggBikYvEm1HqTkRXimEk",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 1715,
+      "output_tokens": 953
+    },
+    {
+      "stage": "02-lexicon",
+      "file": "02-lexicon.md",
+      "prompt_sha256": "f7ffe18c359cbc1600896b9c0f49df04de0085990689295b13f677d6acf3b830",
+      "response_id": "msg_011CggBjJLcqZrAC8VpopbLU",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 2166,
+      "output_tokens": 1824
+    },
+    {
+      "stage": "03-context-rhythm",
+      "file": "03-context-rhythm.md",
+      "prompt_sha256": "e55d808cdac1c6a3945bed46caf4f61f6a05f82cba994544f1752e3298718a86",
+      "response_id": "msg_011CggBkPGowgtTeK4KU3pZ7",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 2856,
+      "output_tokens": 1184
+    },
+    {
+      "stage": "04-draft",
+      "file": "04-draft.md",
+      "prompt_sha256": "e9a3c51ec35965afb940681494b393a311691ee8a30d044abfb0e632bc268609",
+      "response_id": "msg_011CggBm7z5aUPSHKBPgLZgK",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 3392,
+      "output_tokens": 294
+    },
+    {
+      "stage": "05-critique-1",
+      "file": "05-critique-1.md",
+      "prompt_sha256": "d1cb55992b1d63033862d96b0affabed35b55eda14ddff91a618e8ed6ee06092",
+      "response_id": "msg_011CggBmKRfBQEsdvyfrn3sJ",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 3703,
+      "output_tokens": 1388
+    },
+    {
+      "stage": "06-revise-1",
+      "file": "06-revise-1.md",
+      "prompt_sha256": "080cc72120570b334af32d1b82490f5ded5c81f70c49a838509d82e104f68e6b",
+      "response_id": "msg_011CggBn72Zc9foW4q1ZCZT7",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 4270,
+      "output_tokens": 1232
+    },
+    {
+      "stage": "07-compare",
+      "file": "07-compare.md",
+      "prompt_sha256": "14adab1c91a4d8a777076e5b930afcfba01c61856e90fc158e622d3a2b200e06",
+      "response_id": "msg_011CggBnquVSSKUPfKmaZHUK",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 4941,
+      "output_tokens": 1171
+    },
+    {
+      "stage": "08-final-edit",
+      "file": "08-final-edit.json",
+      "prompt_sha256": "770a56221f1cfe82a3f6ace598d1b9a0836318b047a55385bd266a5f6b572995",
+      "response_id": "msg_011CggBoaW4s5UHhrQYHwJUq",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 5491,
+      "output_tokens": 1176
+    },
+    {
+      "stage": "09-annotate",
+      "file": "09-annotate.json",
+      "prompt_sha256": "56b6f85537fe73a95bdb657f104f4de6a7fc7c10781144275787645ca9664d82",
+      "response_id": "msg_011CggBpBKLMwZoRNBp5Z35X",
+      "model": "claude-sonnet-5-5",
+      "input_tokens": 5978,
+      "output_tokens": 2249
+    }
+  ],
+  "status": "complete",
+  "artifact_sha256": {
+    "01-source-check.md": "f781217ce1ea5cd0df7e981ccb4f6691ce2885fa2fcf936e204c401760ef4a13",
+    "02-lexicon.md": "2e6694970994139055ad528a2d11589d809cb7068deabfb427bd057d7f14155b",
+    "03-context-rhythm.md": "2bda1acb40b9dda6efc147d3cc5fe38575822709c7f1a43d39690c419aeb1264",
+    "04-draft.md": "0eeab8e7c933edb784ec09aa28149257f8a09d6173ea25c5f26dedbc87118ff7",
+    "05-critique-1.md": "200b80c34c61ac8077a1217d457c3b746f91f73ec000a5d373a40d4172c62be1",
+    "06-revise-1.md": "cabaa0f8aaeef9fa3468e68eea6168499c446ed2f6a0bfe6416fb61a7c7ad8e1",
+    "07-compare.md": "3279cecb6addec847d13221aad68ea36ac47e7f046898d9e1e796b2cf78a05cb",
+    "08-final-edit.json": "1d2efd5c58a4a5c5ed5e8556f6c81e26e2bf3fe42763c0654634a4dc365fc4a5",
+    "09-annotate.json": "47b90ccf5d30cfe38f3656d30ff581af97e11241dbe370e5de69f8185390f5af",
+    "annotated-translation.html": "82f2d3c35683974d41fbe8fa93d51718dbe688aad64df4ff9151d250cf06dc30",
+    "annotated-translation.md": "7608355b6530283bf46f65f8cc79a6830d4339b91dcaf161716aaef9fc0f16b2",
+    "review.md": "d650e4cd54242840a4e4b06603bbf6868d48b0a63f9d7bec9afdfb3dc1b0560d",
+    "translation.json": "b8eca5bb32fb93b596b6c1163aa4fe394c9e041cdb2910fd54bb9b724c3ab749"
+  },
+  "presentation_review": {
+    "format": "standalone responsive HTML",
+    "review_file": "review.md",
+    "translation_changed": false,
+    "offline_tests": 4,
+    "browser_checks": [
+      "French visibility toggle",
+      "Highlight visibility toggle",
+      "Annotation anchor navigation",
+      "Desktop visual review"
+    ]
+  }
+}

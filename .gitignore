@@ -23,3 +23,7 @@ node_modules/
 
 # source PDFs for the AI papers; only the extracted Markdown is committed
 context/LL-readings/pdfs/
+
+# local Python environments and notebook state
+.venv/
+.ipynb_checkpoints/

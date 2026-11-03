@@ -1,0 +1,31 @@
+{
+  "work": "Le Rire. Essai sur la signification du comique",
+  "author": "Henri Bergson",
+  "author_dates": "1859–1941",
+  "source_language": "French",
+  "target_language": "English",
+  "passage": "Chapter I, opening through “grandir et s’épanouir.”",
+  "french_edition": "Félix Alcan, Paris, 1938; Wikisource transcription",
+  "french_url": "https://fr.wikisource.org/w/index.php?oldid=13026538&title=Le_Rire._Essai_sur_la_signification_du_comique/Chapitre_I",
+  "scan_index_url": "https://fr.wikisource.org/wiki/Livre:Bergson_-_Le_Rire.djvu",
+  "checked_on": "2026-11-03",
+  "verification": "French excerpt checked against the linked revision; whitespace normalized, punctuation retained, six editorial segment labels added. Published English excerpt copied verbatim from the course context pack.",
+  "normalization": [
+    "Non-breaking spaces normalized to ordinary spaces.",
+    "Editorial segment boundaries split the first paragraph into S1–S4 and the opening of the second into S5–S6."
+  ],
+  "reference": {
+    "translators": [
+      "Cloudesley Brereton",
+      "Fred Rothwell"
+    ],
+    "year": 1911,
+    "url": "https://www.gutenberg.org/ebooks/4352",
+    "local_context": "../../../context/course-readings/course-readings-md/bergson-laughter.md",
+    "excerpt_file": "reference-en.md"
+  },
+  "course_connection": "Recommended reading for Seminar 4, September 29; listed in context/course-readings/syllabus.md.",
+  "copyright": "Bergson’s source and this 1911 English translation are public-domain texts in the United States.",
+  "source_sha256": "0ee418571a1b727d89983643e33be2dd633e03dd965acb0c9187055b55dc4906",
+  "reference_sha256": "e44e48d10b6ee248fa8711b896f61cb5191ff9260527342e1798595f694fe1f8"
+}

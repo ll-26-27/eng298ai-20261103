@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Translating Bergson · AI Humanities Lab</title>
+<style>
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { color:#243d33; background:#f7f8f4; margin:0; font:18px/1.65 Georgia, 'Times New Roman', serif; }
+main { max-width:1160px; margin:auto; padding:60px 36px 48px; }
+header { border-top:5px solid #244d42; padding-top:24px; margin-bottom:32px; max-width:900px; }
+.kicker,.meta,.controls,.segment-id,.column-labels,.mobile-label,.question,footer,summary,.workflow { font-family:Arial,sans-serif; }
+.kicker { color:#365f52; font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase; }
+h1 { font-size:clamp(38px,5vw,64px); font-weight:normal; margin:14px 0; line-height:1.06; letter-spacing:-1.5px; }
+.meta { font-size:14px; color:#5c665f; margin:0; }
+.intro { max-width:720px; margin:18px 0 0; font-size:19px; }
+.controls { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:24px 0; }
+button { font:14px Arial,sans-serif; color:#244d42; border:1px solid #b0c3b7; border-radius:30px; padding:10px 16px; background:white; cursor:pointer; }
+button:hover { background:#e7eee8; }
+button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid #aa7119; outline-offset:4px; }
+.controls[hidden] { display:none; }
+.controls span { font-size:13px; color:#65736a; }
+.column-labels,.segment { display:grid; grid-template-columns:34px minmax(0,1fr) minmax(0,1fr); gap:24px; }
+.column-labels { color:#365f52; font-size:12px; text-transform:uppercase; letter-spacing:1.2px; border-bottom:2px solid #365f52; padding-bottom:12px; }
+.segment { padding:24px 0; border-bottom:1px solid #d6dfd6; }
+.segment-id { color:#738276; font-size:12px; padding-top:6px; }
+.segment p { margin:0; } .source { color:#57655b; }
+.mobile-label { display:none; }
+mark { color:inherit; background:#f0e4b9; padding:1px 0; }
+.annotation { text-decoration:none; color:inherit; border-bottom:1px solid #bfa86b; }
+.annotation:hover mark { background:#e3cf87; }
+sup { font:11px Arial,sans-serif; color:#27624e; font-weight:bold; margin-left:2px; }
+h2 { font-size:30px; font-weight:normal; margin:44px 0 20px; line-height:1.2; }
+.notes { display:grid; grid-template-columns:1fr 1fr; gap:18px; font-size:16px; line-height:1.55; }
+.note { display:flex; gap:12px; padding:22px; background:white; border:1px solid #d9e1d7; border-radius:8px; scroll-margin-top:24px; }
+.note:target { border-color:#a78228; background:#fffbee; }
+.note-number { font:13px Arial,sans-serif; color:#244d42; border:1px solid #adc1b6; border-radius:50%; width:24px; height:24px; text-align:center; line-height:22px; flex-shrink:0; }
+.note p { margin:8px 0 0; }
+.question { border-left:4px solid #365f52; background:#e9f0e9; padding:22px 24px; font-size:16px; margin-top:32px; }
+details { border-top:1px solid #cbd6cd; padding:22px 0; margin-top:32px; }
+summary { font-size:15px; font-weight:bold; cursor:pointer; }
+.workflow { font-size:15px; line-height:1.7; max-width:800px; }
+.workflow ul { padding-left:20px; }
+footer { border-top:1px solid #cbd6cd; margin-top:20px; padding-top:20px; font-size:12px; line-height:1.6; color:#68736c; }
+a { color:inherit; }
+.english-only .source,.english-only .source-label { display:none; }
+.english-only .column-labels,.english-only .segment { grid-template-columns:34px minmax(0,1fr); }
+.english-only .segment { max-width:850px; }
+.no-highlights mark { background:transparent; }
+.no-highlights .annotation { border-bottom-color:transparent; }
+@media (max-width:700px) {
+ main { padding:28px 20px; }
+ header { margin-bottom:20px; }
+ .column-labels { display:none; }
+ .segment,.english-only .segment { grid-template-columns:28px minmax(0,1fr); gap:12px; padding:22px 0; }
+ .segment-id { grid-row:1 / span 2; }
+ .source,.translation { grid-column:2; }
+ .translation { margin-top:8px; }
+ .mobile-label { display:block; font-size:10px; color:#738276; letter-spacing:1px; text-transform:uppercase; margin-bottom:6px; }
+ .notes { grid-template-columns:1fr; }
+ h2 { font-size:27px; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+@media print { main { padding:0; } .controls { display:none; } }
+</style></head><body><main>
+<header><div class="kicker">01 / Translation · AI Humanities Lab</div><h1>What does laughter mean?</h1><p class="meta">Henri Bergson · <i>Le Rire</i>, Chapter I · French → English</p><p class="intro">Read the French beside an AI translation. Follow a highlighted phrase to see the choice behind it—and decide what you would change.</p></header>
+<div class="controls" hidden id="controls"><button type="button" id="source-toggle" aria-pressed="true">Hide French</button><button type="button" id="highlight-toggle" aria-pressed="true">Hide highlights</button><span>Highlighted phrases link to the notes below.</span></div>
+<section aria-label="French source aligned with a new English translation"><div class="column-labels" aria-hidden="true"><span></span><span class="source-label">French source</span><span>New English translation</span></div><article class="segment" aria-label="Segment S1"><span class="segment-id">S1</span><div class="source" lang="fr"><span class="mobile-label">French source</span><p>Que signifie le rire ? Qu’y a-t-il au fond du risible ?</p></div><div class="translation"><span class="mobile-label">English translation</span><p>What does laughter mean? What lies at the bottom of the laughable?</p></div></article><article class="segment" aria-label="Segment S2"><span class="segment-id">S2</span><div class="source" lang="fr"><span class="mobile-label">French source</span><p>Que trouverait-on de commun entre une grimace de pitre, un jeu de mots, un <a class="annotation" href="#note-1"><mark>quiproquo de vaudeville</mark><sup>1</sup></a>, une scène de fine comédie ?</p></div><div class="translation"><span class="mobile-label">English translation</span><p>What would one find in common between a clown&#x27;s grimace, a play on words, <a class="annotation" href="#note-1"><mark>a vaudeville mix-up</mark><sup>1</sup></a>, and a scene of refined comedy?</p></div></article><article class="segment" aria-label="Segment S3"><span class="segment-id">S3</span><div class="source" lang="fr"><span class="mobile-label">French source</span><p><a class="annotation" href="#note-2"><mark>Quelle distillation nous donnera l’essence</mark><sup>2</sup></a>, toujours la même, à laquelle tant de produits divers empruntent ou leur indiscrète odeur ou leur parfum délicat ?</p></div><div class="translation"><span class="mobile-label">English translation</span><p><a class="annotation" href="#note-2"><mark>What distillation will give us the essence</mark><sup>2</sup></a>, always the same, from which so many different products borrow either their intrusive odor or their delicate perfume?</p></div></article><article class="segment" aria-label="Segment S4"><span class="segment-id">S4</span><div class="source" lang="fr"><span class="mobile-label">French source</span><p>Les plus grands penseurs, depuis Aristote, se sont attaqués à ce petit problème, qui toujours <a class="annotation" href="#note-3"><mark>se dérobe sous l’effort, glisse, s’échappe, se redresse</mark><sup>3</sup></a>, impertinent défi jeté à la spéculation philosophique.</p></div><div class="translation"><span class="mobile-label">English translation</span><p>The greatest thinkers, from Aristotle on, have taken on this small problem, which always <a class="annotation" href="#note-3"><mark>gives way under the effort, slips off, escapes, springs back up</mark><sup>3</sup></a>, an impertinent challenge flung at philosophical speculation.</p></div></article><article class="segment" aria-label="Segment S5"><span class="segment-id">S5</span><div class="source" lang="fr"><span class="mobile-label">French source</span><p>Notre excuse, pour aborder le problème à notre tour, est que nous ne viserons pas à <a class="annotation" href="#note-4"><mark>enfermer la fantaisie comique dans une définition</mark><sup>4</sup></a>. Nous voyons en elle, avant tout, quelque chose de vivant.</p></div><div class="translation"><span class="mobile-label">English translation</span><p>Our excuse for approaching the problem in our turn is that we will not aim to <a class="annotation" href="#note-4"><mark>confine the comic fantasy within a definition</mark><sup>4</sup></a>. We see in it, above all, something living.</p></div></article><article class="segment" aria-label="Segment S6"><span class="segment-id">S6</span><div class="source" lang="fr"><span class="mobile-label">French source</span><p>Nous la traiterons, si légère soit-elle, avec le respect qu’on doit à la vie. Nous nous bornerons à la regarder grandir et s’épanouir.</p></div><div class="translation"><span class="mobile-label">English translation</span><p>We will treat it, however light it may be, with the respect owed to life. We will limit ourselves to watching it grow and blossom.</p></div></article></section>
+<h2>Four choices to inspect</h2><section class="notes" aria-label="Translation annotations"><div class="note" id="note-1" tabindex="-1"><b class="note-number">1</b><div><strong>quiproquo de vaudeville → a vaudeville mix-up</strong><p>Vaudeville here is the French genre of light stage comedy built on intrigue; keeping it preserves the cultural label. A plainer alternative, &#x27;farce&#x27;s mistaken-identity gag,&#x27; clarifies for Americans but loses the genre name.</p></div></div><div class="note" id="note-2" tabindex="-1"><b class="note-number">2</b><div><strong>Quelle distillation nous donnera l’essence → What distillation will give us the essence</strong><p>Keeping &#x27;distillation&#x27; literally preserves the image of one constant essence yielding many scents; &#x27;intrusive&#x27; renders indiscrète as a smell lacking manners. Alternative: &#x27;What process of extraction&#x27; would be plainer but lose the chemistry.</p></div></div><div class="note" id="note-3" tabindex="-1"><b class="note-number">3</b><div><strong>se dérobe sous l’effort, glisse, s’échappe, se redresse → gives way under the effort, slips off, escapes, springs back up</strong><p>Four unconnected verbs keep the sequence of evasions; &#x27;gives way under&#x27; suggests ground yielding. &#x27;Springs back up&#x27; approximates se redresse. Alternative: &#x27;eludes, slides, escapes, rights itself&#x27; sounds more philosophical but less vivid.</p></div></div><div class="note" id="note-4" tabindex="-1"><b class="note-number">4</b><div><strong>enfermer la fantaisie comique dans une définition → confine the comic fantasy within a definition</strong><p>Fantaisie comique means playful comic imagination, set against definition and &#x27;something living.&#x27; &#x27;Fantasy&#x27; may suggest a genre; &#x27;comic fancy&#x27; or &#x27;whimsy&#x27; would stress play, though whimsy risks sounding trivial.</p></div></div></section>
+<div class="question"><b>Your turn:</b> Which choice would you change—and what would your version gain or lose?</div>
+<details><summary>From a source text to a readable page</summary><div class="workflow"><p>The French passage is the input. A chain of prompts produces a draft, a critique, a revision, and an annotated translation. A short Python script turns that result into this HTML page.</p><ul><li><a href="04-draft.md">Read the first draft</a> and <a href="06-revise-1.md">the revision</a>.</li><li><a href="07-compare.md">Compare with the published English translation</a>.</li><li><a href="review.md">Read the source-check and review notes</a>.</li><li><a href="../../README.md">Try the use case</a>, then ask for a different way to present the result.</li></ul><p><b>The pattern to reuse:</b> inputs → operations → an HTML page someone else can read and explore.</p></div></details>
+<footer>Source: <a href="https://fr.wikisource.org/w/index.php?oldid=13026538&amp;title=Le_Rire._Essai_sur_la_signification_du_comique/Chapitre_I">French edition, Félix Alcan, 1938</a>. Comparison: <a href="https://www.gutenberg.org/ebooks/4352">Brereton &amp; Rothwell, 1911</a>.<br>Selection ends at “grandir et s’épanouir.” This is an AI-generated worked example. Labels and notes are editorial; model self-critique is not independent verification.</footer>
+</main>
+<script>
+const controls = document.getElementById('controls');
+controls.hidden = false;
+document.getElementById('source-toggle').addEventListener('click', function() {
+ const hidden = document.body.classList.toggle('english-only');
+ this.setAttribute('aria-pressed', String(!hidden));
+ this.textContent = hidden ? 'Show French' : 'Hide French';
+});
+document.getElementById('highlight-toggle').addEventListener('click', function() {
+ const hidden = document.body.classList.toggle('no-highlights');
+ this.setAttribute('aria-pressed', String(!hidden));
+ this.textContent = hidden ? 'Show highlights' : 'Hide highlights';
+});
+</script></body></html>
