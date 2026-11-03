@@ -1,43 +1,50 @@
 ---
 title: mk-projects
-description: Worked example projects for ENGLISH 298AI, November 3, 2026, each laid out as inputs → operations → outputs.
+description: Six worked example projects for ENGLISH 298AI, November 3, 2026, each laid out as inputs → operations → outputs, explained at a glance.
 author: claude
 created: 2026-11-03
 ---
 
 # mk-projects
 
-Six worked examples of using AI tools to research and present work on texts. Each project folder has the same three parts, so you can see the whole pipeline and borrow its shape for your own project.
+Six worked examples of using AI tools to research and present work on texts. Every folder has the same shape: **`inputs/`** (what we start from), **`operations/`** (numbered steps: prompts, scripts, and the in-between data files they pass along), **`outputs/`** (one HTML page; double-click `outputs/index.html`). Each folder's own README has the full chain, sources, costs, and caveats.
 
-- **`inputs/`**: the material we start from (public-domain texts, data). Each folder's `README.md` gives every input's source and copyright status.
-- **`operations/`**: everything that turns inputs into outputs, numbered in the order it runs. An operation can be a **prompt** (a `.md` file you can give to Claude Code), a **script** (`.mjs`, run with Node), or an **intermediate file** that one step hands to the next (a `.csv` or `.json` of extracted data). Each README says which steps are plain code, which are a model's judgment, and which are checks.
-- **`outputs/`**: what a reader sees, a single HTML page. Double-click `outputs/index.html` to open it.
+## 01 · Dickens's places: a map after Moretti
 
-| folder | inputs | operations, in brief | output |
-| --- | --- | --- | --- |
-| [`01-dickens-places-map/`](01-dickens-places-map/) | eight Dickens novels | find place names chunk by chunk → inventory → look up coordinates → design the map | an interactive map, after Moretti's *Atlas of the European Novel* |
-| [`02-frankenstein-translations/`](02-frankenstein-translations/) | the 1818 and 1831 texts and the first French and German translations | inventory first translations into 25 languages, checking each → find one passage in each translation → back-translate and compare | a timeline and map of how the novel travelled, with the passages side by side |
-| [`03-ai-and-literature-timeline/`](03-ai-and-literature-timeline/) | the course reading list and the history of AI | a model drafts events → each one checked against a source → sorted into lanes | an interactive timeline, with what the checking caught |
-| [`04-frankenstein-revisions/`](04-frankenstein-revisions/) | *Frankenstein*, 1818 and 1831 | code finds every change → a model sorts each change into categories → a second model and a reader check a sample | a filterable explorer of every revision |
-| [`05-distant-and-close-reading/`](05-distant-and-close-reading/) | *Frankenstein*, *R.U.R.*, *Dorian Gray*, *Phaedrus* | keyword search vs. a model reading every passage for "scenes of instruction" → a check → close readings | a page that moves from the whole corpus to single passages |
-| [`06-phaedrus-pharmakon/`](06-phaedrus-pharmakon/) | the Greek of *Phaedrus* 274c–275b and 17 translations, 1484–1922 | find the passage in each → pull out how each renders *pharmakon*, *mnēmē*, *hypomnēsis*, *sophia* → check them word for word → back-translate | the Greek with clickable key words, a timeline of renderings, the passages side by side |
+- **Inputs:** eight Dickens novels from Project Gutenberg, *Oliver Twist* to *Our Mutual Friend*.
+- **Operations:** code cuts each novel into chunks by chapter → a model lists every place name in each chunk, with a quote → code merges them into an inventory (1,116 places) → a free gazetteer (OpenStreetMap's Nominatim) finds coordinates; a model estimates a few it can't → a short brief on what the map should show.
+- **Output:** a map of London, Britain, and abroad. Tick novels on and off, show only scenes set at a place, set a minimum number of mentions, or search for a place; click a circle to read its passages. Dashed circles are the model's guesses.
 
-## Running the operations yourself
+## 02 · *Frankenstein* in translation
 
-You don't need to rerun anything to read the outputs. To rerun or change a step, put your OpenRouter key in a `.env` file at the root of this repo (it is gitignored, so it stays on your machine):
+- **Inputs:** the 1818 and 1831 English texts, the first French (1821) and German (1912) translations, and short quoted lines from many later translations, each cited.
+- **Operations:** research and verify the first translation into 25 languages → find one loaded line in as many translations as possible → a model back-translates each and notes the connotations each translator's words add → a comparison across all of them.
+- **Output:** the English line and each translation side by side, with key words highlighted and connotation notes; a matrix of how each key word was rendered; below, a timeline of first translations by language. *(Being reworked this morning; this entry will be updated.)*
 
-```
-OPENROUTER_API_KEY=your-key-here
-```
+## 03 · A timeline of AI and literature
 
-Then run a step from the repo root, for example:
+- **Inputs:** the course reading list (titles and dates only) and the history of AI.
+- **Operations:** a model drafts 112 events → each one checked against Wikipedia, arXiv, or Crossref records (23 corrected) → a model sorts each into a lane and themes → code builds the page.
+- **Output:** a timeline in four lanes (AI and computing, literature and theater, theories of dialogue, course readings as gold diamonds), split into eras so antiquity and 2026 both fit. Filter, search, and zoom; click an event for its source and checking status. A panel lists what the checking caught.
 
-```
-node --env-file=.env mk-projects/04-frankenstein-revisions/operations/04-categorize.mjs
-```
+## 04 · Every change between the 1818 and 1831 *Frankenstein*
 
-Most folders keep a cache of the model responses, so rerunning an unchanged step costs nothing. Each README lists the models used and what the run cost.
+- **Inputs:** the 1818 and 1831 texts from Project Gutenberg.
+- **Operations:** code aligns the two editions and finds every change (550) → a schema of categories (an interpretive choice, written down) → a model labels each change in a fixed format → a stronger model and a reader check samples → code counts by category and chapter.
+- **Output:** a chart of where the changes fall, filters by category and significance, and each change side by side with the edit highlighted plus the model's label and reasons. Shows the agreement from the checks and the twelve known revisions the scholarship describes.
 
-## Left out of this repo
+## 05 · Distant and close reading: scenes of instruction
 
-Some inputs are downloaded by their own fetch step instead of being included here: the German *Frankenstein* chapter in `02` (`operations/00-fetch-texts.mjs`), the Wikipedia extracts used to check the timeline in `03` (`operations/02a-fetch-sources.mjs`), and four *Phaedrus* translations in `06` from sites with their own terms of use (`operations/02-fetch-texts.mjs`). The large rebuildable files are left out too: the text chunks in `01` (rebuilt by `operations/01-clean-and-chunk.mjs`) and the response cache in `05`.
+- **Inputs:** *Frankenstein* (1818), *R.U.R.* (1923 translation), *The Picture of Dorian Gray*, and Plato's *Phaedrus* (Jowett).
+- **Operations:** code cuts the texts into 982 passages → a keyword search for teach/learn/lesson… → a model reads every passage for the concept → code compares the two methods → a blind check of 30 passages → a stronger model close-reads the 15 strongest.
+- **Output:** one strip per text, with keyword hits on one row and the model's hits (shaded by strength) on another, so you can see what word search misses. Click any mark for the passage, the evidence, and the close reading.
+
+## 06 · *Pharmakon*: one word across five centuries
+
+- **Inputs:** the Greek of *Phaedrus* 274c–275b (Theuth and Thamus) and 17 public-domain translations in 10 languages, Ficino (1484) to Meunier (1922).
+- **Operations:** find the passage in each translation → a model pulls out how each renders *pharmakon*, *mnēmē*, *hypomnēsis*, and *sophia*, and sorts *pharmakon* by sense (medicine, drug, means…) → code confirms each rendering appears word for word → a model back-translates each passage.
+- **Output:** the Greek with clickable key words; a timeline of each word's renderings by year, colored by sense; the passages side by side with back-translations.
+
+## Rerunning a step
+
+You don't need to. To try, put `OPENROUTER_API_KEY=…` in a `.env` at the repo root (gitignored) and run, e.g., `node --env-file=.env mk-projects/04-frankenstein-revisions/operations/04-categorize.mjs`. Cached responses make unchanged steps free. A few inputs from sites with their own terms are fetched by each folder's download step instead of being included.
