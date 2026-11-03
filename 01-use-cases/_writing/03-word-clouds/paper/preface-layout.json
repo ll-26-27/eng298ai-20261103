@@ -1,0 +1,1024 @@
+{
+ "source_counts": "paper/preface-counts.json",
+ "font": "/Users/madeleinewoods/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
+ "seed": 298,
+ "layout": "mostly-horizontal",
+ "placement": "centre-line",
+ "palette": [
+  "#3b2d5c",
+  "#8a2a45",
+  "#2a6b6e",
+  "#a8742e",
+  "#1e1e1e"
+ ],
+ "field": [
+  1168,
+  778
+ ],
+ "image": [
+  1244,
+  857
+ ],
+ "words": [
+  {
+   "word": "artist",
+   "size": 240,
+   "rotated": false,
+   "x": 382,
+   "y": 326,
+   "w": 741,
+   "h": 191,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "art",
+   "size": 196,
+   "rotated": false,
+   "x": 536,
+   "y": 515,
+   "w": 329,
+   "h": 147,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "beautiful",
+   "size": 130,
+   "rotated": false,
+   "x": 420,
+   "y": 184,
+   "w": 670,
+   "h": 107,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "things",
+   "size": 130,
+   "rotated": true,
+   "x": 285,
+   "y": 133,
+   "w": 133,
+   "h": 469,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "thing",
+   "size": 64,
+   "rotated": false,
+   "x": 492,
+   "y": 300,
+   "w": 197,
+   "h": 69,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "new",
+   "size": 42,
+   "rotated": false,
+   "x": 690,
+   "y": 295,
+   "w": 103,
+   "h": 30,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "form",
+   "size": 42,
+   "rotated": false,
+   "x": 40,
+   "y": 410,
+   "w": 118,
+   "h": 38,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "find",
+   "size": 42,
+   "rotated": false,
+   "x": 456,
+   "y": 516,
+   "w": 98,
+   "h": 38,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "meanings",
+   "size": 42,
+   "rotated": false,
+   "x": 708,
+   "y": 140,
+   "w": 235,
+   "h": 47,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "moral",
+   "size": 42,
+   "rotated": false,
+   "x": 843,
+   "y": 305,
+   "w": 142,
+   "h": 38,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "written",
+   "size": 42,
+   "rotated": false,
+   "x": 827,
+   "y": 584,
+   "w": 178,
+   "h": 38,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "nineteenth",
+   "size": 42,
+   "rotated": false,
+   "x": 390,
+   "y": 141,
+   "w": 264,
+   "h": 38,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "century",
+   "size": 42,
+   "rotated": true,
+   "x": 733,
+   "y": 580,
+   "w": 44,
+   "h": 187,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "dislike",
+   "size": 42,
+   "rotated": false,
+   "x": 571,
+   "y": 675,
+   "w": 159,
+   "h": 38,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "rage",
+   "size": 42,
+   "rotated": false,
+   "x": 867,
+   "y": 520,
+   "w": 113,
+   "h": 39,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "caliban",
+   "size": 42,
+   "rotated": false,
+   "x": 137,
+   "y": 363,
+   "w": 175,
+   "h": 38,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "seeing",
+   "size": 42,
+   "rotated": false,
+   "x": 785,
+   "y": 653,
+   "w": 161,
+   "h": 47,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "face",
+   "size": 42,
+   "rotated": false,
+   "x": 617,
+   "y": 715,
+   "w": 105,
+   "h": 38,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "glass",
+   "size": 42,
+   "rotated": false,
+   "x": 983,
+   "y": 510,
+   "w": 128,
+   "h": 47,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "life",
+   "size": 42,
+   "rotated": false,
+   "x": 230,
+   "y": 433,
+   "w": 80,
+   "h": 38,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "man",
+   "size": 42,
+   "rotated": true,
+   "x": 533,
+   "y": 356,
+   "w": 30,
+   "h": 108,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "ethical",
+   "size": 42,
+   "rotated": false,
+   "x": 992,
+   "y": 293,
+   "w": 165,
+   "h": 38,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "point",
+   "size": 42,
+   "rotated": false,
+   "x": 232,
+   "y": 593,
+   "w": 129,
+   "h": 47,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "view",
+   "size": 42,
+   "rotated": true,
+   "x": 648,
+   "y": 437,
+   "w": 38,
+   "h": 114,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "type",
+   "size": 42,
+   "rotated": false,
+   "x": 1086,
+   "y": 415,
+   "w": 111,
+   "h": 44,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "surface",
+   "size": 42,
+   "rotated": false,
+   "x": 652,
+   "y": 107,
+   "w": 181,
+   "h": 38,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "symbol",
+   "size": 42,
+   "rotated": true,
+   "x": 503,
+   "y": 562,
+   "w": 47,
+   "h": 175,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "peril",
+   "size": 42,
+   "rotated": false,
+   "x": 1011,
+   "y": 548,
+   "w": 113,
+   "h": 47,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "work",
+   "size": 42,
+   "rotated": false,
+   "x": 380,
+   "y": 581,
+   "w": 124,
+   "h": 38,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "making",
+   "size": 42,
+   "rotated": true,
+   "x": 258,
+   "y": 187,
+   "w": 47,
+   "h": 180,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "useless",
+   "size": 42,
+   "rotated": false,
+   "x": 104,
+   "y": 470,
+   "w": 181,
+   "h": 38,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "creator",
+   "size": 20,
+   "rotated": true,
+   "x": 632,
+   "y": 54,
+   "w": 20,
+   "h": 90,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "reveal",
+   "size": 20,
+   "rotated": false,
+   "x": 567,
+   "y": 514,
+   "w": 78,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "conceal",
+   "size": 20,
+   "rotated": false,
+   "x": 688,
+   "y": 521,
+   "w": 93,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "art\u2019s",
+   "size": 20,
+   "rotated": false,
+   "x": 736,
+   "y": 429,
+   "w": 60,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "aim",
+   "size": 20,
+   "rotated": false,
+   "x": 219,
+   "y": 314,
+   "w": 48,
+   "h": 21,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "critic",
+   "size": 20,
+   "rotated": true,
+   "x": 583,
+   "y": 748,
+   "w": 21,
+   "h": 64,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "translate",
+   "size": 20,
+   "rotated": false,
+   "x": 803,
+   "y": 291,
+   "w": 111,
+   "h": 21,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "another",
+   "size": 20,
+   "rotated": false,
+   "x": 869,
+   "y": 562,
+   "w": 96,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "manner",
+   "size": 20,
+   "rotated": true,
+   "x": 380,
+   "y": 48,
+   "w": 17,
+   "h": 93,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "material",
+   "size": 20,
+   "rotated": true,
+   "x": 452,
+   "y": 46,
+   "w": 21,
+   "h": 103,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "impression",
+   "size": 20,
+   "rotated": false,
+   "x": 872,
+   "y": 792,
+   "w": 131,
+   "h": 25,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "highest",
+   "size": 20,
+   "rotated": false,
+   "x": 482,
+   "y": 183,
+   "w": 91,
+   "h": 25,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "lowest",
+   "size": 20,
+   "rotated": false,
+   "x": 851,
+   "y": 345,
+   "w": 81,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "criticism",
+   "size": 20,
+   "rotated": false,
+   "x": 674,
+   "y": 191,
+   "w": 104,
+   "h": 21,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "mode",
+   "size": 20,
+   "rotated": false,
+   "x": 419,
+   "y": 556,
+   "w": 69,
+   "h": 21,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "autobiography",
+   "size": 20,
+   "rotated": true,
+   "x": 232,
+   "y": 140,
+   "w": 25,
+   "h": 172,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "ugly",
+   "size": 20,
+   "rotated": false,
+   "x": 740,
+   "y": 333,
+   "w": 54,
+   "h": 25,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "corrupt",
+   "size": 20,
+   "rotated": true,
+   "x": 847,
+   "y": 367,
+   "w": 24,
+   "h": 90,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "without",
+   "size": 20,
+   "rotated": true,
+   "x": 621,
+   "y": 422,
+   "w": 21,
+   "h": 93,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "charming",
+   "size": 20,
+   "rotated": true,
+   "x": 659,
+   "y": 561,
+   "w": 25,
+   "h": 112,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "fault",
+   "size": 20,
+   "rotated": true,
+   "x": 459,
+   "y": 312,
+   "w": 21,
+   "h": 60,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "cultivated",
+   "size": 20,
+   "rotated": true,
+   "x": 940,
+   "y": 40,
+   "w": 21,
+   "h": 121,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "hope",
+   "size": 20,
+   "rotated": false,
+   "x": 220,
+   "y": 515,
+   "w": 62,
+   "h": 25,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "elect",
+   "size": 20,
+   "rotated": false,
+   "x": 311,
+   "y": 115,
+   "w": 63,
+   "h": 21,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "mean",
+   "size": 20,
+   "rotated": false,
+   "x": 594,
+   "y": 296,
+   "w": 69,
+   "h": 17,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "beauty",
+   "size": 20,
+   "rotated": false,
+   "x": 576,
+   "y": 180,
+   "w": 85,
+   "h": 25,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "immoral",
+   "size": 20,
+   "rotated": true,
+   "x": 579,
+   "y": 48,
+   "w": 21,
+   "h": 100,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "book",
+   "size": 20,
+   "rotated": false,
+   "x": 857,
+   "y": 625,
+   "w": 62,
+   "h": 21,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "books",
+   "size": 20,
+   "rotated": false,
+   "x": 203,
+   "y": 409,
+   "w": 73,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "well",
+   "size": 20,
+   "rotated": false,
+   "x": 627,
+   "y": 754,
+   "w": 52,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "badly",
+   "size": 20,
+   "rotated": true,
+   "x": 426,
+   "y": 307,
+   "w": 25,
+   "h": 68,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "realism",
+   "size": 20,
+   "rotated": false,
+   "x": 795,
+   "y": 691,
+   "w": 91,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "romanticism",
+   "size": 20,
+   "rotated": false,
+   "x": 364,
+   "y": 647,
+   "w": 148,
+   "h": 21,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "forms",
+   "size": 20,
+   "rotated": false,
+   "x": 367,
+   "y": 615,
+   "w": 72,
+   "h": 21,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "part",
+   "size": 20,
+   "rotated": false,
+   "x": 476,
+   "y": 123,
+   "w": 54,
+   "h": 24,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "subject-matter",
+   "size": 20,
+   "rotated": false,
+   "x": 1028,
+   "y": 593,
+   "w": 176,
+   "h": 25,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "morality",
+   "size": 20,
+   "rotated": false,
+   "x": 1089,
+   "y": 614,
+   "w": 102,
+   "h": 25,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "consists",
+   "size": 20,
+   "rotated": false,
+   "x": 211,
+   "y": 117,
+   "w": 99,
+   "h": 21,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "perfect",
+   "size": 20,
+   "rotated": false,
+   "x": 224,
+   "y": 538,
+   "w": 89,
+   "h": 25,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "use",
+   "size": 20,
+   "rotated": true,
+   "x": 849,
+   "y": 465,
+   "w": 17,
+   "h": 46,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "imperfect",
+   "size": 20,
+   "rotated": true,
+   "x": 165,
+   "y": 255,
+   "w": 25,
+   "h": 117,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "medium",
+   "size": 20,
+   "rotated": true,
+   "x": 768,
+   "y": 693,
+   "w": 21,
+   "h": 97,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "desires",
+   "size": 20,
+   "rotated": false,
+   "x": 205,
+   "y": 563,
+   "w": 89,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "prove",
+   "size": 20,
+   "rotated": true,
+   "x": 676,
+   "y": 45,
+   "w": 21,
+   "h": 71,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "anything",
+   "size": 20,
+   "rotated": false,
+   "x": 469,
+   "y": 738,
+   "w": 106,
+   "h": 25,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "even",
+   "size": 20,
+   "rotated": false,
+   "x": 396,
+   "y": 527,
+   "w": 61,
+   "h": 17,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "true",
+   "size": 20,
+   "rotated": true,
+   "x": 550,
+   "y": 671,
+   "w": 20,
+   "h": 54,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "proved",
+   "size": 20,
+   "rotated": false,
+   "x": 425,
+   "y": 674,
+   "w": 85,
+   "h": 25,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "sympathies",
+   "size": 20,
+   "rotated": false,
+   "x": 371,
+   "y": 698,
+   "w": 137,
+   "h": 25,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "sympathy",
+   "size": 20,
+   "rotated": false,
+   "x": 298,
+   "y": 675,
+   "w": 117,
+   "h": 25,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "unpardonable",
+   "size": 20,
+   "rotated": false,
+   "x": 197,
+   "y": 639,
+   "w": 163,
+   "h": 25,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "mannerism",
+   "size": 20,
+   "rotated": false,
+   "x": 91,
+   "y": 449,
+   "w": 133,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "style",
+   "size": 20,
+   "rotated": false,
+   "x": 401,
+   "y": 729,
+   "w": 62,
+   "h": 25,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "ever",
+   "size": 20,
+   "rotated": false,
+   "x": 944,
+   "y": 344,
+   "w": 57,
+   "h": 17,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "morbid",
+   "size": 20,
+   "rotated": false,
+   "x": 795,
+   "y": 712,
+   "w": 86,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "express",
+   "size": 20,
+   "rotated": false,
+   "x": 935,
+   "y": 622,
+   "w": 95,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "everything",
+   "size": 20,
+   "rotated": false,
+   "x": 446,
+   "y": 764,
+   "w": 129,
+   "h": 25,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "thought",
+   "size": 20,
+   "rotated": true,
+   "x": 531,
+   "y": 44,
+   "w": 25,
+   "h": 96,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "language",
+   "size": 20,
+   "rotated": false,
+   "x": 262,
+   "y": 90,
+   "w": 111,
+   "h": 25,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "instruments",
+   "size": 20,
+   "rotated": false,
+   "x": 80,
+   "y": 536,
+   "w": 144,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "vice",
+   "size": 20,
+   "rotated": false,
+   "x": 743,
+   "y": 454,
+   "w": 52,
+   "h": 21,
+   "colour": "#8a2a45"
+  },
+  {
+   "word": "virtue",
+   "size": 20,
+   "rotated": true,
+   "x": 396,
+   "y": 298,
+   "w": 21,
+   "h": 74,
+   "colour": "#1e1e1e"
+  },
+  {
+   "word": "materials",
+   "size": 20,
+   "rotated": false,
+   "x": 964,
+   "y": 160,
+   "w": 115,
+   "h": 21,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "arts",
+   "size": 20,
+   "rotated": false,
+   "x": 916,
+   "y": 292,
+   "w": 52,
+   "h": 20,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "musician",
+   "size": 20,
+   "rotated": false,
+   "x": 798,
+   "y": 734,
+   "w": 107,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "feeling",
+   "size": 20,
+   "rotated": false,
+   "x": 642,
+   "y": 777,
+   "w": 85,
+   "h": 25,
+   "colour": "#3b2d5c"
+  },
+  {
+   "word": "actor\u2019s",
+   "size": 20,
+   "rotated": false,
+   "x": 799,
+   "y": 756,
+   "w": 86,
+   "h": 21,
+   "colour": "#a8742e"
+  },
+  {
+   "word": "craft",
+   "size": 20,
+   "rotated": false,
+   "x": 949,
+   "y": 639,
+   "w": 61,
+   "h": 21,
+   "colour": "#2a6b6e"
+  },
+  {
+   "word": "go",
+   "size": 20,
+   "rotated": false,
+   "x": 490,
+   "y": 355,
+   "w": 34,
+   "h": 21,
+   "colour": "#a8742e"
+  }
+ ]
+}

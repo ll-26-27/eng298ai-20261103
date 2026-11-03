@@ -1,0 +1,1628 @@
+{
+ "source": "../../simulation/outputs/runs/20261103T160946Z-cab251/conversation.json",
+ "cut": {
+  "from": null,
+  "to": null,
+  "json_path": "turns.utterance"
+ },
+ "options": {
+  "stop_words_removed": true,
+  "lowercased": true,
+  "numbers_removed": true,
+  "min_count": 1
+ },
+ "tokens_total": 1970,
+ "tokens_after_stop_words": 1076,
+ "distinct_words": 402,
+ "weight_formula": "weight = word count (Feinberg 2010, p. 49)",
+ "words": [
+  {
+   "word": "contributor",
+   "count": 25
+  },
+  {
+   "word": "kiosk",
+   "count": 21
+  },
+  {
+   "word": "mara",
+   "count": 20
+  },
+  {
+   "word": "event",
+   "count": 20
+  },
+  {
+   "word": "theo",
+   "count": 19
+  },
+  {
+   "word": "listening",
+   "count": 17
+  },
+  {
+   "word": "hours",
+   "count": 16
+  },
+  {
+   "word": "excerpts",
+   "count": 15
+  },
+  {
+   "word": "contributors",
+   "count": 15
+  },
+  {
+   "word": "list",
+   "count": 14
+  },
+  {
+   "word": "jonas",
+   "count": 14
+  },
+  {
+   "word": "estimate",
+   "count": 13
+  },
+  {
+   "word": "build",
+   "count": 12
+  },
+  {
+   "word": "review",
+   "count": 12
+  },
+  {
+   "word": "context",
+   "count": 11
+  },
+  {
+   "word": "leila",
+   "count": 11
+  },
+  {
+   "word": "twelve",
+   "count": 10
+  },
+  {
+   "word": "labeled",
+   "count": 10
+  },
+  {
+   "word": "payment",
+   "count": 10
+  },
+  {
+   "word": "excerpt",
+   "count": 9
+  },
+  {
+   "word": "voice",
+   "count": 9
+  },
+  {
+   "word": "still",
+   "count": 9
+  },
+  {
+   "word": "can't",
+   "count": 8
+  },
+  {
+   "word": "withdrawal",
+   "count": 8
+  },
+  {
+   "word": "time",
+   "count": 8
+  },
+  {
+   "word": "yes",
+   "count": 8
+  },
+  {
+   "word": "contact",
+   "count": 8
+  },
+  {
+   "word": "approved",
+   "count": 7
+  },
+  {
+   "word": "whether",
+   "count": 7
+  },
+  {
+   "word": "consent",
+   "count": 7
+  },
+  {
+   "word": "without",
+   "count": 7
+  },
+  {
+   "word": "person",
+   "count": 6
+  },
+  {
+   "word": "work",
+   "count": 6
+  },
+  {
+   "word": "credits",
+   "count": 6
+  },
+  {
+   "word": "nothing",
+   "count": 6
+  },
+  {
+   "word": "built",
+   "count": 6
+  },
+  {
+   "word": "tested",
+   "count": 6
+  },
+  {
+   "word": "undecided",
+   "count": 6
+  },
+  {
+   "word": "number",
+   "count": 6
+  },
+  {
+   "word": "backup",
+   "count": 6
+  },
+  {
+   "word": "enough",
+   "count": 6
+  },
+  {
+   "word": "estimates",
+   "count": 6
+  },
+  {
+   "word": "setting",
+   "count": 6
+  },
+  {
+   "word": "first",
+   "count": 5
+  },
+  {
+   "word": "yet",
+   "count": 5
+  },
+  {
+   "word": "answers",
+   "count": 5
+  },
+  {
+   "word": "accept",
+   "count": 5
+  },
+  {
+   "word": "request",
+   "count": 5
+  },
+  {
+   "word": "leila's",
+   "count": 5
+  },
+  {
+   "word": "open",
+   "count": 5
+  },
+  {
+   "word": "pause",
+   "count": 5
+  },
+  {
+   "word": "away",
+   "count": 5
+  },
+  {
+   "word": "every",
+   "count": 4
+  },
+  {
+   "word": "approve",
+   "count": 4
+  },
+  {
+   "word": "offer",
+   "count": 4
+  },
+  {
+   "word": "failure",
+   "count": 4
+  },
+  {
+   "word": "withdrawn",
+   "count": 4
+  },
+  {
+   "word": "confirm",
+   "count": 4
+  },
+  {
+   "word": "needs",
+   "count": 4
+  },
+  {
+   "word": "least",
+   "count": 4
+  },
+  {
+   "word": "anyone",
+   "count": 4
+  },
+  {
+   "word": "named",
+   "count": 4
+  },
+  {
+   "word": "objections",
+   "count": 4
+  },
+  {
+   "word": "jonas's",
+   "count": 4
+  },
+  {
+   "word": "phase",
+   "count": 4
+  },
+  {
+   "word": "approval",
+   "count": 4
+  },
+  {
+   "word": "question",
+   "count": 4
+  },
+  {
+   "word": "removal",
+   "count": 4
+  },
+  {
+   "word": "edit",
+   "count": 4
+  },
+  {
+   "word": "works",
+   "count": 4
+  },
+  {
+   "word": "invent",
+   "count": 4
+  },
+  {
+   "word": "amount",
+   "count": 4
+  },
+  {
+   "word": "use",
+   "count": 4
+  },
+  {
+   "word": "please",
+   "count": 4
+  },
+  {
+   "word": "people",
+   "count": 4
+  },
+  {
+   "word": "search",
+   "count": 4
+  },
+  {
+   "word": "proposal",
+   "count": 3
+  },
+  {
+   "word": "permission",
+   "count": 3
+  },
+  {
+   "word": "contributor's",
+   "count": 3
+  },
+  {
+   "word": "ask",
+   "count": 3
+  },
+  {
+   "word": "someone",
+   "count": 3
+  },
+  {
+   "word": "design",
+   "count": 3
+  },
+  {
+   "word": "drop",
+   "count": 3
+  },
+  {
+   "word": "now",
+   "count": 3
+  },
+  {
+   "word": "keyword",
+   "count": 3
+  },
+  {
+   "word": "passage",
+   "count": 3
+  },
+  {
+   "word": "choose",
+   "count": 3
+  },
+  {
+   "word": "box",
+   "count": 3
+  },
+  {
+   "word": "split",
+   "count": 3
+  },
+  {
+   "word": "say",
+   "count": 3
+  },
+  {
+   "word": "take",
+   "count": 3
+  },
+  {
+   "word": "many",
+   "count": 3
+  },
+  {
+   "word": "turnaround",
+   "count": 3
+  },
+  {
+   "word": "week",
+   "count": 3
+  },
+  {
+   "word": "decide",
+   "count": 3
+  },
+  {
+   "word": "log",
+   "count": 3
+  },
+  {
+   "word": "approvals",
+   "count": 3
+  },
+  {
+   "word": "switch",
+   "count": 3
+  },
+  {
+   "word": "waiting",
+   "count": 3
+  },
+  {
+   "word": "write",
+   "count": 3
+  },
+  {
+   "word": "offered",
+   "count": 3
+  },
+  {
+   "word": "confirms",
+   "count": 3
+  },
+  {
+   "word": "funds",
+   "count": 3
+  },
+  {
+   "word": "withdraw",
+   "count": 3
+  },
+  {
+   "word": "conditional",
+   "count": 3
+  },
+  {
+   "word": "goes",
+   "count": 3
+  },
+  {
+   "word": "exact",
+   "count": 3
+  },
+  {
+   "word": "direct",
+   "count": 3
+  },
+  {
+   "word": "fallback",
+   "count": 3
+  },
+  {
+   "word": "room-time",
+   "count": 3
+  },
+  {
+   "word": "send",
+   "count": 3
+  },
+  {
+   "word": "roughly",
+   "count": 3
+  },
+  {
+   "word": "two",
+   "count": 3
+  },
+  {
+   "word": "template",
+   "count": 3
+  },
+  {
+   "word": "total",
+   "count": 3
+  },
+  {
+   "word": "five",
+   "count": 3
+  },
+  {
+   "word": "printed",
+   "count": 3
+  },
+  {
+   "word": "threshold",
+   "count": 3
+  },
+  {
+   "word": "archive",
+   "count": 2
+  },
+  {
+   "word": "give",
+   "count": 2
+  },
+  {
+   "word": "anything",
+   "count": 2
+  },
+  {
+   "word": "contributor-approved",
+   "count": 2
+  },
+  {
+   "word": "attributed",
+   "count": 2
+  },
+  {
+   "word": "interface",
+   "count": 2
+  },
+  {
+   "word": "first-person",
+   "count": 2
+  },
+  {
+   "word": "retrieval-only",
+   "count": 2
+  },
+  {
+   "word": "picks",
+   "count": 2
+  },
+  {
+   "word": "topic",
+   "count": 2
+  },
+  {
+   "word": "shows",
+   "count": 2
+  },
+  {
+   "word": "name",
+   "count": 2
+  },
+  {
+   "word": "wording",
+   "count": 2
+  },
+  {
+   "word": "reads",
+   "count": 2
+  },
+  {
+   "word": "differently",
+   "count": 2
+  },
+  {
+   "word": "comes",
+   "count": 2
+  },
+  {
+   "word": "right",
+   "count": 2
+  },
+  {
+   "word": "want",
+   "count": 2
+  },
+  {
+   "word": "veto",
+   "count": 2
+  },
+  {
+   "word": "room",
+   "count": 2
+  },
+  {
+   "word": "real",
+   "count": 2
+  },
+  {
+   "word": "next",
+   "count": 2
+  },
+  {
+   "word": "facilitated",
+   "count": 2
+  },
+  {
+   "word": "answering",
+   "count": 2
+  },
+  {
+   "word": "gets",
+   "count": 2
+  },
+  {
+   "word": "outreach",
+   "count": 2
+  },
+  {
+   "word": "retrieval",
+   "count": 2
+  },
+  {
+   "word": "labor",
+   "count": 2
+  },
+  {
+   "word": "free",
+   "count": 2
+  },
+  {
+   "word": "side",
+   "count": 2
+  },
+  {
+   "word": "logging",
+   "count": 2
+  },
+  {
+   "word": "pulling",
+   "count": 2
+  },
+  {
+   "word": "per",
+   "count": 2
+  },
+  {
+   "word": "default",
+   "count": 2
+  },
+  {
+   "word": "record",
+   "count": 2
+  },
+  {
+   "word": "authority",
+   "count": 2
+  },
+  {
+   "word": "remove",
+   "count": 2
+  },
+  {
+   "word": "something",
+   "count": 2
+  },
+  {
+   "word": "day",
+   "count": 2
+  },
+  {
+   "word": "approved-excerpts",
+   "count": 2
+  },
+  {
+   "word": "single",
+   "count": 2
+  },
+  {
+   "word": "authorizes",
+   "count": 2
+  },
+  {
+   "word": "since",
+   "count": 2
+  },
+  {
+   "word": "mode",
+   "count": 2
+  },
+  {
+   "word": "logs",
+   "count": 2
+  },
+  {
+   "word": "objection",
+   "count": 2
+  },
+  {
+   "word": "possible",
+   "count": 2
+  },
+  {
+   "word": "group",
+   "count": 2
+  },
+  {
+   "word": "agreement",
+   "count": 2
+  },
+  {
+   "word": "hour",
+   "count": 2
+  },
+  {
+   "word": "price",
+   "count": 2
+  },
+  {
+   "word": "things",
+   "count": 2
+  },
+  {
+   "word": "refuses",
+   "count": 2
+  },
+  {
+   "word": "steps",
+   "count": 2
+  },
+  {
+   "word": "paused",
+   "count": 2
+  },
+  {
+   "word": "unplug",
+   "count": 2
+  },
+  {
+   "word": "framing",
+   "count": 2
+  },
+  {
+   "word": "sign-off",
+   "count": 2
+  },
+  {
+   "word": "line",
+   "count": 2
+  },
+  {
+   "word": "context-review",
+   "count": 2
+  },
+  {
+   "word": "us",
+   "count": 2
+  },
+  {
+   "word": "scope",
+   "count": 2
+  },
+  {
+   "word": "extra",
+   "count": 2
+  },
+  {
+   "word": "staff",
+   "count": 2
+  },
+  {
+   "word": "pay",
+   "count": 2
+  },
+  {
+   "word": "come",
+   "count": 2
+  },
+  {
+   "word": "figure",
+   "count": 2
+  },
+  {
+   "word": "ordering",
+   "count": 2
+  },
+  {
+   "word": "stay",
+   "count": 2
+  },
+  {
+   "word": "hold",
+   "count": 2
+  },
+  {
+   "word": "cheaper",
+   "count": 2
+  },
+  {
+   "word": "easier",
+   "count": 2
+  },
+  {
+   "word": "set",
+   "count": 2
+  },
+  {
+   "word": "start",
+   "count": 1
+  },
+  {
+   "word": "concern",
+   "count": 1
+  },
+  {
+   "word": "exists",
+   "count": 1
+  },
+  {
+   "word": "interviews",
+   "count": 1
+  },
+  {
+   "word": "publicly",
+   "count": 1
+  },
+  {
+   "word": "ai",
+   "count": 1
+  },
+  {
+   "word": "speak",
+   "count": 1
+  },
+  {
+   "word": "corrects",
+   "count": 1
+  },
+  {
+   "word": "misstates",
+   "count": 1
+  },
+  {
+   "word": "objects",
+   "count": 1
+  },
+  {
+   "word": "support",
+   "count": 1
+  },
+  {
+   "word": "searchable",
+   "count": 1
+  },
+  {
+   "word": "exhibit",
+   "count": 1
+  },
+  {
+   "word": "linked",
+   "count": 1
+  },
+  {
+   "word": "full",
+   "count": 1
+  },
+  {
+   "word": "label",
+   "count": 1
+  },
+  {
+   "word": "consent-gathering",
+   "count": 1
+  },
+  {
+   "word": "spend",
+   "count": 1
+  },
+  {
+   "word": "constraint",
+   "count": 1
+  },
+  {
+   "word": "free-form",
+   "count": 1
+  },
+  {
+   "word": "chatbot",
+   "count": 1
+  },
+  {
+   "word": "actually",
+   "count": 1
+  },
+  {
+   "word": "visitor",
+   "count": 1
+  },
+  {
+   "word": "types",
+   "count": 1
+  },
+  {
+   "word": "date",
+   "count": 1
+  },
+  {
+   "word": "link",
+   "count": 1
+  },
+  {
+   "word": "modes",
+   "count": 1
+  },
+  {
+   "word": "misses",
+   "count": 1
+  },
+  {
+   "word": "relevant",
+   "count": 1
+  },
+  {
+   "word": "differs",
+   "count": 1
+  },
+  {
+   "word": "surfaces",
+   "count": 1
+  },
+  {
+   "word": "maintenance",
+   "count": 1
+  },
+  {
+   "word": "means",
+   "count": 1
+  },
+  {
+   "word": "updates",
+   "count": 1
+  },
+  {
+   "word": "removes",
+   "count": 1
+  },
+  {
+   "word": "schedule",
+   "count": 1
+  },
+  {
+   "word": "step",
+   "count": 1
+  },
+  {
+   "word": "direction",
+   "count": 1
+  },
+  {
+   "word": "detail",
+   "count": 1
+  },
+  {
+   "word": "library",
+   "count": 1
+  },
+  {
+   "word": "passages",
+   "count": 1
+  },
+  {
+   "word": "surrounding",
+   "count": 1
+  },
+  {
+   "word": "shown",
+   "count": 1
+  },
+  {
+   "word": "just",
+   "count": 1
+  },
+  {
+   "word": "tick",
+   "count": 1
+  },
+  {
+   "word": "read",
+   "count": 1
+  },
+  {
+   "word": "around",
+   "count": 1
+  },
+  {
+   "word": "gone",
+   "count": 1
+  },
+  {
+   "word": "paid",
+   "count": 1
+  },
+  {
+   "word": "reuse",
+   "count": 1
+  },
+  {
+   "word": "quick",
+   "count": 1
+  },
+  {
+   "word": "update",
+   "count": 1
+  },
+  {
+   "word": "include",
+   "count": 1
+  },
+  {
+   "word": "handles",
+   "count": 1
+  },
+  {
+   "word": "suit",
+   "count": 1
+  },
+  {
+   "word": "better",
+   "count": 1
+  },
+  {
+   "word": "three",
+   "count": 1
+  },
+  {
+   "word": "prices",
+   "count": 1
+  },
+  {
+   "word": "plan",
+   "count": 1
+  },
+  {
+   "word": "contributor-chosen",
+   "count": 1
+  },
+  {
+   "word": "either",
+   "count": 1
+  },
+  {
+   "word": "depending",
+   "count": 1
+  },
+  {
+   "word": "unpaid",
+   "count": 1
+  },
+  {
+   "word": "handle",
+   "count": 1
+  },
+  {
+   "word": "limits",
+   "count": 1
+  },
+  {
+   "word": "excerpt's",
+   "count": 1
+  },
+  {
+   "word": "recording",
+   "count": 1
+  },
+  {
+   "word": "corrections",
+   "count": 1
+  },
+  {
+   "word": "see",
+   "count": 1
+  },
+  {
+   "word": "contacting",
+   "count": 1
+  },
+  {
+   "word": "promise",
+   "count": 1
+  },
+  {
+   "word": "today",
+   "count": 1
+  },
+  {
+   "word": "alone",
+   "count": 1
+  },
+  {
+   "word": "chooses",
+   "count": 1
+  },
+  {
+   "word": "tell",
+   "count": 1
+  },
+  {
+   "word": "answer",
+   "count": 1
+  },
+  {
+   "word": "same-day",
+   "count": 1
+  },
+  {
+   "word": "removing",
+   "count": 1
+  },
+  {
+   "word": "item",
+   "count": 1
+  },
+  {
+   "word": "quickly",
+   "count": 1
+  },
+  {
+   "word": "tells",
+   "count": 1
+  },
+  {
+   "word": "propose",
+   "count": 1
+  },
+  {
+   "word": "act",
+   "count": 1
+  },
+  {
+   "word": "instruction",
+   "count": 1
+  },
+  {
+   "word": "agreed",
+   "count": 1
+  },
+  {
+   "word": "unavailable",
+   "count": 1
+  },
+  {
+   "word": "stays",
+   "count": 1
+  },
+  {
+   "word": "need",
+   "count": 1
+  },
+  {
+   "word": "addition",
+   "count": 1
+  },
+  {
+   "word": "acts",
+   "count": 1
+  },
+  {
+   "word": "weighing",
+   "count": 1
+  },
+  {
+   "word": "reasonable",
+   "count": 1
+  },
+  {
+   "word": "able",
+   "count": 1
+  },
+  {
+   "word": "fixed",
+   "count": 1
+  },
+  {
+   "word": "giving",
+   "count": 1
+  },
+  {
+   "word": "cost",
+   "count": 1
+  },
+  {
+   "word": "like",
+   "count": 1
+  },
+  {
+   "word": "alternative",
+   "count": 1
+  },
+  {
+   "word": "role",
+   "count": 1
+  },
+  {
+   "word": "tentative",
+   "count": 1
+  },
+  {
+   "word": "technically",
+   "count": 1
+  },
+  {
+   "word": "commitment",
+   "count": 1
+  },
+  {
+   "word": "rule",
+   "count": 1
+  },
+  {
+   "word": "working",
+   "count": 1
+  },
+  {
+   "word": "settle",
+   "count": 1
+  },
+  {
+   "word": "including",
+   "count": 1
+  },
+  {
+   "word": "new",
+   "count": 1
+  },
+  {
+   "word": "changes",
+   "count": 1
+  },
+  {
+   "word": "consider",
+   "count": 1
+  },
+  {
+   "word": "later",
+   "count": 1
+  },
+  {
+   "word": "fits",
+   "count": 1
+  },
+  {
+   "word": "rules",
+   "count": 1
+  },
+  {
+   "word": "concrete",
+   "count": 1
+  },
+  {
+   "word": "ever",
+   "count": 1
+  },
+  {
+   "word": "made",
+   "count": 1
+  },
+  {
+   "word": "interview",
+   "count": 1
+  },
+  {
+   "word": "even",
+   "count": 1
+  },
+  {
+   "word": "safely",
+   "count": 1
+  },
+  {
+   "word": "anyway",
+   "count": 1
+  },
+  {
+   "word": "theo's",
+   "count": 1
+  },
+  {
+   "word": "off-switch",
+   "count": 1
+  },
+  {
+   "word": "make",
+   "count": 1
+  },
+  {
+   "word": "plain",
+   "count": 1
+  },
+  {
+   "word": "notice",
+   "count": 1
+  },
+  {
+   "word": "returns",
+   "count": 1
+  },
+  {
+   "word": "flip",
+   "count": 1
+  },
+  {
+   "word": "editing",
+   "count": 1
+  },
+  {
+   "word": "intention",
+   "count": 1
+  },
+  {
+   "word": "breaks",
+   "count": 1
+  },
+  {
+   "word": "sees",
+   "count": 1
+  },
+  {
+   "word": "sign",
+   "count": 1
+  },
+  {
+   "word": "signs",
+   "count": 1
+  },
+  {
+   "word": "records",
+   "count": 1
+  },
+  {
+   "word": "prepare",
+   "count": 1
+  },
+  {
+   "word": "seen",
+   "count": 1
+  },
+  {
+   "word": "text",
+   "count": 1
+  },
+  {
+   "word": "appear",
+   "count": 1
+  },
+  {
+   "word": "change",
+   "count": 1
+  },
+  {
+   "word": "fresh",
+   "count": 1
+  },
+  {
+   "word": "agree",
+   "count": 1
+  },
+  {
+   "word": "unanswered",
+   "count": 1
+  },
+  {
+   "word": "treat",
+   "count": 1
+  },
+  {
+   "word": "state",
+   "count": 1
+  },
+  {
+   "word": "fine",
+   "count": 1
+  },
+  {
+   "word": "placement",
+   "count": 1
+  },
+  {
+   "word": "turn",
+   "count": 1
+  },
+  {
+   "word": "thanks",
+   "count": 1
+  },
+  {
+   "word": "measured",
+   "count": 1
+  },
+  {
+   "word": "prep",
+   "count": 1
+  },
+  {
+   "word": "refine",
+   "count": 1
+  },
+  {
+   "word": "contacts",
+   "count": 1
+  },
+  {
+   "word": "correction",
+   "count": 1
+  },
+  {
+   "word": "plus",
+   "count": 1
+  },
+  {
+   "word": "testing",
+   "count": 1
+  },
+  {
+   "word": "upkeep",
+   "count": 1
+  },
+  {
+   "word": "opening",
+   "count": 1
+  },
+  {
+   "word": "wait",
+   "count": 1
+  },
+  {
+   "word": "second",
+   "count": 1
+  },
+  {
+   "word": "promises",
+   "count": 1
+  },
+  {
+   "word": "budget",
+   "count": 1
+  },
+  {
+   "word": "cut",
+   "count": 1
+  },
+  {
+   "word": "cutting",
+   "count": 1
+  },
+  {
+   "word": "go",
+   "count": 1
+  },
+  {
+   "word": "ahead",
+   "count": 1
+  },
+  {
+   "word": "empty",
+   "count": 1
+  },
+  {
+   "word": "alongside",
+   "count": 1
+  },
+  {
+   "word": "lines",
+   "count": 1
+  },
+  {
+   "word": "thank",
+   "count": 1
+  },
+  {
+   "word": "naming",
+   "count": 1
+  },
+  {
+   "word": "put",
+   "count": 1
+  },
+  {
+   "word": "keep",
+   "count": 1
+  },
+  {
+   "word": "visible",
+   "count": 1
+  },
+  {
+   "word": "know",
+   "count": 1
+  },
+  {
+   "word": "reach",
+   "count": 1
+  },
+  {
+   "word": "minimum",
+   "count": 1
+  },
+  {
+   "word": "makes",
+   "count": 1
+  },
+  {
+   "word": "worth",
+   "count": 1
+  },
+  {
+   "word": "building",
+   "count": 1
+  },
+  {
+   "word": "judgment",
+   "count": 1
+  },
+  {
+   "word": "feel",
+   "count": 1
+  },
+  {
+   "word": "useful",
+   "count": 1
+  },
+  {
+   "word": "return",
+   "count": 1
+  },
+  {
+   "word": "zero",
+   "count": 1
+  },
+  {
+   "word": "results",
+   "count": 1
+  },
+  {
+   "word": "on-screen",
+   "count": 1
+  },
+  {
+   "word": "simpler",
+   "count": 1
+  },
+  {
+   "word": "thin",
+   "count": 1
+  },
+  {
+   "word": "decline",
+   "count": 1
+  },
+  {
+   "word": "fit",
+   "count": 1
+  },
+  {
+   "word": "spending",
+   "count": 1
+  },
+  {
+   "word": "fair",
+   "count": 1
+  },
+  {
+   "word": "starting",
+   "count": 1
+  },
+  {
+   "word": "point",
+   "count": 1
+  },
+  {
+   "word": "approves",
+   "count": 1
+  },
+  {
+   "word": "nudge",
+   "count": 1
+  },
+  {
+   "word": "upward",
+   "count": 1
+  },
+  {
+   "word": "fill",
+   "count": 1
+  },
+  {
+   "word": "instead",
+   "count": 1
+  },
+  {
+   "word": "keeps",
+   "count": 1
+  },
+  {
+   "word": "safe",
+   "count": 1
+  },
+  {
+   "word": "within",
+   "count": 1
+  },
+  {
+   "word": "coming",
+   "count": 1
+  },
+  {
+   "word": "position",
+   "count": 1
+  },
+  {
+   "word": "skip",
+   "count": 1
+  },
+  {
+   "word": "nobody",
+   "count": 1
+  },
+  {
+   "word": "nudges",
+   "count": 1
+  },
+  {
+   "word": "met",
+   "count": 1
+  },
+  {
+   "word": "arrives",
+   "count": 1
+  },
+  {
+   "word": "get",
+   "count": 1
+  },
+  {
+   "word": "rather",
+   "count": 1
+  },
+  {
+   "word": "postpone",
+   "count": 1
+  }
+ ]
+}

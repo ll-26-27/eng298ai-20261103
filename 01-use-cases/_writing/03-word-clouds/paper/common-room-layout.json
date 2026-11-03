@@ -1,0 +1,1024 @@
+{
+ "source_counts": "paper/common-room-counts.json",
+ "font": "/Users/madeleinewoods/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
+ "seed": 1103,
+ "layout": "mostly-horizontal",
+ "placement": "centre-line",
+ "palette": [
+  "#243d33",
+  "#5c665f",
+  "#aa7119",
+  "#244d42",
+  "#8b3a3a"
+ ],
+ "field": [
+  1669,
+  1043
+ ],
+ "image": [
+  1715,
+  1298
+ ],
+ "words": [
+  {
+   "word": "contributor",
+   "size": 200,
+   "rotated": false,
+   "x": 56,
+   "y": 561,
+   "w": 1285,
+   "h": 161,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "kiosk",
+   "size": 167,
+   "rotated": false,
+   "x": 909,
+   "y": 806,
+   "w": 503,
+   "h": 135,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "mara",
+   "size": 158,
+   "rotated": false,
+   "x": 472,
+   "y": 796,
+   "w": 463,
+   "h": 96,
+   "colour": "#244d42"
+  },
+  {
+   "word": "event",
+   "size": 158,
+   "rotated": false,
+   "x": 779,
+   "y": 453,
+   "w": 511,
+   "h": 119,
+   "colour": "#244d42"
+  },
+  {
+   "word": "theo",
+   "size": 150,
+   "rotated": false,
+   "x": 553,
+   "y": 902,
+   "w": 390,
+   "h": 122,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "listening",
+   "size": 133,
+   "rotated": true,
+   "x": 1413,
+   "y": 228,
+   "w": 136,
+   "h": 662,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "hours",
+   "size": 125,
+   "rotated": false,
+   "x": 377,
+   "y": 456,
+   "w": 406,
+   "h": 103,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "excerpts",
+   "size": 116,
+   "rotated": true,
+   "x": 253,
+   "y": 40,
+   "w": 111,
+   "h": 572,
+   "colour": "#244d42"
+  },
+  {
+   "word": "contributors",
+   "size": 116,
+   "rotated": false,
+   "x": 599,
+   "y": 354,
+   "w": 817,
+   "h": 96,
+   "colour": "#243d33"
+  },
+  {
+   "word": "list",
+   "size": 108,
+   "rotated": false,
+   "x": 1178,
+   "y": 282,
+   "w": 196,
+   "h": 90,
+   "colour": "#244d42"
+  },
+  {
+   "word": "jonas",
+   "size": 108,
+   "rotated": false,
+   "x": 432,
+   "y": 707,
+   "w": 335,
+   "h": 111,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "estimate",
+   "size": 100,
+   "rotated": false,
+   "x": 920,
+   "y": 717,
+   "w": 503,
+   "h": 83,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "build",
+   "size": 91,
+   "rotated": true,
+   "x": 1599,
+   "y": 336,
+   "w": 76,
+   "h": 263,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "review",
+   "size": 91,
+   "rotated": false,
+   "x": 730,
+   "y": 1182,
+   "w": 349,
+   "h": 76,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "context",
+   "size": 83,
+   "rotated": false,
+   "x": 189,
+   "y": 898,
+   "w": 361,
+   "h": 65,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "leila",
+   "size": 83,
+   "rotated": false,
+   "x": 632,
+   "y": 1060,
+   "w": 202,
+   "h": 70,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "twelve",
+   "size": 75,
+   "rotated": false,
+   "x": 827,
+   "y": 1012,
+   "w": 288,
+   "h": 64,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "labeled",
+   "size": 75,
+   "rotated": false,
+   "x": 635,
+   "y": 297,
+   "w": 319,
+   "h": 64,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "payment",
+   "size": 75,
+   "rotated": false,
+   "x": 1257,
+   "y": 930,
+   "w": 378,
+   "h": 75,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "excerpt",
+   "size": 66,
+   "rotated": false,
+   "x": 583,
+   "y": 244,
+   "w": 290,
+   "h": 66,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "voice",
+   "size": 66,
+   "rotated": false,
+   "x": 983,
+   "y": 931,
+   "w": 201,
+   "h": 57,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "still",
+   "size": 66,
+   "rotated": false,
+   "x": 984,
+   "y": 297,
+   "w": 146,
+   "h": 57,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "can't",
+   "size": 58,
+   "rotated": false,
+   "x": 444,
+   "y": 428,
+   "w": 166,
+   "h": 49,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "withdrawal",
+   "size": 58,
+   "rotated": false,
+   "x": 615,
+   "y": 1132,
+   "w": 372,
+   "h": 51,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "time",
+   "size": 58,
+   "rotated": false,
+   "x": 767,
+   "y": 725,
+   "w": 153,
+   "h": 51,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "yes",
+   "size": 58,
+   "rotated": true,
+   "x": 1118,
+   "y": 986,
+   "w": 52,
+   "h": 118,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "contact",
+   "size": 58,
+   "rotated": false,
+   "x": 841,
+   "y": 1076,
+   "w": 250,
+   "h": 48,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "approved",
+   "size": 49,
+   "rotated": false,
+   "x": 1172,
+   "y": 996,
+   "w": 267,
+   "h": 53,
+   "colour": "#243d33"
+  },
+  {
+   "word": "whether",
+   "size": 49,
+   "rotated": true,
+   "x": 521,
+   "y": 963,
+   "w": 44,
+   "h": 235,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "consent",
+   "size": 49,
+   "rotated": false,
+   "x": 933,
+   "y": 255,
+   "w": 224,
+   "h": 41,
+   "colour": "#244d42"
+  },
+  {
+   "word": "without",
+   "size": 49,
+   "rotated": false,
+   "x": 1009,
+   "y": 1124,
+   "w": 218,
+   "h": 44,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "person",
+   "size": 41,
+   "rotated": true,
+   "x": 1231,
+   "y": 1046,
+   "w": 38,
+   "h": 164,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "work",
+   "size": 41,
+   "rotated": false,
+   "x": 729,
+   "y": 882,
+   "w": 121,
+   "h": 37,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "credits",
+   "size": 41,
+   "rotated": true,
+   "x": 576,
+   "y": 1033,
+   "w": 37,
+   "h": 165,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "nothing",
+   "size": 41,
+   "rotated": false,
+   "x": 263,
+   "y": 729,
+   "w": 184,
+   "h": 46,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "built",
+   "size": 41,
+   "rotated": false,
+   "x": 667,
+   "y": 1021,
+   "w": 112,
+   "h": 37,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "tested",
+   "size": 41,
+   "rotated": false,
+   "x": 1113,
+   "y": 803,
+   "w": 155,
+   "h": 37,
+   "colour": "#243d33"
+  },
+  {
+   "word": "undecided",
+   "size": 41,
+   "rotated": true,
+   "x": 349,
+   "y": 351,
+   "w": 37,
+   "h": 245,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "number",
+   "size": 41,
+   "rotated": false,
+   "x": 877,
+   "y": 218,
+   "w": 185,
+   "h": 37,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "backup",
+   "size": 41,
+   "rotated": false,
+   "x": 357,
+   "y": 991,
+   "w": 172,
+   "h": 46,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "enough",
+   "size": 41,
+   "rotated": false,
+   "x": 412,
+   "y": 387,
+   "w": 178,
+   "h": 46,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "estimates",
+   "size": 41,
+   "rotated": false,
+   "x": 251,
+   "y": 818,
+   "w": 235,
+   "h": 37,
+   "colour": "#244d42"
+  },
+  {
+   "word": "setting",
+   "size": 41,
+   "rotated": true,
+   "x": 510,
+   "y": 226,
+   "w": 46,
+   "h": 170,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "first",
+   "size": 33,
+   "rotated": false,
+   "x": 1085,
+   "y": 1167,
+   "w": 83,
+   "h": 31,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "yet",
+   "size": 33,
+   "rotated": true,
+   "x": 629,
+   "y": 662,
+   "w": 36,
+   "h": 66,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "answers",
+   "size": 33,
+   "rotated": false,
+   "x": 1272,
+   "y": 1041,
+   "w": 160,
+   "h": 24,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "accept",
+   "size": 33,
+   "rotated": true,
+   "x": 1290,
+   "y": 459,
+   "w": 36,
+   "h": 130,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "request",
+   "size": 33,
+   "rotated": false,
+   "x": 787,
+   "y": 572,
+   "w": 150,
+   "h": 36,
+   "colour": "#244d42"
+  },
+  {
+   "word": "leila's",
+   "size": 33,
+   "rotated": true,
+   "x": 1263,
+   "y": 1065,
+   "w": 31,
+   "h": 113,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "open",
+   "size": 33,
+   "rotated": false,
+   "x": 1009,
+   "y": 994,
+   "w": 99,
+   "h": 31,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "pause",
+   "size": 33,
+   "rotated": false,
+   "x": 533,
+   "y": 569,
+   "w": 118,
+   "h": 31,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "away",
+   "size": 33,
+   "rotated": false,
+   "x": 922,
+   "y": 448,
+   "w": 102,
+   "h": 31,
+   "colour": "#244d42"
+  },
+  {
+   "word": "every",
+   "size": 24,
+   "rotated": true,
+   "x": 391,
+   "y": 369,
+   "w": 24,
+   "h": 82,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "approve",
+   "size": 24,
+   "rotated": true,
+   "x": 708,
+   "y": 601,
+   "w": 24,
+   "h": 116,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "offer",
+   "size": 24,
+   "rotated": false,
+   "x": 1079,
+   "y": 580,
+   "w": 70,
+   "h": 24,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "failure",
+   "size": 24,
+   "rotated": false,
+   "x": 1147,
+   "y": 570,
+   "w": 93,
+   "h": 24,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "withdrawn",
+   "size": 24,
+   "rotated": true,
+   "x": 1303,
+   "y": 1070,
+   "w": 24,
+   "h": 148,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "confirm",
+   "size": 24,
+   "rotated": false,
+   "x": 647,
+   "y": 457,
+   "w": 108,
+   "h": 24,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "needs",
+   "size": 24,
+   "rotated": false,
+   "x": 1295,
+   "y": 694,
+   "w": 86,
+   "h": 24,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "least",
+   "size": 24,
+   "rotated": false,
+   "x": 935,
+   "y": 987,
+   "w": 71,
+   "h": 24,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "anyone",
+   "size": 24,
+   "rotated": false,
+   "x": 1026,
+   "y": 450,
+   "w": 104,
+   "h": 24,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "named",
+   "size": 24,
+   "rotated": false,
+   "x": 771,
+   "y": 452,
+   "w": 97,
+   "h": 24,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "objections",
+   "size": 24,
+   "rotated": false,
+   "x": 729,
+   "y": 218,
+   "w": 143,
+   "h": 29,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "jonas's",
+   "size": 24,
+   "rotated": false,
+   "x": 419,
+   "y": 1056,
+   "w": 99,
+   "h": 29,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "phase",
+   "size": 24,
+   "rotated": false,
+   "x": 444,
+   "y": 962,
+   "w": 86,
+   "h": 29,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "approval",
+   "size": 24,
+   "rotated": false,
+   "x": 358,
+   "y": 858,
+   "w": 124,
+   "h": 29,
+   "colour": "#244d42"
+  },
+  {
+   "word": "question",
+   "size": 24,
+   "rotated": true,
+   "x": 1324,
+   "y": 472,
+   "w": 29,
+   "h": 122,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "removal",
+   "size": 24,
+   "rotated": false,
+   "x": 312,
+   "y": 787,
+   "w": 115,
+   "h": 24,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "edit",
+   "size": 24,
+   "rotated": false,
+   "x": 967,
+   "y": 805,
+   "w": 58,
+   "h": 24,
+   "colour": "#243d33"
+  },
+  {
+   "word": "works",
+   "size": 24,
+   "rotated": false,
+   "x": 552,
+   "y": 348,
+   "w": 86,
+   "h": 24,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "invent",
+   "size": 24,
+   "rotated": false,
+   "x": 988,
+   "y": 1171,
+   "w": 91,
+   "h": 24,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "amount",
+   "size": 24,
+   "rotated": false,
+   "x": 1324,
+   "y": 645,
+   "w": 108,
+   "h": 23,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "use",
+   "size": 24,
+   "rotated": true,
+   "x": 926,
+   "y": 607,
+   "w": 19,
+   "h": 53,
+   "colour": "#244d42"
+  },
+  {
+   "word": "please",
+   "size": 24,
+   "rotated": true,
+   "x": 994,
+   "y": 637,
+   "w": 29,
+   "h": 93,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "people",
+   "size": 24,
+   "rotated": false,
+   "x": 396,
+   "y": 1029,
+   "w": 96,
+   "h": 29,
+   "colour": "#243d33"
+  },
+  {
+   "word": "search",
+   "size": 24,
+   "rotated": false,
+   "x": 1056,
+   "y": 349,
+   "w": 95,
+   "h": 24,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "proposal",
+   "size": 16,
+   "rotated": false,
+   "x": 1115,
+   "y": 1105,
+   "w": 84,
+   "h": 21,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "permission",
+   "size": 16,
+   "rotated": true,
+   "x": 1356,
+   "y": 543,
+   "w": 21,
+   "h": 105,
+   "colour": "#244d42"
+  },
+  {
+   "word": "contributor's",
+   "size": 16,
+   "rotated": false,
+   "x": 796,
+   "y": 777,
+   "w": 122,
+   "h": 18,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "ask",
+   "size": 16,
+   "rotated": false,
+   "x": 867,
+   "y": 453,
+   "w": 38,
+   "h": 18,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "someone",
+   "size": 16,
+   "rotated": false,
+   "x": 412,
+   "y": 891,
+   "w": 88,
+   "h": 15,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "design",
+   "size": 16,
+   "rotated": false,
+   "x": 401,
+   "y": 582,
+   "w": 65,
+   "h": 21,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "drop",
+   "size": 16,
+   "rotated": false,
+   "x": 519,
+   "y": 652,
+   "w": 47,
+   "h": 21,
+   "colour": "#243d33"
+  },
+  {
+   "word": "now",
+   "size": 16,
+   "rotated": false,
+   "x": 1335,
+   "y": 451,
+   "w": 43,
+   "h": 15,
+   "colour": "#243d33"
+  },
+  {
+   "word": "keyword",
+   "size": 16,
+   "rotated": false,
+   "x": 1390,
+   "y": 882,
+   "w": 83,
+   "h": 21,
+   "colour": "#aa7119"
+  },
+  {
+   "word": "passage",
+   "size": 16,
+   "rotated": false,
+   "x": 835,
+   "y": 1125,
+   "w": 81,
+   "h": 18,
+   "colour": "#243d33"
+  },
+  {
+   "word": "choose",
+   "size": 16,
+   "rotated": false,
+   "x": 1159,
+   "y": 1047,
+   "w": 69,
+   "h": 18,
+   "colour": "#244d42"
+  },
+  {
+   "word": "box",
+   "size": 16,
+   "rotated": true,
+   "x": 1080,
+   "y": 804,
+   "w": 18,
+   "h": 39,
+   "colour": "#244d42"
+  },
+  {
+   "word": "split",
+   "size": 16,
+   "rotated": false,
+   "x": 588,
+   "y": 890,
+   "w": 45,
+   "h": 21,
+   "colour": "#243d33"
+  },
+  {
+   "word": "say",
+   "size": 16,
+   "rotated": false,
+   "x": 881,
+   "y": 901,
+   "w": 38,
+   "h": 18,
+   "colour": "#8b3a3a"
+  },
+  {
+   "word": "take",
+   "size": 16,
+   "rotated": false,
+   "x": 969,
+   "y": 564,
+   "w": 47,
+   "h": 18,
+   "colour": "#243d33"
+  },
+  {
+   "word": "many",
+   "size": 16,
+   "rotated": false,
+   "x": 674,
+   "y": 908,
+   "w": 56,
+   "h": 18,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "turnaround",
+   "size": 16,
+   "rotated": false,
+   "x": 771,
+   "y": 1182,
+   "w": 107,
+   "h": 18,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "week",
+   "size": 16,
+   "rotated": false,
+   "x": 1055,
+   "y": 236,
+   "w": 54,
+   "h": 18,
+   "colour": "#244d42"
+  },
+  {
+   "word": "decide",
+   "size": 16,
+   "rotated": false,
+   "x": 321,
+   "y": 964,
+   "w": 64,
+   "h": 18,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "log",
+   "size": 16,
+   "rotated": false,
+   "x": 876,
+   "y": 293,
+   "w": 33,
+   "h": 21,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "approvals",
+   "size": 16,
+   "rotated": false,
+   "x": 1309,
+   "y": 669,
+   "w": 94,
+   "h": 21,
+   "colour": "#243d33"
+  },
+  {
+   "word": "switch",
+   "size": 16,
+   "rotated": false,
+   "x": 937,
+   "y": 583,
+   "w": 64,
+   "h": 18,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "waiting",
+   "size": 16,
+   "rotated": false,
+   "x": 1400,
+   "y": 1078,
+   "w": 72,
+   "h": 21,
+   "colour": "#5c665f"
+  },
+  {
+   "word": "write",
+   "size": 16,
+   "rotated": false,
+   "x": 40,
+   "y": 866,
+   "w": 53,
+   "h": 18,
+   "colour": "#5c665f"
+  }
+ ]
+}

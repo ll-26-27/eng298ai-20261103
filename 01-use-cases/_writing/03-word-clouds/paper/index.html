@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wilde's Preface, as a Wordle</title>
+<meta name="description" content="The Preface to The Picture of Dorian Gray laid out by a Python rewrite of Jonathan Feinberg's Wordle algorithm, with the counts beside it.">
+<style>
+:root { --ink:#243d33; --paper:#f7f8f4; --accent:#244d42; --muted:#5c665f; --rule:#cbd6cd; --card:#ffffff; --kicker:#365f52; }
+* { box-sizing:border-box; }
+body { color:var(--ink); background:var(--paper); margin:0; font:18px/1.65 Georgia, 'Times New Roman', serif; }
+main { max-width:1160px; margin:auto; padding:60px 36px 48px; }
+header { border-top:5px solid var(--accent); padding-top:24px; margin-bottom:32px; max-width:900px; }
+.kicker,.meta,figcaption,footer,summary,table,.steps { font-family:Arial,sans-serif; }
+.kicker { color:var(--kicker); font-size:12px; letter-spacing:2px; font-weight:bold; text-transform:uppercase; }
+h1 { font-size:clamp(38px,5vw,64px); font-weight:normal; margin:14px 0; line-height:1.06; letter-spacing:-1.5px; }
+h2 { font-size:30px; font-weight:normal; margin:44px 0 16px; line-height:1.2; }
+.meta { font-size:14px; color:var(--muted); margin:0; }
+.intro { max-width:720px; margin:18px 0 0; font-size:19px; }
+figure.cloud { margin:28px 0; background:var(--card); border:1px solid #d9e1d7; border-radius:8px; padding:18px; }
+figure.cloud svg { width:100%; height:auto; display:block; }
+figure.cloud svg text { cursor:default; }
+figure.cloud svg text:hover { opacity:.55; }
+figcaption { font-size:13px; color:var(--muted); margin-top:12px; }
+.two { display:grid; grid-template-columns:minmax(0,3fr) minmax(0,2fr); gap:36px; align-items:start; }
+.excerpt p { margin:0 0 1em; }
+.excerpt p:last-child { font-variant:small-caps; letter-spacing:1px; }
+table { border-collapse:collapse; font-size:14px; width:100%; max-width:360px; }
+th,td { text-align:left; padding:5px 10px; border-bottom:1px solid var(--rule); }
+td:last-child,th:last-child { text-align:right; font-variant-numeric:tabular-nums; }
+th { color:var(--kicker); font-size:11px; letter-spacing:1.2px; text-transform:uppercase; border-bottom:2px solid var(--kicker); }
+details { border-top:1px solid var(--rule); padding:18px 0; margin-top:12px; }
+summary { font-size:15px; font-weight:bold; cursor:pointer; }
+pre { background:var(--card); border:1px solid #d9e1d7; border-radius:8px; padding:16px 20px; font-size:14px; line-height:1.5; overflow:auto; }
+.steps { font-size:15px; line-height:1.7; max-width:800px; }
+.steps ol { padding-left:20px; }
+.caveat { border-left:4px solid var(--kicker); background:#e9f0e9; padding:18px 22px; font-size:16px; margin-top:28px; }
+footer { border-top:1px solid var(--rule); margin-top:36px; padding-top:20px; font-size:12px; line-height:1.6; color:var(--muted); }
+a { color:inherit; }
+@media (max-width:760px) { main { padding:28px 16px; } .two { grid-template-columns:1fr; } h2 { font-size:27px; } }
+</style></head>
+<body><main>
+<header>
+<p class="kicker">ENGLISH 298AI · _writing · 03 · word clouds</p>
+<h1>All art is quite useless</h1>
+<p class="meta">The Preface to <em>The Picture of Dorian Gray</em> (1891), counted and laid out by a Python rewrite of Jonathan Feinberg's Wordle (2008).</p>
+<p class="intro">Wordle was a Java applet. You pasted text, clicked once, and got a cloud in which "words that appear more frequently in the source text" are bigger. Browsers stopped running Java and the site went dark, but Feinberg published the algorithm in 2010. This is it, run on the shortest text in the course that is complete in itself.</p>
+</header>
+
+<figure class="cloud"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1244 857" font-family="DejaVu Sans, Verdana, sans-serif" font-weight="bold">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="385.0" y="511.0" font-size="240" fill="#1e1e1e" textLength="735" lengthAdjust="spacingAndGlyphs"><title>artist · 11</title>artist</text>
+<text x="539.0" y="656.0" font-size="196" fill="#3b2d5c" textLength="323" lengthAdjust="spacingAndGlyphs"><title>art · 9</title>art</text>
+<text x="423.0" y="286.0" font-size="130" fill="#8a2a45" textLength="664" lengthAdjust="spacingAndGlyphs"><title>beautiful · 6</title>beautiful</text>
+<text x="120.0" y="403.0" font-size="130" fill="#2a6b6e" textLength="463" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 351.5 367.5)"><title>things · 6</title>things</text>
+<text x="495.0" y="352.0" font-size="64" fill="#3b2d5c" textLength="191" lengthAdjust="spacingAndGlyphs"><title>thing · 3</title>thing</text>
+<text x="693.0" y="322.0" font-size="42" fill="#3b2d5c" textLength="97" lengthAdjust="spacingAndGlyphs"><title>new · 2</title>new</text>
+<text x="43.0" y="445.0" font-size="42" fill="#2a6b6e" textLength="112" lengthAdjust="spacingAndGlyphs"><title>form · 2</title>form</text>
+<text x="459.0" y="551.0" font-size="42" fill="#a8742e" textLength="92" lengthAdjust="spacingAndGlyphs"><title>find · 2</title>find</text>
+<text x="711.0" y="175.0" font-size="42" fill="#8a2a45" textLength="229" lengthAdjust="spacingAndGlyphs"><title>meanings · 2</title>meanings</text>
+<text x="846.0" y="340.0" font-size="42" fill="#2a6b6e" textLength="136" lengthAdjust="spacingAndGlyphs"><title>moral · 2</title>moral</text>
+<text x="830.0" y="619.0" font-size="42" fill="#1e1e1e" textLength="172" lengthAdjust="spacingAndGlyphs"><title>written · 2</title>written</text>
+<text x="393.0" y="176.0" font-size="42" fill="#8a2a45" textLength="258" lengthAdjust="spacingAndGlyphs"><title>nineteenth · 2</title>nineteenth</text>
+<text x="664.5" y="683.5" font-size="42" fill="#8a2a45" textLength="181" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 755.0 673.5)"><title>century · 2</title>century</text>
+<text x="574.0" y="710.0" font-size="42" fill="#a8742e" textLength="153" lengthAdjust="spacingAndGlyphs"><title>dislike · 2</title>dislike</text>
+<text x="870.0" y="547.0" font-size="42" fill="#2a6b6e" textLength="107" lengthAdjust="spacingAndGlyphs"><title>rage · 2</title>rage</text>
+<text x="140.0" y="398.0" font-size="42" fill="#3b2d5c" textLength="169" lengthAdjust="spacingAndGlyphs"><title>caliban · 2</title>caliban</text>
+<text x="788.0" y="688.0" font-size="42" fill="#8a2a45" textLength="155" lengthAdjust="spacingAndGlyphs"><title>seeing · 2</title>seeing</text>
+<text x="620.0" y="750.0" font-size="42" fill="#a8742e" textLength="99" lengthAdjust="spacingAndGlyphs"><title>face · 2</title>face</text>
+<text x="986.0" y="545.0" font-size="42" fill="#a8742e" textLength="122" lengthAdjust="spacingAndGlyphs"><title>glass · 2</title>glass</text>
+<text x="233.0" y="468.0" font-size="42" fill="#a8742e" textLength="74" lengthAdjust="spacingAndGlyphs"><title>life · 2</title>life</text>
+<text x="497.0" y="422.0" font-size="42" fill="#8a2a45" textLength="102" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 548.0 410.0)"><title>man · 2</title>man</text>
+<text x="995.0" y="328.0" font-size="42" fill="#2a6b6e" textLength="159" lengthAdjust="spacingAndGlyphs"><title>ethical · 2</title>ethical</text>
+<text x="235.0" y="628.0" font-size="42" fill="#2a6b6e" textLength="123" lengthAdjust="spacingAndGlyphs"><title>point · 2</title>point</text>
+<text x="613.0" y="510.0" font-size="42" fill="#8a2a45" textLength="108" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 667.0 494.0)"><title>view · 2</title>view</text>
+<text x="1089.0" y="447.0" font-size="42" fill="#3b2d5c" textLength="105" lengthAdjust="spacingAndGlyphs"><title>type · 2</title>type</text>
+<text x="655.0" y="142.0" font-size="42" fill="#1e1e1e" textLength="175" lengthAdjust="spacingAndGlyphs"><title>surface · 2</title>surface</text>
+<text x="442.0" y="661.0" font-size="42" fill="#2a6b6e" textLength="169" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 526.5 649.5)"><title>symbol · 2</title>symbol</text>
+<text x="1014.0" y="583.0" font-size="42" fill="#1e1e1e" textLength="107" lengthAdjust="spacingAndGlyphs"><title>peril · 2</title>peril</text>
+<text x="383.0" y="616.0" font-size="42" fill="#8a2a45" textLength="118" lengthAdjust="spacingAndGlyphs"><title>work · 2</title>work</text>
+<text x="194.5" y="288.5" font-size="42" fill="#8a2a45" textLength="174" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 281.5 277.0)"><title>making · 2</title>making</text>
+<text x="107.0" y="505.0" font-size="42" fill="#2a6b6e" textLength="175" lengthAdjust="spacingAndGlyphs"><title>useless · 2</title>useless</text>
+<text x="600.0" y="106.0" font-size="20" fill="#2a6b6e" textLength="84" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 642.0 99.0)"><title>creator · 1</title>creator</text>
+<text x="570.0" y="532.0" font-size="20" fill="#2a6b6e" textLength="72" lengthAdjust="spacingAndGlyphs"><title>reveal · 1</title>reveal</text>
+<text x="691.0" y="539.0" font-size="20" fill="#3b2d5c" textLength="87" lengthAdjust="spacingAndGlyphs"><title>conceal · 1</title>conceal</text>
+<text x="739.0" y="447.0" font-size="20" fill="#3b2d5c" textLength="54" lengthAdjust="spacingAndGlyphs"><title>art’s · 1</title>art’s</text>
+<text x="222.0" y="332.0" font-size="20" fill="#1e1e1e" textLength="42" lengthAdjust="spacingAndGlyphs"><title>aim · 1</title>aim</text>
+<text x="564.5" y="787.5" font-size="20" fill="#1e1e1e" textLength="58" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 593.5 780.0)"><title>critic · 1</title>critic</text>
+<text x="806.0" y="309.0" font-size="20" fill="#1e1e1e" textLength="105" lengthAdjust="spacingAndGlyphs"><title>translate · 1</title>translate</text>
+<text x="872.0" y="580.0" font-size="20" fill="#2a6b6e" textLength="90" lengthAdjust="spacingAndGlyphs"><title>another · 1</title>another</text>
+<text x="345.0" y="100.0" font-size="20" fill="#8a2a45" textLength="87" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 388.5 94.5)"><title>manner · 1</title>manner</text>
+<text x="414.0" y="105.0" font-size="20" fill="#3b2d5c" textLength="97" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 462.5 97.5)"><title>material · 1</title>material</text>
+<text x="875.0" y="810.0" font-size="20" fill="#a8742e" textLength="125" lengthAdjust="spacingAndGlyphs"><title>impression · 1</title>impression</text>
+<text x="485.0" y="201.0" font-size="20" fill="#2a6b6e" textLength="85" lengthAdjust="spacingAndGlyphs"><title>highest · 1</title>highest</text>
+<text x="854.0" y="363.0" font-size="20" fill="#2a6b6e" textLength="75" lengthAdjust="spacingAndGlyphs"><title>lowest · 1</title>lowest</text>
+<text x="677.0" y="209.0" font-size="20" fill="#1e1e1e" textLength="98" lengthAdjust="spacingAndGlyphs"><title>criticism · 1</title>criticism</text>
+<text x="422.0" y="574.0" font-size="20" fill="#a8742e" textLength="63" lengthAdjust="spacingAndGlyphs"><title>mode · 1</title>mode</text>
+<text x="161.5" y="231.5" font-size="20" fill="#3b2d5c" textLength="166" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 244.5 226.0)"><title>autobiography · 1</title>autobiography</text>
+<text x="743.0" y="351.0" font-size="20" fill="#a8742e" textLength="48" lengthAdjust="spacingAndGlyphs"><title>ugly · 1</title>ugly</text>
+<text x="817.0" y="417.0" font-size="20" fill="#a8742e" textLength="84" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 859.0 412.0)"><title>corrupt · 1</title>corrupt</text>
+<text x="588.0" y="476.0" font-size="20" fill="#1e1e1e" textLength="87" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 631.5 468.5)"><title>without · 1</title>without</text>
+<text x="618.5" y="622.5" font-size="20" fill="#3b2d5c" textLength="106" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 671.5 617.0)"><title>charming · 1</title>charming</text>
+<text x="442.5" y="349.5" font-size="20" fill="#a8742e" textLength="54" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 469.5 342.0)"><title>fault · 1</title>fault</text>
+<text x="893.0" y="108.0" font-size="20" fill="#a8742e" textLength="115" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 950.5 100.5)"><title>cultivated · 1</title>cultivated</text>
+<text x="223.0" y="533.0" font-size="20" fill="#1e1e1e" textLength="56" lengthAdjust="spacingAndGlyphs"><title>hope · 1</title>hope</text>
+<text x="314.0" y="133.0" font-size="20" fill="#1e1e1e" textLength="57" lengthAdjust="spacingAndGlyphs"><title>elect · 1</title>elect</text>
+<text x="597.0" y="310.0" font-size="20" fill="#3b2d5c" textLength="63" lengthAdjust="spacingAndGlyphs"><title>mean · 1</title>mean</text>
+<text x="579.0" y="198.0" font-size="20" fill="#1e1e1e" textLength="79" lengthAdjust="spacingAndGlyphs"><title>beauty · 1</title>beauty</text>
+<text x="542.5" y="105.5" font-size="20" fill="#3b2d5c" textLength="94" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 589.5 98.0)"><title>immoral · 1</title>immoral</text>
+<text x="860.0" y="643.0" font-size="20" fill="#8a2a45" textLength="56" lengthAdjust="spacingAndGlyphs"><title>book · 1</title>book</text>
+<text x="206.0" y="427.0" font-size="20" fill="#3b2d5c" textLength="67" lengthAdjust="spacingAndGlyphs"><title>books · 1</title>books</text>
+<text x="630.0" y="772.0" font-size="20" fill="#3b2d5c" textLength="46" lengthAdjust="spacingAndGlyphs"><title>well · 1</title>well</text>
+<text x="407.5" y="346.5" font-size="20" fill="#a8742e" textLength="62" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 438.5 341.0)"><title>badly · 1</title>badly</text>
+<text x="798.0" y="709.0" font-size="20" fill="#3b2d5c" textLength="85" lengthAdjust="spacingAndGlyphs"><title>realism · 1</title>realism</text>
+<text x="367.0" y="665.0" font-size="20" fill="#a8742e" textLength="142" lengthAdjust="spacingAndGlyphs"><title>romanticism · 1</title>romanticism</text>
+<text x="370.0" y="633.0" font-size="20" fill="#8a2a45" textLength="66" lengthAdjust="spacingAndGlyphs"><title>forms · 1</title>forms</text>
+<text x="479.0" y="140.0" font-size="20" fill="#3b2d5c" textLength="48" lengthAdjust="spacingAndGlyphs"><title>part · 1</title>part</text>
+<text x="1031.0" y="611.0" font-size="20" fill="#a8742e" textLength="170" lengthAdjust="spacingAndGlyphs"><title>subject-matter · 1</title>subject-matter</text>
+<text x="1092.0" y="632.0" font-size="20" fill="#2a6b6e" textLength="96" lengthAdjust="spacingAndGlyphs"><title>morality · 1</title>morality</text>
+<text x="214.0" y="135.0" font-size="20" fill="#a8742e" textLength="93" lengthAdjust="spacingAndGlyphs"><title>consists · 1</title>consists</text>
+<text x="227.0" y="556.0" font-size="20" fill="#1e1e1e" textLength="83" lengthAdjust="spacingAndGlyphs"><title>perfect · 1</title>perfect</text>
+<text x="837.5" y="493.5" font-size="20" fill="#2a6b6e" textLength="40" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 857.5 488.0)"><title>use · 1</title>use</text>
+<text x="122.0" y="319.0" font-size="20" fill="#1e1e1e" textLength="111" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 177.5 313.5)"><title>imperfect · 1</title>imperfect</text>
+<text x="733.0" y="749.0" font-size="20" fill="#2a6b6e" textLength="91" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 778.5 741.5)"><title>medium · 1</title>medium</text>
+<text x="208.0" y="581.0" font-size="20" fill="#2a6b6e" textLength="83" lengthAdjust="spacingAndGlyphs"><title>desires · 1</title>desires</text>
+<text x="654.0" y="84.0" font-size="20" fill="#a8742e" textLength="65" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 686.5 80.5)"><title>prove · 1</title>prove</text>
+<text x="472.0" y="756.0" font-size="20" fill="#3b2d5c" textLength="100" lengthAdjust="spacingAndGlyphs"><title>anything · 1</title>anything</text>
+<text x="399.0" y="541.0" font-size="20" fill="#3b2d5c" textLength="55" lengthAdjust="spacingAndGlyphs"><title>even · 1</title>even</text>
+<text x="536.0" y="705.0" font-size="20" fill="#8a2a45" textLength="48" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 560.0 698.0)"><title>true · 1</title>true</text>
+<text x="428.0" y="692.0" font-size="20" fill="#8a2a45" textLength="79" lengthAdjust="spacingAndGlyphs"><title>proved · 1</title>proved</text>
+<text x="374.0" y="716.0" font-size="20" fill="#8a2a45" textLength="131" lengthAdjust="spacingAndGlyphs"><title>sympathies · 1</title>sympathies</text>
+<text x="301.0" y="693.0" font-size="20" fill="#a8742e" textLength="111" lengthAdjust="spacingAndGlyphs"><title>sympathy · 1</title>sympathy</text>
+<text x="200.0" y="657.0" font-size="20" fill="#8a2a45" textLength="157" lengthAdjust="spacingAndGlyphs"><title>unpardonable · 1</title>unpardonable</text>
+<text x="94.0" y="467.0" font-size="20" fill="#2a6b6e" textLength="127" lengthAdjust="spacingAndGlyphs"><title>mannerism · 1</title>mannerism</text>
+<text x="404.0" y="747.0" font-size="20" fill="#2a6b6e" textLength="56" lengthAdjust="spacingAndGlyphs"><title>style · 1</title>style</text>
+<text x="947.0" y="358.0" font-size="20" fill="#1e1e1e" textLength="51" lengthAdjust="spacingAndGlyphs"><title>ever · 1</title>ever</text>
+<text x="798.0" y="730.0" font-size="20" fill="#3b2d5c" textLength="80" lengthAdjust="spacingAndGlyphs"><title>morbid · 1</title>morbid</text>
+<text x="938.0" y="636.0" font-size="20" fill="#3b2d5c" textLength="89" lengthAdjust="spacingAndGlyphs"><title>express · 1</title>express</text>
+<text x="449.0" y="782.0" font-size="20" fill="#2a6b6e" textLength="123" lengthAdjust="spacingAndGlyphs"><title>everything · 1</title>everything</text>
+<text x="498.5" y="97.5" font-size="20" fill="#a8742e" textLength="90" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 543.5 92.0)"><title>thought · 1</title>thought</text>
+<text x="265.0" y="108.0" font-size="20" fill="#3b2d5c" textLength="105" lengthAdjust="spacingAndGlyphs"><title>language · 1</title>language</text>
+<text x="83.0" y="554.0" font-size="20" fill="#2a6b6e" textLength="138" lengthAdjust="spacingAndGlyphs"><title>instruments · 1</title>instruments</text>
+<text x="746.0" y="472.0" font-size="20" fill="#8a2a45" textLength="46" lengthAdjust="spacingAndGlyphs"><title>vice · 1</title>vice</text>
+<text x="372.5" y="342.5" font-size="20" fill="#1e1e1e" textLength="68" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 406.5 335.0)"><title>virtue · 1</title>virtue</text>
+<text x="967.0" y="178.0" font-size="20" fill="#3b2d5c" textLength="109" lengthAdjust="spacingAndGlyphs"><title>materials · 1</title>materials</text>
+<text x="919.0" y="309.0" font-size="20" fill="#a8742e" textLength="46" lengthAdjust="spacingAndGlyphs"><title>arts · 1</title>arts</text>
+<text x="801.0" y="752.0" font-size="20" fill="#2a6b6e" textLength="101" lengthAdjust="spacingAndGlyphs"><title>musician · 1</title>musician</text>
+<text x="645.0" y="795.0" font-size="20" fill="#3b2d5c" textLength="79" lengthAdjust="spacingAndGlyphs"><title>feeling · 1</title>feeling</text>
+<text x="802.0" y="774.0" font-size="20" fill="#a8742e" textLength="80" lengthAdjust="spacingAndGlyphs"><title>actor’s · 1</title>actor’s</text>
+<text x="952.0" y="657.0" font-size="20" fill="#2a6b6e" textLength="55" lengthAdjust="spacingAndGlyphs"><title>craft · 1</title>craft</text>
+<text x="493.0" y="369.0" font-size="20" fill="#a8742e" textLength="28" lengthAdjust="spacingAndGlyphs"><title>go · 1</title>go</text>
+</svg>
+<figcaption>381 tokens in the Preface; 179 after stop words; 123 distinct words, all shown. Size is count, on a linear scale. Colour means nothing. Hover a word for its count.</figcaption></figure>
+
+<div class="two">
+<section class="excerpt">
+<h2>The text</h2>
+<p>The artist is the creator of beautiful things. To reveal art and conceal the artist is art’s aim. The critic is he who can translate into another manner or a new material his impression of beautiful things.</p>
+<p>The highest as the lowest form of criticism is a mode of autobiography. Those who find ugly meanings in beautiful things are corrupt without being charming. This is a fault.</p>
+<p>Those who find beautiful meanings in beautiful things are the cultivated. For these there is hope. They are the elect to whom beautiful things mean only beauty.</p>
+<p>There is no such thing as a moral or an immoral book. Books are well written, or badly written. That is all.</p>
+<p>The nineteenth century dislike of realism is the rage of Caliban seeing his own face in a glass.</p>
+<p>The nineteenth century dislike of romanticism is the rage of Caliban not seeing his own face in a glass. The moral life of man forms part of the subject-matter of the artist, but the morality of art consists in the perfect use of an imperfect medium. No artist desires to prove anything. Even things that are true can be proved. No artist has ethical sympathies. An ethical sympathy in an artist is an unpardonable mannerism of style. No artist is ever morbid. The artist can express everything. Thought and language are to the artist instruments of an art. Vice and virtue are to the artist materials for an art. From the point of view of form, the type of all the arts is the art of the musician. From the point of view of feeling, the actor’s craft is the type. All art is at once surface and symbol. Those who go beneath the surface do so at their peril. Those who read the symbol do so at their peril. It is the spectator, and not life, that art really mirrors. Diversity of opinion about a work of art shows that the work is new, complex, and vital. When critics disagree, the artist is in accord with himself. We can forgive a man for making a useful thing as long as he does not admire it. The only excuse for making a useless thing is that one admires it intensely.</p>
+<p>All art is quite useless.</p>
+<p>OSCAR WILDE</p>
+</section>
+<section>
+<h2>The counts</h2>
+<table><thead><tr><th>word</th><th>count</th></tr></thead><tbody><tr><td>artist</td><td>11</td></tr>
+<tr><td>art</td><td>9</td></tr>
+<tr><td>beautiful</td><td>6</td></tr>
+<tr><td>things</td><td>6</td></tr>
+<tr><td>thing</td><td>3</td></tr>
+<tr><td>new</td><td>2</td></tr>
+<tr><td>form</td><td>2</td></tr>
+<tr><td>find</td><td>2</td></tr>
+<tr><td>meanings</td><td>2</td></tr>
+<tr><td>moral</td><td>2</td></tr>
+<tr><td>written</td><td>2</td></tr>
+<tr><td>nineteenth</td><td>2</td></tr>
+<tr><td>century</td><td>2</td></tr>
+<tr><td>dislike</td><td>2</td></tr>
+<tr><td>rage</td><td>2</td></tr>
+<tr><td>caliban</td><td>2</td></tr>
+<tr><td>seeing</td><td>2</td></tr>
+<tr><td>face</td><td>2</td></tr>
+<tr><td>glass</td><td>2</td></tr>
+<tr><td>life</td><td>2</td></tr>
+<tr><td>man</td><td>2</td></tr>
+<tr><td>ethical</td><td>2</td></tr>
+<tr><td>point</td><td>2</td></tr>
+<tr><td>view</td><td>2</td></tr>
+<tr><td>type</td><td>2</td></tr>
+<tr><td>surface</td><td>2</td></tr>
+<tr><td>symbol</td><td>2</td></tr>
+<tr><td>peril</td><td>2</td></tr>
+<tr><td>work</td><td>2</td></tr>
+<tr><td>making</td><td>2</td></tr></tbody></table>
+<p class="meta" style="margin-top:10px">Everything after the thirtieth word appears once. The full list is in <code>preface-counts.json</code>.</p>
+</section>
+</div>
+
+<h2>How Wordle works</h2>
+<div class="steps">
+<p>Feinberg's own summary, from <em>Beautiful Visualization</em> (2010), p. 52:</p>
+<pre>For each word w in sorted words:
+    placementStrategy.place(w)
+    while w intersects any previously placed words:
+        move w a little bit along a spiral path</pre>
+<ol>
+<li><strong>Count.</strong> A word is letters and digits, optionally joined by hyphens or apostrophes. Stop words come out. <em>Weight = word count.</em> (<code>notebook/C1_count-words.py</code>)</li>
+<li><strong>Lay out.</strong> Biggest word first. Each starts near the horizontal centre line, scattered at random, and walks out along a spiral until it touches nothing. The field's rectangle holds it in while the spiral is small. A "randomized greedy algorithm." (<code>notebook/C2_lay-out-wordle.py</code>)</li>
+<li><strong>Page.</strong> This file. (<code>notebook/C3_build-page.py</code>)</li>
+</ol>
+<div class="caveat"><strong>What Feinberg said not to trust.</strong> Word sizing is naïve: a longer word takes more space than a shorter one used as often. Colour is meaningless. And "merely counting words does not permit meaningful comparisons of like texts": a cloud of every book of the New Testament is a page of "Lord." The size of <em>artist</em> here tells you that Wilde used the word eleven times in five hundred. It does not tell you what he thought of artists.</div>
+</div>
+
+<h2>The same machine on something we made</h2>
+<p class="intro">For contrast, the transcript of the <a href="../../../simulation/outputs/index.html">Common Room</a> simulation: four fictional committee members, twenty turns, no decision. Nothing here is from the course; it is the output of another use case, fed back in as an input.</p>
+<figure class="cloud second"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1715 1298" font-family="DejaVu Sans, Verdana, sans-serif" font-weight="bold">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="59.0" y="716.0" font-size="200" fill="#5c665f" textLength="1279" lengthAdjust="spacingAndGlyphs"><title>contributor · 25</title>contributor</text>
+<text x="912.0" y="936.0" font-size="167" fill="#8b3a3a" textLength="497" lengthAdjust="spacingAndGlyphs"><title>kiosk · 21</title>kiosk</text>
+<text x="475.0" y="887.0" font-size="158" fill="#244d42" textLength="457" lengthAdjust="spacingAndGlyphs"><title>mara · 20</title>mara</text>
+<text x="782.0" y="567.0" font-size="158" fill="#244d42" textLength="505" lengthAdjust="spacingAndGlyphs"><title>event · 20</title>event</text>
+<text x="556.0" y="1019.0" font-size="150" fill="#aa7119" textLength="384" lengthAdjust="spacingAndGlyphs"><title>theo · 19</title>theo</text>
+<text x="1153.0" y="595.0" font-size="133" fill="#aa7119" textLength="656" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1481.0 559.0)"><title>listening · 17</title>listening</text>
+<text x="380.0" y="554.0" font-size="125" fill="#aa7119" textLength="400" lengthAdjust="spacingAndGlyphs"><title>hours · 16</title>hours</text>
+<text x="25.5" y="354.5" font-size="116" fill="#244d42" textLength="566" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 308.5 326.0)"><title>excerpts · 15</title>excerpts</text>
+<text x="602.0" y="445.0" font-size="116" fill="#243d33" textLength="811" lengthAdjust="spacingAndGlyphs"><title>contributors · 15</title>contributors</text>
+<text x="1181.0" y="367.0" font-size="108" fill="#244d42" textLength="190" lengthAdjust="spacingAndGlyphs"><title>list · 14</title>list</text>
+<text x="439.0" y="792.0" font-size="108" fill="#aa7119" textLength="329" lengthAdjust="spacingAndGlyphs"><title>jonas · 14</title>jonas</text>
+<text x="923.0" y="796.0" font-size="100" fill="#aa7119" textLength="497" lengthAdjust="spacingAndGlyphs"><title>estimate · 13</title>estimate</text>
+<text x="1508.5" y="501.5" font-size="91" fill="#aa7119" textLength="257" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1637.0 467.5)"><title>build · 12</title>build</text>
+<text x="733.0" y="1254.0" font-size="91" fill="#5c665f" textLength="343" lengthAdjust="spacingAndGlyphs"><title>review · 12</title>review</text>
+<text x="192.0" y="959.0" font-size="83" fill="#5c665f" textLength="355" lengthAdjust="spacingAndGlyphs"><title>context · 11</title>context</text>
+<text x="635.0" y="1126.0" font-size="83" fill="#5c665f" textLength="196" lengthAdjust="spacingAndGlyphs"><title>leila · 11</title>leila</text>
+<text x="830.0" y="1072.0" font-size="75" fill="#5c665f" textLength="282" lengthAdjust="spacingAndGlyphs"><title>twelve · 10</title>twelve</text>
+<text x="638.0" y="357.0" font-size="75" fill="#8b3a3a" textLength="313" lengthAdjust="spacingAndGlyphs"><title>labeled · 10</title>labeled</text>
+<text x="1260.0" y="986.0" font-size="75" fill="#8b3a3a" textLength="372" lengthAdjust="spacingAndGlyphs"><title>payment · 10</title>payment</text>
+<text x="586.0" y="293.0" font-size="66" fill="#5c665f" textLength="284" lengthAdjust="spacingAndGlyphs"><title>excerpt · 9</title>excerpt</text>
+<text x="986.0" y="984.0" font-size="66" fill="#aa7119" textLength="195" lengthAdjust="spacingAndGlyphs"><title>voice · 9</title>voice</text>
+<text x="987.0" y="350.0" font-size="66" fill="#5c665f" textLength="140" lengthAdjust="spacingAndGlyphs"><title>still · 9</title>still</text>
+<text x="447.0" y="473.0" font-size="58" fill="#8b3a3a" textLength="160" lengthAdjust="spacingAndGlyphs"><title>can't · 8</title>can't</text>
+<text x="618.0" y="1179.0" font-size="58" fill="#8b3a3a" textLength="366" lengthAdjust="spacingAndGlyphs"><title>withdrawal · 8</title>withdrawal</text>
+<text x="770.0" y="772.0" font-size="58" fill="#8b3a3a" textLength="147" lengthAdjust="spacingAndGlyphs"><title>time · 8</title>time</text>
+<text x="1088.0" y="1055.0" font-size="58" fill="#8b3a3a" textLength="112" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1144.0 1045.0)"><title>yes · 8</title>yes</text>
+<text x="844.0" y="1120.0" font-size="58" fill="#5c665f" textLength="244" lengthAdjust="spacingAndGlyphs"><title>contact · 8</title>contact</text>
+<text x="1175.0" y="1036.0" font-size="49" fill="#243d33" textLength="261" lengthAdjust="spacingAndGlyphs"><title>approved · 7</title>approved</text>
+<text x="428.5" y="1098.5" font-size="49" fill="#5c665f" textLength="229" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 543.0 1080.5)"><title>whether · 7</title>whether</text>
+<text x="936.0" y="292.0" font-size="49" fill="#244d42" textLength="218" lengthAdjust="spacingAndGlyphs"><title>consent · 7</title>consent</text>
+<text x="1012.0" y="1164.0" font-size="49" fill="#8b3a3a" textLength="212" lengthAdjust="spacingAndGlyphs"><title>without · 7</title>without</text>
+<text x="1171.0" y="1135.0" font-size="41" fill="#5c665f" textLength="158" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1250.0 1128.0)"><title>person · 6</title>person</text>
+<text x="732.0" y="916.0" font-size="41" fill="#5c665f" textLength="115" lengthAdjust="spacingAndGlyphs"><title>work · 6</title>work</text>
+<text x="515.0" y="1131.0" font-size="41" fill="#5c665f" textLength="159" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 594.5 1115.5)"><title>credits · 6</title>credits</text>
+<text x="266.0" y="763.0" font-size="41" fill="#5c665f" textLength="178" lengthAdjust="spacingAndGlyphs"><title>nothing · 6</title>nothing</text>
+<text x="670.0" y="1055.0" font-size="41" fill="#aa7119" textLength="106" lengthAdjust="spacingAndGlyphs"><title>built · 6</title>built</text>
+<text x="1116.0" y="837.0" font-size="41" fill="#243d33" textLength="149" lengthAdjust="spacingAndGlyphs"><title>tested · 6</title>tested</text>
+<text x="248.0" y="489.0" font-size="41" fill="#5c665f" textLength="239" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 367.5 473.5)"><title>undecided · 6</title>undecided</text>
+<text x="880.0" y="252.0" font-size="41" fill="#aa7119" textLength="179" lengthAdjust="spacingAndGlyphs"><title>number · 6</title>number</text>
+<text x="360.0" y="1025.0" font-size="41" fill="#aa7119" textLength="166" lengthAdjust="spacingAndGlyphs"><title>backup · 6</title>backup</text>
+<text x="415.0" y="421.0" font-size="41" fill="#8b3a3a" textLength="172" lengthAdjust="spacingAndGlyphs"><title>enough · 6</title>enough</text>
+<text x="254.0" y="852.0" font-size="41" fill="#244d42" textLength="229" lengthAdjust="spacingAndGlyphs"><title>estimates · 6</title>estimates</text>
+<text x="451.0" y="322.0" font-size="41" fill="#5c665f" textLength="164" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 533.0 311.0)"><title>setting · 6</title>setting</text>
+<text x="1088.0" y="1195.0" font-size="33" fill="#8b3a3a" textLength="77" lengthAdjust="spacingAndGlyphs"><title>first · 5</title>first</text>
+<text x="617.0" y="703.0" font-size="33" fill="#5c665f" textLength="60" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 647.0 695.0)"><title>yet · 5</title>yet</text>
+<text x="1275.0" y="1062.0" font-size="33" fill="#8b3a3a" textLength="154" lengthAdjust="spacingAndGlyphs"><title>answers · 5</title>answers</text>
+<text x="1246.0" y="532.0" font-size="33" fill="#5c665f" textLength="124" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1308.0 524.0)"><title>accept · 5</title>accept</text>
+<text x="790.0" y="598.0" font-size="33" fill="#244d42" textLength="144" lengthAdjust="spacingAndGlyphs"><title>request · 5</title>request</text>
+<text x="1225.0" y="1134.0" font-size="33" fill="#8b3a3a" textLength="107" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1278.5 1121.5)"><title>leila's · 5</title>leila's</text>
+<text x="1012.0" y="1015.0" font-size="33" fill="#aa7119" textLength="93" lengthAdjust="spacingAndGlyphs"><title>open · 5</title>open</text>
+<text x="536.0" y="590.0" font-size="33" fill="#aa7119" textLength="112" lengthAdjust="spacingAndGlyphs"><title>pause · 5</title>pause</text>
+<text x="925.0" y="469.0" font-size="33" fill="#244d42" textLength="96" lengthAdjust="spacingAndGlyphs"><title>away · 5</title>away</text>
+<text x="365.0" y="414.0" font-size="24" fill="#5c665f" textLength="76" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 403.0 410.0)"><title>every · 4</title>every</text>
+<text x="665.0" y="663.0" font-size="24" fill="#8b3a3a" textLength="110" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 720.0 659.0)"><title>approve · 4</title>approve</text>
+<text x="1082.0" y="601.0" font-size="24" fill="#aa7119" textLength="64" lengthAdjust="spacingAndGlyphs"><title>offer · 4</title>offer</text>
+<text x="1150.0" y="591.0" font-size="24" fill="#8b3a3a" textLength="87" lengthAdjust="spacingAndGlyphs"><title>failure · 4</title>failure</text>
+<text x="1244.0" y="1153.0" font-size="24" fill="#aa7119" textLength="142" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1315.0 1144.0)"><title>withdrawn · 4</title>withdrawn</text>
+<text x="650.0" y="478.0" font-size="24" fill="#aa7119" textLength="102" lengthAdjust="spacingAndGlyphs"><title>confirm · 4</title>confirm</text>
+<text x="1298.0" y="715.0" font-size="24" fill="#aa7119" textLength="80" lengthAdjust="spacingAndGlyphs"><title>needs · 4</title>needs</text>
+<text x="938.0" y="1008.0" font-size="24" fill="#aa7119" textLength="65" lengthAdjust="spacingAndGlyphs"><title>least · 4</title>least</text>
+<text x="1029.0" y="466.0" font-size="24" fill="#5c665f" textLength="98" lengthAdjust="spacingAndGlyphs"><title>anyone · 4</title>anyone</text>
+<text x="774.0" y="473.0" font-size="24" fill="#5c665f" textLength="91" lengthAdjust="spacingAndGlyphs"><title>named · 4</title>named</text>
+<text x="732.0" y="239.0" font-size="24" fill="#8b3a3a" textLength="137" lengthAdjust="spacingAndGlyphs"><title>objections · 4</title>objections</text>
+<text x="423.0" y="1077.0" font-size="24" fill="#8b3a3a" textLength="93" lengthAdjust="spacingAndGlyphs"><title>jonas's · 4</title>jonas's</text>
+<text x="447.0" y="983.0" font-size="24" fill="#aa7119" textLength="80" lengthAdjust="spacingAndGlyphs"><title>phase · 4</title>phase</text>
+<text x="361.0" y="879.0" font-size="24" fill="#244d42" textLength="118" lengthAdjust="spacingAndGlyphs"><title>approval · 4</title>approval</text>
+<text x="1280.5" y="539.5" font-size="24" fill="#aa7119" textLength="116" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1338.5 533.0)"><title>question · 4</title>question</text>
+<text x="315.0" y="808.0" font-size="24" fill="#8b3a3a" textLength="109" lengthAdjust="spacingAndGlyphs"><title>removal · 4</title>removal</text>
+<text x="970.0" y="826.0" font-size="24" fill="#243d33" textLength="52" lengthAdjust="spacingAndGlyphs"><title>edit · 4</title>edit</text>
+<text x="555.0" y="369.0" font-size="24" fill="#5c665f" textLength="80" lengthAdjust="spacingAndGlyphs"><title>works · 4</title>works</text>
+<text x="991.0" y="1192.0" font-size="24" fill="#aa7119" textLength="85" lengthAdjust="spacingAndGlyphs"><title>invent · 4</title>invent</text>
+<text x="1327.0" y="665.0" font-size="24" fill="#aa7119" textLength="102" lengthAdjust="spacingAndGlyphs"><title>amount · 4</title>amount</text>
+<text x="912.0" y="640.0" font-size="24" fill="#244d42" textLength="47" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 935.5 633.5)"><title>use · 4</title>use</text>
+<text x="965.0" y="690.0" font-size="24" fill="#aa7119" textLength="87" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1008.5 683.5)"><title>please · 4</title>please</text>
+<text x="399.0" y="1050.0" font-size="24" fill="#243d33" textLength="90" lengthAdjust="spacingAndGlyphs"><title>people · 4</title>people</text>
+<text x="1059.0" y="370.0" font-size="24" fill="#5c665f" textLength="89" lengthAdjust="spacingAndGlyphs"><title>search · 4</title>search</text>
+<text x="1118.0" y="1120.0" font-size="16" fill="#8b3a3a" textLength="78" lengthAdjust="spacingAndGlyphs"><title>proposal · 3</title>proposal</text>
+<text x="1317.0" y="600.0" font-size="16" fill="#244d42" textLength="99" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1366.5 595.5)"><title>permission · 3</title>permission</text>
+<text x="799.0" y="792.0" font-size="16" fill="#aa7119" textLength="116" lengthAdjust="spacingAndGlyphs"><title>contributor's · 3</title>contributor's</text>
+<text x="870.0" y="468.0" font-size="16" fill="#aa7119" textLength="32" lengthAdjust="spacingAndGlyphs"><title>ask · 3</title>ask</text>
+<text x="415.0" y="903.0" font-size="16" fill="#8b3a3a" textLength="82" lengthAdjust="spacingAndGlyphs"><title>someone · 3</title>someone</text>
+<text x="404.0" y="597.0" font-size="16" fill="#8b3a3a" textLength="59" lengthAdjust="spacingAndGlyphs"><title>design · 3</title>design</text>
+<text x="522.0" y="667.0" font-size="16" fill="#243d33" textLength="41" lengthAdjust="spacingAndGlyphs"><title>drop · 3</title>drop</text>
+<text x="1338.0" y="463.0" font-size="16" fill="#243d33" textLength="37" lengthAdjust="spacingAndGlyphs"><title>now · 3</title>now</text>
+<text x="1393.0" y="897.0" font-size="16" fill="#aa7119" textLength="77" lengthAdjust="spacingAndGlyphs"><title>keyword · 3</title>keyword</text>
+<text x="838.0" y="1137.0" font-size="16" fill="#243d33" textLength="75" lengthAdjust="spacingAndGlyphs"><title>passage · 3</title>passage</text>
+<text x="1162.0" y="1062.0" font-size="16" fill="#244d42" textLength="63" lengthAdjust="spacingAndGlyphs"><title>choose · 3</title>choose</text>
+<text x="1072.5" y="829.5" font-size="16" fill="#244d42" textLength="33" lengthAdjust="spacingAndGlyphs" transform="rotate(-90 1089.0 823.5)"><title>box · 3</title>box</text>
+<text x="591.0" y="905.0" font-size="16" fill="#243d33" textLength="39" lengthAdjust="spacingAndGlyphs"><title>split · 3</title>split</text>
+<text x="884.0" y="913.0" font-size="16" fill="#8b3a3a" textLength="32" lengthAdjust="spacingAndGlyphs"><title>say · 3</title>say</text>
+<text x="972.0" y="579.0" font-size="16" fill="#243d33" textLength="41" lengthAdjust="spacingAndGlyphs"><title>take · 3</title>take</text>
+<text x="677.0" y="920.0" font-size="16" fill="#5c665f" textLength="50" lengthAdjust="spacingAndGlyphs"><title>many · 3</title>many</text>
+<text x="774.0" y="1197.0" font-size="16" fill="#5c665f" textLength="101" lengthAdjust="spacingAndGlyphs"><title>turnaround · 3</title>turnaround</text>
+<text x="1058.0" y="251.0" font-size="16" fill="#244d42" textLength="48" lengthAdjust="spacingAndGlyphs"><title>week · 3</title>week</text>
+<text x="324.0" y="979.0" font-size="16" fill="#5c665f" textLength="58" lengthAdjust="spacingAndGlyphs"><title>decide · 3</title>decide</text>
+<text x="879.0" y="308.0" font-size="16" fill="#5c665f" textLength="27" lengthAdjust="spacingAndGlyphs"><title>log · 3</title>log</text>
+<text x="1312.0" y="684.0" font-size="16" fill="#243d33" textLength="88" lengthAdjust="spacingAndGlyphs"><title>approvals · 3</title>approvals</text>
+<text x="940.0" y="598.0" font-size="16" fill="#5c665f" textLength="58" lengthAdjust="spacingAndGlyphs"><title>switch · 3</title>switch</text>
+<text x="1403.0" y="1093.0" font-size="16" fill="#5c665f" textLength="66" lengthAdjust="spacingAndGlyphs"><title>waiting · 3</title>waiting</text>
+<text x="43.0" y="881.0" font-size="16" fill="#5c665f" textLength="47" lengthAdjust="spacingAndGlyphs"><title>write · 3</title>write</text>
+</svg>
+<figcaption>1970 tokens, 1076 after stop words, top 100 shown.</figcaption></figure>
+<details><summary>The counts behind it</summary><table><thead><tr><th>word</th><th>count</th></tr></thead><tbody><tr><td>contributor</td><td>25</td></tr>
+<tr><td>kiosk</td><td>21</td></tr>
+<tr><td>mara</td><td>20</td></tr>
+<tr><td>event</td><td>20</td></tr>
+<tr><td>theo</td><td>19</td></tr>
+<tr><td>listening</td><td>17</td></tr>
+<tr><td>hours</td><td>16</td></tr>
+<tr><td>excerpts</td><td>15</td></tr>
+<tr><td>contributors</td><td>15</td></tr>
+<tr><td>list</td><td>14</td></tr>
+<tr><td>jonas</td><td>14</td></tr>
+<tr><td>estimate</td><td>13</td></tr>
+<tr><td>build</td><td>12</td></tr>
+<tr><td>review</td><td>12</td></tr>
+<tr><td>context</td><td>11</td></tr>
+<tr><td>leila</td><td>11</td></tr>
+<tr><td>twelve</td><td>10</td></tr>
+<tr><td>labeled</td><td>10</td></tr>
+<tr><td>payment</td><td>10</td></tr>
+<tr><td>excerpt</td><td>9</td></tr>
+<tr><td>voice</td><td>9</td></tr>
+<tr><td>still</td><td>9</td></tr>
+<tr><td>can&#x27;t</td><td>8</td></tr>
+<tr><td>withdrawal</td><td>8</td></tr>
+<tr><td>time</td><td>8</td></tr>
+<tr><td>yes</td><td>8</td></tr>
+<tr><td>contact</td><td>8</td></tr>
+<tr><td>approved</td><td>7</td></tr>
+<tr><td>whether</td><td>7</td></tr>
+<tr><td>consent</td><td>7</td></tr>
+<tr><td>without</td><td>7</td></tr>
+<tr><td>person</td><td>6</td></tr>
+<tr><td>work</td><td>6</td></tr>
+<tr><td>credits</td><td>6</td></tr>
+<tr><td>nothing</td><td>6</td></tr>
+<tr><td>built</td><td>6</td></tr>
+<tr><td>tested</td><td>6</td></tr>
+<tr><td>undecided</td><td>6</td></tr>
+<tr><td>number</td><td>6</td></tr>
+<tr><td>backup</td><td>6</td></tr></tbody></table></details>
+
+<footer>
+<p>Text: Oscar Wilde, <em>The Picture of Dorian Gray</em>, 1891 book edition, Project Gutenberg #174, via <code>context/course-readings/</code>. Public domain.<br>
+Algorithm: Jonathan Feinberg, "Wordle," in <em>Beautiful Visualization</em>, ed. Julie Steele and Noah Iliinsky (Sebastopol, CA: O'Reilly, 2010), 37–58. The original tool, wordle.net (2008–), is offline; see <a href="https://teachdh.sdsu.edu/tools/wordle/">SDSU's Digital Humanities page on Wordle</a>.<br>
+Built by Claude Code (Fable 5.1) with three Python scripts, November 3, 2026. Font: DejaVu Sans Bold. Seed 298.</p>
+</footer>
+</main></body></html>

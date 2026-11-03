@@ -1,0 +1,511 @@
+{
+ "source": "context/course-readings/course-readings-md/wilde-picture-of-dorian-gray-1891.md",
+ "cut": {
+  "from": "## The Preface",
+  "to": "## Chapter I",
+  "json_path": null
+ },
+ "options": {
+  "stop_words_removed": true,
+  "lowercased": true,
+  "min_count": 1
+ },
+ "tokens_total": 381,
+ "tokens_after_stop_words": 179,
+ "distinct_words": 123,
+ "weight_formula": "weight = word count (Feinberg 2010, p. 49)",
+ "words": [
+  {
+   "word": "artist",
+   "count": 11
+  },
+  {
+   "word": "art",
+   "count": 9
+  },
+  {
+   "word": "beautiful",
+   "count": 6
+  },
+  {
+   "word": "things",
+   "count": 6
+  },
+  {
+   "word": "thing",
+   "count": 3
+  },
+  {
+   "word": "new",
+   "count": 2
+  },
+  {
+   "word": "form",
+   "count": 2
+  },
+  {
+   "word": "find",
+   "count": 2
+  },
+  {
+   "word": "meanings",
+   "count": 2
+  },
+  {
+   "word": "moral",
+   "count": 2
+  },
+  {
+   "word": "written",
+   "count": 2
+  },
+  {
+   "word": "nineteenth",
+   "count": 2
+  },
+  {
+   "word": "century",
+   "count": 2
+  },
+  {
+   "word": "dislike",
+   "count": 2
+  },
+  {
+   "word": "rage",
+   "count": 2
+  },
+  {
+   "word": "caliban",
+   "count": 2
+  },
+  {
+   "word": "seeing",
+   "count": 2
+  },
+  {
+   "word": "face",
+   "count": 2
+  },
+  {
+   "word": "glass",
+   "count": 2
+  },
+  {
+   "word": "life",
+   "count": 2
+  },
+  {
+   "word": "man",
+   "count": 2
+  },
+  {
+   "word": "ethical",
+   "count": 2
+  },
+  {
+   "word": "point",
+   "count": 2
+  },
+  {
+   "word": "view",
+   "count": 2
+  },
+  {
+   "word": "type",
+   "count": 2
+  },
+  {
+   "word": "surface",
+   "count": 2
+  },
+  {
+   "word": "symbol",
+   "count": 2
+  },
+  {
+   "word": "peril",
+   "count": 2
+  },
+  {
+   "word": "work",
+   "count": 2
+  },
+  {
+   "word": "making",
+   "count": 2
+  },
+  {
+   "word": "useless",
+   "count": 2
+  },
+  {
+   "word": "creator",
+   "count": 1
+  },
+  {
+   "word": "reveal",
+   "count": 1
+  },
+  {
+   "word": "conceal",
+   "count": 1
+  },
+  {
+   "word": "art’s",
+   "count": 1
+  },
+  {
+   "word": "aim",
+   "count": 1
+  },
+  {
+   "word": "critic",
+   "count": 1
+  },
+  {
+   "word": "translate",
+   "count": 1
+  },
+  {
+   "word": "another",
+   "count": 1
+  },
+  {
+   "word": "manner",
+   "count": 1
+  },
+  {
+   "word": "material",
+   "count": 1
+  },
+  {
+   "word": "impression",
+   "count": 1
+  },
+  {
+   "word": "highest",
+   "count": 1
+  },
+  {
+   "word": "lowest",
+   "count": 1
+  },
+  {
+   "word": "criticism",
+   "count": 1
+  },
+  {
+   "word": "mode",
+   "count": 1
+  },
+  {
+   "word": "autobiography",
+   "count": 1
+  },
+  {
+   "word": "ugly",
+   "count": 1
+  },
+  {
+   "word": "corrupt",
+   "count": 1
+  },
+  {
+   "word": "without",
+   "count": 1
+  },
+  {
+   "word": "charming",
+   "count": 1
+  },
+  {
+   "word": "fault",
+   "count": 1
+  },
+  {
+   "word": "cultivated",
+   "count": 1
+  },
+  {
+   "word": "hope",
+   "count": 1
+  },
+  {
+   "word": "elect",
+   "count": 1
+  },
+  {
+   "word": "mean",
+   "count": 1
+  },
+  {
+   "word": "beauty",
+   "count": 1
+  },
+  {
+   "word": "immoral",
+   "count": 1
+  },
+  {
+   "word": "book",
+   "count": 1
+  },
+  {
+   "word": "books",
+   "count": 1
+  },
+  {
+   "word": "well",
+   "count": 1
+  },
+  {
+   "word": "badly",
+   "count": 1
+  },
+  {
+   "word": "realism",
+   "count": 1
+  },
+  {
+   "word": "romanticism",
+   "count": 1
+  },
+  {
+   "word": "forms",
+   "count": 1
+  },
+  {
+   "word": "part",
+   "count": 1
+  },
+  {
+   "word": "subject-matter",
+   "count": 1
+  },
+  {
+   "word": "morality",
+   "count": 1
+  },
+  {
+   "word": "consists",
+   "count": 1
+  },
+  {
+   "word": "perfect",
+   "count": 1
+  },
+  {
+   "word": "use",
+   "count": 1
+  },
+  {
+   "word": "imperfect",
+   "count": 1
+  },
+  {
+   "word": "medium",
+   "count": 1
+  },
+  {
+   "word": "desires",
+   "count": 1
+  },
+  {
+   "word": "prove",
+   "count": 1
+  },
+  {
+   "word": "anything",
+   "count": 1
+  },
+  {
+   "word": "even",
+   "count": 1
+  },
+  {
+   "word": "true",
+   "count": 1
+  },
+  {
+   "word": "proved",
+   "count": 1
+  },
+  {
+   "word": "sympathies",
+   "count": 1
+  },
+  {
+   "word": "sympathy",
+   "count": 1
+  },
+  {
+   "word": "unpardonable",
+   "count": 1
+  },
+  {
+   "word": "mannerism",
+   "count": 1
+  },
+  {
+   "word": "style",
+   "count": 1
+  },
+  {
+   "word": "ever",
+   "count": 1
+  },
+  {
+   "word": "morbid",
+   "count": 1
+  },
+  {
+   "word": "express",
+   "count": 1
+  },
+  {
+   "word": "everything",
+   "count": 1
+  },
+  {
+   "word": "thought",
+   "count": 1
+  },
+  {
+   "word": "language",
+   "count": 1
+  },
+  {
+   "word": "instruments",
+   "count": 1
+  },
+  {
+   "word": "vice",
+   "count": 1
+  },
+  {
+   "word": "virtue",
+   "count": 1
+  },
+  {
+   "word": "materials",
+   "count": 1
+  },
+  {
+   "word": "arts",
+   "count": 1
+  },
+  {
+   "word": "musician",
+   "count": 1
+  },
+  {
+   "word": "feeling",
+   "count": 1
+  },
+  {
+   "word": "actor’s",
+   "count": 1
+  },
+  {
+   "word": "craft",
+   "count": 1
+  },
+  {
+   "word": "go",
+   "count": 1
+  },
+  {
+   "word": "beneath",
+   "count": 1
+  },
+  {
+   "word": "read",
+   "count": 1
+  },
+  {
+   "word": "spectator",
+   "count": 1
+  },
+  {
+   "word": "really",
+   "count": 1
+  },
+  {
+   "word": "mirrors",
+   "count": 1
+  },
+  {
+   "word": "diversity",
+   "count": 1
+  },
+  {
+   "word": "opinion",
+   "count": 1
+  },
+  {
+   "word": "shows",
+   "count": 1
+  },
+  {
+   "word": "complex",
+   "count": 1
+  },
+  {
+   "word": "vital",
+   "count": 1
+  },
+  {
+   "word": "critics",
+   "count": 1
+  },
+  {
+   "word": "disagree",
+   "count": 1
+  },
+  {
+   "word": "accord",
+   "count": 1
+  },
+  {
+   "word": "forgive",
+   "count": 1
+  },
+  {
+   "word": "useful",
+   "count": 1
+  },
+  {
+   "word": "long",
+   "count": 1
+  },
+  {
+   "word": "admire",
+   "count": 1
+  },
+  {
+   "word": "excuse",
+   "count": 1
+  },
+  {
+   "word": "admires",
+   "count": 1
+  },
+  {
+   "word": "intensely",
+   "count": 1
+  },
+  {
+   "word": "quite",
+   "count": 1
+  },
+  {
+   "word": "oscar",
+   "count": 1
+  },
+  {
+   "word": "wilde",
+   "count": 1
+  }
+ ]
+}
