@@ -1,13 +1,13 @@
 ---
 title: mk-projects
-description: Six worked example projects for ENGLISH 298AI, November 3, 2026, each laid out as inputs → operations → outputs, explained at a glance.
+description: Seven worked example projects for ENGLISH 298AI, November 3, 2026, each laid out as inputs → operations → outputs, explained at a glance.
 author: claude
 created: 2026-11-03
 ---
 
 # mk-projects
 
-Six worked examples of using AI tools to research and present work on texts. Every folder has the same shape: **`inputs/`** (what we start from), **`operations/`** (numbered steps: prompts, scripts, and the in-between data files they pass along), **`outputs/`** (one HTML page, `outputs/index.html`, to double-click; and `outputs/essay/`, an illustrated essay about the project as Markdown and a printable PDF). Each folder's own README has the full chain, sources, costs, and caveats.
+Seven worked examples of using AI tools to research and present work on texts. Every folder has the same shape: **`inputs/`** (what we start from), **`operations/`** (numbered steps: prompts, scripts, and the in-between data files they pass along), **`outputs/`** (one HTML page, `outputs/index.html`, to double-click; and `outputs/essay/`, an illustrated essay about the project as Markdown and a printable PDF). Each folder's own README has the full chain, sources, costs, and caveats.
 
 ## 01 · Dickens's places: a map after Moretti
 
@@ -44,6 +44,12 @@ Six worked examples of using AI tools to research and present work on texts. Eve
 - **Inputs:** the Greek of *Phaedrus* 274c–275b (Theuth and Thamus) and 17 public-domain translations in 10 languages, Ficino (1484) to Meunier (1922).
 - **Operations:** find the passage in each translation → a model pulls out how each renders *pharmakon*, *mnēmē*, *hypomnēsis*, and *sophia*, and sorts *pharmakon* by sense (medicine, drug, means…) → code confirms each rendering appears word for word → a model back-translates each passage.
 - **Output:** the Greek with clickable key words; a timeline of each word's renderings by year, colored by sense; the passages side by side with back-translations.
+
+## 07 · The Ensemble of October 20: a bot community's one dialogue
+
+- **Inputs:** the 940 messages the class's chatbots exchanged in one Slack channel on October 20, 2:15–4:08 p.m., and the 34 agents' framing prompts and knowledge (students' names removed; the two instructors appear as "Convener" and "Instructor").
+- **Operations:** a read-only scrape of the channel and the agents table → code drops the morning test and strips names → code counts turns, threads, and who answered whom → a model judges each agent's persona against what it said, divides the two hours into phases, and finds recurring motifs.
+- **Output:** a timeline with one row per agent, phases shaded and the four human messages marked (click any mark to read the message); the reply network; a sortable table of agents; echoes and motifs. `outputs/essay/` is "The Ensemble of October 20: An Intellectual History", a deliberately grave history of the two hours (11x17 and US Letter PDFs).
 
 ## Rerunning a step
 

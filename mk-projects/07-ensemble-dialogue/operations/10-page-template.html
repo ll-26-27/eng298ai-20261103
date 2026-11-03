@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ensemble's Dialogue</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #fbfaf7; --surface: #ffffff; --surface-2: #f3f1ec; --line: #e2dfd7; --grid: #ebe8e1;
+  --ink: #17160f; --ink-2: #4f4d45; --ink-3: #7c796f;
+  --s1: #2a78d6; --s2: #eb6834; --human: #17160f;
+  --band-a: rgba(42,120,214,.055); --band-b: rgba(120,116,104,.07);
+  --accent: #2a78d6; --hl: #fff3c4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #141413; --surface: #1c1c1a; --surface-2: #232320; --line: #34332f; --grid: #2a2a27;
+    --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #8f8d84;
+    --s1: #3987e5; --s2: #d95926; --human: #f0efec;
+    --band-a: rgba(57,135,229,.09); --band-b: rgba(200,196,184,.06);
+    --accent: #5b9ced; --hl: #4a4220;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #141413; --surface: #1c1c1a; --surface-2: #232320; --line: #34332f; --grid: #2a2a27;
+  --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #8f8d84;
+  --s1: #3987e5; --s2: #d95926; --human: #f0efec;
+  --band-a: rgba(57,135,229,.09); --band-b: rgba(200,196,184,.06);
+  --accent: #5b9ced; --hl: #4a4220;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+.sans, h2, h3, table, .tile, .controls, .tip, .legend, .meta, button, .reader { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 32px 16px 80px; }
+header h1 { font-size: clamp(28px, 4vw, 42px); line-height: 1.12; margin: 0 0 10px; font-weight: 600; letter-spacing: -.01em; }
+.lede { font-size: 18px; color: var(--ink-2); max-width: 760px; margin: 0 0 22px; }
+h2 { font-size: 20px; font-weight: 650; margin: 52px 0 6px; letter-spacing: -.005em; }
+h3 { font-size: 15px; font-weight: 650; margin: 0 0 4px; }
+.sub { color: var(--ink-2); max-width: 780px; margin: 0 0 16px; }
+.meta { font-size: 13px; color: var(--ink-3); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 8px 0 0; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.tile b { display: block; font-size: 26px; font-weight: 650; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.tile span { font-size: 13px; color: var(--ink-2); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+.scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+svg text { fill: var(--ink-2); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: var(--ink-2); margin: 0 0 8px; align-items: center; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: -1px; margin-right: 6px; }
+.tip { position: fixed; pointer-events: none; z-index: 30; max-width: 340px; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: 13px; line-height: 1.4; box-shadow: 0 6px 24px rgba(0,0,0,.14); display: none; }
+.tip .who { font-weight: 650; }
+.mark { cursor: pointer; }
+.mark:hover, .mark.sel { stroke: var(--ink); stroke-width: 2px; }
+.phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+.phase .when { font-size: 13px; color: var(--ink-3); margin-bottom: 6px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.phase p { margin: 6px 0; font-size: 15px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chip { font: 12px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); border-radius: 999px; padding: 5px 9px; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.net-wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 860px) { .net-wrap { grid-template-columns: 1fr; } }
+.edge { fill: none; stroke: var(--ink-3); stroke-linecap: round; }
+.node circle { fill: var(--s1); stroke: var(--surface); stroke-width: 2px; cursor: pointer; }
+.node.human circle { fill: var(--human); }
+.node text { font-size: 15px; }
+.dim .edge { opacity: .06 !important; } .dim .node { opacity: .3; }
+.dim .edge.on { opacity: .9 !important; stroke: var(--s2); } .dim .node.on { opacity: 1; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 8px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); white-space: nowrap; cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
+th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
+tr.agent-row { cursor: pointer; } tr.agent-row:hover td { background: var(--surface-2); }
+tr.detail td { background: var(--surface-2); font-size: 14px; }
+.verdict { display: inline-block; font-size: 12px; padding: 2px 7px; border-radius: 999px; border: 1px solid var(--line); white-space: nowrap; }
+.dots { letter-spacing: 1px; color: var(--ink-3); white-space: nowrap; }
+.dots b { color: var(--ink); font-weight: 400; }
+.cols2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+.bar-row { display: grid; grid-template-columns: 150px 1fr 34px; gap: 8px; align-items: center; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 3px 0; }
+.bar-row .b { height: 10px; background: var(--s1); border-radius: 0 4px 4px 0; }
+.bar-row .lab { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-2); }
+.bar-row .v { text-align: right; font-variant-numeric: tabular-nums; }
+blockquote { margin: 8px 0; padding: 2px 0 2px 12px; border-left: 3px solid var(--line); color: var(--ink-2); font-size: 15px; }
+.quote-link { color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; }
+.reader { position: fixed; right: 0; top: 0; bottom: 0; width: min(480px, 100vw); background: var(--surface); border-left: 1px solid var(--line); box-shadow: -8px 0 30px rgba(0,0,0,.12); transform: translateX(105%); transition: transform .2s ease; z-index: 40; display: flex; flex-direction: column; }
+.reader.open { transform: none; }
+.reader .top { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--line); gap: 8px; }
+.reader .body { overflow-y: auto; padding: 12px 16px 40px; }
+.msg { padding: 10px 0; border-bottom: 1px solid var(--grid); }
+.msg .h { font-size: 12.5px; color: var(--ink-3); margin-bottom: 4px; }
+.msg .h b { color: var(--ink); font-weight: 650; }
+.msg .t { white-space: pre-wrap; font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 15px; line-height: 1.5; }
+.msg.focus { background: var(--hl); margin: 0 -16px; padding: 10px 16px; }
+.msg.ctx { cursor: pointer; }
+button { font-size: 13px; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); border-radius: 7px; padding: 6px 10px; cursor: pointer; }
+button:hover { border-color: var(--accent); }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 0 0 10px; font-size: 13px; color: var(--ink-2); }
+.controls select { font: inherit; padding: 5px 8px; border-radius: 7px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.themebtn { position: absolute; top: 16px; right: 16px; }
+.note { font-size: 14px; color: var(--ink-2); }
+ul.plain { padding-left: 18px; margin: 6px 0; }
+footer { margin-top: 56px; color: var(--ink-3); font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+</style>
+</head>
+<body>
+<button class="themebtn" id="themebtn" aria-label="Toggle light or dark">Light / dark</button>
+<main>
+<header>
+  <div class="meta">ENGLISH 298AI · AI Humanities Lab · use case 07 · private working copy</div>
+  <h1>One dialogue, two dozen bots</h1>
+  <p class="lede" id="lede"></p>
+  <div class="tiles" id="tiles"></div>
+</header>
+
+<h2>The two hours, agent by agent</h2>
+<p class="sub">Each row is a speaker; each dot is a message. Shaded bands are the phases (step 7, model judgment, checked in 7b). Dashed lines are the four human messages. Click a dot to read it in its thread.</p>
+<div class="legend"><span><span class="sw" style="background:var(--s1)"></span>post in the channel</span><span><span class="sw" style="background:var(--s2)"></span>reply in a thread</span><span><span class="sw" style="background:var(--human)"></span>human</span>
+<span class="controls" style="margin:0">Order rows by <select id="order"><option value="first">first appearance</option><option value="turns">turns</option></select></span></div>
+<div class="card scroll-x"><svg id="timeline" role="img" aria-label="Timeline of messages per speaker"></svg></div>
+
+<h2>Phases</h2>
+<p class="sub">Six periods named by a model reading the whole transcript (each message clipped to 280 characters). The counts under each are computed, not the model's. Chips open the model's evidence.</p>
+<div class="phases" id="phases"></div>
+
+<h2>Who answered whom</h2>
+<p class="sub">An edge joins two speakers when one replied directly after the other in a thread; its width is the number of such replies, both ways. Nodes are sized by turns. Hover or tap a node to isolate it. The director chose who spoke, so an edge records who the room put next to whom, not only whom a bot chose to answer.</p>
+<div class="net-wrap">
+  <div class="card"><svg id="network" viewBox="-95 -5 830 650" role="img" aria-label="Network of replies between speakers" style="width:100%;height:auto"></svg></div>
+  <div>
+    <div class="card"><h3>Strongest pairs</h3><div class="meta">replies each way, and stretches where the two alternated three or more times</div><div class="scroll-x"><table id="pairs"></table></div></div>
+    <div class="card" style="margin-top:12px"><h3>Least answered</h3><div class="meta">replies received per message posted</div><div id="least"></div></div>
+  </div>
+</div>
+
+<h2>The agents</h2>
+<p class="sub">Turns, length, and replies are counted. The prompt summary and the verdict on character are model judgments (step 6) from a sample of up to 14 messages each. Click a row for what each did and its evidence. Click a header to sort.</p>
+<div class="card scroll-x"><table id="agents"></table></div>
+<p class="note" id="silent"></p>
+
+<h2>The humans</h2>
+<p class="sub">People posted four times, all in the first ten minutes. After 2:24 p.m. every message is a bot's. What changed afterward was offstage: agents switched on in Airtable arrived in a wave around 2:28, and by 3:50 every student's agent had gone quiet, leaving the two example agents talking alone.</p>
+<div class="cols2" id="humans"></div>
+
+<h2>Echoes and loops</h2>
+<p class="sub">Near-verbatim repetition was rare: by word-trigram overlap, the only near-copy is the Course Readings Bot introducing itself twice. What repeated was form and opening. Nineteen of the 24 agents that spoke began from the same studio template (“You are a poetry workshop assistant. Whatever the user asks about, respond with…” a sonnet, a ghazal, or linked haiku), and the sonnet and ghazal versions ask for a closing italic note naming the form; and the two example agents, alone at the end, kept re-greeting the room as if newly arrived.</p>
+<div class="cols2">
+  <div class="card"><h3>Messages ending in a note on their own verse form</h3><div class="meta" id="footer-meta"></div><div id="footers" style="margin-top:8px"></div></div>
+  <div class="card"><h3>Repeated openings</h3><div class="meta">the same first five words, three or more times (often an addressee’s name)</div><div class="scroll-x"><table id="openings"></table></div></div>
+</div>
+<div class="card" style="margin-top:12px"><h3>Near-copies and restatements</h3><div class="meta">pairs of messages with word-trigram overlap of 0.25 or more (0.5+ is a near-copy)</div><div class="scroll-x"><table id="dups"></table></div></div>
+
+<h2>Motifs</h2>
+<p class="sub">Named by a model (step 8). Counts are plain substring searches for the motif's terms over agent messages, so they over-count broad words and miss paraphrase; every quotation below was checked verbatim against its message.</p>
+<div class="cols2" id="motifs"></div>
+
+<h2>How this was made</h2>
+<div class="card note" id="method"></div>
+<footer>Built from <code>inputs/dialogue.json</code> and <code>inputs/agents.json</code> by the numbered scripts in <code>operations/</code>; see the folder's README. Student names never appear; agents are listed by the names their makers gave them, makers only by anonymous ID. Private: not for the public student repo without a decision.</footer>
+</main>
+
+<aside class="reader" id="reader" aria-label="Message reader">
+  <div class="top"><div id="reader-title" class="sans" style="font-weight:650;font-size:14px"></div><button id="reader-close">Close</button></div>
+  <div class="body" id="reader-body"></div>
+</aside>
+<div class="tip" id="tip"></div>
+
+<script>
+const S = /*SUMMARY*/null;
+const M = /*MESSAGES*/null;
+const byN = new Map(M.map(m => [m.n, m]));
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const clip = (s, k) => { s = s.replace(/\s+/g, ' ').trim(); return s.length > k ? s.slice(0, k) + '…' : s; };
+const fmtTime = t => { const [h, m] = t.split(':').map(Number); return `${((h + 11) % 12) + 1}:${String(m).padStart(2, '0')}`; };
+const pct = x => Math.round(x * 100) + '%';
+
+// Theme toggle
+(() => {
+  const root = document.documentElement;
+  let t = null; try { t = localStorage.getItem('ens-theme'); } catch {}
+  if (t) root.setAttribute('data-theme', t);
+  $('themebtn').onclick = () => {
+    const dark = root.getAttribute('data-theme') ? root.getAttribute('data-theme') === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    const next = dark ? 'light' : 'dark'; root.setAttribute('data-theme', next);
+    try { localStorage.setItem('ens-theme', next); } catch {}
+  };
+})();
+
+// Tooltip
+const tip = $('tip');
+function showTip(ev, html) { tip.innerHTML = html; tip.style.display = 'block'; const x = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 8); const y = ev.clientY + 16 + tip.offsetHeight > innerHeight ? ev.clientY - tip.offsetHeight - 12 : ev.clientY + 16; tip.style.left = x + 'px'; tip.style.top = y + 'px'; }
+const hideTip = () => { tip.style.display = 'none'; };
+
+// Reader: a message in its thread
+function openMsg(n) {
+  const m = byN.get(n); if (!m) return;
+  const root = m.parent ? byN.get(m.parent) : m;
+  const thread = [root, ...M.filter(x => x.parent === root.n)];
+  $('reader-title').textContent = thread.length > 1 ? `Thread of #${root.n} · ${thread.length - 1} replies` : `#${m.n} · channel post`;
+  $('reader-body').innerHTML = thread.map(x => `<div class="msg ${x.n === n ? 'focus' : 'ctx'}" data-n="${x.n}" id="r${x.n}"><div class="h"><b>${esc(x.speaker)}</b> · #${x.n} · ${fmtTime(x.time)}:${x.time.slice(6)} p.m.${x.parent ? '' : ' · channel'}</div><div class="t">${esc(x.text)}</div></div>`).join('');
+  $('reader').classList.add('open');
+  document.querySelectorAll('.mark.sel').forEach(e => e.classList.remove('sel'));
+  document.querySelectorAll(`.mark[data-n="${n}"]`).forEach(e => e.classList.add('sel'));
+  requestAnimationFrame(() => { const f = $('r' + n); if (f) f.scrollIntoView({ block: 'center' }); });
+}
+$('reader-body').addEventListener('click', e => { const d = e.target.closest('.msg.ctx'); if (d) openMsg(+d.dataset.n); });
+$('reader-close').onclick = () => $('reader').classList.remove('open');
+document.addEventListener('keydown', e => { if (e.key === 'Escape') $('reader').classList.remove('open'); });
+document.addEventListener('click', e => { const c = e.target.closest('[data-open]'); if (c) openMsg(+c.dataset.open); });
+const chip = (n, label) => `<span class="chip" data-open="${n}" title="${esc(clip(byN.get(n)?.text || '', 160))}">${label ?? '#' + n}</span>`;
+
+// Header
+const s = S.session, H = S.headlines;
+const agentsOnly = S.agents.filter(a => a.kind === 'agent');
+$('lede').innerHTML = `On October 20, 2026, the chatbots that graduate students in ENGLISH 298AI built that day were put in one Slack channel with an automated director choosing who spoke next. For ${Math.round(s.minutes)} minutes they talked, almost entirely to each other: ${s.messages} messages from ${s.agents_spoke} agents and two people. This page counts who spoke and who answered whom, and uses a model, checked where it can be, to name the phases, motifs, and how far each bot stayed itself.`;
+const tiles = [
+  [s.messages, `messages, ${fmtTime(s.start)}–${fmtTime(s.end)} p.m.`],
+  [`${s.agents_spoke} of ${s.agents_in_table}`, 'named agents in the table spoke'],
+  [s.human_messages, `human messages, the last at ${fmtTime(s.last_human)}`],
+  [s.threads.count, `threads (median ${s.threads.median_replies} replies, longest ${s.threads.max_replies})`],
+  [pct(H.example_agents_share), 'of messages from the two example agents'],
+  [pct(H.verse_footer_messages / (s.messages - s.human_messages)), 'of agent messages end by naming their verse form'],
+];
+$('tiles').innerHTML = tiles.map(([b, t]) => `<div class="tile"><b>${b}</b><span>${t}</span></div>`).join('');
+
+// Timeline
+function drawTimeline() {
+  const svg = $('timeline'); svg.innerHTML = '';
+  const order = $('order').value;
+  const rows = [...S.agents].sort((a, b) => {
+    if (a.kind !== b.kind) return a.kind === 'human' ? -1 : 1;
+    return order === 'turns' ? b.turns - a.turns : (a.first < b.first ? -1 : a.first > b.first ? 1 : b.turns - a.turns);
+  });
+  const L = 170, R = 16, T = 54, rowH = 19, W = Math.max(760, Math.min(1140, $('timeline').parentElement.clientWidth - 34));
+  const Hh = T + rows.length * rowH + 30;
+  svg.setAttribute('width', W); svg.setAttribute('height', Hh); svg.setAttribute('viewBox', `0 0 ${W} ${Hh}`);
+  const maxMin = s.minutes + 0.5, x = m => L + (m / maxMin) * (W - L - R);
+  // phase bands
+  S.phases.forEach((p, i) => {
+    const x0 = i === 0 ? x(0) : x((S.phases[i - 1].end_min + p.start_min) / 2), x1 = i === S.phases.length - 1 ? x(maxMin) : x((p.end_min + S.phases[i + 1].start_min) / 2);
+    el('rect', { x: x0, y: T - 8, width: Math.max(0, x1 - x0), height: rows.length * rowH + 8, fill: i % 2 ? 'var(--band-b)' : 'var(--band-a)' }, svg);
+    const w = x1 - x0;
+    const lab = el('text', { x: x0 + 4, y: i % 2 ? 26 : 12, 'font-size': 11, 'font-weight': 600, style: 'fill:var(--ink)' }, svg);
+    lab.textContent = `${i + 1}.${w > 40 ? ' ' + clip(p.title, Math.max(4, Math.floor((w - 22) / 6.3))) : ''}`;
+    el('line', { x1: x0, x2: x0, y1: i % 2 ? 30 : 16, y2: T - 8, stroke: 'var(--ink-3)', 'stroke-width': 1 }, svg);
+  });
+  // hour ticks
+  const startMin = (() => { const [h, m, sec] = s.start.split(':').map(Number); return h * 60 + m + sec / 60; })();
+  for (let clock = Math.ceil(startMin / 15) * 15; clock <= startMin + maxMin; clock += 15) {
+    const xm = x(clock - startMin);
+    el('line', { x1: xm, x2: xm, y1: T - 4, y2: T + rows.length * rowH, stroke: 'var(--grid)', 'stroke-width': 1 }, svg);
+    const t = el('text', { x: xm, y: T + rows.length * rowH + 16, 'text-anchor': 'middle', 'font-size': 11 }, svg);
+    t.textContent = `${((Math.floor(clock / 60) + 11) % 12) + 1}:${String(clock % 60).padStart(2, '0')}`;
+  }
+  // human lines
+  S.interventions.forEach(h => { const m = byN.get(h.n); el('line', { x1: x(m.min), x2: x(m.min), y1: T - 6, y2: T + rows.length * rowH, stroke: 'var(--human)', 'stroke-width': 1, 'stroke-dasharray': '3 3', opacity: .55 }, svg); });
+  rows.forEach((a, i) => {
+    const y = T + i * rowH + rowH / 2;
+    el('line', { x1: L, x2: W - R, y1: y, y2: y, stroke: 'var(--grid)', 'stroke-width': 1 }, svg);
+    const t = el('text', { x: L - 8, y: y + 4, 'text-anchor': 'end', 'font-size': 12, style: 'fill:var(--ink)' }, svg);
+    t.textContent = clip(a.speaker, 22) + ' ';
+    const c = el('tspan', { style: 'fill:var(--ink-3)', 'font-size': 10.5 }, t); c.textContent = a.turns;
+    M.filter(m => m.speaker === a.speaker).forEach(m => {
+      const dot = el('circle', { cx: x(m.min), cy: y, r: m.kind === 'human' ? 5 : 3.6, class: 'mark', 'data-n': m.n, fill: m.kind === 'human' ? 'var(--human)' : m.parent ? 'var(--s2)' : 'var(--s1)', 'fill-opacity': .85 }, svg);
+      dot.addEventListener('mousemove', ev => showTip(ev, `<div class="who">${esc(m.speaker)}</div><div class="meta">#${m.n} · ${fmtTime(m.time)}:${m.time.slice(6)} · ${m.parent ? 'reply in thread of #' + m.parent : 'channel'}</div>${esc(clip(m.text, 200))}`));
+      dot.addEventListener('mouseleave', hideTip);
+      dot.addEventListener('click', () => { hideTip(); openMsg(m.n); });
+    });
+  });
+}
+$('order').onchange = drawTimeline;
+drawTimeline();
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(drawTimeline, 150); });
+
+// Phases
+$('phases').innerHTML = S.phases.map((p, i) => `<div class="card phase"><div class="when">${i + 1} · ${fmtTime(p.start)}–${fmtTime(p.end)} · #${p.start_n}–${p.end_n}</div><h3>${esc(p.title)}</h3><div class="meta">${esc(p.mood)}</div><p>${esc(p.summary)}</p><div class="meta">${p.messages} messages · ${p.per_minute} a minute · ${p.voices} voices · ${pct(p.verse_share)} end with a form note · ${p.mean_words} words on average<br>most turns: ${p.top_voices.map(v => `${esc(v.speaker)} (${v.turns})`).join(', ')}</div><div class="chips">${p.evidence.map(e => chip(e.n)).join('')}</div></div>`).join('');
+document.querySelectorAll('.phase .chip').forEach(c => { const ph = S.phases.flatMap(p => p.evidence).find(e => e.n === +c.dataset.open); if (ph) c.title = ph.why; });
+
+// Network
+(() => {
+  const svg = $('network');
+  const nodes = [...S.agents].sort((a, b) => b.turns - a.turns);
+  const cx = 320, cy = 320, R0 = 232;
+  const N = nodes.length, slot = i => i % 2 === 0 ? i / 2 : Math.ceil(N / 2) + (i - 1) / 2; // largest at top, second at bottom
+  const pos = new Map(nodes.map((a, i) => { const t = (slot(i) / N) * Math.PI * 2 - Math.PI / 2; return [a.speaker, { x: cx + R0 * Math.cos(t), y: cy + R0 * Math.sin(t), t }]; }));
+  const und = new Map();
+  for (const e of S.network.edges) { const k = [e.from, e.to].sort().join('|'); und.set(k, (und.get(k) || 0) + e.replies); }
+  const maxW = Math.max(...und.values());
+  const g = el('g', {}, svg);
+  const edges = [...und.entries()].sort((a, b) => a[1] - b[1]).map(([k, w]) => {
+    const [a, b] = k.split('|'); const p = pos.get(a), q = pos.get(b);
+    const path = el('path', { d: `M${p.x},${p.y} Q${cx + (p.x + q.x - 2 * cx) * .18},${cy + (p.y + q.y - 2 * cy) * .18} ${q.x},${q.y}`, class: 'edge', 'stroke-width': 0.6 + 7 * Math.sqrt(w / maxW), opacity: 0.18 + 0.6 * (w / maxW) }, g);
+    path.dataset.a = a; path.dataset.b = b;
+    path.addEventListener('mousemove', ev => showTip(ev, `<div class="who">${esc(a)} ↔ ${esc(b)}</div>${w} direct replies`));
+    path.addEventListener('mouseleave', hideTip);
+    return path;
+  });
+  const maxT = nodes[0].turns;
+  const nodeEls = nodes.map(a => {
+    const p = pos.get(a.speaker);
+    const n = el('g', { class: 'node' + (a.kind === 'human' ? ' human' : ''), transform: `translate(${p.x},${p.y})` }, svg);
+    el('circle', { r: 4 + 14 * Math.sqrt(a.turns / maxT) }, n);
+    const right = Math.cos(p.t) >= -0.01, off = 8 + 14 * Math.sqrt(a.turns / maxT);
+    const t = el('text', { x: (right ? 1 : -1) * off * Math.abs(Math.cos(p.t)) + (right ? 3 : -3), y: off * Math.sin(p.t) + 4, 'text-anchor': right ? 'start' : 'end' }, n);
+    t.textContent = clip(a.speaker, 24);
+    const on = () => {
+      svg.classList.add('dim');
+      const linked = new Set([a.speaker]);
+      edges.forEach(e => { const hit = e.dataset.a === a.speaker || e.dataset.b === a.speaker; e.classList.toggle('on', hit); if (hit) { linked.add(e.dataset.a); linked.add(e.dataset.b); } });
+      nodeEls.forEach(x => x.el.classList.toggle('on', linked.has(x.name)));
+    };
+    const off2 = () => { svg.classList.remove('dim'); hideTip(); };
+    n.addEventListener('mouseenter', on); n.addEventListener('mouseleave', off2);
+    n.addEventListener('mousemove', ev => showTip(ev, `<div class="who">${esc(a.speaker)}</div>${a.turns} turns · answered ${a.answered_others} times · answered by others ${a.answered_by_others} times`));
+    n.addEventListener('click', ev => { ev.stopPropagation(); svg.classList.contains('dim') ? off2() : on(); });
+    return { el: n, name: a.speaker };
+  });
+})();
+$('pairs').innerHTML = `<thead><tr><th>pair</th><th class="num">replies</th><th class="num">each way</th><th class="num">runs</th><th class="num">longest</th></tr></thead><tbody>` +
+  S.network.strongest_pairs.slice(0, 10).map(p => `<tr><td>${esc(p.a)} ↔ ${esc(p.b)}</td><td class="num">${p.replies}</td><td class="num">${p.a_to_b} / ${p.b_to_a}</td><td class="num">${p.runs}</td><td class="num">${p.longest_run || ''}</td></tr>`).join('') + '</tbody>';
+$('least').innerHTML = S.network.least_answered.map(a => `<div class="bar-row"><span class="lab">${esc(a.id)}</span><span><span class="b" style="display:block;width:${Math.max(2, a.answered_per_turn * 100)}%"></span></span><span class="v">${a.answered_per_turn.toFixed(2)}</span></div>`).join('') + `<div class="meta" style="margin-top:6px">${esc(S.network.least_answered[0].id)} posted ${S.network.least_answered[0].turns} times and drew ${S.network.least_answered[0].answered_by_others} direct ${S.network.least_answered[0].answered_by_others === 1 ? 'reply' : 'replies'}.</div>`;
+
+// Agents table
+const cols = [
+  ['speaker', 'agent'], ['model', 'model'], ['turns', 'turns', 1], ['bins', 'when (10-min bins)'], ['mean_words', 'words', 1], ['answered_per_turn', 'answered / turn', 1], ['verse_footers', 'form notes', 1], ['fidelity', 'in character', 1], ['intended_voice', 'the voice its prompt asks for'],
+];
+let sortKey = 'turns', sortDir = -1, openRow = null;
+const verdictTxt = a => a.verdict ? `<span class="verdict">${esc(a.verdict)} · ${a.fidelity}/5</span>` : '';
+const bins = b => { const mx = Math.max(...b, 1), bw = 9, h = 18; return `<svg width="${b.length * bw}" height="${h}" aria-label="messages per 10 minutes">${b.map((v, i) => `<rect x="${i * bw + 1}" y="${h - Math.max(1, (v / mx) * h)}" width="${bw - 2}" height="${Math.max(1, (v / mx) * h)}" rx="1" fill="${v ? 'var(--s1)' : 'var(--line)'}"><title>${v} messages, minutes ${i * 10}–${i * 10 + 10}</title></rect>`).join('')}</svg>`; };
+function drawAgents() {
+  const rows = agentsOnly.slice().sort((a, b) => { const x = a[sortKey], y = b[sortKey]; return (typeof x === 'number' ? x - y : String(x).localeCompare(String(y))) * sortDir; });
+  $('agents').innerHTML = `<thead><tr>${cols.map(([k, l, num]) => `<th data-k="${k}" class="${num ? 'num' : ''}">${l}${sortKey === k ? (sortDir < 0 ? ' ↓' : ' ↑') : ''}</th>`).join('')}</tr></thead><tbody>` + rows.map(a => {
+    const main = `<tr class="agent-row" data-a="${esc(a.speaker)}"><td><b>${esc(a.speaker)}</b><div class="meta">${esc(a.maker)}</div></td><td class="meta">${esc(a.model.replace('anthropic/', '').replace('openai/', ''))}</td><td class="num">${a.turns}</td><td>${bins(a.bins)}</td><td class="num">${a.mean_words}</td><td class="num">${a.answered_per_turn.toFixed(2)}</td><td class="num">${a.verse_footers || ''}</td><td class="num">${verdictTxt(a)}</td><td style="min-width:180px">${esc(a.intended_voice)} <span class="meta">▸</span></td></tr>`;
+    const det = openRow === a.speaker ? `<tr class="detail"><td colspan="${cols.length}"><b>What the prompt asks:</b> ${esc(a.prompt_summary)}<br><b>What it did:</b> ${esc(a.what_it_did)}${a.drift_toward ? `<br><b>Drifted toward:</b> ${esc(a.drift_toward)}` : ''}${a.triggers ? `<br><b>Triggers:</b> ${esc(a.triggers)}` : ''}<br><span class="meta">${a.channel_posts} channel posts, ${a.thread_replies} thread replies, ${a.threads_started} threads started; first ${fmtTime(a.first)}, last ${fmtTime(a.last)}</span><div class="chips">${a.persona_evidence.map(e => `<span class="chip" data-open="${e.n}" title="${esc(e.note)}">#${e.n}</span>`).join('')}</div><ul class="plain">${a.persona_evidence.map(e => `<li>#${e.n}: ${esc(e.note)}</li>`).join('')}</ul></td></tr>` : '';
+    return main + det;
+  }).join('') + '</tbody>';
+}
+$('agents').addEventListener('click', e => {
+  if (e.target.closest('[data-open]')) return;
+  const th = e.target.closest('th'); if (th) { const k = th.dataset.k; if (k === 'bins') return; sortDir = sortKey === k ? -sortDir : (typeof agentsOnly[0][k] === 'number' ? -1 : 1); sortKey = k; drawAgents(); return; }
+  const tr = e.target.closest('tr.agent-row'); if (tr) { openRow = openRow === tr.dataset.a ? null : tr.dataset.a; drawAgents(); }
+});
+drawAgents();
+$('silent').textContent = `${s.silent_agents.length} agents in the table never spoke: ${s.silent_agents.join(', ')}.`;
+
+// Humans
+$('humans').innerHTML = S.interventions.map(h => `<div class="card"><div class="meta">${esc(h.speaker)} · #${h.n} · ${fmtTime(h.time)}:${h.time.slice(6)} p.m.</div><blockquote style="font-size:17px;color:var(--ink)">${esc(h.text)}</blockquote><div class="note">${h.replies} replies in its thread from ${h.repliers.length} agents, the first after ${h.first_reply_seconds} seconds. Its key words (${h.key_words.map(esc).join(', ')}) appear in ${pct(h.key_word_share_next_30)} of the next 30 agent messages and ${pct(h.key_word_share_rest)} of the rest.</div><div class="meta" style="margin-top:6px">${h.repliers.map(esc).join(', ')}</div><div class="chips">${chip(h.n, 'read the thread')}</div></div>`).join('');
+
+// Echoes
+const fb = Object.entries(S.echoes.form_footers.by_agent).sort((a, b) => b[1] - a[1]);
+const fmax = fb[0][1];
+$('footer-meta').textContent = `${S.echoes.form_footers.messages} messages from ${fb.length} agents close with an italic line naming the form (e.g. “Shakespearean sonnet, abab cdcd efef gg”).`;
+$('footers').innerHTML = fb.map(([a, v]) => { const t = agentsOnly.find(x => x.speaker === a)?.turns || v; return `<div class="bar-row" title="${v} of ${t} messages"><span class="lab">${esc(a)}</span><span><span class="b" style="display:block;width:${(v / fmax) * 100}%"></span></span><span class="v">${v}</span></div>`; }).join('');
+$('openings').innerHTML = `<thead><tr><th>opening</th><th>who</th><th class="num">times</th></tr></thead><tbody>` + S.echoes.repeated_openings.slice(0, 10).map(o => `<tr><td>“${esc(o.opening)} …”</td><td>${o.agents.map(esc).join(', ')}</td><td class="num">${o.messages}</td></tr>`).join('') + '</tbody>';
+$('dups').innerHTML = `<thead><tr><th class="num">overlap</th><th>first</th><th>second</th><th class="num">min apart</th></tr></thead><tbody>` + S.echoes.near_copies.map(d => `<tr><td class="num">${d.similarity.toFixed(2)}</td><td>${chip(d.a)} <b>${esc(d.a_speaker)}</b><div class="meta">${esc(d.a_text)}</div></td><td>${chip(d.b)} <b>${esc(d.b_speaker)}</b><div class="meta">${esc(d.b_text)}</div></td><td class="num">${d.minutes_apart}</td></tr>`).join('') + '</tbody>';
+
+// Motifs
+$('motifs').innerHTML = S.motifs.slice().sort((a, b) => b.agents - a.agents).map(m => `<div class="card"><div class="meta">${esc(m.kind)} · ${m.messages} messages · ${m.agents} agents</div><h3>${esc(m.name)}</h3><p class="note" style="margin:4px 0">${esc(m.description)}</p>${m.examples.slice(0, 3).map(e => `<blockquote>“${esc(e.quote)}” <span class="quote-link" data-open="${e.n}">${esc(e.speaker)}, #${e.n}</span>${e.verbatim ? '' : ' <span class="meta">(not verbatim)</span>'}</blockquote>`).join('')}<div class="meta">search terms: ${m.search_terms.map(esc).join(', ')}</div></div>`).join('');
+
+// Method
+$('method').innerHTML = `<ul class="plain">
+<li><b>Counted (code):</b> turns, lengths, threads, reply edges (each thread reply answers the message before it), alternating runs, near-copies (word-trigram Jaccard), repeated openings, form notes, the humans' threads.</li>
+<li><b>Judged (model, structured output):</b> the persona check (${esc(S.models.personas)}, one call per agent, up to 14 sampled messages), the phases and the motifs (${esc(S.models.phases)}, one call each over the whole transcript clipped to 280 characters a message).</li>
+<li><b>Checked (code):</b> phases tile the session and every evidence message lies inside its phase${S.phase_check.length ? ' (problems: ' + esc(S.phase_check.join('; ')) + ')' : ' (no problems)'}; motif quotations verbatim; motif counts by plain search.</li>
+<li><b>Unreliable:</b> the director, not the bots, chose who spoke, so the network shows the room's pairing as much as any bot's choice. Mentions of names like Socrates or the Creature usually mean the literary figure, so they are left out of the network. The persona verdicts rest on samples and are one model's reading. Offstage changes (agents switched on or off) are inferred from timing only.</li>
+<li><b>Cost:</b> $${S.cost_usd.toFixed(2)} in logged model calls.</li></ul>`;
+</script>
+</body>
+</html>
