@@ -32,7 +32,7 @@ tools, loops, or a new form of output.
 | [Distant reading · 02 · Scenes of instruction](distant-reading/02-distant-and-close-reading/) | Compare keyword search with a model's reading of 982 passages for scenes of instruction. | [Guide](distant-reading/02-distant-and-close-reading/README.md) · [Page](distant-reading/02-distant-and-close-reading/outputs/index.html) · [Essay](distant-reading/02-distant-and-close-reading/outputs/essay/essay.md) |
 
 The numbered projects were made in a morning by a model and a few scripts.
-Each folder's own README has the full chain, sources, costs, and caveats.
+Each folder's own README has the full chain, sources, costs, and findings.
 
 ## How each use case is organized
 
@@ -42,7 +42,7 @@ Each folder's own README has the full chain, sources, costs, and caveats.
   operations/    numbered steps: prompts, scripts, and the in-between data files they pass along
   outputs/       one HTML page; double-click outputs/index.html
   outputs/essay/ in the six numbered projects, an illustrated essay about the project as Markdown and a printable PDF
-  summary.md     purpose, workflow, and limitations
+  summary.md     purpose, workflow, and findings
   index.md       file-by-file guide
   CLAUDE.md      Claude Code instructions; readable explicitly in other apps
 ```
@@ -51,8 +51,8 @@ The seminar-paper example in `_writing/` uses the older names for the same
 three folders: `books/`, `notebook/`, `paper/`.
 
 Read an example's `README.md` to try it, or `summary.md` for its purpose. Use
-`index.md` to find a specific file. The outputs are examples, not guaranteed
-results for new source material. In Claude Desktop or another app, ask the
+`index.md` to find a specific file. Each example includes its source material and operations so you can
+rerun it with a new question or collection. In Claude Desktop or another app, ask the
 assistant to read the example's `CLAUDE.md` before starting; Claude Code loads
 it automatically.
 

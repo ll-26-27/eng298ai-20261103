@@ -8,7 +8,7 @@ its bundled font.
 |---|---|---|---|
 | [`C1_count-words.py`](C1_count-words.py) | Finds the words with Feinberg's regex, drops stop words, counts. *Weight = word count.* | a text, or a JSON field | `counts.json`, and the exact excerpt counted |
 | [`C2_lay-out-wordle.py`](C2_lay-out-wordle.py) | Sizes each word by its count, then places them biggest first, each walking out along a spiral from a random start near the centre line until it touches nothing. | `counts.json` | `.png`, `.svg`, `layout.json` |
-| [`C3_build-page.py`](C3_build-page.py) | One HTML page: the clouds inline, the text, the counts, the algorithm, the caveats. | the above | `../paper/index.html` |
+| [`C3_build-page.py`](C3_build-page.py) | One HTML page: the clouds inline, the text, the counts, the algorithm, the design choices. | the above | `../paper/index.html` |
 
 `work/` is where `C1` drops the excerpt it counted. It is gitignored across
 this repository; the copy that is committed is `../books/wilde-dorian-gray-preface.md`.

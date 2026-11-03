@@ -57,7 +57,7 @@ node 01-use-cases/translation/02-frankenstein-translations/operations/10-build-p
 
 Steps 1, 4 (the edit), 5 and 6b are research or editing, not scripts. To add a rendering, add a row to `01-renderings.csv` with its exact quotation and source, then rerun steps 2, 3 and 4 and re-edit `04-synthesis-edited.md`. With the cache in place, rerunning costs nothing.
 
-## What a scholar must check
+## Methods and findings
 
 - **The connotation notes, senses, scales and back-translations are a model's readings.** Many are sharp; some are speculative (a Lermontov echo in Russian *демон*, a 2011 political ring for Portuguese *malfeito*). Read the translator's words, and check any claim about a word's history in a dictionary before repeating it. The scales are the crudest part: they put Seber's *şeytan* and Shishido's 鬼 at the same "more pitiable" point as Korbař's *zlým*.
 - **Twenty-one renderings show tendencies, not patterns of period or language.** Most languages have one or two, and six renderings are undated (the Liu Xinmin, Pareja and Torres Oliver translations are older than the editions quoted; three texts name no translator).

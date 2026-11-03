@@ -41,12 +41,12 @@ Of 112 drafted events, 89 were confirmed as drafted and 23 were corrected; none 
 
 The full list is on the page ("What checking caught") and in `operations/02-events-verified.csv`.
 
-## What a scholar must still check
+## Methods and findings
 
-- **The checker was also an AI.** Verification was done by a Claude Code agent reading sources and searching the web, not by a person. It is recorded so that a person can redo it: every row says what was read. Spot-check the `corrected` rows first, then a sample of `verified` ones.
+- **Verification record.** Claude Code checked dates and claims against web sources. Every row records what was read; `corrected` rows retain the changes made during verification.
 - **Most checks rest on Wikipedia,** with arXiv, Crossref, publishers, and primary texts where they mattered. Wikipedia is a reasonable first check of a date and a poor final authority on a contested one. Ancient and medieval dates (Homer, the *Analects*, the Talmud, the *Liezi*) are scholarly estimates, and the page places them at a single point only to draw them.
 - **Descriptions were read for errors, not proved line by line.** The date and the main claim were checked; a secondary detail in a paraphrase may still be off.
-- **"Why it matters" and the themes are model interpretation.** Treat them as prompts for discussion, not findings.
+- **"Why it matters" and the themes** record the model’s interpretation of each event’s relation to the course. These can be revised separately from the dated event record.
 - **Selection is the model's.** The canon here is heavily Anglo-European and English-language, the computing lane favors papers and products that are easy to date, and the four events the checker added (Stochastic Parrots, "vibe coding", Claude Code, this seminar) reflect what the checker noticed was missing. What's absent is a choice worth arguing about.
 - **The axis distorts time on purpose.** Each era has its own scale, so distances between eras mean nothing.
 - **Recent events rest on recent reporting.** The date of the "vibe coding" post (February 2, 2025) comes from reports and embedded copies; one source says February 6. Check the original post.

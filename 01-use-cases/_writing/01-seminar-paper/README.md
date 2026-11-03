@@ -17,33 +17,33 @@ The inputs → operations → outputs model in its oldest form.
 
 ## The run
 
-**"One Unvarying Answer: The *Phaedrus* and the Speaker Who Is Not There."**
-About 3,000 words. Socrates says the written word, questioned, "always gives
-one unvarying answer"; Shanahan says a dialogue agent, asked to regenerate,
-names a different object every time. The paper reads 275d–e as three charges,
-shows the living word of 276a answers all three, runs the agent past each,
-and concludes that the agent inverts Socrates's objection rather than
-refuting it, for the cause he names: no one is behind the words.
+**“Writing and Dialogue Agents: Plato, Shanahan, and Grice.”**
+The current paper is a complete rewrite: 5,013 words in continuous prose,
+followed by Works Cited and a method note. It makes one claim about how a
+conversation preserves a commitment, working through Plato's writing
+passage, the twenty-questions example and its footnote, and Grice's examples
+of conversational inference.
 
-What the model did: read Grice, Shanahan et al., and the whole *Phaedrus*
-(with Jowett's introduction); took notes; proposed eight angles; built the
-quote bank; outlined, drafted, judged, revised. What the writer did: chose the
-angle. Every step is a file in `notebook/work/`, so the whole thing can be
-read backwards from the paper to the passages.
+The original staged run remains in `notebook/work/`. The later revision adds
+[copied academic prose and annotations](notebook/academic-prose-models.md), an
+[argument audit](paper/academic-prose-audit.md), and reproducible
+[Pangram checks](paper/pangram/README.md) of the earlier draft and complete
+rewrite. The [revision record](paper/revision-record.md) distinguishes these
+stages and their source checks.
 
 ## Run it on your own question
 
 Read [`notebook/README.md`](notebook/README.md), then the steps in order.
-Three of them are yours by design: your seminar notes (`W01b`), the choice of
-thesis (`W03`), and your feedback on the draft (`W09`). This run skipped the
-first and third; yours need not.
+You can supply seminar notes (`W01b`), select the thesis (`W03`), and give
+feedback (`W09`), or delegate the choices and revision. This run used the
+writer’s chosen angle and proceeded without seminar notes or draft feedback.
 
 ## Rules the folder keeps
 
 - Texts are read whole. A note that says "read in full" means every line.
 - No quotation enters the draft that is not in the bank with its location.
 - The last step writes a short note on method from the files, so a reader
-  can see what ran. The course asks for that; it is also just useful.
+  can see what ran. The files make the process reproducible.
 
 The shape is adapted from a pipeline built for a Government seminar; the
 prompts are rewritten for literary and philosophical argument about texts.

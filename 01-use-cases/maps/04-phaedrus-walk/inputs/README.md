@@ -11,5 +11,5 @@ write elsewhere.
 | `pausanias-1.19-jones.json` | Pausanias, *Description of Greece* 1.19.1–6, trans. W. H. S. Jones (Loeb Classical Library, 1918): the Olympieion quarter, the Ilissos, Oreithyia and Boreas, the Ilissian Muses, Agrae and Artemis Agrotera, the Stadium of Herodes | Extracted 2026-11-03 from the Perseus TEI at <https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0525/tlg001/tlg0525.tlg001.perseus-eng2.xml> (reader view: <https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0160:book=1:chapter=19>). Editorial notes dropped. Public-domain text; TEI file CC BY-SA 4.0. |
 
 The texts are the same digital witnesses the pharmakon project (translation/03-phaedrus-pharmakon) documents in its README
-("Inputs: sources and copyright"); the caveats there apply, in particular that
+("Inputs: sources and copyright"); the edition notes there apply, including that
 Jowett's Gutenberg text is a transcription without the Stephanus apparatus.

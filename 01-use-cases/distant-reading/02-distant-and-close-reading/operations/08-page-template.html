@@ -353,7 +353,7 @@ if (chk) {
     <div class="stat"><b>${pct(chk.model.recall_pessimistic)}–${pct(chk.model.recall_estimate)}</b><span>rough range for recall across the corpus</span></div>
     <div class="stat"><b>${chk.keyword_on_same_sample.found_of_human_yes}</b><span>reader's yeses that the keyword search would have found</span></div>
   </div>
-  <div class="callout small"><b>This is a small check.</b> Thirty passages cannot pin down an error rate: one changed judgment moves precision by about 7 points, and the recall estimate rests on ${chk.sample.model_negative} negatives standing in for the whole remainder of the corpus: recall is ${esc(chk.model.recall_note)}. Treat these numbers as a smoke test, and redo the check yourself before relying on the model's labels. ${esc(chk.note || '')}</div>
+  <div class="callout small"><b>Sample size.</b> The check covers thirty passages. One changed judgment moves precision by about 7 points, and the recall estimate rests on ${chk.sample.model_negative} negatives standing in for the whole remainder of the corpus: recall is ${esc(chk.model.recall_note)}. Expand the sample or add another reader to compare the estimates. ${esc(chk.note || '')}</div>
   <div class="table-scroll"><table><thead><tr><th>#</th><th>passage</th><th>reader</th><th>model</th><th>keyword</th><th>reader's note</th></tr></thead><tbody>
   ${chk.rows.map((r, i) => `<tr class="click ${r.human !== r.model ? 'dis' : ''}" data-id="${r.id}"><td>${i + 1}</td><td>${esc(title[byId[r.id].t])}, ${esc(byId[r.id].s)}</td><td>${r.human ? 'yes' : 'no'}</td><td>${r.model ? 'yes (' + r.strength + ')' : 'no'}</td><td>${r.keyword ? 'yes' : ''}</td><td>${esc(r.note)}</td></tr>`).join('')}
   </tbody></table></div>`;

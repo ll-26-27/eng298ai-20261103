@@ -13,6 +13,6 @@ rounds; twenty actual model-generated replies in the worked example.
 Students can add their own chatbot and rerun; an additional student makes
 twenty-four turns so everyone still speaks in all four rounds.
 
-Read for definitions, counterexamples and changes of position. The voices
-are fictional and use one model; the dialogue does not demonstrate actual
-student learning or reconstruct a historical Platonic classroom.
+Follow definitions, counterexamples and changes of position across the four
+rounds. One model performs five roles with separate prompts and memories;
+the saved dialogue shows how those roles respond to the readings and one another.

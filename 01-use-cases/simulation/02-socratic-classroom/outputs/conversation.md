@@ -4,7 +4,7 @@ Fictional, model-generated meeting · 20 total turns · 5 personas.
 
 Model requested: `claude-sonnet-5-5`. Created: 2026-11-03T16:25:31.823885+00:00.
 
-Each turn was generated in a separate API call. Quotes below are the generated dialogue, not quotations from real people. This run is an exploration of authored roles, not evidence of community preferences.
+Each turn was generated in a separate API call. The dialogue follows authored personas, selected readings and a shared scenario. The complete request and response record accompanies it.
 
 [HTML view](index.html) · [Complete run data](conversation.json) · [Workshop guide](../README.md)
 
@@ -436,4 +436,4 @@ Reading: Treat this as a starting commitment that can be challenged, not an inst
 
 23 completed API calls (including validation retries). 112,349 input tokens; 7,401 output tokens. No dollar estimate is inferred from token counts.
 
-Speaker order is round-robin. Retrieval uses keyword overlap, with ties broken by card ID. All personas use the same model; agreement is not independent corroboration. See conversation.json and input-snapshot/ for the exact configuration and source hashes.
+Speaker order is round-robin. Retrieval uses keyword overlap, with ties broken by card ID. All personas use the same model with separate prompts and continuity memos. See conversation.json and input-snapshot/ for the exact configuration and source hashes.

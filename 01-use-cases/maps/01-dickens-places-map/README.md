@@ -48,7 +48,7 @@ Model answers and gazetteer lookups are cached in `operations/data/cache/`, so a
 
 To adapt it: swap the texts in `00-fetch-texts.mjs`, adjust the chapter-heading pattern in `01-clean-and-chunk.mjs`, and rewrite the prompt for your author and your question (a Paris novel, a travel narrative, a body of letters).
 
-## What a scholar must check
+## Methods and findings
 
 The numbers from this run: 1,290 chunks; 3,644 place mentions (counted once per passage); 1,116 distinct places; 586 of them on the map (496 located by the gazetteer, 90 estimated by the model), covering 2,705 of the 3,644 mentions. The other 530 places are listed beside the map, not dropped.
 

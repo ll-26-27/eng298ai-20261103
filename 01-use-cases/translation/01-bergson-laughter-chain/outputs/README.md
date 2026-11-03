@@ -14,8 +14,8 @@ and notes; the renderer makes the HTML and Markdown from that single record.
 `run.json` records the model, stages, token usage, and hashes. See
 `example/review.md` for the subsequent source and presentation checks.
 
-The same model wrote and critiqued the translation. This is a worked AI example,
-not a certified scholarly translation or evidence of a student’s review.
+The same model wrote and critiqued the translation. The saved stages record
+its revisions, and `review.md` records the subsequent source checks.
 
 Fresh runs go under `runs/` and leave the example intact. Compare the first
 draft and revision before deciding whether another loop would help.

@@ -186,7 +186,7 @@ The fairest answer, in my view, is that it is both. The definition was written w
 
 Step 5 is the guardrail. A script draws 30 passages at random with a fixed seed: 15 the model called scenes of instruction and 15 it did not, mixed together so the reader cannot tell which is which. The reader sees only the passage and the definition, records a yes or no with a note, and a second script scores the model against the reader. (Passages under 40 words were excluded from the draw, which is why the populations are 330 positives and 645 negatives rather than 330 and 652.)
 
-The project is candid about one thing that matters a great deal. **The reader in this check was Claude**, the agent that built the example (`anthropic/claude-opus-5.5`), reading the blind sheet before looking at the model's labels. That demonstrates the method; it is a model checking a model. The README says a person should delete the judgments file, redraw the sheet, and judge it before relying on the labels.
+**The reader in this check was Claude** (`anthropic/claude-opus-5.5`), reading the blind sheet before seeing the classifier’s labels. The comparison records agreement between those two readings. Another reader can use the same sheet and save a separate set of judgments alongside the original.
 
 ![The check section of the output page: summary figures and the first rows of the 30-passage table, with disagreements shaded.](images-light/07-check.png)
 
@@ -250,7 +250,7 @@ The page labels every reading "model interpretation · argue with it," and the p
 
 **Small slips.** The checks catch fabricated quotations, not careless prose: the *R.U.R.* reading contains "She would-be liberator." "Every quotation verified" means only that the words are in the passage.
 
-**What the reading does not know.** The model has no access to the critical conversation. The reading of `phaedrus-0025`, the non-lover's speech about a lover who keeps his beloved "wholly ignorant," notes that Socrates "speaks a speech he will soon recant," and asks whether Socratic philosophy escapes the charge of manipulative instruction. That is a real question, and a scholar of Plato would know where it has already been argued. The model's question is a starting point for a bibliography, not a substitute for one.
+**Extending the bibliography.** The reading step used the course passages without a secondary bibliography. The reading of `phaedrus-0025`, the non-lover's speech about a lover who keeps his beloved "wholly ignorant," notes that Socrates "speaks a speech he will soon recant," and asks whether Socratic philosophy escapes the charge of manipulative instruction. That question gives a subsequent bibliography search a concrete target: prior arguments about Socratic instruction, manipulation, and recantation.
 
 The open questions are the most useful part. The Waldman reading asks whether Victor's verdict that this day "decided my future destiny" is "an accurate account of influence, or ... Victor's attempt to shift authorship of his ruin onto a teacher." The *R.U.R.* epilogue reading asks whether Alquist's withholding of the formula is "a final act of teaching, a lesson that some knowledge must not be reproduced." Those are seminar questions, and they came out of a pipeline that began with a word count.
 

@@ -9,8 +9,8 @@ differ by version, plan, and institution.
 1. Sign in with the institutionally approved account for your chosen app.
 2. Download and unzip `eng298ai-20261103` into a folder containing only the
    workshop files.
-3. Do not use sensitive material until you have checked which data
-   classifications your institution permits for that provider and account.
+3. Identify the account, its data-handling terms, and the files the app
+   will receive. The examples use the supplied workshop collection.
 
 ## ChatGPT Desktop
 
@@ -42,7 +42,7 @@ For a longer Claude-specific Cowork guide, see
 ## In either app
 
 - Watch which files the assistant reads and changes.
-- Treat permission prompts as meaningful choices, not setup friction.
+- Set folder access to the project you are working on.
 - Keep originals in `inputs/`, reusable instructions in `operations/`, and new
   files in `outputs/`.
-- Check outputs against their source files before using them.
+- Keep source links and checks alongside the outputs.

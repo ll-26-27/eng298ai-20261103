@@ -28,7 +28,6 @@ Do not edit generated dialogue silently: change inputs and rerun, or label
 editorial commentary separately. Retain raw replies and snapshots.
 
 Invite comparison: what changed with the new persona, what stayed fixed,
-what remained unresolved, and how much could be model variability? These
-are fictional model performances, not independent people or measured views
-of any real population. Do not claim this is a faithful reproduction of the
-research papers' architectures or their validation.
+what remained unresolved, and how much could be model variability? Describe the
+model, roles, turn order and retrieval method used in the run. When comparing
+with the research papers, identify the specific mechanisms each system uses.

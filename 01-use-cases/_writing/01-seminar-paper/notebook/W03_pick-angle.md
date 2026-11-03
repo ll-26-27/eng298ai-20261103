@@ -1,12 +1,13 @@
 # W03 — Pick the angle; fix the claim
 
-**Runner: you decide; the model writes the result.** **Reads:** `work/W02_angles.md`. **Writes:** `work/W03_thesis.md`.
+**Runner: you or the model select; the model writes the result.** **Reads:** `work/W02_angles.md`. **Writes:** `work/W03_thesis.md`.
 
-## What you supply
+## Selection inputs
 
 - The chosen angle, or a merge of two.
 - Anything you already know you want in or out.
-- One sentence in your own words about why this one.
+- A reason for the choice. If selection is delegated, the model chooses from
+  `W02` and records its reasoning against the brief and available passages.
 
 ## What the model produces (one page)
 
@@ -18,5 +19,5 @@
 6. **Scope**: what the paper will not do.
 7. **Where AI will be used from here**, step by step, and where it will not. This line feeds `W10`.
 
-Stop and show the writer before `W04`. Nothing downstream starts until the
-claim's wording is approved.
+If the writer requested a checkpoint, show the claim before `W04`. For an
+end-to-end run, record the selected claim and continue.

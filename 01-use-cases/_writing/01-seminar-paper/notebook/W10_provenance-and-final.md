@@ -9,12 +9,12 @@ quotation; one citation style; length within the brief; title.
 
 ## 2. The note on method
 
-The syllabus asks that AI use be documented, explained, and reflected upon.
 Write a short closing section of `final.md` headed `## Note on method`: one
 paragraph, from the files in `work/`, not from memory, saying what the model
 did and what the writer did, step by step, with the model named; what was
-checked and against what; and the files in order. If the writer wants a
-reflection, they write it; otherwise the note stops at the facts.
+checked and against what; and the files in order. Use this record
+to explain the actual division of work. Add reflection if requested; attribute
+first-person experience only to the person who supplied it.
 
 ## 3. Render
 
@@ -25,5 +25,6 @@ python3 01-use-cases/_writing/01-seminar-paper/notebook/scripts/render_html.py \
 ```
 
 The script needs the `markdown` Python package (`pip install markdown`). It
-styles the `## How this paper was written` section as a provenance block
-with hanging indents.
+styles `## Works Cited` with hanging indents and `## Note on method` as a
+separate provenance block. Keep the essay continuous unless the brief calls
+for internal sections; do not insert decorative dividers between paragraphs.

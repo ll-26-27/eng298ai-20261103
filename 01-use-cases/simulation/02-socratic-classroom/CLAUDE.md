@@ -11,9 +11,8 @@ Default mode replays the saved dialogue. --live makes actual separate
 Claude calls, then renders a Markdown transcript and standalone HTML page.
 Never invent a run and label it API-generated. Keep original outputs intact.
 
-Socrates is an imagined contemporary facilitator, not the historical person
-or a claim to reconstruct Plato's views. Students have distinct initial
-claims, not fixed answers. Invite genuine disagreement within the fiction;
+Socrates facilitates a contemporary seminar inspired by the dialogue form.
+Students begin with distinct claims that can develop through the exchange. Invite genuine disagreement within the fiction;
 do not force all of them to arrive at the same conclusion or praise the tutor.
 
 Help students adapt inputs/templates/ and add the persona with --add-persona.
@@ -28,5 +27,5 @@ fabricating a transcript. Live API usage is separate from a subscription.
 
 Read the generated dialogue for actual counterexamples, revisions and open
 questions. Preserve raw responses and snapshots. Editorial interpretation
-belongs outside the speakers' words. A changed memo records a performed
-position, not proof of learning or observations about real students.
+belongs outside the speakers' words. Use the memos to track each
+speaker’s position, revisions and unresolved questions across the run.

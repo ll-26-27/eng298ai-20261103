@@ -69,14 +69,14 @@ Step 2 is research, not a script. To add a row, give `02-places-prompt.md` to Cl
 - **Al-Jazari's court.** Wikipedia's lead names the Artuklu Palace of the "Mardin branch" of the Artuqids; two other sources place him at Amid (Diyarbakır). The row uses Diyarbakır and records the disagreement.
 - **Premieres beat releases.** The timeline (maps/02-ai-and-literature-timeline) had already corrected the 1931 *Frankenstein* and *R.U.R.* dates; here the same care gives *Forbidden Planet* a premiere at a convention in Charlotte, North Carolina, rather than Hollywood, and *A.I.* a premiere in Venice.
 
-## What a scholar must check
+## Methods and findings
 
 - **The place rule is a convention, not a fact about the works.** Composition beats publication where documented, so *Frankenstein* is at Cologny and *Dorian Gray* at Tite Street, but *Erewhon* is at Paternoster Row because nothing opened says where Butler wrote it. Change the rule and the map moves. The `place_kind` column shows which clause each row used.
 - **Low-certainty rows are placements, not locations.** Homer at Smyrna, the Liezi at Nanjing, the Talmud at Ctesiphon, and the brazen head at Cologne stand for traditions and regions. They are dashed on the map and should not be read as points.
 - **"Headquarters" rows (34 of 80 are `medium`) locate organisations, not people.** Google, OpenAI, Anthropic, DeepMind, and Microsoft all have offices in many cities; a paper with no printed city is drawn at the company's seat.
 - **The `speaks` column is a reading.** It was decided from the source summaries and the course's descriptions, not from re-reading every work. Olimpia, the Liezi's artificial man, and Forster's Machine are marked unclear on purpose.
 - **Selection is inherited from the timeline (maps/02-ai-and-literature-timeline).** The imagined layer is exactly 03's made-beings lane, whose canon is heavily Anglo-European; the five added machines are the builder's choice. What is absent is worth arguing about. A.L.I.C.E., Jabberwacky, Eugene Goostman, Replika, and non-Western automata traditions beyond the Liezi and al-Jazari are not here.
-- **The research was done by a model.** Every place was checked against a page by Claude Code, not by a person, and the page opened is recorded per row. Spot-check the `medium` rows first.
+- **Research record.** Claude Code checked each place against the page recorded in its row. The `medium` rows identify placements with less direct source support.
 - **Coordinates are modern.** Nominatim knows today's map. Ctesiphon is drawn at the ruins; "Zoo Palast, Berlin" is the rebuilt cinema on the site of the Ufa-Palast; MIT and Stanford are their campuses now, not their 1966 and 1972 buildings.
 
 ## Models and cost

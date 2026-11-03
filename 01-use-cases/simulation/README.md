@@ -85,8 +85,8 @@ or four each if you add a fifth. Speakers take turns in roster order.
   a difference; both the input change and model variability may matter.
 
 The saved run abandons the first-person voice early, then narrows the scope
-after the budget cut. Payment and event estimates remain unresolved. That
-is material to read critically, rather than a finished policy recommendation.
+after the budget cut. Payment and event estimates remain unresolved. Those
+open decisions give the next run concrete questions to pursue.
 
 ## From one bot to communities and worlds
 
@@ -98,9 +98,10 @@ these performances; *RAG* supplies the retrieval background.
 
 This workshop makes a small part of that design visible: multiple roles,
 different knowledge, a shared history, memory, and changing conditions.
-It uses simple keyword retrieval and one model for all speakers. It does
-not reproduce those research systems, sample real people, or predict a
-community’s views. Agreement among these personas is not independent evidence.
+It uses keyword retrieval, a fixed speaking order, short continuity memos,
+and one model with separate contexts for each persona. The research papers
+provide more elaborate architectures to compare and extend. This run
+explores the behavior of the roles and conditions specified in the inputs.
 
 To level up, change one dimension: more people, competing goals, a different
 language, a larger archive, a different turn order, or tools that change a

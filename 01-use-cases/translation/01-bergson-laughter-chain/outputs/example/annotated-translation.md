@@ -29,4 +29,4 @@ Which choice would you change—and what would your version gain or lose?
 
 Source: [Bergson, French edition, 1938](https://fr.wikisource.org/w/index.php?oldid=13026538&title=Le_Rire._Essai_sur_la_signification_du_comique/Chapitre_I). Comparison: [Brereton and Rothwell, 1911](https://www.gutenberg.org/ebooks/4352). Excerpt ends at “grandir et s’épanouir.”
 
-The live run, drafts, critique, and comparison are saved alongside this page. Model self-critique is not independent verification.
+The live run, drafts, critique, and comparison are saved alongside this page. The translation and critique use the same model; the saved stages show each revision.

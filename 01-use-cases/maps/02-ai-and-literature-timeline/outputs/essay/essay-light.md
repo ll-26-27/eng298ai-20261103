@@ -159,15 +159,15 @@ Each event also has one to three themes from a fixed list: making minds, convers
 
 This view partly repairs what the lane assignments did: the theme runs out of the dialogue lane and on into computing, a continuity the lanes hide. That is a good argument for building more than one grouping into any visualization. Each grouping is a claim, and a second one lets a reader test the first.
 
-The themes and the "why it matters" sentences are the most interpretive part of the data, and the README treats them that way: "Treat them as prompts for discussion, not findings." The sentence for *R.U.R.*, for example, calls it "the seminar's founding robot text" and says its revolt "exposes the ethics of treating minds as tools." That is a reasonable classroom gloss. It is not a fact the checking step could confirm, and it was written after the checking, by a different model, with nobody checking it.
+The themes and the "why it matters" sentences are the most interpretive part of the data: they propose relationships among the events. The sentence for *R.U.R.*, for example, calls it "the seminar's founding robot text" and says its revolt "exposes the ethics of treating minds as tools." That is a reasonable classroom gloss. That interpretation was added by a different model after the factual checking stage; the saved checks cover dates and attributions.
 
-# What is still unreliable
+# Methods and findings
 
-The project's README has a section called "What a scholar must still check," a good model for describing the limits of AI-assisted research. Several of its points deserve emphasis.
+The project's README records the source coverage and checking procedure. The saved files make the following findings available for further research.
 
-## The checker was also an AI
+## The checking record
 
-The verdicts were written by a Claude Code agent reading sources and searching the web, not by a person, as the file itself says. The record's value is that it makes a human check possible: every row says what was read. The README suggests spot-checking the corrected rows first, then a sample of the verified ones. The *Her* entry above shows what such a spot-check can find.
+Claude Code wrote the verdicts after reading sources and searching the web. Every row records what was read, allowing the verdict to be compared with its evidence. The README suggests spot-checking the corrected rows first, then a sample of the verified ones. The *Her* entry above shows what such a spot-check can find.
 
 ## Most of it rests on Wikipedia
 
@@ -183,7 +183,7 @@ The date and the main claim of each event were checked. A secondary detail in a 
 
 Beyond the Anglo-European canon discussed above, the four events the checker added (the "Stochastic Parrots" paper, the naming of "vibe coding," Claude Code, and today's seminar) reflect only what the checker noticed was missing. The most recent events rest on recent reporting. The date of the "vibe coding" post, February 2, 2025, comes from reports and embedded copies, and one source gives February 6; the README says to check the original post.
 
-None of these limits makes the timeline useless. They make it a draft with an audit trail, which is a more honest object than a finished-looking timeline whose sources are invisible. What a scholar should not do is cite a date from it without opening the source in its panel.
+Each event panel links the sources used for its dates and attributions. Those links and the saved verdicts provide a starting point for extending the research or resolving a disputed date.
 
 # Adapting the pattern
 

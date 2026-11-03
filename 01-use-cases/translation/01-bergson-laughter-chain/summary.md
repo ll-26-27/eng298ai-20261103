@@ -1,4 +1,4 @@
-# Translation · purpose, workflow, limits
+# Translation · purpose, workflow, method
 
 **Question:** how does translating philosophical prose force us to choose
 between literal meaning, rhythm, historical usage, and readable English?
@@ -18,8 +18,8 @@ English text is withheld from drafting and initial revision to reduce anchoring.
 aligned by segment. The saved draft and critique let readers inspect what
 changed. The notebook and script share the same prompt files.
 
-**Limits:** the glossary is interpretive, not a verified etymological resource.
-The critic uses the same model as the translator. There is one published
-comparison, not a survey of translations. Automated checks enforce segment
-coverage and exact annotation quotations; they cannot certify a translation.
+**Method notes:** the glossary records lexical interpretations for this passage.
+The critic and translator use the same model. The chain uses one published
+comparison. Automated checks enforce segment coverage and exact annotation
+quotations; the aligned page exposes the translation choices for close reading.
 The output is a local HTML file that readers can explore in a browser.

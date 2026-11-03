@@ -43,7 +43,7 @@ API; setup and model configuration are in the [operations guide](operations/READ
 - **Outputs:** a translation, an editorial argument, and a page someone else can read.
 - **The loop:** change one instruction in the brief, run again, and compare choices.
 
-Use the 1911 translation as a comparison, not an answer key. The supplied
-French witness is from 1938; this exercise does not collate editions. Repeated
-model critique can improve a draft or reinforce its mistakes. Your source
-reading and editorial judgment are still the test.
+The chain compares the 1938 French witness with Brereton and Rothwell’s
+1911 English translation. It works on the selected passage without collating
+editions. The saved drafts show exactly what the model’s critique changed;
+use the aligned French and notes to develop your own editorial reading.

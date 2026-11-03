@@ -214,25 +214,25 @@ The two behaved in opposite ways. Claude Sonnet 5.5 answered only French (correc
 
 Two further sections use public-domain text. In step 7 a model only points: it returns the first and last words of the awakening scene in Saladin and Widtmann, and code cuts the translator's words out between them, so "the text we keep is always the translator's, never the model's paraphrase." Step 8 sorts every departure from Shelley into six categories: 13 for Saladin, eight of them "shift in meaning", and 12 for Widtmann, including three omissions. Shelley's plain "It was already one in the morning" becomes Saladin's *L'airain avait déjà sonné la première heure après minuit*, "the bronze had already struck the first hour after midnight", and her rain that "pattered dismally against the panes" becomes rain that *battait, avec un sifflement horrible*, "beat, with a horrible hissing". Step 9 adds a translate, critique, revise chain (Gemini translating, Claude Sonnet critiquing) so the model's French and German can stand beside the historical ones.
 
-# What to distrust, and how to adapt it
+# Methods, findings, and adaptation
 
-*The pipeline makes its weak points easy to see. A reader still has to look.*
+*The pipeline records the source checks and the interpretation attached to each passage.*
 
-## What a scholar must check
+## Methods and findings
 
-The README's section "What a scholar must check" is the most important text in the folder.
+The README’s “Methods and findings” section records the interpretation choices, source coverage and unresolved checks.
 
-- **The model's readings.** Back-translations, senses, notes and scores are interpretations. Some notes are speculative; the README names a Lermontov echo in Russian *демон* and a 2011 political ring for Brazilian *malfeito*. Of 47 flagged claims, eight were checked, and those eight produced one partial confirmation and one split verdict, so the unchecked ones deserve caution. Even a correct note can drift from what a word *can* mean to what a translator *meant*: the page marks that line for 鬼, but not for every note.
+- **The model's readings.** Back-translations, senses, notes and scores are interpretations. Some notes are speculative; the README names a Lermontov echo in Russian *демон* and a 2011 political ring for Brazilian *malfeito*. Of 47 flagged claims, eight were checked, and those eight produced one partial confirmation and one split verdict, leaving 39 claims without a recorded check. Even a correct note can drift from what a word *can* mean to what a translator *meant*: the page marks that line for 鬼, but not for every note.
 - **Dates and names.** Six renderings are undated; three texts name no translator; Liu Xinmin's name rests on a reading site's preface page. Maghelli's Italian was checked only against Wikiquote, the Grawes' against a magazine excerpt, Brinkman's against two reviews that never show "benevolent", Seber's against an essay. Widtmann's text comes from a 2009 reprint not checked against 1912.
 - **Transcriptions.** Most in-copyright quotations come from OCR or PDF text. Aleksandrova's Russian has an OCR slip where a comma belongs; Stevović's Serbian was read from a scan's text layer. Check page images before quoting in print.
-- **Sources.** Seven renderings were verified in copies that are probably unauthorised uploads. The page cites the printed editions and links none of them; the README leaves open whether a public repository should keep their URLs in the CSV. That is a real decision, and it is written down rather than made silently.
+- **Sources.** Seven renderings were checked against uploaded copies. The page cites the printed editions; the research records retain the source locations used for those checks.
 
 ## Adapting the pattern
 
 The project is a template for a common humanities question: how has a loaded text been carried into other languages or forms, and what did each carrier choose? A student could swap in another passage, author, or kind of rewriting (abridgements, children's editions, subtitles). What transfers is less the code than the habits:
 
 - **Choose a passage that is findable and overloaded.** A passage nobody quotes defeats the search; one with no hard words makes a dull matrix.
-- **Separate finding from reading.** Research may not translate and the reader may not find. Quotations come only from fetched sources, and a script re-finds them, so a reader can trust the left half of each card while doubting the right.
+- **Separate finding from reading.** Research may not translate and the reader may not find. Quotations come only from fetched sources, and a script re-finds them, so each card distinguishes source wording from the model's interpretation.
 - **Write the scheme down.** The sense lists, scales and categories are where the assumptions live. Expect to spend real thought on them, and expect a classmate to propose better ones.
 - **Let code check what code can check:** slots against quotations, quotations against sources, passages cut between words a model pointed to. That doesn't make an interpretation right, but it removes silent misquotation.
 - **Check the surprising claims, and say which you didn't.** Expanding the dictionary table from eight of 47 is the most valuable addition a student could make, and it needs no code: a dictionary, a concordance, a reader of the language.

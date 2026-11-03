@@ -1,4 +1,4 @@
-# Walking the *Phaedrus* · purpose, workflow, limits
+# Walking the *Phaedrus* · purpose, workflow, method
 
 **Question:** can the only Platonic dialogue set outside the city walls be
 followed on the ground, and what does it do to the argument about writing
@@ -24,7 +24,7 @@ control.
 per stop, two rival dashed candidates for the plane tree, and a sources panel
 that says which sources were opened.
 
-**Limits:** the plane tree has never been found and scholars disagree about
+**Method notes:** the plane tree has never been found and scholars disagree about
 its bank; the route is drawn, not excavated; the gate is unnamed in the text;
 the river runs in a culvert except beside Agia Fotini; the landmarks are
 modern features standing for ancient ones, some of them (the Stadium,

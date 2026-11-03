@@ -36,8 +36,9 @@ sort, and search**. Or you can **level up any part of the process**:
 | **Operations** | **Tools and loops:** build a search tool, compare passages, or save a process to repeat on each new batch of material. |
 | **Outputs** | **Form:** make an annotated edition, interactive map, searchable archive, or small app. Feed it into the next round of work. |
 
-The workshop use cases demonstrate these possibilities. You still choose
-the question, check the evidence, and decide what is worth sharing.
+The workshop use cases run these possibilities end to end. Set a question,
+delegate as much of the process as you want, and use the saved operations
+to inspect, revise, and extend the result.
 
 ## Start here
 
@@ -57,7 +58,7 @@ the question, check the evidence, and decide what is worth sharing.
 
 | Folder | Contents |
 |---|---|
-| [01-use-cases/](01-use-cases/README.md) | Worked examples in four groups: `_writing/` (books, notebook, paper), `translation/`, `maps/`, and `distant-reading/`. |
+| [01-use-cases/](01-use-cases/README.md) | Worked examples in five groups: `_writing/` (books, notebook, paper), `translation/`, `maps/`, `distant-reading/`, and `simulation/`. |
 | [02-your-project/](02-your-project/) | Your workspace: `inputs/`, `operations/`, and `outputs/`. |
 | [context/](context/README.md) | Shared context pack from `eng-298ai-context`: full-text course readings and AI papers, plus reading notes, in Markdown. |
 | [resources/](resources/README.md) | Glossary, setup guides, and handouts adapted from the desktop-app workshop. |

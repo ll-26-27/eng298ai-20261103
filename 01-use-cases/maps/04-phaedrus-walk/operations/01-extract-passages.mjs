@@ -23,7 +23,7 @@ const texts = join(here, "..", "inputs", "texts");
 // the first and last words of the same passage in Jowett's text, chosen by
 // reading Fowler and Jowett side by side. Where a Stephanus section ends in
 // the middle of a speech, the Jowett passage is cut at the nearest sentence
-// (see README, "What a scholar must check").
+// (see README, "Methods and findings").
 const STOPS = [
   {
     n: 1, id: "from-lysias", range: ["227a", "227b"],

@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "created_at": "2026-11-03T17:08:41.239261+00:00",
+  "source": "01-use-cases/_writing/01-seminar-paper/paper/final.md",
+  "source_sha256": "8063b7226901f80f171661bbf20a6a866fcfd105e3ff638a39c166da2316a4dd",
+  "input_sha256": "f22c52e47a0a7e91c6a92410b3b6daa3cf889b0c3f50d458d7c33baa84f97975",
+  "word_count": 5450,
+  "scope": "Essay body; title, bibliography and method note excluded; quotations retained.",
+  "endpoint": "https://text.external-api.pangram.com/task",
+  "public_dashboard_link": false,
+  "task_id": "54fc745b-dfd3-4f45-a877-407cd4c7e0e4",
+  "completed_at": "2026-11-03T17:13:06.441185+00:00"
+}

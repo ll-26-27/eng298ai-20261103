@@ -51,7 +51,7 @@ const method_html = `
 <li><strong>Translate, critique, revise</strong> (model judgment, optional): <code>07-chain.mjs</code>.</li>
 <li><strong>Build this page</strong> (deterministic): <code>08-build-page.mjs</code> inlines all the data into <code>08-page-template.html</code>.</li>
 </ol>
-<p><strong>Distrust:</strong> the categories (an interpretive scheme made for this page); the glosses, back-translations and "what these choices do" notes (a model's readings, which can smooth over what is strange); OCR'd texts (check a word against the page image before quoting it); and any row not marked verified. A ✓ proves the words are the translator's; it does not prove they render the Greek word they are filed under. In-copyright translations appear only as one cited word.</p>
+<p><strong>Interpretation and text checks.</strong> Categories, glosses, back-translations and editorial notes record the model’s reading of each passage. A ✓ marks an exact text match; slot alignment is recorded separately in the spot-check notes. OCR transcriptions can be compared with the linked page images. Verification status identifies unresolved source checks. In-copyright translations appear as one cited word.</p>
 <p class="small sans">Models: ${[...new Set([R.model, B.model, ...passages.filter(p => p.model).map(p => p.model)].filter(Boolean))].join(", ")} via OpenRouter. Full chain, costs and sources: <code>01-use-cases/translation/03-phaedrus-pharmakon/README.md</code>.</p>`;
 
 const data = {

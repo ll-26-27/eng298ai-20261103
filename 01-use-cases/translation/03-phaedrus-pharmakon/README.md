@@ -50,7 +50,7 @@ node 01-use-cases/translation/03-phaedrus-pharmakon/operations/08-build-page.mjs
 
 Step 1 is research, not a script: to redo it, give `01-inventory-prompt.md` to Claude Code, then edit the CSV by hand. To add a translation, add it to `inputs/texts/manifest.json` (public domain only: `id`, `language`, `translator`, `year`, `file`, `format` of `txt`, `html` or `tei`, `fetch_url`, and `encoding` if it isn't UTF-8), add a row with the same `id` to the CSV, and rerun from step 2. `03-locate-passage.mjs <id>` reruns one text. Step 5b is a reading, not a script: update it by hand when you add a version.
 
-## What a scholar must check
+## Methods and findings
 
 - **Which edition the words come from.** Almost every digital text is a later edition, reprint, or modernized transcription of the translation the timeline dates. Schleiermacher is dated 1804 but the text is his 1817 revision with modern spelling; Ficino is dated 1484 but the text is Bekker's 1816 reprint (not compared with the incunable); Karpov's 1863 text is in modernized Russian spelling on Wikisource; Witwicki's is a 2005 edition with modern spelling; Georgii's comes from a 1940 reprint; Wright's from a 1900 reprint. The CSV's `edition_used` column says which, and Jowett shows why it matters: his 1871 and 1892 editions render pharmakon differently.
 - **OCR.** Taylor (1792), Cary, Wright and Jowett 1871 come from Internet Archive OCR. Taylor's passage includes his long Neoplatonic footnotes, which the OCR runs into the text, and keeps the long s (ſ). Check any word against the page image before quoting it.

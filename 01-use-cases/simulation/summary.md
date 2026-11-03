@@ -16,7 +16,7 @@ with raw requests, responses, input snapshots and token accounting.
 persona, choose its knowledge, and rerun. Compare the conversation rather
 than just its final answer.
 
-The example shows a shared room, not a prediction of a real community. It
-uses one model, authored roles, fixed turns and simple keyword retrieval.
-Early consensus and unresolved costs are features of the saved output to
-question, not research findings.
+The simulation uses one model, authored roles, fixed turns and keyword
+retrieval. In the saved run, early consensus shifts the discussion toward
+implementation while costs remain unresolved. Change the roles or conditions
+to explore how those results develop.

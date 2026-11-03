@@ -7,8 +7,8 @@
 > Write the full paper from the outline. Constraints:
 > - Markdown; title, then the paper, then `## Works Cited`. Consistent citation style (MLA or Chicago author-date); passages located as the notes locate them (Stephanus numbers, chapters, pages).
 > - Length within the outline's budget. Do not pad.
-> - A graduate seminar paper by someone who reads well, not an article and not a blog. Direct sentences. First person where it does work ("I read this as"; "I want to resist that").
-> - Every verbatim quotation is copied from `W04_sources.md`, with its location. No new quotations. If the argument needs one that is not in the bank, stop and say so.
+> - Use `academic-prose-models.md`: copy and annotate the argumentative structure of supplied academic paragraphs before drafting. Write plain academic prose with explicit premises, exact terms, and worked textual examples. Establish a coherent argument before considering stylistic ornament.
+> - Every verbatim quotation is copied from `W04_sources.md`, with its location. No new quotations. If the argument needs another quotation, read the source, check its location, and add it to the bank before using it.
 > - The opening begins inside the passage. The claim is the last sentence of the opening section.
 > - Read before you assert: in the reading section, every claim about the text follows a quoted phrase, not the other way round.
 > - The AI paper is cited for a sentence it contains, with the page.

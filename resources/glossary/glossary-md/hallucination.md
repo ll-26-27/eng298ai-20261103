@@ -26,10 +26,9 @@ its way to.
 
 ## Why it matters in this workshop
 
-This is the workshop's core trust lesson: not "AI is unreliable," but *when* to
-check and *how* to set Claude up so it doesn't have to guess. Almost everything
-later — giving it [context](context.md), letting it run [code](tool-call.md) —
-is a defense against this.
+Match the operation to the task: use [code](tool-call.md) for arithmetic,
+source text for quotation, and retrieved [context](context.md) for specific
+factual claims. Save the result and the check so the next step can use both.
 
 ## See also
 

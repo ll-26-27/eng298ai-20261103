@@ -28,7 +28,7 @@ exercise ("All art is quite useless").
 | `inputs/` | The Preface, copied exactly; the original Wordle, cited | — |
 | `C1` | Find the words, drop stop words, count. Weight = count. | deterministic code |
 | `C2` | Size by count; place biggest first along a spiral from the centre line; swell for spacing; colour at random. | deterministic code |
-| `C3` | The page: clouds, text, counts, algorithm, caveats. | deterministic code |
+| `C3` | The page: clouds, text, counts, algorithm, design choices. | deterministic code |
 
 No model is involved anywhere in the chain. That is the point of including
 it: next to the other `_writing` examples, where the model reads, this is
@@ -89,7 +89,7 @@ in the Markdown), or feed a whole essay. `inputs/README.md` lists some cuts.
 - **Apostrophes and hyphens.** Feinberg's regex keeps them, so *art's* and
   *art* are different words, as are *subject-matter* and *subject*. That
   matches the original; it may not match what you want.
-- **The whole-text caveat.** "Merely counting words does not permit
+- **Whole-text counts.** "Merely counting words does not permit
   meaningful comparisons of like texts." A cloud of every chapter of a novel
   is a page of its protagonist's name. To see what makes one text unlike its
   neighbours you need a comparison corpus and a statistic, which this does

@@ -17,9 +17,9 @@ respond to one another, test examples, and can change their minds.
 | Iris | Learning means explaining why an answer is right. |
 | Sam | Learning can include knowing how to use people, notes and tools. |
 
-These are starting positions, not fixed personality types. The tutor has no
-answer key. This is an authored contemporary dialogue inspired by the form
-of Plato’s dialogues, not a historical reconstruction or a new text by Plato.
+Each student starts with a claim that can develop through the exchange.
+The tutor tests definitions with questions and examples. This contemporary
+classroom uses the dialogue form to put the course’s readings into motion.
 
 ## Inputs → operations → outputs
 
@@ -109,7 +109,6 @@ round; edit the roster in `inputs/config.json` to explore a different order.
 - What does the chatbot example leave unsettled about the very simulation
   you are reading?
 
-The memos record performed changes of position. They are not measurements
-of learning. All voices use one model; disagreement is authored and agreement
-is not independent corroboration. Compare repeated runs before attributing
-a difference to your new student alone.
+The memos track each speaker’s position across turns. All voices use one
+model with separate contexts. Compare several runs with and without your
+new student to explore both the input change and variation between runs.

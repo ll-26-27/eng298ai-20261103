@@ -16,7 +16,7 @@ The changes are in the inputs and prompts:
    the start of those rounds. The default five-person roster gives turns
    6, 11 and 16; a six-person roster gives turns 7, 13 and 19.
 4. Memos preserve each speaker’s current claim and unresolved question.
-   They provide continuity, not evidence that a model is learning.
+   The next turn receives that memo as part of the speaker’s context.
 
 The saved example was generated with the original explicit 20-turn schedule
 and prompts at 6, 11 and 16. Its snapshots retain those exact inputs. The

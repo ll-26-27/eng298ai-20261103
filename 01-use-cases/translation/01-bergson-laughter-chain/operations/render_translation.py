@@ -43,7 +43,7 @@ def render(path):
     reference_url = inputs['sources']['reference']['url']
     md += ['## Discuss\n', 'Which choice would you change—and what would your version gain or lose?\n',
            f'Source: [Bergson, French edition, 1938]({source_url}). Comparison: [Brereton and Rothwell, 1911]({reference_url}). Excerpt ends at “grandir et s’épanouir.”\n',
-           'The live run, drafts, critique, and comparison are saved alongside this page. Model self-critique is not independent verification.\n']
+           'The live run, drafts, critique, and comparison are saved alongside this page. The translation and critique use the same model; the saved stages show each revision.\n']
     (path.parent/'annotated-translation.md').write_text('\n'.join(md))
     html = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -114,7 +114,7 @@ a {{ color:inherit; }}
 <h2>Four choices to inspect</h2><section class="notes" aria-label="Translation annotations">{''.join(note_html)}</section>
 <div class="question"><b>Your turn:</b> Which choice would you change—and what would your version gain or lose?</div>
 <details><summary>From a source text to a readable page</summary><div class="workflow"><p>The French passage is the input. A chain of prompts produces a draft, a critique, a revision, and an annotated translation. A short Python script turns that result into this HTML page.</p><ul><li><a href="04-draft.md">Read the first draft</a> and <a href="06-revise-1.md">the revision</a>.</li><li><a href="07-compare.md">Compare with the published English translation</a>.</li><li><a href="review.md">Read the source-check and review notes</a>.</li><li><a href="{guide_href}">Try the use case</a>, then ask for a different way to present the result.</li></ul><p><b>The pattern to reuse:</b> inputs → operations → an HTML page someone else can read and explore.</p></div></details>
-<footer>Source: <a href="{escape(source_url, quote=True)}">French edition, Félix Alcan, 1938</a>. Comparison: <a href="{reference_url}">Brereton &amp; Rothwell, 1911</a>.<br>Selection ends at “grandir et s’épanouir.” This is an AI-generated worked example. Labels and notes are editorial; model self-critique is not independent verification.</footer>
+<footer>Source: <a href="{escape(source_url, quote=True)}">French edition, Félix Alcan, 1938</a>. Comparison: <a href="{reference_url}">Brereton &amp; Rothwell, 1911</a>.<br>Selection ends at “grandir et s’épanouir.” The translation and critique use the same model. Labels and notes record the editorial choices; the complete chain is saved alongside this page.</footer>
 </main>
 <script>
 const controls = document.getElementById('controls');

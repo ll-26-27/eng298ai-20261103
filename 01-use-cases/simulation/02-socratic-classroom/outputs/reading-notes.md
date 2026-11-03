@@ -1,10 +1,10 @@
-# Read against the dialogue
+# Follow the argument
 
 *Workshop editorial notes, written after the run. These are not additional
 turns, model judgments, or part of any participant's input.*
 
-The saved dialogue provides something to question, not a correct account
-of learning. Three places to pause:
+The saved dialogue develops several competing accounts of learning.
+Three places to pursue the argument:
 
 1. **Leonie, turns 2 → 7 → 17.** She begins with accurate unaided recall,
    concedes that this is not sufficient, and adds use in a later similar
@@ -22,5 +22,5 @@ of learning. Three places to pause:
 
 Try replacing one confident claim with a question. Or add a student whose
 role is to ask what the group can actually infer from the evidence it has.
-Keep these notes separate from the recorded dialogue; a polished page should
-not hide the model's leaps or make the seminar seem more resolved than it is.
+Keep these notes separate from the recorded dialogue; the recorded
+exchange and its editorial reading should remain separately inspectable.

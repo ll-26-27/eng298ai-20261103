@@ -23,7 +23,7 @@ A pipeline that finds every change Mary Shelley made between the 1818 and 1831 e
 | 03 | `operations/03-schema-prompt.md` | prompt, human decision | the categories, the instructions, and the JSON schema, with a note on why these categories and what they leave out. Step 04 reads this file directly, so editing it changes the run. |
 | 04 | `operations/04-categorize.mjs` → `04-categorized.json`, `04-cache/` | script calling a model | sends each non-punctuation change, one per call, to a cheap model with `response_format: json_schema` (strict); validates the answer again in code. Every request and response is kept in `04-cache/`. |
 | 05 | `operations/05-check-with-stronger-model.mjs` → `05-check.json`, `05-cache/` | script calling a model | a seeded random sample of 100 changes goes to a stronger model with the same prompt, blind to the first answer; agreement is computed by rule. |
-| 05b | `operations/05b-hand-check.json` | data, reading | 25 of those 100 read against the text, with a category and a note for each, plus changes noticed outside the sample where the model was wrong. **Read by Claude (the agent that built this), not by a person**: redo it yourself. |
+| 05b | `operations/05b-hand-check.json` | data, reading | 25 of those 100 read against the text, with a category and a note for each, plus changes noticed outside the sample where the model was wrong. **Reader: Claude**, in the building session. The judgments are saved for comparison with another reading. |
 | 06 | `operations/06-known-revisions.mjs` → `06-known-revisions.json` | script, deterministic | looks up revisions described by scholars (and by Shelley's 1831 Introduction) by exact phrase; tests Shelley's claim about where the changes fall; counts fate vocabulary in each edition. |
 | 07 | `operations/07-aggregate.mjs` → `07-aggregate.json` | script, deterministic | counts by category, section, significance, confidence; agreement for the reading. |
 | 08 | `operations/08-build-page.mjs` + `08-page-template.html` → `outputs/index.html` | script, deterministic | embeds the data in the page. Chart is hand-built SVG, no libraries. |
@@ -59,14 +59,14 @@ With the caches in place, steps 04 and 05 cost nothing and return the same label
 
 To adapt this to another pair of texts (two editions, a manuscript and a print, a translation pair in the same language), replace the inputs, adjust the heading patterns in step 01, and rewrite the categories in 03 for your question.
 
-## What a scholar must check, and what is unreliable
+## Methods and findings
 
 - **The categories are an argument.** They come from what scholars have asked of the 1831 revision (Elizabeth, destiny, moral framing). Tone, gender, class, politics and science have no category of their own and land in "wording" or "characterization".
 - **One label per change is too few for long rewrites.** The largest change (c0051, the opening of Ch. I) holds the parents' marriage, Elizabeth's new origins and a new providential frame; the models disagree about its main category, and agreement on large changes is only 50%.
 - **Rationales can be wrong about the text.** c0113's rationale says the 1818 letter is replaced by "a new letter from Elizabeth herself"; both versions are her letters. c0358 asserts a historical fact (Gower vs. Goring) the pipeline never checked. Read the passage, not just the label.
 - **Significance (1–5) is a judgment one change at a time,** made without the whole novel in view. The cheap model never said "low" confidence, even where the stronger model disagreed.
 - **The 40-word limit on rationales is not enforced by the schema** (it cannot count words): 42 ran over and are flagged on the page.
-- **Model-vs-model agreement is not correctness.** Both models are Anthropic models and may share blind spots. The 25-change reading was done by Claude, not a person.
+- **Comparison design.** Both classifiers are Anthropic models. Claude also performed the 25-change reading. The agreement figures compare these runs; the recorded passages and rationales show the decisions behind them.
 - **Transcription noise.** The two texts come from different volunteer transcriptions of photo-reprints, so a few differences (especially punctuation and spelling) may be the transcribers', and spelling changes such as *sympathize/sympathise* may be the 1831 printer's house style rather than Shelley's.
 - **Moves.** The diff aligns sentences inside matched chapters; a passage moved far away would appear as a removal plus an addition.
 

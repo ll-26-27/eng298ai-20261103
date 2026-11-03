@@ -29,7 +29,7 @@ def render(path, case=None):
     md = [f'# {data["title"]}: conversation\n',
           f'Fictional, model-generated meeting · {len(data["turns"])} total turns · {len(people)} personas.\n',
           f'Model requested: `{data["model_requested"]}`. Created: {data["created"]}.\n',
-          'Each turn was generated in a separate API call. Quotes below are the generated dialogue, not quotations from real people. This run is an exploration of authored roles, not evidence of community preferences.\n',
+          'Each turn was generated in a separate API call. The dialogue follows authored personas, selected readings and a shared scenario. The complete request and response record accompanies it.\n',
           f'[HTML view](index.html) · [Complete run data](conversation.json) · [Workshop guide]({guide})\n',
           '## Starting situation\n', data['scenario'].split('\n',1)[1].strip()+'\n']
     articles = []
@@ -53,7 +53,7 @@ def render(path, case=None):
         articles.append(f'''<article class="turn" data-speaker="{e(turn['speaker'])}" style="--speaker:{color[turn['speaker']]}" id="turn-{turn['number']}">
 <div class="turn-meta"><a href="#turn-{turn['number']}" class="turn-number" aria-label="Turn {turn['number']}">{turn['number']:02d}</a><strong>{e(turn['name'])}</strong><span>{e(people[turn['speaker']]['role'])}</span></div>
 <div class="speech"><p class="utterance">{e(turn['utterance'])}</p><p class="citations">Cards cited: {e(cites)}</p>
-<details class="inspect"><summary>See this turn’s inputs &amp; memo</summary><p class="explain">The speaker received the shared conversation, revealed events, its own persona and memo, and these {len(turn['supplied_cards'])} cards. A citation records the model’s declared use; it does not verify the claim.</p>{''.join(cards)}
+<details class="inspect"><summary>See this turn’s inputs &amp; memo</summary><p class="explain">The speaker received the shared conversation, revealed events, its own persona and memo, and these {len(turn['supplied_cards'])} cards. Citations record which supplied cards the speaker used. Open the source to follow the connection.</p>{''.join(cards)}
 <div class="memo"><h4>Previous memo</h4><p>{e(turn['memory_before']) if turn['memory_before'] else 'First turn: no previous memo.'}</p><h4>Memo saved for next turn</h4><p>{e(turn['memory'])}</p><small>A short continuity record, visible here for inspection.</small></div>
 <p class="raw-link"><a href="raw/{turn['number']:02d}-request.json">Exact request</a> · <a href="conversation.json">Complete run data</a></p></details></div></article>''')
     md += ['## Knowledge-card key\n', 'Quotes were checked against their source files before the run. “Reading” is a workshop interpretation, not part of the quotation.\n']
@@ -61,7 +61,7 @@ def render(path, case=None):
         for card in person['cards']:
             source = 'Authored workshop material' if card['source']=='authored' else f'[Source]({link_from(out, REPO/card["source"])})'
             md += [f'### {card["id"]} · {card["title"]} ({person["name"]})\n', '> '+card['quote'].replace('\n','\n> ')+'\n', f'{card["locator"]} {source}\n', f'Reading: {card["reading"]}\n']
-    md += ['## Run record\n', f'{len(data["calls"])} completed API calls (including validation retries). {data["totals"]["input_tokens"]:,} input tokens; {data["totals"]["output_tokens"]:,} output tokens. No dollar estimate is inferred from token counts.\n', 'Speaker order is round-robin. Retrieval uses keyword overlap, with ties broken by card ID. All personas use the same model; agreement is not independent corroboration. See conversation.json and input-snapshot/ for the exact configuration and source hashes.\n']
+    md += ['## Run record\n', f'{len(data["calls"])} completed API calls (including validation retries). {data["totals"]["input_tokens"]:,} input tokens; {data["totals"]["output_tokens"]:,} output tokens. No dollar estimate is inferred from token counts.\n', 'Speaker order is round-robin. Retrieval uses keyword overlap, with ties broken by card ID. All personas use the same model with separate prompts and continuity memos. See conversation.json and input-snapshot/ for the exact configuration and source hashes.\n']
     (out/'conversation.md').write_text('\n'.join(md), encoding='utf-8')
     profiles = ''.join(f'''<details class="person" style="--speaker:{color[p['id']]}"><summary><span class="avatar">{e(p['name'][0])}</span><span><b>{e(p['name'])}</b><small>{e(p['role'])}</small></span></summary><p>{e(p['system'])}</p><a href="{e(link_from(out, case/p['file']))}">Edit persona</a> · <a href="{e(link_from(out, case/p['knowledge']))}">Read knowledge cards</a><small class="snapshot-note">Prompt shown above is the saved run’s version; edit links open current inputs.</small></details>''' for p in data['personas'])
     filters = '<button type="button" data-filter="all" aria-pressed="true">Everyone</button>' + ''.join(f'<button type="button" data-filter="{e(p["id"])}" aria-pressed="false">{e(p["name"])}</button>' for p in data['personas'])
