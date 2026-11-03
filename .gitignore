@@ -27,3 +27,6 @@ context/LL-readings/pdfs/
 # local Python environments and notebook state
 .venv/
 .ipynb_checkpoints/
+
+# the writing examples keep their run files in notebook/work/, which the work/ rule above would hide
+!**/notebook/work/
