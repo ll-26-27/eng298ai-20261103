@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793709529-Z9C7t0MmGe7D4KuRe4Nx",
+  "object": "chat.completion",
+  "created": 1793709529,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"It was in November, during a dreadful night, that I saw the accomplishment of my labours. In an anxiety close to agony, I gathered around me the instruments suited to giving life, in order to introduce a spark of existence into that inanimate matter which was at my feet. The bronze had already struck the first hour after midnight; the rain beat, with a horrible hissing, against my windows; my light was close to going out, when, by that wavering glimmer, I saw the yellow and stupid eye of the creature open: it breathed with force, and its limbs were agitated by a convulsive movement.\\n\\nHow to describe what I felt at this sight, or how to paint the unfortunate being whose formation had cost me so many efforts, pains, and cares? His limbs were of a just proportion, and the features I had given him were no less beautiful. Beautiful!... great God! his yellow skin barely covered the system of muscles and arteries: his flowing hair was a shining black; his teeth were white as pearls; but these advantages formed only a more horrible contrast with insipid eyes, which seemed almost the same colour as their white and dark sockets; a wrinkled skin, and black lips pressed tight against one another.\",\"changes\":[{\"shelley\":\"dreary night of November\",\"translation\":\"Ce fut en novembre, pendant une nuit affreuse\",\"back_translation\":\"It was in November, during a dreadful night\",\"category\":\"intensification\",\"rationale\":\"\\\"Dreary\\\" (gloomy, bleak) becomes \\\"affreuse\\\" (dreadful, frightful), a stronger and more fearful word.\"},{\"shelley\":\"the lifeless thing that lay at my feet\",\"translation\":\"cette matière inanimée qui était à mes pieds\",\"back_translation\":\"that inanimate matter which was at my feet\",\"category\":\"softening\",\"rationale\":\"\\\"Thing\\\" with its note of horror becomes the more abstract, scientific \\\"matière\\\"; \\\"lifeless\\\" becomes the technical \\\"inanimée\\\".\"},{\"shelley\":\"It was already one in the morning\",\"translation\":\"L'airain avait déjà sonné la première heure après minuit\",\"back_translation\":\"The bronze had already struck the first hour after midnight\",\"category\":\"domestication\",\"rationale\":\"A plain time statement becomes a literary, poetic image of a tolling bell (\\\"l'airain\\\"), which also adds a sound not in the source.\"},{\"shelley\":\"the rain pattered dismally against the panes\",\"translation\":\"la pluie battait, avec un sifflement horrible, contre mes fenêtres\",\"back_translation\":\"the rain beat, with a horrible hissing, against my windows\",\"category\":\"intensification\",\"rationale\":\"Gentle \\\"pattered\\\" becomes the more violent \\\"battait\\\" with an added \\\"horrible hissing\\\"; \\\"dismally\\\" becomes \\\"horrible\\\".\"},{\"shelley\":\"my candle was nearly burnt out\",\"translation\":\"ma lumière était près de s'éteindre\",\"back_translation\":\"my light was close to going out\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Candle\\\" becomes the generic \\\"lumière\\\" and \\\"burnt out\\\" becomes \\\"going out\\\", a small loss of concreteness; may be partly stylistic.\"},{\"shelley\":\"the glimmer of the half-extinguished light\",\"translation\":\"cette lueur vacillante\",\"back_translation\":\"that wavering glimmer\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Half-extinguished\\\" (dying) becomes \\\"vacillante\\\" (flickering), changing the image from fading to unsteady.\"},{\"shelley\":\"the dull yellow eye\",\"translation\":\"l'œil jaune et stupide\",\"back_translation\":\"the yellow and stupid eye\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Dull\\\" (lacklustre) becomes \\\"stupide\\\", which suggests lack of intelligence (or possibly stupefaction) rather than lack of shine.\"},{\"shelley\":\"I had selected his features as beautiful\",\"translation\":\"les traits que je lui avais donnés n'étaient pas moins beaux\",\"back_translation\":\"the features I had given him were no less beautiful\",\"category\":\"shift in meaning\",\"rationale\":\"The deliberate act of choosing (\\\"selected\\\") becomes \\\"giving\\\", and the claim is weakened to \\\"no less beautiful\\\" (comparison with the proportions).\"},{\"shelley\":\"the work of muscles and arteries beneath\",\"translation\":\"le système des muscles et des artères\",\"back_translation\":\"the system of muscles and arteries\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Work\\\" (the labour or workings beneath) becomes the anatomical \\\"système\\\", giving a more clinical register and dropping \\\"beneath\\\".\"},{\"shelley\":\"these luxuriances\",\"translation\":\"ces avantages\",\"back_translation\":\"these advantages\",\"category\":\"softening\",\"rationale\":\"The sensuous, excessive \\\"luxuriances\\\" is flattened into the neutral \\\"advantages\\\".\"},{\"shelley\":\"his watery eyes\",\"translation\":\"des yeux insipides\",\"back_translation\":\"insipid eyes\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Watery\\\" (moist, physical) becomes \\\"insipides\\\" (dull, lacking expression); the sense is plausibly a figurative reading of \\\"watery\\\" but loses the liquid image.\"},{\"shelley\":\"the dun white sockets\",\"translation\":\"leurs blanches et sombres orbites\",\"back_translation\":\"their white and dark sockets\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Dun white\\\" (a dingy off-white) is split into two separate adjectives, \\\"white\\\" and \\\"dark\\\", which alters the colour comparison on which the horror depends.\"},{\"shelley\":\"straight black lips\",\"translation\":\"des lèvres noires et serrées l'une contre l'autre\",\"back_translation\":\"black lips pressed tight against one another\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Straight\\\" (a flat line) becomes \\\"pressed together\\\", which suggests a clenched expression rather than a shape.\"}],\"note\":\"The French is generally faithful in structure and sequence, but it tends to heighten the Gothic atmosphere (\\\"affreuse\\\", \\\"sifflement horrible\\\", the tolling \\\"airain\\\") while rendering Shelley's physical details in a more abstract or clinical register (\\\"matière inanimée\\\", \\\"système des muscles\\\", \\\"avantages\\\"). Several descriptive words shift in sense (\\\"dull\\\" to \\\"stupide\\\", \\\"watery\\\" to \\\"insipides\\\", \\\"dun white\\\" to \\\"blanches et sombres\\\"), which may reflect the difficulty of rendering precise English colour and texture terms rather than a deliberate strategy. The overall effect is somewhat more rhetorical and less physically exact than the original.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1980,
+    "completion_tokens": 2215,
+    "total_tokens": 4195,
+    "cost": 0.02611,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.02611,
+      "upstream_inference_prompt_cost": 0.00396,
+      "upstream_inference_completions_cost": 0.02215
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

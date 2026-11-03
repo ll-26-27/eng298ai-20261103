@@ -1,0 +1,13 @@
+{
+  "note": "Shelley's English, cut deterministically from the Project Gutenberg texts by 00-fetch-texts.mjs.",
+  "location": {
+    "en-1818": "Volume II, Chapter II",
+    "en-1831": "Chapter 10"
+  },
+  "key_sentences": [
+    "I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
+    "I was benevolent and good; misery made me a fiend."
+  ],
+  "en-1818": "Remember, that I am thy creature: I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed. Every where I see bliss, from which I alone am irrevocably excluded. I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous.",
+  "en-1831": "Remember that I am thy creature; I ought to be thy Adam, but I am rather the fallen angel, whom thou drivest from joy for no misdeed. Everywhere I see bliss, from which I alone am irrevocably excluded. I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous."
+}

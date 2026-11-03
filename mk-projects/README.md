@@ -15,11 +15,11 @@ Six worked examples of using AI tools to research and present work on texts. Eve
 - **Operations:** code cuts each novel into chunks by chapter → a model lists every place name in each chunk, with a quote → code merges them into an inventory (1,116 places) → a free gazetteer (OpenStreetMap's Nominatim) finds coordinates; a model estimates a few it can't → a short brief on what the map should show.
 - **Output:** a map of London, Britain, and abroad. Tick novels on and off, show only scenes set at a place, set a minimum number of mentions, or search for a place; click a circle to read its passages. Dashed circles are the model's guesses.
 
-## 02 · *Frankenstein* in translation
+## 02 · *Frankenstein* in translation: the creature's plea
 
-- **Inputs:** the 1818 and 1831 English texts, the first French (1821) and German (1912) translations, and short quoted lines from many later translations, each cited.
-- **Operations:** research and verify the first translation into 25 languages → find one loaded line in as many translations as possible → a model back-translates each and notes the connotations each translator's words add → a comparison across all of them.
-- **Output:** the English line and each translation side by side, with key words highlighted and connotation notes; a matrix of how each key word was rendered; below, a timeline of first translations by language. *(Being reworked this morning; this entry will be updated.)*
+- **Inputs:** the 1818 and 1831 English texts, the 1821 French and 1912 German translations, and the plea ("I ought to be thy Adam; but I am rather the fallen angel … misery made me a fiend") quoted from 19 later translations, each cited to its printed edition.
+- **Operations:** find the plea in 21 translations across 14 languages, 1821–2025 → code re-finds each quotation in its source → a model back-translates each and notes what its words add (fiend as devil, demon, ogre, enemy…), some checked against dictionaries → a model compares what each translator highlighted or muted. Below that, the first translation into 25 languages, researched and verified.
+- **Output:** a card per translation with key words highlighted, back-translation, and connotation notes; a matrix of how *Adam*, *fallen angel*, *benevolent*, *misery*, and *fiend* were rendered; a grid placing each version between demonic and pitiable, biblical and secular; the synthesis; then the first-translations timeline.
 
 ## 03 · A timeline of AI and literature
 

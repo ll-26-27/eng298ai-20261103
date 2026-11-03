@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793709590-c5hw7Sv8kBKKjNRjUdPs",
+  "object": "chat.completion",
+  "created": 1793709590,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "Ce fut par une morne nuit de novembre que je vis l'accomplissement de mes labeurs. Avec une anxiété qui confinait à l'agonie, je rassemblai autour de moi les instruments de vie, afin d'insuffler une étincelle d'existence à la chose inanimée qui gisait à mes pieds. Il était déjà une heure du matin ; la pluie tambourinait lugubrement contre les vitres, et ma bougie était presque consumée, lorsque, à la lueur demi-éteinte, je vis s'ouvrir l'œil terne et jaunâtre de la créature ; elle respira péniblement, et un mouvement convulsif agita ses membres.\n\nComment décrire mes émotions devant cette catastrophe, ou comment dépeindre le misérable qu'avec des peines et des soins si infinis je m'étais efforcé de former ? Ses membres étaient bien proportionnés, et j'avais choisi ses traits pour leur beauté. De la beauté ! — Grand Dieu ! Sa peau jaune couvrait à peine le travail des muscles et des artères sous-jacents ; sa chevelure était d'un noir lustré, ondoyante ; ses dents d'une blancheur de nacre ; mais ces richesses ne formaient qu'un contraste plus horrible avec ses yeux aqueux, qui semblaient presque de la même couleur que les orbites d'un blanc grisâtre où ils étaient enchâssés, son teint flétri et ses lèvres noires et rectilignes.\n\n---\n1. Partially rejected: while Victor echoes the concept, \"De la beauté !\" sounds vastly more natural as a French exclamation of bitter mockery than the abrupt and awkward plural adjective \"Beaux !\".\n2. Accepted: \"ces richesses\" renders Shelley’s sense of abundant, luxurious physical attributes much better than \"luxes\".\n3. Accepted: \"aqueux\" accurately captures the pale, fluid, washed-out physical quality without the emotional connotations of \"larmoyants\".\n4. Accepted: changing \"dreary\" to \"morne\" frees up \"lugubrement\" for \"dismally\", and \"tambourinait\" better evokes the dull pattering of rain against glass than \"crépitait\".\n5. Accepted: \"le travail des muscles et des artères\" is more faithful to the anatomical and mechanical sense of Shelley's \"work\" than \"lacis\".\n6. Accepted: the syntactic coordination was smoothed by removing the clashing \"et\" and using \"ondoyante\" alongside \"d'un noir lustré\".\n7. Accepted: \"rectilignes\" resolves the ambiguity of \"droites\" by clearly rendering the rigid, uncurved line of the creature's mouth.\n8. Accepted: \"d'un blanc grisâtre\" restores the dingy tone of \"dun\" while avoiding repeating \"terne\", and \"flétri\" translates \"shrivelled\" without the intrusive metaphor of \"parcheminé\".",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a19invAmP4fLzXZsrtsak1tUDK9/Uu5E1BeuXquHTAuWuA2hhYo35ZwdKFMx0bmRkmmhuJdBDBDqCVWudDflsThuhPxmvHmjUzDMjzQbm7OOsSi1",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1588,
+    "completion_tokens": 627,
+    "total_tokens": 2215,
+    "cost": 0.00354225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00354225,
+      "upstream_inference_prompt_cost": 0.001191,
+      "upstream_inference_completions_cost": 0.00235125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

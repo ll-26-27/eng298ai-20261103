@@ -4,28 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Frankenstein in Translation</title>
-<meta name="description" content="The first translations of Mary Shelley's Frankenstein, language by language: a verified inventory, a timeline and map, and one passage compared across translations.">
+<meta name="description" content="How translators of Mary Shelley's Frankenstein rendered the creature's plea, 'I ought to be thy Adam... misery made me a fiend': verified renderings across languages and periods, their connotations, and a comparison; plus the first translation in each of 25 languages.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <style>
 :root {
   --bg: #fbfaf7; --surface: #ffffff; --surface-2: #f3f1ec; --border: #e2ded5;
   --ink: #1d1c1a; --ink-2: #55524b; --ink-3: #807c72; --accent: #8a2a1c; --accent-soft: #f4e4df;
-  --mark: #fff1b8; --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100; --c5: #e87ba4; --c6: #008300;
+  --mark: #fff1b8; --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100; --c5: #e87ba4; --c6: #008300; --c7: #6250d6; --c-none: #b9b5ab;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif; --sans: Inter, system-ui, -apple-system, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #161615; --surface: #1e1e1c; --surface-2: #262624; --border: #3a3935;
     --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #96948b; --accent: #e8836f; --accent-soft: #3a2420;
-    --mark: #5a4a12; --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300;
+    --mark: #5a4a12; --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c-none: #5b5952;
   }
 }
 :root[data-theme="dark"] {
   --bg: #161615; --surface: #1e1e1c; --surface-2: #262624; --border: #3a3935;
   --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #96948b; --accent: #e8836f; --accent-soft: #3a2420;
-  --mark: #5a4a12; --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300;
+  --mark: #5a4a12; --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c-none: #5b5952;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -52,13 +51,11 @@ a { color: var(--accent); }
 #timeline .row { cursor: pointer; }
 #timeline .row:hover .hit, #timeline .row.sel .hit { fill: var(--surface-2); }
 #timeline .row.sel text.lang { font-weight: 600; fill: var(--accent); }
-#map { height: 460px; border-radius: 10px; border: 1px solid var(--border); z-index: 0; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 13px var(--sans); color: var(--ink-2); margin: 10px 0 0; }
 .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; border: 2px solid var(--ink); }
 .legend i.verified { background: var(--ink); }
 .legend i.partly { background: linear-gradient(90deg, var(--ink) 50%, transparent 50%); }
 .legend i.unverified { border-style: dashed; border-color: var(--ink-3); }
-.legend.map i { border-color: #8a2a1c; } .legend.map i.verified { background: #8a2a1c; } .legend.map i.partly { background: rgba(138,42,28,.35); } .legend.map i.unverified { border-color: #6b675e; background: none; }
 #detail { margin-top: 24px; scroll-margin-top: 16px; }
 .rec { display: grid; grid-template-columns: 150px 1fr; gap: 6px 16px; font-size: 16px; margin: 12px 0 0; }
 .rec dt { font: 500 13px/1.6 var(--sans); color: var(--ink-3); }
@@ -95,36 +92,120 @@ th { font-weight: 600; color: var(--ink-3); font-size: 12px; letter-spacing: .04
 ol.chain li { margin-bottom: 10px; }
 .yes { color: var(--c6); font-weight: 600; } .no { color: var(--accent); font-weight: 600; } .na { color: var(--ink-3); }
 footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--border); font: 13px/1.6 var(--sans); color: var(--ink-3); }
-.leaflet-container { font-family: var(--sans); background: var(--surface-2); }
-.leaflet-popup-content { font: 14px/1.4 var(--sans); }
 .empty { color: var(--ink-3); font-style: italic; }
+.passage-en { font-size: 22px; line-height: 1.5; max-width: 860px; margin: 8px 0 0; }
+.passage-en .k { border-bottom: 2px solid var(--accent); }
+.passage-en .k.sel { background: var(--accent-soft); }
+.kwbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 8px; font-family: var(--sans); align-items: center; }
+.kwbar span.lbl { font-size: 13px; color: var(--ink-3); margin-right: 4px; }
+.kwbar button { font: 500 14px var(--sans); background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 99px; padding: 6px 13px; cursor: pointer; }
+.kwbar button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.senses { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 13px var(--sans); color: var(--ink-2); margin: 6px 0 18px; }
+.senses span::before { content: ""; display: inline-block; width: 11px; height: 11px; border-radius: 3px; background: var(--c); margin-right: 6px; vertical-align: -1px; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 900px) { .cards { grid-template-columns: minmax(0, 1fr); } }
+.rcard { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; scroll-margin-top: 16px; }
+.rcard header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; align-items: baseline; }
+.rcard h3 { margin: 0; font-size: 19px; }
+.rcard h3 span { font-weight: 400; color: var(--ink-2); }
+.rcard .cite { font: 12.5px/1.45 var(--sans); color: var(--ink-3); margin: 4px 0 10px; overflow-wrap: anywhere; }
+.rcard .q { font-size: 17px; line-height: 1.55; margin: 0 0 10px; }
+.rcard .bt { font-size: 15px; color: var(--ink-2); margin: 0 0 10px; }
+.rcard .bt::before { content: "Back-translation (model): "; font: 600 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.kw { border-bottom: 2px solid var(--c-none); border-radius: 2px; cursor: help; }
+.kw.sel { background: color-mix(in srgb, var(--c) 26%, transparent); border-bottom-color: var(--c); }
+details.cd summary { font: 600 13px var(--sans); color: var(--accent); cursor: pointer; margin: 4px 0 6px; }
+.conn { list-style: none; margin: 0; padding: 0; font: 14px/1.5 var(--sans); color: var(--ink-2); }
+.conn li { padding: 6px 0; border-top: 1px solid var(--border); }
+.conn b { color: var(--ink); font-weight: 600; }
+.conn .kind { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); margin-right: 6px; }
+.flag { font: 600 11px var(--sans); color: var(--accent); margin-left: 6px; }
+.tag { display: inline-block; font: 600 10.5px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 99px; border: 1.5px solid currentColor; color: var(--ink-2); }
+.tag.cr { color: var(--accent); border-style: dashed; }
+.hl { font: 14px/1.5 var(--sans); margin: 8px 0 0; color: var(--ink-2); }
+.hl b { color: var(--ink); }
+table.mx td.cell { min-width: 120px; }
+table.mx td.cell.sel { background: color-mix(in srgb, var(--c) 22%, transparent); }
+table.mx th.sel { color: var(--accent); }
+table.mx .w { font-family: var(--serif); font-size: 15px; display: block; }
+table.mx .g { color: var(--ink-3); font-size: 12px; display: block; }
+table.mx .s { font-size: 11px; color: var(--ink-2); display: block; margin-top: 2px; }
+.scale { display: grid; grid-template-columns: 110px repeat(5, minmax(0, 1fr)); gap: 4px; font: 12.5px/1.35 var(--sans); }
+.scale .h { color: var(--ink-3); text-align: center; padding: 4px; }
+.scale .rh { color: var(--ink-3); padding: 6px 4px; }
+.scale .c { background: var(--surface-2); border-radius: 6px; padding: 6px; min-height: 44px; }
+.scale .c.mid { outline: 1.5px dashed var(--border); }
+.scale .c a { display: block; color: var(--ink); text-decoration: none; margin-bottom: 3px; }
+.scale .c a:hover { color: var(--accent); }
+@media (max-width: 700px) { .scale { grid-template-columns: 70px repeat(5, minmax(0, 1fr)); font-size: 11px; } }
+.synth p { max-width: 820px; }
+.contrast { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; margin: 14px 0; }
+.dict td, .dict th { font-size: 13.5px; }
 </style>
 </head>
 <body>
 <main>
   <header class="top">
     <div class="kicker">ENGLISH 298AI · Use case 02 · inputs → operations → outputs</div>
-    <h1>How <em>Frankenstein</em> travelled</h1>
-    <p class="lede">The first translation of Mary Shelley's novel into each of <span id="nLang"></span> languages, checked against library catalogues and published studies, and one passage, the creature's awakening, followed into the translations we can legally read.</p>
-    <div class="stats" id="stats"></div>
+    <h1>Adam, angel, <em>fiend</em></h1>
+    <p class="lede">How translators of <i>Frankenstein</i>, across languages and two centuries, have rendered the creature's plea to his maker, and what their words bring with them that Shelley's do not.</p>
+    <div class="stats" id="fstats"></div>
   </header>
 
   <section>
-    <h2>First translations, by year</h2>
-    <p class="sub">Each row is a language; the dot is the year of its first translation of the novel. Filled dots are confirmed in a catalogue or a scholarly source; half-filled are confirmed in part; dashed rings are leads we could not confirm. Click a row or a city on the map for the record.</p>
-    <div class="grid2">
-      <div class="card" id="timeline"></div>
-      <div>
-        <div id="map" role="region" aria-label="Map of places of publication"></div>
-        <div class="legend map"><span><i class="verified"></i>verified</span><span><i class="partly"></i>partly verified</span><span><i class="unverified"></i>unverified</span><span>larger circle: more than one language</span></div>
-        <p class="sans" style="font-size:13px;color:var(--ink-3);margin:8px 0 0">Places are cities of publication, placed at the city centre. Several languages can share a city.</p>
-      </div>
-    </div>
-    <div id="detail" class="card"></div>
+    <h2>The plea</h2>
+    <p class="sub" id="whyline"></p>
+    <p class="passage-en" id="passage-en"></p>
+    <p class="sans" style="font-size:13px;color:var(--ink-3);margin:10px 0 0" id="passage-cite"></p>
   </section>
 
   <section>
-    <h2>One passage, translated four ways</h2>
+    <h2>The translations</h2>
+    <p class="sub">Every rendering below was found in a source we can point to and re-checked by a script where the source allows it; none comes from a model's memory. Translations still in copyright are quoted only for the two key sentences, with a full citation. Pick a key word to colour its rendering in every translation by sense. The back-translations, senses and connotation notes are <b>a model's interpretation</b> (Claude Opus 5.5), not facts; notes marked “check” make claims a dictionary should confirm, and the ones we checked are listed further down.</p>
+    <div class="kwbar" id="kwbar"></div>
+    <div class="senses" id="senses"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section>
+    <h2>Each key word, across the translations</h2>
+    <p class="sub">Rows are renderings in order of first publication; columns are Shelley's key words. Each cell gives the translator's words, a literal gloss, and the sense they were sorted into. The selected column is coloured by sense; click a column heading to switch. A dash means the word falls outside the quoted sentences.</p>
+    <div class="card scroll"><table class="mx" id="matrix"></table></div>
+  </section>
+
+  <section>
+    <h2>More demonic or more pitiable? More biblical or more secular?</h2>
+    <p class="sub">Each rendering placed by the model on two five-point scales relative to Shelley (the centre cell is “as in Shelley”). This is the crudest reading on the page: use it to find renderings worth reading side by side, not as a measurement.</p>
+    <div class="card" id="scale"></div>
+  </section>
+
+  <section>
+    <h2>Compare and contrast</h2>
+    <p class="sub" id="synth-sub"></p>
+    <div class="card synth" id="synth"></div>
+    <div id="contrasts"></div>
+  </section>
+
+  <section>
+    <h2>Checking the surprising claims</h2>
+    <p class="sub">Connotation notes the model flagged for checking, and the ones we looked up in a dictionary or reference work.</p>
+    <div class="card scroll" id="dict"></div>
+  </section>
+
+  <section>
+    <h2 style="margin-top:72px">Where it started: the first translation in each language</h2>
+    <p class="sub">The novel's first translation into each of <span id="nLang"></span> languages, checked against library catalogues and published studies. Filled dots are confirmed in a catalogue or a scholarly source; half-filled are confirmed in part; dashed rings are leads we could not confirm. Click a row for the record.</p>
+    <div class="stats" id="stats" style="margin:0 0 18px"></div>
+
+    <div class="grid2">
+      <div class="card" id="timeline"></div>
+      <div id="detail" class="card" style="margin-top:0"></div>
+    </div>
+    <div class="legend"><span><i class="verified"></i>verified</span><span><i class="partly"></i>partly verified</span><span><i class="unverified"></i>unverified</span></div>
+  </section>
+
+  <section>
+    <h2>A second passage: the awakening, translated four ways</h2>
     <p class="sub">The opening of the creature's awakening (1818, vol. I, ch. IV), in the 1821 French translation and in translations made for this page by a model, each one-shot and after a critique by a second model. Every version is back-translated into English by a third pass and its departures from Shelley sorted into six categories. Hover a change to see it in both texts. The categories are an interpretive choice for teaching, not an established taxonomy.</p>
     <div class="tabs" id="ptabs"></div>
     <div id="pview"></div>
@@ -139,34 +220,164 @@ footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--border
 
   <section>
     <h2>What the models remembered</h2>
-    <p class="sub">Before any research, two models were asked for the same inventory from memory, with no web access (step 1a). Here is what they said beside what the catalogues say. One model declined most rows; the other answered every row with confidence.</p>
+    <p class="sub">Before any research, two models were asked for the inventory of first translations from memory, with no web access (step 6a). Here is what they said beside what the catalogues say. One model declined most rows; the other answered every row with confidence.</p>
     <div class="card scroll" id="memory"></div>
   </section>
 
   <section>
     <h2>How this page was made</h2>
     <div class="card">
-      <ol class="chain">
-        <li><b>Draft from memory</b> (model judgment, step 1a): two models list candidate first translations without web access. These are leads only.</li>
-        <li><b>Verify every row</b> (research, step 1b): agents with web search checked each language against national library catalogues, WorldCat, digitized title pages, and published reception studies, recording the URLs; anything not confirmed is marked unverified. The result is <code>01b-translations-inventory.csv</code>.</li>
-        <li><b>Compare memory with research</b> (deterministic code, step 1c).</li>
-        <li><b>Locate the passage</b> (model points, code checks, step 2): a model returns the first and last words of the matching passage; code finds those exact words in the file and cuts the translator's text out, so the passage is never the model's paraphrase.</li>
-        <li><b>Back-translate and categorize</b> (model judgment with a fixed JSON schema, step 3); code then checks that every quoted phrase really occurs in its text.</li>
-        <li><b>Translate → critique → revise</b> (model judgment, step 4).</li>
-        <li><b>Build this page</b> (deterministic code, step 5): all data is embedded inline so the file opens without a server.</li>
+      <ol class="chain" start="0">
+        <li><b>Fetch the texts</b> (deterministic code, step 0): download the public-domain texts and cut Shelley's passages out of the 1818 and 1831 editions.</li>
+        <li><b>Find the renderings</b> (research, step 1): agents with web search looked for the plea in full texts, previews and criticism in many languages, copying each quotation from a page they fetched, with its citation and copyright status. The lead session reconciled them into <code>01-renderings.csv</code>.</li>
+        <li><b>Re-find every quote</b> (deterministic code, step 2): a script re-reads each source (or the local public-domain file) and confirms the quotation is there; sources a script can't read are marked.</li>
+        <li><b>Read each rendering</b> (model judgment with a JSON schema, step 3): back-translation, the translator's word for each key word with a literal gloss and a sense from a fixed list, and notes on the connotations; code checks that each copied word is in the quote.</li>
+        <li><b>Compare and contrast</b> (model judgment, then edited by hand, step 4).</li>
+        <li><b>Check the surprising claims</b> (research, step 5): the flagged connotation claims we looked up in dictionaries.</li>
+        <li><b>The first translations</b> (step 6): two models draft the list from memory (6a); agents verify every row against catalogues and studies (6b); code compares the two (6c).</li>
+        <li><b>The awakening</b> (steps 7 to 9): a model points to the passage in each public-domain translation and code cuts it out (7); a model back-translates and categorizes the changes (8); a translate, critique, revise chain (9).</li>
+        <li><b>Build this page</b> (deterministic code, step 10): all data is embedded inline so the file opens without a server.</li>
       </ol>
       <p class="sans" style="font-size:14px;color:var(--ink-2)" id="costline"></p>
     </div>
-    <div class="note"><b>What to distrust.</b> “First translation” depends on what counts: abridgements, serials, and translations of stage or film versions often came earlier than a full translation of the novel, and catalogues miss small presses. Back-translations are a model's reading and can smooth over what makes a translation strange. The change categories are judgments. Rows marked unverified are leads, not facts. Translations still in copyright appear here as metadata and links only.</div>
+    <div class="note"><b>What to distrust.</b> The connotation notes, senses, scales and back-translations are a model's readings: read the translator's words, and check any claim about a word's history in a dictionary. A dozen or two renderings can suggest a pattern, not prove one. “First translation” depends on what counts: abridgements, serials, and translations of stage or film versions often came earlier than a full translation of the novel, and catalogues miss small presses. Back-translations are a model's reading and can smooth over what makes a translation strange. The change categories are judgments. Rows marked unverified are leads, not facts. Translations still in copyright appear here as metadata and links only.</div>
   </section>
 
   <footer>
-    Built <span id="gen"></span> for ENGLISH 298AI, Seminar 9. Texts: Project Gutenberg (public domain). Map tiles and data © OpenStreetMap contributors. Generated by <code>operations/05-build-page.mjs</code>; edit the data files and rerun rather than editing this page.
+    Built <span id="gen"></span> for ENGLISH 298AI, Seminar 9. Texts: Project Gutenberg (public domain). Quotations from translations still in copyright are limited to two sentences each, for comparison, with full citations. Generated by <code>operations/10-build-page.mjs</code>; edit the data files and rerun rather than editing this page.
   </footer>
 </main>
 
 <script>const DATA = /*__DATA__*/null;</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+// ---------- the comparison at the centre of the page ----------
+(() => {
+  const F = DATA.fiend; if (!F) return;
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const $ = id => document.getElementById(id);
+  const SLOTS = F.slots;
+  const R = F.renderings.slice().sort((a, b) => (+a.year || 9999) - (+b.year || 9999) || a.language.localeCompare(b.language));
+  let SEL = "fiend";
+  const senseColor = (slot, sense) => {
+    const s = SLOTS.find(x => x.key === slot); const i = s ? s.senses.indexOf(sense) : -1;
+    if (sense === "omitted" || sense === "erased by paraphrase") return "var(--c-none)";
+    if (sense === "other" || i < 0) return "var(--c7)";
+    return `var(--c${Math.min(i + 1, 6)})`;
+  };
+  // A short name for tight spaces: family names come first in Chinese and Japanese.
+  const shortName = r => /not (named|identified)/.test(r.translator) ? "unnamed" : (w => /Chinese|Japanese/.test(r.language) ? w[0] : w[w.length - 1])(r.translator.replace(/\(.*?\)/g, "").trim().split(/\s+/));
+
+  // stats
+  const langs = new Set(R.map(r => r.language)), pd = R.filter(r => /public domain/.test(r.copyright_us)).length;
+  const yrs = R.map(r => +r.year).filter(Boolean);
+  $("fstats").innerHTML = [[R.length, "renderings"], [langs.size, "languages"], [yrs.length ? `${Math.min(...yrs)}–${Math.max(...yrs)}` : "–", "years"], [pd, "public domain, quoted in full"], [R.length - pd, "in copyright, two sentences quoted"]]
+    .map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+
+  // the English
+  $("whyline").innerHTML = F.why;
+  const en = F.passage["en-1818"];
+  const enMarks = SLOTS.map(s => [s.key, s.shelley]);
+  function markEnglish() {
+    let h = esc(en);
+    for (const [k, w] of enMarks) h = h.replace(esc(w), m => `<span class="k${k === SEL ? " sel" : ""}" data-k="${k}">${m}</span>`);
+    $("passage-en").innerHTML = `“${h}”`;
+  }
+  $("passage-cite").innerHTML = `Mary Shelley, <i>Frankenstein; or, The Modern Prometheus</i> (London, 1818), ${esc(F.passage.location["en-1818"])}; the 1831 text (${esc(F.passage.location["en-1831"])}) differs only in punctuation. Text: <a href="https://www.gutenberg.org/ebooks/41445" target="_blank" rel="noopener">Project Gutenberg #41445</a>.`;
+
+  // key-word buttons
+  function renderBar() {
+    $("kwbar").innerHTML = `<span class="lbl">Colour by key word:</span>` + SLOTS.map(s => `<button data-k="${s.key}" aria-pressed="${s.key === SEL}">${esc(s.shelley.replace(/^(thy|the|a|for no|whom thou) /, ""))}</button>`).join("");
+    const s = SLOTS.find(x => x.key === SEL);
+    $("senses").innerHTML = s.senses.map(x => `<span style="--c:${senseColor(SEL, x)}">${esc(x)}</span>`).join("") + `<span style="--c:var(--c-none)">omitted</span>`;
+  }
+  $("kwbar").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (b) { SEL = b.dataset.k; renderAll(); } });
+
+  function markQuote(r) {
+    const text = r.quote, x = r.reading; if (!x) return esc(text);
+    const ranges = [];
+    const fold = t => t.toLowerCase();
+    for (const s of SLOTS) {
+      const sl = x.slots[s.key]; if (!sl || !sl.rendering || !sl.found) continue;
+      let i = text.indexOf(sl.rendering); if (i < 0) i = fold(text).indexOf(fold(sl.rendering)); if (i < 0) continue;
+      const j = i + sl.rendering.length;
+      if (ranges.some(([a, b]) => i < b && j > a)) continue;
+      ranges.push([i, j, s.key, sl]);
+    }
+    ranges.sort((a, b) => a[0] - b[0]);
+    let h = "", p = 0;
+    for (const [i, j, k, sl] of ranges) {
+      h += esc(text.slice(p, i)) + `<span class="kw${k === SEL ? " sel" : ""}" style="--c:${senseColor(k, sl.sense)}" title="${esc(`${SLOTS.find(s => s.key === k).shelley} → “${sl.gloss}” (${sl.sense})`)}">${esc(text.slice(i, j))}</span>`;
+      p = j;
+    }
+    return h + esc(text.slice(p));
+  }
+
+  function renderCards() {
+    $("cards").innerHTML = R.map(r => {
+      const x = r.reading || {}, chk = r.check || {}, per = (F.perRendering || {})[r.id];
+      const cr = !/public domain/.test(r.copyright_us);
+      const status = chk.status ? (chk.status === "found" ? "quote re-found by script" : chk.status === "not checkable by script" ? "source not script-readable: checked by hand" : `script check: ${chk.status}`) : "";
+      const conn = (x.connotations || []).map(c => {
+        const d = (F.dictionary || []).find(d => d.id === r.id && d.word === c.word);
+        return `<li><span class="kind">${esc(c.kind)}</span><b>${esc(c.word)}</b>: ${esc(c.note)}${c.check ? (d ? ` <span class="flag">checked: ${esc(d.verdict)}</span>` : ` <span class="flag">check</span>`) : ""}</li>`;
+      }).join("");
+      return `<article class="rcard" id="r-${esc(r.id)}">
+        <header><h3>${esc(r.language)} <span>${esc(r.year || "n.d.")}</span></h3><span class="tag${cr ? " cr" : ""}">${cr ? "in copyright · quoted" : "public domain"}</span></header>
+        <div class="cite">${esc(r.translator)}. ${esc(r.edition_quoted)}. ${r.source_flag ? `Verified in an online copy that is probably an unauthorised upload, so not linked here.` : `<a href="${esc(r.source_url)}" target="_blank" rel="noopener">source</a> (${esc(r.source_type)}).`} ${esc(status)}</div>
+        <p class="q">${markQuote(r)}</p>
+        ${x.back_translation ? `<p class="bt">${esc(x.back_translation)}</p>` : ""}
+        ${conn ? `<details class="cd"><summary>Connotations: ${(x.connotations || []).length} notes (model interpretation)</summary><ul class="conn">${conn}</ul></details>` : ""}
+        ${per ? `<p class="hl"><b>Highlights:</b> ${esc(per.highlighted)} <b>Mutes:</b> ${esc(per.muted)}</p>` : ""}
+        ${r.notes ? `<p class="hl" style="color:var(--ink-3)">${esc(r.notes)}</p>` : ""}
+      </article>`;
+    }).join("");
+  }
+
+  function renderMatrix() {
+    let h = `<thead><tr><th>year</th><th>language · translator</th>${SLOTS.map(s => `<th data-k="${s.key}" class="${s.key === SEL ? "sel" : ""}" style="cursor:pointer">${esc(s.shelley)}</th>`).join("")}</tr></thead><tbody>`;
+    h += `<tr><td>1818</td><td><b>English · Shelley</b></td>${SLOTS.map(s => `<td class="cell"><span class="w">${esc(s.shelley)}</span></td>`).join("")}</tr>`;
+    for (const r of R) {
+      const x = r.reading; if (!x) continue;
+      h += `<tr><td>${esc(r.year || "n.d.")}</td><td><a href="#r-${esc(r.id)}">${esc(r.language)} · ${esc(r.translator)}</a></td>`;
+      for (const s of SLOTS) {
+        const sl = x.slots[s.key];
+        if (!sl || sl.sense === "not in quote") { h += `<td class="cell"><span class="g">–</span></td>`; continue; }
+        const c = senseColor(s.key, sl.sense);
+        h += `<td class="cell${s.key === SEL ? " sel" : ""}" style="--c:${c}"><span class="w">${sl.rendering ? esc(sl.rendering) : "<em>omitted</em>"}</span><span class="g">${esc(sl.gloss)}</span><span class="s">${esc(sl.sense)}${sl.found === false ? " · not found in quote" : ""}</span></td>`;
+      }
+      h += `</tr>`;
+    }
+    $("matrix").innerHTML = h + "</tbody>";
+    $("matrix").querySelectorAll("th[data-k]").forEach(th => th.onclick = () => { SEL = th.dataset.k; renderAll(); });
+  }
+
+  function renderScale() {
+    const cols = [-2, -1, 0, 1, 2], rows = [-2, -1, 0, 1, 2];
+    const colName = ["much more demonic", "more demonic", "as in Shelley", "more pitiable", "much more pitiable"];
+    const rowName = ["much more biblical", "more biblical", "as in Shelley", "more secular", "much more secular"];
+    let h = `<div class="scale"><div></div>${colName.map(c => `<div class="h">${c}</div>`).join("")}`;
+    rows.forEach((y, yi) => {
+      h += `<div class="rh">${rowName[yi]}</div>`;
+      cols.forEach(xv => {
+        const here = R.filter(r => r.reading && r.reading.demonic_pitiable === xv && r.reading.biblical_secular === y);
+        h += `<div class="c${xv === 0 && y === 0 ? " mid" : ""}">${here.map(r => `<a href="#r-${esc(r.id)}" title="${esc(r.reading.scales_reason)}">${esc(r.language)} ${esc(r.year)}<br><span style="color:var(--ink-3)">${esc(shortName(r))}</span></a>`).join("")}</div>`;
+      });
+    });
+    $("scale").innerHTML = h + `</div><p class="sans" style="font-size:12px;color:var(--ink-3);margin:10px 0 0">Scores by ${esc(R.find(r => r.reading)?.reading.model || "the model")}; hover a name for its reason.</p>`;
+  }
+
+  function renderSynth() {
+    $("synth-sub").innerHTML = F.synthesisNote;
+    $("synth").innerHTML = F.synthesisHtml || `<p class="empty">Not yet written.</p>`;
+    $("contrasts").innerHTML = "";
+    const d = F.dictionary || [];
+    $("dict").innerHTML = d.length ? `<table class="dict"><thead><tr><th>rendering</th><th>word</th><th>the model's claim</th><th>what the reference says</th><th>verdict</th></tr></thead><tbody>${d.map(x => `<tr><td>${esc(x.label)}</td><td class="q">${esc(x.word)}</td><td>${esc(x.claim)}</td><td>${esc(x.finding)} ${x.source_url ? `<a href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_label || "source")}</a>` : ""}</td><td><b>${esc(x.verdict)}</b></td></tr>`).join("")}</tbody></table>` : `<p class="empty">No checks recorded yet.</p>`;
+  }
+
+  function renderAll() { renderBar(); markEnglish(); renderCards(); renderMatrix(); }
+  renderAll(); renderScale(); renderSynth();
+})();
+</script>
 <script>
 (() => {
   const inv = DATA.inventory.slice().sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999) || a.language.localeCompare(b.language));
@@ -217,40 +428,6 @@ footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--border
     g.addEventListener("click", () => select(g.dataset.lang, true));
     g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(g.dataset.lang, true); } });
   });
-
-  // ---------- map ----------
-  let map = null;
-  try {
-    map = L.map("map", { scrollWheelZoom: false, worldCopyJump: true }).setView([45, 20], 2);
-    // Esri's light gray canvas, not tile.openstreetmap.org: it needs no API key and loads from a page
-    // opened by double-clicking (file://), which OSM's servers can refuse ("403 Access blocked").
-    const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
-    L.tileLayer(ESRI + "World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
-      maxZoom: 16,
-      attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors',
-    }).addTo(map);
-    L.tileLayer(ESRI + "World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16 }).addTo(map);
-    const byPlace = {};
-    inv.filter(r => r.lat != null && r.lon != null).forEach(r => (byPlace[`${r.lat},${r.lon}`] ??= []).push(r));
-    const pts = [];
-    for (const rows of Object.values(byPlace)) {
-      const r0 = rows[0], k = rows.some(r => statusKey(r.status) === "verified") ? "verified" : rows.some(r => statusKey(r.status) === "partly") ? "partly" : "unverified";
-      // The map tiles are light in both themes, so markers use fixed dark inks rather than the theme tokens.
-      const ink = "#8a2a1c", ink3 = "#6b675e";
-      const m = L.circleMarker([r0.lat, r0.lon], {
-        radius: 6 + 2 * rows.length, color: k === "unverified" ? ink3 : ink, weight: 2,
-        dashArray: k === "unverified" ? "3 3" : null, fillColor: ink, fillOpacity: k === "verified" ? 0.85 : k === "partly" ? 0.35 : 0,
-      }).addTo(map);
-      m.bindTooltip(`${esc(r0.place)}: ${rows.map(r => `${esc(r.language)} ${r.year || "?"}`).join(", ")}`);
-      m.bindPopup(`<b>${esc(r0.place)}</b><br>${rows.map(r => `<a href="#detail" data-pick="${esc(r.language)}">${esc(r.language)}</a>, ${r.year || "no date"}`).join("<br>")}`);
-      m.on("click", () => { if (rows.length === 1) select(r0.language, false); });
-      pts.push([r0.lat, r0.lon]);
-    }
-    if (pts.length) map.fitBounds(pts, { padding: [30, 30], maxZoom: 4 });
-    $("map").addEventListener("click", e => { const a = e.target.closest("[data-pick]"); if (a) { e.preventDefault(); select(a.dataset.pick, true); } });
-  } catch (e) {
-    $("map").innerHTML = `<p class="empty" style="padding:16px">The map needs an internet connection (Leaflet and the map tiles load from the web). The timeline and records work offline.</p>`;
-  }
 
   // ---------- detail ----------
   function select(lang, scroll) {

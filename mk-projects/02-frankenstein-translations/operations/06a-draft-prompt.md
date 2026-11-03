@@ -1,6 +1,6 @@
 ---
-title: "Step 1a prompt: draft candidate first translations from model memory"
-description: The prompt sent by 01a-draft-candidates.mjs. The model answers from memory, with no web access, so its answer is a list of leads to check, not facts.
+title: "Step 6a prompt: draft candidate first translations from model memory"
+description: The prompt sent by 06a-draft-candidates.mjs. The model answers from memory, with no web access, so its answer is a list of leads to check, not facts.
 author: claude
 ---
 

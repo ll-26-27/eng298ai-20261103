@@ -1,8 +1,8 @@
-// Step 2 (model-assisted, then checked by code): find the anchor passage in each translation.
+// Step 7 (model-assisted, then checked by code): find the anchor passage in each translation.
 // The model reads the translated text and returns the passage's first and last words VERBATIM.
 // Code then searches for those words in the file and cuts out the passage itself, so the text we keep
 // is always the translator's, never the model's paraphrase. If the words aren't found, the row fails loudly.
-// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/02-locate-passage.mjs
+// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/07-locate-passage.mjs
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { chat, readJSON, writeJSON, ROOT, OPS } from "./lib/openrouter.mjs";
@@ -39,7 +39,7 @@ function normalize(s) {
 }
 
 const results = [];
-const previous = (() => { try { return readJSON(join(OPS, "02-passages.json")).passages; } catch { return []; } })();
+const previous = (() => { try { return readJSON(join(OPS, "07-passages.json")).passages; } catch { return []; } })();
 
 for (const t of texts.filter(t => t.language !== "English")) {
   let raw = readFileSync(join(dir, t.file), "utf8").replace(/\r/g, "");
@@ -65,7 +65,7 @@ TEXT:
 """
 ${raw}
 """`;
-  const { json } = await chat({ step: `02-locate-${t.id}`, model: MODEL, messages: [{ role: "user", content: prompt }], schema, schemaName: "passage_location", maxTokens: 4000, reasoning: { effort: "low" } });
+  const { json } = await chat({ step: `07-locate-${t.id}`, model: MODEL, messages: [{ role: "user", content: prompt }], schema, schemaName: "passage_location", maxTokens: 4000, reasoning: { effort: "low" } });
 
   const full = readFileSync(join(dir, t.file), "utf8").replace(/\r/g, "");
   const n = normalize(full);
@@ -89,5 +89,5 @@ ${raw}
 
 // Keep any hand-checked passages from earlier runs for texts not processed this time.
 for (const p of previous) if (!results.find(r => r.id === p.id)) results.push(p);
-writeJSON(join(OPS, "02-passages.json"), { anchor_location: anchor.location, passages: results });
-console.log("-> operations/02-passages.json");
+writeJSON(join(OPS, "07-passages.json"), { anchor_location: anchor.location, passages: results });
+console.log("-> operations/07-passages.json");

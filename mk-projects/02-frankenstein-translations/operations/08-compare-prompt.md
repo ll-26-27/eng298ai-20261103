@@ -1,6 +1,6 @@
 ---
-title: "Step 3 prompt: back-translate a passage and categorize what changed"
-description: The instructions 03-backtranslate-compare.mjs sends with each located passage. The category list is an interpretive choice, kept short on purpose.
+title: "Step 8 prompt: back-translate a passage and categorize what changed"
+description: The instructions 08-backtranslate-compare.mjs sends with each located passage. The category list is an interpretive choice, kept short on purpose.
 author: claude
 ---
 

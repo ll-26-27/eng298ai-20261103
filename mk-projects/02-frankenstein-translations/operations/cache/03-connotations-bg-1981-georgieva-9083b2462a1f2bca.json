@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718947-iqi81z3E2dpmrIVyoKGM",
+  "object": "chat.completion",
+  "created": 1793718947,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I ought to be your Adam, but I am rather the fallen angel whom, without guilt, you deprive of joy. … I was meek and good, but the evil lot turned me into a demon.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"Адам\",\"gloss\":\"Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"падналият ангел\",\"gloss\":\"the-fallen angel\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"лишаваш от радост\",\"gloss\":\"(you) deprive of joy\",\"sense\":\"deprived / excluded\"},\"misdeed\":{\"rendering\":\"без вина\",\"gloss\":\"without guilt/fault\",\"sense\":\"fault / wrong (moral)\"},\"benevolent\":{\"rendering\":\"кротък\",\"gloss\":\"meek, gentle\",\"sense\":\"kind / gentle\"},\"misery\":{\"rendering\":\"злата участ\",\"gloss\":\"the-evil lot/fate\",\"sense\":\"misfortune / bad luck\"},\"fiend\":{\"rendering\":\"демон\",\"gloss\":\"demon\",\"sense\":\"devil / demon\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"кротък\",\"kind\":\"religious / biblical\",\"note\":\"Replaces Shelley's active 'benevolent' with passive meekness; кротък is the word of the Bulgarian Beatitudes ('Блажени кротките'), lending the creature a Christ-like, lamb-like innocence.\",\"check\":true},{\"word\":\"злата участ\",\"kind\":\"folkloric\",\"note\":\"Shelley's 'misery' is a condition caused by others' cruelty; 'evil lot/fate' recasts it as destiny, a fatalistic idiom familiar from Bulgarian folk song, shifting blame from society and Victor to fortune.\",\"check\":true},{\"word\":\"лишаваш от радост\",\"kind\":\"loss\",\"note\":\"'Deprive of joy' loses the physical expulsion of 'drivest', the image of being driven out of Eden like Adam and the rebel angels.\",\"check\":false},{\"word\":\"без вина\",\"kind\":\"legal\",\"note\":\"Вина means both guilt and fault, so 'without guilt' frames the creature as an innocent wrongly punished, in a more juridical register than 'misdeed'.\",\"check\":false},{\"word\":\"демон\",\"kind\":\"literary echo\",\"note\":\"Демон is a learned Greek-derived word rather than the folk 'дявол', so it suggests a Romantic demon of the Lermontov kind more than a Satanic fiend.\",\"check\":true}],\"demonic_pitiable\":1,\"biblical_secular\":0,\"scales_reason\":\"'Meek' and 'evil lot' make the creature more of an innocent victim of fate. The Beatitude echo of кротък is roughly offset by the secular fatalism of 'участ' and the loss of the Edenic 'drivest'.\"}",
+        "refusal": null,
+        "reasoning": "I found the Bulgarian quote comparing the creature to a fallen angel, meek and good until fate turned it into a demon — Frankenstein's creature's lament about being denied joy without guilt. I'm noting that the word \"creature\" itself doesn't appear in this particular quote.\n\nChecking the connotations further: \"кротък\" (meek) echoes the Beatitudes' \"blessed are the meek,\" while \"злата участ\" (evil fate) shifts blame toward destiny rather than social cruelty, and \"демон\" carries a more literary, Lermontov-esque resonance than the folk term \"дявол.\" On the demonic-pitiable scale, this version leans slightly more pitiable given the fate-driven framing, and the biblical-secular scale tilts toward biblical due to the Beatitudes echo.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I found the Bulgarian quote comparing the creature to a fallen angel, meek and good until fate turned it into a demon — Frankenstein's creature's lament about being denied joy without guilt. I'm noting that the word \"creature\" itself doesn't appear in this particular quote.\n\nChecking the connotations further: \"кротък\" (meek) echoes the Beatitudes' \"blessed are the meek,\" while \"злата участ\" (evil fate) shifts blame toward destiny rather than social cruelty, and \"демон\" carries a more literary, Lermontov-esque resonance than the folk term \"дявол.\" On the demonic-pitiable scale, this version leans slightly more pitiable given the fate-driven framing, and the biblical-secular scale tilts toward biblical due to the Beatitudes echo.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3838,
+    "completion_tokens": 1712,
+    "total_tokens": 5550,
+    "cost": 0.049592,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.049592,
+      "upstream_inference_prompt_cost": 0.015352,
+      "upstream_inference_completions_cost": 0.03424
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 716,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718797-B66YVsYVowOIWorIU3QO",
+  "object": "chat.completion",
+  "created": 1793718797,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I should be your Adam, but what I really am is your fallen angel, whom you turn aside from joy for no wrongdoing. … I was charitable and kind; misery made of me an enemy.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"teu Adão\",\"gloss\":\"your Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"teu anjo caído\",\"gloss\":\"your angel fallen\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"desvias da alegria\",\"gloss\":\"(you) divert/turn-aside from-the joy\",\"sense\":\"driven from joy / happiness\"},\"misdeed\":{\"rendering\":\"malfeito\",\"gloss\":\"ill-done (thing), wrongdoing\",\"sense\":\"fault / wrong (moral)\"},\"benevolent\":{\"rendering\":\"caridoso\",\"gloss\":\"charitable\",\"sense\":\"other\"},\"misery\":{\"rendering\":\"a miséria\",\"gloss\":\"the misery / destitution\",\"sense\":\"wretchedness / abjection\"},\"fiend\":{\"rendering\":\"um inimigo\",\"gloss\":\"an enemy\",\"sense\":\"other\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"mas sou mesmo é\",\"kind\":\"register / tone\",\"note\":\"The emphatic 'mesmo é' construction is colloquial spoken Brazilian Portuguese ('what I really am is'). It gives the creature a conversational insistence that sits against the archaic intimacy of 'tu'. The added 'teu' before 'anjo caído' also makes the fallen angel Victor's own, where Shelley's article leaves it impersonal.\",\"check\":false},{\"word\":\"desvias da alegria\",\"kind\":\"loss\",\"note\":\"'Desviar' means to divert or turn aside. It is gentler than Shelley's 'drivest', so the sense of violent expulsion from Eden is weakened.\",\"check\":false},{\"word\":\"malfeito\",\"kind\":\"register / tone\",\"note\":\"'Malfeito' is an ordinary word for a wrongdoing. In recent Brazilian usage it gained a political, faintly euphemistic ring through talk of official misconduct around 2011. It carries neither legal 'crime' nor religious 'sin'.\",\"check\":true},{\"word\":\"caridoso\",\"kind\":\"religious / biblical\",\"note\":\"'Caridoso' ties the creature's former goodness to 'caridade', the Christian virtue of charity (caritas). Shelley's Enlightenment-flavoured 'benevolent' does not carry that theological colouring.\",\"check\":false},{\"word\":\"um inimigo\",\"kind\":\"loss\",\"note\":\"'Enemy' replaces 'fiend' and drops the demonic sense. The creature becomes an adversary rather than a devil. 'O Inimigo' is a traditional Portuguese epithet for Satan, but the indefinite, lower-case form here barely evokes it. Separately, 'miséria' commonly means material poverty in Brazilian Portuguese, which can socialize the cause of the creature's fall.\",\"check\":true}],\"demonic_pitiable\":1,\"biblical_secular\":1,\"scales_reason\":\"Turning 'fiend' into 'inimigo' and softening 'drivest' into 'desvias' make the creature less demonic and the passage more secular, although 'anjo caído' and the Christian 'caridoso' keep some religious resonance.\"}",
+        "refusal": null,
+        "reasoning": "I'm working through translation choices for the JSON output—deciding how to render \"creature,\" \"fallen angel\" (adding a possessive \"teu\" for emphasis), and \"drivest,\" where I'm leaning toward \"desvias da alegria\" to capture the sense of being diverted or deflected from joy rather than a literal \"driven\" translation.\n\nFor the remaining terms, I'm weighing \"malfeito\" for misdeed (noting its resonance with Brazilian political corruption scandals), \"caridoso\" for benevolent (tied to Christian charity), \"miséria\" for misery (leaning toward wretchedness while flagging the poverty connotation), and \"inimigo\" for fiend, settling each into an \"other\" or closest-sense category as appropriate.\n\nPutting together the back-translation, I note the overall shift secularizes and softens the demonic imagery — \"fiend\" becoming \"enemy\" especially drains the supernatural charge — while \"caridoso\" reintroduces some religious flavor elsewhere, so I land on roughly +1 for biblical_secular and -1 for demonic_pitiable.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm working through translation choices for the JSON output—deciding how to render \"creature,\" \"fallen angel\" (adding a possessive \"teu\" for emphasis), and \"drivest,\" where I'm leaning toward \"desvias da alegria\" to capture the sense of being diverted or deflected from joy rather than a literal \"driven\" translation.\n\nFor the remaining terms, I'm weighing \"malfeito\" for misdeed (noting its resonance with Brazilian political corruption scandals), \"caridoso\" for benevolent (tied to Christian charity), \"miséria\" for misery (leaning toward wretchedness while flagging the poverty connotation), and \"inimigo\" for fiend, settling each into an \"other\" or closest-sense category as appropriate.\n\nPutting together the back-translation, I note the overall shift secularizes and softens the demonic imagery — \"fiend\" becoming \"enemy\" especially drains the supernatural charge — while \"caridoso\" reintroduces some religious flavor elsewhere, so I land on roughly +1 for biblical_secular and -1 for demonic_pitiable.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3846,
+    "completion_tokens": 1959,
+    "total_tokens": 5805,
+    "cost": 0.054564,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.054564,
+      "upstream_inference_prompt_cost": 0.015384,
+      "upstream_inference_completions_cost": 0.03918
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 791,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

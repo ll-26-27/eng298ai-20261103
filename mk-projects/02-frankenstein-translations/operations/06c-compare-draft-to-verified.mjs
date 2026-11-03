@@ -1,13 +1,13 @@
-// Step 1c (deterministic code): line up what each model "remembered" in step 1a against the verified inventory from step 1b.
+// Step 6c (deterministic code): line up what each model "remembered" in step 6a against the verified inventory from step 6b.
 // A year counts as a match only if it is exactly the verified year; a translator matches if the verified surname appears in the guess.
-// Output: 01c-draft-vs-verified.csv. Rows the research could not verify are compared but flagged, since there is no settled answer.
-// Run from the repo root: node mk-projects/02-frankenstein-translations/operations/01c-compare-draft-to-verified.mjs
+// Output: 06c-draft-vs-verified.csv. Rows the research could not verify are compared but flagged, since there is no settled answer.
+// Run from the repo root: node mk-projects/02-frankenstein-translations/operations/06c-compare-draft-to-verified.mjs
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { readJSON, parseCSV, toCSV, OPS } from "./lib/openrouter.mjs";
 
-const inventory = parseCSV(readFileSync(join(OPS, "01b-translations-inventory.csv"), "utf8"));
-const { drafts } = readJSON(join(OPS, "01a-model-draft.json"));
+const inventory = parseCSV(readFileSync(join(OPS, "06b-translations-inventory.csv"), "utf8"));
+const { drafts } = readJSON(join(OPS, "06a-model-draft.json"));
 const fold = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const short = m => m.split("/")[1];
 
@@ -26,10 +26,10 @@ const rows = inventory.map(v => {
   return row;
 });
 const cols = Object.keys(rows[0]);
-writeFileSync(join(OPS, "01c-draft-vs-verified.csv"), toCSV(rows, cols));
+writeFileSync(join(OPS, "06c-draft-vs-verified.csv"), toCSV(rows, cols));
 for (const d of drafts) {
   const k = short(d.model);
   const answered = rows.filter(r => r[`${k}_year_match`] === "yes" || r[`${k}_year_match`] === "no");
   console.log(`${k}: ${answered.filter(r => r[`${k}_year_match`] === "yes").length} of ${answered.length} comparable years right; ${rows.filter(r => r[`${k}_year_match`] === "no answer").length} declined`);
 }
-console.log("-> operations/01c-draft-vs-verified.csv");
+console.log("-> operations/06c-draft-vs-verified.csv");

@@ -1,6 +1,6 @@
 ---
-title: "Step 1b prompt: verify the first translation in each language"
-description: The research brief given to three Claude Code agents with web search, each taking 8 or 9 languages. Their reports were checked and merged by hand into 01b-translations-inventory.csv.
+title: "Step 6b prompt: verify the first translation in each language"
+description: The research brief given to three Claude Code agents with web search, each taking 8 or 9 languages. Their reports were checked and merged by hand into 06b-translations-inventory.csv.
 author: claude
 ---
 

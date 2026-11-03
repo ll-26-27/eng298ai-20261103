@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793709816-RHTcRub6z6ShAGcFlSL5",
+  "object": "chat.completion",
+  "created": 1793709816,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"It was on a gloomy night of November that I saw the accomplishment of my labors. With an anxiety that bordered on agony, I gathered around me the instruments of life, in order to breathe a spark of existence into the inanimate thing that lay at my feet. It was already one o'clock in the morning; the rain drummed mournfully against the windowpanes, and my candle was almost consumed, when, by the half-extinguished glow, I saw the dull and yellowish eye of the creature open; it breathed with difficulty, and a convulsive movement shook its limbs.\\n\\nHow to describe my emotions before this catastrophe, or how to depict the wretch whom with such infinite pains and cares I had striven to form? His limbs were well proportioned, and I had chosen his features for their beauty. Beauty! — Great God! His yellow skin barely covered the work of the muscles and arteries lying beneath; his hair was of a glossy black, wavy; his teeth of a pearl-like whiteness; but these riches only formed a more horrible contrast with his watery eyes, which seemed almost the same color as the greyish-white sockets in which they were set, his withered complexion and his black, straight lips.\",\"changes\":[{\"shelley\":\"dull yellow eye\",\"translation\":\"l'œil terne et jaunâtre\",\"back_translation\":\"the dull and yellowish eye\",\"category\":\"softening\",\"rationale\":\"\\\"Jaunâtre\\\" (yellowish) weakens the flat, stark \\\"yellow\\\" and splits the compact phrase into two adjectives.\"},{\"shelley\":\"it breathed hard\",\"translation\":\"elle respira péniblement\",\"back_translation\":\"it breathed with difficulty\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Hard\\\" suggests forceful, heavy breathing, while \\\"péniblement\\\" suggests laboured, painful breathing, a slightly different image.\"},{\"shelley\":\"the rain pattered dismally\",\"translation\":\"la pluie tambourinait lugubrement\",\"back_translation\":\"the rain drummed mournfully\",\"category\":\"intensification\",\"rationale\":\"\\\"Tambouriner\\\" (to drum) is louder and heavier than \\\"pattered\\\", and \\\"lugubrement\\\" is more funereal than \\\"dismally\\\".\"},{\"shelley\":\"Beautiful!—Great God!\",\"translation\":\"De la beauté ! — Grand Dieu !\",\"back_translation\":\"Beauty! — Great God!\",\"category\":\"shift in meaning\",\"rationale\":\"The ironic echo of the adjective \\\"beautiful\\\" becomes the noun \\\"beauty\\\", which slightly alters the bitter repetition of his own word.\"},{\"shelley\":\"his hair was of a lustrous black, and flowing\",\"translation\":\"sa chevelure était d'un noir lustré, ondoyante\",\"back_translation\":\"his hair was of a glossy black, wavy\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Ondoyante\\\" (undulating, wavy) is not quite \\\"flowing\\\", and \\\"chevelure\\\" is a more poetic word for hair.\"},{\"shelley\":\"these luxuriances\",\"translation\":\"ces richesses\",\"back_translation\":\"these riches\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Luxuriances\\\" implies lush abundance, while \\\"richesses\\\" suggests valuable assets, losing the sense of excessive growth.\"},{\"shelley\":\"the dun white sockets\",\"translation\":\"les orbites d'un blanc grisâtre\",\"back_translation\":\"the sockets of a greyish white\",\"category\":\"shift in meaning\",\"rationale\":\"\\\"Dun\\\" means dull brownish-grey; \\\"grisâtre\\\" drops the brown tint and is slightly vaguer.\"},{\"shelley\":\"shrivelled complexion\",\"translation\":\"son teint flétri\",\"back_translation\":\"his withered complexion\",\"category\":\"softening\",\"rationale\":\"\\\"Flétri\\\" (withered, faded) is a little more conventional and less harshly physical than \\\"shrivelled\\\".\"},{\"shelley\":\"in which they were set\",\"translation\":\"où ils étaient enchâssés\",\"back_translation\":\"in which they were enshrined/mounted\",\"category\":\"intensification\",\"rationale\":\"\\\"Enchâssés\\\" is a jeweller's term (as of a gem in a setting), a more elevated image than the plain \\\"set\\\".\"},{\"shelley\":\"I had selected his features as beautiful\",\"translation\":\"j'avais choisi ses traits pour leur beauté\",\"back_translation\":\"I had chosen his features for their beauty\",\"category\":\"shift in meaning\",\"rationale\":\"The French states the reason for the choice (their beauty) rather than the creator's judgment (\\\"as beautiful\\\"), removing some of the subjective irony.\"}],\"note\":\"The French is close and complete, with no real omissions and a consistently elevated literary register (\\\"labeurs\\\", \\\"enchâssés\\\", \\\"nacre\\\", \\\"chevelure\\\"). Its small shifts tend toward polish and slightly more formal diction, though a few words are heightened (\\\"tambourinait\\\"). The loss of Frankenstein's ironic echo \\\"Beautiful!\\\" is probably the most noteworthy change, though it may be an unavoidable grammatical consequence.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1977,
+    "completion_tokens": 1693,
+    "total_tokens": 3670,
+    "cost": 0.020884,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.020884,
+      "upstream_inference_prompt_cost": 0.003954,
+      "upstream_inference_completions_cost": 0.01693
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

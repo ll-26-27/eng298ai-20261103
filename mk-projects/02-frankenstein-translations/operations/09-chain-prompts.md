@@ -1,6 +1,6 @@
 ---
-title: "Step 4 prompts: translate, critique, retranslate"
-description: The three prompts 04-translate-critique-retranslate.mjs sends, in order. One model translates and revises; a different model critiques.
+title: "Step 9 prompts: translate, critique, retranslate"
+description: The three prompts 09-translate-critique-retranslate.mjs sends, in order. One model translates and revises; a different model critiques.
 author: claude
 ---
 

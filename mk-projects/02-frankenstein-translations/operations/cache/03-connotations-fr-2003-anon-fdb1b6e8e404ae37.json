@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718746-g3Yrj1UmTiyB1MwXQZ9P",
+  "object": "chat.completion",
+  "created": 1793718746,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I should be your Adam but I am only a fallen angel whom you deprive of all joy. … I was generous and good; it is misfortune that has made of me a monster.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"ton Adam\",\"gloss\":\"your (familiar) Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"un ange déchu\",\"gloss\":\"a fallen angel\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"que tu prives de toute joie\",\"gloss\":\"whom you deprive of all joy\",\"sense\":\"deprived / excluded\"},\"misdeed\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"omitted\"},\"benevolent\":{\"rendering\":\"généreux\",\"gloss\":\"generous / noble-hearted\",\"sense\":\"other\"},\"misery\":{\"rendering\":\"le malheur\",\"gloss\":\"the misfortune / unhappiness\",\"sense\":\"misfortune / bad luck\"},\"fiend\":{\"rendering\":\"un monstre\",\"gloss\":\"a monster\",\"sense\":\"monster\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"un monstre\",\"kind\":\"loss\",\"note\":\"Shelley's 'fiend' is a devil-word; 'monstre' trades the demonic for the natural-historical sense of a deformed prodigy (Latin monstrum) and echoes the popular name for the creature, so the Satanic arc completing 'fallen angel' is lost.\",\"check\":false},{\"word\":\"je ne suis qu'un ange déchu\",\"kind\":\"grammatical\",\"note\":\"The restrictive 'ne… que' ('only') and the indefinite 'un' turn Shelley's defiant 'rather the fallen angel' (Milton's Satan specifically) into a plaintive self-diminishment: one fallen angel among others.\",\"check\":false},{\"word\":\"que tu prives de toute joie\",\"kind\":\"loss\",\"note\":\"'Priver' is deprivation rather than expulsion, and the translator drops 'for no misdeed', so the creature's claim of innocence and the echo of the expulsion from Eden disappear.\",\"check\":false},{\"word\":\"généreux\",\"kind\":\"literary echo\",\"note\":\"In classical French (Corneille's register) 'généreux' meant noble-spirited or magnanimous rather than simply open-handed, so it lends the creature a heroic nobility that 'benevolent' does not.\",\"check\":true},{\"word\":\"le malheur\",\"kind\":\"register / tone\",\"note\":\"'Malheur' spans misfortune and unhappiness, and the cleft 'c'est le malheur qui' blames outside bad fortune rather than an inner state of wretchedness.\",\"check\":false}],\"demonic_pitiable\":1,\"biblical_secular\":1,\"scales_reason\":\"Replacing 'fiend' with 'monstre' and adding the plaintive 'ne… que' soften the creature and drain the Satanic register, even though Adam and the fallen angel survive and the claim of innocence is dropped.\"}",
+        "refusal": null,
+        "reasoning": "I'm pulling the creature's quote to Victor Frankenstein—his plea about being a fallen Adam deprived of joy, and his claim that misfortune, not nature, turned him into a monster—and preparing an English back-translation for this slot.\n\nFor the other slots: \"fallen_angel\" maps directly to \"un ange déchu,\" \"drivest\" matches \"prives de toute joie,\" while \"misdeed\" and \"virtuous\" don't appear in the quoted excerpt. \"Généreux\" is a looser fit for \"benevolent\" so I'm marking it as a shift to \"other,\" and \"malheur\" straddles both \"misfortune\" and \"misery,\" so I'm noting the ambiguity rather than forcing one choice.\n\nI'm also flagging some connotative shifts: \"monstre\" secularizes the creature by evoking the Latin monstrum (prodigy/deformity) rather than demonic overtones, and \"un ange déchu\" as an indefinite phrase softens the Miltonic specificity of \"the fallen angel,\" losing the direct Satan allusion the English carries.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm pulling the creature's quote to Victor Frankenstein—his plea about being a fallen Adam deprived of joy, and his claim that misfortune, not nature, turned him into a monster—and preparing an English back-translation for this slot.\n\nFor the other slots: \"fallen_angel\" maps directly to \"un ange déchu,\" \"drivest\" matches \"prives de toute joie,\" while \"misdeed\" and \"virtuous\" don't appear in the quoted excerpt. \"Généreux\" is a looser fit for \"benevolent\" so I'm marking it as a shift to \"other,\" and \"malheur\" straddles both \"misfortune\" and \"misery,\" so I'm noting the ambiguity rather than forcing one choice.\n\nI'm also flagging some connotative shifts: \"monstre\" secularizes the creature by evoking the Latin monstrum (prodigy/deformity) rather than demonic overtones, and \"un ange déchu\" as an indefinite phrase softens the Miltonic specificity of \"the fallen angel,\" losing the direct Satan allusion the English carries.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3830,
+    "completion_tokens": 1814,
+    "total_tokens": 5644,
+    "cost": 0.0516,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0516,
+      "upstream_inference_prompt_cost": 0.01532,
+      "upstream_inference_completions_cost": 0.03628
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 780,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

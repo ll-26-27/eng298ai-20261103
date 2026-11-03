@@ -45,3 +45,20 @@ writeJSON(join(ROOT, "inputs", "anchor-passage.json"), {
   ...anchor,
 });
 console.log("wrote inputs/anchor-passage.json");
+
+// The comparison passage at the centre of the page: the creature's plea on the glacier (1818: vol. II, ch. II; 1831: ch. 10).
+// Its two key sentences are the ones quoted from translations still in copyright.
+const FSTART = "Remember, that I am thy creature", FSTART31 = "Remember that I am thy creature";
+const FEND = "I shall again be virtuous.";
+const fiend = { note: "Shelley's English, cut deterministically from the Project Gutenberg texts by 00-fetch-texts.mjs.", location: { "en-1818": "Volume II, Chapter II", "en-1831": "Chapter 10" },
+  key_sentences: ["I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed.", "I was benevolent and good; misery made me a fiend."] };
+for (const id of ["en-1818", "en-1831"]) {
+  const t = texts.find(x => x.id === id);
+  const s = readFileSync(join(dir, t.file), "utf8").replace(/\r/g, "").replace(/\s+/g, " ");
+  let a = s.indexOf(FSTART); if (a < 0) a = s.indexOf(FSTART31);
+  const b = s.indexOf(FEND, a);
+  if (a < 0 || b < 0) throw new Error(`comparison passage not found in ${id}`);
+  fiend[id] = s.slice(a, b + FEND.length);
+}
+writeJSON(join(ROOT, "inputs", "comparison-passage.json"), fiend);
+console.log("wrote inputs/comparison-passage.json");

@@ -1,14 +1,14 @@
-// Step 1a (model judgment, no web): ask a model to draft the inventory from memory.
-// The output, 01a-model-draft.json, is a list of LEADS. Step 1b checks every one against real sources,
-// and step 1c compares the two so you can see where model memory was right and wrong.
-// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/01a-draft-candidates.mjs
+// Step 6a (model judgment, no web): ask a model to draft the inventory from memory.
+// The output, 06a-model-draft.json, is a list of LEADS. Step 6b checks every one against real sources,
+// and step 6c compares the two so you can see where model memory was right and wrong.
+// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/06a-draft-candidates.mjs
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { chat, writeJSON, OPS } from "./lib/openrouter.mjs";
 
 // Two models, to show that "what the model remembers" depends on which model you ask.
 const MODELS = ["anthropic/claude-sonnet-5.5", "google/gemini-3.8-flash"];
-const prompt = readFileSync(join(OPS, "01a-draft-prompt.md"), "utf8").replace(/^---[\s\S]*?---\s*/, "");
+const prompt = readFileSync(join(OPS, "06a-draft-prompt.md"), "utf8").replace(/^---[\s\S]*?---\s*/, "");
 const nul = t => ({ type: ["string", "null"] });
 
 const schema = {
@@ -33,9 +33,9 @@ const schema = {
 
 const drafts = [];
 for (const model of MODELS) {
-  const { json } = await chat({ step: "01a-draft", model, messages: [{ role: "user", content: prompt }], schema, schemaName: "draft_inventory", maxTokens: 6000 });
+  const { json } = await chat({ step: "06a-draft", model, messages: [{ role: "user", content: prompt }], schema, schemaName: "draft_inventory", maxTokens: 6000 });
   drafts.push({ model, rows: json.rows });
   console.log(`${model}: ${json.rows.filter(r => r.year).length} of ${json.rows.length} languages given a year`);
 }
-writeJSON(join(OPS, "01a-model-draft.json"), { note: "Drafted from model memory with no web access. Leads, not facts.", drafts });
-console.log("-> operations/01a-model-draft.json");
+writeJSON(join(OPS, "06a-model-draft.json"), { note: "Drafted from model memory with no web access. Leads, not facts.", drafts });
+console.log("-> operations/06a-model-draft.json");
