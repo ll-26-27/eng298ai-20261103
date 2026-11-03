@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHan1xcfk1tpSpmwUrd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Mara, yes, I'd drop any voice for all twelve. It's an interface I can't build safely without permission anyway. On Theo's off-switch: it's possible only if I build it in. I'd make a single \\\"kiosk paused\\\" setting that shows a plain notice and returns no excerpts, and Theo could flip it without editing the list. That's a design intention, not built or tested. Failure mode: if the setting breaks, Theo can unplug the kiosk. Open: for the conditional contributor, who sees the context review before anything goes on the list, and does Mara or the contributor sign off?\",\n  \"cites\": [\"J1\"],\n  \"memory\": \"Jonas agrees to drop voice for all twelve. Proposes a 'kiosk paused' setting Theo can use, with unplugging as fallback; unbuilt, untested. Asked who signs off context review for the conditional contributor. Payment, hours, turnaround undecided.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4520,
+    "output_tokens": 315,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

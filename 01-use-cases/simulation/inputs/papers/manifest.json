@@ -1,0 +1,39 @@
+[
+  {
+    "file": "inputs/papers/generative-agents.md",
+    "copied_from": "context/LL-readings/papers-on-ai-md/2304.03442v2--generative-agents-interactive-simulacra-of-human-behavior.md",
+    "sha256": "475ce63bdfa209f62b292f6c22ab1a40a34dc4976dfc98548d5d621852a5cdbf",
+    "edition": "2304.03442v2",
+    "format": "Full-text structured Markdown, copied without changes from the course context pack."
+  },
+  {
+    "file": "inputs/papers/role-play.md",
+    "copied_from": "context/LL-readings/papers-on-ai-md/2305.16367v1--role-play-with-large-language-models.md",
+    "sha256": "306bb1ffa6304661d7b18ac0feca66df478b864efed26f96c734cdc3e2f1f710",
+    "edition": "2305.16367v1",
+    "format": "Full-text structured Markdown, copied without changes from the course context pack."
+  },
+  {
+    "file": "inputs/papers/rag.md",
+    "copied_from": "context/LL-readings/papers-on-ai-md/2005.11401v4--retrieval-augmented-generation-for-knowledge-intensive-nlp-tasks.md",
+    "sha256": "b135fae979df3f53adb64769c0efdf825ca47cc9b872f98f0757a5f1958e12c9",
+    "edition": "2005.11401v4",
+    "format": "Full-text structured Markdown, copied without changes from the course context pack."
+  },
+  {
+    "file": "inputs/papers/homo-silicus.md",
+    "source": "https://arxiv.org/html/2301.07543v1",
+    "source_html_sha256": "e8fabf3ae6563793739dbb94cd462d2dcf52599c5fa9b2a9038c6fdc03f0f790",
+    "sha256": "2424e6ee69268674f54e0b170735e48baa1926d4e043b247cbcd7f939bf3c37c",
+    "conversion_counts": {
+      "headings": 15,
+      "math": 24,
+      "captions": 4,
+      "images": 3,
+      "list_items": 21,
+      "tables": 1,
+      "references": 18
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHcEtW6udoEZYsbEog9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Jonas, yes, I'll scope the listening event, and Mara, yes, I'll review your template. Both are estimates, not promises of funds. With the budget now 3,000 credits and no extra staff, I'd cut the kiosk before cutting contributor review time or pay. Consent work and a facilitated listening event come first. The kiosk should go ahead only if enough contributors approve excerpts, so we don't build an empty box. Theo, what is your split between contributor payment and build hours? And will you name a withdrawal contact for when Mara is away?\",\n  \"cites\": [\"L3\"],\n  \"memory\": \"I'll scope the listening event and review Mara's template (estimates only). With 3,000 credits, protect contributor review time and payment before the kiosk; build only if enough approve. Need Theo's budget split and a named withdrawal contact when Mara's away.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5830,
+    "output_tokens": 293,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

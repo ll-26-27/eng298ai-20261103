@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHb1og3ZrSZGR8TBQSq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Jonas, on your open question: the contributor signs off, and Mara records it. Mara can prepare the context review, but she doesn't approve it for them. Nothing goes on the list until they've seen the exact excerpt, the exact framing text, and where it will appear. Any change to wording or context needs a fresh sign-off. I agree no voice for all twelve. Your pause setting works for me if Theo can use it without waiting for anyone. Theo, still unanswered: is contributor review time in your labeled estimate, and do we offer each contributor the listening event?\",\n  \"cites\": [\"L2\", \"L3\"],\n  \"memory\": \"Contributor signs off on excerpt, context and placement; Mara records, doesn't approve. Any change needs fresh sign-off. Agrees no voice for all twelve and Jonas's pause switch. Still waiting on Theo: contributor payment/review time in estimate, listening event offered to each.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4694,
+    "output_tokens": 313,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

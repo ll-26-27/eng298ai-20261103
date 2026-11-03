@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHbi8L5WQmPgt7zP9km",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Theo, here are my labeled hours, all estimates with nothing built or tested. Retrieval kiosk: a keyword and topic search over one approved-excerpts list, plus the \\\"kiosk paused\\\" setting, roughly 25 to 40 hours. Testing the pause and removal steps with you and Mara: about 4 hours. Upkeep after opening: about 1 hour a week. Mara, if you're away, a withdrawal could wait. So I'd write down a named second person who can pause the kiosk, and Theo could do that. I can't price the listening event. Is it Leila's to scope?\",\n  \"cites\": [\"J1\", \"J2\"],\n  \"memory\": \"Jonas gave labeled estimates: kiosk 25–40 hrs, testing 4, upkeep ~1 hr/week; nothing built or tested. Proposes Theo as named pauser when Mara is away. Listening event unscoped, asks if Leila scopes it. Payment still undecided.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5535,
+    "output_tokens": 330,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

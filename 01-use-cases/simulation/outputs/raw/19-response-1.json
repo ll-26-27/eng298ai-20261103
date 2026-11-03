@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHdhBpVnSx3ZmtnVt9R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Jonas, your threshold is a fair starting point, but the contributors set the real number, not us. If one person approves only two excerpts, that's their right, and we shouldn't nudge them upward to fill a search box. So I'd decide now that below 12 to 15 excerpts from five people, we use the printed list and the listening event instead. That's cheaper, easier to withdraw from, and keeps pay and review time safe within 3,000 credits. Theo, please confirm that fallback. My event estimate with room-time is still coming, labeled as an estimate.\",\n  \"cites\": [\"L2\", \"L3\"],\n  \"memory\": \"I propose: below Jonas's 12-15 excerpts from five contributors, use printed list and listening event, no pressure on contributors to approve more. Still owe event estimate with room-time and Mara's template review. Payment amount and event for all twelve undecided.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 6808,
+    "output_tokens": 297,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

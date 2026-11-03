@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggJjSngJjvz2Ar99z4Kv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"utterance\":\"My criterion: someone has learned a poem when they can recall it accurately without looking, and again next week without help. Today's recital proves little; next week's recital is the better evidence, because it shows the words stayed with them. I'd withhold \\\"learned\\\" if they stumble, need prompts, or recover it only by reading. Plato's warning about having 'the show of wisdom' makes me ask: does a reminder-aided answer count? I say no, because borrowed words aren't available when the book is closed. Nico, if recall isn't enough, what would you observe that I'd miss?\",\"cites\":[\"LE3\",\"LE1\"],\"memory\":\"Claim: learning is accurate unaided recall, tested after a delay. No revision yet. Live question: what would Nico observe that recall misses, and can a recalled answer be merely a show?\"}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2546,
+    "output_tokens": 270,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

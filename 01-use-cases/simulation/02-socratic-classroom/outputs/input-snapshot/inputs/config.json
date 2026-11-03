@@ -1,0 +1,13 @@
+{
+  "title": "What counts as learning?",
+  "turns": 20,
+  "cards_per_turn": 2,
+  "event_label": "Seminar prompt",
+  "personas": [
+    "inputs/personas/socrates.md",
+    "inputs/personas/leonie.md",
+    "inputs/personas/nico.md",
+    "inputs/personas/iris.md",
+    "inputs/personas/sam.md"
+  ]
+}

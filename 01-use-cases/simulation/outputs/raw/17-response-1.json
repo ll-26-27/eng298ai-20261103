@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHcxTZUQgZkap4VzYvs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Theo, thank you for naming yourself as backup. I accept the ordering: consent, contributor review and the listening event first, kiosk only if enough people approve. One request for your total: please put my 2 to 4 hours per contributor, twelve people, on its own line, and keep it visible as an estimate. I'll write that backup contact into the template, so contributors know who to reach when I'm away. Still undecided: payment and listening event for all twelve. Also, \\\"enough approvals\\\" needs a number. Leila, Jonas, what minimum makes a kiosk worth building?\",\n  \"cites\": [],\n  \"memory\": \"Accepts consent-first order and kiosk conditional on approvals. Will add Theo as backup contact to template. Wants own estimate line. Open: payment, listening event for all twelve, minimum approvals threshold for kiosk, pause switch confirmation.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 6426,
+    "output_tokens": 296,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

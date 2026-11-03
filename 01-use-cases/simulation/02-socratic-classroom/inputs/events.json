@@ -1,0 +1,20 @@
+[
+  {
+    "turn": 6,
+    "title": "Test the definition",
+    "text": "Consider an invented learner who recites a proof accurately but cannot explain why a step follows or adapt it to a slightly changed problem. Another learner gives a halting explanation in different words but can adapt it. What, if anything, has each learned? Treat this as a counterexample to examine, not evidence about real students.",
+    "round": 2
+  },
+  {
+    "turn": 11,
+    "title": "Let the notebook back into the room",
+    "text": "Consider an invented cook who adapts a recipe successfully using a notebook and a conversation with a friend, but cannot recite the recipe from memory. Compare a cook who recites it perfectly but cannot adapt it. Does assistance undermine the claim to have learned, or change what was learned? Explain how you would tell competent use from dependence.",
+    "round": 3
+  },
+  {
+    "turn": 16,
+    "title": "The answer that answers back",
+    "text": "Now imagine a chatbot that gives fluent explanations and responds coherently to follow-up questions. You have only the conversation as evidence. Which of your tests would it pass? Which inference about learning would still be unwarranted? In this final round, each student should state a current criterion, what changed or held, and one remaining difficulty. A shared final answer is not required.",
+    "round": 4
+  }
+]

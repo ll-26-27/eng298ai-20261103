@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHXsqN8GDC66pGhEfAD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Mara, I accept your constraint: no first-person voice and no excerpts until contributors approve them. I'd drop the free-form chatbot for now. What I can actually offer is a retrieval-only kiosk. A visitor types a keyword or picks a topic, and it shows approved excerpts with name, date and a link to context. Failure modes: it misses a relevant passage because the wording differs, or it surfaces a passage that reads differently out of context. Maintenance means someone updates the approved list and removes withdrawn excerpts. Nothing is built or tested yet. Theo, can you confirm whether consent work comes before my build hours in the schedule?\",\n  \"cites\": [\"J1\", \"J2\"],\n  \"memory\": \"Jonas supports a retrieval-only kiosk showing approved, attributed excerpts; no generated voice for now. Concerns: keyword misses, context loss, maintenance of withdrawn excerpts. Asked Theo whether consent work precedes build. Nothing built or tested.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2231,
+    "output_tokens": 340,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

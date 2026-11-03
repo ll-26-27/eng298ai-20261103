@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggJnumEjSdD33YsN5yuM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"utterance\":\"Socrates, I'd separate them with a delayed, unaided check, which is my old test with a narrower target. Take the notebook and friend away next week and give her a similar dish. If she remembers what the stock ratio depends on and spots that \\\"high\\\" is wrong, she learned something. If she can't, the friend's \\\"that looks high\\\" was doing the work. Sam, your corrupted-card test needs the same limit: catching a flaw with the book open might be dependence on the friend's cue. Does it count if she only catches it when prompted?\",\"cites\":[\"LE1\"],\"memory\":\"Claim: separate competent use from dependence by delayed unaided transfer to a similar case; recall of a key ratio is necessary but not the whole. Live question: does prompted catching of an error count as learning, or only the helper's?\"}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5319,
+    "output_tokens": 267,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

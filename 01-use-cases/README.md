@@ -10,11 +10,14 @@ tools, loops, or a new form of output.
 | [`translation/`](translation/) | A French passage through a prompt chain; the creature's plea across 21 translations of *Frankenstein*; one word of the *Phaedrus* across five centuries. | [`01-bergson-laughter-chain/`](translation/01-bergson-laughter-chain/) |
 | [`maps/`](maps/) | Dickens's places after Moretti; a verified timeline of AI and literature; where talking machines were imagined, built, and trained; Socrates's walk out of Athens. | [`01-dickens-places-map/`](maps/01-dickens-places-map/) |
 | [`distant-reading/`](distant-reading/) | Every change between the two *Frankensteins*; keyword search against a model's reading of 982 passages. | [`02-distant-and-close-reading/`](distant-reading/02-distant-and-close-reading/) |
+| [`simulation/`](simulation/) | A library committee and a Socratic classroom: give chatbots a shared room, readings and memory, then invite your own persona. | [Library](simulation/README.md) · [Classroom](simulation/02-socratic-classroom/README.md) |
 
 ## Every example
 
 | Use case | What you will do | Start here |
 |---|---|---|
+| [Simulation · The Common Room](simulation/) | Extend your chatbot into a committee of four personas; inspect twenty actual model-generated replies and add a fifth participant. | [Guide](simulation/README.md) · [HTML](simulation/outputs/index.html) · [Transcript](simulation/outputs/conversation.md) |
+| [Simulation · A Socratic classroom](simulation/02-socratic-classroom/) | An imagined Socrates and four students test what counts as learning through definitions, counterexamples and revisions. | [Guide](simulation/02-socratic-classroom/README.md) · [Classroom](simulation/02-socratic-classroom/outputs/index.html) |
 | [Writing · 01 · Seminar paper](_writing/01-seminar-paper/) | Run the whole arc: brief, reading notes, brainstorm, thesis, quote bank, outline, draft, judges, your feedback, provenance record. | [Guide](_writing/01-seminar-paper/README.md) |
 | [Writing · 02 · Quotes and outlines](_writing/02-quotes-and-outlines/) | Pull the passages out of one text, see its skeleton, sketch three papers. Worked on Grice. | [Guide](_writing/02-quotes-and-outlines/README.md) · [Quote bank](_writing/02-quotes-and-outlines/notebook/work/Q1_quotes_grice.md) |
 | [Translation · 01 · Bergson's *Le Rire*](translation/01-bergson-laughter-chain/) | Translate Bergson's French through a visible prompt chain, then read an annotated bilingual page. | [Guide](translation/01-bergson-laughter-chain/README.md) · [Output](translation/01-bergson-laughter-chain/outputs/example/annotated-translation.html) |

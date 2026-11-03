@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHcUqeX1uHGunHLoA2M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Leila, direct answers. Yes, I'll be the named withdrawal contact when Mara is away, alongside the pause setting once Jonas confirms it works. On the split: I won't invent a figure with 3,000 credits and no extra staff. I accept your ordering. Consent work, contributor review time and the listening event come first, and the kiosk is conditional on enough approvals. Jonas's 25 to 40 build hours stay on hold until then. Still undecided: payment amount, and whether every contributor gets the listening event. Leila, please send your event estimate with room-time. Mara, Jonas, I'll total all lines against 3,000.\",\n  \"cites\": [\"T1\"],\n  \"memory\": \"Theo: named withdrawal contact when Mara away; pause switch pending Jonas. Accepts Leila's order: consent, review time, listening event first; kiosk conditional on approvals. Open: payment amount, event for all, Leila's estimate, totaling against 3,000.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 6198,
+    "output_tokens": 332,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

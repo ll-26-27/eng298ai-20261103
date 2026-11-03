@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CggHbEpWUnH6XgUsPtipj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"utterance\": \"Leila, direct answers. Contributor review time goes into the labeled estimate as its own line; I won't treat it as free. I can't state a payment amount, because I have no estimates yet and won't invent funds. Pause setting: yes, I'll use it without waiting for anyone, once Jonas confirms it works; the unplug fallback is fine. I accept contributor sign-off on exact excerpt, framing and placement, and no voice for all twelve. The listening event for every contributor is still undecided, since it needs its own hours and room-time estimate. Mara, Jonas, Leila: please send labeled hours by next turn.\", \n  \"cites\": [\"T1\"],\n  \"memory\": \"Theo: accepts no voice for all twelve, contributor sign-off, contributor review time as a separate estimate line. Will use pause switch once Jonas confirms. Open: payment amount, listening event for every contributor, total versus 6,000 credits. Awaiting hour estimates.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5092,
+    "output_tokens": 328,
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "speed": "standard"
+  },
+  "stop_details": null,
+  "diagnostics": null
+}

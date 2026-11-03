@@ -1,0 +1,11 @@
+{
+  "title": "The Common Room",
+  "turns": 20,
+  "cards_per_turn": 2,
+  "personas": [
+    "inputs/personas/mara.md",
+    "inputs/personas/jonas.md",
+    "inputs/personas/leila.md",
+    "inputs/personas/theo.md"
+  ]
+}
