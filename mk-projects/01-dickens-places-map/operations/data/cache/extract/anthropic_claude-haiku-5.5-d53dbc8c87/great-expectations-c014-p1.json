@@ -1,0 +1,39 @@
+{
+ "chunk": "great-expectations-c014-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2794,
+  "completion_tokens": 615,
+  "total_tokens": 3409,
+  "cost": 0.0005869,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005869,
+   "upstream_inference_prompt_cost": 0.0002794,
+   "upstream_inference_completions_cost": 0.0003075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 478,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Miss Havisham’s",
+   "normalized": "Miss Havisham's house (Satis House), fictional",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the thought how we used to sing it at Miss Havisham’s",
+   "note": "Named only by its owner; the passage does not give the house a name, so Satis House is the novel's name, not this text's."
+  }
+ ]
+}

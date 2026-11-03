@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c006-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5569,
+  "completion_tokens": 835,
+  "total_tokens": 6404,
+  "cost": 0.0009744,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009744,
+   "upstream_inference_prompt_cost": 0.0005569,
+   "upstream_inference_completions_cost": 0.0004175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 618,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lord Mayor of London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Sir Richard Whittington thrice Lord Mayor of London.",
+   "note": "Named only in Solomon Gills's exclamation; the city itself, not a specific location."
+  },
+  {
+   "as_written": "Welsh wig",
+   "normalized": "Wales",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "like a magician disguised in a Welsh wig and a suit of coffee colour",
+   "note": "Appears only as an adjective in a simile; 'Welsh' used for the wig."
+  }
+ ]
+}

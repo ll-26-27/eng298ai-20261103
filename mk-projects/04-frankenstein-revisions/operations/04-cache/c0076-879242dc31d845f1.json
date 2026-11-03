@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1796,
+  "completion_tokens": 134,
+  "total_tokens": 1930,
+  "cost": 0.0002466,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002466,
+   "upstream_inference_prompt_cost": 0.0001796,
+   "upstream_inference_completions_cost": 0.000067
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0076. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): The labours of men of genius, however erroneously directed, scarcely ever fail in ultimately turning to the solid advantage of mankind.\"\n\n1818 text: I listened to his statement, which was delivered without any presumption or affectation; and then added, that his lecture had removed my prejudices against modern chemists; and I, at the same time, requested his advice concerning the books I ought to procure.\n\n1831 text: I listened to his statement, which was delivered without any presumption or affectation; and then added, that his lecture had removed my prejudices against modern chemists; I expressed myself in measured terms, with the modesty and deference due from a youth to his instructor, without letting escape (inexperience in life would have made me ashamed) any of the enthusiasm which stimulated my intended labours. I requested his advice concerning the books I ought to procure.\n\nDiff: I listened to his statement, which was delivered without any presumption or affectation; and then added, that his lecture had removed my prejudices against modern chemists; [-and-] I {+expressed myself in measured terms+} , [-at-] {+with+} the [-same time-] {+modesty and deference due from a youth to his instructor+} , {+without letting escape (inexperience in life would have made me ashamed) any of the enthusiasm which stimulated my intended labours. I+} requested his advice concerning the books I ought to procure.\n\nContext after (unchanged): \"I am happy,\" said M. Waldman, \"to have gained a disciple; and if your application equals your ability, I have no doubt of your success."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "Adds a long elaboration of Victor's modesty and deference toward Waldman, plus self-reflection that he suppressed his enthusiasm (\"without letting escape... any of the enthusiasm\"). This reshapes how Victor presents himself as a youth, though no events change.",
+  "confidence": "medium",
+  "rationaleWords": 38
+ }
+}

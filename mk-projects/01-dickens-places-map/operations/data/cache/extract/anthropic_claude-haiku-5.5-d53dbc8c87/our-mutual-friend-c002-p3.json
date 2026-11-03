@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c002-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3274,
+  "completion_tokens": 783,
+  "total_tokens": 4057,
+  "cost": 0.0007189,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007189,
+   "upstream_inference_prompt_cost": 0.0003274,
+   "upstream_inference_completions_cost": 0.0003915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 516,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brussels",
+   "normalized": "Brussels, Belgium",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "cheaply educated at Brussels when his sister’s expulsion befell",
+   "note": ""
+  },
+  {
+   "as_written": "Cape wine",
+   "normalized": "Cape Colony, South Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "turns up on dry land among the Cape wine",
+   "note": "Refers to the wine-growing Cape region, not a named town."
+  },
+  {
+   "as_written": "Somewhere",
+   "normalized": "Somewhere",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the man from Somewhere",
+   "note": "Invented placename used as a nickname for the son's location; cannot be located."
+  }
+ ]
+}

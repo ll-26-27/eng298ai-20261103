@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c033-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4054,
+  "completion_tokens": 459,
+  "total_tokens": 4513,
+  "cost": 0.0006349,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006349,
+   "upstream_inference_prompt_cost": 0.0004054,
+   "upstream_inference_completions_cost": 0.0002295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 359,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the stragglers who came wandering into London, by the great highway hard by",
+   "note": "City is the destination; the scene itself is outside London, so role is mentioned."
+  }
+ ]
+}

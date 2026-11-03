@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c033-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5363,
+  "completion_tokens": 983,
+  "total_tokens": 6346,
+  "cost": 0.0010278,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010278,
+   "upstream_inference_prompt_cost": 0.0005363,
+   "upstream_inference_completions_cost": 0.0004915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 622,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Hampton Court Palace",
+   "normalized": "Hampton Court Palace, Hampton Court, Surrey",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "who jobbed it by the day, or hour, to most of the old ladies in Hampton Court Palace",
+   "note": "Also the 'Hampton Court Bohemians' set; Mrs Gowan's community"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the London jewellers’ to be in good order",
+   "note": "Named only in passing; Mrs Merdle's home is implied to be in London"
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "which, in Italy-",
+   "note": "Henry is to study there"
+  },
+  {
+   "as_written": "English history",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at that period of English history, a pill-box",
+   "note": "Named via the adjective 'English'"
+  }
+ ]
+}

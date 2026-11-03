@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1511,
+  "completion_tokens": 98,
+  "total_tokens": 1609,
+  "cost": 0.004002,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004002,
+   "upstream_inference_prompt_cost": 0.003022,
+   "upstream_inference_completions_cost": 0.00098
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0063. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): My mother was dead, but we had still duties which we ought to perform; we must continue our course with the rest, and learn to think ourselves fortunate, whilst one remains whom the spoiler has not seized.\n\n1818 text: My journey to Ingolstadt, which had been deferred by these events, was now again determined upon.\n\n1831 text: My departure for Ingolstadt, which had been deferred by these events, was now again determined upon.\n\nDiff: My [-journey to-] {+departure for+} Ingolstadt, which had been deferred by these events, was now again determined upon.\n\nContext after (unchanged): I obtained from my father a respite of some weeks."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"journey to\" becomes \"departure for\" Ingolstadt; a synonymous phrasing that keeps the same event (the postponed trip to university) and has no interpretive effect.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

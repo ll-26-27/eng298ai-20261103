@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2414,
+  "completion_tokens": 141,
+  "total_tokens": 2555,
+  "cost": 0.006238,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.006238,
+   "upstream_inference_prompt_cost": 0.004828,
+   "upstream_inference_completions_cost": 0.00141
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0022. Location: 1818 Letter II; 1831 Letter II.\n\nContext before (unchanged): I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.\n\n1818 text: The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness, and the mildness of his discipline. He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. He is, moreover, heroically generous. Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match.\n\n1831 text: The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness and the mildness of his discipline. This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character, that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story. Some years ago, he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match.\n\nDiff: [-The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness, and the mildness of his discipline. He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. He is, moreover, heroically generous. Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match.-] {+The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness and the mildness of his discipline. This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character, that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story. Some years ago, he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match.+}\n\nContext after (unchanged): He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "cut"
+  ],
+  "significance": 3,
+  "rationale": "Cuts the 1818 notes on the master (he will not hunt, 'heroically generous') and adds Walton's account of why he hired him: his 'solitude', 'feminine fosterage', distaste for 'brutality'. This elaborates Walton's own character and how the master's story is introduced.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

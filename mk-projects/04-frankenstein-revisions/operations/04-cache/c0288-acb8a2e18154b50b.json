@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2260,
+  "completion_tokens": 388,
+  "total_tokens": 2648,
+  "cost": 0.00042,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00042,
+   "upstream_inference_prompt_cost": 0.000226,
+   "upstream_inference_completions_cost": 0.000194
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 259,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0288. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): Increase of knowledge only discovered to me more clearly what a wretched outcast I was.\n\n1818 text: I cherished hope, it is true; but it vanished, when I beheld my person reflected in water, or my shadow in the moon-shine, even as that frail image and that inconstant shade. \"I endeavoured to crush these fears, and to fortify myself for the trial which in a few months I resolved to undergo; and sometimes I allowed my thoughts, unchecked by reason, to ramble in the fields of Paradise, and dared to fancy amiable and lovely creatures sympathizing with my feelings and cheering my gloom; their angelic countenances breathed smiles of consolation. But it was all a dream: no Eve soothed my sorrows, or shared my thoughts; I was alone. I remembered Adam's supplication to his Creator; but where was mine? he had abandoned me, and, in the bitterness of my heart, I cursed him.\n\n1831 text: I cherished hope, it is true; but it vanished, when I beheld my person reflected in water, or my shadow in the moonshine, even as that frail image and that inconstant shade. \"I endeavoured to crush these fears, and to fortify myself for the trial which in a few months I resolved to undergo; and sometimes I allowed my thoughts, unchecked by reason, to ramble in the fields of Paradise, and dared to fancy amiable and lovely creatures sympathising with my feelings, and cheering my gloom; their angelic countenances breathed smiles of consolation. But it was all a dream; no Eve soothed my sorrows, nor shared my thoughts; I was alone. I remembered Adam's supplication to his Creator. But where was mine? He had abandoned me and, in the bitterness of my heart, I cursed him.\n\nDiff: I cherished hope, it is true; but it vanished, when I beheld my person reflected in water, or my shadow in the [-moon-shine-] {+moonshine+} , even as that frail image and that inconstant shade. \" I endeavoured to crush these fears, and to fortify myself for the trial which in a few months I resolved to undergo; and sometimes I allowed my thoughts, unchecked by reason, to ramble in the fields of Paradise, and dared to fancy amiable and lovely creatures [-sympathizing-] {+sympathising+} with my feelings {+,+} and cheering my gloom; their angelic countenances breathed smiles of consolation. But it was all a dream [-:-] {+;+} no Eve soothed my sorrows, [-or-] {+nor+} shared my thoughts; I was alone. I remembered Adam's supplication to his Creator [-; but-] {+. But+} where was mine? [-he-] {+He+} had abandoned me [-,-] and, in the bitterness of my heart, I cursed him.\n\nContext after (unchanged): \"Autumn passed thus."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Mostly orthographic and punctual: moonshine, sympathising, and the swap of ':' for ';' and of ';' for '.'. The only word change, 'or' to 'nor' in 'no Eve soothed... nor shared', keeps the same sense of negation.",
+  "confidence": "medium",
+  "rationaleWords": 37
+ }
+}

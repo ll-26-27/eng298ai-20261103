@@ -1,0 +1,57 @@
+{
+ "chunk": "dombey-and-son-c011-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5606,
+  "completion_tokens": 1073,
+  "total_tokens": 6679,
+  "cost": 0.0010971,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010971,
+   "upstream_inference_prompt_cost": 0.0005606,
+   "upstream_inference_completions_cost": 0.0005365
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 758,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Tusculum",
+   "normalized": "Tusculum, near Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "talked with him in his retirement at Tusculum (beau-ti-ful Tusculum!)",
+   "note": "Cicero's villa site, referred to by Mrs Blimber"
+  },
+  {
+   "as_written": "Parnassus",
+   "normalized": "Mount Parnassus, Greece",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "our young Pilgrim to Parnassus",
+   "note": "Used figuratively for learning and study; the Blimber school's joke name"
+  },
+  {
+   "as_written": "Peruvian Mines",
+   "normalized": "Peru",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that failure of the Peruvian Mines",
+   "note": "Mines in Peru, a financial failure referred to by Mrs Pipchin"
+  }
+ ]
+}

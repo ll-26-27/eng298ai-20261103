@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1593,
+  "completion_tokens": 117,
+  "total_tokens": 1710,
+  "cost": 0.004356,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004356,
+   "upstream_inference_prompt_cost": 0.003186,
+   "upstream_inference_completions_cost": 0.00117
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0437. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): Sweet and beloved Elizabeth!\n\n1818 text: I read and re-read her letter, and some softened feelings stole into my heart, and dared to whisper paradisaical dreams of love and joy; but the apple was already eaten, and the angel's arm bared to drive me from all hope.\n\n1831 text: I read and re-read her letter, and some softened feelings stole into my heart, and dared to whisper paradisiacal dreams of love and joy; but the apple was already eaten, and the angel's arm bared to drive me from all hope.\n\nDiff: I read and re-read her letter, and some softened feelings stole into my heart, and dared to whisper [-paradisaical-] {+paradisiacal+} dreams of love and joy; but the apple was already eaten, and the angel's arm bared to drive me from all hope.\n\nContext after (unchanged): Yet I would die to make her happy."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"paradisaical\" becomes \"paradisiacal\", a variant spelling of the same adjective with identical meaning. The surrounding Eden imagery (apple, angel's arm) is unchanged, so there is no interpretive effect.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

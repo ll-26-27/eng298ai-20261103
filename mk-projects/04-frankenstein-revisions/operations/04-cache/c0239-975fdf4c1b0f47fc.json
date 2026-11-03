@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1796,
+  "completion_tokens": 97,
+  "total_tokens": 1893,
+  "cost": 0.0002281,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002281,
+   "upstream_inference_prompt_cost": 0.0001796,
+   "upstream_inference_completions_cost": 0.0000485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0239. Location: 1818 Vol. II, Ch. IV; 1831 Ch. XII.\n\nContext before (unchanged): But I was baffled in every attempt I made for this purpose.\n\n1818 text: Their pronunciation was quick; and the words they uttered, not having any apparent connexion with visible objects, I was unable to discover any clue by which I could unravel the mystery of their reference. By great application, however, and after having remained during the space of several revolutions of the moon in my hovel, I discovered the names that were given to some of the most familiar objects of discourse: I learned and applied the words fire, milk, bread, and wood.\n\n1831 text: Their pronunciation was quick; and the words they uttered, not having any apparent connection with visible objects, I was unable to discover any clue by which I could unravel the mystery of their reference. By great application, however, and after having remained during the space of several revolutions of the moon in my hovel, I discovered the names that were given to some of the most familiar objects of discourse; I learned and applied the words, fire, milk, bread, and wood.\n\nDiff: Their pronunciation was quick; and the words they uttered, not having any apparent [-connexion-] {+connection+} with visible objects, I was unable to discover any clue by which I could unravel the mystery of their reference. By great application, however, and after having remained during the space of several revolutions of the moon in my hovel, I discovered the names that were given to some of the most familiar objects of discourse [-:-] {+;+} I learned and applied the words {+,+} fire, milk, bread, and wood.\n\nContext after (unchanged): I learned also the names of the cottagers themselves."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic (connexion to connection) plus punctuation swaps (colon to semicolon, added comma after 'words'); no change in meaning or wording of substance.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

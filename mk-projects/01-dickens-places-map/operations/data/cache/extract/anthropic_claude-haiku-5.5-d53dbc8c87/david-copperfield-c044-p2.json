@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c044-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5109,
+  "completion_tokens": 1071,
+  "total_tokens": 6180,
+  "cost": 0.0010464,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010464,
+   "upstream_inference_prompt_cost": 0.0005109,
+   "upstream_inference_completions_cost": 0.0005355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 796,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Kentish Town",
+   "normalized": "Kentish Town, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the oldest inhabitant of Kentish Town, I believe",
+   "note": ""
+  },
+  {
+   "as_written": "Greenwich Fair",
+   "normalized": "Greenwich, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "went to Greenwich Fair in Dora’s bonnet",
+   "note": "Annual fair held at Greenwich; the fair is named, locating it there."
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Rome was not built in a day, nor in a year",
+   "note": "Proverbial allusion, not a literal reference to the city."
+  }
+ ]
+}

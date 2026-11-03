@@ -1,0 +1,48 @@
+{
+ "chunk": "oliver-twist-c049-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4523,
+  "completion_tokens": 546,
+  "total_tokens": 5069,
+  "cost": 0.0007253,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007253,
+   "upstream_inference_prompt_cost": 0.0004523,
+   "upstream_inference_completions_cost": 0.000273
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 379,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the West Indies",
+   "normalized": "West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as when I had last heard of you you were on your own estate in the West Indies",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "were supposed to be in London, but no one could tell where",
+   "note": "Monks is only said to be supposed to be in London; not a scene of action."
+  }
+ ]
+}

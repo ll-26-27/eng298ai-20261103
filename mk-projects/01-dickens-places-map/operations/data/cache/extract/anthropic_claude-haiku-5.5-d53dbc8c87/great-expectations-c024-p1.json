@@ -1,0 +1,93 @@
+{
+ "chunk": "great-expectations-c024-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5338,
+  "completion_tokens": 1637,
+  "total_tokens": 6975,
+  "cost": 0.0013523,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013523,
+   "upstream_inference_prompt_cost": 0.0005338,
+   "upstream_inference_completions_cost": 0.0008185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1075,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "had gone backwards and forwards to London several times",
+   "note": ""
+  },
+  {
+   "as_written": "Barnard’s Inn",
+   "normalized": "Barnard's Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if I could retain my bedroom in Barnard’s Inn",
+   "note": "Inn of Chancery; Pip's proposed lodging, not visited in this passage"
+  },
+  {
+   "as_written": "Little Britain",
+   "normalized": "Little Britain, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I went off to Little Britain and imparted my wish to Mr. Jaggers.",
+   "note": "Location of Jaggers's office"
+  },
+  {
+   "as_written": "Australia",
+   "normalized": "Australia",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as Australia.",
+   "note": "Figure of speech: 'deep as Australia', antipodean reference"
+  },
+  {
+   "as_written": "Walworth",
+   "normalized": "Walworth, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "coming over to see me at Walworth",
+   "note": ""
+  },
+  {
+   "as_written": "Newgate",
+   "normalized": "Newgate Prison, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The cast was made in Newgate",
+   "note": ""
+  },
+  {
+   "as_written": "the Bailey",
+   "normalized": "Old Bailey (Central Criminal Court), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "for the Bailey.",
+   "note": "Referred to as 'the Bailey'"
+  }
+ ]
+}

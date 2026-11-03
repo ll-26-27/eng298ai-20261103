@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1511,
+  "completion_tokens": 114,
+  "total_tokens": 1625,
+  "cost": 0.004162,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004162,
+   "upstream_inference_prompt_cost": 0.003022,
+   "upstream_inference_completions_cost": 0.00114
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0140. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): Clerval spoke thus as we hurried through the streets; the words impressed themselves on my mind, and I remembered them afterwards in solitude.\n\n1818 text: But now, as soon as the horses arrived, I hurried into a cabriole, and bade farewell to my friend.\n\n1831 text: But now, as soon as the horses arrived, I hurried into a cabriolet, and bade farewell to my friend.\n\nDiff: But now, as soon as the horses arrived, I hurried into a [-cabriole-] {+cabriolet+} , and bade farewell to my friend.\n\nContext after (unchanged): My journey was very melancholy."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"cabriole\" becomes \"cabriolet\": the same carriage, spelled in the standard form. The vehicle, action and meaning are unchanged, so this is an orthographic or lexical variant with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

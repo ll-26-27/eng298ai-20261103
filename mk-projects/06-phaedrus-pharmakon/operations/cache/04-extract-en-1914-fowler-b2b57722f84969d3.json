@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716109-FOqEiRoB1rjV8g7k2EJF",
+  "object": "chat.completion",
+  "created": 1793716109,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"elixir\",\"gloss\":\"elixir (a prepared potion)\",\"category\":\"elixir/potion\",\"note\":\"Fowler writes 'it is an elixir of memory and wisdom that I have discovered'; the word is kept in the predicate and the verb is 'discovered'.\"},\"mneme_274e\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Appears as 'elixir of memory and wisdom'; also 'improve their memories' earlier in the sentence renders μνημονικωτέρους, not this slot.\"},\"sophia_274e\":{\"rendering\":\"wisdom\",\"gloss\":\"wisdom\",\"note\":\"\"},\"pharmakon_275a\":{\"rendering\":\"elixir\",\"gloss\":\"elixir (a prepared potion)\",\"category\":\"elixir/potion\",\"note\":\"Same word as at 274e: 'You have invented an elixir not of memory, but of reminding'. Fowler changes the verb from 'discovered' to 'invented'.\"},\"mneme_275a\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"'not of memory, but of reminding'\"},\"hypomnesis_275a\":{\"rendering\":\"reminding\",\"gloss\":\"reminding (the act of reminding)\",\"note\":\"Gerund form, so it describes an activity. It is not rendered as a noun such as 'reminder' or 'recollection'.\"},\"sophia_275a\":{\"rendering\":\"the appearance of wisdom\",\"gloss\":\"the outward seeming of wisdom\",\"note\":\"Contrasted with 'true wisdom' for ἀλήθειαν. 'Appearance' captures δόξα as seeming, not as opinion or reputation.\"},\"doxosophoi_275b\":{\"rendering\":\"only appear wise\",\"gloss\":\"merely seem wise\",\"note\":\"The compound δοξόσοφοι is not kept as a single word. It is turned into a verbal phrase within 'they are not wise, but only appear wise', and the 'instead of' (ἀντὶ σοφῶν) is rendered as a contrast.\"},\"argument\":\"Fowler uses 'elixir' for both occurrences of pharmakon, so Thamus turns Theuth's own word against him and the dispute stays about which elixir it is, of memory or of reminding. Since 'elixir' leans toward a beneficial potion, the double edge of pharmakon (cure and poison) is mostly lost and Thamus's reply reads as a correction of the elixir's object, not of its nature. The memory/reminding and wisdom/appearance contrasts survive clearly, though 'only appear wise' loses the coined compound δοξόσοφοι.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5592,
+    "completion_tokens": 872,
+    "total_tokens": 6464,
+    "cost": 0.019904,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.019904,
+      "upstream_inference_prompt_cost": 0.011184,
+      "upstream_inference_completions_cost": 0.00872
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c018-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5183,
+  "completion_tokens": 877,
+  "total_tokens": 6060,
+  "cost": 0.0009568,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009568,
+   "upstream_inference_prompt_cost": 0.0005183,
+   "upstream_inference_completions_cost": 0.0004385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 533,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Even in the shallow Marshalsea, the ever young Archer",
+   "note": "Debtors' prison; also written 'the neighbouring Marshalsea' and 'the Marshalsea aforesaid'."
+  },
+  {
+   "as_written": "Horsemonger Lane",
+   "normalized": "Horsemonger Lane, Southwark, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "round the corner of Horsemonger Lane",
+   "note": "Tobacco shop is here; Young John sets out from it."
+  },
+  {
+   "as_written": "Horsemonger Lane jail",
+   "normalized": "Horsemonger Lane Gaol, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the yards of Horsemonger Lane jail",
+   "note": "Neighbouring prison; only referred to for the air it supplies."
+  }
+ ]
+}

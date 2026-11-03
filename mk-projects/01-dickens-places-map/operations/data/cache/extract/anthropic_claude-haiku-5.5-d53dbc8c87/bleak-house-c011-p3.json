@@ -1,0 +1,93 @@
+{
+ "chunk": "bleak-house-c011-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5112,
+  "completion_tokens": 2366,
+  "total_tokens": 7478,
+  "cost": 0.0016942,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016942,
+   "upstream_inference_prompt_cost": 0.0005112,
+   "upstream_inference_completions_cost": 0.001183
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1714,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cook’s Court",
+   "normalized": "Cook's Court, Cursitor Street area, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It is anything but a night of rest at Mr. Snagsby’s, in Cook’s Court",
+   "note": ""
+  },
+  {
+   "as_written": "Cursitor Street",
+   "normalized": "Cursitor Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the cock at the little dairy in Cursitor Street",
+   "note": ""
+  },
+  {
+   "as_written": "sol’s Arms",
+   "normalized": "Sol's Arms (public house), London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "For some little time the jurymen hang about the Sol’s Arms colloquially.",
+   "note": "Fictional inn in Bleak House; location in London implied but not precise."
+  },
+  {
+   "as_written": "Hampstead",
+   "normalized": "Hampstead, London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "two stroll to Hampstead",
+   "note": "Village outside London in Dickens's day; now in Greater London."
+  },
+  {
+   "as_written": "Mr. Krook’s",
+   "normalized": "Mr. Krook's house (rag and bottle shop), Chancery Lane area, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "comes with his pauper company to Mr. Krook’s and bears off the body",
+   "note": "Fictional building; location is inferred from the novel."
+  },
+  {
+   "as_written": "Tooting",
+   "normalized": "Tooting, Surrey",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "but for Tooting and her patron saint.",
+   "note": "Surrey village then; now in Greater London."
+  },
+  {
+   "as_written": "this boastful island",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "walked this boastful island together.",
+   "note": "Figurative reference to England or Britain."
+  }
+ ]
+}

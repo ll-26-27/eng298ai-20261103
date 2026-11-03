@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c005-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5085,
+  "completion_tokens": 1061,
+  "total_tokens": 6146,
+  "cost": 0.001039,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001039,
+   "upstream_inference_prompt_cost": 0.0005085,
+   "upstream_inference_completions_cost": 0.0005305
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 725,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the marshes",
+   "normalized": "Marshes near Cooling, Kent",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "we struck out on the open marshes, through the gate at the side of the churchyard",
+   "note": "Marshland in the Thames estuary; Dickens does not name it, so the location is approximate."
+  },
+  {
+   "as_written": "the churchyard",
+   "normalized": "Churchyard of St Mary's, Cooling, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "We passed the finger-post, and held straight on to the churchyard.",
+   "note": "Unnamed in the passage; church identification is inferred from the novel's setting."
+  },
+  {
+   "as_written": "the Battery",
+   "normalized": "Battery Point, Hoo peninsula, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the mound of the Battery, and the opposite shore of the river, were plain",
+   "note": "Old fortification; location inferred, not certain."
+  }
+ ]
+}

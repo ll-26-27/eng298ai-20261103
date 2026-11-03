@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c067-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4184,
+  "completion_tokens": 1209,
+  "total_tokens": 5393,
+  "cost": 0.0010229,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010229,
+   "upstream_inference_prompt_cost": 0.0004184,
+   "upstream_inference_completions_cost": 0.0006045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 863,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Full seven happy years I have been the mistress of Bleak House.",
+   "note": "Fictional house; in the novel it lies in Hertfordshire, not London."
+  },
+  {
+   "as_written": "Newman Street",
+   "normalized": "Newman Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lives full two miles further westward than Newman Street.",
+   "note": ""
+  },
+  {
+   "as_written": "Custom House",
+   "normalized": "Custom House, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Peepy is in the Custom House",
+   "note": ""
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "She has been disappointed in Borrioboola-Gha, which turned out a failure",
+   "note": "Fictional African settlement scheme."
+  }
+ ]
+}

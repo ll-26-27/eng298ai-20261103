@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c041-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5309,
+  "completion_tokens": 789,
+  "total_tokens": 6098,
+  "cost": 0.0009254,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009254,
+   "upstream_inference_prompt_cost": 0.0005309,
+   "upstream_inference_completions_cost": 0.0003945
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 370,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Putney",
+   "normalized": "Putney, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "walking out to Putney at extraordinary times, as shortly after breakfast or just before tea",
+   "note": "Dora's aunts live here; the visits and walks take place in Putney."
+  },
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "My daily journeys to Highgate considered, Putney was a long way off",
+   "note": "David's daily journeys go to Highgate, where Agnes lives; the passage does not place a scene there."
+  },
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "bringing him to Buckingham Street (where he instantly dashed at the two cats",
+   "note": "David's home in London, near the Strand."
+  },
+  {
+   "as_written": "the Common",
+   "normalized": "Putney Common, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as we strolled about the Common, I showed her an old housekeeping-book",
+   "note": "Not named in full; probably Putney Common, but could be Wimbledon Common."
+  }
+ ]
+}

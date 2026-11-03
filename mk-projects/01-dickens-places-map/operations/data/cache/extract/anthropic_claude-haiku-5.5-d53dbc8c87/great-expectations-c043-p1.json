@@ -1,0 +1,75 @@
+{
+ "chunk": "great-expectations-c043-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4985,
+  "completion_tokens": 1385,
+  "total_tokens": 6370,
+  "cost": 0.001191,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001191,
+   "upstream_inference_prompt_cost": 0.0004985,
+   "upstream_inference_completions_cost": 0.0006925
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 909,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Richmond",
+   "normalized": "Richmond, Surrey",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I resolved to go out to Richmond next day, and I went.",
+   "note": "Surrey town then outside London proper; now within Greater London"
+  },
+  {
+   "as_written": "Satis House",
+   "normalized": "Satis House, Rochester (fictional)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Where? To Satis House, as usual.",
+   "note": "Miss Havisham's house; the name is fictional and its location is implied to be near Rochester"
+  },
+  {
+   "as_written": "the Blue Boar",
+   "normalized": "Blue Boar Inn, Rochester, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "When we drove up to the Blue Boar after a drizzly ride",
+   "note": "Coaching inn; the identification with Rochester is implied rather than stated"
+  },
+  {
+   "as_written": "the Grove",
+   "normalized": "The Grove (Finches' house)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Have you been to the Grove since?",
+   "note": "Name of the Finches' house in the novel; location unclear"
+  },
+  {
+   "as_written": "Shropshire",
+   "normalized": "Shropshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I am told it’s very like your Shropshire.",
+   "note": ""
+  }
+ ]
+}

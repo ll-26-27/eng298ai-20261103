@@ -1,0 +1,102 @@
+{
+ "chunk": "bleak-house-c014-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4885,
+  "completion_tokens": 1572,
+  "total_tokens": 6457,
+  "cost": 0.0012745,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012745,
+   "upstream_inference_prompt_cost": 0.0004885,
+   "upstream_inference_completions_cost": 0.000786
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 912,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Newman Street",
+   "normalized": "Newman Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "lost in reconsidering what I had heard and seen in Newman Street",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "whether I conferred a charm and a distinction on London by residing in it?",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "England—alas, my country!—has degenerated very much",
+   "note": ""
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to be seen at Brighton and elsewhere at fashionable times",
+   "note": ""
+  },
+  {
+   "as_written": "Pavilion at Brighton",
+   "normalized": "Royal Pavilion, Brighton",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as he drove out of the Pavilion at Brighton (that fine building)",
+   "note": ""
+  },
+  {
+   "as_written": "Kensington",
+   "normalized": "Kensington, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Recollect your school at Kensington at three.",
+   "note": ""
+  },
+  {
+   "as_written": "the Opera Colonnade",
+   "normalized": "Opera Colonnade, Haymarket, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I shall take my little meal, I think, at the French house, in the Opera Colonnade.",
+   "note": "Colonnade near the Opera House; approximate location"
+  },
+  {
+   "as_written": "Lincoln’s Inn",
+   "normalized": "Lincoln’s Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "we chatted all the rest of the way to Lincoln’s Inn.",
+   "note": "Inn of Court; destination of the walk"
+  }
+ ]
+}

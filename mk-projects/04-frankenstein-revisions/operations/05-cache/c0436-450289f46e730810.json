@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1636,
+  "completion_tokens": 84,
+  "total_tokens": 1720,
+  "cost": 0.004112,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004112,
+   "upstream_inference_prompt_cost": 0.003272,
+   "upstream_inference_completions_cost": 0.00084
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0436. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): If he were vanquished, I should be a free man.\n\n1818 text: Alas! what freedom? such as the peasant enjoys when his family have been massacred before his eyes, his cottage burnt, his lands laid waste, and he is turned adrift, homeless, pennyless, and alone, but free.\n\n1831 text: Alas! what freedom? such as the peasant enjoys when his family have been massacred before his eyes, his cottage burnt, his lands laid waste, and he is turned adrift, homeless, penniless, and alone, but free.\n\nDiff: Alas! what freedom? such as the peasant enjoys when his family have been massacred before his eyes, his cottage burnt, his lands laid waste, and he is turned adrift, homeless, [-pennyless-] {+penniless+} , and alone, but free.\n\nContext after (unchanged): Such would be my liberty, except that in my Elizabeth I possessed a treasure; alas! balanced by those horrors of remorse and guilt, which would pursue me until death."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"pennyless\" is corrected to the standard \"penniless\"; this is an orthographic change only, with no effect on meaning or tone.",
+  "confidence": "high",
+  "rationaleWords": 20
+ }
+}

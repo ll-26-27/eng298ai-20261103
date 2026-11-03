@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c012-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1823,
+  "completion_tokens": 860,
+  "total_tokens": 2683,
+  "cost": 0.0006123,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006123,
+   "upstream_inference_prompt_cost": 0.0001823,
+   "upstream_inference_completions_cost": 0.00043
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 648,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Fellowships",
+   "normalized": "Fellowship Porters, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as this is the Fellowships, gentlemen, where the lights are",
+   "note": "Likely the Fellowship Porters tavern in Our Mutual Friend; the text refers to it only as 'the Fellowships', so the identification is uncertain."
+  },
+  {
+   "as_written": "Northfleet",
+   "normalized": "Northfleet, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "some lime works anywhere down about Northfleet",
+   "note": ""
+  }
+ ]
+}

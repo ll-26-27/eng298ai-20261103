@@ -1,0 +1,84 @@
+{
+ "chunk": "bleak-house-c055-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4997,
+  "completion_tokens": 1158,
+  "total_tokens": 6155,
+  "cost": 0.0010787,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010787,
+   "upstream_inference_prompt_cost": 0.0004997,
+   "upstream_inference_completions_cost": 0.000579
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 614,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "a chaise and pair comes out of Lincolnshire, making its way towards London",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "London reached, the travellers alight, the old housekeeper in great tribulation and confusion",
+   "note": ""
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "housekeeper at Chesney Wold",
+   "note": "Fictional Dedlock house in Lincolnshire"
+  },
+  {
+   "as_written": "Cape of Good Hope",
+   "normalized": "Cape of Good Hope, South Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "were the Cape of Good Hope, the Island of Ascension, Hong Kong",
+   "note": "Military station, figurative comparison"
+  },
+  {
+   "as_written": "the Island of Ascension",
+   "normalized": "Ascension Island, Atlantic Ocean",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Cape of Good Hope, the Island of Ascension, Hong Kong",
+   "note": "Figurative comparison"
+  },
+  {
+   "as_written": "Hong Kong",
+   "normalized": "Hong Kong",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Island of Ascension, Hong Kong, or any other military station",
+   "note": "Figurative comparison"
+  }
+ ]
+}

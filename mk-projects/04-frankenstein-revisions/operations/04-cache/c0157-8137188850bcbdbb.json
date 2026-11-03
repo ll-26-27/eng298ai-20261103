@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1567,
+  "completion_tokens": 127,
+  "total_tokens": 1694,
+  "cost": 0.0002202,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002202,
+   "upstream_inference_prompt_cost": 0.0001567,
+   "upstream_inference_completions_cost": 0.0000635
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0157. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): No one would believe it at first; and even now Elizabeth will not be convinced, notwithstanding all the evidence.\n\n1818 text: Indeed, who would credit that Justine Moritz, who was so amiable, and fond of all the family, could all at once become so extremely wicked?\"\n\n1831 text: Indeed, who would credit that Justine Moritz, who was so amiable, and fond of all the family, could suddenly become capable of so frightful, so appalling a crime?\"\n\nDiff: Indeed, who would credit that Justine Moritz, who was so amiable, and fond of all the family, could [-all at once-] {+suddenly+} become {+capable of+} so [-extremely wicked-] {+frightful, so appalling a crime+} ? \"\n\nContext after (unchanged): \"Justine Moritz!"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 3,
+  "rationale": "\"extremely wicked\" becomes \"capable of so frightful, so appalling a crime,\" shifting from a judgment of Justine's character to a focus on the act and her potential for it. Mainly diction, but it reframes her moral nature.",
+  "confidence": "medium",
+  "rationaleWords": 37
+ }
+}

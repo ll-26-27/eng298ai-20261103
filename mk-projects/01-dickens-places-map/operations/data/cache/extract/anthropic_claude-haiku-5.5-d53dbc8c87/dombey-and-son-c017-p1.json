@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c017-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5157,
+  "completion_tokens": 468,
+  "total_tokens": 5625,
+  "cost": 0.0007497,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007497,
+   "upstream_inference_prompt_cost": 0.0005157,
+   "upstream_inference_completions_cost": 0.000234
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brig Place",
+   "normalized": "Brig Place, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "come and cut his mutton in Brig Place on some day of his own naming",
+   "note": "Captain Cuttle's lodging area; Dickens's Brig Place is Brig Place in Dombey and Son, Staggs's Gardens area of Brighton? Treated as London street in the novel's Wapping-area setting"
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "how well he and Mr Dombey had got on at Brighton",
+   "note": ""
+  },
+  {
+   "as_written": "the West Indies",
+   "normalized": "West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "though I was going to be made Governor of all the Islands in the West Indies",
+   "note": ""
+  },
+  {
+   "as_written": "the Islands in the West Indies",
+   "normalized": "West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "though I was going to be made Governor of all the Islands in the West Indies",
+   "note": "duplicate of West Indies; listed once above"
+  },
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "Holborn Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "",
+   "note": "not present in this passage"
+  }
+ ]
+}

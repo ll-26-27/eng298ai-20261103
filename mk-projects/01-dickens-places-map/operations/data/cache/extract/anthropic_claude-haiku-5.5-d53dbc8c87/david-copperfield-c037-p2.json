@@ -1,0 +1,39 @@
+{
+ "chunk": "david-copperfield-c037-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3809,
+  "completion_tokens": 396,
+  "total_tokens": 4205,
+  "cost": 0.0005789,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005789,
+   "upstream_inference_prompt_cost": 0.0003809,
+   "upstream_inference_completions_cost": 0.000198
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 288,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Desert of Sahara",
+   "normalized": "Sahara Desert, North Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that we were verging on the Desert of Sahara",
+   "note": "Figurative comparison for a quarrel, not a literal setting."
+  }
+ ]
+}

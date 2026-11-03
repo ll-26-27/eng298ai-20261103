@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c027-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5417,
+  "completion_tokens": 887,
+  "total_tokens": 6304,
+  "cost": 0.0009852,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009852,
+   "upstream_inference_prompt_cost": 0.0005417,
+   "upstream_inference_completions_cost": 0.0004435
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 517,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Warwick Castle",
+   "normalized": "Warwick Castle, Warwick, Warwickshire",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Warwick Castle being at length pretty well exhausted",
+   "note": ""
+  },
+  {
+   "as_written": "Kenilworth",
+   "normalized": "Kenilworth Castle, Kenilworth, Warwickshire",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "A stroll among the haunted ruins of Kenilworth",
+   "note": "Ruins of a castle; the passage names only the ruins"
+  },
+  {
+   "as_written": "the Royal Hotel",
+   "normalized": "Royal Hotel, Warwick",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "old Joe has a great mind to propose an alteration in the name of the Royal Hotel",
+   "note": "Hotel where the party dines; town inferred from context"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "regretted that he would be obliged to return to London next morning",
+   "note": ""
+  }
+ ]
+}

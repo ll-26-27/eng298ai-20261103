@@ -1,0 +1,851 @@
+{
+  "about": "Step 4 output: each translator's renderings of the key words, extracted by a model (judgment, not fact). Step 5 checks every rendering against its passage.",
+  "model": "anthropic/claude-sonnet-5.5",
+  "categories": [
+    "remedy/medicine",
+    "drug",
+    "poison",
+    "elixir/potion",
+    "recipe/prescription",
+    "specific",
+    "means/aid",
+    "kept the Greek word",
+    "other",
+    "not translated"
+  ],
+  "slots": [
+    {
+      "key": "pharmakon_274e",
+      "describe": "φάρμακον in Theuth's claim at 274e: μνήμης τε γὰρ καὶ σοφίας φάρμακον ηὑρέθη"
+    },
+    {
+      "key": "mneme_274e",
+      "describe": "μνήμης in Theuth's claim at 274e"
+    },
+    {
+      "key": "sophia_274e",
+      "describe": "σοφίας in Theuth's claim at 274e"
+    },
+    {
+      "key": "pharmakon_275a",
+      "describe": "φάρμακον in Thamus's reply at 275a: οὔκουν μνήμης ἀλλὰ ὑπομνήσεως φάρμακον ηὗρες"
+    },
+    {
+      "key": "mneme_275a",
+      "describe": "μνήμης in Thamus's reply at 275a (not of memory …)"
+    },
+    {
+      "key": "hypomnesis_275a",
+      "describe": "ὑπομνήσεως in Thamus's reply at 275a (… but of reminding)"
+    },
+    {
+      "key": "sophia_275a",
+      "describe": "σοφίας … δόξαν at 275a: σοφίας δὲ τοῖς μαθηταῖς δόξαν, οὐκ ἀλήθειαν (the seeming of wisdom, not its truth): give the words for the whole idea 'seeming/reputation of wisdom'"
+    },
+    {
+      "key": "doxosophoi_275b",
+      "describe": "δοξόσοφοι at 275b: δοξόσοφοι γεγονότες ἀντὶ σοφῶν (wise-seeming instead of wise)"
+    }
+  ],
+  "versions": [
+    {
+      "id": "en-1892-jowett",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "specific",
+        "gloss": "a medicine for one particular disease (used as a noun)",
+        "category": "specific",
+        "note": "Jowett writes 'it is a specific both for the memory and for the wit'; the noun is predicated of letters, which is the 'it' of the clause."
+      },
+      "mneme_274e": {
+        "rendering": "the memory",
+        "gloss": "the faculty of memory",
+        "note": "Also anticipated in 'better memories' in the preceding clause, which paraphrases the claim. In the pharmakon clause itself it is 'the memory'."
+      },
+      "sophia_274e": {
+        "rendering": "the wit",
+        "gloss": "the wit, mental sharpness",
+        "note": "Narrower than 'wisdom'; it shifts σοφία toward cleverness or intelligence. The preceding clause renders σοφωτέρους as 'wiser'."
+      },
+      "pharmakon_275a": {
+        "rendering": "specific",
+        "gloss": "a medicine for one particular disease (used as a noun)",
+        "category": "specific",
+        "note": "Same word as at 274e, introduced by 'The specific which you have discovered'. The word 'aid' is Jowett's rendering of the genitive construction, not of pharmakon, so it is not the main word here."
+      },
+      "mneme_275a": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "'an aid not to memory'. The genitive is turned into a dative-like 'to' phrase."
+      },
+      "hypomnesis_275a": {
+        "rendering": "reminiscence",
+        "gloss": "recollection, calling to mind",
+        "note": "Jowett's 'reminiscence' is more Platonic-sounding (anamnesis) than 'reminding'. The contrast is memory versus reminiscence."
+      },
+      "sophia_275a": {
+        "rendering": "the semblance of truth",
+        "gloss": "the outward appearance of truth",
+        "note": "Jowett renders 'σοφίας … δόξαν, οὐκ ἀλήθειαν' as 'not truth, but only the semblance of truth', so 'wisdom' is dropped from the phrase and the contrast is set against truth alone. The 'show of wisdom without the reality' at the end of the passage echoes the idea, but it renders the doxosophoi clause."
+      },
+      "doxosophoi_275b": {
+        "rendering": "having the show of wisdom without the reality",
+        "gloss": "possessing the outward display of wisdom without the real thing",
+        "note": "A paraphrase of the compound δοξόσοφοι ... ἀντὶ σοφῶν as a participial phrase; the compound is not rendered as a single word."
+      },
+      "argument": "Jowett keeps one word, 'specific', for both occurrences of pharmakon, so Thamus does turn Theuth's own term back on him. However, 'specific' is a narrow, technical medical word, so the ambivalence of the Greek (remedy and poison) is lost and the exchange becomes a quarrel about what the remedy is a remedy for. The gloss 'an aid not to memory, but to reminiscence' adds a second, softer word beside 'specific' and makes Thamus's rebuttal read as a correction of the target, not a challenge to the drug's nature, while 'the wit' and 'the semblance of truth' blur the wisdom/seeming-wisdom pair that the Greek states directly."
+    },
+    {
+      "id": "en-1914-fowler",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "elixir",
+        "gloss": "elixir (a prepared potion)",
+        "category": "elixir/potion",
+        "note": "Fowler writes 'it is an elixir of memory and wisdom that I have discovered'; the word is kept in the predicate and the verb is 'discovered'."
+      },
+      "mneme_274e": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "Appears as 'elixir of memory and wisdom'; also 'improve their memories' earlier in the sentence renders μνημονικωτέρους, not this slot."
+      },
+      "sophia_274e": {
+        "rendering": "wisdom",
+        "gloss": "wisdom",
+        "note": ""
+      },
+      "pharmakon_275a": {
+        "rendering": "elixir",
+        "gloss": "elixir (a prepared potion)",
+        "category": "elixir/potion",
+        "note": "Same word as at 274e: 'You have invented an elixir not of memory, but of reminding'. Fowler changes the verb from 'discovered' to 'invented'."
+      },
+      "mneme_275a": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "'not of memory, but of reminding'"
+      },
+      "hypomnesis_275a": {
+        "rendering": "reminding",
+        "gloss": "reminding (the act of reminding)",
+        "note": "Gerund form, so it describes an activity. It is not rendered as a noun such as 'reminder' or 'recollection'."
+      },
+      "sophia_275a": {
+        "rendering": "the appearance of wisdom",
+        "gloss": "the outward seeming of wisdom",
+        "note": "Contrasted with 'true wisdom' for ἀλήθειαν. 'Appearance' captures δόξα as seeming, not as opinion or reputation."
+      },
+      "doxosophoi_275b": {
+        "rendering": "only appear wise",
+        "gloss": "merely seem wise",
+        "note": "The compound δοξόσοφοι is not kept as a single word. It is turned into a verbal phrase within 'they are not wise, but only appear wise', and the 'instead of' (ἀντὶ σοφῶν) is rendered as a contrast."
+      },
+      "argument": "Fowler uses 'elixir' for both occurrences of pharmakon, so Thamus turns Theuth's own word against him and the dispute stays about which elixir it is, of memory or of reminding. Since 'elixir' leans toward a beneficial potion, the double edge of pharmakon (cure and poison) is mostly lost and Thamus's reply reads as a correction of the elixir's object, not of its nature. The memory/reminding and wisdom/appearance contrasts survive clearly, though 'only appear wise' loses the coined compound δοξόσοφοι."
+    },
+    {
+      "id": "ru-1863-karpov",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "средство",
+        "gloss": "means, instrument, resource",
+        "category": "means/aid",
+        "note": "Appears in 'я изобрел ее, как средство для памяти и мудрости' ('I invented it as a means for memory and wisdom'). The sentence is recast as a first-person clause with 'как', so φάρμακον is rendered by a neutral word. The Russian has no sense of drug or remedy."
+      },
+      "mneme_274e": {
+        "rendering": "для памяти",
+        "gloss": "for memory",
+        "note": "The genitive becomes a dative-type 'для' phrase. Compare 'памятливее' ('more mindful') earlier in the same speech, which renders μνημονικωτέρους."
+      },
+      "sophia_274e": {
+        "rendering": "мудрости",
+        "gloss": "of wisdom",
+        "note": "Genitive, coordinated with 'памяти' under the same 'для'. Matches 'мудрее' ('wiser') earlier."
+      },
+      "pharmakon_275a": {
+        "rendering": "средство",
+        "gloss": "means, instrument, resource",
+        "category": "means/aid",
+        "note": "Appears in 'ты изобрел средство не для памятования, а для напоминания'. It is the same word as at 274e, so Thamus's wording repeats Theuth's. No pharmacological sense is present in either place."
+      },
+      "mneme_275a": {
+        "rendering": "для памятования",
+        "gloss": "for remembering",
+        "note": "The translator uses the verbal noun 'памятование' ('the act of remembering'), not 'память' as at 274e. This shifts memory from a faculty to an activity and differs from Theuth's 'памяти'. The same stem appears in 'заботливость о памятовании' just before."
+      },
+      "hypomnesis_275a": {
+        "rendering": "для напоминания",
+        "gloss": "for reminding",
+        "note": "'Напоминание' is the act of reminding or calling to mind. It is built on the same root as 'память'/'памятование' (-мин-/-мня-), so the Russian partly keeps the Greek link between mneme and hypomnesis."
+      },
+      "sophia_275a": {
+        "rendering": "мудрость ученики приобретут у тебя не истинную, а кажущуюся",
+        "gloss": "wisdom the pupils will acquire from you not true but seeming",
+        "note": "The Greek contrast doxa/aletheia becomes an adjective pair, 'истинную' ('true') against 'кажущуюся' ('appearing, seeming'). 'Wisdom' is the noun in both cases. The verb is 'приобретут' ('will acquire'), not 'you provide'. Seeming is expressed through the participle, not through the noun 'мнение' or 'слава'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "мнимые мудрецы",
+        "gloss": "supposed/imaginary wise men",
+        "note": "Rendered 'как мнимые мудрецы, вместо истинных' ('as supposed sages, instead of true ones'). 'Мнимые' means 'imagined, putative'. The compound is not reproduced, but the pairing with 'истинных' echoes the earlier 'кажущуюся' vs 'истинную'."
+      },
+      "argument": "Karpov renders both occurrences of φάρμακον with the same neutral word 'средство', so Thamus does turn Theuth's own word against him, but only through the contrast of memory with reminding. Because 'средство' has no medical or poisonous sense, the Greek ambiguity between remedy and poison disappears, and the argument reads as a dispute about which faculty the invention serves. Theuth's claim is also softened to 'я изобрел ее, как средство', and the translator's 'памятование' versus 'напоминание' keeps Thamus's distinction, while the seeming/true wisdom contrast stays intact."
+    },
+    {
+      "id": "pl-1918-witwicki",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "lekarstwem",
+        "gloss": "with/as a medicine (instrumental case of 'lekarstwo')",
+        "category": "remedy/medicine",
+        "note": "Theuth's clause is 'wynalazek ten jest lekarstwem na pamięć i mądrość', 'this invention is a medicine for memory and wisdom'. 'Na' ('for/against') gives the sense of a cure for a lack."
+      },
+      "mneme_274e": {
+        "rendering": "pamięć",
+        "gloss": "memory",
+        "note": "Accusative after 'na' ('for'). The translator also renders μνημονικωτέρους earlier as 'sprawniejszymi w pamiętaniu'."
+      },
+      "sophia_274e": {
+        "rendering": "mądrość",
+        "gloss": "wisdom",
+        "note": ""
+      },
+      "pharmakon_275a": {
+        "rendering": "lekarstwo",
+        "gloss": "medicine, remedy",
+        "category": "remedy/medicine",
+        "note": "The same lexeme as at 274e, only in the nominative case after 'nie jest'. Thamus then uses a different word, 'środek' (means, device), for what the invention actually is: 'środek na przypominanie sobie'. That second word stands where the Greek has φάρμακον in the second half of the antithesis, so it is the Greek φάρμακον split across two words."
+      },
+      "mneme_275a": {
+        "rendering": "pamięć",
+        "gloss": "memory",
+        "note": "Accusative after 'na'. The phrase is 'nie jest lekarstwo na pamięć', 'it is not a medicine for memory'."
+      },
+      "hypomnesis_275a": {
+        "rendering": "przypominanie sobie",
+        "gloss": "reminding oneself, recalling to oneself",
+        "note": "A verbal noun with a reflexive pronoun, so 'reminding' is made self-directed. Since it follows 'środek na', the whole phrase reads 'a means for reminding oneself'."
+      },
+      "sophia_275a": {
+        "rendering": "pozór mądrości",
+        "gloss": "appearance/semblance of wisdom",
+        "note": "Contrasted with 'mądrość prawdziwą', 'true wisdom'. This is a wording of 'doxa' as 'appearance', and it does not mean 'reputation' or 'opinion'. The Greek 'alētheia' is rendered by the adjective 'prawdziwą', 'true'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "mędrcy z pozoru",
+        "gloss": "sages from appearance, i.e. apparent sages",
+        "note": "The compound is split into a noun plus a prepositional phrase. It is followed by 'a nie ludzie mądrzy naprawdę', 'and not people wise in truth'. It echoes 'pozór' from the earlier line."
+      },
+      "argument": "Witwicki keeps one word, 'lekarstwo', for both occurrences of pharmakon in the first half of the antithesis, so Thamus does throw Theuth's own word back at him: 'not a lekarstwo for memory'. For the positive half he switches to 'środek na przypominanie', a neutral 'means', so the Greek second pharmakon is rendered by a different, less medical word. This keeps the medicine image in the denial but loses it in the affirmation, and the reply reads more as a correction of purpose than as a reversal of the drug's effect. The doxa vocabulary ('pozór', 'z pozoru') is kept consistent, which makes the opposition between appearance and truth clear."
+    },
+    {
+      "id": "fi-1920-lehmuskoski",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "apukeinoksi",
+        "gloss": "as an auxiliary means / helping device (translative case)",
+        "category": "means/aid",
+        "note": "Compound apu-keino: 'help-device/expedient'. Not 'lääke' (medicine). The sentence is rendered 'se on keksitty apukeinoksi muistille ja viisaudelle'; memory and wisdom are in the allative, 'for memory and wisdom'."
+      },
+      "mneme_274e": {
+        "rendering": "muistille",
+        "gloss": "for memory (allative)",
+        "note": "Dative-like beneficiary: the aid is 'for memory'. Elsewhere in the same sentence Theuth's 'mnemonikōterous' is rendered 'muistiltaan paremmiksi' (better in their memory)."
+      },
+      "sophia_274e": {
+        "rendering": "viisaudelle",
+        "gloss": "for wisdom (allative)",
+        "note": "Standard word viisaus, 'wisdom'. It is the ordinary, positive word here."
+      },
+      "pharmakon_275a": {
+        "rendering": "apuneuvoa",
+        "gloss": "an aid-instrument / helping tool (partitive)",
+        "category": "means/aid",
+        "note": "A different compound from 274e: apukeino (aid-device) versus apuneuvo (aid-tool). Both share the root 'apu-' (help) but are not the same word. Partitive because the clause is negated ('Et siis ole keksinyt apuneuvoa muistille')."
+      },
+      "mneme_275a": {
+        "rendering": "muistille",
+        "gloss": "for memory (allative)",
+        "note": "Same form as at 274e, so memory is kept identical in both places."
+      },
+      "hypomnesis_275a": {
+        "rendering": "mieleenpalauttamiselle",
+        "gloss": "for the calling-back-to-mind (allative of a verbal noun)",
+        "note": "A literal calque on 'recalling to mind' (mieleen = to mind, palauttaminen = bringing back). It matches the verb 'palauttavat asioita mieleensä' used earlier in the speech."
+      },
+      "sophia_275a": {
+        "rendering": "rikkiviisauden",
+        "gloss": "of broken/ruined wisdom (accusative)",
+        "note": "The word 'rikkiviisaus' (rikki = broken, viisaus = wisdom) is a coinage or rare word meaning sham wisdom. It folds the Greek δόξαν σοφίας ('the seeming of wisdom') into one word and drops the doxa/alētheia contrast on 'seeming'. The antithesis survives only in 'et todellista viisautta' ('not real wisdom')."
+      },
+      "doxosophoi_275b": {
+        "rendering": "rikkiviisaiksi",
+        "gloss": "into broken-wise / sham-wise (translative plural)",
+        "note": "Same stem as 'rikkiviisauden' at 275a, so the 'sham wisdom' and 'sham-wise' pair stays linked as in the Greek doxa/doxosophoi. It is contrasted with 'viisaiksi' (wise)."
+      },
+      "argument": "Lehmuskoski gives pharmakon a neutral helping-device sense (apukeino, apuneuvo) and avoids any word for medicine or poison, so the drug/cure/poison ambivalence is lost entirely. The two occurrences are also not the same word: Theuth's apukeino becomes Thamus's apuneuvo, so Thamus does not literally turn Theuth's own word against him, although the shared 'apu-' root keeps the connection audible. The memory/reminding contrast stays clear, and rikkiviisaus/rikkiviisaat preserves the wisdom/sham-wisdom link that closes the passage."
+    },
+    {
+      "id": "el-nd-gounaris",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "φάρμακον",
+        "gloss": "pharmakon (drug, remedy, poison)",
+        "category": "kept the Greek word",
+        "note": "Modern Greek φάρμακον is the ordinary word for 'medicine/drug', so this is not a foreign borrowing but the same lexeme as Plato's. It keeps the ancient ambivalence available (remedy/poison) but in modern usage leans toward 'medicine'. Word order follows Plato: 'της μνήμης και της σοφίας το φάρμακον'."
+      },
+      "mneme_274e": {
+        "rendering": "της μνήμης",
+        "gloss": "of the memory",
+        "note": "Genitive with article, as in the Greek construction of modern katharevousa."
+      },
+      "sophia_274e": {
+        "rendering": "της σοφίας",
+        "gloss": "of the wisdom",
+        "note": ""
+      },
+      "pharmakon_275a": {
+        "rendering": "φάρμακον",
+        "gloss": "pharmakon (drug, remedy, poison)",
+        "category": "kept the Greek word",
+        "note": "Same word as at 274e, so Thamus reuses Theuth's term exactly. Construction: 'δεν εύρες φάρμακον μνήμης, αλλ' υπομνήσεως'."
+      },
+      "mneme_275a": {
+        "rendering": "μνήμης",
+        "gloss": "of memory",
+        "note": "Without article here, unlike 274e."
+      },
+      "hypomnesis_275a": {
+        "rendering": "υπομνήσεως",
+        "gloss": "of reminding / recollection",
+        "note": "Katharevousa genitive of ὑπόμνησις, essentially the Greek word itself; no paraphrase, so the memory/reminder contrast is preserved intact."
+      },
+      "sophia_275a": {
+        "rendering": "φανταστικήν σοφίαν",
+        "gloss": "imaginary/illusory wisdom",
+        "note": "Translator renders 'δόξαν σοφίας' as an adjective plus noun, 'illusory wisdom', rather than 'seeming/reputation of wisdom'. The opposition with 'όχι αλήθειαν' (not truth) is kept."
+      },
+      "doxosophoi_275b": {
+        "rendering": "δοκησίσοφοι",
+        "gloss": "conceited-wise ones, wise-in-their-own-conceit",
+        "note": "Uses the established Greek word δοκησίσοφος (seeming-wise, conceited), not Plato's coinage δοξόσοφοι; the sense is close and the compound structure is kept."
+      },
+      "argument": "By keeping φάρμακον in both places, with the same word and the same genitive construction, the translation lets Thamus turn Theuth's own term against him, as in the original. Since modern φάρμακον mostly means 'medicine', the poison side of the word is weakened, though the identity of the word still carries the reversal. The memory/reminding contrast is likewise preserved with cognate terms, and 'illusory wisdom' and δοκησίσοφοι convey the appearance-versus-truth point."
+    },
+    {
+      "id": "fr-1831-cousin",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "remède",
+        "gloss": "remedy",
+        "category": "remedy/medicine",
+        "note": "Cousin recasts the genitives as 'contre la difficulté d'apprendre et de savoir' (against the difficulty of learning and knowing), so the remedy is aimed at a difficulty rather than being 'of memory and wisdom'."
+      },
+      "mneme_274e": {
+        "rendering": "mémoire",
+        "gloss": "memory",
+        "note": "This 'mémoire' sits in 'soulagera leur mémoire' (will relieve their memory), which renders μνημονικωτέρους. The genitive μνήμης in the pharmakon clause has no separate rendering and is folded into 'la difficulté d'apprendre'."
+      },
+      "sophia_274e": {
+        "rendering": "savoir",
+        "gloss": "knowing / knowledge",
+        "note": "Appears in 'difficulté d'apprendre et de savoir', an infinitive, not a noun for wisdom. 'savans' earlier renders σοφωτέρους. The sense of 'wisdom' is weakened."
+      },
+      "pharmakon_275a": {
+        "rendering": "moyen",
+        "gloss": "means / way",
+        "category": "means/aid",
+        "note": "Cousin switches from 'remède' to 'moyen', a neutral means. The medical sense is lost."
+      },
+      "mneme_275a": {
+        "rendering": "la mémoire",
+        "gloss": "the memory",
+        "note": "Object of 'moyen pour la mémoire' (a means for memory)."
+      },
+      "hypomnesis_275a": {
+        "rendering": "la simple réminiscence",
+        "gloss": "the mere reminiscence",
+        "note": "'simple' is added and has no Greek counterpart. It makes the contrast with memory depreciative. 'Réminiscence' also carries Platonic anamnesis overtones, which blurs ὑπόμνησις."
+      },
+      "sophia_275a": {
+        "rendering": "le nom de la science",
+        "gloss": "the name of science/knowledge",
+        "note": "δόξα is rendered as 'nom' (name) rather than seeming or reputation. 'Science' is used for σοφία, and the contrast 'sans la réalité' (without the reality) stands for οὐκ ἀλήθειαν."
+      },
+      "doxosophoi_275b": {
+        "rendering": "la fausse opinion qu'ils auront de leur science",
+        "gloss": "the false opinion that they will have of their knowledge",
+        "note": "The compound δοξόσοφοι is dissolved into a phrase. The antithesis ἀντὶ σοφῶν is dropped, and 'ils se croiront de nombreuses connaissances' (they will think themselves possessed of many pieces of knowledge) also renders part of the idea."
+      },
+      "argument": "Cousin renders Theuth's pharmakon as 'remède' but Thamus's as 'moyen', so Thamus does not turn Theuth's own word against him, and the pharmakon wordplay and the ambivalence of cure and poison disappear. The memory/reminding contrast is kept but weakened: Theuth's 'memory and wisdom' becomes a remedy for difficulty in learning, and 'simple réminiscence' makes Thamus's verdict more openly dismissive. Wise-seeming (doxosophoi) becomes a periphrasis about false opinion, so the pointed compound is lost."
+    },
+    {
+      "id": "fr-1922-meunier",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "un remède",
+        "gloss": "a remedy",
+        "category": "remedy/medicine",
+        "note": "Meunier writes 'un remède pour soulager la science et la mémoire', which reshapes the genitive 'of memory and wisdom' into a purpose clause: a remedy to relieve/assist science and memory. This makes memory and wisdom the patients rather than the goods produced."
+      },
+      "mneme_274e": {
+        "rendering": "la mémoire",
+        "gloss": "the memory",
+        "note": "Object of 'soulager', along with 'la science'. Earlier in the same sentence he also gives 'facilitera l'art de se souvenir' for μνημονικωτέρους."
+      },
+      "sophia_274e": {
+        "rendering": "la science",
+        "gloss": "the science / knowledge",
+        "note": "σοφία is rendered 'science' (knowledge), and the order is inverted to 'la science et la mémoire'. The comparative σοφωτέρους is rendered 'plus savants'."
+      },
+      "pharmakon_275a": {
+        "rendering": "le moyen",
+        "gloss": "the means",
+        "category": "means/aid",
+        "note": "The word is 'moyen', not 'remède'. The clause 'Tu as trouvé le moyen, non point d'enrichir la mémoire, mais de conserver les souvenirs qu'elle a' also turns the genitives into infinitive purpose clauses."
+      },
+      "mneme_275a": {
+        "rendering": "la mémoire",
+        "gloss": "the memory",
+        "note": "Here it is the thing not to be enriched ('d'enrichir la mémoire'). It is a verbal paraphrase of the genitive."
+      },
+      "hypomnesis_275a": {
+        "rendering": "conserver les souvenirs qu'elle a",
+        "gloss": "to preserve the memories that it has",
+        "note": "ὑπομνήσεως is paraphrased as preserving existing memories, not as 'reminding' or 'reminder'. The mneme/hypomnesis wordplay is lost, though the sense of storage is kept."
+      },
+      "sophia_275a": {
+        "rendering": "la présomption qu'ils ont la science, non la science elle-même",
+        "gloss": "the presumption that they have knowledge, not knowledge itself",
+        "note": "δόξα is rendered 'présomption' (a conceit or presumed claim), and ἀλήθεια is turned into 'la science elle-même' (knowledge itself) rather than 'truth'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "des savants imaginaires",
+        "gloss": "imaginary scholars / learned men",
+        "note": "This is a paraphrase of the compound, followed by 'au lieu de vrais savants'. The compound is not kept, but the contrast of seeming and true is clear."
+      },
+      "argument": "Meunier does not keep one word for pharmakon: Theuth offers a 'remède' and Thamus replies with 'le moyen' (means). So the reversal in which Thamus turns Theuth's own word against him is lost, as is the ambivalence of remedy and poison. The genitives become purpose clauses, so Theuth's remedy is for relieving memory and knowledge, and Thamus's reply is a milder correction: the invention preserves memories but does not enrich memory. This weakens the mneme/hypomnesis contrast, and the 'remède' is not shown to turn into something harmful."
+    },
+    {
+      "id": "de-1804-schleiermacher",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "ein Mittel",
+        "gloss": "a means / a remedy (a 'Mittel')",
+        "category": "means/aid",
+        "note": "Schleiermacher's 'Mittel' is a bare 'means' and not 'Heilmittel', so the medical sense is only faint. The sentence is 'als ein Mittel für den Verstand und das Gedächtnis ist sie erfunden'."
+      },
+      "mneme_274e": {
+        "rendering": "das Gedächtnis",
+        "gloss": "the memory",
+        "note": "Earlier in the same speech 'gedächtnisreicher' (rich in memory) renders μνημονικωτέρους. The genitive μνήμης is given as 'für ... das Gedächtnis'."
+      },
+      "sophia_274e": {
+        "rendering": "den Verstand",
+        "gloss": "the understanding / intellect",
+        "note": "σοφίας is rendered 'Verstand' here, not 'Weisheit'. The adjective in the preceding clause, 'weiser', is from the 'weise' family. So the wisdom-word is not kept across the two occurrences."
+      },
+      "pharmakon_275a": {
+        "rendering": "ein Mittel",
+        "gloss": "a means / a remedy",
+        "category": "means/aid",
+        "note": "The same word as at 274e, 'Mittel'. The sentence is 'Nicht also für das Gedächtnis, sondern nur für die Erinnerung hast du ein Mittel erfunden'."
+      },
+      "mneme_275a": {
+        "rendering": "das Gedächtnis",
+        "gloss": "the memory",
+        "note": "Same word as at 274e. The phrase is 'für das Gedächtnis'."
+      },
+      "hypomnesis_275a": {
+        "rendering": "die Erinnerung",
+        "gloss": "the remembrance / recollection",
+        "note": "Contrasted with 'Gedächtnis'. The contrast is between two German words and does not use a compound that echoes 'reminding'. The 'nur' (only) is added by the translator."
+      },
+      "sophia_275a": {
+        "rendering": "den Schein",
+        "gloss": "the semblance / appearance",
+        "note": "'von der Weisheit bringst du deinen Lehrlingen nur den Schein bei, nicht die Sache selbst'. 'Weisheit' is used here, though at 274e σοφίας was 'Verstand'. δόξαν is 'Schein' (appearance), and ἀλήθειαν is 'die Sache selbst' (the thing itself), not 'Wahrheit'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "dünkelweise",
+        "gloss": "conceit-wise / wise in their own conceit",
+        "note": "'dünkelweise geworden statt weise'. It is a coinage that echoes 'dünken' (seem, think oneself), which was used for δόξουσιν a few words earlier."
+      },
+      "argument": "Schleiermacher renders both occurrences of pharmakon with the same word, 'Mittel', so Thamus does turn Theuth's own word against him. But 'Mittel' is only a neutral means, so the medicine/poison ambiguity of the Greek disappears and the exchange becomes a quarrel over what the invention is a means for. The change of 'Verstand' to 'Weisheit' for σοφία weakens the repeated link between Theuth's claim and Thamus's reply, while the 'Gedächtnis'/'Erinnerung' contrast and the 'Schein' and 'dünkelweise' vocabulary keep the seeming-versus-real opposition clear."
+    },
+    {
+      "id": "de-1853-georgii",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "Hilfsmittel",
+        "gloss": "help-means, i.e. an aid or auxiliary",
+        "category": "means/aid",
+        "note": "Georgii has no healing or poisonous sense here. The word is a neutral instrument, and the medical register of pharmakon is gone."
+      },
+      "mneme_274e": {
+        "rendering": "Erinnern",
+        "gloss": "the (act of) remembering or recalling",
+        "note": "This is a verbal noun for the act of remembering, not 'Gedächtnis' (memory as a faculty). It appears as 'für das Erinnern'."
+      },
+      "sophia_274e": {
+        "rendering": "Weisheit",
+        "gloss": "wisdom",
+        "note": ""
+      },
+      "pharmakon_275a": {
+        "rendering": "Hilfsmittel",
+        "gloss": "help-means, i.e. an aid or auxiliary",
+        "category": "means/aid",
+        "note": "The word is identical to the one at 274e."
+      },
+      "mneme_275a": {
+        "rendering": "Erinnern",
+        "gloss": "the (act of) remembering",
+        "note": "The same word as at 274e. Here, however, it stands in the slot of Greek μνήμης, so the Greek memory/reminding contrast comes out inverted: Thamus denies 'Erinnern' and grants 'Gedächtnis'."
+      },
+      "hypomnesis_275a": {
+        "rendering": "Gedächtnis",
+        "gloss": "memory (the faculty or store)",
+        "note": "ὑπομνήσεως ('reminding', a prompt from outside) is rendered with the ordinary German word for memory. This is a reversal or flattening of the Greek, because 'Gedächtnis' is the natural word for μνήμη. The Greek contrast between inner memory and external reminder is lost."
+      },
+      "sophia_275a": {
+        "rendering": "Weisheit aber bietest du den Schülern nur Schein",
+        "gloss": "wisdom, however, you offer the pupils only appearance",
+        "note": "The words are not contiguous in the Greek. The idea of 'seeming of wisdom' is carried by 'Schein' (appearance), which is set against 'Wahrheit' (truth). 'Weisheit' is the genitive governed by 'Von der'. The translator's 'nur' (only) is added."
+      },
+      "doxosophoi_275b": {
+        "rendering": "Scheinweise",
+        "gloss": "appearance-wise ones, i.e. seemingly wise",
+        "note": "This is a compound that mirrors the Greek compound and echoes 'Schein' from the previous sentence."
+      },
+      "argument": "Georgii keeps one word, 'Hilfsmittel', for both occurrences of pharmakon. Thamus therefore turns Theuth's own term against him, but the drug-as-cure-or-poison ambiguity is flattened into a neutral aid, so the argument becomes about utility rather than about harm. The memory/reminding contrast is also muddled. Since μνήμη is rendered 'Erinnern' and ὑπομνήσις 'Gedächtnis', Thamus's 'not for remembering but for memory' nearly inverts the Greek distinction. The wisdom-versus-seeming contrast ('Schein', 'Scheinweise') is preserved clearly."
+    },
+    {
+      "id": "it-1869-dalbono",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "aiuto",
+        "gloss": "aid, help",
+        "category": "means/aid",
+        "note": "Theuth's 'questo aiuto per la scienza e per la memoria' renders pharmakon as a neutral help; no medicinal or drug sense is kept."
+      },
+      "mneme_274e": {
+        "rendering": "memoria",
+        "gloss": "memory",
+        "note": ""
+      },
+      "sophia_274e": {
+        "rendering": "scienza",
+        "gloss": "knowledge, science",
+        "note": "Sophia is rendered 'scienza' here, but 'sapienti' and 'sapienza' are used elsewhere in the passage. Also the order is reversed: 'scienza' comes before 'memoria'."
+      },
+      "pharmakon_275a": {
+        "rendering": "mezzo",
+        "gloss": "means, medium",
+        "category": "means/aid",
+        "note": "The phrase is 'un mezzo di ritenere, ma di richiamare a memoria le cose'. The word differs from the 'aiuto' of 274e. A different word 'aiuto' also occurs in the same sentence, but it renders the 'external' help of written signs (ἔξωθεν), not pharmakon."
+      },
+      "mneme_275a": {
+        "rendering": "ritenere",
+        "gloss": "to retain, to hold",
+        "note": "Rendered as a verb, 'a means of retaining', not as the noun 'memoria'. This loses the lexical echo of mneme with 274e."
+      },
+      "hypomnesis_275a": {
+        "rendering": "richiamare a memoria le cose",
+        "gloss": "to call things back to memory",
+        "note": "A verbal periphrasis for hypomnesis (reminding). It contains the word 'memoria', which blurs the contrast with mneme."
+      },
+      "sophia_275a": {
+        "rendering": "una sapienza apparente e non la vera",
+        "gloss": "an apparent wisdom and not the true one",
+        "note": "Doxa is rendered as 'apparente' (apparent) and aletheia as 'la vera' (the true one), so the contrast is between apparent and true wisdom."
+      },
+      "doxosophoi_275b": {
+        "rendering": "avranno la sola apparenza",
+        "gloss": "they will have only the appearance",
+        "note": "The compound doxosophoi is dissolved into a clause: 'instead of being wise, they will have only the appearance (of wisdom)'. No single word corresponds to it."
+      },
+      "argument": "Dalbono does not keep one word for pharmakon: Theuth offers an 'aiuto' (help), while Thamus answers with a 'mezzo' (means) of recalling. The two words are near-synonyms but not identical, so Thamus does not turn Theuth's own word against him. The medicinal or poisonous ambiguity is entirely lost. The memory/reminding contrast is also blurred, since 'richiamare a memoria' contains the word 'memoria'."
+    },
+    {
+      "id": "es-1871-azcarate",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "remedio",
+        "gloss": "remedy",
+        "category": "remedy/medicine",
+        "note": "The word is followed by 'contra la dificultad de aprender y retener' (remedy against the difficulty of learning and retaining). So it is a remedy against a difficulty, not a pharmakon 'of memory and wisdom'. The translator adds a footnote marker {33}."
+      },
+      "mneme_274e": {
+        "rendering": "retener",
+        "gloss": "to retain",
+        "note": "The genitive μνήμης is turned into an infinitive, 'retener', inside 'dificultad de aprender y retener'. The word 'memoria' appears only in the preceding clause, 'servirá a su memoria', which renders μνημονικωτέρους."
+      },
+      "sophia_274e": {
+        "rendering": "aprender",
+        "gloss": "to learn",
+        "note": "σοφίας becomes the infinitive 'aprender' (learning). 'más sabios' (wiser) in the preceding clause renders σοφωτέρους, not this genitive."
+      },
+      "pharmakon_275a": {
+        "rendering": "medio",
+        "gloss": "means, way",
+        "category": "means/aid",
+        "note": "The phrase is 'un medio de cultivar la memoria' (a means of cultivating memory). It is not the same word as the earlier 'remedio'. Elsewhere Thamus's 'auxilio extraño' (foreign aid) renders the writing-trust clause, not pharmakon."
+      },
+      "mneme_275a": {
+        "rendering": "la memoria",
+        "gloss": "the memory",
+        "note": "Thamus says 'cultivar la memoria' (to cultivate memory). The negation 'not of memory but of reminding' is recast as 'not a means of cultivating memory, but of awakening reminiscences'."
+      },
+      "hypomnesis_275a": {
+        "rendering": "reminiscencias",
+        "gloss": "reminiscences, recollections",
+        "note": "The phrase is 'despertar reminiscencias' (to awaken reminiscences). The Greek noun for the act of reminding becomes a plural noun of things recalled."
+      },
+      "sophia_275a": {
+        "rendering": "la sombra de la ciencia",
+        "gloss": "the shadow of knowledge/science",
+        "note": "δόξαν (seeming) becomes 'sombra' (shadow). σοφία becomes 'ciencia' (science, knowledge). It continues 'y no la ciencia misma' (and not knowledge itself), so the doxa/aletheia contrast is carried by shadow versus the thing itself."
+      },
+      "doxosophoi_275b": {
+        "rendering": "falsos sabios",
+        "gloss": "false wise men",
+        "note": "The compound is split into adjective plus noun. 'Falsos' (false) replaces the sense of seeming-wise. The clause 'instead of wise' (ἀντὶ σοφῶν) is dropped."
+      },
+      "argument": "Azcárate gives Theuth 'remedio' and Thamus 'medio'. The Greek word is not repeated, so Thamus does not turn Theuth's own word against him. Theuth's cure is also reshaped into a remedy 'against the difficulty of learning and retaining'. Thamus's reply therefore reads as a quiet correction of what the invention is for ('a means of cultivating memory, not of awakening reminiscences'), and the ambivalence of pharmakon, as cure and poison, disappears."
+    },
+    {
+      "id": "la-1484-ficino",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "remedium",
+        "gloss": "remedy, cure (a healing means)",
+        "category": "remedy/medicine",
+        "note": "Ficino's Latin 'remedium' is used in 'memoriae namque et sapientiae remedium id est inventum'. It is a healing word with no ambivalence; the poison sense is lost."
+      },
+      "mneme_274e": {
+        "rendering": "memoriae",
+        "gloss": "of memory (genitive)",
+        "note": "Latin 'memoria'. 'magisque memoriosos' earlier renders mnemonikoteroi."
+      },
+      "sophia_274e": {
+        "rendering": "sapientiae",
+        "gloss": "of wisdom (genitive)",
+        "note": "Latin 'sapientia'. The Greek sophia is rendered as 'sapientia' throughout."
+      },
+      "pharmakon_275a": {
+        "rendering": "remedium",
+        "gloss": "remedy, cure",
+        "category": "remedy/medicine",
+        "note": "Same word as at 274e: 'non memoriae, sed commemorationis, remedium invenisti'. The verb is 'invenisti' ('you found')."
+      },
+      "mneme_275a": {
+        "rendering": "memoriae",
+        "gloss": "of memory (genitive)",
+        "note": "Identical to the 274e rendering."
+      },
+      "hypomnesis_275a": {
+        "rendering": "commemorationis",
+        "gloss": "of commemoration, calling to mind, reminding (genitive)",
+        "note": "Latin 'commemoratio' contrasts with 'memoria'. It shares the root of 'memoria' (mem-/mon-), keeping the verbal kinship that Greek has between mneme and hypomnesis. It also suggests recollection or mention rather than a bare prompt."
+      },
+      "sophia_275a": {
+        "rendering": "opinionem potius, quam veritatem",
+        "gloss": "opinion rather than truth",
+        "note": "'sapientiae quoque opinionem potius, quam veritatem, discipulis tradis'. Doxa is 'opinio'. The idea of 'seeming of wisdom' is not stated as such here, but it appears as 'opinione sapientiae' in the next clause, so doxa is rendered 'opinion', not 'reputation'. Sophia appears as 'sapientiae'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "opinione sapientiae subornati",
+        "gloss": "furnished/equipped with an opinion of wisdom",
+        "note": "The compound doxosophoi is unpacked into a phrase: 'non sapientia ipsa sint praediti, sed opinione sapientiae subornati' ('not endowed with wisdom itself but fitted out with the opinion of wisdom'). 'Subornati' carries a hint of dressing up or fraudulent supply."
+      },
+      "argument": "Ficino keeps one word, 'remedium', for both occurrences of pharmakon. Thamus therefore answers Theuth in his own term, and the dispute is over what the remedy treats: memoria against commemoratio. But 'remedium' is wholly positive, so the pharmakon's ambivalence as cure and poison is lost, and Thamus's rebuttal reads as a downgrade of the remedy's aim, not as a reversal of the word's valence."
+    },
+    {
+      "id": "en-1792-taylor",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "medicine",
+        "gloss": "medicine, a healing substance",
+        "category": "remedy/medicine",
+        "note": "Taylor's text reads 'For this invention is the medicine of memory and wiſdom.' The Greek's agent/passive 'was found' becomes 'invention is'. The long Neoplatonic commentary interrupts the passage but does not change the word."
+      },
+      "mneme_274e": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "Earlier in the speech, 'increaſe their powers of memory' renders mnemonikoteros; here the genitive is 'of memory'."
+      },
+      "sophia_274e": {
+        "rendering": "wiſdom",
+        "gloss": "wisdom (long-s printing)",
+        "note": "Spelled with a long s in the source text."
+      },
+      "pharmakon_275a": {
+        "rendering": "medicine",
+        "gloss": "medicine, a healing substance",
+        "category": "remedy/medicine",
+        "note": "Same word as at 274e: 'you have not diſcovered the medicine of memory, but of admonition.' The genitive 'of' is repeated only once for the second noun."
+      },
+      "mneme_275a": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "Same word as at 274e. Earlier in Thamus's speech, 'recollection' is used for mnemes ameletesia ('negligence of recollection'), so the vocabulary for memory/recollection shifts in the neighbouring sentence."
+      },
+      "hypomnesis_275a": {
+        "rendering": "admonition",
+        "gloss": "admonition, warning/reminding",
+        "note": "Taylor uses 'admonition' (a warning or chiding) rather than 'reminding' or 'reminder'. This loses the verbal link to memory (hypo-mnesis) that 'recollection' elsewhere in the passage would have kept, and adds a hortatory sense."
+      },
+      "sophia_275a": {
+        "rendering": "an opinion of wiſdom",
+        "gloss": "an opinion of wisdom (long-s printing)",
+        "note": "Taylor renders doxa as 'opinion' and ties it to wisdom. 'not truth' renders ouk aletheian. 'Opinion' is neutral and lacks the sense of mere seeming or reputation."
+      },
+      "doxosophoi_275b": {
+        "rendering": "poſſeſſing an opinion of wiſdom",
+        "gloss": "possessing an opinion of wisdom (long-s printing)",
+        "note": "The compound doxosophoi is not given as a single word but unpacked into a participial phrase, followed by 'inſtead Of wiſdom itſelf' for anti sophon. The 'seeming-wise' coinage is lost, and it repeats the same phrase as 'an opinion of wiſdom' above."
+      },
+      "argument": "Taylor keeps one word, 'medicine', for both occurrences of pharmakon, so Thamus does turn Theuth's own word against him: the same remedy is merely re-aimed from memory to 'admonition'. The healing sense stays throughout, and the poison/drug ambivalence is not available. Because hypomnesis becomes 'admonition' and doxosophoi becomes a periphrasis, the memory/reminding contrast and the 'wise-seeming' pun are weakened."
+    },
+    {
+      "id": "en-1848-cary",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "a medicine",
+        "gloss": "a medicine",
+        "category": "remedy/medicine",
+        "note": "Full clause: 'it has been invented as a medicine for memory and wisdom.' The indefinite article is part of the phrase."
+      },
+      "mneme_274e": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "Also 'better able to remember' (μνημονικωτέρους) just before, but the slot is the genitive μνήμης in the 'medicine for memory and wisdom' clause."
+      },
+      "sophia_274e": {
+        "rendering": "wisdom",
+        "gloss": "wisdom",
+        "note": ""
+      },
+      "pharmakon_275a": {
+        "rendering": "a medicine",
+        "gloss": "a medicine",
+        "category": "remedy/medicine",
+        "note": "Same word as at 274e, so the repetition is preserved. The sentence is 'you have not discovered a medicine for memory, but for recollection.'"
+      },
+      "mneme_275a": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "Same word as at 274e."
+      },
+      "hypomnesis_275a": {
+        "rendering": "recollection",
+        "gloss": "recollection (a calling back to mind)",
+        "note": "The sentence is 'not a medicine for memory, but for recollection.' 'Recollection' suggests inner recall and does not carry the sense of external prompting or reminding that ὑπόμνησις has. Cary does not use 'reminder'."
+      },
+      "sophia_275a": {
+        "rendering": "the appearance and not the reality of wisdom",
+        "gloss": "the appearance and not the reality of wisdom",
+        "note": "δόξα is rendered 'appearance' and ἀλήθεια 'reality' rather than 'truth'. The phrase is built around 'providing for your disciples'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "thinking themselves wise instead of being so",
+        "gloss": "thinking themselves wise instead of being so",
+        "note": "The compound δοξόσοφοι is expanded into a participial phrase and no single word corresponds to it. The 'seeming-wise' coinage is lost, and the sense shifts to self-opinion (thinking) rather than appearance."
+      },
+      "argument": "Cary keeps 'medicine' for both occurrences of pharmakon, so Thamus turns Theuth's own word against him and the dispute is over what the medicine is for. The word is a plain healing term, so the ambivalence of poison versus cure that lies in pharmakon is not heard. 'Recollection' for ὑπόμνησις and the expanded 'thinking themselves wise' also soften the contrast between true memory and an external reminder, and drop the coinage δοξόσοφοι."
+    },
+    {
+      "id": "en-1848-wright",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "medicine",
+        "gloss": "medicine",
+        "category": "remedy/medicine",
+        "note": "Appears in the clause 'it being a medicine which I have discovered , both for memory and wisdom'; the stray space before the comma is in the OCR text."
+      },
+      "mneme_274e": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "Also 'better able to remember' earlier, but the genitive of the pharmakon clause is 'for memory'."
+      },
+      "sophia_274e": {
+        "rendering": "wisdom",
+        "gloss": "wisdom",
+        "note": ""
+      },
+      "pharmakon_275a": {
+        "rendering": "medicine",
+        "gloss": "medicine",
+        "category": "remedy/medicine",
+        "note": "Same word as at 274e, so Thamus reuses Theuth's term. Wright writes 'Your discovery, therefore, is a medicine not for memory, but for recollection'."
+      },
+      "mneme_275a": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "Same word as at 274e."
+      },
+      "hypomnesis_275a": {
+        "rendering": "recollection",
+        "gloss": "recollection",
+        "note": "Glossed immediately as 'for recalling to, not for keeping in mind', which explains the contrast. 'Recollection' is also used earlier for the verb anamimneskomenous ('they will recollect'), so the hypomnesis/anamnesis distinction is blurred."
+      },
+      "sophia_275a": {
+        "rendering": "a show of wisdom without the reality",
+        "gloss": "an appearance of wisdom lacking the reality",
+        "note": "Doxa is rendered 'a show' and aletheia 'the reality' in a looser form; the opposition 'not truth' becomes 'without the reality'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "wise in their own conceit",
+        "gloss": "wise in their own conceit",
+        "note": "Wright expands the compound into a phrase; the contrast with sophoi is given as 'instead of truly wise'. The sense is 'conceited' rather than 'seeming wise', which shifts the emphasis from appearance to self-opinion."
+      },
+      "argument": "Wright uses 'medicine' for both occurrences of pharmakon, so Thamus turns Theuth's own word against him: it is a medicine, but for recollection, not memory. This keeps the argument legible and tidy, yet it settles the word as a healing term and removes any hint of poison or ambivalence. 'Memory'/'recollection' also keeps the mneme/hypomnesis contrast, though 'recollection' blurs it with anamnesis, and 'wise in their own conceit' makes the final charge about vanity rather than mere seeming."
+    },
+    {
+      "id": "en-1871-jowett",
+      "model": "anthropic/claude-sonnet-5.5",
+      "pharmakon_274e": {
+        "rendering": "cure",
+        "gloss": "a cure, a healing remedy",
+        "category": "remedy/medicine",
+        "note": "Jowett writes 'this is the cure of forgetfulne^ and of folly' (OCR damage in 'forgetfulne^'). The word 'cure' is the noun used for pharmakon; the genitives 'of forgetfulness and of folly' reverse the Greek, which has memory and wisdom, not forgetfulness and folly."
+      },
+      "mneme_274e": {
+        "rendering": "better memories",
+        "gloss": "improved memories",
+        "note": "Not attached to pharmakon. In the 'make wiser and give better memories' clause, μνημονικωτέρους is rendered 'better memories'. In the pharmakon clause itself Jowett has 'forgetfulne^' (OCR for forgetfulness) in place of μνήμης, which inverts the genitive to its opposite and turns the remedy into a cure for the lack of memory."
+      },
+      "sophia_274e": {
+        "rendering": "folly",
+        "gloss": "foolishness",
+        "note": "Jowett renders σοφίας with its opposite, 'folly', as the thing cured. He treats the genitives as the ills cured, not as the goods produced. This is a paraphrase of the sense, not a literal rendering."
+      },
+      "pharmakon_275a": {
+        "rendering": "specific",
+        "gloss": "a specific, a medicine for one particular disease",
+        "category": "specific",
+        "note": "'You have found a specific, not for memory but for reminiscence'. A different word from 'cure' in 274e."
+      },
+      "mneme_275a": {
+        "rendering": "memory",
+        "gloss": "memory",
+        "note": "'not for memory'"
+      },
+      "hypomnesis_275a": {
+        "rendering": "reminiscence",
+        "gloss": "recollection, being reminded",
+        "note": "'but for reminiscence'. Jowett's 'reminiscence' tilts toward the Platonic recollection (anamnesis) vocabulary and is not quite 'reminding' by an external prompt."
+      },
+      "sophia_275a": {
+        "rendering": "the pretence of wisdom",
+        "gloss": "the pretending, the false show of wisdom",
+        "note": "Jowett's 'pretence' implies deliberate fakery. The Greek δόξα is 'seeming/opinion/reputation'. The contrast with ἀλήθεια ('truth') is not rendered at this point; Jowett adds 'only' and has the 'reality' contrast later, at the end of the passage, with 'reputation of knowledge without the reality'."
+      },
+      "doxosophoi_275b": {
+        "rendering": "having the reputation of knowledge without the reality",
+        "gloss": "having the repute of knowledge without the real thing",
+        "note": "Jowett has no single word for δοξόσοφοι; he paraphrases it with a clause, and the compound 'wise-seeming' is lost. He earlier has 'appear to be omniscient' for πολυγνώμονες εἶναι δόξουσιν."
+      },
+      "argument": "Jowett uses two different words, 'cure' at 274e and 'specific' at 275a, so Thamus does not turn Theuth's own word against him. The reader loses the pharmakon pun, the remedy and poison ambiguity, and the verbal echo is replaced by a shift from a general cure to a narrow, particular medicine. His inversion of the genitives in 274e (cure of forgetfulness and folly instead of a remedy for memory and wisdom) also blurs Theuth's claim, so the contrast between memory and reminiscence stands out less sharply as a reply to it."
+    }
+  ]
+}

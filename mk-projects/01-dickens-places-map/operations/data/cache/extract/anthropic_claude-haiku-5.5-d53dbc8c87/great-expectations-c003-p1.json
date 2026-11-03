@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c003-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4926,
+  "completion_tokens": 923,
+  "total_tokens": 5849,
+  "cost": 0.0009541,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009541,
+   "upstream_inference_prompt_cost": 0.0004926,
+   "upstream_inference_completions_cost": 0.0004615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 581,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the marshes",
+   "normalized": "Marshes of the lower Thames and Medway estuary, Kent",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The mist was heavier yet when I got out upon the marshes",
+   "note": "Unnamed marshland; a generic landscape, included because the passage names it as the setting."
+  },
+  {
+   "as_written": "the Battery",
+   "normalized": "Battery at Cooling, Kent (Thames-Medway estuary)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I knew my way to the Battery, pretty straight",
+   "note": "Old riverside fortification; the meeting place with the convict."
+  },
+  {
+   "as_written": "the Hulks",
+   "normalized": "Prison hulks on the Thames estuary, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "it seemed to my oppressed conscience like a phantom devoting me to the Hulks",
+   "note": "Prison ships moored in the estuary; referred to, not visited."
+  }
+ ]
+}

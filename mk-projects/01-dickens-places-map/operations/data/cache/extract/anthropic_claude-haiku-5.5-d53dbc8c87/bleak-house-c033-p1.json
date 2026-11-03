@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c033-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5406,
+  "completion_tokens": 1183,
+  "total_tokens": 6589,
+  "cost": 0.0011321,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011321,
+   "upstream_inference_prompt_cost": 0.0005406,
+   "upstream_inference_completions_cost": 0.0005915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 829,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "how the neighbourhood of Chancery Lane was yesterday, at about midnight, thrown into a state of the most intense agitation",
+   "note": "Named as the neighbourhood in which the court and Sol's Arms lie; the action takes place there."
+  },
+  {
+   "as_written": "Sol’s Arms",
+   "normalized": "Sol's Arms tavern, Chancery Lane, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "who attended the last coroner’s inquest at the Sol’s Arms reappear in the precincts",
+   "note": "Fictional tavern in Bleak House, placed in the Chancery Lane area."
+  },
+  {
+   "as_written": "Lincoln’s Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "step into Lincoln’s Inn to take a little walk about the square",
+   "note": ""
+  }
+ ]
+}

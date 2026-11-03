@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c031-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4796,
+  "completion_tokens": 1085,
+  "total_tokens": 5881,
+  "cost": 0.0010221,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010221,
+   "upstream_inference_prompt_cost": 0.0004796,
+   "upstream_inference_completions_cost": 0.0005425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 857,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Leaving Shop",
+   "normalized": "Leaving Shop (building in Our Mutual Friend, location unclear), London",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "the oakum-headed apparition once more dived into the Leaving Shop",
+   "note": "Fictional-institution name; location uncertain, so in_london is null."
+  },
+  {
+   "as_written": "the Bower",
+   "normalized": "Boffin's Bower, Blackheath (fictional house)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "over yonder at the Bower",
+   "note": "Fictional house of the Boffins; locality not stated in this passage."
+  }
+ ]
+}

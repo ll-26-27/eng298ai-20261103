@@ -1,0 +1,205 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "dombey and son offices",
+   "lat": 51.5135,
+   "lon": -0.088,
+   "confidence": "low",
+   "now": "fictional; the City of London near Cornhill and the Royal Exchange",
+   "reason": "Dombey and Son is invented, and Dickens places the firm in the City near the Royal Exchange without giving an address."
+  },
+  {
+   "place_id": "dombey and sons offices",
+   "lat": 51.5135,
+   "lon": -0.088,
+   "confidence": "low",
+   "now": "fictional; the City of London near Cornhill and the Royal Exchange",
+   "reason": "'Dombey's House' means the firm itself, which is fictional and set in the City, so this is the same approximate spot as its offices."
+  },
+  {
+   "place_id": "dr blimbers school",
+   "lat": 50.8235,
+   "lon": -0.155,
+   "confidence": "low",
+   "now": "fictional; the seafront at Brighton/Hove, where large Regency terraces now stand",
+   "reason": "The school is invented, and Dickens describes a tall seafront house in Brighton, so this is a guess at the Brunswick/King's Road area."
+  },
+  {
+   "place_id": "east",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "the Middle East, mainly Egypt (Cairo)",
+   "reason": "The phrase is a vague region and the Jakarta match is wrong, so no single point fits."
+  },
+  {
+   "place_id": "east end",
+   "lat": 51.5155,
+   "lon": -0.07,
+   "confidence": "medium",
+   "now": "the East End: Whitechapel, Stepney, Wapping and surrounding districts",
+   "reason": "The East End had no fixed boundary, and the riverside districts around Whitechapel and Wapping are roughly its centre; the Finchley match is wrong."
+  },
+  {
+   "place_id": "exchequer coffee house",
+   "lat": 51.4995,
+   "lon": -0.1255,
+   "confidence": "low",
+   "now": "no longer exists; Old Palace Yard beside the Palace of Westminster",
+   "reason": "The coffee house is probably invented, but Palace Yard is a real place beside Westminster Hall."
+  },
+  {
+   "place_id": "folly ditch",
+   "lat": 51.5013,
+   "lon": -0.064,
+   "confidence": "medium",
+   "now": "filled in; the Jacob's Island area of Bermondsey near Mill Street and St Saviour's Dock",
+   "reason": "The tidal ditch surrounded Jacob's Island in Bermondsey and was filled in during the later 19th century, so the exact line is uncertain."
+  },
+  {
+   "place_id": "foundling hospital",
+   "lat": 51.5236,
+   "lon": -0.1175,
+   "confidence": "high",
+   "now": "demolished in the 1920s; site is Coram's Fields, with the Foundling Museum beside it",
+   "reason": "The Foundling Hospital stood on Guilford Street in Bloomsbury and is well documented."
+  },
+  {
+   "place_id": "general post office",
+   "lat": 51.516,
+   "lon": -0.0985,
+   "confidence": "high",
+   "now": "demolished 1912; site is near Postman's Park and the BT Centre on St Martin's Le Grand",
+   "reason": "Smirke's GPO building of 1829 stood on the east side of St Martin's Le Grand."
+  },
+  {
+   "place_id": "golden cross hotel",
+   "lat": 51.5086,
+   "lon": -0.1253,
+   "confidence": "medium",
+   "now": "demolished; site is on the Strand by Trafalgar Square and Charing Cross station",
+   "reason": "The Golden Cross was a famous coaching inn at Charing Cross, and its successor on the Strand was demolished in the 1930s."
+  },
+  {
+   "place_id": "grays inn coffee house",
+   "lat": 51.52,
+   "lon": -0.1115,
+   "confidence": "low",
+   "now": "no longer exists; Holborn near the Gray's Inn gateway",
+   "reason": "There was a Gray's Inn Coffee House near Gray's Inn in Holborn, but I do not know its exact spot."
+  },
+  {
+   "place_id": "grove",
+   "lat": 51.5588,
+   "lon": -0.18,
+   "confidence": "low",
+   "now": "uncertain; possibly Hampstead Grove, or the Grove in Highgate",
+   "reason": "The name is common across London and Dickens gives no further detail, so this is an educated guess at Hampstead."
+  },
+  {
+   "place_id": "hampton",
+   "lat": 51.415,
+   "lon": -0.368,
+   "confidence": "high",
+   "now": "Hampton, in the London Borough of Richmond upon Thames",
+   "reason": "Oliver and Sikes pass through Hampton on the Thames on the way to Shepperton, which is a real place."
+  },
+  {
+   "place_id": "herculaneum",
+   "lat": 40.806,
+   "lon": 14.348,
+   "confidence": "high",
+   "now": "Ercolano; the Herculaneum archaeological park near Naples",
+   "reason": "This is the well-known Roman town buried by Vesuvius, and the gazetteer match is correct."
+  },
+  {
+   "place_id": "holborn court",
+   "lat": 51.5203,
+   "lon": -0.113,
+   "confidence": "medium",
+   "now": "South Square, Gray's Inn",
+   "reason": "Holborn Court was the old name of the court now called South Square in Gray's Inn, though I am less sure of its exact position within the Inn."
+  },
+  {
+   "place_id": "horsemonger lane",
+   "lat": 51.4965,
+   "lon": -0.0985,
+   "confidence": "high",
+   "now": "Harper Road, Southwark; Newington Gardens occupies the old gaol site",
+   "reason": "Horsemonger Lane ran past the Surrey county gaol in Newington and was later renamed Harper Road."
+  },
+  {
+   "place_id": "hulks",
+   "lat": 51.47,
+   "lon": 0.52,
+   "confidence": "low",
+   "now": "no longer exist; the Thames estuary off the Kent marshes",
+   "reason": "Convict hulks lay at Woolwich, Chatham and elsewhere, and Dickens sets his hulks in the lower Thames/Medway off the Cooling marshes without a precise location."
+  },
+  {
+   "place_id": "hungerford market",
+   "lat": 51.5083,
+   "lon": -0.1233,
+   "confidence": "high",
+   "now": "demolished 1862; site is Charing Cross railway station",
+   "reason": "Hungerford Market stood on the Strand riverfront and was cleared for Charing Cross station."
+  },
+  {
+   "place_id": "inns of court",
+   "lat": 51.515,
+   "lon": -0.111,
+   "confidence": "medium",
+   "now": "the Inns of Court: Lincoln's Inn, Gray's Inn, the Temple, with Chancery Lane at their centre",
+   "reason": "This is a collective term for four legal societies in Holborn and the Temple, so any single point is only approximate."
+  },
+  {
+   "place_id": "kent and surrey",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "the counties of Kent and Surrey",
+   "reason": "This names two counties, not one point, and the helipad match is wrong."
+  },
+  {
+   "place_id": "lake geneva",
+   "lat": 46.45,
+   "lon": 6.55,
+   "confidence": "high",
+   "now": "Lake Geneva (Lac Léman), on the Swiss-French border",
+   "reason": "Dickens began Dombey and Son at Lausanne on the lake in 1846."
+  },
+  {
+   "place_id": "lincolns inn hall",
+   "lat": 51.516,
+   "lon": -0.1172,
+   "confidence": "high",
+   "now": "the Old Hall, Lincoln's Inn, still standing",
+   "reason": "In Dickens's time the Lord Chancellor sat in Lincoln's Inn Old Hall, which survives."
+  },
+  {
+   "place_id": "longs hotel",
+   "lat": 51.51,
+   "lon": -0.1425,
+   "confidence": "medium",
+   "now": "no longer a hotel; shops and offices on New Bond Street near Clifford Street",
+   "reason": "Long's Hotel was a well-known fashionable hotel at the corner of Bond Street and Clifford Street, though I am not sure of the exact plot."
+  },
+  {
+   "place_id": "marshes near cooling",
+   "lat": 51.46,
+   "lon": 0.49,
+   "confidence": "medium",
+   "now": "the Cooling Marshes on the Hoo Peninsula, Kent, near Cooling village and the Thames estuary",
+   "reason": "The Great Expectations marsh country is generally identified with the marshes around Cooling and Higham in north Kent, though it is partly imagined."
+  },
+  {
+   "place_id": "meagless cottage",
+   "lat": 51.446,
+   "lon": -0.326,
+   "confidence": "low",
+   "now": "fictional; the Thames-side area of Twickenham",
+   "reason": "The cottage is invented and Dickens places it near Twickenham without giving a location, so this is a guess at the town centre."
+  }
+ ]
+}

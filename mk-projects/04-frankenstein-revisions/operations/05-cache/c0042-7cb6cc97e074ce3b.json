@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2401,
+  "completion_tokens": 154,
+  "total_tokens": 2555,
+  "cost": 0.006342,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.006342,
+   "upstream_inference_prompt_cost": 0.004802,
+   "upstream_inference_completions_cost": 0.00154
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0042. Location: 1818 Letter IV; 1831 Letter IV.\n\nContext before (unchanged): The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth.\n\n1818 text: Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; yet when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures. Will you laugh at the enthusiasm I express concerning this divine wanderer? If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them. August 19th, 17—.\n\n1831 text: Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; yet, when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures. Will you smile at the enthusiasm I express concerning this divine wanderer? You would not, if you saw him. You have been tutored and refined by books and retirement from the world, and you are, therefore, somewhat fastidious; but this only renders you the more fit to appreciate the extraordinary merits of this wonderful man. Sometimes I have endeavoured to discover what quality it is which he possesses, that elevates him so immeasurably above any other person I ever knew. I believe it to be an intuitive discernment; a quick but never-failing power of judgment; a penetration into the causes of things, unequalled for clearness and precision; add to this a facility of expression, and a voice whose varied intonations are soul-subduing music. August 19. 17—.\n\nDiff: Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; yet {+,+} when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures. Will you [-laugh-] {+smile+} at the enthusiasm I express concerning this divine wanderer? [-If you do-] {+You would not+} , {+if+} you [-must have certainly lost that simplicity which was once your characteristic charm-] {+saw him+} . [-Yet-] {+You have been tutored and refined by books and retirement from the world+} , [-if-] {+and+} you [-will-] {+are+} , [-smile at-] {+therefore, somewhat fastidious; but this only renders you+} the [-warmth-] {+more fit to appreciate the extraordinary merits+} of [-my expressions-] {+this wonderful man. Sometimes I have endeavoured to discover what quality it is which he possesses+} , [-while-] {+that elevates him so immeasurably above any other person+} I [-find every day new-] {+ever knew. I believe it to be an intuitive discernment; a quick but never-failing power of judgment; a penetration into the+} causes {+of things, unequalled+} for [-repeating them-] {+clearness and precision; add to this a facility of expression, and a voice whose varied intonations are soul-subduing music+} . August [-19th,-] {+19.+} 17—.\n\nContext after (unchanged): Yesterday the stranger said to me, \"You may easily perceive, Captain Walton, that I have suffered great and unparalleled misfortunes."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Walton's mildly teasing challenge to his sister ('If you do, you must have certainly lost that simplicity') is replaced by reassurance ('You would not, if you saw him') plus a new passage detailing Victor's 'intuitive discernment' and 'soul-subduing music' of voice, heightening his admirable portrayal.",
+  "confidence": "medium",
+  "rationaleWords": 45
+ }
+}

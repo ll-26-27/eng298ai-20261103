@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1551,
+  "completion_tokens": 118,
+  "total_tokens": 1669,
+  "cost": 0.004282,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004282,
+   "upstream_inference_prompt_cost": 0.003102,
+   "upstream_inference_completions_cost": 0.00118
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0114. Location: 1818 Vol. I, Ch. V; 1831 Ch. VI.\n\nContext before (unchanged): This girl had always been the favourite of her father; but, through a strange perversity, her mother could not endure her, and, after the death of M. Moritz, treated her very ill.\n\n1818 text: My aunt observed this; and, when Justine was twelve years of age, prevailed on her mother to allow her to live at her house.\n\n1831 text: My aunt observed this; and, when Justine was twelve years of age, prevailed on her mother to allow her to live at our house.\n\nDiff: My aunt observed this; and, when Justine was twelve years of age, prevailed on her mother to allow her to live at [-her-] {+our+} house.\n\nContext after (unchanged): The republican institutions of our country have produced simpler and happier manners than those which prevail in the great monarchies that surround it."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "plot"
+  ],
+  "significance": 3,
+  "rationale": "\"her house\" becomes \"our house\": Justine now moves into the Frankenstein household, not just the aunt's. This ties her more closely to Victor's family, fitting the 1831 pattern of domestic closeness and adoption.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

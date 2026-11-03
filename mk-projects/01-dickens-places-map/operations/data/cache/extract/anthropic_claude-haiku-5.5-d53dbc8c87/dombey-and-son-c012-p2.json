@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c012-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5502,
+  "completion_tokens": 1063,
+  "total_tokens": 6565,
+  "cost": 0.0010817,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010817,
+   "upstream_inference_prompt_cost": 0.0005502,
+   "upstream_inference_completions_cost": 0.0005315
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 826,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Carpathian Sea",
+   "normalized": "Carpathian Sea",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "And the spawn of the lamprey, brought from the Carpathian Sea,",
+   "note": "Named in Doctor Blimber's classical anecdote about Roman feasts."
+  },
+  {
+   "as_written": "Mrs Pipchin’s",
+   "normalized": "Mrs Pipchin's boarding house",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "what they were all about at Mrs Pipchin’s.",
+   "note": "Proper-named house; its location (Brighton in the novel) is not stated in this passage."
+  }
+ ]
+}

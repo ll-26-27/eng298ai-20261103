@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1725,
+  "completion_tokens": 117,
+  "total_tokens": 1842,
+  "cost": 0.000231,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000231,
+   "upstream_inference_prompt_cost": 0.0001725,
+   "upstream_inference_completions_cost": 0.0000585
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0359. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): During my youthful days discontent never visited my mind; and if I was ever overcome by ennui, the sight of what is beautiful in nature, or the study of what is excellent and sublime in the productions of man, could always interest my heart, and communicate elasticity to my spirits.\n\n1818 text: But I am a blasted tree; the bolt has entered my soul; and I felt then that I should survive to exhibit, what I shall soon cease to be—a miserable spectacle of wrecked humanity, pitiable to others, and abhorrent to myself.\n\n1831 text: But I am a blasted tree; the bolt has entered my soul; and I felt then that I should survive to exhibit, what I shall soon cease to be—a miserable spectacle of wrecked humanity, pitiable to others, and intolerable to myself.\n\nDiff: But I am a blasted tree; the bolt has entered my soul; and I felt then that I should survive to exhibit, what I shall soon cease to be—a miserable spectacle of wrecked humanity, pitiable to others, and [-abhorrent-] {+intolerable+} to myself.\n\nContext after (unchanged): We passed a considerable period at Oxford, rambling among its environs, and endeavouring to identify every spot which might relate to the most animating epoch of English history."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Single word swap \"abhorrent\" to \"intolerable\" in \"abhorrent to myself\"; both describe Victor's self-loathing, so the moral tone shifts only slightly toward unbearableness rather than moral disgust.",
+  "confidence": "medium",
+  "rationaleWords": 27
+ }
+}

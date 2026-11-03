@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c009-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5164,
+  "completion_tokens": 378,
+  "total_tokens": 5542,
+  "cost": 0.0007054,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007054,
+   "upstream_inference_prompt_cost": 0.0005164,
+   "upstream_inference_completions_cost": 0.000189
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Commercial Road",
+   "normalized": "Commercial Road, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "on a dead wall in the Commercial Road",
+   "note": ""
+  },
+  {
+   "as_written": "Newcastle",
+   "normalized": "Newcastle upon Tyne, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the master and part-owner of a Newcastle collier",
+   "note": "Adjective form used; the town is referred to only as the origin of a collier ship."
+  },
+  {
+   "as_written": "the wharf where he had encountered Florence",
+   "normalized": "",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "He had a great affection for the wharf where he had encountered Florence",
+   "note": "Unnamed wharf; no specific place identified."
+  },
+  {
+   "as_written": "Dombey and Son's Offices",
+   "normalized": "Dombey and Son offices, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the brass plate of Dombey and Son’s Offices",
+   "note": "Firm's offices; location in the City not stated in this passage."
+  }
+ ]
+}

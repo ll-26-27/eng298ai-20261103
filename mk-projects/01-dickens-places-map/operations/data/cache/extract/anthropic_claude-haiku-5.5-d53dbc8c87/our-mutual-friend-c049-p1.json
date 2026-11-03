@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c049-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5576,
+  "completion_tokens": 460,
+  "total_tokens": 6036,
+  "cost": 0.0007876,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007876,
+   "upstream_inference_prompt_cost": 0.0005576,
+   "upstream_inference_completions_cost": 0.00023
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The City looked unpromising enough, as Bella made her way along its gritty streets.",
+   "note": "Financial district; used as a name for the area."
+  },
+  {
+   "as_written": "Bank",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "If Bella thought, as she glanced at the mighty Bank, how agreeable it would be",
+   "note": "Named as 'the Bank'; the Bank of England."
+  },
+  {
+   "as_written": "Mincing Lane",
+   "normalized": "Mincing Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "she arrived in the drug-flavoured region of Mincing Lane",
+   "note": ""
+  },
+  {
+   "as_written": "the Lane",
+   "normalized": "Mincing Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "with a little quiet contemplation of the Lane (which comes soothing)",
+   "note": "Refers to Mincing Lane; same place as above."
+  },
+  {
+   "as_written": "The Dairy",
+   "normalized": "Dairy, Mincing Lane area, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The Dairy is just over the way and round the corner.",
+   "note": "Unnamed shop; exact location unclear."
+  }
+ ]
+}

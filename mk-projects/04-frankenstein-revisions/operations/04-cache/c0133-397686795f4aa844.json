@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1649,
+  "completion_tokens": 119,
+  "total_tokens": 1768,
+  "cost": 0.0002244,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002244,
+   "upstream_inference_prompt_cost": 0.0001649,
+   "upstream_inference_completions_cost": 0.0000595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0133. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): We accordingly rested on a seat until they should return.\n\n1818 text: Presently Ernest came, and inquired if we had seen his brother: he said, that they had been playing together, that William had run away to hide himself, and that he vainly sought for him, and afterwards waited for him a long time, but that he did not return.\n\n1831 text: Presently Ernest came, and enquired if we had seen his brother: he said, that he had been playing with him, that William had run away to hide himself, and that he vainly sought for him, and afterwards waited for him a long time, but that he did not return.\n\nDiff: Presently Ernest came, and [-inquired-] {+enquired+} if we had seen his brother: he said, that [-they-] {+he+} had been playing [-together-] {+with him+} , that William had run away to hide himself, and that he vainly sought for him, and afterwards waited for him a long time, but that he did not return.\n\nContext after (unchanged): \"This account rather alarmed us, and we continued to search for him until night fell, when Elizabeth conjectured that he might have returned to the house."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 2,
+  "rationale": "\"inquired\" becomes \"enquired\" (orthographic/diction), and \"they had been playing together\" becomes \"he had been playing with him,\" a syntactic rephrasing that keeps Ernest's account and the events intact.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

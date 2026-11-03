@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c065-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4977,
+  "completion_tokens": 853,
+  "total_tokens": 5830,
+  "cost": 0.0009242,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009242,
+   "upstream_inference_prompt_cost": 0.0004977,
+   "upstream_inference_completions_cost": 0.0004265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 559,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Westminster Hall",
+   "normalized": "Westminster Hall, Westminster, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "when we came to Westminster Hall we found that the day’s business was begun",
+   "note": ""
+  },
+  {
+   "as_written": "Court of Chancery",
+   "normalized": "Court of Chancery, Westminster Hall, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we found such an unusual crowd in the Court of Chancery that it was full to the door",
+   "note": "Courtroom within Westminster Hall, used here as a physical location"
+  },
+  {
+   "as_written": "Symond’s Inn",
+   "normalized": "Symond's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "In the afternoon my guardian walked with me to Symond’s Inn and left me at the door.",
+   "note": ""
+  }
+ ]
+}

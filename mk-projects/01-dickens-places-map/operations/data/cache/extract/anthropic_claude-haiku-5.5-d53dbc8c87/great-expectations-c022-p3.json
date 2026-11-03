@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c022-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3299,
+  "completion_tokens": 968,
+  "total_tokens": 4267,
+  "cost": 0.0008139,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008139,
+   "upstream_inference_prompt_cost": 0.0003299,
+   "upstream_inference_completions_cost": 0.000484
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 605,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "’Change",
+   "normalized": "Royal Exchange, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I went upon ’Change, and I saw fluey men sitting there",
+   "note": "Short for 'Change (the Exchange); probably the Royal Exchange, Cornhill."
+  },
+  {
+   "as_written": "Barnard’s Inn",
+   "normalized": "Barnard's Inn, Holborn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we went back to Barnard’s Inn and got my little portmanteau",
+   "note": ""
+  },
+  {
+   "as_written": "Hammersmith",
+   "normalized": "Hammersmith, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and then took coach for Hammersmith.",
+   "note": "Then a village on the western edge of London; in Middlesex, so borderline."
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the most abject superstition in Europe",
+   "note": "Continent, used figuratively."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716180-SgHwimONF4OycOMohbCE",
+  "object": "chat.completion",
+  "created": 1793716180,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I heard, then, that near Naukratis in Egypt there lived one of the old gods of that place, to whom the bird too is dedicated, called the Ibis. And the god himself was said to be called Teut. He was said to have been the first to invent numbers and reckonings, geometry and astronomy, further draughts and the game of dice, and besides that, letters. King of the whole of Egypt was at that time Tamuz, and he reigned in that great city in Upper Egypt which the Greeks call the Egyptian Thebes, and the god they call Ammon. To him, then, came Teut, taught him his arts and told him to spread them among the other Egyptians. And he asked what benefit each of them would bring, and then, as Teut's words seemed to him right or not right, one thing he blamed and another he praised. About each art Tamuz had much good and much bad to say to Teut, about which it would take long to tell. Well, when they came to letters, Teut said to Tamuz: \"King, this learning will make the Egyptians wiser and more capable in remembering; this invention is a remedy for memory and wisdom.\" And he said to him in answer: \"Teut, most accomplished master! One person is able to beget what belongs to an art, and another is able to judge for what it may be useful and in what harmful to those who will want to make use of a given art. So also now: you are the father of letters, therefore out of good heart for them you have ascribed to them a value directly opposite to the one which they truly possess. This invention will sow forgetfulness in human souls, because a man who learns this will cease to exercise memory; he will trust writing and will recall everything from outside, from signs foreign to his being, and not from his own interior, from himself. So this is not a remedy for memory, but only a means for recalling to oneself. To your pupils you will give only the appearance of wisdom, and not true wisdom. For they will possess great well-readness without learning and it will seem to them that they know much, and for the most part they will know nothing and only to associate with them will be hard; these will be wise men in appearance, and not people wise in truth.\"",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1199,
+    "completion_tokens": 663,
+    "total_tokens": 1862,
+    "cost": 0.009028,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009028,
+      "upstream_inference_prompt_cost": 0.002398,
+      "upstream_inference_completions_cost": 0.00663
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

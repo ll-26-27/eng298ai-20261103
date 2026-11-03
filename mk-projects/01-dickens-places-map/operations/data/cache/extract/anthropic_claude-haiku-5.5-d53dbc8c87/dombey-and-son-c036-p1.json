@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c036-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5317,
+  "completion_tokens": 1272,
+  "total_tokens": 6589,
+  "cost": 0.0011677,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011677,
+   "upstream_inference_prompt_cost": 0.0005317,
+   "upstream_inference_completions_cost": 0.000636
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 865,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Baden-Baden",
+   "normalized": "Baden-Baden, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Cousin Feenix, not yet returned to Baden-Baden, greatly to the detriment of his personal estate",
+   "note": ""
+  },
+  {
+   "as_written": "Threadneedle Street",
+   "normalized": "Threadneedle Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the identical old lady of Threadneedle Street, she was so rich",
+   "note": "Named as a street; the phrase refers to the Bank of England area."
+  },
+  {
+   "as_written": "Kingston-upon-Thames",
+   "normalized": "Kingston upon Thames, Surrey",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "mentioned his “little place” at Kingston-upon-Thames",
+   "note": ""
+  },
+  {
+   "as_written": "Tom Tiddler’s ground",
+   "normalized": "Tom Tiddler’s ground",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "a grown-up exposition of Tom Tiddler’s ground",
+   "note": "Imaginary place from the children’s game and rhyme."
+  }
+ ]
+}

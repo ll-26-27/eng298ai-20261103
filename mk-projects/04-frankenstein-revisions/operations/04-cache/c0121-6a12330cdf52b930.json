@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2009,
+  "completion_tokens": 150,
+  "total_tokens": 2159,
+  "cost": 0.0002759,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002759,
+   "upstream_inference_prompt_cost": 0.0002009,
+   "upstream_inference_completions_cost": 0.000075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0121. Location: 1818 Vol. I, Ch. V; 1831 Ch. VI.\n\nContext before (unchanged): But he has already recovered his spirits, and is reported to be on the point of marrying a very lively pretty Frenchwoman, Madame Tavernier.\n\n1818 text: She is a widow, and much older than Manoir; but she is very much admired, and a favourite with every body. \"I have written myself into good spirits, dear cousin; yet I cannot conclude without again anxiously inquiring concerning your health. Dear Victor, if you are not very ill, write yourself, and make your father and all of us happy; or—I cannot bear to think of the other side of the question; my tears already flow. Adieu, my dearest cousin.\"\n\n1831 text: She is a widow, and much older than Manoir; but she is very much admired, and a favourite with everybody. \"I have written myself into better spirits, dear cousin; but my anxiety returns upon me as I conclude. Write, dearest Victor,—one line—one word will be a blessing to us. Ten thousand thanks to Henry for his kindness, his affection, and his many letters: we are sincerely grateful. Adieu! my cousin; take care of yourself; and, I entreat you, write!\n\nDiff: [-She is a widow, and much older than Manoir; but she is very much admired, and a favourite with every body. \"I have written myself into good spirits, dear cousin; yet I cannot conclude without again anxiously inquiring concerning your health. Dear Victor, if you are not very ill, write yourself, and make your father and all of us happy; or—I cannot bear to think of the other side of the question; my tears already flow. Adieu, my dearest cousin.\"-] {+She is a widow, and much older than Manoir; but she is very much admired, and a favourite with everybody. \"I have written myself into better spirits, dear cousin; but my anxiety returns upon me as I conclude. Write, dearest Victor,—one line—one word will be a blessing to us. Ten thousand thanks to Henry for his kindness, his affection, and his many letters: we are sincerely grateful. Adieu! my cousin; take care of yourself; and, I entreat you, write!+}\n\nContext after (unchanged): \"ELIZABETH LAVENZA."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "expansion",
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "Elizabeth's letter is substantially rewritten: 'good spirits... yet I cannot conclude without again anxiously inquiring' becomes 'better spirits... my anxiety returns upon me'; 'my tears already flow' is cut, and thanks to Henry are added, reshaping her tone and emotional register.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1625,
+  "completion_tokens": 112,
+  "total_tokens": 1737,
+  "cost": 0.0002185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002185,
+   "upstream_inference_prompt_cost": 0.0001625,
+   "upstream_inference_completions_cost": 0.000056
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0358. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): This city had remained faithful to him, after the whole nation had forsaken his cause to join the standard of parliament and liberty.\n\n1818 text: The memory of that unfortunate king, and his companions, the amiable Falkland, the insolent Gower, his queen, and son, gave a peculiar interest to every part of the city, which they might be supposed to have inhabited.\n\n1831 text: The memory of that unfortunate king, and his companions, the amiable Falkland, the insolent Goring, his queen, and son, gave a peculiar interest to every part of the city, which they might be supposed to have inhabited.\n\nDiff: The memory of that unfortunate king, and his companions, the amiable Falkland, the insolent [-Gower-] {+Goring+} , his queen, and son, gave a peculiar interest to every part of the city, which they might be supposed to have inhabited.\n\nContext after (unchanged): The spirit of elder days found a dwelling here, and we delighted to trace its footsteps."
+ },
+ "result": {
+  "category": "other",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 2,
+  "rationale": "Gower to Goring corrects a proper name: the courtier George Goring, a historical figure in Charles I's court, replacing the invented Gower. It is a factual/name correction, not a change in wording or meaning of the passage.",
+  "confidence": "high",
+  "rationaleWords": 37
+ }
+}

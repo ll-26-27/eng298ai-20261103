@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c013-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 3749,
+  "completion_tokens": 501,
+  "total_tokens": 4250,
+  "cost": 0.0006254,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006254,
+   "upstream_inference_prompt_cost": 0.0003749,
+   "upstream_inference_completions_cost": 0.0002505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 353,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the West Indies",
+   "normalized": "West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he was under orders for the West Indies",
+   "note": "Walter's posting; he is not there in this passage"
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "send home to England a jar of preserved Ginger",
+   "note": ""
+  }
+ ]
+}

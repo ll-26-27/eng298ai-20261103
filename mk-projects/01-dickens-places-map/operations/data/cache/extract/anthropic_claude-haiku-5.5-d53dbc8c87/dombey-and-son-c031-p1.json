@@ -1,0 +1,111 @@
+{
+ "chunk": "dombey-and-son-c031-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5412,
+  "completion_tokens": 2441,
+  "total_tokens": 7853,
+  "cost": 0.0017617,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017617,
+   "upstream_inference_prompt_cost": 0.0005412,
+   "upstream_inference_completions_cost": 0.0012205
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1712,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brook Street",
+   "normalized": "Brook Street, Mayfair, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The pastry-cook is hard at work in the funereal room in Brook Street",
+   "note": ""
+  },
+  {
+   "as_written": "Battlebridge",
+   "normalized": "Battle Bridge, King's Cross, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in a back settlement near Battlebridge",
+   "note": "Archaic name for the area around King's Cross; type is approximate"
+  },
+  {
+   "as_written": "Balls Pond",
+   "normalized": "Balls Pond, Islington, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "From Balls Pond, Mr Perch brings Mrs Perch",
+   "note": ""
+  },
+  {
+   "as_written": "Princess’s Place",
+   "normalized": "Princess's Place, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "In Princess’s Place, Miss Tox is up and doing",
+   "note": "Exact location uncertain; verify before mapping"
+  },
+  {
+   "as_written": "Long’s Hotel",
+   "normalized": "Long's Hotel, Bond Street, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "shaved at Long’s Hotel, in Bond Street",
+   "note": ""
+  },
+  {
+   "as_written": "Bond Street",
+   "normalized": "Bond Street, Mayfair, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "shaved at Long’s Hotel, in Bond Street",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "who has been hired to accompany the happy pair to Paris",
+   "note": ""
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there is not a woman in all Europe but might",
+   "note": "Continent"
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "more to be envied, this day, than any man in England!",
+   "note": ""
+  }
+ ]
+}

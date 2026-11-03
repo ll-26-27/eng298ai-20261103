@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1616,
+  "completion_tokens": 123,
+  "total_tokens": 1739,
+  "cost": 0.0002231,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002231,
+   "upstream_inference_prompt_cost": 0.0001616,
+   "upstream_inference_completions_cost": 0.0000615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0339. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): You, perhaps, regard her as your sister, without any wish that she might become your wife.\n\n1818 text: Nay, you may have met with another whom you may love; and, considering yourself as bound in honour to your cousin, this struggle may occasion the poignant misery which you appear to feel.\" \"My dear father, re-assure yourself.\n\n1831 text: Nay, you may have met with another whom you may love; and, considering yourself as bound in honour to Elizabeth, this struggle may occasion the poignant misery which you appear to feel.\" \"My dear father, reassure yourself.\n\nDiff: Nay, you may have met with another whom you may love; and, considering yourself as bound in honour to [-your cousin-] {+Elizabeth+} , this struggle may occasion the poignant misery which you appear to feel. \" \" My dear father, [-re-assure-] {+reassure+} yourself.\n\nContext after (unchanged): I love my cousin tenderly and sincerely."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Replacing \"your cousin\" with the name \"Elizabeth\" makes the bond explicit and personal, shifting how Elizabeth's relation to Victor reads; the \"re-assure\" to \"reassure\" change is orthographic.",
+  "confidence": "medium",
+  "rationaleWords": 27
+ }
+}

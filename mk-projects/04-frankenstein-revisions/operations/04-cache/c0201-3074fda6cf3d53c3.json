@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1522,
+  "completion_tokens": 86,
+  "total_tokens": 1608,
+  "cost": 0.0001952,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001952,
+   "upstream_inference_prompt_cost": 0.0001522,
+   "upstream_inference_completions_cost": 0.000043
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0201. Location: 1818 Vol. II, Ch. II; 1831 Ch. X.\n\nContext before (unchanged): These sublime and magnificent scenes afforded me the greatest consolation that I was capable of receiving.\n\n1818 text: They elevated me from all littleness of feeling; and although they did not remove my grief, they subdued and tranquillized it.\n\n1831 text: They elevated me from all littleness of feeling; and although they did not remove my grief, they subdued and tranquillised it.\n\nDiff: They elevated me from all littleness of feeling; and although they did not remove my grief, they subdued and [-tranquillized-] {+tranquillised+} it.\n\nContext after (unchanged): In some degree, also, they diverted my mind from the thoughts over which it had brooded for the last month."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The only change is orthographic: 'tranquillized' becomes 'tranquillised' (-ize to -ise), with no change in wording or meaning.",
+  "confidence": "high",
+  "rationaleWords": 18
+ }
+}

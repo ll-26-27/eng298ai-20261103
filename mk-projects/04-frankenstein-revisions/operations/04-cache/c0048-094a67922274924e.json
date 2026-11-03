@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1662,
+  "completion_tokens": 139,
+  "total_tokens": 1801,
+  "cost": 0.0002357,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002357,
+   "upstream_inference_prompt_cost": 0.0001662,
+   "upstream_inference_completions_cost": 0.0000695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0048. Location: 1818 Vol. I, Ch. I; 1831 Ch. I.\n\nContext before (unchanged): My father loved Beaufort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances.\n\n1818 text: He grieved also for the loss of his society, and resolved to seek him out and endeavour to persuade him to begin the world again through his credit and assistance.\n\n1831 text: He bitterly deplored the false pride which led his friend to a conduct so little worthy of the affection that united them. He lost no time in endeavouring to seek him out, with the hope of persuading him to begin the world again through his credit and assistance.\n\nDiff: [-He grieved also for the loss of his society, and resolved to seek him out and endeavour to persuade him to begin the world again through his credit and assistance.-] {+He bitterly deplored the false pride which led his friend to a conduct so little worthy of the affection that united them. He lost no time in endeavouring to seek him out, with the hope of persuading him to begin the world again through his credit and assistance.+}\n\nContext after (unchanged): Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode."
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "expansion"
+  ],
+  "significance": 4,
+  "rationale": "Adds moral judgment of Beaufort: 'bitterly deplored the false pride which led his friend to a conduct so little worthy of the affection'. The 1818 'grieved also for the loss of his society' is replaced by condemnation of pride, changing how the father and Beaufort are judged.",
+  "confidence": "high",
+  "rationaleWords": 47
+ }
+}

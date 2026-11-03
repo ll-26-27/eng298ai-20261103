@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1880,
+  "completion_tokens": 468,
+  "total_tokens": 2348,
+  "cost": 0.000422,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000422,
+   "upstream_inference_prompt_cost": 0.000188,
+   "upstream_inference_completions_cost": 0.000234
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 334,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0407. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): It is true, he seldom came to see me; for, although he ardently desired to relieve the sufferings of every human creature, he did not wish to be present at the agonies and miserable ravings of a murderer.\n\n1818 text: He came, therefore, sometimes to see that I was not neglected; but his visits were short, and at long intervals. One day, when I was gradually recovering, I was seated in a chair, my eyes half open, and my cheeks livid like those in death, I was overcome by gloom and misery, and often reflected I had better seek death than remain miserably pent up only to be let loose in a world replete with wretchedness.\n\n1831 text: He came, therefore, sometimes, to see that I was not neglected; but his visits were short, and with long intervals. One day, while I was gradually recovering, I was seated in a chair, my eyes half open, and my cheeks livid like those in death. I was overcome by gloom and misery, and often reflected I had better seek death than desire to remain in a world which to me was replete with wretchedness.\n\nDiff: He came, therefore, sometimes {+,+} to see that I was not neglected; but his visits were short, and [-at-] {+with+} long intervals. One day, [-when-] {+while+} I was gradually recovering, I was seated in a chair, my eyes half open, and my cheeks livid like those in death [-,-] {+.+} I was overcome by gloom and misery, and often reflected I had better seek death than [-remain miserably pent up only-] {+desire+} to [-be let loose-] {+remain+} in a world {+which to me was+} replete with wretchedness.\n\nContext after (unchanged): At one time I considered whether I should not declare myself guilty, and suffer the penalty of the law, less innocent than poor Justine had been."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording",
+   "cut"
+  ],
+  "significance": 3,
+  "rationale": "The 1818 'remain miserably pent up only to be let loose in a world' becomes 'desire to remain in a world which to me was replete with wretchedness.' Victor's passive confinement gives way to a subjective, self-framed desire, shifting how his state of mind is presented.",
+  "confidence": "medium",
+  "rationaleWords": 46
+ }
+}

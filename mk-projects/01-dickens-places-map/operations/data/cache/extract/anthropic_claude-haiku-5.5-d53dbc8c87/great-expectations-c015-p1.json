@@ -1,0 +1,75 @@
+{
+ "chunk": "great-expectations-c015-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5221,
+  "completion_tokens": 527,
+  "total_tokens": 5748,
+  "cost": 0.0007856,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007856,
+   "upstream_inference_prompt_cost": 0.0005221,
+   "upstream_inference_completions_cost": 0.0002635
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lunnon town",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "When I went to Lunnon town sirs,",
+   "note": "Archaic/colloquial spelling of London in the comic song."
+  },
+  {
+   "as_written": "the old Battery out on the marshes",
+   "normalized": "Battery on the Kent marshes near Hamstead Marshes, Cooling, Kent",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The old Battery out on the marshes was our place of study",
+   "note": "Real-world inspiration is the Cooling/Hoo marshes battery, but the location is not named precisely in the passage."
+  },
+  {
+   "as_written": "the marshes",
+   "normalized": "Kent marshes, Thames estuary",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "out on the marshes",
+   "note": "Generic reference; the marshes are unnamed."
+  },
+  {
+   "as_written": "the river",
+   "normalized": "River Thames",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "with the sails on the river passing beyond the earthwork",
+   "note": "River is not named in the passage; Thames is inferred from the setting."
+  },
+  {
+   "as_written": "the Jolly Bargemen",
+   "normalized": "Jolly Bargemen inn, village of Hubberds Hole/Hubberd's Hole area, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he went to the Jolly Bargemen to eat his dinner",
+   "note": "Fictional inn name, location unclear."
+  }
+ ]
+}

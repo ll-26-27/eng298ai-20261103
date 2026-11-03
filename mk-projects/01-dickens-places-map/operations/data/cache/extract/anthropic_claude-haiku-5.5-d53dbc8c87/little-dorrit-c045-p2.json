@@ -1,0 +1,120 @@
+{
+ "chunk": "little-dorrit-c045-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4899,
+  "completion_tokens": 2212,
+  "total_tokens": 7111,
+  "cost": 0.0015959,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015959,
+   "upstream_inference_prompt_cost": 0.0004899,
+   "upstream_inference_completions_cost": 0.001106
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1380,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Adelphi",
+   "normalized": "Adelphi, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They turned short into the Adelphi,--the girl evidently leading,--",
+   "note": ""
+  },
+  {
+   "as_written": "the Terrace which overhangs the river",
+   "normalized": "Adelphi Terrace, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as if they were going to the Terrace which overhangs the river.",
+   "note": "Named by description; identified as Adelphi Terrace."
+  },
+  {
+   "as_written": "the Strand",
+   "normalized": "Strand, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They crossed the Strand, and passed through Covent Garden",
+   "note": ""
+  },
+  {
+   "as_written": "Covent Garden",
+   "normalized": "Covent Garden, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "passed through Covent Garden (under the windows of his old lodging",
+   "note": ""
+  },
+  {
+   "as_written": "the Gray’s Inn Road",
+   "normalized": "Gray's Inn Road, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and turned into the Gray’s Inn Road.",
+   "note": ""
+  },
+  {
+   "as_written": "the great building whence Tattycoram derived her name",
+   "normalized": "Foundling Hospital, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "passed the great building whence Tattycoram derived her name",
+   "note": "Identified by allusion, not named; Tattycoram's name derives from it."
+  },
+  {
+   "as_written": "no hanging bridge",
+   "normalized": "Hungerford Suspension Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "no hanging bridge or fish-market near at hand",
+   "note": "Identified by description; the bridge is not named."
+  },
+  {
+   "as_written": "the nearest bridge of stone",
+   "normalized": "Waterloo Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "no traffic on the nearest bridge of stone",
+   "note": "Probable identification only; the bridge is not named."
+  },
+  {
+   "as_written": "this city",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I have a good banker in this city",
+   "note": ""
+  },
+  {
+   "as_written": "Chinese",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "like a malignant Chinese enchantress",
+   "note": "Simile only."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "chunk": "dombey-and-son-c024-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4893,
+  "completion_tokens": 295,
+  "total_tokens": 5188,
+  "cost": 0.0006368,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006368,
+   "upstream_inference_prompt_cost": 0.0004893,
+   "upstream_inference_completions_cost": 0.0001475
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 286,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": []
+}

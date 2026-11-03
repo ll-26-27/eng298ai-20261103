@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c016-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5116,
+  "completion_tokens": 1466,
+  "total_tokens": 6582,
+  "cost": 0.0012446,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012446,
+   "upstream_inference_prompt_cost": 0.0005116,
+   "upstream_inference_completions_cost": 0.000733
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 965,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cathedral yard",
+   "normalized": "Canterbury Cathedral, Canterbury, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "as we were running gaily across the Cathedral yard together, expecting to meet nobody",
+   "note": "Cathedral is not named in the passage; Canterbury is implied by the school's setting."
+  },
+  {
+   "as_written": "Doctor Strong’s",
+   "normalized": "Doctor Strong's school, Canterbury, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Doctor Strong’s was an excellent school; as different from Mr. Creakle’s as good is from evil.",
+   "note": "School named after its headmaster; location Canterbury is inferred, not stated here."
+  },
+  {
+   "as_written": "Spanish Main",
+   "normalized": "Spanish Main, Caribbean coast of South America",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "carrying me and little Em’ly to the Spanish Main, to be drowned.",
+   "note": "Dream reference only."
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "on the occasion of Mr. Jack Maldon’s departure for India, whither he was going as a cadet",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "There was a superstition among us that this cap had come from France",
+   "note": ""
+  }
+ ]
+}

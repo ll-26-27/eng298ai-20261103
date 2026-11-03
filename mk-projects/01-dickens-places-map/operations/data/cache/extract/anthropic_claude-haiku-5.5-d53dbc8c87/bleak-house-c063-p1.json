@@ -1,0 +1,93 @@
+{
+ "chunk": "bleak-house-c063-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4960,
+  "completion_tokens": 1738,
+  "total_tokens": 6698,
+  "cost": 0.001365,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001365,
+   "upstream_inference_prompt_cost": 0.000496,
+   "upstream_inference_completions_cost": 0.000869
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1099,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "George’s Shooting Gallery",
+   "normalized": "George's Shooting Gallery, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "George’s Shooting Gallery is to let, and the stock is sold off",
+   "note": "Location in London is from the novel generally, not stated in this passage."
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "George himself is at Chesney Wold attending on Sir Leicester",
+   "note": "Fictional country house."
+  },
+  {
+   "as_written": "the iron country farther north",
+   "normalized": "Northern English industrial district (unnamed)",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "He is journeying to-day into the iron country farther north to look about him.",
+   "note": "Unnamed region; approximate."
+  },
+  {
+   "as_written": "a busy town",
+   "normalized": "Unnamed industrial town, northern England",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "on the black canal bridge of a busy town, with a clang of iron in it",
+   "note": "Unnamed town, not locatable."
+  },
+  {
+   "as_written": "Rouncewell’s",
+   "normalized": "Rouncewell's ironworks, unnamed northern town",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "That’s Rouncewell’s.",
+   "note": "Fictional factory named after the family."
+  },
+  {
+   "as_written": "Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "She goes to Germany to-morrow with one of your nieces",
+   "note": ""
+  },
+  {
+   "as_written": "Babylon",
+   "normalized": "Babylon, Mesopotamia",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a vaporous Babylon of other chimneys",
+   "note": "Figurative comparison to industrial town."
+  }
+ ]
+}

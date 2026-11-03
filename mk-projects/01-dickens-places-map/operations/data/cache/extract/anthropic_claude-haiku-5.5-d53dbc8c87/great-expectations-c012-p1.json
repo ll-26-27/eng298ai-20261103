@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c012-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4957,
+  "completion_tokens": 1723,
+  "total_tokens": 6680,
+  "cost": 0.0013572,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013572,
+   "upstream_inference_prompt_cost": 0.0004957,
+   "upstream_inference_completions_cost": 0.0008615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1348,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "myrmidons of Justice, especially sent down from London",
+   "note": "Hypothetical officers imagined by the narrator; London itself is the setting of the city."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "pitching into the studious youth of England",
+   "note": ""
+  },
+  {
+   "as_written": "Miss Havisham’s",
+   "normalized": "Satis House, Richmond, Surrey",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "However, go to Miss Havisham’s I must, and go I did.",
+   "note": "House named only by its owner here; Satis House is not named in this passage, and its location is fictional."
+  },
+  {
+   "as_written": "the brewery",
+   "normalized": "Brewery at Satis House",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "might be engaged to fall upon me in the brewery",
+   "note": "Unnamed brewery on Miss Havisham's property, referred to only hypothetically."
+  }
+ ]
+}

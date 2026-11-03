@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1578,
+  "completion_tokens": 95,
+  "total_tokens": 1673,
+  "cost": 0.0002053,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002053,
+   "upstream_inference_prompt_cost": 0.0001578,
+   "upstream_inference_completions_cost": 0.0000475
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0080. Location: 1818 Vol. I, Ch. III; 1831 Ch. IV.\n\nContext before (unchanged): From this day natural philosophy, and particularly chemistry, in the most comprehensive sense of the term, became nearly my sole occupation.\n\n1818 text: I read with ardour those works, so full of genius and discrimination, which modern inquirers have written on these subjects.\n\n1831 text: I read with ardour those works, so full of genius and discrimination, which modern enquirers have written on these subjects.\n\nDiff: I read with ardour those works, so full of genius and discrimination, which modern [-inquirers-] {+enquirers+} have written on these subjects.\n\nContext after (unchanged): I attended the lectures, and cultivated the acquaintance, of the men of science of the university; and I found even in M. Krempe a great deal of sound sense and real information, combined, it is true, with a repulsive physiognomy and manners, but not on that account the less valuable."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'inquirers' becomes 'enquirers' with no change in meaning or wording; the same spelling shift occurs throughout the 1831 text.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

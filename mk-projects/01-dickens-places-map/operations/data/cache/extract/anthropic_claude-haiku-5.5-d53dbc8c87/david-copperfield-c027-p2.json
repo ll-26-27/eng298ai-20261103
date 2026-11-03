@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c027-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5305,
+  "completion_tokens": 1647,
+  "total_tokens": 6952,
+  "cost": 0.001354,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001354,
+   "upstream_inference_prompt_cost": 0.0005305,
+   "upstream_inference_completions_cost": 0.0008235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1173,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Devonshire",
+   "normalized": "Devon, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one of ten, down in Devonshire",
+   "note": "Home of Traddles's fiancée; county, not a specific town."
+  },
+  {
+   "as_written": "Windsor Terrace",
+   "normalized": "Windsor Terrace, City Road, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "which I knew well from old experience in Windsor Terrace",
+   "note": "Micawbers' former London address; location inferred from the novel."
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "all the circle at Canterbury",
+   "note": ""
+  },
+  {
+   "as_written": "the Cathedral",
+   "normalized": "Canterbury Cathedral, Canterbury, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in the immediate neighbourhood of the Cathedral",
+   "note": "Identified by the Chaucer reference to the pilgrims' shrine."
+  },
+  {
+   "as_written": "Bow-street",
+   "normalized": "Bow Street, Covent Garden, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a Bow-street officer residing over the way",
+   "note": "Refers to a Bow Street police officer, so the street stands for the police office."
+  }
+ ]
+}

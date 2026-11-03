@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1658,
+  "completion_tokens": 117,
+  "total_tokens": 1775,
+  "cost": 0.004486,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004486,
+   "upstream_inference_prompt_cost": 0.003316,
+   "upstream_inference_completions_cost": 0.00117
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0014. Location: 1818 Letter I; 1831 Letter I.\n\nContext before (unchanged): They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach.\n\n1818 text: The cold is not excessive, if you are wrapt in furs, a dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins.\n\n1831 text: The cold is not excessive, if you are wrapped in furs,—a dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins.\n\nDiff: The cold is not excessive, if you are [-wrapt-] {+wrapped+} in furs, {+—+} a dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins.\n\nContext after (unchanged): I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "\"wrapt\" becomes \"wrapped\" (archaic to modern spelling), and a dash replaces the comma before \"a dress which I have already adopted\". Punctuation and orthography only; the meaning is unchanged.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

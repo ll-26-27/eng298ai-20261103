@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1938,
+  "completion_tokens": 119,
+  "total_tokens": 2057,
+  "cost": 0.0002533,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002533,
+   "upstream_inference_prompt_cost": 0.0001938,
+   "upstream_inference_completions_cost": 0.0000595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0299. Location: 1818 Vol. II, Ch. VIII; 1831 Ch. XVI.\n\nContext before (unchanged): I was like a wild beast that had broken the toils; destroying the objects that obstructed me, and ranging through the wood with a stag-like swiftness.\n\n1818 text: Oh! what a miserable night I passed! the cold stars shone in mockery, and the bare trees waved their branches above me: now and then the sweet voice of a bird burst forth amidst the universal stillness. All, save I, were at rest or in enjoyment: I, like the arch fiend, bore a hell within me; and, finding myself unsympathized with, wished to tear up the trees, spread havoc and destruction around me, and then to have sat down and enjoyed the ruin.\n\n1831 text: O! what a miserable night I passed! the cold stars shone in mockery, and the bare trees waved their branches above me: now and then the sweet voice of a bird burst forth amidst the universal stillness. All, save I, were at rest or in enjoyment: I, like the arch-fiend, bore a hell within me; and, finding myself unsympathised with, wished to tear up the trees, spread havoc and destruction around me, and then to have sat down and enjoyed the ruin.\n\nDiff: [-Oh-] {+O+} ! what a miserable night I passed! the cold stars shone in mockery, and the bare trees waved their branches above me: now and then the sweet voice of a bird burst forth amidst the universal stillness. All, save I, were at rest or in enjoyment: I, like the [-arch fiend-] {+arch-fiend+} , bore a hell within me; and, finding myself [-unsympathized-] {+unsympathised+} with, wished to tear up the trees, spread havoc and destruction around me, and then to have sat down and enjoyed the ruin.\n\nContext after (unchanged): \"But this was a luxury of sensation that could not endure; I became fatigued with excess of bodily exertion, and sank on the damp grass in the sick impotence of despair."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic: 'Oh' to 'O', 'unsympathized' to 'unsympathised' (British -ise), plus hyphenation 'arch fiend' to 'arch-fiend'. No change in meaning or content.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

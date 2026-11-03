@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1573,
+  "completion_tokens": 122,
+  "total_tokens": 1695,
+  "cost": 0.0002183,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002183,
+   "upstream_inference_prompt_cost": 0.0001573,
+   "upstream_inference_completions_cost": 0.000061
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0021. Location: 1818 Letter II; 1831 Letter II.\n\nContext before (unchanged): Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms.\n\n1818 text: My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous of glory.\n\n1831 text: My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous of glory: or rather, to word my phrase more characteristically, of advancement in his profession.\n\nDiff: My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous of glory {+: or rather, to word my phrase more characteristically, of advancement in his profession+} .\n\nContext after (unchanged): He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Added clause 'or rather, to word my phrase more characteristically, of advancement in his profession' recasts Walton's own lofty 'glory' as mere professional advancement, qualifying the lieutenant's motive and Walton's narrating voice.",
+  "confidence": "medium",
+  "rationaleWords": 32
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1604,
+  "completion_tokens": 113,
+  "total_tokens": 1717,
+  "cost": 0.0002169,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002169,
+   "upstream_inference_prompt_cost": 0.0001604,
+   "upstream_inference_completions_cost": 0.0000565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0497. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): I quickly destroyed part of my sledge to construct oars; and by these means was enabled, with infinite fatigue, to move my ice-raft in the direction of your ship.\n\n1818 text: I had determined, if you were going southward, still to trust myself to the mercy of the seas, rather than abandon my purpose. I hoped to induce you to grant me a boat with which I could still pursue my enemy.\n\n1831 text: I had determined, if you were going southward, still to trust myself to the mercy of the seas rather than abandon my purpose. I hoped to induce you to grant me a boat with which I could pursue my enemy.\n\nDiff: I had determined, if you were going southward, still to trust myself to the mercy of the seas [-,-] rather than abandon my purpose. I hoped to induce you to grant me a boat with which I could [-still-] pursue my enemy.\n\nContext after (unchanged): But your direction was northward."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Removes a comma before 'rather' and the adverb 'still' before 'pursue my enemy'; these are minor stylistic tightenings with no change to meaning, though 'still' slightly weakens the sense of continuing pursuit.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

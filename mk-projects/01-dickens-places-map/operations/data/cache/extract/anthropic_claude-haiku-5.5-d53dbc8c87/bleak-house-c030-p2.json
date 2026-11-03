@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c030-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4962,
+  "completion_tokens": 805,
+  "total_tokens": 5767,
+  "cost": 0.0008987,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008987,
+   "upstream_inference_prompt_cost": 0.0004962,
+   "upstream_inference_completions_cost": 0.0004025
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 470,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Hatton Garden",
+   "normalized": "Hatton Garden, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "they had removed to a furnished lodging in Hatton Garden",
+   "note": ""
+  },
+  {
+   "as_written": "Newman Street",
+   "normalized": "Newman Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the academy in Newman Street when they would",
+   "note": ""
+  },
+  {
+   "as_written": "Borrioboola",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "goes on with the Borrioboola letters",
+   "note": "Fictional African settlement in the novel; name also appears in adjectival form 'Borrioboolan'."
+  },
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "this weak child might have been equipped for Africa!",
+   "note": "Continent; no continent type in schema."
+  }
+ ]
+}

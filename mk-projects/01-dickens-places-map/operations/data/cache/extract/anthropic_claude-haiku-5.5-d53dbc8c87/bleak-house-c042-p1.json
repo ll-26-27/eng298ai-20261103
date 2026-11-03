@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c042-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5337,
+  "completion_tokens": 388,
+  "total_tokens": 5725,
+  "cost": 0.0007277,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007277,
+   "upstream_inference_prompt_cost": 0.0005337,
+   "upstream_inference_completions_cost": 0.000194
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He walks into Chesney Wold as if it were next door to his chambers",
+   "note": "Dedlock country house in the novel; location not real"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr. Tulkinghorn transfers himself to the stale heat and dust of London.",
+   "note": ""
+  },
+  {
+   "as_written": "Lincoln's Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he has never been out of Lincoln’s Inn Fields",
+   "note": ""
+  },
+  {
+   "as_written": "the Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The lamplighter is skipping up and down his ladder on Mr. Tulkinghorn’s side of the Fields",
+   "note": "Short form of Lincoln's Inn Fields"
+  }
+ ]
+}

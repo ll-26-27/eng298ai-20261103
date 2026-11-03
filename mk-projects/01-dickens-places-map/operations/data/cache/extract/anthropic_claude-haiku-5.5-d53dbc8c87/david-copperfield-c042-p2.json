@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c042-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5240,
+  "completion_tokens": 1134,
+  "total_tokens": 6374,
+  "cost": 0.001091,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001091,
+   "upstream_inference_prompt_cost": 0.000524,
+   "upstream_inference_completions_cost": 0.000567
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 801,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Dora and I had gone aboard a great East Indiaman at Gravesend to see her",
+   "note": ""
+  },
+  {
+   "as_written": "Covent Garden",
+   "normalized": "Covent Garden, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The stage-coach was to put us down near Covent Garden, where we were to take another stage-coach for Highgate.",
+   "note": ""
+  },
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "where we were to take another stage-coach for Highgate.",
+   "note": "then a village on London's northern edge; the Doctor's house is there"
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "before Mr. Maldon went to India",
+   "note": ""
+  }
+ ]
+}

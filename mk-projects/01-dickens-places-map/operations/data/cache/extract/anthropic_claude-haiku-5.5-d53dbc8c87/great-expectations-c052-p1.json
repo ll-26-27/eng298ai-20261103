@@ -1,0 +1,147 @@
+{
+ "chunk": "great-expectations-c052-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4793,
+  "completion_tokens": 3104,
+  "total_tokens": 7897,
+  "cost": 0.0020313,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020313,
+   "upstream_inference_prompt_cost": 0.0004793,
+   "upstream_inference_completions_cost": 0.001552
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1974,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Little Britain",
+   "normalized": "Little Britain, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "From Little Britain I went, with my check in my pocket",
+   "note": ""
+  },
+  {
+   "as_written": "the Nile",
+   "normalized": "Nile River",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "going up the Nile and seeing wonders",
+   "note": "Imagined journey in Herbert's plans"
+  },
+  {
+   "as_written": "Walworth",
+   "normalized": "Walworth, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "“Walworth. Burn this as soon as read.",
+   "note": "Heading of Wemmick's letter"
+  },
+  {
+   "as_written": "Thames",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I think I know a better course than taking a Thames waterman.",
+   "note": "Named as the river; passage concerns trip downriver"
+  },
+  {
+   "as_written": "Hamburg",
+   "normalized": "Hamburg, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Hamburg, Rotterdam, Antwerp",
+   "note": ""
+  },
+  {
+   "as_written": "Rotterdam",
+   "normalized": "Rotterdam, Netherlands",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Hamburg, Rotterdam, Antwerp",
+   "note": ""
+  },
+  {
+   "as_written": "Antwerp",
+   "normalized": "Antwerp, Belgium",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Hamburg, Rotterdam, Antwerp",
+   "note": ""
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "certainly well beyond Gravesend, which was a critical place",
+   "note": ""
+  },
+  {
+   "as_written": "Mill Pond Bank",
+   "normalized": "Mill Pond Bank, Bermondsey, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "before going to Mill Pond Bank that evening",
+   "note": "Location of Provis's lodging"
+  },
+  {
+   "as_written": "the little sluice-house by the limekiln",
+   "normalized": "Sluice-house by the limekiln, marshes near Cooling, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to come to the little sluice-house by the limekiln",
+   "note": "Unnamed building in the letter; location inferred"
+  },
+  {
+   "as_written": "the Blue Boar",
+   "normalized": "Blue Boar inn, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Avoiding the Blue Boar, I put up at an inn",
+   "note": "Novel's inn, placed in Rochester"
+  },
+  {
+   "as_written": "down the town",
+   "normalized": "Rochester, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I put up at an inn of minor reputation down the town",
+   "note": "Town not named in passage; identified by context"
+  },
+  {
+   "as_written": "Satis House",
+   "normalized": "Satis House, Rochester",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I went to Satis House and inquired for Miss Havisham",
+   "note": "Miss Havisham's house, exists only in the novel"
+  }
+ ]
+}

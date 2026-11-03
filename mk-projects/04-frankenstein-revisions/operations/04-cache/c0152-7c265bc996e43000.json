@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1457,
+  "completion_tokens": 112,
+  "total_tokens": 1569,
+  "cost": 0.0002017,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002017,
+   "upstream_inference_prompt_cost": 0.0001457,
+   "upstream_inference_completions_cost": 0.000056
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0152. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): Besides, the strange nature of the animal would elude all pursuit, even if I were so far credited as to persuade my relatives to commence it.\n\n1818 text: Besides, of what use would be pursuit?\n\n1831 text: And then of what use would be pursuit?\n\nDiff: [-Besides,-] {+And then+} of what use would be pursuit?\n\nContext after (unchanged): Who could arrest a creature capable of scaling the overhanging sides of Mont Salêve?"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the connective changes: \"Besides,\" becomes \"And then,\" with the rest of the sentence intact. The meaning and logic of the rhetorical question are unchanged, so this is a syntactic or stylistic swap.",
+  "confidence": "high",
+  "rationaleWords": 33
+ }
+}

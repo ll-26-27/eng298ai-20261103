@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793716295-AAMfgMj29vr4WQbf6kb8",
+  "object": "chat.completion",
+  "created": 1793716295,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"remède\",\"gloss\":\"remedy\",\"category\":\"remedy/medicine\",\"note\":\"Cousin recasts the genitives as 'contre la difficulté d'apprendre et de savoir' (against the difficulty of learning and knowing), so the remedy is aimed at a difficulty rather than being 'of memory and wisdom'.\"},\"mneme_274e\":{\"rendering\":\"mémoire\",\"gloss\":\"memory\",\"note\":\"This 'mémoire' sits in 'soulagera leur mémoire' (will relieve their memory), which renders μνημονικωτέρους. The genitive μνήμης in the pharmakon clause has no separate rendering and is folded into 'la difficulté d'apprendre'.\"},\"sophia_274e\":{\"rendering\":\"savoir\",\"gloss\":\"knowing / knowledge\",\"note\":\"Appears in 'difficulté d'apprendre et de savoir', an infinitive, not a noun for wisdom. 'savans' earlier renders σοφωτέρους. The sense of 'wisdom' is weakened.\"},\"pharmakon_275a\":{\"rendering\":\"moyen\",\"gloss\":\"means / way\",\"category\":\"means/aid\",\"note\":\"Cousin switches from 'remède' to 'moyen', a neutral means. The medical sense is lost.\"},\"mneme_275a\":{\"rendering\":\"la mémoire\",\"gloss\":\"the memory\",\"note\":\"Object of 'moyen pour la mémoire' (a means for memory).\"},\"hypomnesis_275a\":{\"rendering\":\"la simple réminiscence\",\"gloss\":\"the mere reminiscence\",\"note\":\"'simple' is added and has no Greek counterpart. It makes the contrast with memory depreciative. 'Réminiscence' also carries Platonic anamnesis overtones, which blurs ὑπόμνησις.\"},\"sophia_275a\":{\"rendering\":\"le nom de la science\",\"gloss\":\"the name of science/knowledge\",\"note\":\"δόξα is rendered as 'nom' (name) rather than seeming or reputation. 'Science' is used for σοφία, and the contrast 'sans la réalité' (without the reality) stands for οὐκ ἀλήθειαν.\"},\"doxosophoi_275b\":{\"rendering\":\"la fausse opinion qu'ils auront de leur science\",\"gloss\":\"the false opinion that they will have of their knowledge\",\"note\":\"The compound δοξόσοφοι is dissolved into a phrase. The antithesis ἀντὶ σοφῶν is dropped, and 'ils se croiront de nombreuses connaissances' (they will think themselves possessed of many pieces of knowledge) also renders part of the idea.\"},\"argument\":\"Cousin renders Theuth's pharmakon as 'remède' but Thamus's as 'moyen', so Thamus does not turn Theuth's own word against him, and the pharmakon wordplay and the ambivalence of cure and poison disappear. The memory/reminding contrast is kept but weakened: Theuth's 'memory and wisdom' becomes a remedy for difficulty in learning, and 'simple réminiscence' makes Thamus's verdict more openly dismissive. Wise-seeming (doxosophoi) becomes a periphrasis about false opinion, so the pointed compound is lost.\"}",
+        "refusal": null,
+        "reasoning": "I'm checking Cousin's translation at 274e, where Theuth calls his invention a \"remède\" against the difficulty of learning and remembering — noting how this phrasing shifts pharmakon toward \"remedy against\" rather than a genitive construction.\n\nMoving to 275a, Thamus replies that Theuth has found not a \"moyen\" (means) for memory but for mere \"réminiscence\" — a different word choice from \"remède,\" showing Cousin doesn't keep a single consistent term for pharmakon. I'm tracking how mneme becomes \"mémoire,\" hypomnesis becomes \"réminiscence,\" and sophia/doxa get rendered through phrases like \"le nom de la science sans la réalité,\" where doxa is folded into \"nom.\" I'm also weighing how to capture \"doxosophoi\" at 275b, where Cousin merges it into \"la fausse opinion qu'ils auront de leur science\" or possibly \"ils se croiront de nombreuses connaissances, tout ignorants.\"\n\nI'm settling on \"la fausse opinion qu'ils auront de leur science\" as my chosen rendering, while noting Cousin drops \"ἀντὶ σοφῶν\" and compresses the Greek. Going back to 274e, I realize \"soulagera leur mémoire\" is really translating μνημονικωτέρους rather than the genitive μνήμης itself, and that \"difficulté d'apprendre et de savoir\" is a looser paraphrase standing in for μνήμης καὶ σοφίας — so I want to flag that the genitive sense of μνήμης is effectively lost in this phrasing. I'll keep the mneme_274e slot as \"mémoire\" but annotate this nuance.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm checking Cousin's translation at 274e, where Theuth calls his invention a \"remède\" against the difficulty of learning and remembering — noting how this phrasing shifts pharmakon toward \"remedy against\" rather than a genitive construction.\n\nMoving to 275a, Thamus replies that Theuth has found not a \"moyen\" (means) for memory but for mere \"réminiscence\" — a different word choice from \"remède,\" showing Cousin doesn't keep a single consistent term for pharmakon. I'm tracking how mneme becomes \"mémoire,\" hypomnesis becomes \"réminiscence,\" and sophia/doxa get rendered through phrases like \"le nom de la science sans la réalité,\" where doxa is folded into \"nom.\" I'm also weighing how to capture \"doxosophoi\" at 275b, where Cousin merges it into \"la fausse opinion qu'ils auront de leur science\" or possibly \"ils se croiront de nombreuses connaissances, tout ignorants.\"\n\nI'm settling on \"la fausse opinion qu'ils auront de leur science\" as my chosen rendering, while noting Cousin drops \"ἀντὶ σοφῶν\" and compresses the Greek. Going back to 274e, I realize \"soulagera leur mémoire\" is really translating μνημονικωτέρους rather than the genitive μνήμης itself, and that \"difficulté d'apprendre et de savoir\" is a looser paraphrase standing in for μνήμης καὶ σοφίας — so I want to flag that the genitive sense of μνήμης is effectively lost in this phrasing. I'll keep the mneme_274e slot as \"mémoire\" but annotate this nuance.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1zb25uZXQtNS41LTIwMjYwOTI4fGF6dXJlL2dsb2JhbCJ9"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5942,
+    "completion_tokens": 2034,
+    "total_tokens": 7976,
+    "cost": 0.032224,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.032224,
+      "upstream_inference_prompt_cost": 0.011884,
+      "upstream_inference_completions_cost": 0.02034
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 939,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1551,
+  "completion_tokens": 119,
+  "total_tokens": 1670,
+  "cost": 0.004292,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004292,
+   "upstream_inference_prompt_cost": 0.003102,
+   "upstream_inference_completions_cost": 0.00119
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0260. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): The injustice of his sentence was very flagrant; all Paris was indignant; and it was judged that his religion and wealth, rather than the crime alleged against him, had been the cause of his condemnation.\n\n1818 text: \"Felix had been present at the trial; his horror and indignation were uncontrollable, when he heard the decision of the court.\n\n1831 text: \"Felix had accidentally been present at the trial; his horror and indignation were uncontrollable, when he heard the decision of the court.\n\nDiff: \" Felix had {+accidentally+} been present at the trial; his horror and indignation were uncontrollable, when he heard the decision of the court.\n\nContext after (unchanged): He made, at that moment, a solemn vow to deliver him, and then looked around for the means."
+ },
+ "result": {
+  "category": "fate-agency",
+  "secondary": [
+   "expansion"
+  ],
+  "significance": 3,
+  "rationale": "Adding \"accidentally\" presents Felix's presence at the trial as chance rather than design. This fits the 1831 emphasis on contingency and fate leading him into the Turk's cause, where 1818 gave no such framing.",
+  "confidence": "medium",
+  "rationaleWords": 34
+ }
+}

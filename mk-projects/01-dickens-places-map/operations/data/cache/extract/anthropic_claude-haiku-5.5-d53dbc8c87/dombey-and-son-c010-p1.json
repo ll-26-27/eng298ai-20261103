@@ -1,0 +1,102 @@
+{
+ "chunk": "dombey-and-son-c010-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5527,
+  "completion_tokens": 2152,
+  "total_tokens": 7679,
+  "cost": 0.0016287,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016287,
+   "upstream_inference_prompt_cost": 0.0005527,
+   "upstream_inference_completions_cost": 0.001076
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1506,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Princess’s Place",
+   "normalized": "Princess's Place, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "across Princess’s Place, through his double-barrelled opera-glass",
+   "note": "Miss Tox's address; Dickens's street, likely near Regent's Park"
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "went one Saturday growling down to Brighton",
+   "note": ""
+  },
+  {
+   "as_written": "the Bedford",
+   "normalized": "Bedford Hotel, Brighton",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I stay at the Bedford.",
+   "note": "Hotel in Brighton"
+  },
+  {
+   "as_written": "Sandhurst",
+   "normalized": "Royal Military College, Sandhurst, Berkshire",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "None but the tough fellows could live through it, Sir, at Sandhurst.",
+   "note": "Military college, not a town"
+  },
+  {
+   "as_written": "the West Indies",
+   "normalized": "West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "died of Yellow Jack in the West Indies",
+   "note": ""
+  },
+  {
+   "as_written": "the East and West Indies",
+   "normalized": "East Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in the East and West Indies, my love",
+   "note": ""
+  },
+  {
+   "as_written": "the Peninsula",
+   "normalized": "Iberian Peninsula",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he did all sorts of things in the Peninsula",
+   "note": "Peninsular War reference"
+  },
+  {
+   "as_written": "Bengal",
+   "normalized": "Bengal, India",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Bill Bitherstone of Bengal",
+   "note": ""
+  }
+ ]
+}

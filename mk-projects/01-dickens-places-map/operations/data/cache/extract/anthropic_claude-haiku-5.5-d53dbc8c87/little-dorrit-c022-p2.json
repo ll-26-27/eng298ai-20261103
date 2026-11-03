@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c022-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4785,
+  "completion_tokens": 1292,
+  "total_tokens": 6077,
+  "cost": 0.0011245,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011245,
+   "upstream_inference_prompt_cost": 0.0004785,
+   "upstream_inference_completions_cost": 0.000646
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 799,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "he avoided London Bridge, and turned off in the quieter direction of the Iron Bridge",
+   "note": ""
+  },
+  {
+   "as_written": "Iron Bridge",
+   "normalized": "Southwark Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "turned off in the quieter direction of the Iron Bridge. He had scarcely set foot upon it",
+   "note": "Archaic name; Dickens's Iron Bridge is generally identified with Southwark Bridge"
+  },
+  {
+   "as_written": "Marshalsea wall",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in the shadow of the Marshalsea wall.",
+   "note": "Debtors' prison where Dorrit is held"
+  },
+  {
+   "as_written": "the George",
+   "normalized": "George Inn, Borough High Street, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if he goes into the George and writes a letter",
+   "note": "Inn named only as 'the George'; identification is inferred and uncertain"
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "disappointed of a remittance from the City",
+   "note": "Used as shorthand for the financial district"
+  }
+ ]
+}

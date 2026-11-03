@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c061-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4815,
+  "completion_tokens": 1603,
+  "total_tokens": 6418,
+  "cost": 0.001283,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001283,
+   "upstream_inference_prompt_cost": 0.0004815,
+   "upstream_inference_completions_cost": 0.0008015
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1105,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Harley Street",
+   "normalized": "Harley Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Physician had engaged to break the intelligence in Harley Street.",
+   "note": ""
+  },
+  {
+   "as_written": "the Baths",
+   "normalized": "Merdle's bath-house, London (unidentified)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "He had left a letter at the Baths addressed to his physician",
+   "note": "Unclear which bath-house is meant; may be a fictional or unnamed establishment."
+  },
+  {
+   "as_written": "the Dome of St Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the gallery above the Dome of St Paul’s",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "whispered all over London by about one",
+   "note": ""
+  },
+  {
+   "as_written": "High ‘Change",
+   "normalized": "Royal Exchange, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "But, at about the time of High ‘Change, Pressure began to wane",
+   "note": "Refers to the business hour at the Exchange; the place is implied rather than visited."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "bestowed in England upon all peaceful public benefactors",
+   "note": ""
+  }
+ ]
+}

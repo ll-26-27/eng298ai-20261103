@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1527,
+  "completion_tokens": 145,
+  "total_tokens": 1672,
+  "cost": 0.004504,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004504,
+   "upstream_inference_prompt_cost": 0.003054,
+   "upstream_inference_completions_cost": 0.00145
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0440. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): In about a week after the arrival of Elizabeth's letter, we returned to Geneva.\n\n1818 text: My cousin welcomed me with warm affection; yet tears were in her eyes, as she beheld my emaciated frame and feverish cheeks.\n\n1831 text: The sweet girl welcomed me with warm affection; yet tears were in her eyes, as she beheld my emaciated frame and feverish cheeks.\n\nDiff: [-My cousin-] {+The sweet girl+} welcomed me with warm affection; yet tears were in her eyes, as she beheld my emaciated frame and feverish cheeks.\n\nContext after (unchanged): I saw a change in her also."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 2,
+  "rationale": "\"My cousin\" becomes \"The sweet girl\": in 1831 Elizabeth is no longer Victor's cousin, so the kinship term is dropped, and the epithet \"sweet girl\" fits her idealized, gentle presentation. Mostly a diction swap, with a small characterizing effect.",
+  "confidence": "medium",
+  "rationaleWords": 39
+ }
+}

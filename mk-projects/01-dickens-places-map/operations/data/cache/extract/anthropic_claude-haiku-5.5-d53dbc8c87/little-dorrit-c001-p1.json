@@ -1,0 +1,201 @@
+{
+ "chunk": "little-dorrit-c001-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5146,
+  "completion_tokens": 3099,
+  "total_tokens": 8245,
+  "cost": 0.0020641,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020641,
+   "upstream_inference_prompt_cost": 0.0005146,
+   "upstream_inference_completions_cost": 0.0015495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1690,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Thirty years ago, Marseilles lay burning in the sun, one day.",
+   "note": ""
+  },
+  {
+   "as_written": "southern France",
+   "normalized": "Southern France",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "no greater rarity in southern France then",
+   "note": ""
+  },
+  {
+   "as_written": "Marseilles harbour",
+   "normalized": "Old Port of Marseille, France",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Marseilles harbour;",
+   "note": "harbour, not a river"
+  },
+  {
+   "as_written": "Toulon",
+   "normalized": "Toulon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Toulon (where the galleys are), Spain over there",
+   "note": ""
+  },
+  {
+   "as_written": "Spain",
+   "normalized": "Spain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Spain over there, Algiers over",
+   "note": ""
+  },
+  {
+   "as_written": "Algiers",
+   "normalized": "Algiers, Algeria",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Spain over there, Algiers over",
+   "note": ""
+  },
+  {
+   "as_written": "Nice",
+   "normalized": "Nice, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Creeping away to the left here, Nice.",
+   "note": ""
+  },
+  {
+   "as_written": "Cornice",
+   "normalized": "Corniche coast road, near Nice",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Round by the Cornice to Genoa.",
+   "note": "coast road, not a town"
+  },
+  {
+   "as_written": "Italian coast",
+   "normalized": "Italian Riviera coast",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Towards the distant line of Italian coast",
+   "note": "general reference"
+  },
+  {
+   "as_written": "Genoa",
+   "normalized": "Genoa, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Round by the Cornice to Genoa.",
+   "note": ""
+  },
+  {
+   "as_written": "Genoa Mole and Harbour",
+   "normalized": "Mole and harbour of Genoa, Italy",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Genoa Mole and Harbour.",
+   "note": "harbour, not a river"
+  },
+  {
+   "as_written": "Quarantine Ground",
+   "normalized": "Quarantine Ground, Genoa, Italy",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Quarantine Ground.",
+   "note": "quarantine station"
+  },
+  {
+   "as_written": "Porto Fino",
+   "normalized": "Portofino, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Here, Porto Fino.",
+   "note": ""
+  },
+  {
+   "as_written": "Leghorn",
+   "normalized": "Livorno (Leghorn), Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Stand out for Leghorn.",
+   "note": "archaic English name"
+  },
+  {
+   "as_written": "Civita Vecchia",
+   "normalized": "Civitavecchia, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Out again for Civita Vecchia",
+   "note": ""
+  },
+  {
+   "as_written": "Naples",
+   "normalized": "Naples, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "hey! there's no room for Naples;",
+   "note": ""
+  },
+  {
+   "as_written": "Lyons",
+   "normalized": "Lyon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he gets sausage of Lyons, veal in savoury jelly",
+   "note": "sausage named after the town"
+  },
+  {
+   "as_written": "Babel",
+   "normalized": "Babel",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "descendants from all the builders of Babel",
+   "note": "biblical, figurative"
+  },
+  {
+   "as_written": "Indian ocean",
+   "normalized": "Indian Ocean",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one of the spice islands of the Indian ocean.",
+   "note": ""
+  }
+ ]
+}

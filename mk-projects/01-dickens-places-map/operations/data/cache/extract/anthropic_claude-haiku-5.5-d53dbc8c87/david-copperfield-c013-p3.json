@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c013-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5099,
+  "completion_tokens": 1141,
+  "total_tokens": 6240,
+  "cost": 0.0010804,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010804,
+   "upstream_inference_prompt_cost": 0.0005099,
+   "upstream_inference_completions_cost": 0.0005705
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 706,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "My hair had known no comb or brush since I left London.",
+   "note": ""
+  },
+  {
+   "as_written": "Kentish",
+   "normalized": "Kent, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Kentish soil on which I had slept",
+   "note": "Adjective form of Kent; the county is named only indirectly."
+  },
+  {
+   "as_written": "Blunderstone, in Suffolk",
+   "normalized": "Blunderstone, Suffolk",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I am David Copperfield, of Blunderstone, in Suffolk",
+   "note": "Fictional village; Suffolk is a real county."
+  },
+  {
+   "as_written": "Suffolk",
+   "normalized": "Suffolk, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I am David Copperfield, of Blunderstone, in Suffolk",
+   "note": ""
+  },
+  {
+   "as_written": "Blunderstone Rookery",
+   "normalized": "Blunderstone Rookery",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "stalking up our garden at Blunderstone Rookery",
+   "note": "Fictional house in the novel."
+  }
+ ]
+}

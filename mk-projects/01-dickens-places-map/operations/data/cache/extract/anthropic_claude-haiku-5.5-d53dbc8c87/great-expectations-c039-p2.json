@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c039-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5093,
+  "completion_tokens": 1321,
+  "total_tokens": 6414,
+  "cost": 0.0011698,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011698,
+   "upstream_inference_prompt_cost": 0.0005093,
+   "upstream_inference_completions_cost": 0.0006605
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 929,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the new world",
+   "normalized": "Australia (the Australian penal colonies)",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "away in the new world,” said he; “many a thousand mile of stormy water off from this.",
+   "note": "Dickens's phrase for the colonies; Australia is not named in the passage."
+  },
+  {
+   "as_written": "them lone shivering marshes",
+   "normalized": "Marshes of the lower Thames, Kent (Pip's childhood marshes)",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "since you and me was out on them lone shivering marshes?",
+   "note": "Unnamed in the passage; identified by context with the opening marshes. Also referred to as 'misty marshes'."
+  },
+  {
+   "as_written": "Portsmouth",
+   "normalized": "Portsmouth, Hampshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I wrote from Portsmouth to a person in London",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I wrote from Portsmouth to a person in London",
+   "note": ""
+  }
+ ]
+}

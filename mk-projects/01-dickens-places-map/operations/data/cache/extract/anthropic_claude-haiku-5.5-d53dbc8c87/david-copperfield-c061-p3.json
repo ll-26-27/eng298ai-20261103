@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c061-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 3099,
+  "completion_tokens": 747,
+  "total_tokens": 3846,
+  "cost": 0.0006834,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006834,
+   "upstream_inference_prompt_cost": 0.0003099,
+   "upstream_inference_completions_cost": 0.0003735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 482,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bank of England",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "A fraud on the Bank of England?",
+   "note": "Site of the fraud, referred to as 'the Bank' elsewhere in the passage."
+  },
+  {
+   "as_written": "Southampton",
+   "normalized": "Southampton, Hampshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "being in Southampton, met him walking along the street",
+   "note": "Where Miss Mowcher caught the offender, recounted in the past."
+  },
+  {
+   "as_written": "America",
+   "normalized": "United States of America",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "was going to America in a flaxen wig, and whiskers",
+   "note": ""
+  }
+ ]
+}

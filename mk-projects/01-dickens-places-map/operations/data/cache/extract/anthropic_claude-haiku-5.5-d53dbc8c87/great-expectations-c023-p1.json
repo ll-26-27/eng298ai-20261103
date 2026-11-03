@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c023-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5001,
+  "completion_tokens": 1199,
+  "total_tokens": 6200,
+  "cost": 0.0010996,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010996,
+   "upstream_inference_prompt_cost": 0.0005001,
+   "upstream_inference_completions_cost": 0.0005995
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 919,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Harrow",
+   "normalized": "Harrow School, Harrow on the Hill, Middlesex",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr. Pocket had been educated at Harrow and at Cambridge",
+   "note": "Refers to the school; the school is named by its town."
+  },
+  {
+   "as_written": "Cambridge",
+   "normalized": "Cambridge, Cambridgeshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "educated at Harrow and at Cambridge, where he had distinguished himself",
+   "note": "Refers to the university at Cambridge."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and had come to London",
+   "note": "City named as a whole; the category is a best fit."
+  }
+ ]
+}

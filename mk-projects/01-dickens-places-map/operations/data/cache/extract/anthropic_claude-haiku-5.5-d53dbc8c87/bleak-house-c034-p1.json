@@ -1,0 +1,84 @@
+{
+ "chunk": "bleak-house-c034-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5197,
+  "completion_tokens": 1369,
+  "total_tokens": 6566,
+  "cost": 0.0012042,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012042,
+   "upstream_inference_prompt_cost": 0.0005197,
+   "upstream_inference_completions_cost": 0.0006845
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 863,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Woolwich",
+   "normalized": "Woolwich, London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "we turned out early and left Woolwich, the best of boys, to mind his sisters",
+   "note": "Historically in Kent; now part of London. Treated as London under the Greenwich rule."
+  },
+  {
+   "as_written": "George’s Shooting Gallery",
+   "normalized": "George's Shooting Gallery, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "fresh-coloured and bright, in George’s Shooting Gallery.",
+   "note": "Exact location not stated in this passage; London assumed from the novel's setting."
+  },
+  {
+   "as_written": "Quebec",
+   "normalized": "Quebec, Canada",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "You know what Quebec and Malta and Woolwich are",
+   "note": ""
+  },
+  {
+   "as_written": "Malta",
+   "normalized": "Malta",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "You know what Quebec and Malta and Woolwich are",
+   "note": ""
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "made its way home to Europe from another quarter of the globe",
+   "note": "Continent."
+  },
+  {
+   "as_written": "North America",
+   "normalized": "North America",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Joe Pouch’s widder in North America?",
+   "note": "Continent."
+  }
+ ]
+}

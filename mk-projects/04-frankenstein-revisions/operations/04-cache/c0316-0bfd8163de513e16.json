@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1881,
+  "completion_tokens": 124,
+  "total_tokens": 2005,
+  "cost": 0.0002501,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002501,
+   "upstream_inference_prompt_cost": 0.0001881,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0316. Location: 1818 Vol. II, Ch. VIII; 1831 Ch. XVI.\n\nContext before (unchanged): \"'Frankenstein! you belong then to my enemy—to him towards whom I have sworn eternal revenge; you shall be my first victim.'\n\n1818 text: \"The child still struggled, and loaded me with epithets which carried despair to my heart: I grasped his throat to silence him, and in a moment he lay dead at my feet. \"I gazed on my victim, and my heart swelled with exultation and hellish triumph: clapping my hands, I exclaimed, 'I, too, can create desolation; my enemy is not impregnable; this death will carry despair to him, and a thousand other miseries shall torment and destroy him.'\n\n1831 text: \"The child still struggled, and loaded me with epithets which carried despair to my heart; I grasped his throat to silence him, and in a moment he lay dead at my feet. \"I gazed on my victim, and my heart swelled with exultation and hellish triumph: clapping my hands, I exclaimed, 'I, too, can create desolation; my enemy is not invulnerable; this death will carry despair to him, and a thousand other miseries shall torment and destroy him.'\n\nDiff: \" The child still struggled, and loaded me with epithets which carried despair to my heart [-:-] {+;+} I grasped his throat to silence him, and in a moment he lay dead at my feet. \" I gazed on my victim, and my heart swelled with exultation and hellish triumph: clapping my hands, I exclaimed, 'I, too, can create desolation; my enemy is not [-impregnable-] {+invulnerable+} ; this death will carry despair to him, and a thousand other miseries shall torment and destroy him. '\n\nContext after (unchanged): \"As I fixed my eyes on the child, I saw something glittering on his breast."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'impregnable' with 'invulnerable' (and colon with semicolon in the sentence before); same meaning of the creature's enemy being unassailable. Stylistic diction shift, with the 'invulnerable' choice slightly more physical and ironic.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

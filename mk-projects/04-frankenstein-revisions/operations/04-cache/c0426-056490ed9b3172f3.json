@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2018,
+  "completion_tokens": 358,
+  "total_tokens": 2376,
+  "cost": 0.0003808,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003808,
+   "upstream_inference_prompt_cost": 0.0002018,
+   "upstream_inference_completions_cost": 0.000179
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 219,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0426. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): I avoided explanation, and maintained a continual silence concerning the wretch I had created.\n\n1818 text: I had a feeling that I should be supposed mad, and this for ever chained my tongue, when I would have given the whole world to have confided the fatal secret. Upon this occasion my father said, with an expression of unbounded wonder, \"What do you mean, Victor? are you mad?\n\n1831 text: I had a persuasion that I should be supposed mad; and this in itself would for ever have chained my tongue. But, besides, I could not bring myself to disclose a secret which would fill my hearer with consternation, and make fear and unnatural horror the inmates of his breast. I checked, therefore, my impatient thirst for sympathy, and was silent when I would have given the world to have confided the fatal secret. Yet still words like those I have recorded, would burst uncontrollably from me. I could offer no explanation of them; but their truth in part relieved the burden of my mysterious woe. Upon this occasion my father said, with an expression of unbounded wonder, \"My dearest Victor, what infatuation is this?\n\nDiff: [-I had a feeling that I should be supposed mad, and this for ever chained my tongue, when I would have given the whole world to have confided the fatal secret. Upon this occasion my father said, with an expression of unbounded wonder, \"What do you mean, Victor? are you mad?-] {+I had a persuasion that I should be supposed mad; and this in itself would for ever have chained my tongue. But, besides, I could not bring myself to disclose a secret which would fill my hearer with consternation, and make fear and unnatural horror the inmates of his breast. I checked, therefore, my impatient thirst for sympathy, and was silent when I would have given the world to have confided the fatal secret. Yet still words like those I have recorded, would burst uncontrollably from me. I could offer no explanation of them; but their truth in part relieved the burden of my mysterious woe. Upon this occasion my father said, with an expression of unbounded wonder, \"My dearest Victor, what infatuation is this?+}\n\nContext after (unchanged): My dear son, I entreat you never to make such an assertion again.\""
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Large elaboration of Victor's inner state: the 'persuasion' of being thought mad, his 'impatient thirst for sympathy', and the new 'burden of my mysterious woe'. The father's 'are you mad?' becomes 'what infatuation is this?', softening the accusation.",
+  "confidence": "high",
+  "rationaleWords": 38
+ }
+}

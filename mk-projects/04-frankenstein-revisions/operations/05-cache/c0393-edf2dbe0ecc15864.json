@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1456,
+  "completion_tokens": 106,
+  "total_tokens": 1562,
+  "cost": 0.003972,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003972,
+   "upstream_inference_prompt_cost": 0.002912,
+   "upstream_inference_completions_cost": 0.00106
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0393. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): Is not this a free country?\"\n\n1818 text: \"Aye, Sir, free enough for honest folks.\n\n1831 text: \"Ay, sir, free enough for honest folks.\n\nDiff: \" [-Aye-] {+Ay+} , [-Sir-] {+sir+} , free enough for honest folks.\n\nContext after (unchanged): Mr. Kirwin is a magistrate; and you are to give an account of the death of a gentleman who was found murdered here last night.\""
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"Aye\" becomes \"Ay\" and \"Sir\" becomes \"sir\": orthography and capitalization conventions only. Wording, meaning and the speaker's tone are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 20
+ }
+}

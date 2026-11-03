@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1562,
+  "completion_tokens": 93,
+  "total_tokens": 1655,
+  "cost": 0.0002027,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002027,
+   "upstream_inference_prompt_cost": 0.0001562,
+   "upstream_inference_completions_cost": 0.0000465
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0312. Location: 1818 Vol. II, Ch. VIII; 1831 Ch. XVI.\n\nContext before (unchanged): The labours I endured were no longer to be alleviated by the bright sun or gentle breezes of spring; all joy was but a mockery, which insulted my desolate state, and made me feel more painfully that I was not made for the enjoyment of pleasure.\n\n1818 text: \"But my toils now drew near a close; and, two months from this time, I reached the environs of Geneva.\n\n1831 text: \"But my toils now drew near a close; and, in two months from this time, I reached the environs of Geneva.\n\nDiff: \" But my toils now drew near a close; and, {+in+} two months from this time, I reached the environs of Geneva.\n\nContext after (unchanged): \"It was evening when I arrived, and I retired to a hiding-place among the fields that surround it, to meditate in what manner I should apply to you."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The only change is the insertion of \"in\" before \"two months from this time,\" a grammatical smoothing of the temporal phrase with no change to events, timing, or meaning.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

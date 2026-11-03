@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c052-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3064,
+  "completion_tokens": 1086,
+  "total_tokens": 4150,
+  "cost": 0.0008494,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008494,
+   "upstream_inference_prompt_cost": 0.0003064,
+   "upstream_inference_completions_cost": 0.000543
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 563,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I must be moving towards the City.",
+   "note": "Used as a name for the financial district; Mr Dorrit rides there and the action takes place there."
+  },
+  {
+   "as_written": "the golden Street of the Lombards",
+   "normalized": "Lombard Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "making a magnificent progress to that befitting destination, the golden Street of the Lombards.",
+   "note": "Archaic-style name for Lombard Street; Mr Dorrit alights and comes out of the bank there."
+  },
+  {
+   "as_written": "Westminster Abbey",
+   "normalized": "Westminster Abbey, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in Westminster Abbey and Saint Paul’s Cathedral put together, on any Sunday in the year.",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Paul’s Cathedral",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in Westminster Abbey and Saint Paul’s Cathedral put together, on any Sunday in the year.",
+   "note": ""
+  },
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "had never heard of such a rough word in the English tongue as Marshalsea.",
+   "note": "Debtors' prison, referred to only by name."
+  }
+ ]
+}

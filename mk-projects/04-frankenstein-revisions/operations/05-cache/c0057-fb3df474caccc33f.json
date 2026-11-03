@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1469,
+  "completion_tokens": 90,
+  "total_tokens": 1559,
+  "cost": 0.003838,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003838,
+   "upstream_inference_prompt_cost": 0.002938,
+   "upstream_inference_completions_cost": 0.0009
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0057. Location: 1818 Vol. I, Ch. I; 1831 Ch. II.\n\nContext before (unchanged): When we visited it the next morning, we found the tree shattered in a singular manner.\n\n1818 text: It was not splintered by the shock, but entirely reduced to thin ribbands of wood.\n\n1831 text: It was not splintered by the shock, but entirely reduced to thin ribands of wood.\n\nDiff: It was not splintered by the shock, but entirely reduced to thin [-ribbands-] {+ribands+} of wood.\n\nContext after (unchanged): I never beheld any thing so utterly destroyed."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The only change is the orthographic variant 'ribbands' to 'ribands' in the lightning-struck tree description; the meaning and wording are otherwise identical.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1551,
+  "completion_tokens": 119,
+  "total_tokens": 1670,
+  "cost": 0.0002146,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002146,
+   "upstream_inference_prompt_cost": 0.0001551,
+   "upstream_inference_completions_cost": 0.0000595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0260. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): The injustice of his sentence was very flagrant; all Paris was indignant; and it was judged that his religion and wealth, rather than the crime alleged against him, had been the cause of his condemnation.\n\n1818 text: \"Felix had been present at the trial; his horror and indignation were uncontrollable, when he heard the decision of the court.\n\n1831 text: \"Felix had accidentally been present at the trial; his horror and indignation were uncontrollable, when he heard the decision of the court.\n\nDiff: \" Felix had {+accidentally+} been present at the trial; his horror and indignation were uncontrollable, when he heard the decision of the court.\n\nContext after (unchanged): He made, at that moment, a solemn vow to deliver him, and then looked around for the means."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 2,
+  "rationale": "Insertion of \"accidentally\" before \"been present at the trial\" adds an adverb qualifying Felix's presence; it alters how his attendance is framed but not the events, so it is a stylistic qualification with slight characterization effect.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

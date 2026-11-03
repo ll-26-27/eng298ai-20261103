@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c068-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3813,
+  "completion_tokens": 1075,
+  "total_tokens": 4888,
+  "cost": 0.0009188,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009188,
+   "upstream_inference_prompt_cost": 0.0003813,
+   "upstream_inference_completions_cost": 0.0005375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 713,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Clerkenwell, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Bleeding Heart Yard was shy of claiming that acquaintance.",
+   "note": "Fictional yard; the action takes place there. Also referred to as 'the Yard'."
+  },
+  {
+   "as_written": "The Casby’s Head",
+   "normalized": "The Casby’s Head (sign-post of a Bleeding Heart Yard house)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "It’s a mighty fine sign-post, is The Casby’s Head,",
+   "note": "Fictional name of a house or inn; the sign-post is physically present."
+  },
+  {
+   "as_written": "the Sham’s Arms",
+   "normalized": "the Sham’s Arms (real name of the House)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "but the real name of the House is the Sham’s Arms.",
+   "note": "Fictional name of the same house, given as its real name."
+  }
+ ]
+}

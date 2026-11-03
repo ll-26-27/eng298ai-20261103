@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1727,
+  "completion_tokens": 99,
+  "total_tokens": 1826,
+  "cost": 0.0002222,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002222,
+   "upstream_inference_prompt_cost": 0.0001727,
+   "upstream_inference_completions_cost": 0.0000495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0425. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): William, Justine, and Henry—they all died by my hands.\"\n\n1818 text: My father had often, during my imprisonment, heard me make the same assertion; when I thus accused myself, he sometimes seemed to desire an explanation, and at others he appeared to consider it as caused by delirium, and that, during my illness, some idea of this kind had presented itself to my imagination, the remembrance of which I preserved in my convalescence.\n\n1831 text: My father had often, during my imprisonment, heard me make the same assertion; when I thus accused myself, he sometimes seemed to desire an explanation, and at others he appeared to consider it as the offspring of delirium, and that, during my illness, some idea of this kind had presented itself to my imagination, the remembrance of which I preserved in my convalescence.\n\nDiff: My father had often, during my imprisonment, heard me make the same assertion; when I thus accused myself, he sometimes seemed to desire an explanation, and at others he appeared to consider it as [-caused by-] {+the offspring of+} delirium, and that, during my illness, some idea of this kind had presented itself to my imagination, the remembrance of which I preserved in my convalescence.\n\nContext after (unchanged): I avoided explanation, and maintained a continual silence concerning the wretch I had created."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "\"caused by delirium\" becomes \"the offspring of delirium\" in Victor's account of his father's view; same meaning, more figurative and literary diction, with no change in events or judgment.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "chunk": "great-expectations-c054-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4788,
+  "completion_tokens": 2961,
+  "total_tokens": 7749,
+  "cost": 0.0019593,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019593,
+   "upstream_inference_prompt_cost": 0.0004788,
+   "upstream_inference_completions_cost": 0.0014805
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1221,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Temple stairs",
+   "normalized": "Temple Stairs, Thames Embankment, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We loitered down to the Temple stairs",
+   "note": "Stairs on the Thames at the Temple."
+  },
+  {
+   "as_written": "Thames",
+   "normalized": "River Thames",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the steam-traffic on the Thames was far below its present extent",
+   "note": "River passes through London; the stretch downriver is outside it."
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "but the tide was yet with us when we were off Gravesend",
+   "note": ""
+  },
+  {
+   "as_written": "Kent",
+   "normalized": "Kent, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "between Kent and Essex",
+   "note": ""
+  },
+  {
+   "as_written": "Essex",
+   "normalized": "Essex, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "between Kent and Essex",
+   "note": ""
+  },
+  {
+   "as_written": "Hamburg",
+   "normalized": "Hamburg, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The steamer for Hamburg and the steamer for Rotterdam would start from London",
+   "note": ""
+  },
+  {
+   "as_written": "Rotterdam",
+   "normalized": "Rotterdam, Netherlands",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The steamer for Hamburg and the steamer for Rotterdam would start from London",
+   "note": ""
+  },
+  {
+   "as_written": "Old London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Old London Bridge was soon passed",
+   "note": "Dickens's 'old' refers to the pre-1831 bridge."
+  },
+  {
+   "as_written": "Billingsgate Market",
+   "normalized": "Billingsgate Market, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "old Billingsgate Market with its oyster-boats and Dutchmen",
+   "note": ""
+  },
+  {
+   "as_written": "White Tower",
+   "normalized": "White Tower, Tower of London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the White Tower and Traitor's Gate",
+   "note": ""
+  },
+  {
+   "as_written": "Traitor's Gate",
+   "normalized": "Traitors' Gate, Tower of London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the White Tower and Traitor's Gate",
+   "note": ""
+  },
+  {
+   "as_written": "Mill Pond Bank",
+   "normalized": "Mill Pond Bank, Bermondsey, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Mill Pond Bank and Mill Pond stairs",
+   "note": ""
+  },
+  {
+   "as_written": "Mill Pond stairs",
+   "normalized": "Mill Pond Stairs, Bermondsey, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Mill Pond Bank and Mill Pond stairs",
+   "note": ""
+  },
+  {
+   "as_written": "Leith",
+   "normalized": "Leith, Scotland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Here were the Leith, Aberdeen, and Glasgow steamers",
+   "note": ""
+  },
+  {
+   "as_written": "Aberdeen",
+   "normalized": "Aberdeen, Scotland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Here were the Leith, Aberdeen, and Glasgow steamers",
+   "note": ""
+  },
+  {
+   "as_written": "Glasgow",
+   "normalized": "Glasgow, Scotland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Here were the Leith, Aberdeen, and Glasgow steamers",
+   "note": ""
+  },
+  {
+   "as_written": "John of Sunderland",
+   "normalized": "Sunderland, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "under the figure-head of the John of Sunderland",
+   "note": "Name of a ship, referring to Sunderland."
+  },
+  {
+   "as_written": "Betsy of Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Betsy of Yarmouth with a firm formality of bosom",
+   "note": "Name of a ship, referring to Yarmouth."
+  },
+  {
+   "as_written": "Custom House",
+   "normalized": "Gravesend Custom House (floating), Thames at Gravesend",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I purposely passed within a boat or two's length of the floating Custom House",
+   "note": "Floating Custom House; location at Gravesend is inferred."
+  },
+  {
+   "as_written": "the Pool",
+   "normalized": "Pool of London, Thames",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to get up to the Pool",
+   "note": "Name for the Thames stretch below London Bridge."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as if we were already out of England",
+   "note": ""
+  }
+ ]
+}

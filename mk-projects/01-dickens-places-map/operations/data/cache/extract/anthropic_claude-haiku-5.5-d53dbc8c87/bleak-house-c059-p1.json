@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c059-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4898,
+  "completion_tokens": 783,
+  "total_tokens": 5681,
+  "cost": 0.0008813,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008813,
+   "upstream_inference_prompt_cost": 0.0004898,
+   "upstream_inference_completions_cost": 0.0003915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 491,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the houses outside London did at last begin to exclude the country",
+   "note": ""
+  },
+  {
+   "as_written": "Islington",
+   "normalized": "Islington, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we came, at between three and four o’clock in the morning, into Islington.",
+   "note": ""
+  },
+  {
+   "as_written": "Holborn",
+   "normalized": "Holborn, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Are we in Holborn?",
+   "note": ""
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It looks like Chancery Lane.",
+   "note": "Mr. Bucket confirms the name; the street is entered on foot."
+  }
+ ]
+}

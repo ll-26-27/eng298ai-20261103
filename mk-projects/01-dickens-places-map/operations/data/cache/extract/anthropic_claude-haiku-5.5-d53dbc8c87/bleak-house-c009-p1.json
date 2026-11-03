@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c009-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4958,
+  "completion_tokens": 535,
+  "total_tokens": 5493,
+  "cost": 0.0007633,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007633,
+   "upstream_inference_prompt_cost": 0.0004958,
+   "upstream_inference_completions_cost": 0.0002675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 442,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if I have a good rattle to London and back in a post-chaise",
+   "note": "Richard's imagined trip; no action there in this passage."
+  }
+ ]
+}

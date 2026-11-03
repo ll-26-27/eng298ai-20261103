@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c037-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4993,
+  "completion_tokens": 1136,
+  "total_tokens": 6129,
+  "cost": 0.0010673,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010673,
+   "upstream_inference_prompt_cost": 0.0004993,
+   "upstream_inference_completions_cost": 0.000568
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 771,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Westminster Hall",
+   "normalized": "Westminster Hall, Westminster, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "If he takes me by the hand and leads me through Westminster Hall in an airy procession after fortune, I must go.",
+   "note": "Figurative reference to the law courts; the characters are not there."
+  },
+  {
+   "as_written": "the Dedlock",
+   "normalized": "Dedlock Arms, Dedlock village (fictional)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Richard, with an exclamation of surprise, hurried away",
+   "note": "Passage says 'run down to the Dedlock' and 'the Dedlock Arms'; the inn is in the fictional village."
+  },
+  {
+   "as_written": "the Vale of Taunton",
+   "normalized": "Vale of Taunton Deane, Somerset",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have the privilege of supporting an aged father in the Vale of Taunton—his native place—and I admire that country very much.",
+   "note": ""
+  }
+ ]
+}

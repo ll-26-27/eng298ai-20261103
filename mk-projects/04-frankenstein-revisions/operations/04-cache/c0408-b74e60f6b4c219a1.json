@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1661,
+  "completion_tokens": 119,
+  "total_tokens": 1780,
+  "cost": 0.0002256,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002256,
+   "upstream_inference_prompt_cost": 0.0001661,
+   "upstream_inference_completions_cost": 0.0000595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0408. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): Persecuted and tortured as I am and have been, can death be any evil to me?\"\n\n1818 text: \"Nothing indeed could be more unfortunate and agonizing than the strange chances that have lately occurred. You were thrown, by some surprising accident, on this shore, renowned for its hospitality: seized immediately, and charged with murder.\n\n1831 text: \"Nothing indeed could be more unfortunate and agonising than the strange chances that have lately occurred. You were thrown, by some surprising accident, on this shore, renowned for its hospitality; seized immediately, and charged with murder.\n\nDiff: \" Nothing indeed could be more unfortunate and [-agonizing-] {+agonising+} than the strange chances that have lately occurred. You were thrown, by some surprising accident, on this shore, renowned for its hospitality [-:-] {+;+} seized immediately, and charged with murder.\n\nContext after (unchanged): The first sight that was presented to your eyes was the body of your friend, murdered in so unaccountable a manner, and placed, as it were, by some fiend across your path.\""
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Main change is orthographic: 'agonizing' becomes 'agonising' (-ize to -ise). The colon-to-semicolon swap after 'hospitality' is punctuation only, not a wording change, so it is a minor secondary note.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

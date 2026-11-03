@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1514,
+  "completion_tokens": 100,
+  "total_tokens": 1614,
+  "cost": 0.0002014,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002014,
+   "upstream_inference_prompt_cost": 0.0001514,
+   "upstream_inference_completions_cost": 0.00005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0471. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): It is your duty as a magistrate, and I believe and hope that your feelings as a man will not revolt from the execution of those functions on this occasion.\"\n\n1818 text: This address caused a considerable change in the physiognomy of my auditor.\n\n1831 text: This address caused a considerable change in the physiognomy of my own auditor.\n\nDiff: This address caused a considerable change in the physiognomy of my {+own+} auditor.\n\nContext after (unchanged): He had heard my story with that half kind of belief that is given to a tale of spirits and supernatural events; but when he was called upon to act officially in consequence, the whole tide of his incredulity returned."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Adds the single word \"own\" before \"auditor\" (\"my own auditor\"), a minor stylistic emphasis on possession with no change to events or character; meaning essentially unchanged.",
+  "confidence": "high",
+  "rationaleWords": 26
+ }
+}

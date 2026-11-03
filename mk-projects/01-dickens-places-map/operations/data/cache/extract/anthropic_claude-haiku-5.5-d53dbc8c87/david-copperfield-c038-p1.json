@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c038-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5211,
+  "completion_tokens": 1004,
+  "total_tokens": 6215,
+  "cost": 0.0010231,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010231,
+   "upstream_inference_prompt_cost": 0.0005211,
+   "upstream_inference_completions_cost": 0.000502
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 612,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Commons",
+   "normalized": "Palace of Westminster (House of Commons), London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "when I went to the Commons as usual, I found Mr. Spenlow in the doorway",
+   "note": "Refers to the House of Commons; the building is the Palace of Westminster."
+  },
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, Strand, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we had a sort of Private Parliament in Buckingham Street",
+   "note": ""
+  },
+  {
+   "as_written": "St. Paul's Churchyard",
+   "normalized": "St Paul's Churchyard, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "just within the little archway in St. Paul’s Churchyard",
+   "note": "Coffee-house is located just inside an archway here."
+  },
+  {
+   "as_written": "Norwood",
+   "normalized": "Norwood, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "On my return to Norwood, after the period of absence",
+   "note": "Norwood (south London) is the Spenlows' home."
+  }
+ ]
+}

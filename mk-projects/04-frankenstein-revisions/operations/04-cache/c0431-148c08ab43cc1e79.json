@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1526,
+  "completion_tokens": 121,
+  "total_tokens": 1647,
+  "cost": 0.0002131,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002131,
+   "upstream_inference_prompt_cost": 0.0001526,
+   "upstream_inference_completions_cost": 0.0000605
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0431. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): But this is false reasoning.\n\n1818 text: I confess to you, my cousin, that I love you, and that in my airy dreams of futurity you have been my constant friend and companion.\n\n1831 text: I confess to you, my friend, that I love you, and that in my airy dreams of futurity you have been my constant friend and companion.\n\nDiff: I confess to you, my [-cousin-] {+friend+} , that I love you, and that in my airy dreams of futurity you have been my constant friend and companion.\n\nContext after (unchanged): But it is your happiness I desire as well as my own, when I declare to you, that our marriage would render me eternally miserable, unless it were the dictate of your own free choice."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Replacing \"my cousin\" with \"my friend\" removes the kinship between Elizabeth and Victor, changing how their relationship is defined in a passage about marriage and free choice; the blood tie is erased, so the marriage reads differently.",
+  "confidence": "high",
+  "rationaleWords": 37
+ }
+}

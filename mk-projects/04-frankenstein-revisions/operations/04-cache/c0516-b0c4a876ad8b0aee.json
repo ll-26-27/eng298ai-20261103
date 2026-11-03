@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1782,
+  "completion_tokens": 103,
+  "total_tokens": 1885,
+  "cost": 0.0002297,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002297,
+   "upstream_inference_prompt_cost": 0.0001782,
+   "upstream_inference_completions_cost": 0.0000515
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0516. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): He reminds me how often the same accidents have happened to other navigators, who have attempted this sea, and, in spite of myself, he fills me with cheerful auguries.\n\n1818 text: Even the sailors feel the power of his eloquence: when he speaks, they no longer despair: he rouses their energies, and, while they hear his voice, they believe these vast mountains of ice are mole-hills, which will vanish before the resolutions of man. These feelings are transitory; each day's expectation delayed fills them with fear, and I almost dread a mutiny caused by this despair.\n\n1831 text: Even the sailors feel the power of his eloquence: when he speaks, they no longer despair; he rouses their energies, and, while they hear his voice, they believe these vast mountains of ice are mole-hills, which will vanish before the resolutions of man. These feelings are transitory; each day of expectation delayed fills them with fear, and I almost dread a mutiny caused by this despair.\n\nDiff: Even the sailors feel the power of his eloquence: when he speaks, they no longer despair [-:-] {+;+} he rouses their energies, and, while they hear his voice, they believe these vast mountains of ice are mole-hills, which will vanish before the resolutions of man. These feelings are transitory; each [-day's-] {+day of+} expectation delayed fills them with fear, and I almost dread a mutiny caused by this despair.\n\nContext after (unchanged): September 5th."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Punctuation change from colon to semicolon, and 'each day's expectation' rephrased as 'each day of expectation'; both keep the meaning intact, with no shift in events, character, or moral judgment.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

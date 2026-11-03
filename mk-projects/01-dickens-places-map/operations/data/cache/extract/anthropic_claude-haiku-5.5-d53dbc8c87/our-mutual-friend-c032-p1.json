@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c032-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5125,
+  "completion_tokens": 798,
+  "total_tokens": 5923,
+  "cost": 0.0009115,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009115,
+   "upstream_inference_prompt_cost": 0.0005125,
+   "upstream_inference_completions_cost": 0.000399
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 487,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "going to the City to-night and meeting my sister",
+   "note": "Dickens's term for the financial City; also 'London city' in the passage."
+  },
+  {
+   "as_written": "Leadenhall Street",
+   "normalized": "Leadenhall Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the schoolmaster and the pupil emerged upon the Leadenhall Street region",
+   "note": "Written as 'Leadenhall Street region', so the area is meant."
+  },
+  {
+   "as_written": "Newgate",
+   "normalized": "Newgate Prison, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "dismal Newgate seems quite as fit a stronghold for the mighty Lord Mayor as his own state-dwelling",
+   "note": "Newgate gaol, used in a comparison."
+  }
+ ]
+}

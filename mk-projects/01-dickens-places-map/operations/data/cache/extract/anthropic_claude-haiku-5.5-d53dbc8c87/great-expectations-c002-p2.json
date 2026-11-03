@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c002-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4057,
+  "completion_tokens": 1081,
+  "total_tokens": 5138,
+  "cost": 0.0009462,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009462,
+   "upstream_inference_prompt_cost": 0.0004057,
+   "upstream_inference_completions_cost": 0.0005405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 827,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the misty marshes",
+   "normalized": "Kent marshes (Thames-Medway marshes), Kent",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "ran for the misty marshes.",
+   "note": "Generic landscape name; Dickens's marshes are the Kent marshes near the Thames estuary, but the passage gives no specific place."
+  },
+  {
+   "as_written": "Hulks",
+   "normalized": "Hulks (prison ships on the Thames and Medway), Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Hulks are prison-ships, right ’cross th’ meshes.",
+   "note": "Prison ships moored on the Thames/Medway estuary; a named location, not a single building."
+  }
+ ]
+}

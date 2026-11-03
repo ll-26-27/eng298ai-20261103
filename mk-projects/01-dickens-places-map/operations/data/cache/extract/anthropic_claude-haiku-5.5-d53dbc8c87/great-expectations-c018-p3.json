@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c018-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3313,
+  "completion_tokens": 888,
+  "total_tokens": 4201,
+  "cost": 0.0007753,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007753,
+   "upstream_inference_prompt_cost": 0.0003313,
+   "upstream_inference_completions_cost": 0.000444
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 642,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Jolly Bargemen",
+   "normalized": "Jolly Bargemen inn, Kent marshes (fictional, near Rochester)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "And the Jolly Bargemen might take it as a compliment.",
+   "note": "Fictional inn in the novel; location is not precisely identifiable."
+  },
+  {
+   "as_written": "Miss Havisham’s",
+   "normalized": "Satis House, Miss Havisham's house (fictional, Rochester area)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as I had been in so often between the forge and Miss Havisham’s",
+   "note": "Fictional house; the novel's town is not London."
+  }
+ ]
+}

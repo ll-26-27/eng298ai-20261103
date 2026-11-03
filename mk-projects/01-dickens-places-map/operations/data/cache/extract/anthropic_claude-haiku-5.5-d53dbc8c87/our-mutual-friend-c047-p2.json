@@ -1,0 +1,39 @@
+{
+ "chunk": "our-mutual-friend-c047-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5586,
+  "completion_tokens": 608,
+  "total_tokens": 6194,
+  "cost": 0.0008626,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008626,
+   "upstream_inference_prompt_cost": 0.0005586,
+   "upstream_inference_completions_cost": 0.000304
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 472,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Mounds",
+   "normalized": "Boffin's Mounds (dust heaps), London",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the dropping down upon Mr Boffin was held over until the Mounds should be cleared away",
+   "note": "Dust heaps in the novel; the passage does not give a precise location, so it may not be locatable."
+  }
+ ]
+}

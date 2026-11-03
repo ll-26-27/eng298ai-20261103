@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c008-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5614,
+  "completion_tokens": 1163,
+  "total_tokens": 6777,
+  "cost": 0.0011429,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011429,
+   "upstream_inference_prompt_cost": 0.0005614,
+   "upstream_inference_completions_cost": 0.0005815
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 725,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Castle",
+   "normalized": "Mrs Pipchin's boarding house, Brighton",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "slumber fell upon the Castle shortly after.",
+   "note": "Nickname for Mrs Pipchin's house; Brighton is implied but not named in the passage."
+  },
+  {
+   "as_written": "Rottingdean",
+   "normalized": "Rottingdean, East Sussex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Miss Pankey was generally brought back from an aunt’s at Rottingdean, in deep distress",
+   "note": ""
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "whose relatives were all in India",
+   "note": ""
+  },
+  {
+   "as_written": "Bengal",
+   "normalized": "Bengal, India",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "if she could give him any idea of the way back to Bengal.",
+   "note": ""
+  },
+  {
+   "as_written": "Peruvian mines",
+   "normalized": "Peru",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when Mr Pipchin broke his heart in the Peruvian mines.",
+   "note": "Refers to the mines in Peru; the country is the mappable place."
+  }
+ ]
+}

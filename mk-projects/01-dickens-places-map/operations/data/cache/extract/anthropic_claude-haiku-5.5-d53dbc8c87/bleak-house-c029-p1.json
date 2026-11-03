@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c029-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5290,
+  "completion_tokens": 1135,
+  "total_tokens": 6425,
+  "cost": 0.0010965,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010965,
+   "upstream_inference_prompt_cost": 0.000529,
+   "upstream_inference_completions_cost": 0.0005675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 771,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Chesney Wold is shut up, carpets are rolled into great scrolls",
+   "note": "Dedlock country house in the novel; not locatable on a real map."
+  },
+  {
+   "as_written": "Lincoln's Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Kenge and Carboy, of Lincoln’s Inn",
+   "note": "Inn of Court where the firm Kenge and Carboy has its chambers."
+  },
+  {
+   "as_written": "of the Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I should have gone at once to your ladyship’s solicitor, Mr. Tulkinghorn, of the Fields.",
+   "note": "Elliptical reference to Lincoln's Inn Fields, where Tulkinghorn's chambers are."
+  }
+ ]
+}

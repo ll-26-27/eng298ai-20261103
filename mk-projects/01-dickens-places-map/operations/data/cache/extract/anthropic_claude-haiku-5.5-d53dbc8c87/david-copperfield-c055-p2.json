@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c055-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4844,
+  "completion_tokens": 1060,
+  "total_tokens": 5904,
+  "cost": 0.0010144,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010144,
+   "upstream_inference_prompt_cost": 0.0004844,
+   "upstream_inference_completions_cost": 0.00053
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 608,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lowestoft",
+   "normalized": "Lowestoft, Suffolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he had gone to Lowestoft, to meet some sudden exigency of ship-repairing",
+   "note": ""
+  },
+  {
+   "as_written": "the Roads",
+   "normalized": "Yarmouth Roads, Norfolk",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "some other ships had been seen labouring hard in the Roads",
+   "note": "Sea anchorage; named only as 'the Roads', location inferred from Yarmouth setting"
+  },
+  {
+   "as_written": "Spain",
+   "normalized": "Spain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "A schooner, from Spain or Portugal, laden with fruit and wine.",
+   "note": ""
+  },
+  {
+   "as_written": "Portugal",
+   "normalized": "Portugal",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "A schooner, from Spain or Portugal, laden with fruit and wine.",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Thus, if I had gone out into the town, I should not have been surprised, I think, to encounter someone who I knew must be then in London.",
+   "note": ""
+  }
+ ]
+}

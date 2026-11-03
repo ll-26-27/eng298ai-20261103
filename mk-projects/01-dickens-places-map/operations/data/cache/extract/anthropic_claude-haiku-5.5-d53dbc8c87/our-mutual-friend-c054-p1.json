@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c054-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5285,
+  "completion_tokens": 709,
+  "total_tokens": 5994,
+  "cost": 0.000883,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000883,
+   "upstream_inference_prompt_cost": 0.0005285,
+   "upstream_inference_completions_cost": 0.0003545
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 483,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Greenwich",
+   "normalized": "Greenwich, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Behold Bella and Pa aboard an early steamboat for Greenwich.",
+   "note": "Bella and Pa travel there and the wedding takes place there."
+  },
+  {
+   "as_written": "Greenwich church",
+   "normalized": "St Alfege Church, Greenwich, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the cherubic parent was bearing down and crowding on direct for Greenwich church, to see his relations.",
+   "note": "Church not named by Dickens; identification with St Alfege is an inference."
+  }
+ ]
+}

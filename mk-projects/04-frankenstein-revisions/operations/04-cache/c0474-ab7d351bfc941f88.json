@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1630,
+  "completion_tokens": 113,
+  "total_tokens": 1743,
+  "cost": 0.0002195,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002195,
+   "upstream_inference_prompt_cost": 0.000163,
+   "upstream_inference_completions_cost": 0.0000565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0474. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): You refuse my just demand: I have but one resource; and I devote myself, either in my life or death, to his destruction.\"\n\n1818 text: I trembled with excess of agitation as I said this; there was a phrenzy in my manner, and something, I doubt not, of that haughty fierceness, which the martyrs of old are said to have possessed.\n\n1831 text: I trembled with excess of agitation as I said this; there was a frenzy in my manner, and something, I doubt not, of that haughty fierceness which the martyrs of old are said to have possessed.\n\nDiff: I trembled with excess of agitation as I said this; there was a [-phrenzy-] {+frenzy+} in my manner, and something, I doubt not, of that haughty fierceness [-,-] which the martyrs of old are said to have possessed.\n\nContext after (unchanged): But to a Genevan magistrate, whose mind was occupied by far other ideas than those of devotion and heroism, this elevation of mind had much the appearance of madness."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 1,
+  "rationale": "Main change is orthographic: 'phrenzy' becomes 'frenzy' with no change in meaning. The only other edit is removal of a comma after 'fierceness', a punctuation-level change with no interpretive effect.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716724-oX0pyp1Yw3DLvKlx0Nb7",
+  "object": "chat.completion",
+  "created": 1793716724,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"a medicine\",\"gloss\":\"a medicine\",\"category\":\"remedy/medicine\",\"note\":\"Full clause: 'it has been invented as a medicine for memory and wisdom.' The indefinite article is part of the phrase.\"},\"mneme_274e\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Also 'better able to remember' (μνημονικωτέρους) just before, but the slot is the genitive μνήμης in the 'medicine for memory and wisdom' clause.\"},\"sophia_274e\":{\"rendering\":\"wisdom\",\"gloss\":\"wisdom\",\"note\":\"\"},\"pharmakon_275a\":{\"rendering\":\"a medicine\",\"gloss\":\"a medicine\",\"category\":\"remedy/medicine\",\"note\":\"Same word as at 274e, so the repetition is preserved. The sentence is 'you have not discovered a medicine for memory, but for recollection.'\"},\"mneme_275a\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Same word as at 274e.\"},\"hypomnesis_275a\":{\"rendering\":\"recollection\",\"gloss\":\"recollection (a calling back to mind)\",\"note\":\"The sentence is 'not a medicine for memory, but for recollection.' 'Recollection' suggests inner recall and does not carry the sense of external prompting or reminding that ὑπόμνησις has. Cary does not use 'reminder'.\"},\"sophia_275a\":{\"rendering\":\"the appearance and not the reality of wisdom\",\"gloss\":\"the appearance and not the reality of wisdom\",\"note\":\"δόξα is rendered 'appearance' and ἀλήθεια 'reality' rather than 'truth'. The phrase is built around 'providing for your disciples'.\"},\"doxosophoi_275b\":{\"rendering\":\"thinking themselves wise instead of being so\",\"gloss\":\"thinking themselves wise instead of being so\",\"note\":\"The compound δοξόσοφοι is expanded into a participial phrase and no single word corresponds to it. The 'seeming-wise' coinage is lost, and the sense shifts to self-opinion (thinking) rather than appearance.\"},\"argument\":\"Cary keeps 'medicine' for both occurrences of pharmakon, so Thamus turns Theuth's own word against him and the dispute is over what the medicine is for. The word is a plain healing term, so the ambivalence of poison versus cure that lies in pharmakon is not heard. 'Recollection' for ὑπόμνησις and the expanded 'thinking themselves wise' also soften the contrast between true memory and an external reminder, and drop the coinage δοξόσοφοι.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5624,
+    "completion_tokens": 878,
+    "total_tokens": 6502,
+    "cost": 0.020028,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.020028,
+      "upstream_inference_prompt_cost": 0.011248,
+      "upstream_inference_completions_cost": 0.00878
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

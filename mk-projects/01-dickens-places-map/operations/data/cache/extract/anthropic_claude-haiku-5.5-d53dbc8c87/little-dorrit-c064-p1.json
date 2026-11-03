@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c064-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5362,
+  "completion_tokens": 726,
+  "total_tokens": 6088,
+  "cost": 0.0008992,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008992,
+   "upstream_inference_prompt_cost": 0.0005362,
+   "upstream_inference_completions_cost": 0.000363
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 534,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "had not been able to release even the imaginary people of the book from the Marshalsea",
+   "note": ""
+  },
+  {
+   "as_written": "Circumlocution place",
+   "normalized": "Circumlocution Office",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "\"Our Circumlocution place.\"",
+   "note": "Fictional government office; an institution as much as a building, so included with caution."
+  }
+ ]
+}

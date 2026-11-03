@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c006-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5069,
+  "completion_tokens": 1006,
+  "total_tokens": 6075,
+  "cost": 0.0010099,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010099,
+   "upstream_inference_prompt_cost": 0.0005069,
+   "upstream_inference_completions_cost": 0.000503
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 550,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Six Jolly Fellowship Porters",
+   "normalized": "Six Jolly Fellowship Porters tavern, Limehouse riverside, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The Six Jolly Fellowship Porters, already mentioned as a tavern of a dropsical appearance",
+   "note": "Fictional tavern on the Thames; location not precisely fixed in the text"
+  },
+  {
+   "as_written": "the Abbey at Westminster",
+   "normalized": "Westminster Abbey, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "she was named after, or in some sort related to, the Abbey at Westminster",
+   "note": ""
+  },
+  {
+   "as_written": "Limehouse Church",
+   "normalized": "St Anne's Church, Limehouse, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "by which name Miss Potterson had been christened at Limehouse Church",
+   "note": "Church name as given in the text; identification is approximate"
+  },
+  {
+   "as_written": "Cosy",
+   "normalized": "Cosy (small room in the Six Jolly Fellowship Porters tavern)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "on the door of which was therefore painted its alluring name: Cosy.",
+   "note": "Name of a small room inside the tavern, not a separate place"
+  }
+ ]
+}

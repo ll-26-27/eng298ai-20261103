@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c049-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5445,
+  "completion_tokens": 512,
+  "total_tokens": 5957,
+  "cost": 0.0008005,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008005,
+   "upstream_inference_prompt_cost": 0.0005445,
+   "upstream_inference_completions_cost": 0.000256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 313,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Portland Place",
+   "normalized": "Portland Place, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if you had come from the neighbourhood of Portland Place, bending under the yoke of patronage",
+   "note": ""
+  },
+  {
+   "as_written": "St Paul's",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I wonder whether she ever insisted on people's retiring into the ball of St Paul's",
+   "note": "Refers to the ball atop the cathedral dome."
+  }
+ ]
+}

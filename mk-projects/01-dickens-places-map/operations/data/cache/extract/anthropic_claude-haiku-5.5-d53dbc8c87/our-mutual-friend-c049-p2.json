@@ -1,0 +1,84 @@
+{
+ "chunk": "our-mutual-friend-c049-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5550,
+  "completion_tokens": 1379,
+  "total_tokens": 6929,
+  "cost": 0.0012445,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012445,
+   "upstream_inference_prompt_cost": 0.000555,
+   "upstream_inference_completions_cost": 0.0006895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 866,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mincing Lane",
+   "normalized": "Mincing Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the foreshadowings of night were creeping over Mincing Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Holloway",
+   "normalized": "Holloway, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "came out of Mincing Lane to walk to Holloway",
+   "note": ""
+  },
+  {
+   "as_written": "Wilfer Castle",
+   "normalized": "Wilfer Castle",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "they stopped within view of Wilfer Castle",
+   "note": "Fictional name for the Wilfer family house; located in Holloway in the novel"
+  },
+  {
+   "as_written": "China silks",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "come to me in China silks, Cashmere shawls, and Golconda diamonds",
+   "note": "Named as the source of silks"
+  },
+  {
+   "as_written": "Golconda diamonds",
+   "normalized": "Golconda, Hyderabad, India",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "come to me in China silks, Cashmere shawls, and Golconda diamonds",
+   "note": "Historic diamond-trading centre; name used as a product origin"
+  },
+  {
+   "as_written": "Russian market",
+   "normalized": "Russia",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as who should say, ‘An Enigma!’",
+   "note": ""
+  }
+ ]
+}

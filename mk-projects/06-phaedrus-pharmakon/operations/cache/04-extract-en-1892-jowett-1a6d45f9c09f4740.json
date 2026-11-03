@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793715542-W7aIqwgUKLGIgqH0R3Jn",
+  "object": "chat.completion",
+  "created": 1793715542,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"specific\",\"gloss\":\"a specific (a medicine for one particular disease)\",\"category\":\"specific\",\"note\":\"Jowett writes 'it is a specific both for the memory and for the wit'. The word has medical overtones but is narrower than 'remedy' or 'drug', and it loses the ambivalence of remedy/poison.\"},\"mneme_274e\":{\"rendering\":\"the memory\",\"gloss\":\"the memory\",\"note\":\"Preceded by 'better memories' in the previous clause, which renders μνημονικωτέρους. Here 'the memory' renders μνήμης.\"},\"sophia_274e\":{\"rendering\":\"the wit\",\"gloss\":\"the wit (intelligence)\",\"note\":\"σοφίας is rendered as 'wit', which is a weaker and more intellectual-faculty sense than 'wisdom'. This is not the same word Jowett uses at 275a, where he writes 'truth' and 'semblance of truth' instead of wisdom.\"},\"pharmakon_275a\":{\"rendering\":\"specific\",\"gloss\":\"specific (a medicine for one particular disease)\",\"category\":\"specific\",\"note\":\"'The specific which you have discovered' keeps the same word as at 274e.\"},\"mneme_275a\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"'an aid not to memory'. Jowett turns the genitive into a dative-like 'to memory' and makes the pharmakon an 'aid', which changes the syntax.\"},\"hypomnesis_275a\":{\"rendering\":\"reminiscence\",\"gloss\":\"reminiscence (recollection)\",\"note\":\"'but to reminiscence'. This is Platonic-sounding (anamnesis-like) rather than 'reminding' or 'prompting', so it blurs the contrast between internal recollection and external reminder.\"},\"sophia_275a\":{\"rendering\":\"the semblance of truth\",\"gloss\":\"the semblance (likeness) of truth\",\"note\":\"Jowett paraphrases: 'not truth, but only the semblance of truth'. σοφίας ... δόξαν is not rendered as 'wisdom'. The word 'wisdom' is absent here, and the idea is recast as truth-semblance. 'Wisdom' appears only later, in 'the show of wisdom'.\"},\"doxosophoi_275b\":{\"rendering\":\"the show of wisdom\",\"gloss\":\"the show (appearance) of wisdom\",\"note\":\"'having the show of wisdom without the reality' renders δοξόσοφοι γεγονότες ἀντὶ σοφῶν. The compound adjective for persons, 'wise-seeming', becomes an abstract noun phrase, and 'without the reality' replaces ἀντὶ σοφῶν.\"},\"argument\":\"Jowett keeps one word, 'specific', for both occurrences of φάρμακον, so Thamus does turn Theuth's own word back on him, but a narrow medical term replaces the ambivalent drug/remedy/poison sense, so the possible poison reading is lost. He also gives 'wit' for σοφία at 274e and 'truth' and 'reality' at 275a-b, which weakens the wisdom/seeming-wisdom contrast, and he renders 'reminiscence' for ὑπομνήσεως, so the memory/reminder opposition is partly blurred. The exchange reads as a dispute over whether the cure fits the ailment rather than whether the remedy is also a poison.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5412,
+    "completion_tokens": 1131,
+    "total_tokens": 6543,
+    "cost": 0.022134,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.022134,
+      "upstream_inference_prompt_cost": 0.010824,
+      "upstream_inference_completions_cost": 0.01131
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

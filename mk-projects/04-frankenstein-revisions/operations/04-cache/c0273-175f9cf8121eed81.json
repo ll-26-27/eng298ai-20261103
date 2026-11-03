@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1605,
+  "completion_tokens": 124,
+  "total_tokens": 1729,
+  "cost": 0.0002225,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002225,
+   "upstream_inference_prompt_cost": 0.0001605,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0273. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): She hesitated some time, but at length she formed her determination.\n\n1818 text: Taking with her some jewels that belonged to her, and a small sum of money, she quitted Italy, with an attendant, a native of Leghorn, but who understood the common language of Turkey, and departed for Germany.\n\n1831 text: Taking with her some jewels that belonged to her, and a sum of money, she quitted Italy with an attendant, a native of Leghorn, but who understood the common language of Turkey, and departed for Germany.\n\nDiff: Taking with her some jewels that belonged to her, and a [-small-] sum of money, she quitted Italy [-,-] with an attendant, a native of Leghorn, but who understood the common language of Turkey, and departed for Germany.\n\nContext after (unchanged): \"She arrived in safety at a town about twenty leagues from the cottage of De Lacey, when her attendant fell dangerously ill."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 2,
+  "rationale": "Deletes the adjective \"small\" before \"sum of money\" and removes the comma after \"Italy\"; the removal of \"small\" slightly alters the emphasis on Safie's modest resources, but the sentence's meaning is largely unchanged.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c029-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5459,
+  "completion_tokens": 1276,
+  "total_tokens": 6735,
+  "cost": 0.0011839,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011839,
+   "upstream_inference_prompt_cost": 0.0005459,
+   "upstream_inference_completions_cost": 0.000638
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1056,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Princess’s Place",
+   "normalized": "Princess's Place, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "to make her little drawing-room the garland of Princess’s Place.",
+   "note": "Fictional street in Dickens's London; location not precisely identifiable."
+  },
+  {
+   "as_written": "Princess’s Arms",
+   "normalized": "Princess's Arms (public house), Princess's Place, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The pot-boy attached to the Princess’s Arms had come out with a can",
+   "note": "Fictional inn/public house in Princess's Place."
+  }
+ ]
+}

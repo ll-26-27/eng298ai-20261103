@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c017-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4920,
+  "completion_tokens": 971,
+  "total_tokens": 5891,
+  "cost": 0.0009775,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009775,
+   "upstream_inference_prompt_cost": 0.000492,
+   "upstream_inference_completions_cost": 0.0004855
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 738,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House (fictional house, Hertfordshire)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "for our house (I mean Bleak House) that I was busy with at that time",
+   "note": "Fictional house; location not given in this passage, so the Hertfordshire placement is from the novel's wider setting."
+  },
+  {
+   "as_written": "Kenge's office",
+   "normalized": "Kenge's office, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "If I went into Kenge's office,",
+   "note": "Location not stated in passage; the office is the lawyers' premises, so in_london is uncertain."
+  }
+ ]
+}

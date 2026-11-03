@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2860,
+  "completion_tokens": 558,
+  "total_tokens": 3418,
+  "cost": 0.000565,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000565,
+   "upstream_inference_prompt_cost": 0.000286,
+   "upstream_inference_completions_cost": 0.000279
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 416,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0334. Location: 1818 Vol. II, Ch. IX; 1831 Ch. XVII.\n\nContext before (unchanged): These were wild and miserable thoughts; but I cannot describe to you how the eternal twinkling of the stars weighed upon me, and how I listened to every blast of wind, as if it were a dull ugly siroc on its way to consume me.\n\n1818 text: Morning dawned before I arrived at the village of Chamounix; but my presence, so haggard and strange, hardly calmed the fears of my family, who had waited the whole night in anxious expectation of my return. The following day we returned to Geneva. The intention of my father in coming had been to divert my mind, and to restore me to my lost tranquillity; but the medicine had been fatal. And, unable to account for the excess of misery I appeared to suffer, he hastened to return home, hoping the quiet and monotony of a domestic life would by degrees alleviate my sufferings from whatsoever cause they might spring. For myself, I was passive in all their arrangements; and the gentle affection of my beloved Elizabeth was inadequate to draw me from the depth of my despair. The promise I had made to the dæmon weighed upon my mind, like Dante's iron cowl on the heads of the hellish hypocrites. All pleasures of earth and sky passed before me like a dream, and that thought only had to me the reality of life. Can you wonder, that sometimes a kind of insanity possessed me, or that I saw continually about me a multitude of filthy animals inflicting on me incessant torture, that often extorted screams and bitter groans? By degrees, however, these feelings became calmed. I entered again into the every-day scene of life, if not with interest, at least with some degree of tranquillity.\n\n1831 text: Morning dawned before I arrived at the village of Chamounix; I took no rest, but returned immediately to Geneva. Even in my own heart I could give no expression to my sensations—they weighed on me with a mountain's weight, and their excess destroyed my agony beneath them. Thus I returned home, and entering the house, presented myself to the family. My haggard and wild appearance awoke intense alarm; but I answered no question, scarcely did I speak. I felt as if I were placed under a ban—as if I had no right to claim their sympathies—as if never more might I enjoy companionship with them. Yet even thus I loved them to adoration; and to save them, I resolved to dedicate myself to my most abhorred task. The prospect of such an occupation made every other circumstance of existence pass before me like a dream; and that thought only had to me the reality of life.\n\nDiff: [-Morning dawned before I arrived at the village of Chamounix; but my presence, so haggard and strange, hardly calmed the fears of my family, who had waited the whole night in anxious expectation of my return. The following day we returned to Geneva. The intention of my father in coming had been to divert my mind, and to restore me to my lost tranquillity; but the medicine had been fatal. And, unable to account for the excess of misery I appeared to suffer, he hastened to return home, hoping the quiet and monotony of a domestic life would by degrees alleviate my sufferings from whatsoever cause they might spring. For myself, I was passive in all their arrangements; and the gentle affection of my beloved Elizabeth was inadequate to draw me from the depth of my despair. The promise I had made to the dæmon weighed upon my mind, like Dante's iron cowl on the heads of the hellish hypocrites. All pleasures of earth and sky passed before me like a dream, and that thought only had to me the reality of life. Can you wonder, that sometimes a kind of insanity possessed me, or that I saw continually about me a multitude of filthy animals inflicting on me incessant torture, that often extorted screams and bitter groans? By degrees, however, these feelings became calmed. I entered again into the every-day scene of life, if not with interest, at least with some degree of tranquillity.-] {+Morning dawned before I arrived at the village of Chamounix; I took no rest, but returned immediately to Geneva. Even in my own heart I could give no expression to my sensations—they weighed on me with a mountain's weight, and their excess destroyed my agony beneath them. Thus I returned home, and entering the house, presented myself to the family. My haggard and wild appearance awoke intense alarm; but I answered no question, scarcely did I speak. I felt as if I were placed under a ban—as if I had no right to claim their sympathies—as if never more might I enjoy companionship with them. Yet even thus I loved them to adoration; and to save them, I resolved to dedicate myself to my most abhorred task. The prospect of such an occupation made every other circumstance of existence pass before me like a dream; and that thought only had to me the reality of life.+}\n\nContext after (unchanged): (none)"
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "plot",
+   "moral-religious"
+  ],
+  "significance": 5,
+  "rationale": "The whole passage is rewritten. The 1818 father's journey, Elizabeth's affection and the Dante cowl of guilt give way to Victor's 1831 resolve to 'dedicate myself to my most abhorred task' to 'save them', which recasts his motives and his relation to family.",
+  "confidence": "medium",
+  "rationaleWords": 43
+ }
+}

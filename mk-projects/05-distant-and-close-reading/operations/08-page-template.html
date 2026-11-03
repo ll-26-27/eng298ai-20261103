@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scenes of Instruction</title>
+<meta name="description" content="Distant and close reading beyond word search: a model reads every passage of four texts for scenes of instruction, compared with a keyword search, checked by hand, then read closely.">
+<style>
+:root {
+  --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1c1a; --muted: #6b675f; --faint: #e9e6df; --band: #f3f1ec; --rule: #d9d5cc;
+  --kw: #c0761a; --s1: #b9d3d6; --s2: #5c9aa3; --s3: #1f5e68; --sim: #8a6fb0; --sel: #d1342f;
+  --ev-bg: #d9ecee; --kw-bg: #f6e2c4; --ok: #2f7d4f; --warn: #b3402c;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161615; --panel: #1f1f1d; --ink: #ecebe6; --muted: #a29e94; --faint: #2c2b28; --band: #242320; --rule: #3a3935;
+    --kw: #e0a050; --s1: #35565b; --s2: #4f939c; --s3: #8fd0d8; --sim: #b49ad8; --sel: #ff6b5e;
+    --ev-bg: #24464b; --kw-bg: #4d3a1c; --ok: #6cc28f; --warn: #ef8a74;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161615; --panel: #1f1f1d; --ink: #ecebe6; --muted: #a29e94; --faint: #2c2b28; --band: #242320; --rule: #3a3935;
+  --kw: #e0a050; --s1: #35565b; --s2: #4f939c; --s3: #8fd0d8; --sim: #b49ad8; --sel: #ff6b5e;
+  --ev-bg: #24464b; --kw-bg: #4d3a1c; --ok: #6cc28f; --warn: #ef8a74;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--sans); }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 32px 16px 80px; }
+h1 { font: 600 2.1rem/1.15 var(--serif); margin: 0 0 6px; letter-spacing: -0.01em; }
+h2 { font: 600 1.35rem/1.25 var(--serif); margin: 48px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+h3 { font: 600 1.05rem/1.3 var(--serif); margin: 0 0 4px; }
+p { margin: 0 0 12px; }
+.lede { font: 1.12rem/1.55 var(--serif); max-width: 46em; color: var(--ink); }
+.muted { color: var(--muted); }
+.small { font-size: 0.86rem; }
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+code { font-size: 0.9em; background: var(--faint); padding: 1px 4px; border-radius: 3px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin: 24px 0 8px; }
+.stat { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; }
+.stat b { display: block; font: 600 1.7rem/1.1 var(--serif); }
+.stat span { font-size: 0.85rem; color: var(--muted); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.85rem; color: var(--muted); margin: 8px 0 16px; align-items: center; }
+.sw { display: inline-block; width: 14px; height: 12px; border-radius: 2px; vertical-align: -1px; margin-right: 5px; }
+
+.distant { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 24px; align-items: start; }
+.text-block { margin-bottom: 26px; }
+.text-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; margin-bottom: 4px; }
+.text-head .counts { font-size: 0.82rem; color: var(--muted); }
+.strip { display: grid; grid-template-columns: 92px minmax(0, 1fr); align-items: stretch; }
+.strip .labels { display: flex; flex-direction: column; font-size: 0.75rem; color: var(--muted); }
+.strip .labels div { height: 22px; line-height: 22px; white-space: nowrap; }
+.strip svg { width: 100%; display: block; overflow: visible; }
+.strip rect.mark { cursor: pointer; }
+.strip rect.mark:hover { opacity: 0.75; }
+.strip rect.selected { stroke: var(--sel); stroke-width: 2.5; vector-effect: non-scaling-stroke; }
+.axis { display: grid; grid-template-columns: 92px minmax(0, 1fr); font-size: 0.72rem; color: var(--muted); }
+.axis div:last-child { display: flex; justify-content: space-between; }
+
+aside.detail { position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow: auto; background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; }
+.detail .where { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.detail .nav { display: flex; gap: 6px; margin: 8px 0 12px; flex-wrap: wrap; }
+.detail .nav button, .btn { border: 1px solid var(--rule); background: var(--bg); border-radius: 6px; padding: 3px 10px; cursor: pointer; font-size: 0.85rem; }
+.detail .nav button:hover, .btn:hover { border-color: var(--muted); }
+.passage { font: 1rem/1.6 var(--serif); }
+.passage p { margin: 0 0 10px; }
+.passage .ev { background: var(--ev-bg); border-radius: 2px; }
+.passage .kw { background: var(--kw-bg); border-bottom: 2px solid var(--kw); }
+.passage .ev.kw { background: linear-gradient(var(--ev-bg), var(--ev-bg)); }
+.verdict { margin: 12px 0; padding: 10px 12px; border-left: 3px solid var(--s2); background: var(--bg); font-size: 0.9rem; }
+.verdict.no { border-left-color: var(--rule); }
+.verdict .k { color: var(--muted); }
+.reading { margin-top: 14px; padding: 12px 14px; border: 1px dashed var(--sim); border-radius: 8px; }
+.reading .tag, .tag { display: inline-block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--sim); font-weight: 600; }
+.reading .body { font: 0.98rem/1.6 var(--serif); margin: 6px 0 8px; }
+.reading ul { margin: 6px 0 0; padding-left: 18px; font-size: 0.82rem; }
+.q-ok { color: var(--ok); } .q-bad { color: var(--warn); }
+.empty { color: var(--muted); font-style: italic; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.card { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; cursor: pointer; text-align: left; width: 100%; }
+.card:hover { border-color: var(--muted); }
+.card .where { font-size: 0.78rem; color: var(--muted); }
+.card blockquote { margin: 6px 0 0; font: 0.92rem/1.45 var(--serif); color: var(--ink); }
+
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.list { list-style: none; padding: 0; margin: 0; }
+.list li { border-top: 1px solid var(--faint); padding: 8px 0; cursor: pointer; }
+.list li:hover { background: var(--band); }
+.list .where { font-size: 0.78rem; color: var(--muted); }
+.list .q { font: 0.93rem/1.45 var(--serif); }
+
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--faint); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; }
+tr.dis td { background: var(--kw-bg); }
+tr.click { cursor: pointer; }
+.table-scroll { overflow-x: auto; }
+.callout { background: var(--panel); border: 1px solid var(--rule); border-left: 4px solid var(--kw); border-radius: 6px; padding: 12px 14px; margin: 12px 0; max-width: 52em; }
+ol.chain { padding-left: 22px; max-width: 52em; }
+ol.chain li { margin-bottom: 6px; }
+.kind { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--rule); color: var(--muted); margin-left: 4px; white-space: nowrap; }
+
+@media (max-width: 920px) {
+  .distant { grid-template-columns: 1fr; }
+  aside.detail { position: static; max-height: none; }
+  .two { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  h1 { font-size: 1.6rem; }
+  .strip, .axis { grid-template-columns: 64px minmax(0, 1fr); }
+  .strip .labels div { font-size: 0.68rem; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="muted small">ENGLISH 298AI · Seminar 9 · a worked example: distant and close reading</div>
+    <h1>Scenes of instruction, beyond word search</h1>
+    <p class="lede">Where in these four texts does one being teach, train, or form another? A keyword search can only find the words <em>teach</em>, <em>learn</em>, <em>lesson</em>. Here a model read every passage and judged whether instruction was happening, whatever the words. Below, the two methods side by side across whole texts (distant), a hand check of how often the model is right, and the strongest passages read closely.</p>
+    <p class="muted small">Why this concept: Lord Henry remaking Dorian, the creature learning speech by watching the De Laceys, Socrates turning Phaedrus toward philosophy, and the last Robots begging Alquist to teach them how Robots are made are all scenes of instruction, and almost none of them announce themselves with the word "teach". Wilde's word for it is <em>influence</em>; Shelley's creature calls language "a godlike science".</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <h2>The distant view</h2>
+  <p class="muted" style="max-width:52em">Each strip is one text, start to end; the shaded bands are chapters or acts. Top row: passages containing a keyword. Middle row: passages the model judged scenes of instruction, darker for stronger. Bottom row: the 30 passages most similar, by embedding, to one seed passage (outlined). Click any mark to read the passage.</p>
+  <div class="legend" id="legend"></div>
+  <div class="distant">
+    <div id="strips"></div>
+    <aside class="detail" id="detail"><p class="empty">Click a mark on any strip to read the passage, the keywords it contains, the model's judgment and its evidence, and, for the strongest passages, a close reading.</p></aside>
+  </div>
+
+  <h2>Close readings of the strongest passages</h2>
+  <div class="callout small"><b>These are model interpretations</b>, written by a stronger model from the passage alone, for a scholar to argue with. They are not findings. Every quotation was checked in code against the passage; a red mark means the model misquoted.</div>
+  <div class="cards" id="cards"></div>
+
+  <h2>Where the two methods disagree</h2>
+  <div class="two">
+    <div>
+      <h3>The model found a scene of instruction; no keyword appears</h3>
+      <p class="muted small">Strength 2–3 only. These are what word search cannot reach.</p>
+      <ul class="list" id="model-only"></ul>
+    </div>
+    <div>
+      <h3>A keyword appears; the model said no</h3>
+      <p class="muted small">Mostly "learned" meaning "found out", or schooling mentioned in passing.</p>
+      <ul class="list" id="kw-only"></ul>
+    </div>
+  </div>
+
+  <h2>The check: how often is the model right?</h2>
+  <div id="check"></div>
+
+  <h2>How this was made</h2>
+  <ol class="chain" id="chain"></ol>
+  <div class="table-scroll"><table id="costs"></table></div>
+  <p class="muted small" id="sources"></p>
+</div>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const byId = Object.fromEntries(D.chunks.map((c, i) => [c.id, { ...c, i }]));
+const title = Object.fromEntries(D.texts.map((t) => [t.id, t.title]));
+const strength = (id) => (D.cls[id] ? D.cls[id].st : 0);
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const S = D.summary.all;
+const kwRe = () => new RegExp(D.pattern, 'gi');
+const plain = (s) => s.replace(/_/g, '').replace(/\s+/g, ' ').trim();
+
+// ---------- stats ----------
+const chk = D.check;
+$('#stats').innerHTML = [
+  [S.passages, 'passages of about 150–300 words, four texts'],
+  [S.keyword, 'contain a teaching keyword'],
+  [S.model, `judged scenes of instruction by the model (${S.model_strong} clear or central)`],
+  [S.model_only, `found by the model with no keyword (${S.model_only_strong} clear or central)`],
+  [S.keyword_only, 'keyword hits the model rejected'],
+  chk ? [Math.round(chk.model.precision.value * 100) + '%', `model precision on the hand check (${chk.model.precision.counts})`] : null,
+].filter(Boolean).map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join('');
+
+// ---------- legend ----------
+$('#legend').innerHTML = `
+  <span><i class="sw" style="background:var(--kw)"></i>keyword hit</span>
+  <span><i class="sw" style="background:var(--s1)"></i>model: brief</span>
+  <span><i class="sw" style="background:var(--s2)"></i>clear</span>
+  <span><i class="sw" style="background:var(--s3)"></i>central</span>
+  ${D.sim ? '<span><i class="sw" style="background:var(--sim)"></i>similar to the seed passage</span>' : ''}`;
+
+// ---------- strips ----------
+const ROWS = D.sim ? ['keyword', 'model', 'similar'] : ['keyword', 'model'];
+const ROW_H = 22, W = 1000;
+const simTop = new Set(D.sim ? D.sim.top : []);
+const svgNS = 'http://www.w3.org/2000/svg';
+function strip(t) {
+  const cs = D.chunks.filter((c) => c.t === t.id);
+  const s = D.summary[t.id];
+  const H = ROW_H * ROWS.length;
+  let bands = '', marks = '', last = null, bandStart = 0, alt = false;
+  const sections = [];
+  cs.forEach((c) => { if (c.s !== last) { sections.push({ s: c.s, p: c.p }); last = c.s; } });
+  sections.forEach((sec, i) => {
+    const end = i + 1 < sections.length ? sections[i + 1].p : 1;
+    if (i % 2 === 1) bands += `<rect x="${sec.p * W}" y="0" width="${(end - sec.p) * W}" height="${H}" fill="var(--band)"><title>${esc(sec.s)}</title></rect>`;
+  });
+  for (let r = 1; r < ROWS.length; r++) bands += `<line x1="0" x2="${W}" y1="${r * ROW_H}" y2="${r * ROW_H}" stroke="var(--faint)" stroke-width="1" vector-effect="non-scaling-stroke"/>`;
+  for (const c of cs) {
+    const x = c.p * W, w = Math.max(c.l * W, 2.2);
+    if (D.kw[c.id]) marks += `<rect class="mark" data-id="${c.id}" x="${x}" y="${3}" width="${w}" height="${ROW_H - 6}" fill="var(--kw)"><title>${esc(c.s)}: ${esc([...new Set(D.kw[c.id])].join(', '))}</title></rect>`;
+    const st = strength(c.id);
+    if (st > 0) marks += `<rect class="mark" data-id="${c.id}" x="${x}" y="${ROW_H + 3}" width="${w}" height="${ROW_H - 6}" fill="var(--s${st})"><title>${esc(c.s)}: strength ${st}</title></rect>`;
+    if (D.sim && (simTop.has(c.id) || c.id === D.sim.seed)) {
+      const seed = c.id === D.sim.seed;
+      marks += `<rect class="mark" data-id="${c.id}" x="${x}" y="${2 * ROW_H + 3}" width="${w}" height="${ROW_H - 6}" fill="${seed ? 'none' : 'var(--sim)'}" ${seed ? 'stroke="var(--sim)" stroke-width="2" vector-effect="non-scaling-stroke"' : ''}><title>${seed ? 'seed passage' : 'similarity ' + D.sim.scores[c.id]}</title></rect>`;
+    }
+  }
+  const labels = ['keyword', 'model', 'similar'].slice(0, ROWS.length).map((l) => `<div>${l}</div>`).join('');
+  return `<div class="text-block">
+    <div class="text-head"><h3>${esc(t.title)} <span class="muted small" style="font-family:var(--sans);font-weight:400">${esc(t.author)}, ${t.year}</span></h3>
+    <span class="counts">${s.passages} passages · ${s.keyword} keyword · ${s.model} model (${s.model_strong} clear) · ${s.model_only} model-only</span></div>
+    <div class="strip"><div class="labels">${labels}</div>
+    <svg viewBox="0 0 ${W} ${H}" height="${H}" preserveAspectRatio="none" role="img" aria-label="${esc(t.title)}: positions of keyword and model hits">${bands}${marks}</svg></div>
+    <div class="axis"><div></div><div><span>start</span><span>end</span></div></div>
+  </div>`;
+}
+$('#strips').innerHTML = D.texts.map(strip).join('');
+$('#strips').addEventListener('click', (e) => { const id = e.target.dataset?.id; if (id) select(id); });
+
+// ---------- passage rendering with highlights ----------
+function evidenceRange(text, ev) {
+  if (!ev) return null;
+  const toks = ev.replace(/_/g, '').match(/[A-Za-z0-9]+/g);
+  if (!toks) return null;
+  const re = new RegExp(toks.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('[^A-Za-z0-9]+'), 'i');
+  const m = re.exec(text);
+  return m ? [m.index, m.index + m[0].length] : null;
+}
+function renderPassage(c) {
+  const text = c.x, n = text.length, ev = new Uint8Array(n), kw = new Uint8Array(n);
+  const r = D.cls[c.id] && D.cls[c.id].st > 0 ? evidenceRange(text, D.cls[c.id].e) : null;
+  if (r) for (let i = r[0]; i < r[1]; i++) ev[i] = 1;
+  for (const m of text.matchAll(kwRe())) for (let i = m.index; i < m.index + m[0].length; i++) kw[i] = 1;
+  let out = '<p>', buf = '', it = false, flags = null;
+  const flush = () => {
+    if (!buf) return;
+    const cls = [flags.ev && 'ev', flags.kw && 'kw'].filter(Boolean).join(' ');
+    let h = esc(buf); if (flags.it) h = `<em>${h}</em>`; if (cls) h = `<span class="${cls}">${h}</span>`;
+    out += h; buf = '';
+  };
+  for (let i = 0; i < n; i++) {
+    const ch = text[i];
+    if (ch === '_') { flush(); it = !it; continue; }
+    if (ch === '\n') { flush(); if (text[i + 1] === '\n') { out += '</p><p>'; i++; } else out += ' '; continue; }
+    const f = { ev: ev[i], kw: kw[i], it };
+    if (!flags || f.ev !== flags.ev || f.kw !== flags.kw || f.it !== flags.it) { flush(); flags = f; }
+    buf += ch;
+  }
+  flush();
+  return out + '</p>';
+}
+
+// ---------- detail panel ----------
+let current = null;
+function select(id, scroll = true) {
+  const c = byId[id]; if (!c) return;
+  current = id;
+  document.querySelectorAll('rect.selected').forEach((r) => r.classList.remove('selected'));
+  document.querySelectorAll(`rect[data-id="${id}"]`).forEach((r) => r.classList.add('selected'));
+  const r = D.cls[id], st = strength(id), kws = D.kw[id] ? [...new Set(D.kw[id])] : [];
+  const cr = D.close[id];
+  const sib = D.chunks.filter((x) => x.t === c.t);
+  let h = `<div class="where">${esc(title[c.t])} · ${esc(c.s)} · passage ${c.n} of ${sib.length}</div>
+    <div class="nav">
+      <button data-go="prev">← previous</button><button data-go="next">next →</button>
+      <button data-go="prevhit">← previous model hit</button><button data-go="nexthit">next model hit →</button>
+    </div>
+    <div class="small" style="margin-bottom:8px"><span class="sw" style="background:var(--kw)"></span>keywords: ${kws.length ? esc(kws.join(', ')) : '<span class="muted">none</span>'}
+    ${D.sim ? ` · <span class="muted">similarity to seed: ${D.sim.scores[id]}</span>` : ''}</div>`;
+  if (r && st > 0) {
+    h += `<div class="verdict"><b>Model: scene of instruction, strength ${st}</b> <span class="muted">(${['', 'brief', 'clear', 'central'][st]})</span><br>
+      <span class="k">who:</span> ${esc(r.i || '?')} → ${esc(r.l || '?')}<br>
+      <span class="k">what:</span> ${esc(r.w)}<br>
+      <span class="k">evidence:</span> <span class="passage">“${esc(plain(r.e))}”</span> ${r.ok ? '<span class="q-ok small">✓ found in passage</span>' : '<span class="q-bad small">✗ not found verbatim</span>'}<br>
+      <span class="k">reason:</span> ${esc(r.r)}</div>`;
+  } else if (r) {
+    h += `<div class="verdict no"><b>Model: not a scene of instruction</b><br><span class="k">reason:</span> ${esc(r.r)}</div>`;
+  }
+  h += `<div class="passage">${renderPassage(c)}</div>`;
+  if (cr) {
+    h += `<div class="reading"><span class="tag">Model interpretation · argue with it</span><h3 style="margin-top:4px">${esc(cr.heading)}</h3>
+      <div class="body">${esc(cr.reading).replace(/\n+/g, '<br><br>')}</div>
+      <div class="small"><b>A question to pursue:</b> ${esc(cr.question)}</div>
+      <ul>${cr.quotations.map((q) => `<li class="${q.found ? 'q-ok' : 'q-bad'}">${q.found ? '✓' : '✗'} <span style="color:var(--ink)">“${esc(plain(q.q))}”</span></li>`).join('')}</ul>
+      <div class="muted small">${esc(D.models.close)}; quotations checked against the passage in code.</div></div>`;
+  }
+  const el = $('#detail');
+  el.innerHTML = h;
+  el.scrollTop = 0;
+  if (scroll && window.matchMedia('(max-width: 920px)').matches) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  else if (scroll) { const rect = el.getBoundingClientRect(); if (rect.top > window.innerHeight || rect.bottom < 0) $('#strips').scrollIntoView({ behavior: 'smooth' }); }
+}
+$('#detail').addEventListener('click', (e) => {
+  const go = e.target.dataset?.go; if (!go || !current) return;
+  const c = byId[current], sib = D.chunks.filter((x) => x.t === c.t), k = sib.findIndex((x) => x.id === current);
+  let target = null;
+  if (go === 'prev') target = sib[k - 1]; else if (go === 'next') target = sib[k + 1];
+  else if (go === 'nexthit') target = sib.slice(k + 1).find((x) => strength(x.id) > 0);
+  else if (go === 'prevhit') target = sib.slice(0, k).reverse().find((x) => strength(x.id) > 0);
+  if (target) select(target.id, false);
+});
+
+// ---------- close-reading cards ----------
+const readings = Object.values(D.close).sort((a, b) => byId[a.id].i - byId[b.id].i);
+$('#cards').innerHTML = readings.length ? readings.map((r) => {
+  const c = byId[r.id], bad = r.quotations.filter((q) => !q.found).length;
+  return `<button class="card" data-id="${r.id}"><div class="where">${esc(title[c.t])} · ${esc(c.s)}</div><h3>${esc(r.heading)}</h3>
+    <blockquote>“${esc(plain(D.cls[r.id].e))}”</blockquote>
+    <div class="small muted" style="margin-top:6px">${esc(D.cls[r.id].i)} → ${esc(D.cls[r.id].l)} · ${r.quotations.length - bad}/${r.quotations.length} quotations verified</div></button>`;
+}).join('') : '<p class="empty">Close readings not yet generated (run step 6).</p>';
+$('#cards').addEventListener('click', (e) => { const b = e.target.closest('[data-id]'); if (b) select(b.dataset.id); });
+
+// ---------- disagreement lists ----------
+function spread(ids, n) {
+  const per = {}; for (const id of ids) (per[byId[id].t] ||= []).push(id);
+  for (const k in per) per[k].sort((a, b) => strength(b) - strength(a) || byId[a].i - byId[b].i);
+  const out = []; while (out.length < n && Object.values(per).some((l) => l.length)) for (const k of D.texts.map((t) => t.id)) if (per[k]?.length && out.length < n) out.push(per[k].shift());
+  return out;
+}
+const modelOnly = D.chunks.filter((c) => !D.kw[c.id] && strength(c.id) >= 2).map((c) => c.id);
+const kwOnly = D.chunks.filter((c) => D.kw[c.id] && D.cls[c.id] && strength(c.id) === 0).map((c) => c.id);
+$('#model-only').innerHTML = spread(modelOnly, 16).map((id) => `<li data-id="${id}"><div class="where">${esc(title[byId[id].t])} · ${esc(byId[id].s)} · strength ${strength(id)} · ${esc(D.cls[id].i)} → ${esc(D.cls[id].l)}</div><div class="q">“${esc(plain(D.cls[id].e))}”</div></li>`).join('');
+$('#kw-only').innerHTML = spread(kwOnly, 16).map((id) => `<li data-id="${id}"><div class="where">${esc(title[byId[id].t])} · ${esc(byId[id].s)} · keyword: <b>${esc([...new Set(D.kw[id])].join(', '))}</b></div><div class="q muted">${esc(D.cls[id].r)}</div></li>`).join('');
+document.querySelectorAll('.list').forEach((l) => l.addEventListener('click', (e) => { const li = e.target.closest('[data-id]'); if (li) select(li.dataset.id); }));
+
+// ---------- the check ----------
+if (chk) {
+  const pct = (x) => Math.round(x * 100) + '%';
+  $('#check').innerHTML = `
+  <p style="max-width:52em">${chk.sample.size} passages were drawn at random (fixed seed): ${chk.sample.model_positive} the model had called scenes of instruction and ${chk.sample.model_negative} it had not, mixed together. Each was read and judged <b>without seeing the model's answer</b>, against the same definition the model was given. ${esc(chk.judged_by)}</p>
+  <div class="stats">
+    <div class="stat"><b>${chk.model.agree}/${chk.sample.size}</b><span>agreement with the reader</span></div>
+    <div class="stat"><b>${pct(chk.model.precision.value)}</b><span>precision: of the model's yeses, ${chk.model.precision.counts} were real</span></div>
+    <div class="stat"><b>${chk.model.negatives_that_were_instances}</b><span>of the model's noes were in fact scenes of instruction</span></div>
+    <div class="stat"><b>${esc(chk.model.precision_strong.split(' (')[0])}</b><span>of the model's <em>clear or central</em> yeses were real; ${esc(chk.model.precision_weak.split(' (')[0])} of its <em>brief</em> ones</span></div>
+    <div class="stat"><b>${pct(chk.model.recall_pessimistic)}–${pct(chk.model.recall_estimate)}</b><span>rough range for recall across the corpus</span></div>
+    <div class="stat"><b>${chk.keyword_on_same_sample.found_of_human_yes}</b><span>reader's yeses that the keyword search would have found</span></div>
+  </div>
+  <div class="callout small"><b>This is a small check.</b> Thirty passages cannot pin down an error rate: one changed judgment moves precision by about 7 points, and the recall estimate rests on ${chk.sample.model_negative} negatives standing in for the whole remainder of the corpus: recall is ${esc(chk.model.recall_note)}. Treat these numbers as a smoke test, and redo the check yourself before relying on the model's labels. ${esc(chk.note || '')}</div>
+  <div class="table-scroll"><table><thead><tr><th>#</th><th>passage</th><th>reader</th><th>model</th><th>keyword</th><th>reader's note</th></tr></thead><tbody>
+  ${chk.rows.map((r, i) => `<tr class="click ${r.human !== r.model ? 'dis' : ''}" data-id="${r.id}"><td>${i + 1}</td><td>${esc(title[byId[r.id].t])}, ${esc(byId[r.id].s)}</td><td>${r.human ? 'yes' : 'no'}</td><td>${r.model ? 'yes (' + r.strength + ')' : 'no'}</td><td>${r.keyword ? 'yes' : ''}</td><td>${esc(r.note)}</td></tr>`).join('')}
+  </tbody></table></div>`;
+  $('#check').addEventListener('click', (e) => { const tr = e.target.closest('[data-id]'); if (tr) select(tr.dataset.id); });
+} else $('#check').innerHTML = '<p class="empty">Not yet checked (run step 5).</p>';
+
+// ---------- method and costs ----------
+$('#chain').innerHTML = [
+  ['Chunk', 'script', 'deterministic', 'cut each text into passages of about 150–300 words, tracking chapter or act and position.'],
+  ['Keyword baseline', 'script', 'deterministic', `mark every passage matching <code>${esc(D.pattern.slice(0, 90))}…</code>`],
+  ['Classify', 'prompt + script', 'model judgment', `ask ${esc(D.models.classify)} of every passage: is it a scene of instruction, how strong, who teaches whom, with a quotation as evidence (JSON schema enforced).`],
+  ['Compare', 'script', 'deterministic', 'set the two methods side by side; verify every evidence quotation occurs in its passage.'],
+  ['Check', 'sheet + script', 'human check', 'read 30 random passages blind and score the model against the reader.'],
+  ['Close read', 'prompt + script', 'model judgment', `ask ${esc(D.models.close || '')} for a short close reading of the strongest passages; verify its quotations in code.`],
+  ['Embed', 'script', 'model arithmetic', `rank every passage by similarity to one seed passage using ${esc(D.models.embed || '')}: a third method, which mostly finds passages that sound alike rather than ones that do the same thing.`],
+  ['Build this page', 'script', 'deterministic', 'embed all the data in one HTML file.'],
+].map(([a, b, c, d]) => `<li><b>${a}</b> <span class="kind">${b}</span><span class="kind">${c}</span><br><span class="small">${d}</span></li>`).join('');
+const total = D.costs.reduce((s, c) => s + c.cost, 0);
+$('#costs').innerHTML = `<thead><tr><th>step</th><th>model</th><th>calls</th><th>tokens in</th><th>tokens out</th><th>cost (USD)</th></tr></thead><tbody>
+  ${D.costs.map((c) => `<tr><td>${esc(c.step)}</td><td>${esc(c.model)}</td><td>${c.calls}</td><td>${c.prompt.toLocaleString()}</td><td>${c.completion.toLocaleString()}</td><td>$${c.cost.toFixed(3)}</td></tr>`).join('')}
+  <tr><td colspan="5"><b>total</b> (as logged; includes any test runs)</td><td><b>$${total.toFixed(2)}</b></td></tr></tbody>`;
+$('#sources').innerHTML = 'Texts (all public domain in the US), from Project Gutenberg: ' + D.texts.map((t) => `<i>${esc(t.title)}</i>, ${esc(t.author)}`).join('; ') + '. Built with Claude Code for ENGLISH 298AI, November 2026.';
+
+// Open on the strongest passage in Frankenstein so the panel isn't empty.
+const first = readings[0]?.id || modelOnly[0];
+if (first) select(first, false);
+</script>
+</body>
+</html>

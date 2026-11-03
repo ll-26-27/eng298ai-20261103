@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2221,
+  "completion_tokens": 139,
+  "total_tokens": 2360,
+  "cost": 0.0002916,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002916,
+   "upstream_inference_prompt_cost": 0.0002221,
+   "upstream_inference_completions_cost": 0.0000695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0459. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): After having landed, they proceeded to search the country, parties going in different directions among the woods and vines.\n\n1818 text: I did not accompany them; I was exhausted: a film covered my eyes, and my skin was parched with the heat of fever. In this state I lay on a bed, hardly conscious of what had happened; my eyes wandered round the room, as if to seek something that I had lost. At length I remembered that my father would anxiously expect the return of Elizabeth and myself, and that I must return alone. This reflection brought tears into my eyes, and I wept for a long time; but my thoughts rambled to various subjects, reflecting on my misfortunes, and their cause.\n\n1831 text: I attempted to accompany them, and proceeded a short distance from the house; but my head whirled round, my steps were like those of a drunken man, I fell at last in a state of utter exhaustion; a film covered my eyes, and my skin was parched with the heat of fever. In this state I was carried back, and placed on a bed, hardly conscious of what had happened; my eyes wandered round the room, as if to seek something that I had lost. After an interval, I arose, and, as if by instinct, crawled into the room where the corpse of my beloved lay. There were women weeping around—I hung over it, and joined my sad tears to theirs—all this time no distinct idea presented itself to my mind; but my thoughts rambled to various subjects, reflecting confusedly on my misfortunes, and their cause.\n\nDiff: I [-did not-] {+attempted to+} accompany them {+, and proceeded a short distance from the house+} ; {+but my head whirled round, my steps were like those of a drunken man,+} I [-was exhausted:-] {+fell at last in+} a {+state of utter exhaustion; a+} film covered my eyes, and my skin was parched with the heat of fever. In this state I [-lay-] {+was carried back, and placed+} on a bed, hardly conscious of what had happened; my eyes wandered round the room, as if to seek something that I had lost. [-At length-] {+After an interval,+} I [-remembered that my father would anxiously expect the return of Elizabeth and myself-] {+arose+} , and [-that I must return alone. This reflection brought tears-] {+, as if by instinct, crawled+} into {+the room where the corpse of+} my [-eyes-] {+beloved lay. There were women weeping around—I hung over it+} , and [-I wept for a long-] {+joined my sad tears to theirs—all this+} time {+no distinct idea presented itself to my mind+} ; but my thoughts rambled to various subjects, reflecting {+confusedly+} on my misfortunes, and their cause.\n\nContext after (unchanged): I was bewildered in a cloud of wonder and horror."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Major elaboration of Victor's collapse and grief: he attempts to join the search, faints, and crawls to Elizabeth's corpse to weep over it, replacing the 1818 father-return reflection. Intensifies emotional and dramatic presentation of Victor's agony.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

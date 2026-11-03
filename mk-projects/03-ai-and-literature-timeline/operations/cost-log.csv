@@ -1,0 +1,15 @@
+timestamp,step,model,prompt_tokens,completion_tokens,cost_usd
+2026-11-03T12:40:30.128Z,01-draft,anthropic/claude-opus-5.5,2642,32000,0.650568
+2026-11-03T12:41:31.251Z,01-draft-readings,anthropic/claude-opus-5.5,2662,5436,0.119368
+2026-11-03T12:43:09.707Z,01-draft-computing,anthropic/claude-opus-5.5,2662,12358,0.257808
+2026-11-03T12:44:29.016Z,01-draft-made-beings,anthropic/claude-opus-5.5,2664,9658,0.203816
+2026-11-03T12:45:35.601Z,01-draft-dialogue,anthropic/claude-opus-5.5,2664,8024,0.171136
+2026-11-03T13:03:34.460Z,03-categorize-01,anthropic/claude-sonnet-5.5,4585,2959,0.03876
+2026-11-03T13:03:58.770Z,03-categorize-02,anthropic/claude-sonnet-5.5,4660,3373,0.04305
+2026-11-03T13:04:22.275Z,03-categorize-03,anthropic/claude-sonnet-5.5,4514,3392,0.042948
+2026-11-03T13:04:45.574Z,03-categorize-04,anthropic/claude-sonnet-5.5,4515,3350,0.04253
+2026-11-03T13:05:08.236Z,03-categorize-05,anthropic/claude-sonnet-5.5,4383,3305,0.041816
+2026-11-03T13:05:27.462Z,03-categorize-06,anthropic/claude-sonnet-5.5,3917,2804,0.035874
+2026-11-03T13:10:19.965Z,03-categorize-03,anthropic/claude-sonnet-5.5,4517,3489,0.043924
+2026-11-03T13:10:38.186Z,03-categorize-05,anthropic/claude-sonnet-5.5,4383,2478,0.033546
+2026-11-03T13:10:57.403Z,03-categorize-06,anthropic/claude-sonnet-5.5,3925,2680,0.03465

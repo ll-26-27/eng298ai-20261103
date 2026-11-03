@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c039-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5143,
+  "completion_tokens": 1020,
+  "total_tokens": 6163,
+  "cost": 0.0010243,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010243,
+   "upstream_inference_prompt_cost": 0.0005143,
+   "upstream_inference_completions_cost": 0.00051
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 907,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Grinders’ School",
+   "normalized": "Grinders’ School (fictional), location unspecified",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "under the admirable system of the Grinders’ School",
+   "note": "Fictional school with no stated location; may be an institution used only as such."
+  }
+ ]
+}

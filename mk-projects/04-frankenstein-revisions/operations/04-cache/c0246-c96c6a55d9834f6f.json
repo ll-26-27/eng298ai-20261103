@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1480,
+  "completion_tokens": 124,
+  "total_tokens": 1604,
+  "cost": 0.00021,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00021,
+   "upstream_inference_prompt_cost": 0.000148,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0246. Location: 1818 Vol. II, Ch. V; 1831 Ch. XIII.\n\nContext before (unchanged): \"I now hasten to the more moving part of my story.\n\n1818 text: I shall relate events that impressed me with feelings which, from what I was, have made me what I am.\n\n1831 text: I shall relate events, that impressed me with feelings which, from what I had been, have made me what I am.\n\nDiff: I shall relate events {+,+} that impressed me with feelings which, from what I [-was-] {+had been+} , have made me what I am.\n\nContext after (unchanged): \"Spring advanced rapidly; the weather became fine, and the skies cloudless."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Changes 'from what I was' to 'from what I had been' and adds a comma; the past-perfect shift is a grammatical/syntactic refinement that keeps the meaning of the narrator's self-transformation, though it slightly sharpens the sense of a completed former state.",
+  "confidence": "high",
+  "rationaleWords": 41
+ }
+}

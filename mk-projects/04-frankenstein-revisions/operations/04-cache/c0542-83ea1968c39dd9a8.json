@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1545,
+  "completion_tokens": 120,
+  "total_tokens": 1665,
+  "cost": 0.0002145,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002145,
+   "upstream_inference_prompt_cost": 0.0001545,
+   "upstream_inference_completions_cost": 0.00006
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0542. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Once my fancy was soothed with dreams of virtue, of fame, and of enjoyment.\n\n1818 text: Once I falsely hoped to meet with beings, who, pardoning my outward form, would love me for the excellent qualities which I was capable of bringing forth.\n\n1831 text: Once I falsely hoped to meet with beings, who, pardoning my outward form, would love me for the excellent qualities which I was capable of unfolding.\n\nDiff: Once I falsely hoped to meet with beings, who, pardoning my outward form, would love me for the excellent qualities which I was capable of [-bringing forth-] {+unfolding+} .\n\nContext after (unchanged): I was nourished with high thoughts of honour and devotion."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'bringing forth' with 'unfolding', a shift in verb choice that keeps the same meaning: the creature's qualities are still potential he could realize. Mostly stylistic, though 'unfolding' suggests organic development rather than active production.",
+  "confidence": "high",
+  "rationaleWords": 35
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c039-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5146,
+  "completion_tokens": 337,
+  "total_tokens": 5483,
+  "cost": 0.0006831,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006831,
+   "upstream_inference_prompt_cost": 0.0005146,
+   "upstream_inference_completions_cost": 0.0001685
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Symond’s Inn, Chancery Lane",
+   "normalized": "Symond's Inn, Chancery Lane, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The name of Mr. Vholes, preceded by the legend Ground-Floor, is inscribed upon a door-post in Symond’s Inn, Chancery Lane",
+   "note": "Fictional-seeming inn; Symonds Inn was a real former Chancery Lane inn, demolished 1882"
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in Symond’s Inn, Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Vale of Taunton",
+   "normalized": "Vale of Taunton, Somerset",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "And his father is dependent on him in the Vale of Taunton.",
+   "note": ""
+  }
+ ]
+}

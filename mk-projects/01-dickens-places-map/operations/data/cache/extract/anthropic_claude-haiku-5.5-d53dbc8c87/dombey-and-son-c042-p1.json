@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c042-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5271,
+  "completion_tokens": 503,
+  "total_tokens": 5774,
+  "cost": 0.0007786,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007786,
+   "upstream_inference_prompt_cost": 0.0005271,
+   "upstream_inference_completions_cost": 0.0002515
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 400,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Grinders' School",
+   "normalized": "Grinders' School",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "he had himself been a poor scholar at the Grinders' School",
+   "note": "Fictional school in the novel; location not given in the passage."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c041-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5487,
+  "completion_tokens": 1308,
+  "total_tokens": 6795,
+  "cost": 0.0012027,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012027,
+   "upstream_inference_prompt_cost": 0.0005487,
+   "upstream_inference_completions_cost": 0.000654
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 902,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I am sure I am glad to find you at last expressing a wish to become better acquainted with anybody in Venice.",
+   "note": "The family is living in Venice; the palace and galleries are there."
+  },
+  {
+   "as_written": "the Great Saint Bernard",
+   "normalized": "Great St Bernard Pass, Switzerland-Italy border",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the lady and gentleman whom they had encountered on the Great Saint Bernard",
+   "note": "Alpine mountain pass, not a town."
+  },
+  {
+   "as_written": "Martigny",
+   "normalized": "Martigny, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘Martigny,’ interposed Miss Fanny",
+   "note": "Named by Fanny when Edward says 'what's-his-name place'."
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "She is in Rome now",
+   "note": "Where Mrs Merdle is and where the family may winter."
+  }
+ ]
+}

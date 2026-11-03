@@ -1,0 +1,102 @@
+{
+ "chunk": "little-dorrit-c002-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5194,
+  "completion_tokens": 1594,
+  "total_tokens": 6788,
+  "cost": 0.0013164,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013164,
+   "upstream_inference_prompt_cost": 0.0005194,
+   "upstream_inference_completions_cost": 0.000797
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 934,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Nile",
+   "normalized": "Nile River, Egypt",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "staring at the Nile, and the Pyramids, and the Sphinxes",
+   "note": ""
+  },
+  {
+   "as_written": "Pyramids",
+   "normalized": "Pyramids of Giza, Egypt",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "staring at the Nile, and the Pyramids, and the Sphinxes",
+   "note": ""
+  },
+  {
+   "as_written": "Sphinxes",
+   "normalized": "Great Sphinx of Giza, Egypt",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "staring at the Nile, and the Pyramids, and the Sphinxes",
+   "note": "Plural in text; refers to the Sphinx at Giza"
+  },
+  {
+   "as_written": "Desert",
+   "normalized": "Egyptian Desert",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and the Sphinxes, and the Desert, and all the rest of it",
+   "note": "Region inferred from the Egypt context; not named as Egyptian in passage"
+  },
+  {
+   "as_written": "Genoa",
+   "normalized": "Genoa, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "flowers from Genoa",
+   "note": ""
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "officers from India on leave",
+   "note": ""
+  },
+  {
+   "as_written": "Greek",
+   "normalized": "Greece",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "merchants in the Greek and Turkey trades",
+   "note": "Used as adjective in text"
+  },
+  {
+   "as_written": "Turkey",
+   "normalized": "Turkey",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "merchants in the Greek and Turkey trades",
+   "note": "Used as adjective ('Turkey trades') in text"
+  }
+ ]
+}

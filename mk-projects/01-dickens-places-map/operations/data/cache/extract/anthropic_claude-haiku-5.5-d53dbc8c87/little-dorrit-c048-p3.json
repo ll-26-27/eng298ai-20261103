@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c048-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5050,
+  "completion_tokens": 916,
+  "total_tokens": 5966,
+  "cost": 0.000963,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000963,
+   "upstream_inference_prompt_cost": 0.000505,
+   "upstream_inference_completions_cost": 0.000458
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 613,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bank",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "ages before the fairy came out of the Bank and gave him his fortune",
+   "note": "Sense of the Bank as the source of the fortune; a metaphorical fairy story, not a scene."
+  },
+  {
+   "as_written": "Blinkiter Doddles",
+   "normalized": "Blinkiter Doddles",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "which we would call Blinkiter Doddles",
+   "note": "Invented name for a freehold estate in a hypothetical example."
+  },
+  {
+   "as_written": "Dresden",
+   "normalized": "Dresden, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the history of the unique Dresden vases",
+   "note": "Used as an adjective for porcelain; the city is only implied."
+  }
+ ]
+}

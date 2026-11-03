@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c022-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5119,
+  "completion_tokens": 1353,
+  "total_tokens": 6472,
+  "cost": 0.0011884,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011884,
+   "upstream_inference_prompt_cost": 0.0005119,
+   "upstream_inference_completions_cost": 0.0006765
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 982,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cheapside",
+   "normalized": "Cheapside, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "they got on horseback, and went gleaming up Cheapside.",
+   "note": ""
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "through the press and throng of the City at that hour",
+   "note": ""
+  },
+  {
+   "as_written": "“Change",
+   "normalized": "Royal Exchange, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and on “Change, they glistened and bristled to a terrible extent.",
+   "note": "Short for 'Change (the Exchange); refers to the Royal Exchange."
+  },
+  {
+   "as_written": "Staggs’s Gardens",
+   "normalized": "Staggs's Gardens, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "pending his visit to the buildings that had succeeded Staggs’s Gardens",
+   "note": "Fictional name; Dickens's Staggs's Gardens is usually identified with Camden Town area; location uncertain."
+  }
+ ]
+}

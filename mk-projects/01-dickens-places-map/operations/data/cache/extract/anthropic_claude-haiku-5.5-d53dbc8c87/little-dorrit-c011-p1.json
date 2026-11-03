@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c011-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5177,
+  "completion_tokens": 1565,
+  "total_tokens": 6742,
+  "cost": 0.0013002,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013002,
+   "upstream_inference_prompt_cost": 0.0005177,
+   "upstream_inference_completions_cost": 0.0007825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 978,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "river Saone",
+   "normalized": "Saône River, France",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": false,
+   "quote": "A late, dull autumn night was closing in upon the river Saone.",
+   "note": ""
+  },
+  {
+   "as_written": "Chalons",
+   "normalized": "Châlons-sur-Saône, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "One man slowly moving on towards Chalons was the only visible figure in the landscape.",
+   "note": ""
+  },
+  {
+   "as_written": "the Break of Day",
+   "normalized": "Break of Day inn and café, Châlons-sur-Saône, France",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "There, in the back street he found one, the Break of Day.",
+   "note": "Fictional-sounding inn name; also spelled Daybreak in the text"
+  },
+  {
+   "as_written": "the Daybreak",
+   "normalized": "Break of Day inn and café, Châlons-sur-Saône, France",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the landlady of the Daybreak sat behind her little counter",
+   "note": "Variant spelling of the Break of Day; same place as the entry above"
+  },
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the devil was actually let loose at Marseilles",
+   "note": ""
+  },
+  {
+   "as_written": "Lyons",
+   "normalized": "Lyon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "When the boat came up from Lyons",
+   "note": ""
+  },
+  {
+   "as_written": "Great Britain",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "nearer Great Britain",
+   "note": ""
+  }
+ ]
+}

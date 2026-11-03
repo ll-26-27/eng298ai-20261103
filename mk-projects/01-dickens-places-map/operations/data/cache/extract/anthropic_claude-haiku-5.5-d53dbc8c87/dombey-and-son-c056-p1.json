@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c056-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5369,
+  "completion_tokens": 1243,
+  "total_tokens": 6612,
+  "cost": 0.0011584,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011584,
+   "upstream_inference_prompt_cost": 0.0005369,
+   "upstream_inference_completions_cost": 0.0006215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 796,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Midshipman",
+   "normalized": "The Midshipman public house, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "The Midshipman was all alive.",
+   "note": "Establishment where Florence and Susan are; location not stated in passage, so in_london is uncertain."
+  },
+  {
+   "as_written": "the Square at Brighton",
+   "normalized": "Square in Brighton, Sussex",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I once committed myself, fatally, at the corner of the Square at Brighton",
+   "note": "Unnamed square in Brighton."
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at the corner of the Square at Brighton",
+   "note": "Only appears within the square reference."
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "goes away upon the roaring main with Wal\"r on a woyage to China!",
+   "note": ""
+  },
+  {
+   "as_written": "Canton",
+   "normalized": "Guangzhou (Canton), China",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the supercargo dying at Canton, he got made",
+   "note": "Archaic name for Guangzhou."
+  }
+ ]
+}

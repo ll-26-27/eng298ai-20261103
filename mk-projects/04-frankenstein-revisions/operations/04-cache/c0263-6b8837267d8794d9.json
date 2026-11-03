@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1799,
+  "completion_tokens": 124,
+  "total_tokens": 1923,
+  "cost": 0.0002419,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002419,
+   "upstream_inference_prompt_cost": 0.0001799,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0263. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): She instructed her daughter in the tenets of her religion, and taught her to aspire to higher powers of intellect, and an independence of spirit, forbidden to the female followers of Mahomet.\n\n1818 text: This lady died; but her lessons were indelibly impressed on the mind of Safie, who sickened at the prospect of again returning to Asia, and the being immured within the walls of a harem, allowed only to occupy herself with puerile amusements, ill suited to the temper of her soul, now accustomed to grand ideas and a noble emulation for virtue.\n\n1831 text: This lady died; but her lessons were indelibly impressed on the mind of Safie, who sickened at the prospect of again returning to Asia, and being immured within the walls of a haram, allowed only to occupy herself with infantile amusements, ill suited to the temper of her soul, now accustomed to grand ideas and a noble emulation for virtue.\n\nDiff: This lady died; but her lessons were indelibly impressed on the mind of Safie, who sickened at the prospect of again returning to Asia, and [-the-] being immured within the walls of a [-harem-] {+haram+} , allowed only to occupy herself with [-puerile-] {+infantile+} amusements, ill suited to the temper of her soul, now accustomed to grand ideas and a noble emulation for virtue.\n\nContext after (unchanged): The prospect of marrying a Christian, and remaining in a country where women were allowed to take a rank in society, was enchanting to her."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 2,
+  "rationale": "Replaces 'harem' with 'haram' (orthography, same referent) and 'puerile' with 'infantile' (near-synonym, same disparagement of the amusements); also drops 'the' before 'being immured'. Meaning essentially unchanged.",
+  "confidence": "high",
+  "rationaleWords": 26
+ }
+}

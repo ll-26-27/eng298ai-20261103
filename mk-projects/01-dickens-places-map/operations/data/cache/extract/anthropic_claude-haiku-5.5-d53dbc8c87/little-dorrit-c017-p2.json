@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c017-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5033,
+  "completion_tokens": 400,
+  "total_tokens": 5433,
+  "cost": 0.0007033,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007033,
+   "upstream_inference_prompt_cost": 0.0005033,
+   "upstream_inference_completions_cost": 0.0002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Palaces at Hampton Court",
+   "normalized": "Hampton Court Palace, Hampton Court, Surrey",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "added certain shady and sedate apartments in the Palaces at Hampton Court",
+   "note": "Mrs Gowan's lodgings; Hampton Court is now in London's outer borough of Richmond upon Thames, historically Surrey"
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He appeared to be an artist by profession, and to have been at Rome some time",
+   "note": ""
+  },
+  {
+   "as_written": "Pall-Mall",
+   "normalized": "Pall Mall, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "he has sauntered into the Arts at a leisurely Pall-Mall pace",
+   "note": "used figuratively for a fashionable, leisurely manner"
+  },
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "Holborn Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "",
+   "note": "not in this passage"
+  }
+ ]
+}

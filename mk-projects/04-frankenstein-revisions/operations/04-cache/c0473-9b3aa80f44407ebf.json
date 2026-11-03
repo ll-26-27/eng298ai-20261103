@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1869,
+  "completion_tokens": 123,
+  "total_tokens": 1992,
+  "cost": 0.0002484,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002484,
+   "upstream_inference_prompt_cost": 0.0001869,
+   "upstream_inference_completions_cost": 0.0000615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0473. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): But I perceive your thoughts: you do not credit my narrative, and do not intend to pursue my enemy with the punishment which is his desert.\"\n\n1818 text: As I spoke, rage sparkled in my eyes; the magistrate was intimidated; \"You are mistaken,\" said he, \"I will exert myself; and if it is in my power to seize the monster, be assured that he shall suffer punishment proportionate to his crimes. But I fear, from what you have yourself described to be his properties, that this will prove impracticable, and that, while every proper measure is pursued, you should endeavour to make up your mind to disappointment.\"\n\n1831 text: As I spoke, rage sparkled in my eyes; the magistrate was intimidated:—\"You are mistaken,\" said he, \"I will exert myself; and if it is in my power to seize the monster, be assured that he shall suffer punishment proportionate to his crimes. But I fear, from what you have yourself described to be his properties, that this will prove impracticable; and thus, while every proper measure is pursued, you should make up your mind to disappointment.\"\n\nDiff: As I spoke, rage sparkled in my eyes; the magistrate was intimidated [-;-] {+:—+} \" You are mistaken, \" said he, \" I will exert myself; and if it is in my power to seize the monster, be assured that he shall suffer punishment proportionate to his crimes. But I fear, from what you have yourself described to be his properties, that this will prove impracticable [-,-] {+;+} and [-that-] {+thus+} , while every proper measure is pursued, you should [-endeavour to-] make up your mind to disappointment. \"\n\nContext after (unchanged): \"That cannot be; but all that I can say will be of little avail."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Punctuation swaps (semicolon to colon-dash, comma to semicolon) and rewording 'that...endeavour to make up your mind' to 'thus...make up your mind' are syntactic tightening; the magistrate's advice and meaning are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 31
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "chunk": "great-expectations-c030-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5152,
+  "completion_tokens": 3132,
+  "total_tokens": 8284,
+  "cost": 0.0020812,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020812,
+   "upstream_inference_prompt_cost": 0.0005152,
+   "upstream_inference_completions_cost": 0.001566
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2361,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blue Boar",
+   "normalized": "Blue Boar inn, Rochester, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "while I was dressing at the Blue Boar in the morning",
+   "note": ""
+  },
+  {
+   "as_written": "London road",
+   "normalized": "London Road, Rochester, Kent",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I would go on along the London road while Mr. Jaggers was occupied",
+   "note": "Road leading out of the town towards London."
+  },
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, Rochester, Kent",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I got round into the High Street again",
+   "note": ""
+  },
+  {
+   "as_written": "the quiet old town",
+   "normalized": "Rochester, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "It was interesting to be in the quiet old town once more",
+   "note": "Town not named in this passage; identified from the novel's context."
+  },
+  {
+   "as_written": "Trabb’s",
+   "normalized": "Trabb's tailor's shop, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "proceed to Trabb’s with cheerful briskness",
+   "note": "Tailor's premises of Mr. Trabb."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "arrived in London safe",
+   "note": ""
+  },
+  {
+   "as_written": "Barnard’s Inn",
+   "normalized": "Barnard's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and then went on to Barnard’s Inn.",
+   "note": "Inn of Chancery, Holborn."
+  },
+  {
+   "as_written": "Hyde Park corner",
+   "normalized": "Hyde Park Corner, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "sent him to Hyde Park corner to see what o’clock it was",
+   "note": ""
+  },
+  {
+   "as_written": "Miss Havisham’s",
+   "normalized": "Satis House (Miss Havisham's house), Rochester, Kent",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a post of trust at Miss Havisham’s",
+   "note": "Fictional house, named here only as Miss Havisham's."
+  }
+ ]
+}

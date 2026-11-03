@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1486,
+  "completion_tokens": 124,
+  "total_tokens": 1610,
+  "cost": 0.0002106,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002106,
+   "upstream_inference_prompt_cost": 0.0001486,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0028. Location: 1818 Letter III; 1831 Letter III.\n\nContext before (unchanged): (none)\n\n1818 text: To Mrs. SAVILLE, England. July 7th, 17—. MY DEAR SISTER,\n\n1831 text: To Mrs. Saville, England. MY DEAR SISTER, July 7th, 17—.\n\nDiff: To Mrs. [-SAVILLE-] {+Saville+} , England. {+MY DEAR SISTER,+} July 7th, 17—. [-MY DEAR SISTER,-]\n\nContext after (unchanged): I write a few lines in haste, to say that I am safe, and well advanced on my voyage."
+ },
+ "result": {
+  "category": "framing",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Changes the letter's heading: capitalization of 'SAVILLE' to 'Saville' and the reordering of the date and salutation 'MY DEAR SISTER,' in Walton's letter as a letter. Paratextual layout, with no change in content.",
+  "confidence": "high",
+  "rationaleWords": 33
+ }
+}

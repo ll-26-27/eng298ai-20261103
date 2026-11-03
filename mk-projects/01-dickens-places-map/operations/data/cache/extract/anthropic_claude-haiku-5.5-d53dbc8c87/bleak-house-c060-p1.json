@@ -1,0 +1,84 @@
+{
+ "chunk": "bleak-house-c060-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4961,
+  "completion_tokens": 2049,
+  "total_tokens": 7010,
+  "cost": 0.0015206,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015206,
+   "upstream_inference_prompt_cost": 0.0004961,
+   "upstream_inference_completions_cost": 0.0010245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1511,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "And in the meanwhile leave Bleak House?",
+   "note": "Fictional house; the novel places it near St Albans, Hertfordshire, but the passage does not say so."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we were still in London, where Mrs. Woodcourt had come",
+   "note": ""
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I put on my bonnet and bustled off to Chancery Lane.",
+   "note": ""
+  },
+  {
+   "as_written": "Lincoln's Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I often met him wandering in Lincoln's Inn, near the place where I had first seen him",
+   "note": "Inn of Court; the passage refers to the Inn as a place where Richard wanders."
+  },
+  {
+   "as_written": "Yorkshire",
+   "normalized": "Yorkshire",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a certain place in Yorkshire",
+   "note": "The specific town is not named in the passage."
+  },
+  {
+   "as_written": "his native mountains",
+   "normalized": "Wales",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as well in his native mountains",
+   "note": "Not named; Wales is inferred from Morgan ap- and the reference to mountains."
+  }
+ ]
+}

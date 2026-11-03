@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2687,
+  "completion_tokens": 137,
+  "total_tokens": 2824,
+  "cost": 0.0003372,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003372,
+   "upstream_inference_prompt_cost": 0.0002687,
+   "upstream_inference_completions_cost": 0.0000685
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0317. Location: 1818 Vol. II, Ch. VIII; 1831 Ch. XVI.\n\nContext before (unchanged): I only wonder that at that moment, instead of venting my sensations in exclamations and agony, I did not rush among mankind, and perish in the attempt to destroy them.\n\n1818 text: \"While I was overcome by these feelings, I left the spot where I had committed the murder, and was seeking a more secluded hiding-place, when I perceived a woman passing near me. She was young, not indeed so beautiful as her whose portrait I held, but of an agreeable aspect, and blooming in the loveliness of youth and health. Here, I thought, is one of those whose smiles are bestowed on all but me; she shall not escape: thanks to the lessons of Felix, and the sanguinary laws of man, I have learned how to work mischief. I approached her unperceived, and placed the portrait securely in one of the folds of her dress.\n\n1831 text: \"While I was overcome by these feelings, I left the spot where I had committed the murder, and seeking a more secluded hiding-place, I entered a barn which had appeared to me to be empty. A woman was sleeping on some straw; she was young: not indeed so beautiful as her whose portrait I held; but of an agreeable aspect, and blooming in the loveliness of youth and health. Here, I thought, is one of those whose joy-imparting smiles are bestowed on all but me. And then I bent over her, and whispered 'Awake, fairest, thy lover is near—he who would give his life but to obtain one look of affection from thine eyes: my beloved, awake!' \"The sleeper stirred; a thrill of terror ran through me. Should she indeed awake, and see me, and curse me, and denounce the murderer? Thus would she assuredly act, if her darkened eyes opened, and she beheld me. The thought was madness; it stirred the fiend within me—not I, but she shall suffer: the murder I have committed because I am for ever robbed of all that she could give me, she shall atone. The crime had its source in her: be hers the punishment! Thanks to the lessons of Felix and the sanguinary laws of man, I had learned now to work mischief. I bent over her, and placed the portrait securely in one of the folds of her dress. She moved again, and I fled.\n\nDiff: \" While I was overcome by these feelings, I left the spot where I had committed the murder, and [-was-] seeking a more secluded hiding-place, [-when-] I [-perceived-] {+entered+} a [-woman passing near-] {+barn which had appeared to+} me {+to be empty+} . [-She-] {+A woman+} was {+sleeping on some straw; she was+} young [-,-] {+:+} not indeed so beautiful as her whose portrait I held [-,-] {+;+} but of an agreeable aspect, and blooming in the loveliness of youth and health. Here, I thought, is one of those whose {+joy-imparting+} smiles are bestowed on all but me {+. And then I bent over her, and whispered 'Awake, fairest, thy lover is near—he who would give his life but to obtain one look of affection from thine eyes: my beloved, awake! ' \" The sleeper stirred+} ; {+a thrill of terror ran through me. Should+} she [-shall-] {+indeed awake, and see me, and curse me, and denounce the murderer? Thus would she assuredly act, if her darkened eyes opened, and she beheld me. The thought was madness; it stirred the fiend within me—+} not [-escape-] {+I, but she shall suffer+} : [-thanks-] {+the murder I have committed because I am for ever robbed of all that she could give me, she shall atone. The crime had its source in her: be hers the punishment! Thanks+} to the lessons of Felix [-,-] and the sanguinary laws of man, I [-have-] {+had+} learned [-how-] {+now+} to work mischief. I [-approached-] {+bent over+} her [-unperceived-] , and placed the portrait securely in one of the folds of her dress. {+She moved again, and I fled.+}\n\nContext after (unchanged): \"For some days I haunted the spot where these scenes had taken place; sometimes wishing to see you, sometimes resolved to quit the world and its miseries for ever."
+ },
+ "result": {
+  "category": "plot",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 5,
+  "rationale": "Major rewrite: the 1818 woman is merely passing; in 1831 the creature enters a barn, whispers to a sleeping woman, and blames her ('she shall atone... be hers the punishment!'), shifting motive and guilt. Scholars would discuss this at length.",
+  "confidence": "high",
+  "rationaleWords": 40
+ }
+}

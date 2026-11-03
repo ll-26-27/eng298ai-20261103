@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c047-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5170,
+  "completion_tokens": 545,
+  "total_tokens": 5715,
+  "cost": 0.0007895,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007895,
+   "upstream_inference_prompt_cost": 0.000517,
+   "upstream_inference_completions_cost": 0.0002725
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincoln's Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I unquestionably know the rooms in Lincoln’s Inn Fields, where Bucket took the lad",
+   "note": "Tulkinghorn's chambers are there; the trooper speaks of them, Allan does not go there in this passage"
+  },
+  {
+   "as_written": "Clifford's Inn",
+   "normalized": "Clifford's Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "passes me on to Melchisedech’s in Clifford’s Inn",
+   "note": "Inn of Court; Melchisedech's office is in it"
+  },
+  {
+   "as_written": "Cook's Court",
+   "normalized": "Cook's Court, Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Allan, after conferring with Mr. Jarndyce, good-naturedly resolves to call in Cook’s Court",
+   "note": "Allan goes there and meets Mr. Snagsby"
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "being wholly unconnected with Borrioboola-Gha",
+   "note": "fictional African settlement in Dickens's novel"
+  },
+  {
+   "as_written": "Holborn",
+   "normalized": "Holborn, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "",
+   "note": "not named in passage; remove if unmatched"
+  }
+ ]
+}

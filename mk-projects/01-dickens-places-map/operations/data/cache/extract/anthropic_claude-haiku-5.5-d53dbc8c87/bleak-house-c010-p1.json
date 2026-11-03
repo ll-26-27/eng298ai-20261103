@@ -1,0 +1,138 @@
+{
+ "chunk": "bleak-house-c010-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5247,
+  "completion_tokens": 2871,
+  "total_tokens": 8118,
+  "cost": 0.0019602,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019602,
+   "upstream_inference_prompt_cost": 0.0005247,
+   "upstream_inference_completions_cost": 0.0014355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1862,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "On the eastern borders of Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Cook’s Court",
+   "normalized": "Cook's Court, Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "In the shade of Cook’s Court",
+   "note": "Court off Cursitor Street; name as in novel, may be fictional"
+  },
+  {
+   "as_written": "Cursitor Street",
+   "normalized": "Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the little dairy in Cursitor Street",
+   "note": ""
+  },
+  {
+   "as_written": "St. Andrews, Holborn",
+   "normalized": "St Andrew Holborn church, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in the churchyard of St. Andrews, Holborn",
+   "note": "Peffer buried in churchyard"
+  },
+  {
+   "as_written": "Holborn",
+   "normalized": "Holborn, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "ran right down the middle of Holborn",
+   "note": "also referred to as Holborn generally"
+  },
+  {
+   "as_written": "Staple Inn",
+   "normalized": "Staple Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "loving to walk in Staple Inn in the summer-time",
+   "note": ""
+  },
+  {
+   "as_written": "Rolls Yard",
+   "normalized": "Rolls Yard, Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lounge about the Rolls Yard of a Sunday afternoon",
+   "note": ""
+  },
+  {
+   "as_written": "Turnstile",
+   "normalized": "Turnstile, Holborn, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when Turnstile really was a turnstile",
+   "note": "old name of a Holborn lane"
+  },
+  {
+   "as_written": "Tooting",
+   "normalized": "Tooting, Surrey",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "resident at Tooting",
+   "note": "village outside London in Dickens's day"
+  },
+  {
+   "as_written": "Lincoln’s Inn Garden",
+   "normalized": "Lincoln's Inn Garden, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Lincoln’s Inn Garden into Lincoln’s Inn Fields",
+   "note": "crow flies across it"
+  },
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "into Lincoln’s Inn Fields",
+   "note": "Tulkinghorn lives here"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the London ivy",
+   "note": "figurative use"
+  }
+ ]
+}

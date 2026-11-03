@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c018-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5168,
+  "completion_tokens": 872,
+  "total_tokens": 6040,
+  "cost": 0.0009528,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009528,
+   "upstream_inference_prompt_cost": 0.0005168,
+   "upstream_inference_completions_cost": 0.000436
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 580,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Millbank",
+   "normalized": "Millbank, Westminster, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They were at Millbank, and the river rolled on their left.",
+   "note": ""
+  },
+  {
+   "as_written": "the river",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They were at Millbank, and the river rolled on their left.",
+   "note": "Not named in passage; identified by Millbank and the walk along the river."
+  },
+  {
+   "as_written": "the Square",
+   "normalized": "Church Street area, Bermondsey, London (presumed)",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There’s doors under the church in the Square—black doors, leading into black vaults.",
+   "note": "Ambiguous; name of the square not given in passage, location inferred."
+  }
+ ]
+}

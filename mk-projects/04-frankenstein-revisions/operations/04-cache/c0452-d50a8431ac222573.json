@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1803,
+  "completion_tokens": 132,
+  "total_tokens": 1935,
+  "cost": 0.0002463,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002463,
+   "upstream_inference_prompt_cost": 0.0001803,
+   "upstream_inference_completions_cost": 0.000066
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0452. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): What is it you fear?\"\n\n1818 text: \"Oh! peace, peace, my love,\" replied I, \"this night, and all will be safe: but this night is dreadful, very dreadful.\" I passed an hour in this state of mind, when suddenly I reflected how dreadful the combat which I momentarily expected would be to my wife, and I earnestly entreated her to retire, resolving not to join her until I had obtained some knowledge as to the situation of my enemy.\n\n1831 text: \"Oh! peace, peace, my love,\" replied I; \"this night, and all will be safe: but this night is dreadful, very dreadful.\" I passed an hour in this state of mind, when suddenly I reflected how fearful the combat which I momentarily expected would be to my wife, and I earnestly entreated her to retire, resolving not to join her until I had obtained some knowledge as to the situation of my enemy.\n\nDiff: \" Oh! peace, peace, my love, \" replied I [-,-] {+;+} \" this night, and all will be safe: but this night is dreadful, very dreadful. \" I passed an hour in this state of mind, when suddenly I reflected how [-dreadful-] {+fearful+} the combat which I momentarily expected would be to my wife, and I earnestly entreated her to retire, resolving not to join her until I had obtained some knowledge as to the situation of my enemy.\n\nContext after (unchanged): She left me, and I continued some time walking up and down the passages of the house, and inspecting every corner that might afford a retreat to my adversary."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "'dreadful' replaced by 'fearful' in 'how dreadful the combat...would be'; a synonym swap that keeps the sense of dread, though 'fearful' shifts slightly toward Victor's own apprehension rather than the combat's horror. Punctuation change is trivial.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

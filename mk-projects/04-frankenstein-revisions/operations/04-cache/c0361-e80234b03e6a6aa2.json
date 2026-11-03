@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1507,
+  "completion_tokens": 98,
+  "total_tokens": 1605,
+  "cost": 0.0001997,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001997,
+   "upstream_inference_prompt_cost": 0.0001507,
+   "upstream_inference_completions_cost": 0.000049
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0361. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): The latter name made me tremble, when pronounced by Henry; and I hastened to quit Matlock, with which that terrible scene was thus associated.\n\n1818 text: From Derby still journeying northward, we passed two months in Cumberland and Westmoreland.\n\n1831 text: From Derby, still journeying northward, we passed two months in Cumberland and Westmorland.\n\nDiff: From Derby {+,+} still journeying northward, we passed two months in Cumberland and [-Westmoreland-] {+Westmorland+} .\n\nContext after (unchanged): I could now almost fancy myself among the Swiss mountains."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "other"
+  ],
+  "significance": 1,
+  "rationale": "Change is orthographic: 'Westmoreland' becomes 'Westmorland' (the standard county name), plus an added comma after 'Derby'; no change in meaning or events.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

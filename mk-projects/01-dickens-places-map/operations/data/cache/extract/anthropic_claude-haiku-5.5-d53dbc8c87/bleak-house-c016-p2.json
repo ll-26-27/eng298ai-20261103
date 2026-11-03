@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c016-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4306,
+  "completion_tokens": 456,
+  "total_tokens": 4762,
+  "cost": 0.0006586,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006586,
+   "upstream_inference_prompt_cost": 0.0004306,
+   "upstream_inference_completions_cost": 0.000228
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "",
+   "note": "not in this passage"
+  },
+  {
+   "as_written": "Cook's Court",
+   "normalized": "Cook's Court, Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Cook’s Court. Jo stops. A pause.",
+   "note": "fictional-era court in Chancery Lane area; Dickens's Cook's Court"
+  },
+  {
+   "as_written": "Krook's house",
+   "normalized": "Krook's house, Cook's Court, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Krook’s house. Jo stops again. A longer pause.",
+   "note": "fictional building in Cook's Court"
+  },
+  {
+   "as_written": "Tom-all-Alone's",
+   "normalized": "Tom-all-Alone's",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "his job done, he sets off for Tom-all-Alone’s",
+   "note": "fictional slum district of Bleak House"
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Sir Leicester is fidgety down at Chesney Wold",
+   "note": "fictional country house in Lincolnshire"
+  }
+ ]
+}

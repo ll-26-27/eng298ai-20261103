@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1501,
+  "completion_tokens": 85,
+  "total_tokens": 1586,
+  "cost": 0.0001926,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001926,
+   "upstream_inference_prompt_cost": 0.0001501,
+   "upstream_inference_completions_cost": 0.0000425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0136. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): When she again lived, it was only to weep and sigh.\n\n1818 text: She told me, that that same evening William had teazed her to let him wear a very valuable miniature that she possessed of your mother.\n\n1831 text: She told me, that that same evening William had teased her to let him wear a very valuable miniature that she possessed of your mother.\n\nDiff: She told me, that that same evening William had [-teazed-] {+teased+} her to let him wear a very valuable miniature that she possessed of your mother.\n\nContext after (unchanged): This picture is gone, and was doubtless the temptation which urged the murderer to the deed."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The only change is teazed to teased, a regularization of the past-tense spelling with no change in wording or meaning in the sentence about William and the miniature.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

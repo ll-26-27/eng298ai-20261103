@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1518,
+  "completion_tokens": 112,
+  "total_tokens": 1630,
+  "cost": 0.0002078,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002078,
+   "upstream_inference_prompt_cost": 0.0001518,
+   "upstream_inference_completions_cost": 0.000056
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0183. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): Who dared talk of that?\n\n1818 text: The poor victim, who on the morrow was to pass the dreary boundary between life and death, felt not as I did, such deep and bitter agony.\n\n1831 text: The poor victim, who on the morrow was to pass the awful boundary between life and death, felt not as I did, such deep and bitter agony.\n\nDiff: The poor victim, who on the morrow was to pass the [-dreary-] {+awful+} boundary between life and death, felt not as I did, such deep and bitter agony.\n\nContext after (unchanged): I gnashed my teeth, and ground them together, uttering a groan that came from my inmost soul."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 2,
+  "rationale": "Substitution of 'dreary' with 'awful' before 'boundary between life and death' keeps the event intact; the shift from drab tedium to solemn dread is a stylistic and tonal change, not a change of fact.",
+  "confidence": "medium",
+  "rationaleWords": 34
+ }
+}

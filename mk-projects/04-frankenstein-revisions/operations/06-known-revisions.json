@@ -1,0 +1,290 @@
+{
+ "sources": {
+  "mellor": "Anne K. Mellor, \"Revising Frankenstein,\" ch. 9 of Mary Shelley: Her Life, Her Fiction, Her Monsters (New York: Routledge, 1988); argues the 1831 text makes Victor the pawn of a destiny beyond his control. Online at https://knarf.english.upenn.edu/Articles/mellor9.html (refused automated access on 2026-11-03; the claim summarized here was confirmed against the texts by this step, not against Mellor's page).",
+  "curran": "Stuart Curran, ed., Frankenstein; or, The Modern Prometheus, Romantic Circles Electronic Editions (2009), annotation at https://romantic-circles.org/editions/frankenstein/1065.html: in 1831 \"I believed myself destined\" is substituted for \"I felt as if I were destined\", and Victor \"has consistently appealed to a ruling destiny\" already in 1818.",
+  "intro": "Mary Shelley, Introduction to the 1831 edition (in inputs/pg42324.txt): the revisions \"are principally those of style. I have changed no portion of the story, nor introduced any new ideas or circumstances.\"",
+  "wikiLavenza": "Wikipedia, \"Elizabeth Lavenza,\" https://en.wikipedia.org/wiki/Elizabeth_Lavenza (consulted 2026-11-03; a tertiary source that cites no scholarship for the claim, listed so students can see the difference).",
+  "texts": "The two editions themselves (inputs/pg41445.txt and inputs/pg42324.txt). Commonly noted in teaching editions; no scholarly source was checked in the time available."
+ },
+ "results": [
+  {
+   "key": "introduction",
+   "title": "The new Author's Introduction (the ghost-story contest at Geneva, 1816)",
+   "side": 1831,
+   "pattern": "/Publishers of the Standard Novels/",
+   "sources": [
+    "intro"
+   ],
+   "sentence": "1831:introduction:p1:s1",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0001",
+    "category": "framing",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "elizabeth",
+   "title": "Elizabeth's origins: Victor's cousin in 1818, an adopted foundling (daughter of a Milanese nobleman) in 1831",
+   "side": 1831,
+   "pattern": "/daughter of a Milanese nobleman/",
+   "sources": [
+    "mellor",
+    "wikiLavenza"
+   ],
+   "sentence": "1831:ch1:p9:s2",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0051",
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "elizabeth-1818",
+   "title": "The 1818 side of the same change: Elizabeth as the daughter of Victor's father's sister",
+   "side": 1818,
+   "pattern": "/My father had a sister, whom he tenderly loved/",
+   "sources": [
+    "mellor"
+   ],
+   "sentence": "1818:v1-ch1:p7:s1",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0051",
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "pretty-present",
+   "title": "Elizabeth as \"a pretty present for my Victor\"",
+   "side": 1831,
+   "pattern": "/pretty present for my Victor/",
+   "sources": [
+    "mellor"
+   ],
+   "sentence": "1831:ch1:p11:s3",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0051",
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "destiny-potent",
+   "title": "\"Destiny was too potent, and her immutable laws had decreed my utter and terrible destruction\"",
+   "side": 1831,
+   "pattern": "/Destiny was too potent/",
+   "sources": [
+    "mellor"
+   ],
+   "sentence": "1831:ch2:p16:s2",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0058",
+    "category": "fate-agency",
+    "secondary": [
+     "cut",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "angel-destruction",
+   "title": "Chance as \"the Angel of Destruction\" that leads Victor to Krempe",
+   "side": 1831,
+   "pattern": "/Angel of Destruction/i",
+   "sources": [
+    "mellor"
+   ],
+   "sentence": "1831:ch3:p10:s2",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0066",
+    "category": "characterization",
+    "secondary": [
+     "fate-agency",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "words-of-fate",
+   "title": "Waldman's lecture as \"the words of the fate, enounced to destroy me\"",
+   "side": 1831,
+   "pattern": "/enounced to destroy me/",
+   "sources": [
+    "mellor"
+   ],
+   "sentence": "1831:ch3:p17:s1",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0074",
+    "category": "expansion",
+    "secondary": [
+     "fate-agency",
+     "moral-religious",
+     "characterization"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "believed-destined",
+   "title": "\"I felt as if I were destined\" becomes \"I believed myself destined\"",
+   "side": 1831,
+   "pattern": "/I believed myself destined/",
+   "sources": [
+    "curran"
+   ],
+   "sentence": "1831:ch24:p35:s1",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0508",
+    "category": "fate-agency",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 4
+   }
+  },
+  {
+   "key": "galvanism",
+   "title": "Lightning explained by a visiting natural philosopher's theory of electricity and galvanism, not by Victor's father",
+   "side": 1831,
+   "pattern": "/man of great research in natural philosophy/",
+   "sources": [
+    "texts"
+   ],
+   "sentence": "1831:ch2:p14:s2",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0058",
+    "category": "fate-agency",
+    "secondary": [
+     "cut",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "walton-price",
+   "title": "Walton: \"One man's life or death were but a small price to pay for the acquirement of the knowledge which I sought\"",
+   "side": 1831,
+   "pattern": "/small price to pay for the acquirement/",
+   "sources": [
+    "texts"
+   ],
+   "sentence": "1831:letter-4:p28:s6",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0041",
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "justine-barn",
+   "title": "The creature finds Justine asleep in a barn and plants the portrait on her",
+   "side": 1831,
+   "pattern": "/Awake, fairest, thy lover is near/",
+   "sources": [
+    "texts"
+   ],
+   "sentence": "1831:ch16:p35:s4",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0317",
+    "category": "plot",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 5
+   }
+  },
+  {
+   "key": "villa-lavenza",
+   "title": "Elizabeth's restored inheritance and the Villa Lavenza on Lake Como",
+   "side": 1831,
+   "pattern": "/Villa Lavenza/",
+   "sources": [
+    "texts"
+   ],
+   "sentence": "1831:ch22:p32:s5",
+   "foundInText": true,
+   "alsoInOtherEdition": false,
+   "caught": true,
+   "change": {
+    "id": "c0445",
+    "category": "plot",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 4
+   }
+  }
+ ],
+ "shelleyClaim": {
+  "claim": "these changes occur almost exclusively in the beginning of the first volume",
+  "method": "Words changed (the larger of words added and words removed) in every non-punctuation change, excluding the new Introduction. \"Beginning of the first volume\" = the four letters and Vol. I, Chs. I–II of 1818.",
+  "wordsChangedTotal": 10687,
+  "beginningOfVol1": 5221,
+  "beginningOfVol1Pct": 48.9,
+  "allOfVol1Pct": 67.8,
+  "vol2and3Pct": 32.2
+ },
+ "fateWords": {
+  "pattern": "/\\b(destin\\w*|fate|fated|fatal\\w*|doom\\w*|predestin\\w*)\\b/gi",
+  "count1818": 53,
+  "count1831": 55,
+  "words1818": 72369,
+  "words1831": 75469
+ }
+}

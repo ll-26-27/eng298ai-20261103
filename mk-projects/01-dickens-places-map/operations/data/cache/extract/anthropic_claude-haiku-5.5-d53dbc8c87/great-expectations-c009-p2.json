@@ -1,0 +1,39 @@
+{
+ "chunk": "great-expectations-c009-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2701,
+  "completion_tokens": 607,
+  "total_tokens": 3308,
+  "cost": 0.0005736,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005736,
+   "upstream_inference_prompt_cost": 0.0002701,
+   "upstream_inference_completions_cost": 0.0003035
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 467,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Miss Havisham's",
+   "normalized": "Miss Havisham's house (Satis House), Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I fell asleep recalling what I “used to do” when I was at Miss Havisham’s",
+   "note": "House is unnamed in this passage; located from the novel's wider setting, not from the text here"
+  }
+ ]
+}

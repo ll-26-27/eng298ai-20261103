@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c050-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4911,
+  "completion_tokens": 1172,
+  "total_tokens": 6083,
+  "cost": 0.0010771,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010771,
+   "upstream_inference_prompt_cost": 0.0004911,
+   "upstream_inference_completions_cost": 0.000586
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 877,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and walk to Yarmouth.",
+   "note": ""
+  },
+  {
+   "as_written": "Naples",
+   "normalized": "Naples, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He made his way by sea to Naples, and back",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "turned towards London, whence, as her dress betokened, she had come expeditiously on foot.",
+   "note": ""
+  },
+  {
+   "as_written": "Golden Square",
+   "normalized": "Golden Square, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Anywhere near Golden Square! And quick!",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1512,
+  "completion_tokens": 118,
+  "total_tokens": 1630,
+  "cost": 0.004204,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004204,
+   "upstream_inference_prompt_cost": 0.003024,
+   "upstream_inference_completions_cost": 0.00118
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0027. Location: 1818 Letter II; 1831 Letter II.\n\nContext before (unchanged): I dare not expect such success, yet I cannot bear to look on the reverse of the picture.\n\n1818 text: Continue to write to me by every opportunity: I may receive your letters (though the chance is very doubtful) on some occasions when I need them most to support my spirits.\n\n1831 text: Continue for the present to write to me by every opportunity: I may receive your letters on some occasions when I need them most to support my spirits.\n\nDiff: Continue {+for the present+} to write to me by every opportunity: I may receive your letters [-(though the chance is very doubtful)-] on some occasions when I need them most to support my spirits.\n\nContext after (unchanged): I love you very tenderly."
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 2,
+  "rationale": "Removes the parenthetical \"(though the chance is very doubtful)\" about letters reaching Walton and adds \"for the present\"; this slightly softens his pessimism about correspondence, a minor stylistic change in Walton's letter.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

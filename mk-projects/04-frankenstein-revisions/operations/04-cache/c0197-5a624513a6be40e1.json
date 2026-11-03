@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1527,
+  "completion_tokens": 129,
+  "total_tokens": 1656,
+  "cost": 0.0002172,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002172,
+   "upstream_inference_prompt_cost": 0.0001527,
+   "upstream_inference_completions_cost": 0.0000645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0197. Location: 1818 Vol. II, Ch. I; 1831 Ch. IX.\n\nContext before (unchanged): I, not in deed, but in effect, was the true murderer.\n\n1818 text: Elizabeth read my anguish in my countenance, and kindly taking my hand said, \"My dearest cousin, you must calm yourself.\n\n1831 text: Elizabeth read my anguish in my countenance, and kindly taking my hand, said, \"My dearest friend, you must calm yourself.\n\nDiff: Elizabeth read my anguish in my countenance, and kindly taking my hand {+,+} said, \" My dearest [-cousin-] {+friend+} , you must calm yourself.\n\nContext after (unchanged): These events have affected me, God knows how deeply; but I am not so wretched as you are."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Elizabeth's address changes from \"my dearest cousin\" to \"my dearest friend\" (plus a comma), altering her stated relationship to Victor; the kinship is removed, making her a friend rather than a cousin, which bears on the family bond central to the novel.",
+  "confidence": "high",
+  "rationaleWords": 42
+ }
+}

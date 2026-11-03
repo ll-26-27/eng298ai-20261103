@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c033-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5158,
+  "completion_tokens": 1514,
+  "total_tokens": 6672,
+  "cost": 0.0012728,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012728,
+   "upstream_inference_prompt_cost": 0.0005158,
+   "upstream_inference_completions_cost": 0.000757
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 999,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Norwood",
+   "normalized": "Norwood, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "take a night-walk to Norwood",
+   "note": "Dora's house is at Norwood; the walk is a setting for the scene"
+  },
+  {
+   "as_written": "Fleet Street",
+   "normalized": "Fleet Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "some perspiring Wax-work, in Fleet Street",
+   "note": "Wax-work exhibition visited on this street"
+  },
+  {
+   "as_written": "Miss Linwood’s Exhibition",
+   "normalized": "Miss Linwood's Exhibition, Leicester Square, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "by visiting Miss Linwood’s Exhibition",
+   "note": "Location not named in passage; Leicester Square is historical location"
+  },
+  {
+   "as_written": "the Tower of London",
+   "normalized": "Tower of London, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "by inspecting the Tower of London",
+   "note": ""
+  },
+  {
+   "as_written": "St. Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "going to the top of St. Paul’s",
+   "note": ""
+  },
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in the Commons",
+   "note": "Shortened name for Doctors' Commons; the office is located there"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c017-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4357,
+  "completion_tokens": 1023,
+  "total_tokens": 5380,
+  "cost": 0.0009472,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009472,
+   "upstream_inference_prompt_cost": 0.0004357,
+   "upstream_inference_completions_cost": 0.0005115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 646,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He was going to China and to India as a surgeon on board ship.",
+   "note": ""
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He was going to China and to India as a surgeon on board ship.",
+   "note": ""
+  },
+  {
+   "as_written": "Wales",
+   "normalized": "Wales",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "She came from Wales and had had, a long time ago, an eminent person for an ancestor",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "with very little influence in London",
+   "note": ""
+  },
+  {
+   "as_written": "Gimlet",
+   "normalized": "Gimlet (unidentified Welsh place)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "of some place that sounded like Gimlet",
+   "note": "Mock-Welsh name as Mrs. Woodcourt pronounces it; cannot be located"
+  }
+ ]
+}

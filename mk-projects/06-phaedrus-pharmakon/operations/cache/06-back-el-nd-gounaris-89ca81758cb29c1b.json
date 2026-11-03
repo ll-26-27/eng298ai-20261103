@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793716196-n1TBEYLXy98Z38Be4Utr",
+  "object": "chat.completion",
+  "created": 1793716196,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I heard, then, that around Naucratis (72) in Egypt there was born one of the old gods there, whose sacred bird is the one they call ibis. The name of this god is Theuth. He first found both number and calculation and geometry and astronomy, and besides the games with draughtsmen and dice, and finally writing as well. At that time Thamus was king of all Egypt, living in the great city of the upper place, which the Greeks call Egyptian Thebes, and its god Ammon (73). Theuth went to him, set out his arts, and maintained that they ought to be spread to the other Egyptians. Thamus asked him which benefit each art provides. While Theuth was developing his inventions, the other blamed some and praised others. But a long speech would be needed for us to go through the many arguments, for or against each art, that Thamus is said to have declared to Theuth. When he reached writing, Theuth said: \"This lesson, O king, will make the Egyptians wiser and more mindful of memory, because the remedy of memory and of wisdom has been found.\" Thamus answered: \"Most inventive Theuth, one man has the power to devise the art, and another to judge what part of benefit harm those who are going to apply the art will receive. And now you, because you are the father of letters and are disposed favorably toward your work, have said a judgment opposite to its real power. For this will provide forgetfulness in the souls of those who learn, because the exercise of the mnemonic will be neglected, since, having confidence in writing, they remember things from the outside through foreign elements and not from their interior themselves by themselves. So you did not find a remedy of memory, but of reminding. And to the students you provide imaginary wisdom and not truth. For having read many things without teaching, they will imagine that they are very learned, while for the most part they are unlearned and unbearable in their relations, because they will have become, instead of wise, seeming-wise.\"",
+        "refusal": null,
+        "reasoning": "I'm working through a literal, word-for-word rendering of this katharevousa Greek passage into English, keeping its exact phrasing and odd constructions intact rather than smoothing them into natural English—like preserving the missing \"and\" in \"benefit harm\" and the stilted phrase \"you said an opposite judgment to its real power.\"\n\nContinuing through the passage on memory and writing, I'm translating terms like \"imaginary wisdom,\" \"seeming-wise,\" and the discussion of memory's remedy being \"found,\" distinguishing exercise of the memory faculty from external aids via \"foreign elements\" rather than internal recall. I'm also carrying through the narrative about games (draughtsmen and dice), number and reckoning, writing itself, and the myth of Thamus and Theuth with the bird symbolizing the \"upper place,\" staying literal throughout.\n\nNow I'm rendering Thamus's question about what benefit each art provides, Theuth's development of his inventions drawing both praise and blame, and the long debate of arguments for and against each art that Thamus is said to have declared to Theuth, including the note about things being \"unbearable in their relations.\"\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm working through a literal, word-for-word rendering of this katharevousa Greek passage into English, keeping its exact phrasing and odd constructions intact rather than smoothing them into natural English—like preserving the missing \"and\" in \"benefit harm\" and the stilted phrase \"you said an opposite judgment to its real power.\"\n\nContinuing through the passage on memory and writing, I'm translating terms like \"imaginary wisdom,\" \"seeming-wise,\" and the discussion of memory's remedy being \"found,\" distinguishing exercise of the memory faculty from external aids via \"foreign elements\" rather than internal recall. I'm also carrying through the narrative about games (draughtsmen and dice), number and reckoning, writing itself, and the myth of Thamus and Theuth with the bird symbolizing the \"upper place,\" staying literal throughout.\n\nNow I'm rendering Thamus's question about what benefit each art provides, Theuth's development of his inventions drawing both praise and blame, and the long debate of arguments for and against each art that Thamus is said to have declared to Theuth, including the note about things being \"unbearable in their relations.\"\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "CAQSrBcKEAgTGAI4AUIIdGhpbmtpbmcSDDrwUeiERLC7WUR2zhoM45XoAUrZ/dA3q3qaIjBpWp27Z/S54sN3oTCNtpZeWzz7cGH3XYhYkJFg2EcjKvZoFvaXKZrwySGCbQAq8yQqyRasi8+EsnPadNwH8/P9NiQM81IEK6/z+eY+nMcEjwJvY2WajzdMJSeLZodiJOIz6gFUI7y2WndR9NRso0P/VDAWe/eNVfryM9dfcp/fFa7/ir/g8KhXjyIO7hEc1hykV1uEnqksCi5x5isWpUCPy6Yh0Z18xvwkaNH+ooz4ytJNFhNbwdw7m1GaqdHvN6EvM3mdS3QrsFHJxUphW80Ljio5yhijmkZIme5ZawlrsaZcOHdBkrfdh1yA+TRPXaPE3cMCDTFBpUIn0sVKsy0bR76P+yGdZ697ZWosVGD93DOGkcEK1ATftNrSq7Werns2+7+JvXB92lCsgVgidgFGpv+11MpVhPlC71isF1L9P1jozwiRw12wxOzjqYuewYMklrhi8bspmF5lDxlHKBMAlbGVCDX2vWTbF1CQAqS39NkMBzvRx9nIWkisQyM7zkUbf6/gGN9qj5KbnvdIwugR7K3esjiOv5kAF1kqA88Z6/QgSNY6erp4+9Hrr07xBtWz9iFCh9TugVwHgUqvMA2E9uGeuHEItsVUXgaov2EK767Kv9VJc92c+5/qwd+XLLppUnzsN9TJq9R43ly4vYWSG3r3/Y9fG/KZVuYu2tFODC9RoYX6Srp0olURuJCAulD/m7vPE34pkYH4WCkIv43ZYUGm3wEdyUmG+bRfceLN5mnT9O3vfHZpSa8Ljdoy7o1F5GdBG6baqWUfUDS6hlQDycd8hIVO6PY4zPPCrG8FT3SLZk1EV9A+MSln2G+i2h9UkCbYBXmn4ihMosmPmQY2gpRBLKYuEXyqGsmRgPnsda3bYMETEVeb7J2hIYrtra90SJ43HsQuh3k+v4HJ33wuyxE4Rxv9ftVmtR8ulWcmvzZ5SMaBGwD87vecnNPGsqnOT1ov2vkE99BBsco5yABT+q8PpRYBg29AwYWObHxguIHtkqCdo7frsjsH92wRfpw/GL4P1ghkXCPGM1/ZPSeGxtaxKdqMYwLRCXt30AqEthGAvTMmeL9v1pplp9g5Rk8agxU7yFIhmm/kHki9k22y1SVPJnMseUJILuG1UKu+Y0N9YdtR8mHOdS8hh+h5EV9sXmtVHD7K1dkkkA22y7X6SzfNHp6qN/iB0A9YQdtqi13zcOhUtnn+djy2/InJkhz9hYSaxQDXqMy80/1olKjA1M+v6QRw7t0mygfQ7GNZnRPciKfgwxXhM4/p6yVzQL8CqsAEPIfXd8fHiMasQ+RbQiaPNvBhGBrcX0L/xiurc+DC9wsHuCBbTDUSJt6UctjTvJkI7r7XLBLTK5VwN+hNF9oYah/4wKwydU8cKgx5o3tY1iMyAr9QjY4IA8nATQJ6FQa7uxAVxPC+0Yw44V5HA0zfILhZy3TI35tpZS7OWzwgE+DdJ4iZBTNGRvIGATPIcB8zOjCuMho2v96D8935OebtxnzxuwEUl7Vcjl9lIdn7bcqzztUpaAwzUzGdi4p4XYHjSJ1GVd1eMP48QlJsk2HYYc3GADVDOl48b6TMhc8vtZwrF82Q4Ur3BPnNfC3VFIYG2v2jNUc9uT9AA2OpDOfMZWnwlAwjgw+c2phEH3PSltRbVogoZvjSN1aUNE1tOjFk34zDSoUigGbcaFZ9jLK2m7FL5a55eCSPNA/nCxuDUwjVr2ZQ7edMP3TlN1dbPHR6YQncdICQwevhKRgx6d0TegjCjD65jC9OypO+pcBm0emQT6a/RyntmrrinN9TPwfaAmq5hIqFAQya+PXi7r4NN7nEBnPCKQSskVDhipm2hoG24ve4+n50ips0Tv8ldrq8eh4oFFEcmOjAHW3fpDKSh7poP701rWXRfc4CmcYwW/2TNyl+eX+NoIPtGm2ZwKQraxAgekh+ka7inoK0Kl9Iq3Z+XTUN/YCzNXoJiaR7QMcoRpsGe3JujbFqu1CaX5aZ5TEq4X/eyIrtC7Cnsj5kQI67jsL5xnQWoFtR9dCPsE9tH6XRVXCNWCRKI5wH8WzhGCkMbCmDciZiOr3Rge9BVdAmzN4zvvnPDTe/KcIejl0lbsLaROK8gWZEDuM8LMHsfUALh9a4jlHMcRn0Ac4yvSRhvz2BQyyBwJcQDHT1yAC7KOnVL2emGJ2q310LhA9PzDslcOyx0XYRIZNsWrbi3kz2/3ZTTNw9pzLVV+O3zjGcxty5NHsdXaOat/SD0lrQ2Cuipztr3ekcKzGjHpNxAlBsx75t2ZnBOI2QF8XcHg0jA5Cu57cawMshiqWZ7HCc7Bg5lubBit6Q06cJSIUz9porZr6K7N0GHMtR6omKdyvbw1bRy5hYI6UgCxtNs+v5sOldJmTnAFO2q87oueTNE5RXKz616AbevY83z2t1CjRkHPKSbNkNYSKlZx96EcxY4k1az+2Uw66sQLEeD0e4Hu35rHykUVc/s4Ohmzci1PlRaaYvoe85iLp204zu6ddAqRpMMjLWZzQgnShpXbnpoMiai2dSLtQcIajmJ5sy70ZjMv296PIVttlC8pjN/yvSe0FSOWMbEVMsSqBL+1lU2zUiZ6fznnenkwTCSxqcBMaJcWmE9GJmhTIeP/nVObyjOx/s+n1CJ13xvqhlsFfPsxu8qcxYtqySl97F7Ma6dW4F05Aob5dk4b29USzX+fyIEZysYU7beUiNjtzy/C4Rg+kqPYldWFHuCXZuyxIZBoR/6ShzLf65ycsTFErdcey8EpZHW6Rc0AWOETohF5/k3By/KORPiF9L6RUsMeGsETil1sLuRH/SPl3yFJoNTGrvINWyoJRuHYJEAsPGUY62f0sB1hSeyH0KI8tY+SgKXWmZu/mt8vYtilyE8Rmw5CgX9Ie9TqwxRq466Ad/koHpWl1OWQqjDu+yScwOB3ZxNkZ+jyw6K+HaSdhn9HYqbNb96C9Dp+ll3Gv3V2T1C+ct30mXw4DBMg+ShAhLH3LqUXpzZAZHqbBZGFG9DtNraEh/uP41Yfce2ewgQ725VNLsLRd5J2+RryNOGLTdI7FqxOS4GfrTSotX60l/IQIiUy/yqjJpnOiFiqKtJXz5wcIR6iM/pvZZCmwDJLHdO4a8Xl5zOzkLdI2+mE+xjoOyredSCgxOeA8tPItbuyS6G+jqTGpstVbW060Ihvq1rNyzNy67zSNg3ChkFTDB4wR0coTcNVAwKUp2SCxa1sOw5MLNZ19wyZmanlY9WvB1lrG8ZBbTfxKknmtyBmmnOaNa/EUQtUdewtMn4NttwH6KRFSvIfUP8juAHs1xbNdGF13HZ55gMR+26mBmcvjU7awlVlDMr/YO5XMTTyBgGj/H65qVRHga9edP0TTgOnB7E04T4GWYVet++NTMp40mvOOQzh8t3xuVcZAz1h9lh9vNcOlbgHCzYWUUNY4B0XZnvKkOPNnYEAJkjqBYysTmtNPBqT2o/SruJRX13ZgUojOJkcOaZJFrXndtzKcue0DMon0qDlAM/yQ2eJ9ma6epyco7uDCoaizHAUFOYzjbc42P1kPMl2oPVf4Rc7Im3Pvhc9+ZxQMr6bjVJIiGCOJUL26V6Mj6aX8wLBa7hRbmk1pgTZ715wn0XwlS6Mc3Oha9+OWLAaYjqZ0S5CZpBsudGpPFj2/i6yfAH7/s0NlHrdJsFc7ZhW7+MJJxqOE9IGpfwqBnWH4gY0E5S8ho7kj1G9mpn7ENA1nK6/dhqw8JqEB75fbEUCPQG2UtH5v86l71dZpiu5rgQhQWsJGZnsreoREpqIFva9QcLJ+wrK7MFb1IMeZXEkNQ5R2e38GFKHdB/jVfpiuXnLnXvEywiI7wqygW1ff3x+1j9HGIWWcvOwvmdIwFvVWBproUU2oXGdq9+5Jzy+kbn3qhsJkN6vO/tA0+QzW6ljSebDFylXkYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1zb25uZXQtNS41LTIwMjYwOTI4fGNsYXVkZS1vbi1hd3MifQ"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1562,
+    "completion_tokens": 1495,
+    "total_tokens": 3057,
+    "cost": 0.018074,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.018074,
+      "upstream_inference_prompt_cost": 0.003124,
+      "upstream_inference_completions_cost": 0.01495
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 886,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

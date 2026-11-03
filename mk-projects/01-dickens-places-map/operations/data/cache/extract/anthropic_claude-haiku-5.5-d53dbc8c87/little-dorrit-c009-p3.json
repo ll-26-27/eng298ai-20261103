@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c009-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4774,
+  "completion_tokens": 1048,
+  "total_tokens": 5822,
+  "cost": 0.0010014,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010014,
+   "upstream_inference_prompt_cost": 0.0004774,
+   "upstream_inference_completions_cost": 0.000524
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 539,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Clerkenwell, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Plornish lived in Bleeding Heart Yard.",
+   "note": "Plornish's home; not visited in this passage."
+  },
+  {
+   "as_written": "High Street",
+   "normalized": "Borough High Street, Southwark, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They were come into the High Street, where the prison stood, when a voice cried, 'Little mother, little mother!'",
+   "note": "Name given without district; identified from the Marshalsea context."
+  },
+  {
+   "as_written": "the prison",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They were come into the High Street, where the prison stood",
+   "note": "Identified by the following Marshalsea reference."
+  },
+  {
+   "as_written": "the Marshalsea lodge passage",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "when he saw her going into the Marshalsea lodge passage",
+   "note": "Same building as 'the prison'; listed once."
+  },
+  {
+   "as_written": "the Bank of England",
+   "normalized": "Bank of England, Threadneedle Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "And is as trustworthy as the Bank of England.",
+   "note": "Used in a simile."
+  }
+ ]
+}

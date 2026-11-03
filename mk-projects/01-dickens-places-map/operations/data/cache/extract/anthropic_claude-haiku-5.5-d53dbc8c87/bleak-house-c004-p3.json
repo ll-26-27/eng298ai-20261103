@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c004-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3212,
+  "completion_tokens": 984,
+  "total_tokens": 4196,
+  "cost": 0.0008132,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008132,
+   "upstream_inference_prompt_cost": 0.0003212,
+   "upstream_inference_completions_cost": 0.000492
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 667,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House (Mr Jarndyce's house), Hertfordshire",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "wondering and wondering about Bleak House, and wondering",
+   "note": "Fictional house; in the novel near St Albans, Hertfordshire, not London."
+  },
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I wish Africa was dead!",
+   "note": "Continent, referred to by Miss Jellyby; Mrs Jellyby's African project."
+  },
+  {
+   "as_written": "Reading",
+   "normalized": "Reading, Berkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one of my old Reading friends from whom I could not believe I had so recently parted",
+   "note": "Town where Esther was at school; refers to acquaintances there."
+  }
+ ]
+}

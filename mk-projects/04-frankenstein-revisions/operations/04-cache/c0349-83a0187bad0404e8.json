@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1615,
+  "completion_tokens": 102,
+  "total_tokens": 1717,
+  "cost": 0.0002125,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002125,
+   "upstream_inference_prompt_cost": 0.0001615,
+   "upstream_inference_completions_cost": 0.000051
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0349. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): We had agreed to descend the Rhine in a boat from Strasburgh to Rotterdam, whence we might take shipping for London.\n\n1818 text: During this voyage, we passed by many willowy islands, and saw several beautiful towns. We staid a day at Manheim, and, on the fifth from our departure from Strasburgh, arrived at Mayence.\n\n1831 text: During this voyage, we passed many willowy islands, and saw several beautiful towns. We stayed a day at Manheim, and, on the fifth from our departure from Strasburgh, arrived at Mayence.\n\nDiff: During this voyage, we passed [-by-] many willowy islands, and saw several beautiful towns. We [-staid-] {+stayed+} a day at Manheim, and, on the fifth from our departure from Strasburgh, arrived at Mayence.\n\nContext after (unchanged): The course of the Rhine below Mayence becomes much more picturesque."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Removal of \"by\" after \"passed\" and the spelling change \"staid\" to \"stayed\" are purely stylistic and orthographic; events, places and narration are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c039-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5165,
+  "completion_tokens": 465,
+  "total_tokens": 5630,
+  "cost": 0.000749,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000749,
+   "upstream_inference_prompt_cost": 0.0005165,
+   "upstream_inference_completions_cost": 0.0002325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 375,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Leadenhall Market",
+   "normalized": "Leadenhall Market, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the Captain stepped over to Leadenhall Market in the dusk",
+   "note": ""
+  }
+ ]
+}

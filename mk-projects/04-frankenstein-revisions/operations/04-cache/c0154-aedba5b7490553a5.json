@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1480,
+  "completion_tokens": 101,
+  "total_tokens": 1581,
+  "cost": 0.0001985,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001985,
+   "upstream_inference_prompt_cost": 0.000148,
+   "upstream_inference_completions_cost": 0.0000505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0154. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): He still remained to me.\n\n1818 text: I gazed on the picture of my mother, which stood over the mantle-piece.\n\n1831 text: I gazed on the picture of my mother, which stood over the mantel-piece.\n\nDiff: I gazed on the picture of my mother, which stood over the [-mantle-piece-] {+mantel-piece+} .\n\nContext after (unchanged): It was an historical subject, painted at my father's desire, and represented Caroline Beaufort in an agony of despair, kneeling by the coffin of her dead father."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography of one word changes: 'mantle-piece' becomes 'mantel-piece', the standard spelling of the fireplace shelf. No wording, events, or meaning are affected.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

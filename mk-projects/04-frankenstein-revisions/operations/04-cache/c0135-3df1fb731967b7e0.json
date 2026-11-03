@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1455,
+  "completion_tokens": 100,
+  "total_tokens": 1555,
+  "cost": 0.0001955,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001955,
+   "upstream_inference_prompt_cost": 0.0001455,
+   "upstream_inference_completions_cost": 0.00005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0135. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): At first I attempted to prevent her; but she persisted, and entering the room where it lay, hastily examined the neck of the victim, and clasping her hands exclaimed, 'O God!\n\n1818 text: I have murdered my darling infant!'\n\n1831 text: I have murdered my darling child!'\n\nDiff: I have murdered my darling [-infant-] {+child+} ! '\n\nContext after (unchanged): \"She fainted, and was restored with extreme difficulty."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 2,
+  "rationale": "Replaces \"infant\" with \"child\" in Justine's cry over William's body; the word swap is a diction change, though \"child\" slightly alters how young the victim is presented.",
+  "confidence": "medium",
+  "rationaleWords": 27
+ }
+}

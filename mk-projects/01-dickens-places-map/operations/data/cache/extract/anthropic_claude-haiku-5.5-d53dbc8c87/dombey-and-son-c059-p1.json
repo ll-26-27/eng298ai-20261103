@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c059-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5295,
+  "completion_tokens": 1519,
+  "total_tokens": 6814,
+  "cost": 0.001289,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001289,
+   "upstream_inference_prompt_cost": 0.0005295,
+   "upstream_inference_completions_cost": 0.0007595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1068,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the long dull street",
+   "normalized": "Brook Street, Mayfair, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Changes have come again upon the great house in the long dull street",
+   "note": "Street not named in this passage; identification of the house and street relies on the novel as a whole."
+  },
+  {
+   "as_written": "the Bank of England",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Bank of England’s a-going to break",
+   "note": ""
+  },
+  {
+   "as_written": "the jewels in the Tower",
+   "normalized": "Tower of London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "or the jewels in the Tower to be sold up",
+   "note": ""
+  },
+  {
+   "as_written": "Oxford Market",
+   "normalized": "Oxford Market, Marylebone, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to settle in Oxford Market in the general greengrocery",
+   "note": "Named as a future place of settlement by the servants; the market street in Marylebone."
+  },
+  {
+   "as_written": "the fair Peruvian",
+   "normalized": "Peru",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "thus addressed by the fair Peruvian",
+   "note": "Jocular nickname for Mrs Pipchin, not a literal location."
+  }
+ ]
+}

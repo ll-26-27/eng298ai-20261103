@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1533,
+  "completion_tokens": 95,
+  "total_tokens": 1628,
+  "cost": 0.004016,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004016,
+   "upstream_inference_prompt_cost": 0.003066,
+   "upstream_inference_completions_cost": 0.00095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0292. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): At first his countenance was illuminated with pleasure, but, as he continued, thoughtfulness and sadness succeeded; at length, laying aside the instrument, he sat absorbed in reflection.\n\n1818 text: \"My heart beat quick; this was the hour and moment of trial, which would decide my hopes, or realize my fears.\n\n1831 text: \"My heart beat quick; this was the hour and moment of trial, which would decide my hopes, or realise my fears.\n\nDiff: \" My heart beat quick; this was the hour and moment of trial, which would decide my hopes, or [-realize-] {+realise+} my fears.\n\nContext after (unchanged): The servants were gone to a neighbouring fair."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only orthographic variation: 'realize' (1818) becomes 'realise' (1831). The word, meaning, and syntax are identical, so there is no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 21
+ }
+}

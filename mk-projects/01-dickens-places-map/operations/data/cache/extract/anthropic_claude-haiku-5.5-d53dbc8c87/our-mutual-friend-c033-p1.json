@@ -1,0 +1,84 @@
+{
+ "chunk": "our-mutual-friend-c033-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5511,
+  "completion_tokens": 556,
+  "total_tokens": 6067,
+  "cost": 0.0008291,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008291,
+   "upstream_inference_prompt_cost": 0.0005511,
+   "upstream_inference_completions_cost": 0.000278
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Duke Street, Saint James's",
+   "normalized": "Duke Street, St James's, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "his lodgings over the stable-yard in Duke Street, Saint James’s",
+   "note": "Twemlow's lodgings; he is dressing there at the start"
+  },
+  {
+   "as_written": "Sackville Street",
+   "normalized": "Sackville Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Lammles of Sackville Street",
+   "note": ""
+  },
+  {
+   "as_written": "Piccadilly",
+   "normalized": "Piccadilly, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Twemlow trips with not a little stiffness across Piccadilly",
+   "note": ""
+  },
+  {
+   "as_written": "Dun Cow",
+   "normalized": "Dun Cow, Warwick",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "what’s-its-name place—Guy, Earl of Warwick, you know—what is it?—Dun Cow",
+   "note": "Inn associated with Guy of Warwick legend; location in Warwickshire is inferred, not stated"
+  },
+  {
+   "as_written": "the house",
+   "normalized": "House of Commons, Westminster",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "how are things going on down at the house",
+   "note": "Refers to the House of Commons by implication"
+  },
+  {
+   "as_written": "that stifling place",
+   "normalized": "House of Commons, Westminster",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "you go down to that stifling place night after night",
+   "note": "Same reference as 'the house'; included once"
+  }
+ ]
+}

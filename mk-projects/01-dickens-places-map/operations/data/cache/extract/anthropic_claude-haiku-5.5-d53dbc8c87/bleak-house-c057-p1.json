@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c057-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4841,
+  "completion_tokens": 1262,
+  "total_tokens": 6103,
+  "cost": 0.0011151,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011151,
+   "upstream_inference_prompt_cost": 0.0004841,
+   "upstream_inference_completions_cost": 0.000631
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 975,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Sir Leicester Dedlock’s",
+   "normalized": "Dedlock London house, Mayfair, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "there had been a discovery at Sir Leicester Dedlock’s",
+   "note": "Town house named only by its owner; the passage does not give a street."
+  },
+  {
+   "as_written": "Saint Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I recognized the familiar way to Saint Albans",
+   "note": ""
+  },
+  {
+   "as_written": "Barnet",
+   "normalized": "Barnet, Hertfordshire",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "At Barnet fresh horses were ready for us",
+   "note": "Outside London in Dickens's day; now a London borough."
+  }
+ ]
+}

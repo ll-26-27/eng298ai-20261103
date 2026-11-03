@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1538,
+  "completion_tokens": 89,
+  "total_tokens": 1627,
+  "cost": 0.0001983,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001983,
+   "upstream_inference_prompt_cost": 0.0001538,
+   "upstream_inference_completions_cost": 0.0000445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0141. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): My journey was very melancholy.\n\n1818 text: At first I wished to hurry on, for I longed to console and sympathize with my loved and sorrowing friends; but when I drew near my native town, I slackened my progress.\n\n1831 text: At first I wished to hurry on, for I longed to console and sympathise with my loved and sorrowing friends; but when I drew near my native town, I slackened my progress.\n\nDiff: At first I wished to hurry on, for I longed to console and [-sympathize-] {+sympathise+} with my loved and sorrowing friends; but when I drew near my native town, I slackened my progress.\n\nContext after (unchanged): I could hardly sustain the multitude of feelings that crowded into my mind."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only orthography changes: 'sympathize' becomes 'sympathise' (British spelling); the wording, meaning, and sentence structure are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 16
+ }
+}

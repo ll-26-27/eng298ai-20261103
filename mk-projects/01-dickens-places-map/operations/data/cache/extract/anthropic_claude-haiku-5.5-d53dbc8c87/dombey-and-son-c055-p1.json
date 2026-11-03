@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c055-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5172,
+  "completion_tokens": 1437,
+  "total_tokens": 6609,
+  "cost": 0.0012357,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012357,
+   "upstream_inference_prompt_cost": 0.0005172,
+   "upstream_inference_completions_cost": 0.0007185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1031,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "his greater dread of seeking refuge now, in Italy or in Sicily",
+   "note": ""
+  },
+  {
+   "as_written": "Sicily",
+   "normalized": "Sicily, Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in Italy or in Sicily, where men might be hired to assassinate him",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "impelled him to turn back too, and go to England.",
+   "note": "Carker's destination, not reached in this passage"
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "bargaining for the hire of an old phaeton, to Paris.",
+   "note": "Destination of the hired carriage"
+  },
+  {
+   "as_written": "Jura",
+   "normalized": "Jura Mountains, France/Switzerland",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a sigh of mountain air came from the distant Jura",
+   "note": "Mountain range, not a town"
+  }
+ ]
+}

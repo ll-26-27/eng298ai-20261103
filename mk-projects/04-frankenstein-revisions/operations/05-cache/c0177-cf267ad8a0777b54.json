@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1686,
+  "completion_tokens": 134,
+  "total_tokens": 1820,
+  "cost": 0.004712,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004712,
+   "upstream_inference_prompt_cost": 0.003372,
+   "upstream_inference_completions_cost": 0.00134
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0177. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): \"That evidence,\" he observed, \"was hardly required in so glaring a case, but I am glad of it; and, indeed, none of our judges like to condemn a criminal upon circumstantial evidence, be it ever so decisive.\"\n\n1818 text: When I returned home, Elizabeth eagerly demanded the result.\n\n1831 text: This was strange and unexpected intelligence; what could it mean? Had my eyes deceived me? and was I really as mad as the whole world would believe me to be, if I disclosed the object of my suspicions? I hastened to return home, and Elizabeth eagerly demanded the result.\n\nDiff: [-When I returned home, Elizabeth eagerly demanded the result.-] {+This was strange and unexpected intelligence; what could it mean? Had my eyes deceived me? and was I really as mad as the whole world would believe me to be, if I disclosed the object of my suspicions? I hastened to return home, and Elizabeth eagerly demanded the result.+}\n\nContext after (unchanged): \"My cousin,\" replied I, \"it is decided as you may have expected; all judges had rather that ten innocent should suffer, than that one guilty should escape."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 3,
+  "rationale": "Adds Victor's interior reaction: \"strange and unexpected intelligence; what could it mean? Had my eyes deceived me?\" and his fear of being thought mad. It elaborates his anxiety and silence without changing events, though it deepens his self-justification for not speaking.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

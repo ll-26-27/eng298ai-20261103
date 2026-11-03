@@ -1,0 +1,75 @@
+{
+ "chunk": "great-expectations-c057-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5015,
+  "completion_tokens": 2427,
+  "total_tokens": 7442,
+  "cost": 0.001715,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001715,
+   "upstream_inference_prompt_cost": 0.0005015,
+   "upstream_inference_completions_cost": 0.0012135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1897,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Lane",
+   "normalized": "The Lane, London (unidentified street near Pip's lodgings)",
+   "type": "street",
+   "role": "setting",
+   "in_london": null,
+   "quote": "an open carriage was got into the Lane",
+   "note": "Unidentified street; probably near Pip's Temple lodgings, so location uncertain."
+  },
+  {
+   "as_written": "the old Battery",
+   "normalized": "Battery on the Cooling marshes, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "we talked as we used to talk, lying on the grass at the old Battery",
+   "note": "Ruined battery from Pip's childhood marshes; recalled, not present."
+  },
+  {
+   "as_written": "Temple Gardens",
+   "normalized": "Temple Gardens, Inner Temple, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "walking in the Temple Gardens leaning on Joe’s arm",
+   "note": ""
+  },
+  {
+   "as_written": "Pumblechook’s house",
+   "normalized": "Pumblechook's house, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Is it Pumblechook’s house that has been broken into, then?",
+   "note": "Fictional house in the novel's Kent town; location approximate."
+  },
+  {
+   "as_written": "the Jolly Bargemen",
+   "normalized": "Jolly Bargemen inn",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the person what giv’ you the bank-notes at the Jolly Bargemen",
+   "note": "Fictional inn; location uncertain."
+  }
+ ]
+}

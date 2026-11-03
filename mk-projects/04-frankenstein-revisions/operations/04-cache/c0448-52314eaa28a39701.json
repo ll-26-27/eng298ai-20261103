@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2047,
+  "completion_tokens": 96,
+  "total_tokens": 2143,
+  "cost": 0.0002527,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002527,
+   "upstream_inference_prompt_cost": 0.0002047,
+   "upstream_inference_completions_cost": 0.000048
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0448. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): Those were the last moments of my life during which I enjoyed the feeling of happiness.\n\n1818 text: We passed rapidly along: the sun was hot, but we were sheltered from its rays by a kind of canopy, while we enjoyed the beauty of the scene, sometimes on one side of the lake, where we saw Mont Salêve, the pleasant banks of Montalêgre, and at a distance, surmounting all, the beautiful Mont Blânc, and the assemblage of snowy mountains that in vain endeavour to emulate her; sometimes coasting the opposite banks, we saw the mighty Jura opposing its dark side to the ambition that would quit its native country, and an almost insurmountable barrier to the invader who should wish to enslave it.\n\n1831 text: We passed rapidly along: the sun was hot, but we were sheltered from its rays by a kind of canopy, while we enjoyed the beauty of the scene, sometimes on one side of the lake, where we saw Mont Salêve, the pleasant banks of Montalègre, and at a distance, surmounting all, the beautiful Mont Blanc, and the assemblage of snowy mountains that in vain endeavour to emulate her; sometimes coasting the opposite banks, we saw the mighty Jura opposing its dark side to the ambition that would quit its native country, and an almost insurmountable barrier to the invader who should wish to enslave it.\n\nDiff: We passed rapidly along: the sun was hot, but we were sheltered from its rays by a kind of canopy, while we enjoyed the beauty of the scene, sometimes on one side of the lake, where we saw Mont Salêve, the pleasant banks of [-Montalêgre-] {+Montalègre+} , and at a distance, surmounting all, the beautiful Mont [-Blânc-] {+Blanc+} , and the assemblage of snowy mountains that in vain endeavour to emulate her; sometimes coasting the opposite banks, we saw the mighty Jura opposing its dark side to the ambition that would quit its native country, and an almost insurmountable barrier to the invader who should wish to enslave it.\n\nContext after (unchanged): I took the hand of Elizabeth: \"You are sorrowful, my love."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Changes are orthographic only: Montalêgre becomes Montalègre and Blânc becomes Blanc, with the diacritics adjusted and no change in wording or meaning.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

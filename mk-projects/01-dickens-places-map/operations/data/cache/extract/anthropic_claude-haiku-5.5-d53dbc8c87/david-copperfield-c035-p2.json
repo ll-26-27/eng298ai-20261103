@@ -1,0 +1,111 @@
+{
+ "chunk": "david-copperfield-c035-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5204,
+  "completion_tokens": 2202,
+  "total_tokens": 7406,
+  "cost": 0.0016214,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016214,
+   "upstream_inference_prompt_cost": 0.0005204,
+   "upstream_inference_completions_cost": 0.001101
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1496,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Westminster Abbey",
+   "normalized": "Westminster Abbey, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "that Westminster Abbey was on fire",
+   "note": ""
+  },
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "igniting Buckingham Street, in case the wind changed",
+   "note": ""
+  },
+  {
+   "as_written": "Strand",
+   "normalized": "Strand, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "at the bottom of one of the streets out of the Strand",
+   "note": "Old Roman bath is unnamed; only the Strand is named"
+  },
+  {
+   "as_written": "Hampstead",
+   "normalized": "Hampstead, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "went for a walk to Hampstead",
+   "note": "Then a village outside London; now within London"
+  },
+  {
+   "as_written": "the Heath",
+   "normalized": "Hampstead Heath, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I got some breakfast on the Heath",
+   "note": "Heath refers to Hampstead Heath"
+  },
+  {
+   "as_written": "Doctors’ Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "walked back to Doctors’ Commons",
+   "note": ""
+  },
+  {
+   "as_written": "Montagu Square",
+   "normalized": "Montagu Square, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lived by himself in a house near Montagu Square",
+   "note": ""
+  },
+  {
+   "as_written": "the Bank",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "an appointment at the Bank",
+   "note": ""
+  },
+  {
+   "as_written": "St. Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when St. Paul’s struck one",
+   "note": "Mentioned within a dream"
+  }
+ ]
+}

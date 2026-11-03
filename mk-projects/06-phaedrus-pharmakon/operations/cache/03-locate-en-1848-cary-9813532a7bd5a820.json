@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793716668-DxqZ3VlR6RqrRhJ6IIFC",
+  "object": "chat.completion",
+  "created": 1793716668,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"found\": true,\n  \"start_words\": \"I have heard then, that at Naucratis, in Egjrpt,\",\n  \"end_words\": \"through thinking themselves wise instead of being so.\\\"\",\n  \"stephanus_markers_seen\": \"134., 135., 355\",\n  \"note\": \"Page header and number 'PH^EDRUS. 355' interrupt the text between 'to' and 'Theuth respecting each art'. The OCR also contains errors such as 'Egjrpt' for 'Egypt'.\"\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a18cxVsJiy7a/4jdq3sDXgZY+qBOcrIwxpYuYVyMhnZtH+Hy6i79tvD/LS6vPbwNmLIte2gbccvQq6u0cD1sqjciXGe4Jx7ibH92gL0iXRusNCvw",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3419,
+    "completion_tokens": 131,
+    "total_tokens": 3550,
+    "cost": 0.0030555,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0030555,
+      "upstream_inference_prompt_cost": 0.00256425,
+      "upstream_inference_completions_cost": 0.00049125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

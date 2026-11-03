@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c008-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5066,
+  "completion_tokens": 1116,
+  "total_tokens": 6182,
+  "cost": 0.0010646,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010646,
+   "upstream_inference_prompt_cost": 0.0005066,
+   "upstream_inference_completions_cost": 0.000558
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 900,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, unnamed market town (location unidentified)",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Mr. Pumblechook’s premises in the High Street of the market town",
+   "note": "Unnamed market town; the town itself cannot be located."
+  },
+  {
+   "as_written": "Manor House",
+   "normalized": "Satis House (Miss Havisham's house), fictional",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "to drown the Manor House.",
+   "note": "Miss Havisham's house, also called Satis or Enough House; fictional, cannot be located."
+  }
+ ]
+}

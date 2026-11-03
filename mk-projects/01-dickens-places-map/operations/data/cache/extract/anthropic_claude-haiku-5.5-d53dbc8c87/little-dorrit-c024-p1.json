@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c024-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5030,
+  "completion_tokens": 2045,
+  "total_tokens": 7075,
+  "cost": 0.0015255,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015255,
+   "upstream_inference_prompt_cost": 0.000503,
+   "upstream_inference_completions_cost": 0.0010225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1480,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the prison",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "making the tour of the prison before he left",
+   "note": "Named only as 'the prison'; identified by the Collegian context."
+  },
+  {
+   "as_written": "the Iron Bridge",
+   "normalized": "Southwark Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "She went by the Iron Bridge, though it cost her a penny",
+   "note": "Identification uncertain; Dickens's Iron Bridge is probably Southwark Bridge, a toll bridge."
+  },
+  {
+   "as_written": "the Patriarchal tent",
+   "normalized": "Mr Casby's house, Bleeding Heart Yard, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "set off for the Patriarchal tent",
+   "note": "Nickname for Casby's house; location taken from the novel, not stated in the passage."
+  },
+  {
+   "as_written": "Tunbridge Wells",
+   "normalized": "Tunbridge Wells, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "once on a donkey at Tunbridge Wells",
+   "note": ""
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "unless you had been in China or had corresponded",
+   "note": ""
+  },
+  {
+   "as_written": "Sparta",
+   "normalized": "Sparta, Greece",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "like the Spartan boy with the fox biting him",
+   "note": "Only the adjective 'Spartan' appears; weak place reference."
+  }
+ ]
+}

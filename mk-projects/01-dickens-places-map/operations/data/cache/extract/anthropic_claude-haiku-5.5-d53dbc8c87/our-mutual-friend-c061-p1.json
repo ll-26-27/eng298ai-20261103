@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c061-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4953,
+  "completion_tokens": 923,
+  "total_tokens": 5876,
+  "cost": 0.0009568,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009568,
+   "upstream_inference_prompt_cost": 0.0004953,
+   "upstream_inference_completions_cost": 0.0004615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 643,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Greenwich",
+   "normalized": "Greenwich, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "a little carriage that Lightwood had brought with him from never-to-be-forgotten Greenwich",
+   "note": "Departure point for the journey to London; Greenwich is treated as within London here."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and from Greenwich they started directly for London; and in London they waited at a railway station",
+   "note": ""
+  },
+  {
+   "as_written": "Dresden",
+   "normalized": "Dresden, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "like a sort of dimpled little charming Dresden-china clock by the very best maker",
+   "note": "Named only in a simile about porcelain."
+  }
+ ]
+}

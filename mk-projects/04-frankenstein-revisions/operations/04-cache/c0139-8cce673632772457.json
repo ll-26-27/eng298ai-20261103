@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2385,
+  "completion_tokens": 167,
+  "total_tokens": 2552,
+  "cost": 0.000322,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000322,
+   "upstream_inference_prompt_cost": 0.0002385,
+   "upstream_inference_completions_cost": 0.0000835
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0139. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): \"To go instantly to Geneva: come with me, Henry, to order the horses.\"\n\n1818 text: During our walk, Clerval endeavoured to raise my spirits. He did not do this by common topics of consolation, but by exhibiting the truest sympathy. \"Poor William!\" said he, \"that dear child; he now sleeps with his angel mother. His friends mourn and weep, but he is at rest: he does not now feel the murderer's grasp; a sod covers his gentle form, and he knows no pain. He can no longer be a fit subject for pity; the survivors are the greatest sufferers, and for them time is the only consolation. Those maxims of the Stoics, that death was no evil, and that the mind of man ought to be superior to despair on the eternal absence of a beloved object, ought not to be urged. Even Cato wept over the dead body of his brother.\"\n\n1831 text: During our walk, Clerval endeavoured to say a few words of consolation; he could only express his heart-felt sympathy. \"Poor William!\" said he, \"dear lovely child, he now sleeps with his angel mother! Who that had seen him bright and joyous in his young beauty, but must weep over his untimely loss! To die so miserably; to feel the murderer's grasp! How much more a murderer, that could destroy such radiant innocence! Poor little fellow! one only consolation have we; his friends mourn and weep, but he is at rest. The pang is over, his sufferings are at an end for ever. A sod covers his gentle form, and he knows no pain. He can no longer be a subject for pity; we must reserve that for his miserable survivors.\"\n\nDiff: [-During our walk, Clerval endeavoured to raise my spirits. He did not do this by common topics of consolation, but by exhibiting the truest sympathy. \"Poor William!\" said he, \"that dear child; he now sleeps with his angel mother. His friends mourn and weep, but he is at rest: he does not now feel the murderer's grasp; a sod covers his gentle form, and he knows no pain. He can no longer be a fit subject for pity; the survivors are the greatest sufferers, and for them time is the only consolation. Those maxims of the Stoics, that death was no evil, and that the mind of man ought to be superior to despair on the eternal absence of a beloved object, ought not to be urged. Even Cato wept over the dead body of his brother.\"-] {+During our walk, Clerval endeavoured to say a few words of consolation; he could only express his heart-felt sympathy. \"Poor William!\" said he, \"dear lovely child, he now sleeps with his angel mother! Who that had seen him bright and joyous in his young beauty, but must weep over his untimely loss! To die so miserably; to feel the murderer's grasp! How much more a murderer, that could destroy such radiant innocence! Poor little fellow! one only consolation have we; his friends mourn and weep, but he is at rest. The pang is over, his sufferings are at an end for ever. A sod covers his gentle form, and he knows no pain. He can no longer be a subject for pity; we must reserve that for his miserable survivors.\"+}\n\nContext after (unchanged): Clerval spoke thus as we hurried through the streets; the words impressed themselves on my mind, and I remembered them afterwards in solitude."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "moral-religious",
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "Whole paragraph rewritten and enlarged: Clerval's Stoic maxims and Cato allusion are cut, replaced by lavish pathos ('radiant innocence', 'Who that had seen him') and a hatred of the murderer. Shifts Clerval from philosophical consoler to emotional mourner, and the murderer's guilt is intensified.",
+  "confidence": "medium",
+  "rationaleWords": 44
+ }
+}

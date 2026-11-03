@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c036-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4345,
+  "completion_tokens": 1043,
+  "total_tokens": 5388,
+  "cost": 0.000956,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000956,
+   "upstream_inference_prompt_cost": 0.0004345,
+   "upstream_inference_completions_cost": 0.0005215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 682,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "our expedition into Lincolnshire",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a little note to him in London",
+   "note": ""
+  },
+  {
+   "as_written": "Plymouth",
+   "normalized": "Plymouth, Devon",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "an answer came back all the way from Plymouth",
+   "note": ""
+  },
+  {
+   "as_written": "America",
+   "normalized": "United States of America",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he was going to take the picture all the way to America",
+   "note": ""
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Chesney Wold",
+   "note": "Appears only as the section heading, not in the body text; the house described is Mr. Boythorn's"
+  }
+ ]
+}

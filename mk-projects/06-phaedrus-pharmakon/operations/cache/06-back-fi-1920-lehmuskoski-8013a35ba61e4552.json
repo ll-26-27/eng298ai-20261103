@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793716185-V9W7ojFFUgNTjRVMmp6i",
+  "object": "chat.completion",
+  "created": 1793716185,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "Olen siis kuullut,[74] että Naukratiin lähellä Egyptissä eli muuan sikäläisistä vanhoista jumalista, jolle on pyhitetty lintukin, jota he kutsuvat Ibikseksi.\n\nI have heard, then,[74] that near Naucratis in Egypt lived one of the old gods of that place, to whom a bird too has been consecrated, which they call the Ibis. The god's own name was Theuth. He first invented number and the art of calculation, geometry and astronomy, further board-games and dice-games, and so also letters. The king of all Egypt then was Thamus, in the upper land, in a great city which the Hellenes call the Egyptian Thebes, just as they call the god Ammon. To him came Theuth, displayed his skills, and said that they should be distributed to the other Egyptians. He asked then what benefit each had, and as the other was presenting, he now blamed, now praised, according as Theuth seemed to speak rightly or wrongly. And of Thamus it is said that on each skill he uttered extensive judgments in both directions, which it would become too long to present precisely. But when he was at the letters, Theuth said: \"This learning, O king, will make the Egyptians wiser and better in their memory, for it has been invented as an auxiliary means for memory and for wisdom.\" The latter answered: \"Most skilful Theuth! Some are able to give birth to what belongs to the skills, others again to judge what large share of benefit, and what large share of harm, results from it for those who have to use it. So you, the father of letters, out of attachment to them have presented quite the opposite of what they bring about. For in the souls of those who learn this skill, it produces forgetfulness, for the reason that they neglect memory, because, trusting in writing, they bring things back to their mind from outside, by the influence of foreign marks, not from inside, from themselves. So you have not invented an auxiliary instrument for memory, but for recalling to mind. And only a broken-wisdom do you provide for the pupils, not true wisdom. For having heard much without instruction, they believe themselves to be many-knowing, although for the most part they are ignorant and tiresome in company, having become broken-wise instead of having become wise.\"",
+        "refusal": null,
+        "reasoning": "I'm tracking how the Finnish translator rendered specific phrases literally—\"near Naucratis, in Egypt,\" \"in the upper land, in a great city,\" and \"as an auxiliary means\"—making sure I preserve those exact translation choices rather than normalizing them.\n\nI'm also working through the tricky word \"rikkiviisaus,\" which literally means \"broken-wisdom\" but functions as a Finnish term for pseudo-wisdom or smattering (Plato's doxosophoi), so I'm deciding whether to keep the literal compound or find an English equivalent. I'm continuing to trace the passage about the old god near Naucratis to whom the ibis is consecrated, plus the phrase about one presenting something to the other, keeping the translation faithful to the original wording's level of detail.\n\nAs I continue, when the god reaches the letters, the response concerns how much benefit and how much harm they bring to those who must use them, raising the point about attachment to them and being tiresome in company.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm tracking how the Finnish translator rendered specific phrases literally—\"near Naucratis, in Egypt,\" \"in the upper land, in a great city,\" and \"as an auxiliary means\"—making sure I preserve those exact translation choices rather than normalizing them.\n\nI'm also working through the tricky word \"rikkiviisaus,\" which literally means \"broken-wisdom\" but functions as a Finnish term for pseudo-wisdom or smattering (Plato's doxosophoi), so I'm deciding whether to keep the literal compound or find an English equivalent. I'm continuing to trace the passage about the old god near Naucratis to whom the ibis is consecrated, plus the phrase about one presenting something to the other, keeping the translation faithful to the original wording's level of detail.\n\nAs I continue, when the god reaches the letters, the response concerns how much benefit and how much harm they bring to those who must use them, raising the point about attachment to them and being tiresome in company.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1zb25uZXQtNS41LTIwMjYwOTI4fGNsYXVkZS1vbi1hd3MifQ"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 1538,
+    "total_tokens": 2806,
+    "cost": 0.017916,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.017916,
+      "upstream_inference_prompt_cost": 0.002536,
+      "upstream_inference_completions_cost": 0.01538
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 809,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

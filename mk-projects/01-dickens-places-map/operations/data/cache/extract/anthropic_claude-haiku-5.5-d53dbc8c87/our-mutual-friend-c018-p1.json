@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c018-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5184,
+  "completion_tokens": 1289,
+  "total_tokens": 6473,
+  "cost": 0.0011629,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011629,
+   "upstream_inference_prompt_cost": 0.0005184,
+   "upstream_inference_completions_cost": 0.0006445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 797,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Thames",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "down in that district of the flat country tending to the Thames",
+   "note": "Passage names the river but not the district where the schools stand."
+  },
+  {
+   "as_written": "Kent and Surrey",
+   "normalized": "Kent and Surrey, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "where Kent and Surrey meet",
+   "note": "Two counties; the meeting point is described only loosely."
+  },
+  {
+   "as_written": "the Sepulchre",
+   "normalized": "Holy Sepulchre, Jerusalem",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the beautiful coming to the Sepulchre",
+   "note": "Refers to the Biblical tomb of Christ; the word is used as a lesson topic."
+  },
+  {
+   "as_written": "High Market",
+   "normalized": "High Market",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "as if they were assembled in High Market for the purpose",
+   "note": "Ambiguous: could be a generic market or a real market town; cannot be located."
+  },
+  {
+   "as_written": "Aladdin’s palace",
+   "normalized": "Aladdin's palace (from the Arabian Nights)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the locomotive gift of Aladdin’s palace",
+   "note": "Fictional palace used in a simile."
+  }
+ ]
+}

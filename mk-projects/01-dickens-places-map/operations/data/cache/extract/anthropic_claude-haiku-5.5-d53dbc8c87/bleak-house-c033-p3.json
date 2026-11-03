@@ -1,0 +1,111 @@
+{
+ "chunk": "bleak-house-c033-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4999,
+  "completion_tokens": 2128,
+  "total_tokens": 7127,
+  "cost": 0.0015639,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015639,
+   "upstream_inference_prompt_cost": 0.0004999,
+   "upstream_inference_completions_cost": 0.001064
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1357,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the foot-passengers in Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "the Sol's Arms",
+   "normalized": "Sol's Arms (Krook's public house), Chancery Lane, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the stock in trade of the Sol's Arms",
+   "note": "Fictional inn in Bleak House"
+  },
+  {
+   "as_written": "Mr. Krook's house",
+   "normalized": "Krook's house, Chancery Lane, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he then and there throws in upon the block Mr. Krook's house, as large as life",
+   "note": "Fictional house; the 'secret house' next door"
+  },
+  {
+   "as_written": "the Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr. Tulkinghorn of the Fields",
+   "note": "Short for Lincoln's Inn Fields; Tulkinghorn's chambers"
+  },
+  {
+   "as_written": "Hyde Park",
+   "normalized": "Hyde Park, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a review in Hyde Park",
+   "note": ""
+  },
+  {
+   "as_written": "Manchester",
+   "normalized": "Manchester, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a meeting in Manchester",
+   "note": ""
+  },
+  {
+   "as_written": "the Cornish coast",
+   "normalized": "Cornwall, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a wreck on the Cornish coast",
+   "note": ""
+  },
+  {
+   "as_written": "Verona",
+   "normalized": "Verona, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "prebendary of Verona",
+   "note": ""
+  },
+  {
+   "as_written": "Lady Dedlock's town mansion",
+   "normalized": "Lady Dedlock's London town house, Mayfair, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "presents himself at the town mansion at about seven o'clock in the evening",
+   "note": "Unnamed in passage; fictional house"
+  }
+ ]
+}

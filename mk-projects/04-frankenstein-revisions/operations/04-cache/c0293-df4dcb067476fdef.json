@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1574,
+  "completion_tokens": 100,
+  "total_tokens": 1674,
+  "cost": 0.0002074,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002074,
+   "upstream_inference_prompt_cost": 0.0001574,
+   "upstream_inference_completions_cost": 0.00005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0293. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): The servants were gone to a neighbouring fair.\n\n1818 text: All was silent in and around the cottage: it was an excellent opportunity; yet, when I proceeded to execute my plan, my limbs failed me, and I sunk to the ground.\n\n1831 text: All was silent in and around the cottage: it was an excellent opportunity; yet, when I proceeded to execute my plan, my limbs failed me, and I sank to the ground.\n\nDiff: All was silent in and around the cottage: it was an excellent opportunity; yet, when I proceeded to execute my plan, my limbs failed me, and I [-sunk-] {+sank+} to the ground.\n\nContext after (unchanged): Again I rose; and, exerting all the firmness of which I was master, removed the planks which I had placed before my hovel to conceal my retreat."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Replaces the past tense 'sunk' with the standard 'sank' (sink/sank/sunk). Same meaning and event; only a verb-form change in diction, with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716319-0gYpecGDJursX4HlFocP",
+  "object": "chat.completion",
+  "created": 1793716319,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I have heard it said that near Naucratis[55], in Egypt, there was a god, one of the most anciently worshipped in the country, and the very one to whom the bird that is called Ibis is consecrated. This god is called Theuth[56]. They say that he first invented numbers, calculation, [274d] geometry and astronomy; the games of chess, of dice, and writing. All of Egypt was then under the rule of Thamus, who lived in the great capital city of upper Egypt; the Greeks call the city Thebes the Egyptian, and the god, Ammon[57]. Theuth therefore came to find the king, showed him the arts he had invented, and told him that they must be shared with all the Egyptians. The latter asked him of what use each of these arts would be, and set about discoursing on everything Theuth said on the subject of his inventions, [274e] blaming this, approving that. Thus Thamus put forward, they say, to the god Theuth many reasons for and against each art in particular. It would be too long to go through them; but when they came to writing: \"This science, O king!\" Theuth said to him, \"will render the Egyptians more learned and will relieve their memory. It is a remedy that I have found against the difficulty of learning and of knowing.\" The king replied: \"Industrious Theuth, one man is capable of giving birth to the arts, another of appraising the advantages or the disadvantages that may result from their use; [275a] and you, father of writing, through a natural kindness toward your work, have seen it quite other than it is: it will produce only forgetfulness in the mind of those who learn, by making them neglect memory. In effect, they will leave to these foreign characters the care of reminding them of what they have entrusted to writing, and will themselves keep no remembrance of it. You have therefore not found a means for memory, but for simple reminiscence, and you offer your disciples only the name of science without the reality; for, when they have read many things [275b] without masters, they will believe themselves to have numerous knowledges, ignorant as they will be for the most part, and the false opinion they will have of their science will render them insupportable in the commerce of life.\"",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 679,
+    "total_tokens": 1857,
+    "cost": 0.009146,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009146,
+      "upstream_inference_prompt_cost": 0.002356,
+      "upstream_inference_completions_cost": 0.00679
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

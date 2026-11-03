@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1544,
+  "completion_tokens": 85,
+  "total_tokens": 1629,
+  "cost": 0.0001969,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001969,
+   "upstream_inference_prompt_cost": 0.0001544,
+   "upstream_inference_completions_cost": 0.0000425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0302. Location: 1818 Vol. II, Ch. VIII; 1831 Ch. XVI.\n\nContext before (unchanged): I trembled violently, apprehending some dreadful misfortune.\n\n1818 text: The inside of the cottage was dark, and I heard no motion; I cannot describe the agony of this suspence.\n\n1831 text: The inside of the cottage was dark, and I heard no motion; I cannot describe the agony of this suspense.\n\nDiff: The inside of the cottage was dark, and I heard no motion; I cannot describe the agony of this [-suspence-] {+suspense+} .\n\nContext after (unchanged): \"Presently two countrymen passed by; but, pausing near the cottage, they entered into conversation, using violent gesticulations; but I did not understand what they said, as they spoke the language of the country, which differed from that of my protectors."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'suspence' becomes 'suspense'. The word and meaning are identical, so there is no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 19
+ }
+}

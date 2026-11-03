@@ -1,0 +1,26 @@
+language,verified_year,verified_translator,status,claude-sonnet-5.5_year,claude-sonnet-5.5_translator,claude-sonnet-5.5_confidence,claude-sonnet-5.5_year_match,claude-sonnet-5.5_translator_match,gemini-3.8-flash_year,gemini-3.8-flash_translator,gemini-3.8-flash_confidence,gemini-3.8-flash_year_match,gemini-3.8-flash_translator_match
+French,1821,"Jules Saladin (credited as ""J. S.***"")",verified,1821,Jules Saladin,high,yes,yes,1821,Jules Saladin,high,yes,yes
+German,1912,Heinz Widtmann,verified,1912,,low,yes,no answer,1912,Heinz Widtmann,medium,yes,yes
+Swedish,1959,Monica Stolpe (later Monica Rennerfelt),verified,,,low,no answer,no answer,1951,Monica Stolpe,medium,no,yes
+Dutch,1946,"""Mevrouw Spruit""",partly verified,,,low,no answer,no answer,1966,Else Hoog,low,no,no
+Danish,1966,Kirsten Diemer,verified,,,low,no answer,no answer,1966,,low,yes,no answer
+Norwegian,1976,Arne Moen,verified,,,low,no answer,no answer,1976,Bjørn Carling,low,yes,no
+Finnish,1973,Paavo Lehtonen,verified,,,low,no answer,no answer,1973,Paavo Lehtonen,high,yes,yes
+Polish,1958,Henryk Goldmann,verified,,,low,no answer,no answer,1989,Barbara Supeł,medium,no,no
+Japanese,1889,Pen name 瓠廼舍主人 (Hisago-no-ya shujin); attributed by Nakagawa Tomoko to Miyake Kaho,verified,,,low,no answer,no answer,1953,Yamamoto Masami,medium,no,no
+Chinese,1978,not given,unverified,,,low,no answer,no answer,1958,Huang Jiazhen,low,no,no
+Korean,,unknown,unverified,,,low,no answer,no answer,1975,,low,nothing verified to compare,no answer
+Greek,,unknown,unverified,,,low,no answer,no answer,1969,Nikos Tassopoulos,low,nothing verified to compare,n/a
+Turkish,1996,Yeşim Seber,partly verified,,,low,no answer,no answer,1946,Memet Fuat,low,no,no
+Arabic,1959,not given,unverified,,,low,no answer,no answer,1965,,low,no,no answer
+Hebrew,1983,Iris Bar'am (איריס ברעם),partly verified,,,low,no answer,no answer,1979,Naomi Carmel,medium,no,no
+Bulgarian,1981,Zhechka Georgieva (Жечка Георгиева),verified,,,low,no answer,no answer,1980,Hristo Kanev,low,no,no
+Serbian,1960,Slavka Stevović,partly verified,,,low,no answer,no answer,1968,Branko Vučićević,medium,no,no
+Spanish,1912,"Luis Costarias (credited as ""L. Costarias"")",verified,,,low,no answer,no answer,1944,Manuel Bosch Sánchez,medium,no,no
+Italian,1944,Ranieri Cochetti,verified,,,low,no answer,no answer,1944,Ranieri Cochetti,medium,yes,yes
+Portuguese,1943,Stella Martins Paredes,partly verified,,,low,no answer,no answer,1942,Manuel Ribeiro,low,no,no
+Catalan,1983,Quim Monzó,verified,,,low,no answer,no answer,1983,Quim Monzó,high,yes,yes
+Romanian,1973,Adriana Călinescu,unverified,,,low,no answer,no answer,1974,Mihai Stoian,medium,no,no
+Russian,1965,Zinaida Aleksandrova (З. Е. Александрова),partly verified,,,low,no answer,no answer,1965,Zinaida Aleksandrova,high,yes,yes
+Czech,1966,Tomáš Korbař,partly verified,,,low,no answer,no answer,1966,Tomáš Korbař,high,yes,yes
+Hungarian,1977,Göncz Árpád,partly verified,,,low,no answer,no answer,1977,Göncz Árpád,high,yes,yes

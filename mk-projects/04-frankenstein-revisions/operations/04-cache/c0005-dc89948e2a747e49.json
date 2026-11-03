@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1781,
+  "completion_tokens": 113,
+  "total_tokens": 1894,
+  "cost": 0.0002346,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002346,
+   "upstream_inference_prompt_cost": 0.0001781,
+   "upstream_inference_completions_cost": 0.0000565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0005. Location: 1818 Preface; 1831 Preface.\n\nContext before (unchanged): Other motives were mingled with these, as the work proceeded.\n\n1818 text: I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding of the enervating effects of the novels of the present day, and to the exhibitions of the amiableness of domestic affection, and the excellence of universal virtue.\n\n1831 text: I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue.\n\nDiff: I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding [-of-] the enervating effects of the novels of the present day, and to the [-exhibitions-] {+exhibition+} of the amiableness of domestic affection, and the excellence of universal virtue.\n\nContext after (unchanged): The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Two grammatical trims: 'avoiding of' becomes 'avoiding' and 'exhibitions' becomes 'exhibition'. Meaning and moral emphasis are unchanged; purely syntactic and number tidying.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

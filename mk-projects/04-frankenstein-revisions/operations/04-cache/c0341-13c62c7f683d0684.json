@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1612,
+  "completion_tokens": 101,
+  "total_tokens": 1713,
+  "cost": 0.0002117,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002117,
+   "upstream_inference_prompt_cost": 0.0001612,
+   "upstream_inference_completions_cost": 0.0000505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0341. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): If you feel thus, we shall assuredly be happy, however present events may cast a gloom over us.\n\n1818 text: But it is this gloom, which appears to have taken so strong a hold of your mind, that I wish to dissipate. Tell me, therefore, whether you object to an immediate solemnization of the marriage.\n\n1831 text: But it is this gloom which appears to have taken so strong a hold of your mind, that I wish to dissipate. Tell me, therefore, whether you object to an immediate solemnisation of the marriage.\n\nDiff: But it is this gloom [-,-] which appears to have taken so strong a hold of your mind, that I wish to dissipate. Tell me, therefore, whether you object to an immediate [-solemnization-] {+solemnisation+} of the marriage.\n\nContext after (unchanged): We have been unfortunate, and recent events have drawn us from that every-day tranquillity befitting my years and infirmities."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The substantive change is z-to-s orthography in 'solemnization' becoming 'solemnisation'; the comma removal after 'gloom' is punctuation only. No wording or meaning changes.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

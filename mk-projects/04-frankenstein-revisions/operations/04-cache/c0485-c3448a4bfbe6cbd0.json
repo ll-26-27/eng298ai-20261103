@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1654,
+  "completion_tokens": 83,
+  "total_tokens": 1737,
+  "cost": 0.0002069,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002069,
+   "upstream_inference_prompt_cost": 0.0001654,
+   "upstream_inference_completions_cost": 0.0000415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0485. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Often, when wearied by a toilsome march, I persuaded myself that I was dreaming until night should come, and that I should then enjoy reality in the arms of my dearest friends.\n\n1818 text: What agonizing fondness did I feel for them! how did I cling to their dear forms, as sometimes they haunted even my waking hours, and persuade myself that they still lived!\n\n1831 text: What agonising fondness did I feel for them! how did I cling to their dear forms, as sometimes they haunted even my waking hours, and persuade myself that they still lived!\n\nDiff: What [-agonizing-] {+agonising+} fondness did I feel for them! how did I cling to their dear forms, as sometimes they haunted even my waking hours, and persuade myself that they still lived!\n\nContext after (unchanged): At such moments vengeance, that burned within me, died in my heart, and I pursued my path towards the destruction of the dæmon, more as a task enjoined by heaven, as the mechanical impulse of some power of which I was unconscious, than as the ardent desire of my soul."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'agonizing' becomes 'agonising' (-ize to -ise), with no change in wording or meaning.",
+  "confidence": "high",
+  "rationaleWords": 17
+ }
+}

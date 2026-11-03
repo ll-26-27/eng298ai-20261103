@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716324-PSo5FxXnoCnptT7G63LN",
+  "object": "chat.completion",
+  "created": 1793716324,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I have therefore heard it said that there existed near Naucratis, in Egypt, one of the ancient gods of that country, and that to this god the Egyptians consecrated the bird which they called ibis. This god was named Theuth. It is he who first invented the science of numbers, calculation, geometry, astronomy, backgammon, dice, and finally writing. King Thamous was then reigning over the whole country; he lived in the great city of Upper Egypt which the Greeks call Egyptian Thebes, as they name Ammon the god-king Thamous. Theuth therefore came to find this king in order to show him the arts which he had invented, and he told him that they must be spread among the Egyptians. The king asked him of what utility each of the arts would be. The god informed him; and, according as he judged them to be a good or an evil, the king approved or blamed. It is said that Thamous made to Theuth many observations for and against each art. It would be too long to set them out. But, when they came to writing: \"King, said Theuth to him, this science will render the Egyptians more learned and will facilitate the art of remembering, for I have found a remedy to relieve science and memory.\" And the king replied: \"Most ingenious Theuth, one man is capable of creating the arts, and another is in a position to judge what lot of utility or of harmfulness they will confer on those who make use of them. And it is thus that you, father of writing, attribute to it, out of benevolence, quite the contrary of what it can bring. [275] It can produce in souls, in effect, only the forgetting of what they know by making them neglect memory. Because they will have faith in writing, it is from outside, by foreign imprints, and no longer from within and from the depth of themselves, that men will seek to remember. You have found the means, not at all of enriching memory, but of preserving the memories which it has. You give to your disciples the presumption that they have science, not science itself. When they will have, in effect, learned much without a master, they will imagine themselves become very learned, and they will be for the most part only ignorant people of troublesome company, imaginary learned men instead of true learned men.\"",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 669,
+    "total_tokens": 1827,
+    "cost": 0.009006,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.009006,
+      "upstream_inference_prompt_cost": 0.002316,
+      "upstream_inference_completions_cost": 0.00669
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

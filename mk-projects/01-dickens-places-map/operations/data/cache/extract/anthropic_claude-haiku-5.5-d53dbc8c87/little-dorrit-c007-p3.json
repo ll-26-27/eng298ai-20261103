@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c007-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2201,
+  "completion_tokens": 661,
+  "total_tokens": 2862,
+  "cost": 0.0005506,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005506,
+   "upstream_inference_prompt_cost": 0.0002201,
+   "upstream_inference_completions_cost": 0.0003305
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 387,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the little court-yard of the Marshalsea",
+   "note": "Debtors' prison; the name recurs throughout the passage, quoted here from its clearest instance."
+  },
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "turning at the end of London Bridge, recrossing it, going back again",
+   "note": ""
+  },
+  {
+   "as_written": "Saint George’s Church",
+   "normalized": "St George's Church, Borough High Street, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "passing on to Saint George’s Church",
+   "note": ""
+  }
+ ]
+}

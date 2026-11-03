@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c042-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5442,
+  "completion_tokens": 1246,
+  "total_tokens": 6688,
+  "cost": 0.0011672,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011672,
+   "upstream_inference_prompt_cost": 0.0005442,
+   "upstream_inference_completions_cost": 0.000623
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 725,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "‘In Venice?’ said Miss Fanny.",
+   "note": "Dorrit family is staying here; gondolas and Opera staircase set the scene."
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘In Rome,’ Mr Sparkler answered.",
+   "note": "Where the Merdles have gone."
+  },
+  {
+   "as_written": "Martigny",
+   "normalized": "Martigny, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he had had the honour of seeing her at Martigny",
+   "note": ""
+  },
+  {
+   "as_written": "Florence",
+   "normalized": "Florence, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "outside the cathedral at Florence",
+   "note": ""
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "her house at Brighton",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to remain in London when there wasn’t a soul there",
+   "note": ""
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "so much wanted by the men in the City",
+   "note": "Financial district, referred to as a place."
+  }
+ ]
+}

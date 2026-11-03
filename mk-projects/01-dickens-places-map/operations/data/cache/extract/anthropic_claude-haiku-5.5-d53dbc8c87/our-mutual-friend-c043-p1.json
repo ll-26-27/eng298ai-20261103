@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c043-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5544,
+  "completion_tokens": 1475,
+  "total_tokens": 7019,
+  "cost": 0.0012919,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012919,
+   "upstream_inference_prompt_cost": 0.0005544,
+   "upstream_inference_completions_cost": 0.0007375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 975,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Hertfordshire",
+   "normalized": "Hertfordshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "down in Hertfordshire—",
+   "note": "Where Eugene's goddaughter lives."
+  },
+  {
+   "as_written": "Humbugshire",
+   "normalized": "Hertfordshire, England",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘Humbugshire you mean, I think,’ interposed Miss Wren.",
+   "note": "Miss Wren's jocular name for Hertfordshire; not a real place."
+  },
+  {
+   "as_written": "the Italian Opera",
+   "normalized": "Her Majesty's Theatre (Italian Opera House), Haymarket, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘I’m going to the Italian Opera to try on,’ said Miss Wren",
+   "note": "Identification of the building is inferred from the period name; check if needed."
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Eugene lounged slowly towards the Temple, smoking his cigar",
+   "note": "Inns of Court; Lightwood's Chambers are presumably here."
+  },
+  {
+   "as_written": "Charing Cross",
+   "normalized": "Charing Cross, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and stopped at Charing Cross to look about him",
+   "note": ""
+  }
+ ]
+}

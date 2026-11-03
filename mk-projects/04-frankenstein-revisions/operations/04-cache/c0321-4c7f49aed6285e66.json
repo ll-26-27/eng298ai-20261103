@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1703,
+  "completion_tokens": 113,
+  "total_tokens": 1816,
+  "cost": 0.0002268,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002268,
+   "upstream_inference_prompt_cost": 0.0001703,
+   "upstream_inference_completions_cost": 0.0000565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0321. Location: 1818 Vol. II, Ch. IX; 1831 Ch. XVII.\n\nContext before (unchanged): I will revenge my injuries: if I cannot inspire love, I will cause fear; and chiefly towards you my arch-enemy, because my creator, do I swear inextinguishable hatred.\n\n1818 text: Have a care: I will work at your destruction, nor finish until I desolate your heart, so that you curse the hour of your birth.\" A fiendish rage animated him as he said this; his face was wrinkled into contortions too horrible for human eyes to behold; but presently he calmed himself, and proceeded—\n\n1831 text: Have a care: I will work at your destruction, nor finish until I desolate your heart, so that you shall curse the hour of your birth.\" A fiendish rage animated him as he said this; his face was wrinkled into contortions too horrible for human eyes to behold; but presently he calmed himself and proceeded—\n\nDiff: Have a care: I will work at your destruction, nor finish until I desolate your heart, so that you {+shall+} curse the hour of your birth. \" A fiendish rage animated him as he said this; his face was wrinkled into contortions too horrible for human eyes to behold; but presently he calmed himself [-,-] and proceeded—\n\nContext after (unchanged): \"I intended to reason."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Insertion of \"shall\" in \"so that you shall curse the hour of your birth\" and removal of a comma in \"calmed himself and proceeded\" are grammatical/stylistic polish with no change in meaning or characterization.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

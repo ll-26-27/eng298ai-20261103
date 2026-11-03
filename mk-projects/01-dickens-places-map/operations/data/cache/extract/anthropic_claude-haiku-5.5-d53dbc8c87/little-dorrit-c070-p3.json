@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c070-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 3919,
+  "completion_tokens": 1097,
+  "total_tokens": 5016,
+  "cost": 0.0009404,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009404,
+   "upstream_inference_prompt_cost": 0.0003919,
+   "upstream_inference_completions_cost": 0.0005485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 696,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Saint Paul's Churchyard",
+   "normalized": "St Paul's Churchyard, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "will take a ride with me now towards Saint Paul’s Churchyard",
+   "note": ""
+  },
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "deserting the parent Marshalsea for its happy child",
+   "note": "Debtors' prison; the scene opens inside it."
+  },
+  {
+   "as_written": "Saint George's Church",
+   "normalized": "St George the Martyr church, Borough High Street, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "they went up the steps of the neighbouring Saint George’s Church",
+   "note": "Church near the Marshalsea; identification from the Dickens setting."
+  },
+  {
+   "as_written": "the Cottage",
+   "normalized": "The Cottage (Meagles's house)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "She’s best at the Cottage, and I’ll stay there",
+   "note": "House name only; location not given in passage."
+  }
+ ]
+}

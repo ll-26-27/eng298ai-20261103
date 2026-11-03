@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c023-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5277,
+  "completion_tokens": 1001,
+  "total_tokens": 6278,
+  "cost": 0.0010282,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010282,
+   "upstream_inference_prompt_cost": 0.0005277,
+   "upstream_inference_completions_cost": 0.0005005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 561,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Thavies Inn",
+   "normalized": "Thavies Inn, Holborn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we must really go to Thavies Inn at once if we were to go at all that day",
+   "note": "Jellyby family house; the narrator and Caddy travel there and the scene is set there."
+  },
+  {
+   "as_written": "left bank of the Niger",
+   "normalized": "Niger River, West Africa",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "either gone or going to the left bank of the Niger.",
+   "note": "Mrs. Jellyby's emigration destination, referred to by her; the Niger is real but the settlement is not."
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in connexion with Borrioboola-Gha and it is so necessary",
+   "note": "Fictional African settlement in Mrs. Jellyby's scheme."
+  },
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Not if it's Africa, Ma, I have not.",
+   "note": "Continent; Caddy's and Mrs. Jellyby's reference."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "chunk": "little-dorrit-c028-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4998,
+  "completion_tokens": 749,
+  "total_tokens": 5747,
+  "cost": 0.0008743,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008743,
+   "upstream_inference_prompt_cost": 0.0004998,
+   "upstream_inference_completions_cost": 0.0003745
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 629,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Twickenham",
+   "normalized": "Twickenham, Middlesex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "would at any time apply to his address at Twickenham",
+   "note": "Mr Meagles's cottage; the walk and the meeting take place nearby. Then in Middlesex, outside London."
+  }
+ ]
+}

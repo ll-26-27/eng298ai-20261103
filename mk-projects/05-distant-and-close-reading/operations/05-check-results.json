@@ -1,0 +1,299 @@
+{
+ "judged_by": "Judged by Claude (anthropic/claude-opus-5.5, the agent that built this example), reading the blind sheet on 2026-11-03 before looking at the model's labels; not a human reader. A scholar should redo this check.",
+ "note": "Six of the thirty were borderline calls (marked in the notes). Outside the sample, the reader also noticed the model naming the factory's human directors (Fabry, Alquist, Gall, Busman, Hallemeier) as \"the robots\" in R.U.R., Act One (rur-0023, rur-0024), repeating Helena's mistake in the scene as fact. The stronger model in step 6 read the same passage correctly.",
+ "sample": {
+  "size": 30,
+  "model_positive": 15,
+  "model_negative": 15,
+  "human_yes": 11
+ },
+ "model": {
+  "agree": 26,
+  "precision": {
+   "value": 0.733,
+   "counts": "11 of 15"
+  },
+  "negatives_that_were_instances": "0 of 15",
+  "precision_strong": "3 of 3 (strength 2–3)",
+  "precision_weak": "8 of 12 (strength 1)",
+  "recall_estimate": 1,
+  "recall_pessimistic": 0.652,
+  "recall_note": "estimated for the whole corpus by weighting the two strata (330 model positives, 645 model negatives); with 15 negatives sampled, one disagreement moves this estimate a lot; a pessimistic reading of the same sample puts recall nearer 65%"
+ },
+ "keyword_on_same_sample": {
+  "precision": "4 of 6",
+  "found_of_human_yes": "4 of 11"
+ },
+ "disagreements": [
+  {
+   "id": "rur-0016",
+   "human": false,
+   "model": true,
+   "strength": 1,
+   "note": "Borderline: Domin demonstrates what Sulla has been made to know, but no one in the scene is being taught."
+  },
+  {
+   "id": "dorian-0334",
+   "human": false,
+   "model": true,
+   "strength": 1,
+   "note": "\"Dull hells were teaching them\" is a figure; the passage is about craving and memory."
+  },
+  {
+   "id": "dorian-0263",
+   "human": false,
+   "model": true,
+   "strength": 1,
+   "note": "Borderline: Basil is about to admonish Dorian, but here he only announces it and reports rumours."
+  },
+  {
+   "id": "dorian-0238",
+   "human": false,
+   "model": true,
+   "strength": 1,
+   "note": "Borderline: Dorian's self-directed study of perfumes and music is connoisseurship rather than formation."
+  }
+ ],
+ "rows": [
+  {
+   "id": "frankenstein-0035",
+   "human": false,
+   "note": "School mentioned in one clause. (I had already seen this passage and the model's label in the step 4 report.)",
+   "model": false,
+   "strength": 0,
+   "keyword": true
+  },
+  {
+   "id": "frankenstein-0034",
+   "human": true,
+   "note": "Victor narrates how the children were taught: by ends held in view, not emulation or punishment. A method of formation, told in detail.",
+   "model": true,
+   "strength": 2,
+   "keyword": true
+  },
+  {
+   "id": "dorian-0172",
+   "human": false,
+   "note": "News of a death plus practical, cynical advice about scandal; nobody is being formed.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "rur-0016",
+   "human": false,
+   "note": "Borderline: Domin demonstrates what Sulla has been made to know, but no one in the scene is being taught.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "dorian-0334",
+   "human": false,
+   "note": "\"Dull hells were teaching them\" is a figure; the passage is about craving and memory.",
+   "model": true,
+   "strength": 1,
+   "keyword": true
+  },
+  {
+   "id": "rur-0061",
+   "human": false,
+   "note": "A medical test on Radius; no instruction.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "phaedrus-0095",
+   "human": true,
+   "note": "Socrates tells Phaedrus how the art of speaking is acquired: nature, knowledge, practice.",
+   "model": true,
+   "strength": 1,
+   "keyword": true
+  },
+  {
+   "id": "frankenstein-0112",
+   "human": false,
+   "note": "Justine's defence at her trial.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "phaedrus-0104",
+   "human": true,
+   "note": "The Theuth and Thamus myth begins: a god presents letters as a means of making people wiser; Socrates teaching through a story about teaching.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "dorian-0263",
+   "human": false,
+   "note": "Borderline: Basil is about to admonish Dorian, but here he only announces it and reports rumours.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0142",
+   "human": true,
+   "note": "Borderline, brief: the creature's arguments make Victor feel for the first time \"what the duties of a creator towards his creature were\"; the made thing instructs its maker.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "dorian-0238",
+   "human": false,
+   "note": "Borderline: Dorian's self-directed study of perfumes and music is connoisseurship rather than formation.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0159",
+   "human": true,
+   "note": "The old man's exhortations change Agatha; the creature watching learns sympathy.",
+   "model": true,
+   "strength": 2,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0100",
+   "human": false,
+   "note": "Victor alone in the storm.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "phaedrus-0047",
+   "human": true,
+   "note": "Borderline: doctrine of recollection, i.e. an explicit account of how the soul comes to know, inside Socrates' speech to Phaedrus.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0205",
+   "human": false,
+   "note": "The creature burns the cottage.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "rur-0020",
+   "human": false,
+   "note": "Helena corrects a name and Domin shows her the factory: information and a tour.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0244",
+   "human": true,
+   "note": "Brief: Clerval's mind \"expanded in the company of men of talent\".",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "phaedrus-0088",
+   "human": true,
+   "note": "Socrates on dialectic, disciples, and rhetoricians who teach and impart skill.",
+   "model": true,
+   "strength": 1,
+   "keyword": true
+  },
+  {
+   "id": "frankenstein-0295",
+   "human": false,
+   "note": "The wedding day.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "rur-0067",
+   "human": false,
+   "note": "Celebration; no instruction.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0230",
+   "human": false,
+   "note": "Planning the journey to England.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "dorian-0153",
+   "human": true,
+   "note": "Sibyl: \"You taught me what reality really is.\" Explicit and central.",
+   "model": true,
+   "strength": 2,
+   "keyword": true
+  },
+  {
+   "id": "dorian-0325",
+   "human": false,
+   "note": "Dorian leaves the dinner unnerved; no instruction.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "rur-0028",
+   "human": true,
+   "note": "The directors on what Robots can be taught or preached to, and why childhood (education) is waste: reflection on instruction and its absence.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0203",
+   "human": false,
+   "note": "The creature overhears a conversation about rent; he is trying to understand, but no one teaches him.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "dorian-0239",
+   "human": false,
+   "note": "A catalogue of instruments; a passing mention of initiation.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "dorian-0220",
+   "human": false,
+   "note": "Dorian hides the portrait and imagines purification.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  },
+  {
+   "id": "dorian-0030",
+   "human": true,
+   "note": "Borderline, brief: Dorian asks Lord Henry to tell him why he should not go in for philanthropy, inviting the instruction that follows.",
+   "model": true,
+   "strength": 1,
+   "keyword": false
+  },
+  {
+   "id": "frankenstein-0313",
+   "human": false,
+   "note": "Victor's pursuit; no instruction.",
+   "model": false,
+   "strength": 0,
+   "keyword": false
+  }
+ ]
+}

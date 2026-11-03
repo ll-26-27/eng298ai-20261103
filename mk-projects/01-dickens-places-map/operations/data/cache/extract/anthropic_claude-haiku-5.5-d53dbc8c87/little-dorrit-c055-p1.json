@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c055-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5433,
+  "completion_tokens": 1179,
+  "total_tokens": 6612,
+  "cost": 0.0011328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011328,
+   "upstream_inference_prompt_cost": 0.0005433,
+   "upstream_inference_completions_cost": 0.0005895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 814,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "outside the walls of Rome",
+   "note": "Dorrit's family lodgings are in Rome; the passage ends there."
+  },
+  {
+   "as_written": "Campagna",
+   "normalized": "Roman Campagna, Italy",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "rattled over the solitary Campagna",
+   "note": ""
+  },
+  {
+   "as_written": "Civita Vecchia",
+   "normalized": "Civitavecchia, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he would have done better to have slept at Civita Vecchia",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "since he quitted London",
+   "note": ""
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "two great capitals of Europe",
+   "note": "Continent; the two capitals are not named."
+  }
+ ]
+}

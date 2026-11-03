@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1472,
+  "completion_tokens": 93,
+  "total_tokens": 1565,
+  "cost": 0.0001937,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001937,
+   "upstream_inference_prompt_cost": 0.0001472,
+   "upstream_inference_completions_cost": 0.0000465
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0511. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Must I then lose this admirable being?\n\n1818 text: I have longed for a friend; I have sought one who would sympathize with and love me.\n\n1831 text: I have longed for a friend; I have sought one who would sympathise with and love me.\n\nDiff: I have longed for a friend; I have sought one who would [-sympathize-] {+sympathise+} with and love me.\n\nContext after (unchanged): Behold, on these desert seas I have found such a one; but, I fear, I have gained him only to know his value, and lose him."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'sympathize' becomes 'sympathise' with identical wording and meaning. A British-style spelling variant with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 20
+ }
+}

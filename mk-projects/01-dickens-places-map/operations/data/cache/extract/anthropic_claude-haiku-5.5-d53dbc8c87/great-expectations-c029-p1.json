@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c029-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4990,
+  "completion_tokens": 1054,
+  "total_tokens": 6044,
+  "cost": 0.001026,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001026,
+   "upstream_inference_prompt_cost": 0.000499,
+   "upstream_inference_completions_cost": 0.000527
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 723,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "it was not unlike the kind of place usually assigned to a gate-porter in Paris",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "she had but just come home from France",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and that she was going to London",
+   "note": "Also 'to London to-morrow' later in the passage."
+  },
+  {
+   "as_written": "Gargery's forge",
+   "normalized": "Gargery's forge (Joe Gargery's blacksmith's forge), Pip's home village",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "I asked him how long he had left Gargery’s forge?",
+   "note": "Village unnamed in passage; location cannot be pinned down."
+  }
+ ]
+}

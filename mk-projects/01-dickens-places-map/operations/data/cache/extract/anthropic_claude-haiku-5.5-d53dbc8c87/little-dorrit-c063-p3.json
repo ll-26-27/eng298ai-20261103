@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c063-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5141,
+  "completion_tokens": 1221,
+  "total_tokens": 6362,
+  "cost": 0.0011246,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011246,
+   "upstream_inference_prompt_cost": 0.0005141,
+   "upstream_inference_completions_cost": 0.0006105
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 836,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea gate",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Marshalsea gate had shut for ever on all those perplexed possibilities of a time that was gone",
+   "note": "The debtors' prison; the passage refers to it as the Marshalsea gate."
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Clerkenwell, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "had reached Bleeding Heart Yard, with the news of her sister’s marriage",
+   "note": "Plornish's neighbourhood court; the passage does not state the district explicitly."
+  },
+  {
+   "as_written": "Happy Cottage",
+   "normalized": "Happy Cottage",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "which Happy Cottage knows I neither make it up nor any ways enlarge",
+   "note": "Proper name of the Plornishes' home, used as a figure for the household; likely in Bleeding Heart Yard."
+  }
+ ]
+}

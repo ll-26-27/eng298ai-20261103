@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1759,
+  "completion_tokens": 106,
+  "total_tokens": 1865,
+  "cost": 0.0002289,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002289,
+   "upstream_inference_prompt_cost": 0.0001759,
+   "upstream_inference_completions_cost": 0.000053
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0167. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): The woman asked her what she did there; but she looked very strangely, and only returned a confused and unintelligible answer.\n\n1818 text: She returned to the house about eight o'clock; and when one inquired where she had passed the night, she replied, that she had been looking for the child, and demanded earnestly, if any thing had been heard concerning him. When shewn the body, she fell into violent hysterics, and kept her bed for several days.\n\n1831 text: She returned to the house about eight o'clock; and, when one enquired where she had passed the night, she replied that she had been looking for the child, and demanded earnestly if any thing had been heard concerning him. When shown the body, she fell into violent hysterics, and kept her bed for several days.\n\nDiff: She returned to the house about eight o'clock; and {+,+} when one [-inquired-] {+enquired+} where she had passed the night, she replied [-,-] that she had been looking for the child, and demanded earnestly [-,-] if any thing had been heard concerning him. When [-shewn-] {+shown+} the body, she fell into violent hysterics, and kept her bed for several days.\n\nContext after (unchanged): The picture was then produced, which the servant had found in her pocket; and when Elizabeth, in a faltering voice, proved that it was the same which, an hour before the child had been missed, she had placed round his neck, a murmur of horror and indignation filled the court."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic (inquired/enquired, shewn/shown) plus punctuation drops (commas after 'replied' and 'earnestly'); no change in meaning, events, or character presentation.",
+  "confidence": "high",
+  "rationaleWords": 21
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c006-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5250,
+  "completion_tokens": 1513,
+  "total_tokens": 6763,
+  "cost": 0.0012815,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012815,
+   "upstream_inference_prompt_cost": 0.000525,
+   "upstream_inference_completions_cost": 0.0007565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 954,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Banbury Cross",
+   "normalized": "Banbury Cross, Banbury, Oxfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "having performed several journeys to Banbury Cross and back",
+   "note": "Reference to the nursery rhyme; the cross is a real monument in Banbury."
+  },
+  {
+   "as_written": "Staggs's Gardeners",
+   "normalized": "Staggs's Gardens, Camden Town, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "regarded by the Staggs’s Gardeners as prodigies of imitative art",
+   "note": "Fictional street in the novel; the passage's 'Gardeners' appears to be a typo for 'Gardens'. Location approximate."
+  },
+  {
+   "as_written": "the Gardens",
+   "normalized": "Staggs's Gardens, Camden Town, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "to inspect some toad-stools and other curiosities of the Gardens",
+   "note": "Same place as the preceding entry, named by short form; listed separately as it is used as a setting."
+  },
+  {
+   "as_written": "City Road",
+   "normalized": "City Road, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if they could only go round towards the City Road on their way back",
+   "note": ""
+  },
+  {
+   "as_written": "the Charitable Grinders' establishment",
+   "normalized": "Charitable Grinders' establishment (school), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "he had received a perfectly unsolicited black eye on his way to the Grinders’ establishment",
+   "note": "Fictional school; location not specified in the passage."
+  }
+ ]
+}

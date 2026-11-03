@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1515,
+  "completion_tokens": 118,
+  "total_tokens": 1633,
+  "cost": 0.0002105,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002105,
+   "upstream_inference_prompt_cost": 0.0001515,
+   "upstream_inference_completions_cost": 0.000059
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0499. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): If I do, swear to me, Walton, that he shall not escape; that you will seek him, and satisfy my vengeance in his death.\n\n1818 text: Yet, do I dare ask you to undertake my pilgrimage, to endure the hardships that I have undergone?\n\n1831 text: And do I dare to ask of you to undertake my pilgrimage, to endure the hardships that I have undergone?\n\nDiff: [-Yet,-] {+And+} do I dare {+to+} ask {+of+} you to undertake my pilgrimage, to endure the hardships that I have undergone?\n\nContext after (unchanged): No; I am not so selfish."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'Yet,' with 'And' and adds 'to' and 'of' ('do I dare to ask of you'); the request's meaning is unchanged, only its syntax and connective shift, a stylistic adjustment in Victor's diction.",
+  "confidence": "high",
+  "rationaleWords": 33
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c017-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4166,
+  "completion_tokens": 1486,
+  "total_tokens": 5652,
+  "cost": 0.0011596,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011596,
+   "upstream_inference_prompt_cost": 0.0004166,
+   "upstream_inference_completions_cost": 0.000743
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1022,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Medway",
+   "normalized": "River Medway, Kent",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and saw the Medway",
+   "note": ""
+  },
+  {
+   "as_written": "Cathedral",
+   "normalized": "Canterbury Cathedral, Canterbury, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "and see the Cathedral",
+   "note": "Named only as 'the Cathedral'; identified from the cathedral town context."
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the agreeable hours they had passed in Canterbury",
+   "note": ""
+  },
+  {
+   "as_written": "Pentonville",
+   "normalized": "Pentonville, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lodgings in Pentonville",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "waiting for a remittance from London",
+   "note": ""
+  },
+  {
+   "as_written": "Doctor Strong’s",
+   "normalized": "Doctor Strong's school, Canterbury, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "call at Doctor Strong’s in the course of the morning",
+   "note": "School location inferred as Canterbury."
+  }
+ ]
+}

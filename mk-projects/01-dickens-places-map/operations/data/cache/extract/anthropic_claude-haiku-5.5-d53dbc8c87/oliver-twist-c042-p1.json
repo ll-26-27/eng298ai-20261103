@@ -1,0 +1,102 @@
+{
+ "chunk": "oliver-twist-c042-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5234,
+  "completion_tokens": 2418,
+  "total_tokens": 7652,
+  "cost": 0.0017324,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017324,
+   "upstream_inference_prompt_cost": 0.0005234,
+   "upstream_inference_completions_cost": 0.001209
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1799,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Great North Road",
+   "normalized": "Great North Road, England",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "advanced towards London, by the Great North Road",
+   "note": "Road leading into London, outside the city"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Those are the lights of London.",
+   "note": ""
+  },
+  {
+   "as_written": "Highgate archway",
+   "normalized": "Highgate Archway, Highgate, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "until they passed through Highgate archway",
+   "note": "Then a village outside the city; now in London"
+  },
+  {
+   "as_written": "the Angel at Islington",
+   "normalized": "The Angel, Islington, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "arrived at the Angel at Islington",
+   "note": "Coaching inn"
+  },
+  {
+   "as_written": "Saint John’s Road",
+   "normalized": "St John's Road, Clerkenwell, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he crossed into Saint John’s Road",
+   "note": ""
+  },
+  {
+   "as_written": "Gray’s Inn Lane",
+   "normalized": "Gray's Inn Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "between Gray’s Inn Lane and Smithfield",
+   "note": ""
+  },
+  {
+   "as_written": "Smithfield",
+   "normalized": "Smithfield, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and Smithfield, render that part of the town",
+   "note": ""
+  },
+  {
+   "as_written": "Three Cripples",
+   "normalized": "Three Cripples public house, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Three Cripples,” repeated Noah",
+   "note": "Inn name; exact location not given in passage"
+  }
+ ]
+}

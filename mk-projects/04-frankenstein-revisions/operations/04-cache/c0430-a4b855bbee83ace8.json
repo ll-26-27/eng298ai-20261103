@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1755,
+  "completion_tokens": 79,
+  "total_tokens": 1834,
+  "cost": 0.000215,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000215,
+   "upstream_inference_prompt_cost": 0.0001755,
+   "upstream_inference_completions_cost": 0.0000395
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0430. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): Answer me, I conjure you, by our mutual happiness, with simple truth—Do you not love another?\n\n1818 text: \"You have travelled; you have spent several years of your life at Ingolstadt; and I confess to you, my friend, that when I saw you last autumn so unhappy, flying to solitude, from the society of every creature, I could not help supposing that you might regret our connexion, and believe yourself bound in honour to fulfil the wishes of your parents, although they opposed themselves to your inclinations.\n\n1831 text: \"You have travelled; you have spent several years of your life at Ingolstadt; and I confess to you, my friend, that when I saw you last autumn so unhappy, flying to solitude, from the society of every creature, I could not help supposing that you might regret our connection, and believe yourself bound in honour to fulfil the wishes of your parents, although they opposed themselves to your inclinations.\n\nDiff: \" You have travelled; you have spent several years of your life at Ingolstadt; and I confess to you, my friend, that when I saw you last autumn so unhappy, flying to solitude, from the society of every creature, I could not help supposing that you might regret our [-connexion-] {+connection+} , and believe yourself bound in honour to fulfil the wishes of your parents, although they opposed themselves to your inclinations.\n\nContext after (unchanged): But this is false reasoning."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'connexion' becomes 'connection' with the same word and meaning. No change in wording or sense.",
+  "confidence": "high",
+  "rationaleWords": 19
+ }
+}

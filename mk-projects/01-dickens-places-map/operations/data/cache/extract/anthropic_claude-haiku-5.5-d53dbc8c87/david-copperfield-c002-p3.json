@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c002-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5219,
+  "completion_tokens": 978,
+  "total_tokens": 6197,
+  "cost": 0.0010109,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010109,
+   "upstream_inference_prompt_cost": 0.0005219,
+   "upstream_inference_completions_cost": 0.000489
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 669,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Sheffield",
+   "normalized": "Sheffield, Yorkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Only Brooks of Sheffield,",
+   "note": "Appears in the joke name 'Brooks of Sheffield'; the town is only referred to."
+  },
+  {
+   "as_written": "St. Paul's",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the box with St. Paul’s on the lid",
+   "note": "Depicted on a box; the cathedral is only referred to."
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "spend a fortnight at my brother’s at Yarmouth?",
+   "note": "Planned destination; they have not yet arrived in this passage."
+  }
+ ]
+}

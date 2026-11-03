@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1547,
+  "completion_tokens": 96,
+  "total_tokens": 1643,
+  "cost": 0.0002027,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002027,
+   "upstream_inference_prompt_cost": 0.0001547,
+   "upstream_inference_completions_cost": 0.000048
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0148. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): Another storm enlightened Jura with faint flashes; and another darkened and sometimes disclosed the Môle, a peaked mountain to the east of the lake.\n\n1818 text: While I watched the storm, so beautiful yet terrific, I wandered on with a hasty step.\n\n1831 text: While I watched the tempest, so beautiful yet terrific, I wandered on with a hasty step.\n\nDiff: While I watched the [-storm-] {+tempest+} , so beautiful yet terrific, I wandered on with a hasty step.\n\nContext after (unchanged): This noble war in the sky elevated my spirits; I clasped my hands, and exclaimed aloud, \"William, dear angel! this is thy funeral, this thy dirge!\""
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Single word swap 'storm' becomes 'tempest' with meaning and sense unchanged; a near-synonym choice of diction, with no shift in event, emotion, or judgment.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

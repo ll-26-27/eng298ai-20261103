@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1558,
+  "completion_tokens": 120,
+  "total_tokens": 1678,
+  "cost": 0.0002158,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002158,
+   "upstream_inference_prompt_cost": 0.0001558,
+   "upstream_inference_completions_cost": 0.00006
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0287. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): I postponed this attempt for some months longer; for the importance attached to its success inspired me with a dread lest I should fail.\n\n1818 text: Besides, I found that my understanding improved so much with every day's experience, that I was unwilling to commence this undertaking until a few more months should have added to my wisdom.\n\n1831 text: Besides, I found that my understanding improved so much with every day's experience, that I was unwilling to commence this undertaking until a few more months should have added to my sagacity.\n\nDiff: Besides, I found that my understanding improved so much with every day's experience, that I was unwilling to commence this undertaking until a few more months should have added to my [-wisdom-] {+sagacity+} .\n\nContext after (unchanged): \"Several changes, in the mean time, took place in the cottage."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'wisdom' with 'sagacity' in 'added to my wisdom'; the sense of the sentence (gaining mental acuity and judgment) is kept, only the diction shifts, with a slightly sharper, more shrewd connotation.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

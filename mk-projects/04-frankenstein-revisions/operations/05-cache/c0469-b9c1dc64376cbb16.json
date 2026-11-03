@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1803,
+  "completion_tokens": 114,
+  "total_tokens": 1917,
+  "cost": 0.004746,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004746,
+   "upstream_inference_prompt_cost": 0.003606,
+   "upstream_inference_completions_cost": 0.00114
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0469. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): The story is too connected to be mistaken for a dream, and I have no motive for falsehood.\"\n\n1818 text: My manner, as I thus addressed him, was impressive, but calm; I had formed in my own heart a resolution to pursue my destroyer to death; and this purpose quieted my agony, and provisionally reconciled me to life. I now related my history briefly, but with firmness and precision, marking the dates with accuracy, and never deviating into invective or exclamation.\n\n1831 text: My manner, as I thus addressed him, was impressive, but calm; I had formed in my own heart a resolution to pursue my destroyer to death; and this purpose quieted my agony, and for an interval reconciled me to life. I now related my history, briefly, but with firmness and precision, marking the dates with accuracy, and never deviating into invective or exclamation.\n\nDiff: My manner, as I thus addressed him, was impressive, but calm; I had formed in my own heart a resolution to pursue my destroyer to death; and this purpose quieted my agony, and [-provisionally-] {+for an interval+} reconciled me to life. I now related my history {+,+} briefly, but with firmness and precision, marking the dates with accuracy, and never deviating into invective or exclamation.\n\nContext after (unchanged): The magistrate appeared at first perfectly incredulous, but as I continued he became more attentive and interested; I saw him sometimes shudder with horror, at others a lively surprise, unmingled with disbelief, was painted on his countenance."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"provisionally\" is replaced by \"for an interval\", a plainer, less Latinate phrase with the same sense of temporary reconciliation to life, plus a comma added after \"history\". Stylistic only; no change of event or character.",
+  "confidence": "high",
+  "rationaleWords": 35
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c003-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4482,
+  "completion_tokens": 1253,
+  "total_tokens": 5735,
+  "cost": 0.0010747,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010747,
+   "upstream_inference_prompt_cost": 0.0004482,
+   "upstream_inference_completions_cost": 0.0006265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 917,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the hollow down by the flare",
+   "normalized": "the hollow down by the flare (imaginary place in Liz's vision)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "Still in the hollow down by the flare.",
+   "note": "Imaginary place evoked in Liz's fortune-telling vision, not a real location."
+  },
+  {
+   "as_written": "the Six Jolly Fellowship Porters",
+   "normalized": "Six Jolly Fellowship Porters, Limehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "At mid-day following he reappeared at the Six Jolly Fellowship Porters",
+   "note": "Fictional tavern in the novel; location per the novel, not stated in this passage."
+  },
+  {
+   "as_written": "the Thames",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the body of Mr John Harmon had been discovered floating in the Thames",
+   "note": ""
+  }
+ ]
+}

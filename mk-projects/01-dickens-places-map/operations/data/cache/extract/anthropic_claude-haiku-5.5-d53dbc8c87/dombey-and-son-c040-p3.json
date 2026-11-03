@@ -1,0 +1,57 @@
+{
+ "chunk": "dombey-and-son-c040-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5335,
+  "completion_tokens": 806,
+  "total_tokens": 6141,
+  "cost": 0.0009365,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009365,
+   "upstream_inference_prompt_cost": 0.0005335,
+   "upstream_inference_completions_cost": 0.000403
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 523,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "reached Brighton the same night, fell to pieces as usual",
+   "note": ""
+  },
+  {
+   "as_written": "the Downs",
+   "normalized": "South Downs, near Brighton, Sussex",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "they were out upon the Downs with nothing but a bare sweep of land",
+   "note": "Named generically as 'the Downs'; identified as the South Downs by context."
+  },
+  {
+   "as_written": "Queer Street",
+   "normalized": "Queer Street",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "a fair friend of ours has removed to Queer Street",
+   "note": "Figurative idiom for financial ruin or trouble, not a real street."
+  }
+ ]
+}

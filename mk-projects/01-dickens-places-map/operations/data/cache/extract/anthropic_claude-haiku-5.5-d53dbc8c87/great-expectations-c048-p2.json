@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c048-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2741,
+  "completion_tokens": 504,
+  "total_tokens": 3245,
+  "cost": 0.0005261,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005261,
+   "upstream_inference_prompt_cost": 0.0002741,
+   "upstream_inference_completions_cost": 0.000252
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 296,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Gerrard Street",
+   "normalized": "Gerrard Street, Soho, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "this woman in Gerrard Street here had been married very young",
+   "note": "Wemmick speaks as if the woman lives on this street, where the scene takes place."
+  },
+  {
+   "as_written": "Hounslow Heath",
+   "normalized": "Hounslow Heath, Middlesex",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "was found dead in a barn near Hounslow Heath",
+   "note": "Heath west of London, outside the city."
+  }
+ ]
+}

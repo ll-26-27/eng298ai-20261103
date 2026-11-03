@@ -1,0 +1,39 @@
+{
+ "chunk": "great-expectations-c059-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3975,
+  "completion_tokens": 509,
+  "total_tokens": 4484,
+  "cost": 0.000652,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000652,
+   "upstream_inference_prompt_cost": 0.0003975,
+   "upstream_inference_completions_cost": 0.0002545
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 382,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the East",
+   "normalized": "The East (Egypt and the Eastern Mediterranean, where Pip lived abroad)",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "though they had both been often before my fancy in the East,",
+   "note": "Vague regional reference; Pip's years abroad, not a specific place named in the passage."
+  }
+ ]
+}

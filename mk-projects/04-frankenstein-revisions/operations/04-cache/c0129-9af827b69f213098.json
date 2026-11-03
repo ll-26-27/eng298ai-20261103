@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1485,
+  "completion_tokens": 106,
+  "total_tokens": 1591,
+  "cost": 0.0002015,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002015,
+   "upstream_inference_prompt_cost": 0.0001485,
+   "upstream_inference_completions_cost": 0.000053
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0129. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): On my return, I found the following letter from my father:—\n\n1818 text: \"To V. FRANKENSTEIN. \"MY DEAR VICTOR,\n\n1831 text: \"My dear Victor,\n\nDiff: [-\"To V. FRANKENSTEIN. \"MY DEAR VICTOR,-] {+\"My dear Victor,+}\n\nContext after (unchanged): \"You have probably waited impatiently for a letter to fix the date of your return to us; and I was at first tempted to write only a few lines, merely mentioning the day on which I should expect you."
+ },
+ "result": {
+  "category": "framing",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 2,
+  "rationale": "Removes the epistolary heading 'To V. FRANKENSTEIN.' from the father's letter, a framing/paratext element (the letter's address line), with no replacement; the salutation itself is kept.",
+  "confidence": "high",
+  "rationaleWords": 26
+ }
+}

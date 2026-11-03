@@ -1,0 +1,205 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "ratcliff",
+   "lat": 51.5115,
+   "lon": -0.0395,
+   "confidence": "medium",
+   "now": "Ratcliff, a district of Tower Hamlets between Limehouse and Shadwell, on the north bank of the Thames",
+   "reason": "Ratcliff (Ratcliffe) Highway and the hamlet lay along the river east of Wapping; the gazetteer's Stepney/E1 match is the right area, though the exact centre of the district is approximate."
+  },
+  {
+   "place_id": "reading",
+   "lat": 51.4543,
+   "lon": -0.9781,
+   "confidence": "high",
+   "now": "Reading, Berkshire; town centre near the station and Forbury",
+   "reason": "Reading is a well-known market town on the Bath Road coach route; the gazetteer matched a hospital instead of the town centre."
+  },
+  {
+   "place_id": "southampton",
+   "lat": 50.9025,
+   "lon": -1.4042,
+   "confidence": "high",
+   "now": "Southampton city centre, Hampshire, near the Old Town and docks",
+   "reason": "Southampton was a major port and the terminus of the London and South Western Railway from 1840; the gazetteer's guess is a suburban street, not the town centre."
+  },
+  {
+   "place_id": "three jolly bargemen inn",
+   "lat": 51.464,
+   "lon": 0.472,
+   "confidence": "low",
+   "now": "Fictional inn; often associated with the Horseshoe and Castle at Cooling or pubs in Upnor and Gravesend, none with proof",
+   "reason": "The inn is fictional, set in the village modelled on Cooling, Kent, so the coordinates point to the village area only."
+  },
+  {
+   "place_id": "tooting",
+   "lat": 51.4275,
+   "lon": -0.168,
+   "confidence": "high",
+   "now": "Tooting, in the London Borough of Wandsworth (Tooting Bec and Tooting Graveney)",
+   "reason": "Tooting was a Surrey village then, now south-west London; the coordinates are the centre of Tooting."
+  },
+  {
+   "place_id": "barnet",
+   "lat": 51.6525,
+   "lon": -0.2,
+   "confidence": "high",
+   "now": "High Barnet, in the London Borough of Barnet, on the A1000 Great North Road",
+   "reason": "Barnet was a coaching stop on the Great North Road, with the main town at High Barnet; the gazetteer matched only a road."
+  },
+  {
+   "place_id": "boffins house",
+   "lat": 51.52,
+   "lon": -0.16,
+   "confidence": "low",
+   "now": "Fictional house; the 'Boffin's Bower' is a composite, and the mansion near Cavendish Square/Marylebone has no known surviving building",
+   "reason": "Boffin's house is described as a large mansion in a fashionable area of the West End (Cavendish Square/Marylebone) but is a fictional house, so this is a loose district guess."
+  },
+  {
+   "place_id": "borough",
+   "lat": 51.5017,
+   "lon": -0.093,
+   "confidence": "high",
+   "now": "The Borough area around Borough High Street, Southwark; London Bridge/Borough Market",
+   "reason": "The Borough means the Southwark district around Borough High Street, where the gazetteer's match is appropriate."
+  },
+  {
+   "place_id": "chatham",
+   "lat": 51.3811,
+   "lon": 0.527,
+   "confidence": "high",
+   "now": "Chatham, Kent, around the High Street and the Historic Dockyard",
+   "reason": "Chatham was an important naval dockyard town on the Medway; the gazetteer matched a school in a suburb rather than the town centre."
+  },
+  {
+   "place_id": "dombey and son counting house",
+   "lat": 51.513,
+   "lon": -0.087,
+   "confidence": "low",
+   "now": "Fictional; likely the area around Leadenhall Street/Cornhill, City of London; no surviving building",
+   "reason": "The firm is fictional and the text places it in the City near the Royal Exchange and the East India House area, so this is a district guess."
+  },
+  {
+   "place_id": "dombeys house",
+   "lat": 51.523,
+   "lon": -0.15,
+   "confidence": "low",
+   "now": "Fictional house; the text puts it in a Portland Place area on the 'shady side of the way' in the West End, and no building is identified",
+   "reason": "Dombey's house is a fictional residence in a fashionable west-end street (near Portland Place/Harley Street), so the coordinates are an educated guess."
+  },
+  {
+   "place_id": "east indies",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "Historical region of South and Southeast Asia (India through the Malay Archipelago); not a single place",
+   "reason": "The East Indies is a broad generic region referenced in passing, so a single point would be misleading."
+  },
+  {
+   "place_id": "field lane",
+   "lat": 51.5195,
+   "lon": -0.1065,
+   "confidence": "high",
+   "now": "Demolished; the site lies under Holborn Viaduct and Farringdon Road near Saffron Hill",
+   "reason": "Field Lane was a notorious slum and handkerchief-fence street running from Holborn Hill to Saffron Hill beside the Fleet River; it was cleared in the 1840s-1870s for the Holborn Viaduct and Farringdon Road."
+  },
+  {
+   "place_id": "golden cross inn",
+   "lat": 51.5075,
+   "lon": -0.1263,
+   "confidence": "high",
+   "now": "Demolished 1827; site near Charing Cross station and Trafalgar Square (the Golden Cross Hotel/Pub Craven Street survives nearby)",
+   "reason": "The Golden Cross coaching inn stood at Charing Cross near the Strand; it was rebuilt, and then demolished in the 1850s when Charing Cross Station was extended."
+  },
+  {
+   "place_id": "great st bernard hospice",
+   "lat": 45.869,
+   "lon": 7.1715,
+   "confidence": "high",
+   "now": "Great St Bernard Hospice, at the Swiss-Italian border pass (Switzerland, Valais), still operating",
+   "reason": "The hospice of the Great St Bernard Pass stands at about 2,470 m on the Swiss-Italian border."
+  },
+  {
+   "place_id": "kent marshes",
+   "lat": 51.445,
+   "lon": 0.48,
+   "confidence": "medium",
+   "now": "Hoo Peninsula and Cliffe/Cooling marshes on the Thames estuary, north Kent",
+   "reason": "Dickens's marsh country is based on the Thames-Medway marshes near Cooling and Higham, so this is a regional point."
+  },
+  {
+   "place_id": "krooks house",
+   "lat": 51.5155,
+   "lon": -0.112,
+   "confidence": "low",
+   "now": "Fictional; the setting is in the Chancery Lane/Cursitor Street area, with no surviving building",
+   "reason": "Krook's rag-and-bottle shop is fictional, placed near Chancery Lane and Cook's Court, so the point is a rough district estimate."
+  },
+  {
+   "place_id": "limehouse hole",
+   "lat": 51.509,
+   "lon": -0.036,
+   "confidence": "medium",
+   "now": "Part of Limehouse by the Thames, around Narrow Street and Limehouse Basin, Tower Hamlets",
+   "reason": "Limehouse Hole was the riverside stretch of Limehouse near Narrow Street, west of the Regent's Canal Dock; the exact boundary is imprecise."
+  },
+  {
+   "place_id": "liverpool",
+   "lat": 53.4084,
+   "lon": -2.9916,
+   "confidence": "high",
+   "now": "Liverpool city centre, Merseyside",
+   "reason": "Liverpool was a major port; the gazetteer matched a canal branch instead of the city."
+  },
+  {
+   "place_id": "millbank",
+   "lat": 51.493,
+   "lon": -0.126,
+   "confidence": "medium",
+   "now": "Millbank on the north bank of the Thames, Westminster, near the Tate Britain and Lambeth Bridge",
+   "reason": "Millbank is the riverside street running south from the Houses of Parliament; the Millbank Penitentiary (now Tate Britain) was nearby."
+  },
+  {
+   "place_id": "miss havishams house",
+   "lat": 51.388,
+   "lon": 0.501,
+   "confidence": "medium",
+   "now": "Restoration House, Crow Lane, Rochester, which is the main model for Satis House (Satis House itself is on Satis Avenue)",
+   "reason": "Satis House is fictional but modelled on Restoration House (and the real Satis House) in Rochester, Kent."
+  },
+  {
+   "place_id": "murdstone and grinbys warehouse",
+   "lat": 51.509,
+   "lon": -0.1215,
+   "confidence": "medium",
+   "now": "Demolished; the site was at Hungerford Stairs, now beneath Charing Cross station area, near Embankment",
+   "reason": "The firm is fictional but based on Warren's Blacking warehouse at Hungerford Stairs, where Dickens worked as a boy; the site was cleared in the 1860s."
+  },
+  {
+   "place_id": "north of england",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "Broad region of England, not a single locatable place",
+   "reason": "A generic regional phrase, so a single point would be misleading; the gazetteer's match is wrong."
+  },
+  {
+   "place_id": "old green copper rope walk",
+   "lat": 51.5,
+   "lon": -0.05,
+   "confidence": "low",
+   "now": "Fictional; probably along the Rotherhithe/Bermondsey riverside, where rope-walks stood, no surviving structure",
+   "reason": "Dickens's Old Green Copper Rope-walk is fictional, though the setting suggests the Thames shore at Rotherhithe, so the coordinates are a rough guess."
+  },
+  {
+   "place_id": "omer and jorams shop",
+   "lat": 52.6085,
+   "lon": 1.728,
+   "confidence": "low",
+   "now": "Fictional shop; no known building in Great Yarmouth, Norfolk",
+   "reason": "The shop is fictional, located in Yarmouth in David Copperfield, so the coordinates give only the town centre."
+  }
+ ]
+}

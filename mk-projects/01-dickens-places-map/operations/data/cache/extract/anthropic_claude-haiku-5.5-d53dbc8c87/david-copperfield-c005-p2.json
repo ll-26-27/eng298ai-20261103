@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c005-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4901,
+  "completion_tokens": 1978,
+  "total_tokens": 6879,
+  "cost": 0.0014791,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014791,
+   "upstream_inference_prompt_cost": 0.0004901,
+   "upstream_inference_completions_cost": 0.000989
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1442,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We had started from Yarmouth at three o’clock in the afternoon",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "What an amazing place London was to me when I saw it in the distance",
+   "note": ""
+  },
+  {
+   "as_written": "the Whitechapel district",
+   "normalized": "Whitechapel, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "got, in due time, to the inn in the Whitechapel district, for which we were bound",
+   "note": ""
+  },
+  {
+   "as_written": "the Blue Bull, or the Blue Boar",
+   "normalized": "Blue Bull or Blue Boar inn, Whitechapel, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I forget whether it was the Blue Bull, or the Blue Boar",
+   "note": "Narrator unsure which name; inn identity ambiguous"
+  },
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blunderstone, Suffolk",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the dusty youngster from Blunderstone, Suffolk",
+   "note": "Fictional village; guard says Bloonderstone"
+  },
+  {
+   "as_written": "Suffolk",
+   "normalized": "Suffolk",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the dusty youngster from Blunderstone, Suffolk",
+   "note": ""
+  }
+ ]
+}

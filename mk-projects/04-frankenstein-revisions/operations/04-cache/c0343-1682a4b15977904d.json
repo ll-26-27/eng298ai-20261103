@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2310,
+  "completion_tokens": 156,
+  "total_tokens": 2466,
+  "cost": 0.000309,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000309,
+   "upstream_inference_prompt_cost": 0.000231,
+   "upstream_inference_completions_cost": 0.000078
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0343. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): I remembered also the necessity imposed upon me of either journeying to England, or entering into a long correspondence with those philosophers of that country, whose knowledge and discoveries were of indispensable use to me in my present undertaking.\n\n1818 text: The latter method of obtaining the desired intelligence was dilatory and unsatisfactory: besides, any variation was agreeable to me, and I was delighted with the idea of spending a year or two in change of scene and variety of occupation, in absence from my family; during which period some event might happen which would restore me to them in peace and happiness: my promise might be fulfilled, and the monster have departed; or some accident might occur to destroy him, and put an end to my slavery for ever.\n\n1831 text: The latter method of obtaining the desired intelligence was dilatory and unsatisfactory: besides, I had an insurmountable aversion to the idea of engaging myself in my loathsome task in my father's house, while in habits of familiar intercourse with those I loved. I knew that a thousand fearful accidents might occur, the slightest of which would disclose a tale to thrill all connected with me with horror. I was aware also that I should often lose all self-command, all capacity of hiding the harrowing sensations that would possess me during the progress of my unearthly occupation. I must absent myself from all I loved while thus employed. Once commenced, it would quickly be achieved, and I might be restored to my family in peace and happiness. My promise fulfilled, the monster would depart for ever. Or (so my fond fancy imaged) some accident might meanwhile occur to destroy him, and put an end to my slavery for ever.\n\nDiff: [-The latter method of obtaining the desired intelligence was dilatory and unsatisfactory: besides, any variation was agreeable to me, and I was delighted with the idea of spending a year or two in change of scene and variety of occupation, in absence from my family; during which period some event might happen which would restore me to them in peace and happiness: my promise might be fulfilled, and the monster have departed; or some accident might occur to destroy him, and put an end to my slavery for ever.-] {+The latter method of obtaining the desired intelligence was dilatory and unsatisfactory: besides, I had an insurmountable aversion to the idea of engaging myself in my loathsome task in my father's house, while in habits of familiar intercourse with those I loved. I knew that a thousand fearful accidents might occur, the slightest of which would disclose a tale to thrill all connected with me with horror. I was aware also that I should often lose all self-command, all capacity of hiding the harrowing sensations that would possess me during the progress of my unearthly occupation. I must absent myself from all I loved while thus employed. Once commenced, it would quickly be achieved, and I might be restored to my family in peace and happiness. My promise fulfilled, the monster would depart for ever. Or (so my fond fancy imaged) some accident might meanwhile occur to destroy him, and put an end to my slavery for ever.+}\n\nContext after (unchanged): These feelings dictated my answer to my father."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "The 1818 motive of 'change of scene and variety of occupation' is replaced by an 'insurmountable aversion' to working in his father's house and a fear of self-command failing, plus added 'loathsome' and 'unearthly' language; the passage elaborates rather than alters events, but reframes Victor's motive and his inner state.",
+  "confidence": "medium",
+  "rationaleWords": 50
+ }
+}

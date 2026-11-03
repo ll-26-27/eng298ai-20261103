@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c001-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5374,
+  "completion_tokens": 1609,
+  "total_tokens": 6983,
+  "cost": 0.0013419,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013419,
+   "upstream_inference_prompt_cost": 0.0005374,
+   "upstream_inference_completions_cost": 0.0008045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1113,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Two years ago I came to Marseilles.",
+   "note": ""
+  },
+  {
+   "as_written": "Cross of Gold",
+   "normalized": "Cross of Gold inn, Marseille, France",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I put up at the Cross of Gold,--kept then by Monsieur Henri Barronneau",
+   "note": "Inn named in Rigaud's account of his past."
+  },
+  {
+   "as_written": "Canton de Vaud",
+   "normalized": "Vaud, Switzerland",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "My father was Swiss--Canton de Vaud.",
+   "note": ""
+  },
+  {
+   "as_written": "Belgium",
+   "normalized": "Belgium",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I myself was born in Belgium.",
+   "note": ""
+  },
+  {
+   "as_written": "Genoese",
+   "normalized": "Genoa, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The word being, according to its Genoese emphasis",
+   "note": "Adjective form only."
+  },
+  {
+   "as_written": "Lyons sausage",
+   "normalized": "Lyon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Or so--like Lyons sausage,",
+   "note": "Food name derived from Lyon; ambiguous as a place reference."
+  }
+ ]
+}

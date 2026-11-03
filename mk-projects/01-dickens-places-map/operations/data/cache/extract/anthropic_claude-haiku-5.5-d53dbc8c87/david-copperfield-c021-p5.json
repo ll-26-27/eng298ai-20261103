@@ -1,0 +1,39 @@
+{
+ "chunk": "david-copperfield-c021-p5",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1768,
+  "completion_tokens": 364,
+  "total_tokens": 2132,
+  "cost": 0.0003588,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003588,
+   "upstream_inference_prompt_cost": 0.0001768,
+   "upstream_inference_completions_cost": 0.000182
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 240,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as we walked at a round pace back to Yarmouth.",
+   "note": "Characters are walking toward the town, not yet in it; Yarmouth is the Norfolk seaport."
+  }
+ ]
+}

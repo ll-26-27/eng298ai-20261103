@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c040-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5632,
+  "completion_tokens": 875,
+  "total_tokens": 6507,
+  "cost": 0.0010007,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010007,
+   "upstream_inference_prompt_cost": 0.0005632,
+   "upstream_inference_completions_cost": 0.0004375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 616,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Bower",
+   "normalized": "Boffin's Bower (Boffin's house, Harmony Jail, Holloway, London)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "So he locked up the Bower and they set forth",
+   "note": "Boffin's house, named in the novel; location is approximate and inferred from the story's London setting."
+  },
+  {
+   "as_written": "the Little Mound",
+   "normalized": "The Little Mound (Boffin's dust-heap property, London)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "gives to Nicodemus Boffin the Little Mound, which is quite enough for him",
+   "note": "Named land in John Harmon's will; a fictional place in the novel's London setting."
+  }
+ ]
+}

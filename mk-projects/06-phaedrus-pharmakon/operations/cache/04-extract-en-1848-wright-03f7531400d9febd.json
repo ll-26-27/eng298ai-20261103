@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716731-kwDuMdHAV3RiwBEi86Xw",
+  "object": "chat.completion",
+  "created": 1793716731,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"medicine\",\"gloss\":\"medicine\",\"category\":\"remedy/medicine\",\"note\":\"Appears in the clause 'it being a medicine which I have discovered , both for memory and wisdom'; the stray space before the comma is in the OCR text.\"},\"mneme_274e\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Also 'better able to remember' earlier, but the genitive of the pharmakon clause is 'for memory'.\"},\"sophia_274e\":{\"rendering\":\"wisdom\",\"gloss\":\"wisdom\",\"note\":\"\"},\"pharmakon_275a\":{\"rendering\":\"medicine\",\"gloss\":\"medicine\",\"category\":\"remedy/medicine\",\"note\":\"Same word as at 274e, so Thamus reuses Theuth's term. Wright writes 'Your discovery, therefore, is a medicine not for memory, but for recollection'.\"},\"mneme_275a\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Same word as at 274e.\"},\"hypomnesis_275a\":{\"rendering\":\"recollection\",\"gloss\":\"recollection\",\"note\":\"Glossed immediately as 'for recalling to, not for keeping in mind', which explains the contrast. 'Recollection' is also used earlier for the verb anamimneskomenous ('they will recollect'), so the hypomnesis/anamnesis distinction is blurred.\"},\"sophia_275a\":{\"rendering\":\"a show of wisdom without the reality\",\"gloss\":\"an appearance of wisdom lacking the reality\",\"note\":\"Doxa is rendered 'a show' and aletheia 'the reality' in a looser form; the opposition 'not truth' becomes 'without the reality'.\"},\"doxosophoi_275b\":{\"rendering\":\"wise in their own conceit\",\"gloss\":\"wise in their own conceit\",\"note\":\"Wright expands the compound into a phrase; the contrast with sophoi is given as 'instead of truly wise'. The sense is 'conceited' rather than 'seeming wise', which shifts the emphasis from appearance to self-opinion.\"},\"argument\":\"Wright uses 'medicine' for both occurrences of pharmakon, so Thamus turns Theuth's own word against him: it is a medicine, but for recollection, not memory. This keeps the argument legible and tidy, yet it settles the word as a healing term and removes any hint of poison or ambivalence. 'Memory'/'recollection' also keeps the mneme/hypomnesis contrast, though 'recollection' blurs it with anamnesis, and 'wise in their own conceit' makes the final charge about vanity rather than mere seeming.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5733,
+    "completion_tokens": 875,
+    "total_tokens": 6608,
+    "cost": 0.020216,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.020216,
+      "upstream_inference_prompt_cost": 0.011466,
+      "upstream_inference_completions_cost": 0.00875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c021-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5153,
+  "completion_tokens": 679,
+  "total_tokens": 5832,
+  "cost": 0.0008548,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008548,
+   "upstream_inference_prompt_cost": 0.0005153,
+   "upstream_inference_completions_cost": 0.0003395
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I was so concerned, I recollect, even for the honour of Yarmouth",
+   "note": ""
+  },
+  {
+   "as_written": "the inn",
+   "normalized": "Yarmouth, Norfolk",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "as we drove through its dark streets to the inn",
+   "note": "Unnamed inn at Yarmouth; the Dolphin is named separately"
+  },
+  {
+   "as_written": "the Dolphin",
+   "normalized": "Dolphin Inn, Great Yarmouth",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I observed a pair of dirty shoes and gaiters in connexion with my old friend the Dolphin as we passed that door",
+   "note": ""
+  },
+  {
+   "as_written": "the beach",
+   "normalized": "Great Yarmouth beach, Norfolk",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "had been strolling about the beach before I was up",
+   "note": ""
+  },
+  {
+   "as_written": "Mr. Omer’s shop",
+   "normalized": "Omer's shop, Great Yarmouth",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "until I came to Mr. Omer’s shop",
+   "note": "Draper and funeral furnisher shop; Omer's name is a person, shop is the place"
+  },
+  {
+   "as_written": "the old familiar places",
+   "normalized": "Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "returning so auspiciously to the old familiar places",
+   "note": "Generic; Yarmouth already listed"
+  },
+  {
+   "as_written": "the residence of Mr. Barkis, carrier to Blunderstone",
+   "normalized": "Blunderstone",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "carrier to Blunderstone and elsewhere",
+   "note": "Fictional village in Dickens's novel"
+  }
+ ]
+}

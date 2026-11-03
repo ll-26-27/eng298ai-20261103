@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1516,
+  "completion_tokens": 99,
+  "total_tokens": 1615,
+  "cost": 0.0002011,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002011,
+   "upstream_inference_prompt_cost": 0.0001516,
+   "upstream_inference_completions_cost": 0.0000495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0186. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): Anguish and despair had penetrated into the core of my heart; I bore a hell within me, which nothing could extinguish.\n\n1818 text: We staid several hours with Justine; and it was with great difficulty that Elizabeth could tear herself away.\n\n1831 text: We stayed several hours with Justine; and it was with great difficulty that Elizabeth could tear herself away.\n\nDiff: We [-staid-] {+stayed+} several hours with Justine; and it was with great difficulty that Elizabeth could tear herself away.\n\nContext after (unchanged): \"I wish,\" cried she, \"that I were to die with you; I cannot live in this world of misery.\""
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Change is only the archaic past-tense form 'staid' to modern 'stayed'; the verb, meaning, and events are identical, so this is orthographic modernization with no interpretive weight.",
+  "confidence": "high",
+  "rationaleWords": 27
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "great-expectations-c040-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4863,
+  "completion_tokens": 1332,
+  "total_tokens": 6195,
+  "cost": 0.0011523,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011523,
+   "upstream_inference_prompt_cost": 0.0004863,
+   "upstream_inference_completions_cost": 0.000666
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 906,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Temple",
+   "normalized": "Temple, Inner and Middle Temple, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "When you came into the Temple last night",
+   "note": "Inns of Court precinct where Pip's chambers are; the chambers are located here."
+  },
+  {
+   "as_written": "Fountain Court",
+   "normalized": "Fountain Court, Temple, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "One lived in Fountain Court",
+   "note": ""
+  },
+  {
+   "as_written": "the Lane",
+   "normalized": "Temple Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the other two lived in the Lane",
+   "note": "Ambiguous; the passage does not give the full name, and Temple Lane is an inference."
+  },
+  {
+   "as_written": "the marshes",
+   "normalized": "Kent marshes, near Cooling, Kent",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "since I saw him eat on the marshes",
+   "note": "Refers to the marshes of the novel's opening chapter; the exact location is inferred."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Are you known in London?",
+   "note": ""
+  }
+ ]
+}

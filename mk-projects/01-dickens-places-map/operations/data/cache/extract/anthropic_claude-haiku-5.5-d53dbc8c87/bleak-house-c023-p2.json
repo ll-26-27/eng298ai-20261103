@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c023-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5200,
+  "completion_tokens": 869,
+  "total_tokens": 6069,
+  "cost": 0.0009545,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009545,
+   "upstream_inference_prompt_cost": 0.00052,
+   "upstream_inference_completions_cost": 0.0004345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 469,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincoln’s Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when he intended to be articled in Lincoln’s Inn.",
+   "note": "Inn of Court; he is asked about articles there, not present."
+  },
+  {
+   "as_written": "Soho Square",
+   "normalized": "Soho Square, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "At last we came to Soho Square, where Caddy Jellyby had appointed to wait for me",
+   "note": "Garden in the centre of the square is where Esther and Caddy walk."
+  },
+  {
+   "as_written": "Newman Street",
+   "normalized": "Newman Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as a quiet place in the neighbourhood of Newman Street.",
+   "note": "Prince's dancing academy is on Newman Street; they go there."
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Recomposing himself on the sofa like the second gentleman in Europe.",
+   "note": "Continent, used figuratively."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2433,
+  "completion_tokens": 144,
+  "total_tokens": 2577,
+  "cost": 0.0003153,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003153,
+   "upstream_inference_prompt_cost": 0.0002433,
+   "upstream_inference_completions_cost": 0.000072
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0059. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): My departure was therefore fixed at an early date; but, before the day resolved upon could arrive, the first misfortune of my life occurred—an omen, as it were, of my future misery.\n\n1818 text: Elizabeth had caught the scarlet fever; but her illness was not severe, and she quickly recovered. During her confinement, many arguments had been urged to persuade my mother to refrain from attending upon her. She had, at first, yielded to our entreaties; but when she heard that her favourite was recovering, she could no longer debar herself from her society, and entered her chamber long before the danger of infection was past. The consequences of this imprudence were fatal. On the third day my mother sickened; her fever was very malignant, and the looks of her attendants prognosticated the worst event. On her death-bed the fortitude and benignity of this admirable woman did not desert her. She joined the hands of Elizabeth and myself: \"My children,\" she said, \"my firmest hopes of future happiness were placed on the prospect of your union.\n\n1831 text: Elizabeth had caught the scarlet fever; her illness was severe, and she was in the greatest danger. During her illness, many arguments had been urged to persuade my mother to refrain from attending upon her. She had, at first, yielded to our entreaties; but when she heard that the life of her favourite was menaced, she could no longer control her anxiety. She attended her sick bed,—her watchful attentions triumphed over the malignity of the distemper,—Elizabeth was saved, but the consequences of this imprudence were fatal to her preserver. On the third day my mother sickened; her fever was accompanied by the most alarming symptoms, and the looks of her medical attendants prognosticated the worst event. On her death-bed the fortitude and benignity of this best of women did not desert her. She joined the hands of Elizabeth and myself:—\"My children,\" she said, \"my firmest hopes of future happiness were placed on the prospect of your union.\n\nDiff: Elizabeth had caught the scarlet fever; [-but-] her illness was [-not-] severe, and she [-quickly recovered-] {+was in the greatest danger+} . During her [-confinement-] {+illness+} , many arguments had been urged to persuade my mother to refrain from attending upon her. She had, at first, yielded to our entreaties; but when she heard that {+the life of+} her favourite was [-recovering-] {+menaced+} , she could no longer [-debar herself from-] {+control+} her [-society-] {+anxiety. She attended her sick bed+} , [-and entered-] {+—+} her [-chamber long before-] {+watchful attentions triumphed over+} the [-danger-] {+malignity+} of [-infection-] {+the distemper,—Elizabeth+} was [-past. The-] {+saved, but the+} consequences of this imprudence were fatal {+to her preserver+} . On the third day my mother sickened; her fever was [-very malignant-] {+accompanied by the most alarming symptoms+} , and the looks of her {+medical+} attendants prognosticated the worst event. On her death-bed the fortitude and benignity of this [-admirable woman-] {+best of women+} did not desert her. She joined the hands of Elizabeth and myself: {+—+} \" My children, \" she said, \" my firmest hopes of future happiness were placed on the prospect of your union.\n\nContext after (unchanged): This expectation will now be the consolation of your father."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Elizabeth's illness is made severe and she is 'saved' at the mother's cost, with the mother now 'preserver'; the mother's self-sacrifice is heightened, shifting emphasis from fatal imprudence toward heroic maternal devotion and her 'watchful attentions'.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

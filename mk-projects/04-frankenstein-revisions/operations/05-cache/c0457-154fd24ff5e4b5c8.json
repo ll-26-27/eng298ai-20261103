@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1593,
+  "completion_tokens": 115,
+  "total_tokens": 1708,
+  "cost": 0.004336,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004336,
+   "upstream_inference_prompt_cost": 0.003186,
+   "upstream_inference_completions_cost": 0.00115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0457. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): A grin was on the face of the monster; he seemed to jeer, as with his fiendish finger he pointed towards the corpse of my wife.\n\n1818 text: I rushed towards the window, and drawing a pistol from my bosom, shot; but he eluded me, leaped from his station, and, running with the swiftness of lightning, plunged into the lake.\n\n1831 text: I rushed towards the window, and drawing a pistol from my bosom, fired; but he eluded me, leaped from his station, and, running with the swiftness of lightning, plunged into the lake.\n\nDiff: I rushed towards the window, and drawing a pistol from my bosom, [-shot-] {+fired+} ; but he eluded me, leaped from his station, and, running with the swiftness of lightning, plunged into the lake.\n\nContext after (unchanged): The report of the pistol brought a crowd into the room."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Single verb swap, 'shot' to 'fired', after 'drawing a pistol'. The event is unchanged: Victor fires at the monster and misses. 'Fired' is the more idiomatic verb and has no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

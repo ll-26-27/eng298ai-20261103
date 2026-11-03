@@ -1,0 +1,44 @@
+{
+  "note": "Every text this use case reads. All are public domain in the US. 00-fetch-texts.mjs downloads them; nothing here is edited by hand.",
+  "texts": [
+    {
+      "id": "en-1818",
+      "language": "English",
+      "edition": "1818, first edition (London: Lackington, Hughes, Harding, Mavor & Jones)",
+      "file": "pg41445.txt",
+      "url": "https://www.gutenberg.org/cache/epub/41445/pg41445.txt",
+      "page": "https://www.gutenberg.org/ebooks/41445",
+      "copyright": "Public domain (published 1818). Project Gutenberg transcription."
+    },
+    {
+      "id": "en-1831",
+      "language": "English",
+      "edition": "1831, revised edition (London: Colburn and Bentley, Standard Novels)",
+      "file": "pg84.txt",
+      "url": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+      "page": "https://www.gutenberg.org/ebooks/84",
+      "copyright": "Public domain (published 1831). Project Gutenberg transcription."
+    },
+    {
+      "id": "fr-1821",
+      "language": "French",
+      "edition": "Frankenstein, ou le Prométhée moderne, tome premier, trans. J. S.*** [Jules Saladin] (Paris: Corréard, 1821)",
+      "file": "pg62404.txt",
+      "url": "https://www.gutenberg.org/cache/epub/62404/pg62404.txt",
+      "page": "https://www.gutenberg.org/ebooks/62404",
+      "copyright": "Public domain (published 1821). Project Gutenberg transcription made from the Gallica (BnF) scans.",
+      "follows": "1818"
+    },
+    {
+      "id": "de-1912",
+      "language": "German",
+      "edition": "Frankenstein oder Der moderne Prometheus, trans. Heinz Widtmann (Leipzig: Max Altmann, 1912); one chapter, as transcribed by Projekt Gutenberg-DE from a 2009 Fischer Taschenbuch reprint",
+      "file": "de-widtmann-chapter.txt",
+      "url": "https://projekt-gutenberg.org/authors/mary-shelley/books/frankenstein-oder-der-moderne-prometheus/chapter/11",
+      "format": "html-paragraphs",
+      "page": "https://projekt-gutenberg.org/authors/mary-shelley/books/frankenstein-oder-der-moderne-prometheus",
+      "copyright": "Widtmann's translation was first published in 1912, so it is public domain in the US. The transcription follows a 2009 reprint and has not been checked against the 1912 printing; only this one chapter is kept here.",
+      "follows": "1831"
+    }
+  ]
+}

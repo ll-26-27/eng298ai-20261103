@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1805,
+  "completion_tokens": 139,
+  "total_tokens": 1944,
+  "cost": 0.00025,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025,
+   "upstream_inference_prompt_cost": 0.0001805,
+   "upstream_inference_completions_cost": 0.0000695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0195. Location: 1818 Vol. II, Ch. I; 1831 Ch. IX.\n\nContext before (unchanged): Elizabeth was sad and desponding; she no longer took delight in her ordinary occupations; all pleasure seemed to her sacrilege toward the dead; eternal woe and tears she then thought was the just tribute she should pay to innocence so blasted and destroyed.\n\n1818 text: She was no longer that happy creature, who in earlier youth wandered with me on the banks of the lake, and talked with ecstacy of our future prospects. She had become grave, and often conversed of the inconstancy of fortune, and the instability of human life.\n\n1831 text: She was no longer that happy creature, who in earlier youth wandered with me on the banks of the lake, and talked with ecstasy of our future prospects. The first of those sorrows which are sent to wean us from the earth, had visited her, and its dimming influence quenched her dearest smiles.\n\nDiff: She was no longer that happy creature, who in earlier youth wandered with me on the banks of the lake, and talked with [-ecstacy-] {+ecstasy+} of our future prospects. [-She had become grave, and often conversed-] {+The first+} of {+those sorrows which are sent to wean us from+} the [-inconstancy of fortune-] {+earth+} , {+had visited her,+} and [-the instability of human life-] {+its dimming influence quenched her dearest smiles+} .\n\nContext after (unchanged): \"When I reflect, my dear cousin,\" said she, \"on the miserable death of Justine Moritz, I no longer see the world and its works as they before appeared to me."
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "wording",
+   "fate-agency"
+  ],
+  "significance": 4,
+  "rationale": "Replaces 'inconstancy of fortune' and 'instability of human life' with 'sorrows which are sent to wean us from the earth' and 'dimming influence', a providential, religious framing of Elizabeth's grief; the 'ecstacy' change is mere spelling.",
+  "confidence": "high",
+  "rationaleWords": 36
+ }
+}

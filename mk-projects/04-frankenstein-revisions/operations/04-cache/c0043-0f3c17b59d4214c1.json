@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1535,
+  "completion_tokens": 98,
+  "total_tokens": 1633,
+  "cost": 0.0002025,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002025,
+   "upstream_inference_prompt_cost": 0.0001535,
+   "upstream_inference_completions_cost": 0.000049
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0043. Location: 1818 Letter IV; 1831 Letter IV.\n\nContext before (unchanged): Yesterday the stranger said to me, \"You may easily perceive, Captain Walton, that I have suffered great and unparalleled misfortunes.\n\n1818 text: I had determined, once, that the memory of these evils should die with me; but you have won me to alter my determination.\n\n1831 text: I had determined, at one time, that the memory of these evils should die with me; but you have won me to alter my determination.\n\nDiff: I had determined, [-once-] {+at one time+} , that the memory of these evils should die with me; but you have won me to alter my determination.\n\nContext after (unchanged): You seek for knowledge and wisdom, as I once did; and I ardently hope that the gratification of your wishes may not be a serpent to sting you, as mine has been."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Replaces the single adverb \"once\" with the phrase \"at one time\"; same meaning (formerly, previously), only diction and rhythm change, with no alteration of events or moral content.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

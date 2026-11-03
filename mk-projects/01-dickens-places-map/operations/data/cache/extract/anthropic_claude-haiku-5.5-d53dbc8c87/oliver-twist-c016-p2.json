@@ -1,0 +1,39 @@
+{
+ "chunk": "oliver-twist-c016-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4453,
+  "completion_tokens": 836,
+  "total_tokens": 5289,
+  "cost": 0.0008633,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008633,
+   "upstream_inference_prompt_cost": 0.0004453,
+   "upstream_inference_completions_cost": 0.000418
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 696,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mr. Brownlow’s",
+   "normalized": "Mr. Brownlow's house, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the identical old suit of clothes which Oliver had so much congratulated himself upon leaving off at Mr. Brownlow’s",
+   "note": "Residence identified only by owner's name; exact location not given in this passage."
+  }
+ ]
+}

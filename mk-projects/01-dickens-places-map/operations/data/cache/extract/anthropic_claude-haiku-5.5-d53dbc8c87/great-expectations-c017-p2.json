@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c017-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3878,
+  "completion_tokens": 1060,
+  "total_tokens": 4938,
+  "cost": 0.0009178,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009178,
+   "upstream_inference_prompt_cost": 0.0003878,
+   "upstream_inference_completions_cost": 0.00053
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 725,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the brewery yard",
+   "normalized": "Brewery yard, Pip's village (Great Expectations)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "exactly as I had done in the brewery yard",
+   "note": "Unnamed local yard in Pip's village; fictional, not locatable"
+  },
+  {
+   "as_written": "the room with the stopped clocks",
+   "normalized": "Miss Havisham's room at Satis House",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "playing beggar my neighbour by candle-light in the room with the stopped clocks",
+   "note": "Room in Miss Havisham's house; Satis House is not named in this passage"
+  },
+  {
+   "as_written": "Joe's establishment",
+   "normalized": "Joe Gargery's forge, Pip's village (Great Expectations)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He had struck root in Joe's establishment",
+   "note": "The forge; fictional village location"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "great-expectations-c041-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4879,
+  "completion_tokens": 1383,
+  "total_tokens": 6262,
+  "cost": 0.0011794,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011794,
+   "upstream_inference_prompt_cost": 0.0004879,
+   "upstream_inference_completions_cost": 0.0006915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 946,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Essex Street",
+   "normalized": "Essex Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was midnight before I took him round to Essex Street",
+   "note": "Provis's lodging is on this street; Pip walks him there"
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London (Inner and Middle Temple)",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the street was empty when I turned back into the Temple",
+   "note": "Inn of Court district where Pip lives"
+  },
+  {
+   "as_written": "Garden Court",
+   "normalized": "Garden Court, Temple, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Garden Court was as still and lifeless as the staircase was when I ascended it",
+   "note": ""
+  },
+  {
+   "as_written": "Newgate",
+   "normalized": "Newgate Prison, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "with Newgate in the next street",
+   "note": "Prison; Herbert's figure of speech about its proximity"
+  },
+  {
+   "as_written": "Hyde Park",
+   "normalized": "Hyde Park, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "near Hyde Park",
+   "note": "Provis wants a lodging nearby"
+  }
+ ]
+}

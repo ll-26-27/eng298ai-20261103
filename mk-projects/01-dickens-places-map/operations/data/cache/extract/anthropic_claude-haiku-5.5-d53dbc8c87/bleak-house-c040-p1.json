@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c040-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5130,
+  "completion_tokens": 871,
+  "total_tokens": 6001,
+  "cost": 0.0009485,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009485,
+   "upstream_inference_prompt_cost": 0.000513,
+   "upstream_inference_completions_cost": 0.0004355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 551,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "England has been in a dreadful state for some weeks.",
+   "note": ""
+  },
+  {
+   "as_written": "Great Britain",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there being nobody in Great Britain (to speak of) except Coodle and Doodle",
+   "note": "Island as a whole, used figuratively."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the London season comes to a sudden end",
+   "note": ""
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Mrs. Rouncewell, housekeeper at Chesney Wold",
+   "note": "Fictional Dedlock country house."
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c052-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5335,
+  "completion_tokens": 1765,
+  "total_tokens": 7100,
+  "cost": 0.001416,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001416,
+   "upstream_inference_prompt_cost": 0.0005335,
+   "upstream_inference_completions_cost": 0.0008825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1286,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "went down to Canterbury by the Dover mail that night",
+   "note": ""
+  },
+  {
+   "as_written": "Dover mail",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "went down to Canterbury by the Dover mail that night",
+   "note": "Named as the mail coach route, not a visit to Dover."
+  },
+  {
+   "as_written": "Mount Vesuvius",
+   "normalized": "Mount Vesuvius, Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "we are ready for Mount Vesuvius, or anything else",
+   "note": "Volcano used as a figure of speech; no mountain type available."
+  },
+  {
+   "as_written": "the cathedral towers",
+   "normalized": "Canterbury Cathedral, Canterbury, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The rooks were sailing about the cathedral towers",
+   "note": "Cathedral identified by context; Black Prince's armour hangs within it."
+  },
+  {
+   "as_written": "the old house",
+   "normalized": "Wickfield's house, Canterbury, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I looked at the old house from the corner of the street",
+   "note": "Fictional house based on a real Canterbury-area building."
+  }
+ ]
+}

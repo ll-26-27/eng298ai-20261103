@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1645,
+  "completion_tokens": 86,
+  "total_tokens": 1731,
+  "cost": 0.0002075,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002075,
+   "upstream_inference_prompt_cost": 0.0001645,
+   "upstream_inference_completions_cost": 0.000043
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0362. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): His feelings are for ever on the stretch; and when he begins to sink into repose, he finds himself obliged to quit that on which he rests in pleasure for something new, which again engages his attention, and which also he forsakes for other novelties.\n\n1818 text: We had scarcely visited the various lakes of Cumberland and Westmoreland, and conceived an affection for some of the inhabitants, when the period of our appointment with our Scotch friend approached, and we left them to travel on.\n\n1831 text: We had scarcely visited the various lakes of Cumberland and Westmorland, and conceived an affection for some of the inhabitants, when the period of our appointment with our Scotch friend approached, and we left them to travel on.\n\nDiff: We had scarcely visited the various lakes of Cumberland and [-Westmoreland-] {+Westmorland+} , and conceived an affection for some of the inhabitants, when the period of our appointment with our Scotch friend approached, and we left them to travel on.\n\nContext after (unchanged): For my own part I was not sorry."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the county name changes from 'Westmoreland' to 'Westmorland', an orthographic correction of the place name with no change in wording or meaning.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

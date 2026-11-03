@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1923,
+  "completion_tokens": 451,
+  "total_tokens": 2374,
+  "cost": 0.0004178,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004178,
+   "upstream_inference_prompt_cost": 0.0001923,
+   "upstream_inference_completions_cost": 0.0002255
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 331,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0054. Location: 1818 Vol. I, Ch. I; 1831 Ch. II.\n\nContext before (unchanged): My dear Victor, do not waste your time upon this; it is sad trash.\"\n\n1818 text: If, instead of this remark, my father had taken the pains, to explain to me, that the principles of Agrippa had been entirely exploded, and that a modern system of science had been introduced, which possessed much greater powers than the ancient, because the powers of the latter were chimerical, while those of the former were real and practical; under such circumstances, I should certainly have thrown Agrippa aside, and, with my imagination warmed as it was, should probably have applied myself to the more rational theory of chemistry which has resulted from modern discoveries.\n\n1831 text: If, instead of this remark, my father had taken the pains to explain to me, that the principles of Agrippa had been entirely exploded, and that a modern system of science had been introduced, which possessed much greater powers than the ancient, because the powers of the latter were chimerical, while those of the former were real and practical; under such circumstances, I should certainly have thrown Agrippa aside, and have contented my imagination, warmed as it was, by returning with greater ardour to my former studies.\n\nDiff: If, instead of this remark, my father had taken the pains [-,-] to explain to me, that the principles of Agrippa had been entirely exploded, and that a modern system of science had been introduced, which possessed much greater powers than the ancient, because the powers of the latter were chimerical, while those of the former were real and practical; under such circumstances, I should certainly have thrown Agrippa aside, and [-, with-] {+have contented+} my imagination {+,+} warmed as it was, [-should probably have applied myself-] {+by returning with greater ardour+} to [-the more rational theory of chemistry which has resulted from modern discoveries-] {+my former studies+} .\n\nContext after (unchanged): It is even possible, that the train of my ideas would never have received the fatal impulse that led to my ruin."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Replaces 'applied myself to the more rational theory of chemistry' with 'returning with greater ardour to my former studies'. Victor's counterfactual path now continues his own obsession, not a rational alternative, changing how his nature is presented.",
+  "confidence": "medium",
+  "rationaleWords": 37
+ }
+}

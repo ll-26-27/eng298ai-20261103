@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c055-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4832,
+  "completion_tokens": 877,
+  "total_tokens": 5709,
+  "cost": 0.0009217,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009217,
+   "upstream_inference_prompt_cost": 0.0004832,
+   "upstream_inference_completions_cost": 0.0004385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 617,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold (fictional Dedlock house, Lincolnshire)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I came away last night from Chesney Wold to find my son in my old age",
+   "note": "Fictional country house in Bleak House; located in Lincolnshire within the novel."
+  },
+  {
+   "as_written": "Ghost’s Walk",
+   "normalized": "Ghost's Walk (fictional gallery at Chesney Wold)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the step upon the Ghost’s Walk was so constant and so solemn",
+   "note": "Fictional walk within Chesney Wold; not locatable on a real map."
+  }
+ ]
+}

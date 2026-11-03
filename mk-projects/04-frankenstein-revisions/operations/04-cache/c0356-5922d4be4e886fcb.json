@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1564,
+  "completion_tokens": 81,
+  "total_tokens": 1645,
+  "cost": 0.0001969,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001969,
+   "upstream_inference_prompt_cost": 0.0001564,
+   "upstream_inference_completions_cost": 0.0000405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0356. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): Every thought that was devoted to it was an extreme anguish, and every word that I spoke in allusion to it caused my lips to quiver, and my heart to palpitate.\n\n1818 text: After passing some months in London, we received a letter from a person in Scotland, who had formerly been our visitor at Geneva.\n\n1831 text: After passing some months in London, we received a letter from a person in Scotland, who had formerly been our visiter at Geneva.\n\nDiff: After passing some months in London, we received a letter from a person in Scotland, who had formerly been our [-visitor-] {+visiter+} at Geneva.\n\nContext after (unchanged): He mentioned the beauties of his native country, and asked us if those were not sufficient allurements to induce us to prolong our journey as far north as Perth, where he resided."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: \"visitor\" becomes \"visiter\" with the same meaning and no alteration of wording or events.",
+  "confidence": "high",
+  "rationaleWords": 18
+ }
+}

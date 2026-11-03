@@ -1,0 +1,39 @@
+{
+ "chunk": "oliver-twist-c027-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5647,
+  "completion_tokens": 554,
+  "total_tokens": 6201,
+  "cost": 0.0008417,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008417,
+   "upstream_inference_prompt_cost": 0.0005647,
+   "upstream_inference_completions_cost": 0.000277
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 418,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Sowerberry's",
+   "normalized": "Sowerberry's undertaker's shop (fictional, unnamed town)",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "I’ll call at Sowerberry’s as I go home, and tell him to send tomorrow morning.",
+   "note": "Fictional business in an unnamed provincial town; not locatable."
+  }
+ ]
+}

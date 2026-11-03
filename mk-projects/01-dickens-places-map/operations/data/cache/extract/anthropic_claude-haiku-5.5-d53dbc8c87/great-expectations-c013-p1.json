@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c013-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5365,
+  "completion_tokens": 868,
+  "total_tokens": 6233,
+  "cost": 0.0009705,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009705,
+   "upstream_inference_prompt_cost": 0.0005365,
+   "upstream_inference_completions_cost": 0.000434
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 512,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Miss Havisham’s house",
+   "normalized": "Satis House, Rochester, Kent",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "As it was almost noon, Joe and I held straight on to Miss Havisham’s house.",
+   "note": "Fictional house named only by owner here; Satis House is its name in the novel, located in an unnamed town modelled on Rochester."
+  },
+  {
+   "as_written": "Pumblechook’s",
+   "normalized": "Pumblechook’s house, town of Rochester, Kent",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "When we came to Pumblechook’s, my sister bounced in and left us.",
+   "note": "Building named after its owner, Uncle Pumblechook; the town is not named in this passage."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "carrying a basket like the Great Seal of England in plaited Straw",
+   "note": "Figure of speech comparing the basket to the Great Seal."
+  }
+ ]
+}

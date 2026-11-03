@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1576,
+  "completion_tokens": 114,
+  "total_tokens": 1690,
+  "cost": 0.0002146,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002146,
+   "upstream_inference_prompt_cost": 0.0001576,
+   "upstream_inference_completions_cost": 0.000057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0467. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): For they had called me mad; and during many months, as I understood, a solitary cell had been my habitation.\n\n1818 text: But liberty had been a useless gift to me had I not, as I awakened to reason, at the same time awakened to revenge.\n\n1831 text: Liberty, however, had been an useless gift to me, had I not, as I awakened to reason, at the same time awakened to revenge.\n\nDiff: [-But liberty-] {+Liberty, however,+} had been [-a-] {+an+} useless gift to me {+,+} had I not, as I awakened to reason, at the same time awakened to revenge.\n\nContext after (unchanged): As the memory of past misfortunes pressed upon me, I began to reflect on their cause—the monster whom I had created, the miserable dæmon whom I had sent abroad into the world for my destruction."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'But' with 'Liberty, however,' and 'a' with 'an', plus a comma; rephrases the sentence's connective and adds a grammatical article fix, keeping the sense of revenge following liberty unchanged.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

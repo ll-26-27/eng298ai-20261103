@@ -1,0 +1,111 @@
+{
+ "chunk": "little-dorrit-c007-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5155,
+  "completion_tokens": 771,
+  "total_tokens": 5926,
+  "cost": 0.000901,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000901,
+   "upstream_inference_prompt_cost": 0.0005155,
+   "upstream_inference_completions_cost": 0.0003855
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Insolvent Court",
+   "normalized": "Insolvent Debtors' Court, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "He was as good-natured a dancing-master as ever danced to the Insolvent Court",
+   "note": "Court as place; a historical London court"
+  },
+  {
+   "as_written": "the Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the Child of the Marshalsea had always upon her the care of preserving the genteel fiction",
+   "note": "Debtors' prison; the Marshalsea is the setting throughout"
+  },
+  {
+   "as_written": "Clifford's Inns",
+   "normalized": "Clifford's Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Tip languished in Clifford’s Inns for six months",
+   "note": "Inn of Court; Dickens's plural form"
+  },
+  {
+   "as_written": "the Palace Court",
+   "normalized": "Palace Court, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in the office of an attorney in a great National Palladium called the Palace Court",
+   "note": "Mock-grand name of a court building; possibly fictional"
+  },
+  {
+   "as_written": "Canada",
+   "normalized": "Canada",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "she pinched and scraped enough together to ship him for Canada",
+   "note": ""
+  },
+  {
+   "as_written": "Liverpool",
+   "normalized": "Liverpool, Lancashire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "But not all the way to Canada; in fact, not further than Liverpool.",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "After making the voyage to that port from London",
+   "note": ""
+  },
+  {
+   "as_written": "Moorfields",
+   "normalized": "Moorfields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "he had been seen at a mock auction in Moorfields",
+   "note": ""
+  },
+  {
+   "as_written": "Albion",
+   "normalized": "Albion",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to the dignity and safety of Albion",
+   "note": "Poetic name for Britain"
+  }
+ ]
+}

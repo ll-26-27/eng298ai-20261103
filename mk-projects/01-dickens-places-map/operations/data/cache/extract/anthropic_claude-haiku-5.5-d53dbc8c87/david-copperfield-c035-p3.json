@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c035-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5245,
+  "completion_tokens": 831,
+  "total_tokens": 6076,
+  "cost": 0.00094,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00094,
+   "upstream_inference_prompt_cost": 0.0005245,
+   "upstream_inference_completions_cost": 0.0004155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 597,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "was leaving Dover for good",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Agnes had come to London to see my aunt",
+   "note": "Scene is in London; the city is named as a whole, not a district."
+  },
+  {
+   "as_written": "the Horse Guards",
+   "normalized": "Horse Guards, Whitehall, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "showing Mr. Dick the soldiers at the Horse Guards",
+   "note": ""
+  }
+ ]
+}

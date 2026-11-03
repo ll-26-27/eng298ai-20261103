@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1667,
+  "completion_tokens": 105,
+  "total_tokens": 1772,
+  "cost": 0.0002192,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002192,
+   "upstream_inference_prompt_cost": 0.0001667,
+   "upstream_inference_completions_cost": 0.0000525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0548. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Do not think that I shall be slow to perform this sacrifice.\n\n1818 text: I shall quit your vessel on the ice-raft which brought me hither, and shall seek the most northern extremity of the globe; I shall collect my funeral pile, and consume to ashes this miserable frame, that its remains may afford no light to any curious and unhallowed wretch, who would create such another as I have been.\n\n1831 text: I shall quit your vessel on the ice-raft which brought me thither, and shall seek the most northern extremity of the globe; I shall collect my funeral pile, and consume to ashes this miserable frame, that its remains may afford no light to any curious and unhallowed wretch, who would create such another as I have been.\n\nDiff: I shall quit your vessel on the ice-raft which brought me [-hither-] {+thither+} , and shall seek the most northern extremity of the globe; I shall collect my funeral pile, and consume to ashes this miserable frame, that its remains may afford no light to any curious and unhallowed wretch, who would create such another as I have been.\n\nContext after (unchanged): I shall die."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only 'hither' is replaced by 'thither' in 'the ice-raft which brought me hither/thither'. Both are directional adverbs; the change is a word-choice swap with no effect on events or meaning.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

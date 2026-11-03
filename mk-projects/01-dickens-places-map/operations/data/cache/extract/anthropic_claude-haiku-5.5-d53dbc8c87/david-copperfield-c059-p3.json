@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c059-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5331,
+  "completion_tokens": 1534,
+  "total_tokens": 6865,
+  "cost": 0.0013001,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013001,
+   "upstream_inference_prompt_cost": 0.0005331,
+   "upstream_inference_completions_cost": 0.000767
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 995,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Gray’s Inn",
+   "normalized": "Gray's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in that withered Gray’s Inn",
+   "note": "Inn of Court; Traddles's chambers are here."
+  },
+  {
+   "as_written": "Gray’s Inn Hall",
+   "normalized": "Gray's Inn Hall, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "had brought the talking bird, the singing tree, and the golden water into Gray’s Inn Hall",
+   "note": "Figurative reference in the Arabian Nights comparison."
+  },
+  {
+   "as_written": "Devonshire",
+   "normalized": "Devon, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Somebody wanted to recall the name of a place in Devonshire",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "since I had left England three years ago",
+   "note": ""
+  },
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blunderstone, Suffolk",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr. Chillip had left Blunderstone six or seven years ago",
+   "note": "Fictional village in the novel, placed in Suffolk."
+  },
+  {
+   "as_written": "Bury St. Edmund’s",
+   "normalized": "Bury St Edmunds, Suffolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I am established within a few miles of Bury St. Edmund’s, sir",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c047-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4183,
+  "completion_tokens": 1152,
+  "total_tokens": 5335,
+  "cost": 0.0009943,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009943,
+   "upstream_inference_prompt_cost": 0.0004183,
+   "upstream_inference_completions_cost": 0.000576
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 605,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "This time, I write from Rome.",
+   "note": ""
+  },
+  {
+   "as_written": "Via Gregoriana",
+   "normalized": "Via Gregoriana, Rome, Italy",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "in a lodging here, in a place called the Via Gregoriana.",
+   "note": ""
+  },
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We left Venice before Mr and Mrs Gowan did",
+   "note": ""
+  },
+  {
+   "as_written": "the Iron Bridge",
+   "normalized": "Iron Bridge (location in the novel unclear)",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "I can almost hear the voice in which you would tell me on the Iron Bridge.",
+   "note": "Location not stated in passage; identification uncertain"
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "who has followed her, first all the way from Switzerland, and then all the way from Venice",
+   "note": ""
+  },
+  {
+   "as_written": "Genoa",
+   "normalized": "Genoa, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Genoa and Florence among them",
+   "note": ""
+  },
+  {
+   "as_written": "Florence",
+   "normalized": "Florence, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Genoa and Florence among them",
+   "note": ""
+  }
+ ]
+}

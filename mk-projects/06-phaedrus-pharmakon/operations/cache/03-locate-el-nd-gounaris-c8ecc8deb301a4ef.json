@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793715949-VAI7zBo2wyx3eTMtuD8g",
+  "object": "chat.completion",
+  "created": 1793715949,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"found\": true,\n  \"start_words\": \"Ήκουσα λοιπόν ότι περί την Ναύκρατιν\",\n  \"end_words\": \"αντί σοφών δοκησίσοφοι.\",\n  \"stephanus_markers_seen\": \"\",\n  \"note\": \"\"\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a18pGo/eM9y8buYJ2zfr3iwA8havqcq3LsQzL1zhYEunmrryhERRa7XBV6OcQ6XD+aldF5ER7gxYrYYwF7No+G1JRY2M0a5gV/6QXWWg9pUKChr0",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5011,
+    "completion_tokens": 71,
+    "total_tokens": 5082,
+    "cost": 0.0040245,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040245,
+      "upstream_inference_prompt_cost": 0.00375825,
+      "upstream_inference_completions_cost": 0.00026625
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

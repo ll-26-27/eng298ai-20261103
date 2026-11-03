@@ -1,0 +1,156 @@
+{
+ "chunk": "little-dorrit-c016-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5296,
+  "completion_tokens": 2875,
+  "total_tokens": 8171,
+  "cost": 0.0019671,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019671,
+   "upstream_inference_prompt_cost": 0.0005296,
+   "upstream_inference_completions_cost": 0.0014375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1852,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Not like Marseilles, eh?",
+   "note": ""
+  },
+  {
+   "as_written": "the Mediterranean",
+   "normalized": "Mediterranean Sea",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "looking down at the Mediterranean.",
+   "note": ""
+  },
+  {
+   "as_written": "the Bank",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "When I left the Bank for good",
+   "note": "Mr Meagles's former workplace; inferred from context"
+  },
+  {
+   "as_written": "Central Italy",
+   "normalized": "Central Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "antiquities from Central Italy",
+   "note": ""
+  },
+  {
+   "as_written": "Egypt",
+   "normalized": "Egypt",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "bits of mummy from Egypt",
+   "note": ""
+  },
+  {
+   "as_written": "Birmingham",
+   "normalized": "Birmingham, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and perhaps Birmingham",
+   "note": ""
+  },
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "model gondolas from Venice",
+   "note": ""
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "model villages from Switzerland",
+   "note": ""
+  },
+  {
+   "as_written": "Herculaneum",
+   "normalized": "Herculaneum, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "morsels of tesselated pavement from Herculaneum and Pompeii",
+   "note": ""
+  },
+  {
+   "as_written": "Pompeii",
+   "normalized": "Pompeii, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "morsels of tesselated pavement from Herculaneum and Pompeii",
+   "note": ""
+  },
+  {
+   "as_written": "Vesuvius",
+   "normalized": "Mount Vesuvius, Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "lava out of Vesuvius",
+   "note": "volcano, not a region; type approximated"
+  },
+  {
+   "as_written": "Carrara",
+   "normalized": "Carrara, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Carrara sculpture",
+   "note": "marble-quarrying town"
+  },
+  {
+   "as_written": "Trastaverini",
+   "normalized": "Trastevere, Rome",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Trastaverini scarves",
+   "note": "district of Rome; Dickens's spelling; type approximated"
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Geneva jewellery",
+   "note": ""
+  }
+ ]
+}

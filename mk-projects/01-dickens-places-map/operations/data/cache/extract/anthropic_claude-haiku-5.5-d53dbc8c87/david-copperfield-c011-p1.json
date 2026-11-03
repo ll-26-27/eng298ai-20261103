@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c011-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5079,
+  "completion_tokens": 2394,
+  "total_tokens": 7473,
+  "cost": 0.0017049,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017049,
+   "upstream_inference_prompt_cost": 0.0005079,
+   "upstream_inference_completions_cost": 0.001197
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1751,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blackfriars",
+   "normalized": "Blackfriars, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was down in Blackfriars.",
+   "note": ""
+  },
+  {
+   "as_written": "Murdstone and Grinby’s warehouse",
+   "normalized": "Murdstone and Grinby warehouse, Blackfriars, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Murdstone and Grinby’s warehouse was at the waterside.",
+   "note": "Fictional firm; location is Blackfriars riverside."
+  },
+  {
+   "as_written": "the East and West Indies",
+   "normalized": "East Indies and West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "made voyages both to the East and West Indies",
+   "note": "Two regions named together."
+  },
+  {
+   "as_written": "Windsor Terrace, City Road",
+   "normalized": "Windsor Terrace, City Road, Islington, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "‘My address,’ said Mr. Micawber, ‘is Windsor Terrace, City Road.",
+   "note": "Micawber's lodging; the Micawbers' house."
+  },
+  {
+   "as_written": "City Road",
+   "normalized": "City Road, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in the direction of the City Road",
+   "note": ""
+  },
+  {
+   "as_written": "Modern Babylon",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "penetrating the arcana of the Modern Babylon",
+   "note": "Figurative name for London."
+  },
+  {
+   "as_written": "St. Luke’s workhouse",
+   "normalized": "St Luke's workhouse, Old Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "came from St. Luke’s workhouse, in the neighbourhood",
+   "note": "Servant's origin; workhouse location approximate."
+  }
+ ]
+}

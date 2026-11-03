@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c058-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2157,
+  "completion_tokens": 426,
+  "total_tokens": 2583,
+  "cost": 0.0004287,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004287,
+   "upstream_inference_prompt_cost": 0.0002157,
+   "upstream_inference_completions_cost": 0.000213
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 225,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Albany",
+   "normalized": "The Albany, Piccadilly, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "emerging from the Albany into the busy streets",
+   "note": "Set of residential chambers in Piccadilly; Fledgeby's rooms."
+  },
+  {
+   "as_written": "Saint Mary Axe",
+   "normalized": "St Mary Axe, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "took omnibus for Saint Mary Axe",
+   "note": "Destination of her journey; she is not shown arriving."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c058-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4795,
+  "completion_tokens": 1361,
+  "total_tokens": 6156,
+  "cost": 0.00116,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00116,
+   "upstream_inference_prompt_cost": 0.0004795,
+   "upstream_inference_completions_cost": 0.0006805
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 913,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I went away from England; not knowing, even then, how great the shock was",
+   "note": ""
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I had come out of Italy, over one of the great passes of the Alps",
+   "note": ""
+  },
+  {
+   "as_written": "the Alps",
+   "normalized": "Alps, Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "over one of the great passes of the Alps",
+   "note": ""
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I was in Switzerland.",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "for Geneva, and came back in the spring",
+   "note": ""
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as many friends in the valley as in Yarmouth",
+   "note": "Narrator's home town; Dickens's Yarmouth is Great Yarmouth"
+  }
+ ]
+}

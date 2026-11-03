@@ -1,0 +1,66 @@
+{
+ "chunk": "oliver-twist-c039-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3968,
+  "completion_tokens": 892,
+  "total_tokens": 4860,
+  "cost": 0.0008428,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008428,
+   "upstream_inference_prompt_cost": 0.0003968,
+   "upstream_inference_completions_cost": 0.000446
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 496,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Spitalfields",
+   "normalized": "Spitalfields, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in making from Spitalfields towards the West-End of London",
+   "note": ""
+  },
+  {
+   "as_written": "West-End of London",
+   "normalized": "West End, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in making from Spitalfields towards the West-End of London",
+   "note": "Nancy's destination direction; she is heading there."
+  },
+  {
+   "as_written": "Hyde Park",
+   "normalized": "Hyde Park, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "It was a family hotel in a quiet but handsome street near Hyde Park.",
+   "note": "Mentioned as the landmark near the hotel."
+  },
+  {
+   "as_written": "a family hotel in a quiet but handsome street near Hyde Park",
+   "normalized": "Family hotel near Hyde Park, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was a family hotel in a quiet but handsome street near Hyde Park.",
+   "note": "Hotel unnamed in passage; location inferred from Hyde Park reference."
+  }
+ ]
+}

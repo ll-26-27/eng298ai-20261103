@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1854,
+  "completion_tokens": 148,
+  "total_tokens": 2002,
+  "cost": 0.0002594,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002594,
+   "upstream_inference_prompt_cost": 0.0001854,
+   "upstream_inference_completions_cost": 0.000074
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0506. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): I wish to soothe him; yet can I counsel one so infinitely miserable, so destitute of every hope of consolation, to live?\n\n1818 text: Oh, no! the only joy that he can now know will be when he composes his shattered feelings to peace and death. Yet he enjoys one comfort, the offspring of solitude and delirium: he believes, that, when in dreams he holds converse with his friends, and derives from that communion consolation for his miseries, or excitements to his vengeance, that they are not the creations of his fancy, but the real beings who visit him from the regions of a remote world.\n\n1831 text: Oh, no! the only joy that he can now know will be when he composes his shattered spirit to peace and death. Yet he enjoys one comfort, the offspring of solitude and delirium: he believes, that, when in dreams he holds converse with his friends, and derives from that communion consolation for his miseries, or excitements to his vengeance, that they are not the creations of his fancy, but the beings themselves who visit him from the regions of a remote world.\n\nDiff: Oh, no! the only joy that he can now know will be when he composes his shattered [-feelings-] {+spirit+} to peace and death. Yet he enjoys one comfort, the offspring of solitude and delirium: he believes, that, when in dreams he holds converse with his friends, and derives from that communion consolation for his miseries, or excitements to his vengeance, that they are not the creations of his fancy, but the [-real-] beings {+themselves+} who visit him from the regions of a remote world.\n\nContext after (unchanged): This faith gives a solemnity to his reveries that render them to me almost as imposing and interesting as truth."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 3,
+  "rationale": "Two word swaps: 'feelings' becomes 'spirit' and 'real beings' becomes 'beings themselves'. The second shifts emphasis toward the creature's dreamed friends as actual presences, with the 1831 phrasing reinforcing the uncanny reality of the visitors rather than merely labelling them real.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c015-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5135,
+  "completion_tokens": 1101,
+  "total_tokens": 6236,
+  "cost": 0.001064,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001064,
+   "upstream_inference_prompt_cost": 0.0005135,
+   "upstream_inference_completions_cost": 0.0005505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 734,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Barbados",
+   "normalized": "Barbados (island, West Indies)",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Walter could not, for several days, decide what to do in the Barbados business",
+   "note": "Island, not a country in the modern sense; type chosen as closest fit"
+  },
+  {
+   "as_written": "West India Docks",
+   "normalized": "West India Docks, Isle of Dogs, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "having been one day discharged from the West India Docks on a false suspicion",
+   "note": ""
+  },
+  {
+   "as_written": "Brig Place",
+   "normalized": "Brig Place, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "on turning into Brig Place, to behold the broad blue coat and waistcoat",
+   "note": "Location of Captain Cuttle's lodgings; exact position uncertain"
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when I leave England I can hardly hope to see my Uncle again",
+   "note": ""
+  }
+ ]
+}

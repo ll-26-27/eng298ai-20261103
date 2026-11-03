@@ -1,0 +1,1340 @@
+{
+ "categories": [
+  "characterization",
+  "plot",
+  "expansion",
+  "cut",
+  "moral-religious",
+  "fate-agency",
+  "framing",
+  "wording",
+  "spelling",
+  "punctuation",
+  "other"
+ ],
+ "totals": {
+  "sentences1818": 3101,
+  "sentences1831": 3332,
+  "sentencesUnchanged": 2127,
+  "changes": 550,
+  "byKind": {
+   "insertion": 18,
+   "punctuation": 216,
+   "substitution": 297,
+   "removal": 19
+  },
+  "bySize": {
+   "large": 51,
+   "trivial": 216,
+   "small": 224,
+   "medium": 59
+  },
+  "wordsRemoved": 6878,
+  "wordsAdded": 12315,
+  "completenessCheck": "passed: every sentence in both editions is either matched exactly or inside exactly one change"
+ },
+ "labelled": 550,
+ "byRule": 216,
+ "byModel": 334,
+ "failures": 0,
+ "rationalesOver40Words": 42,
+ "byCategory": {
+  "characterization": {
+   "primary": 30,
+   "anyLabel": 94,
+   "words": 1984
+  },
+  "plot": {
+   "primary": 3,
+   "anyLabel": 13,
+   "words": 224
+  },
+  "expansion": {
+   "primary": 43,
+   "anyLabel": 62,
+   "words": 6189
+  },
+  "cut": {
+   "primary": 12,
+   "anyLabel": 28,
+   "words": 197
+  },
+  "moral-religious": {
+   "primary": 9,
+   "anyLabel": 45,
+   "words": 619
+  },
+  "fate-agency": {
+   "primary": 2,
+   "anyLabel": 12,
+   "words": 461
+  },
+  "framing": {
+   "primary": 6,
+   "anyLabel": 9,
+   "words": 2774
+  },
+  "wording": {
+   "primary": 137,
+   "anyLabel": 207,
+   "words": 379
+  },
+  "spelling": {
+   "primary": 91,
+   "anyLabel": 115,
+   "words": 122
+  },
+  "punctuation": {
+   "primary": 216,
+   "anyLabel": 216,
+   "words": 81
+  },
+  "other": {
+   "primary": 1,
+   "anyLabel": 7,
+   "words": 1
+  }
+ },
+ "bySignificance": {
+  "1": 377,
+  "2": 67,
+  "3": 35,
+  "4": 54,
+  "5": 17
+ },
+ "byConfidence": {
+  "high": 433,
+  "medium": 117
+ },
+ "sections": [
+  {
+   "id": "introduction",
+   "label": "Author's Introduction (1831)",
+   "sectionWords": 2247,
+   "from1818": "(new)",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 1,
+    "wording": 0,
+    "spelling": 0,
+    "punctuation": 0,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 2263,
+    "wording": 0,
+    "spelling": 0,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "preface",
+   "label": "Preface",
+   "sectionWords": 571,
+   "from1818": "Preface",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 1,
+    "wording": 1,
+    "spelling": 1,
+    "punctuation": 2,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 3,
+    "wording": 2,
+    "spelling": 1,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "letter-1",
+   "label": "Letter I",
+   "sectionWords": 1199,
+   "from1818": "Letter I",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 4,
+    "punctuation": 6,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 4,
+    "punctuation": 3,
+    "other": 0
+   }
+  },
+  {
+   "id": "letter-2",
+   "label": "Letter II",
+   "sectionWords": 1310,
+   "from1818": "Letter II",
+   "count": {
+    "characterization": 3,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 1,
+    "punctuation": 5,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 229,
+    "plot": 0,
+    "expansion": 156,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 6,
+    "spelling": 1,
+    "punctuation": 2,
+    "other": 0
+   }
+  },
+  {
+   "id": "letter-3",
+   "label": "Letter III",
+   "sectionWords": 300,
+   "from1818": "Letter III",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 1,
+    "wording": 1,
+    "spelling": 0,
+    "punctuation": 2,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 70,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 4,
+    "wording": 2,
+    "spelling": 0,
+    "punctuation": 2,
+    "other": 0
+   }
+  },
+  {
+   "id": "letter-4",
+   "label": "Letter IV",
+   "sectionWords": 2727,
+   "from1818": "Letter IV",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 5,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 3,
+    "spelling": 2,
+    "punctuation": 4,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 715,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 9,
+    "spelling": 4,
+    "punctuation": 3,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch1",
+   "label": "Ch. I",
+   "sectionWords": 1766,
+   "from1818": "Vol. I, Ch. I",
+   "count": {
+    "characterization": 1,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 0,
+    "moral-religious": 1,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 0,
+    "punctuation": 2,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 21,
+    "plot": 0,
+    "expansion": 1518,
+    "cut": 0,
+    "moral-religious": 48,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 0,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch2",
+   "label": "Ch. II",
+   "sectionWords": 2202,
+   "from1818": "Vol. I, Ch. I",
+   "count": {
+    "characterization": 3,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 1,
+    "moral-religious": 0,
+    "fate-agency": 1,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 1,
+    "punctuation": 0,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 755,
+    "plot": 0,
+    "expansion": 364,
+    "cut": 25,
+    "moral-religious": 0,
+    "fate-agency": 456,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 1,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch3",
+   "label": "Ch. III",
+   "sectionWords": 2672,
+   "from1818": "Vol. I, Ch. II",
+   "count": {
+    "characterization": 4,
+    "plot": 0,
+    "expansion": 6,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 4,
+    "punctuation": 6,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 198,
+    "plot": 0,
+    "expansion": 628,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 2,
+    "spelling": 5,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch4",
+   "label": "Ch. IV",
+   "sectionWords": 2532,
+   "from1818": "Vol. I, Ch. III",
+   "count": {
+    "characterization": 1,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 7,
+    "punctuation": 8,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 69,
+    "plot": 0,
+    "expansion": 44,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 0,
+    "spelling": 11,
+    "punctuation": 7,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch5",
+   "label": "Ch. V",
+   "sectionWords": 2350,
+   "from1818": "Vol. I, Ch. IV",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 2,
+    "spelling": 2,
+    "punctuation": 12,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 13,
+    "spelling": 2,
+    "punctuation": 8,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch6",
+   "label": "Ch. VI",
+   "sectionWords": 2714,
+   "from1818": "Vol. I, Ch. V",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 1,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 1,
+    "wording": 4,
+    "spelling": 1,
+    "punctuation": 8,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 123,
+    "cut": 18,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 456,
+    "wording": 88,
+    "spelling": 2,
+    "punctuation": 2,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch7",
+   "label": "Ch. VII",
+   "sectionWords": 3569,
+   "from1818": "Vol. I, Ch. VI",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 4,
+    "cut": 1,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 1,
+    "wording": 12,
+    "spelling": 6,
+    "punctuation": 12,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 372,
+    "cut": 94,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 6,
+    "wording": 36,
+    "spelling": 6,
+    "punctuation": 3,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch8",
+   "label": "Ch. VIII",
+   "sectionWords": 3085,
+   "from1818": "Vol. I, Ch. VII",
+   "count": {
+    "characterization": 1,
+    "plot": 0,
+    "expansion": 4,
+    "cut": 0,
+    "moral-religious": 2,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 3,
+    "punctuation": 13,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 288,
+    "plot": 0,
+    "expansion": 104,
+    "cut": 0,
+    "moral-religious": 284,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 4,
+    "punctuation": 3,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch9",
+   "label": "Ch. IX",
+   "sectionWords": 2209,
+   "from1818": "Vol. II, Ch. I",
+   "count": {
+    "characterization": 2,
+    "plot": 0,
+    "expansion": 3,
+    "cut": 0,
+    "moral-religious": 2,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 0,
+    "punctuation": 3,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 2,
+    "plot": 0,
+    "expansion": 614,
+    "cut": 0,
+    "moral-religious": 54,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 0,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch10",
+   "label": "Ch. X",
+   "sectionWords": 2354,
+   "from1818": "Vol. II, Ch. II",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 2,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 4,
+    "spelling": 3,
+    "punctuation": 8,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 290,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 10,
+    "spelling": 3,
+    "punctuation": 1,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch11",
+   "label": "Ch. XI",
+   "sectionWords": 2902,
+   "from1818": "Vol. II, Ch. III",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 5,
+    "punctuation": 12,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 6,
+    "punctuation": 5,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch12",
+   "label": "Ch. XII",
+   "sectionWords": 2068,
+   "from1818": "Vol. II, Ch. IV",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 3,
+    "punctuation": 7,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 1,
+    "spelling": 3,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch13",
+   "label": "Ch. XIII",
+   "sectionWords": 2031,
+   "from1818": "Vol. II, Ch. V",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 8,
+    "spelling": 2,
+    "punctuation": 3,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 12,
+    "spelling": 3,
+    "punctuation": 1,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch14",
+   "label": "Ch. XIV",
+   "sectionWords": 1854,
+   "from1818": "Vol. II, Ch. VI",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 1,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 10,
+    "spelling": 0,
+    "punctuation": 4,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 2,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 17,
+    "spelling": 0,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch15",
+   "label": "Ch. XV",
+   "sectionWords": 3006,
+   "from1818": "Vol. II, Ch. VII",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 8,
+    "spelling": 6,
+    "punctuation": 11,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 12,
+    "spelling": 11,
+    "punctuation": 11,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch16",
+   "label": "Ch. XVI",
+   "sectionWords": 3196,
+   "from1818": "Vol. II, Ch. VIII",
+   "count": {
+    "characterization": 0,
+    "plot": 1,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 4,
+    "spelling": 5,
+    "punctuation": 9,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 146,
+    "expansion": 0,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 4,
+    "spelling": 11,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch17",
+   "label": "Ch. XVII",
+   "sectionWords": 1915,
+   "from1818": "Vol. II, Ch. IX",
+   "count": {
+    "characterization": 2,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 3,
+    "spelling": 2,
+    "punctuation": 9,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 273,
+    "plot": 0,
+    "expansion": 11,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 4,
+    "spelling": 3,
+    "punctuation": 3,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch18",
+   "label": "Ch. XVIII",
+   "sectionWords": 2838,
+   "from1818": "Vol. III, Ch. I",
+   "count": {
+    "characterization": 4,
+    "plot": 0,
+    "expansion": 3,
+    "cut": 1,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 3,
+    "spelling": 3,
+    "punctuation": 6,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 35,
+    "plot": 0,
+    "expansion": 572,
+    "cut": 16,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 6,
+    "spelling": 3,
+    "punctuation": 2,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch19",
+   "label": "Ch. XIX",
+   "sectionWords": 2609,
+   "from1818": "Vol. III, Ch. II",
+   "count": {
+    "characterization": 1,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 3,
+    "spelling": 3,
+    "punctuation": 5,
+    "other": 1
+   },
+   "wordsChanged": {
+    "characterization": 65,
+    "plot": 0,
+    "expansion": 2,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 3,
+    "spelling": 3,
+    "punctuation": 1,
+    "other": 1
+   }
+  },
+  {
+   "id": "ch20",
+   "label": "Ch. XX",
+   "sectionWords": 3518,
+   "from1818": "Vol. III, Ch. III",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 2,
+    "cut": 1,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 7,
+    "spelling": 3,
+    "punctuation": 12,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 119,
+    "cut": 1,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 10,
+    "spelling": 4,
+    "punctuation": 2,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch21",
+   "label": "Ch. XXI",
+   "sectionWords": 3738,
+   "from1818": "Vol. III, Ch. IV",
+   "count": {
+    "characterization": 2,
+    "plot": 1,
+    "expansion": 2,
+    "cut": 3,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 6,
+    "spelling": 4,
+    "punctuation": 11,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 11,
+    "plot": 18,
+    "expansion": 253,
+    "cut": 29,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 11,
+    "spelling": 6,
+    "punctuation": 1,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch22",
+   "label": "Ch. XXII",
+   "sectionWords": 3417,
+   "from1818": "Vol. III, Ch. V",
+   "count": {
+    "characterization": 4,
+    "plot": 1,
+    "expansion": 2,
+    "cut": 0,
+    "moral-religious": 2,
+    "fate-agency": 0,
+    "framing": 1,
+    "wording": 7,
+    "spelling": 7,
+    "punctuation": 4,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 19,
+    "plot": 60,
+    "expansion": 147,
+    "cut": 0,
+    "moral-religious": 188,
+    "fate-agency": 0,
+    "framing": 42,
+    "wording": 13,
+    "spelling": 9,
+    "punctuation": 2,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch23",
+   "label": "Ch. XXIII",
+   "sectionWords": 2590,
+   "from1818": "Vol. III, Ch. VI",
+   "count": {
+    "characterization": 2,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 12,
+    "spelling": 2,
+    "punctuation": 7,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 19,
+    "plot": 0,
+    "expansion": 81,
+    "cut": 0,
+    "moral-religious": 0,
+    "fate-agency": 0,
+    "framing": 0,
+    "wording": 35,
+    "spelling": 2,
+    "punctuation": 0,
+    "other": 0
+   }
+  },
+  {
+   "id": "ch24",
+   "label": "Ch. XXIV",
+   "sectionWords": 8227,
+   "from1818": "Vol. III, Ch. VII",
+   "count": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 1,
+    "cut": 3,
+    "moral-religious": 2,
+    "fate-agency": 1,
+    "framing": 0,
+    "wording": 33,
+    "spelling": 11,
+    "punctuation": 25,
+    "other": 0
+   },
+   "wordsChanged": {
+    "characterization": 0,
+    "plot": 0,
+    "expansion": 6,
+    "cut": 12,
+    "moral-religious": 45,
+    "fate-agency": 5,
+    "framing": 0,
+    "wording": 80,
+    "spelling": 14,
+    "punctuation": 19,
+    "other": 0
+   }
+  }
+ ],
+ "check": {
+  "cheapModel": "anthropic/claude-haiku-5.5",
+  "checkModel": "anthropic/claude-sonnet-5.5",
+  "sampleSize": 100,
+  "population": 334,
+  "seed": 1831,
+  "sameCategoryPct": 78,
+  "overlappingPct": 96,
+  "significanceWithin1Pct": 98,
+  "significanceExactPct": 66,
+  "byConfidence": {
+   "high": {
+    "n": 66,
+    "agree": 58
+   },
+   "medium": {
+    "n": 34,
+    "agree": 20
+   }
+  },
+  "bySize": {
+   "small": {
+    "n": 70,
+    "agree": 59
+   },
+   "large": {
+    "n": 16,
+    "agree": 8
+   },
+   "medium": {
+    "n": 14,
+    "agree": 11
+   }
+  },
+  "disagreements": {
+   "spelling → wording": 3,
+   "expansion → characterization": 2,
+   "moral-religious → wording": 2,
+   "expansion → wording": 2,
+   "characterization → wording": 2,
+   "wording → spelling": 2,
+   "characterization → expansion": 1,
+   "wording → cut": 1,
+   "expansion → fate-agency": 1,
+   "wording → characterization": 1,
+   "moral-religious → plot": 1,
+   "wording → fate-agency": 1,
+   "characterization → plot": 1,
+   "expansion → plot": 1,
+   "moral-religious → characterization": 1
+  }
+ },
+ "hand": {
+  "reader": "Claude Opus 5.5, the agent that built this pipeline, on 2026-11-03. This is NOT a human scholar's reading. It is a third opinion, and a scholar using this pipeline should redo this step with their own eyes, on their own sample.",
+  "n": 25,
+  "agreeCheapPct": 88,
+  "agreeStrongPct": 92,
+  "disagreeCheap": [
+   "c0051",
+   "c0064",
+   "c0423"
+  ],
+  "disagreeStrong": [
+   "c0022",
+   "c0179"
+  ],
+  "rows": [
+   {
+    "id": "c0008",
+    "category": "spelling",
+    "significance": 1,
+    "note": "phænomena → phenomena; a ligature only.",
+    "cheap": "spelling",
+    "strong": "spelling"
+   },
+   {
+    "id": "c0022",
+    "category": "characterization",
+    "significance": 4,
+    "note": "Walton's anecdote about the master's generosity is replaced by Walton describing his own refined character, formed by 'your gentle and feminine fosterage'. The new material is about who Walton is, so characterization rather than expansion.",
+    "cheap": "characterization",
+    "strong": "expansion"
+   },
+   {
+    "id": "c0051",
+    "category": "characterization",
+    "significance": 5,
+    "note": "The Elizabeth revision: a cousin in 1818, a foundling adopted from Italian peasants in 1831 (a 'pretty present' for Victor). Haiku chose expansion; Sonnet chose characterization. The point is who Elizabeth is and what she is to Victor.",
+    "cheap": "expansion",
+    "strong": "characterization"
+   },
+   {
+    "id": "c0064",
+    "category": "characterization",
+    "significance": 4,
+    "note": "Elizabeth after Caroline's death. Note the 1831 phrase 'those whom she had been taught to call her uncle and cousins': the change in c0051 forced this one, which a keyword search for 'Milanese' would miss.",
+    "cheap": "expansion",
+    "strong": "characterization"
+   },
+   {
+    "id": "c0103",
+    "category": "wording",
+    "significance": 1,
+    "note": "wetted → drenched.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0130",
+    "category": "wording",
+    "significance": 1,
+    "note": "gay → glad.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0157",
+    "category": "wording",
+    "significance": 2,
+    "note": "'so extremely wicked' → 'capable of so frightful, so appalling a crime'. Heightened, not a change of meaning.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0179",
+    "category": "spelling",
+    "significance": 1,
+    "note": "further → farther. Arguably a word choice, not spelling; borderline.",
+    "cheap": "spelling",
+    "strong": "wording"
+   },
+   {
+    "id": "c0206",
+    "category": "spelling",
+    "significance": 1,
+    "note": "aërial → aerial.",
+    "cheap": "spelling",
+    "strong": "spelling"
+   },
+   {
+    "id": "c0233",
+    "category": "spelling",
+    "significance": 1,
+    "note": "dispatched → despatched.",
+    "cheap": "spelling",
+    "strong": "spelling"
+   },
+   {
+    "id": "c0251",
+    "category": "wording",
+    "significance": 1,
+    "note": "'as' removed.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0283",
+    "category": "spelling",
+    "significance": 1,
+    "note": "decypher → decipher.",
+    "cheap": "spelling",
+    "strong": "spelling"
+   },
+   {
+    "id": "c0317",
+    "category": "plot",
+    "significance": 5,
+    "note": "The creature's framing of Justine: in 1818 a woman passes by; in 1831 he finds her asleep in a barn and whispers to her. Both models agree.",
+    "cheap": "plot",
+    "strong": "plot"
+   },
+   {
+    "id": "c0335",
+    "category": "characterization",
+    "significance": 3,
+    "note": "Victor shrinks from the task and 'a change indeed had taken place in me'.",
+    "cheap": "characterization",
+    "strong": "characterization"
+   },
+   {
+    "id": "c0349",
+    "category": "wording",
+    "significance": 1,
+    "note": "'passed by' → 'passed'; staid → stayed (spelling).",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0361",
+    "category": "spelling",
+    "significance": 1,
+    "note": "Westmoreland → Westmorland, plus a comma.",
+    "cheap": "spelling",
+    "strong": "spelling"
+   },
+   {
+    "id": "c0373",
+    "category": "wording",
+    "significance": 2,
+    "note": "weakness → irresolution; resolution → determination. Small shift in Victor's self-description.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0400",
+    "category": "wording",
+    "significance": 1,
+    "note": "'agonizing suffering' → 'agonies'.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0423",
+    "category": "characterization",
+    "significance": 4,
+    "note": "The return through France is rewritten around Victor's guilt ('I abhorred the face of man. Oh, not abhorred!'). The itinerary changes too (plot), but the weight is on Victor's state of mind.",
+    "cheap": "moral-religious",
+    "strong": "characterization"
+   },
+   {
+    "id": "c0435",
+    "category": "wording",
+    "significance": 1,
+    "note": "was → were (subjunctive).",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0445",
+    "category": "plot",
+    "significance": 4,
+    "note": "1818: a house near Cologny; 1831: Elizabeth's restored inheritance and the Villa Lavenza on Lake Como, where the couple plan to go after the wedding.",
+    "cheap": "plot",
+    "strong": "plot"
+   },
+   {
+    "id": "c0454",
+    "category": "wording",
+    "significance": 1,
+    "note": "fainted → fell senseless on the ground.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0469",
+    "category": "wording",
+    "significance": 1,
+    "note": "provisionally → for an interval.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0502",
+    "category": "wording",
+    "significance": 1,
+    "note": "congealed → congeal; agony → anguish.",
+    "cheap": "wording",
+    "strong": "wording"
+   },
+   {
+    "id": "c0520",
+    "category": "wording",
+    "significance": 1,
+    "note": "name → names.",
+    "cheap": "wording",
+    "strong": "wording"
+   }
+  ]
+ }
+}

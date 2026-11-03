@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2222,
+  "completion_tokens": 153,
+  "total_tokens": 2375,
+  "cost": 0.005974,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.005974,
+   "upstream_inference_prompt_cost": 0.004444,
+   "upstream_inference_completions_cost": 0.00153
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0081. Location: 1818 Vol. I, Ch. III; 1831 Ch. IV.\n\nContext before (unchanged): His gentleness was never tinged by dogmatism; and his instructions were given with an air of frankness and good nature, that banished every idea of pedantry.\n\n1818 text: It was, perhaps, the amiable character of this man that inclined me more to that branch of natural philosophy which he professed, than an intrinsic love for the science itself. But this state of mind had place only in the first steps towards knowledge: the more fully I entered into the science, the more exclusively I pursued it for its own sake. That application, which at first had been a matter of duty and resolution, now became so ardent and eager, that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory. As I applied so closely, it may be easily conceived that I improved rapidly. My ardour was indeed the astonishment of the students; and my proficiency, that of the masters.\n\n1831 text: In a thousand ways he smoothed for me the path of knowledge, and made the most abstruse enquiries clear and facile to my apprehension. My application was at first fluctuating and uncertain; it gained strength as I proceeded, and soon became so ardent and eager, that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory. As I applied so closely, it may be easily conceived that my progress was rapid. My ardour was indeed the astonishment of the students, and my proficiency that of the masters.\n\nDiff: [-It was, perhaps, the amiable character of this man that inclined me more to that branch of natural philosophy which-] {+In a thousand ways+} he [-professed, than an intrinsic love-] {+smoothed+} for {+me+} the [-science itself. But this state-] {+path+} of [-mind had place only in the first steps towards-] knowledge [-: the more fully I entered into the science-] , {+and made+} the [-more exclusively I pursued it for its own sake-] {+most abstruse enquiries clear and facile to my apprehension+} . [-That-] {+My+} application [-, which-] {+was+} at first [-had been a matter of duty-] {+fluctuating+} and [-resolution-] {+uncertain; it gained strength as I proceeded+} , [-now-] {+and soon+} became so ardent and eager, that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory. As I applied so closely, it may be easily conceived that [-I improved rapidly-] {+my progress was rapid+} . My ardour was indeed the astonishment of the students [-;-] {+,+} and my proficiency [-,-] that of the masters.\n\nContext after (unchanged): Professor Krempe often asked me, with a sly smile, how Cornelius Agrippa went on? whilst M. Waldman expressed the most heart-felt exultation in my progress."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "expansion",
+   "cut"
+  ],
+  "significance": 3,
+  "rationale": "1818 says Waldman's amiable character only drew Clerval-like Victor to chemistry, which he pursued 'for its own sake'. 1831 replaces this with Waldman smoothing 'the path of knowledge', and drops 'duty and resolution', making Victor's pursuit more teacher-aided and less self-driven.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

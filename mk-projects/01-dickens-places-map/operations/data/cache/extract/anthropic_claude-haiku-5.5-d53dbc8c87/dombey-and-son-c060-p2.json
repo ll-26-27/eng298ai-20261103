@@ -1,0 +1,57 @@
+{
+ "chunk": "dombey-and-son-c060-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5599,
+  "completion_tokens": 1138,
+  "total_tokens": 6737,
+  "cost": 0.0011289,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011289,
+   "upstream_inference_prompt_cost": 0.0005599,
+   "upstream_inference_completions_cost": 0.000569
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 829,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Bedford",
+   "normalized": "Bedford Hotel, Brighton",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Mr and Mrs Toots withdrew to the Bedford (Mrs Toots had been there before in old times",
+   "note": "Location inferred from the wedding at Doctor Blimber's school; the passage does not name the town."
+  },
+  {
+   "as_written": "Limehouse Hole",
+   "normalized": "Limehouse Hole, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the region of Limehouse Hole and thereabouts",
+   "note": ""
+  },
+  {
+   "as_written": "the Custom House",
+   "normalized": "Custom House, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "she was the widow of a Mr Bokum, who had held an employment in the Custom House",
+   "note": "Named as Mr Bokum's former place of employment."
+  }
+ ]
+}

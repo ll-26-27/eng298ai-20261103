@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793715725-YyI36gtUh0O7AYLG7sxe",
+  "object": "chat.completion",
+  "created": 1793715725,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I heard, then, that around Naucratis of Egypt there came to be one of the old gods there, whose bird also is sacred, the one they call Ibis; and the name of the daimon himself was Theuth. This one first discovered number and calculation, and geometry and astronomy, and further draughts and dice, and indeed letters. And Thamus was then king of all Egypt, around the great city of the upper place, which the Greeks call Egyptian Thebes, and the god they call Ammon. Theuth came to him and displayed the arts, and said they must be handed out to the other Egyptians. But he asked what benefit each had, and as Theuth went through them, according as he seemed to speak well or not well, he blamed one thing and praised another. Many things, indeed, about each art, on both sides, Thamus is said to have declared to Theuth, which it would be a long account to go through. But when it came to letters, \"This learning, O king,\" said Theuth, \"will make the Egyptians wiser and more mindful; for a drug of memory and wisdom has been found.\" But he said: \"O most artful Theuth, one man is able to beget the things of art, but another to judge what share of harm and benefit it has for those who are going to use it. And now you, being the father of letters, through goodwill have said the opposite of what it can do. For this will provide forgetfulness in the souls of those who learn it, through neglect of memory, inasmuch as, through trust in writing, they are reminded from outside by alien marks, not from inside by themselves. So you found a drug not of memory but of reminding. And of wisdom you provide to the students the reputation, not the truth; for having become hearers of many things for you without teaching, they will seem to be knowing many things, while being for the most part without knowledge, and hard to be with, having become seeming-wise instead of wise.\"",
+        "refusal": null,
+        "reasoning": "The instructions mention keeping a translator's prior choices like \"remedy\" for φάρμακον, but since there's no existing English version to follow, I just need to translate the Greek directly and literally, returning only that translation.\n\nNow I'm working through the Phaedrus passage about Theuth and Thamus in Egypt — translating the myth of the god who invented number, calculation, geometry, astronomy, draughts, dice, and letters, bringing these arts before the king to be judged and distributed to the Egyptians.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "The instructions mention keeping a translator's prior choices like \"remedy\" for φάρμακον, but since there's no existing English version to follow, I just need to translate the Greek directly and literally, returning only that translation.\n\nNow I'm working through the Phaedrus passage about Theuth and Thamus in Egypt — translating the myth of the god who invented number, calculation, geometry, astronomy, draughts, dice, and letters, bringing these arts before the king to be judged and distributed to the Egyptians.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1zb25uZXQtNS41LTIwMjYwOTI4fGNsYXVkZS1vbi1hd3MifQ"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1724,
+    "completion_tokens": 1441,
+    "total_tokens": 3165,
+    "cost": 0.017858,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.017858,
+      "upstream_inference_prompt_cost": 0.003448,
+      "upstream_inference_completions_cost": 0.01441
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 860,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1518,
+  "completion_tokens": 120,
+  "total_tokens": 1638,
+  "cost": 0.0002118,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002118,
+   "upstream_inference_prompt_cost": 0.0001518,
+   "upstream_inference_completions_cost": 0.00006
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0340. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): My future hopes and prospects are entirely bound up in the expectation of our union.\"\n\n1818 text: \"The expression of your sentiments on this subject, my dear Victor, gives me more pleasure than I have for some time experienced.\n\n1831 text: \"The expression of your sentiments of this subject, my dear Victor, gives me more pleasure than I have for some time experienced.\n\nDiff: \" The expression of your sentiments [-on-] {+of+} this subject, my dear Victor, gives me more pleasure than I have for some time experienced.\n\nContext after (unchanged): If you feel thus, we shall assuredly be happy, however present events may cast a gloom over us."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "A single preposition swap, \"sentiments on this subject\" becoming \"sentiments of this subject\"; the meaning of Elizabeth's reply is unchanged, so it is a grammatical or idiomatic tidying with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c059-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5297,
+  "completion_tokens": 722,
+  "total_tokens": 6019,
+  "cost": 0.0008907,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008907,
+   "upstream_inference_prompt_cost": 0.0005297,
+   "upstream_inference_completions_cost": 0.000361
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 463,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "French gaol",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "A prisoner, in a French gaol, on an accusation of murder,",
+   "note": "Only the country is identified; the gaol itself is unnamed."
+  },
+  {
+   "as_written": "Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "like the well-known spectre of some place in Germany beginning with a B",
+   "note": "Flora's garbled reference to the Brocken; the place is not named exactly."
+  },
+  {
+   "as_written": "the North of England",
+   "normalized": "North of England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the paths down in the North of England where they get the coals",
+   "note": ""
+  }
+ ]
+}

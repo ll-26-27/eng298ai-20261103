@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1626,
+  "completion_tokens": 131,
+  "total_tokens": 1757,
+  "cost": 0.0002281,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002281,
+   "upstream_inference_prompt_cost": 0.0001626,
+   "upstream_inference_completions_cost": 0.0000655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0284. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): Here they are.\n\n1818 text: Every thing is related in them which bears reference to my accursed origin; the whole detail of that series of disgusting circumstances which produced it is set in view; the minutest description of my odious and loathsome person is given, in language which painted your own horrors, and rendered mine ineffaceable.\n\n1831 text: Every thing is related in them which bears reference to my accursed origin; the whole detail of that series of disgusting circumstances which produced it, is set in view; the minutest description of my odious and loathsome person is given, in language which painted your own horrors, and rendered mine indelible.\n\nDiff: Every thing is related in them which bears reference to my accursed origin; the whole detail of that series of disgusting circumstances which produced it {+,+} is set in view; the minutest description of my odious and loathsome person is given, in language which painted your own horrors, and rendered mine [-ineffaceable-] {+indelible+} .\n\nContext after (unchanged): I sickened as I read."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 2,
+  "rationale": "Substitution of 'ineffaceable' with 'indelible' keeps the same meaning (impossible to erase) in the Creature's description of Walton's pages; the added comma is punctuation only. Both words are near-synonyms, so the change is stylistic rather than interpretive.",
+  "confidence": "high",
+  "rationaleWords": 37
+ }
+}

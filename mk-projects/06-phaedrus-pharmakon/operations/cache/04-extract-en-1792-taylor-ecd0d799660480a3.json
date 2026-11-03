@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716714-EIjsBZ2uGrnclmzpKlf7",
+  "object": "chat.completion",
+  "created": 1793716714,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"medicine\",\"gloss\":\"medicine, a healing substance\",\"category\":\"remedy/medicine\",\"note\":\"Taylor's text reads 'For this invention is the medicine of memory and wiſdom.' The Greek's agent/passive 'was found' becomes 'invention is'. The long Neoplatonic commentary interrupts the passage but does not change the word.\"},\"mneme_274e\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Earlier in the speech, 'increaſe their powers of memory' renders mnemonikoteros; here the genitive is 'of memory'.\"},\"sophia_274e\":{\"rendering\":\"wiſdom\",\"gloss\":\"wisdom (long-s printing)\",\"note\":\"Spelled with a long s in the source text.\"},\"pharmakon_275a\":{\"rendering\":\"medicine\",\"gloss\":\"medicine, a healing substance\",\"category\":\"remedy/medicine\",\"note\":\"Same word as at 274e: 'you have not diſcovered the medicine of memory, but of admonition.' The genitive 'of' is repeated only once for the second noun.\"},\"mneme_275a\":{\"rendering\":\"memory\",\"gloss\":\"memory\",\"note\":\"Same word as at 274e. Earlier in Thamus's speech, 'recollection' is used for mnemes ameletesia ('negligence of recollection'), so the vocabulary for memory/recollection shifts in the neighbouring sentence.\"},\"hypomnesis_275a\":{\"rendering\":\"admonition\",\"gloss\":\"admonition, warning/reminding\",\"note\":\"Taylor uses 'admonition' (a warning or chiding) rather than 'reminding' or 'reminder'. This loses the verbal link to memory (hypo-mnesis) that 'recollection' elsewhere in the passage would have kept, and adds a hortatory sense.\"},\"sophia_275a\":{\"rendering\":\"an opinion of wiſdom\",\"gloss\":\"an opinion of wisdom (long-s printing)\",\"note\":\"Taylor renders doxa as 'opinion' and ties it to wisdom. 'not truth' renders ouk aletheian. 'Opinion' is neutral and lacks the sense of mere seeming or reputation.\"},\"doxosophoi_275b\":{\"rendering\":\"poſſeſſing an opinion of wiſdom\",\"gloss\":\"possessing an opinion of wisdom (long-s printing)\",\"note\":\"The compound doxosophoi is not given as a single word but unpacked into a participial phrase, followed by 'inſtead Of wiſdom itſelf' for anti sophon. The 'seeming-wise' coinage is lost, and it repeats the same phrase as 'an opinion of wiſdom' above.\"},\"argument\":\"Taylor keeps one word, 'medicine', for both occurrences of pharmakon, so Thamus does turn Theuth's own word against him: the same remedy is merely re-aimed from memory to 'admonition'. The healing sense stays throughout, and the poison/drug ambivalence is not available. Because hypomnesis becomes 'admonition' and doxosophoi becomes a periphrasis, the memory/reminding contrast and the 'wise-seeming' pun are weakened.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6828,
+    "completion_tokens": 1067,
+    "total_tokens": 7895,
+    "cost": 0.024326,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.024326,
+      "upstream_inference_prompt_cost": 0.013656,
+      "upstream_inference_completions_cost": 0.01067
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

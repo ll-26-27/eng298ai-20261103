@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c064-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4458,
+  "completion_tokens": 2063,
+  "total_tokens": 6521,
+  "cost": 0.0014773,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014773,
+   "upstream_inference_prompt_cost": 0.0004458,
+   "upstream_inference_completions_cost": 0.0010315
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1554,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Holborn Court",
+   "normalized": "Holborn Court, Gray's Inn, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "But those were capital days, too, in Holborn Court!",
+   "note": "Traddles's former chambers, recalled from the past."
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "The Temple, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Working at his chambers in the Temple",
+   "note": "Inns of Court complex where Traddles works."
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "What ship comes sailing home from India",
+   "note": ""
+  },
+  {
+   "as_written": "Sheffield",
+   "normalized": "Sheffield, Yorkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "my old acquaintance Brooks of Sheffield",
+   "note": ""
+  },
+  {
+   "as_written": "Desert of Sahara",
+   "normalized": "Sahara Desert, North Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I liked her better in the Desert of Sahara.",
+   "note": "Used figuratively for Julia's society."
+  },
+  {
+   "as_written": "St. Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a work-box with a picture of St. Paul’s upon the lid",
+   "note": "Picture on a work-box, not the building itself."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c003-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5416,
+  "completion_tokens": 1092,
+  "total_tokens": 6508,
+  "cost": 0.0010876,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010876,
+   "upstream_inference_prompt_cost": 0.0005416,
+   "upstream_inference_completions_cost": 0.000546
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 661,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "We used to walk about that dim old flat at Yarmouth in a loving manner, hours and hours.",
+   "note": "Mentioned more than once; listed once."
+  },
+  {
+   "as_written": "The Willing Mind",
+   "normalized": "The Willing Mind public-house, Yarmouth",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr. Peggotty went occasionally to a public-house called The Willing Mind.",
+   "note": "Inn name is fictional; location inferred from Yarmouth setting."
+  },
+  {
+   "as_written": "the Colosseum",
+   "normalized": "Colosseum, Rome, Italy",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "or a pocket model of the Colosseum.",
+   "note": ""
+  },
+  {
+   "as_written": "Blunderstone Rookery",
+   "normalized": "Blunderstone Rookery",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Blunderstone Rookery would come, however, in spite of her, when the carrier’s horse pleased--and did.",
+   "note": "Fictional house in Suffolk; cannot be located on a real map."
+  }
+ ]
+}

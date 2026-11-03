@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1642,
+  "completion_tokens": 490,
+  "total_tokens": 2132,
+  "cost": 0.0004092,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004092,
+   "upstream_inference_prompt_cost": 0.0001642,
+   "upstream_inference_completions_cost": 0.000245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 352,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0269. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): \"Such were the events that preyed on the heart of Felix, and rendered him, when I first saw him, the most miserable of his family.\n\n1818 text: He could have endured poverty, and when this distress had been the meed of his virtue, he would have gloried in it: but the ingratitude of the Turk, and the loss of his beloved Safie, were misfortunes more bitter and irreparable.\n\n1831 text: He could have endured poverty; and while this distress had been the meed of his virtue, he gloried in it: but the ingratitude of the Turk, and the loss of his beloved Safie, were misfortunes more bitter and irreparable.\n\nDiff: He could have endured poverty [-,-] {+;+} and [-when-] {+while+} this distress had been the meed of his virtue, he [-would have-] gloried in it: but the ingratitude of the Turk, and the loss of his beloved Safie, were misfortunes more bitter and irreparable.\n\nContext after (unchanged): The arrival of the Arabian now infused new life into his soul."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 3,
+  "rationale": "\"would have gloried\" becomes \"gloried\", turning Felix's hypothetical delight in poverty into an actual one. \"when\" becomes \"while\" and the semicolon is added, a syntactic change. The mood shift slightly strengthens Felix's characterization as virtuous.",
+  "confidence": "medium",
+  "rationaleWords": 35
+ }
+}

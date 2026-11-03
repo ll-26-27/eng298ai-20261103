@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c061-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3957,
+  "completion_tokens": 498,
+  "total_tokens": 4455,
+  "cost": 0.0006447,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006447,
+   "upstream_inference_prompt_cost": 0.0003957,
+   "upstream_inference_completions_cost": 0.000249
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 336,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we being in London, in the present private way",
+   "note": "Cousin Feenix and Edith are in London; the meeting takes place there."
+  },
+  {
+   "as_written": "the South of Italy",
+   "normalized": "Southern Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "before going to the South of Italy, there to establish ourselves",
+   "note": ""
+  }
+ ]
+}

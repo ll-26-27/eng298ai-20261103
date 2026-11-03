@@ -1,0 +1,84 @@
+{
+ "chunk": "our-mutual-friend-c002-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5473,
+  "completion_tokens": 2131,
+  "total_tokens": 7604,
+  "cost": 0.0016128,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016128,
+   "upstream_inference_prompt_cost": 0.0005473,
+   "upstream_inference_completions_cost": 0.0010655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1651,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Jamaica",
+   "normalized": "Jamaica",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "about the man from Jamaica.",
+   "note": "Imaginary man's origin in Lady Tippins's joke."
+  },
+  {
+   "as_written": "Tobago",
+   "normalized": "Tobago",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Tobago, then.",
+   "note": ""
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the eyes of Europe upon me",
+   "note": "Continent, used figuratively."
+  },
+  {
+   "as_written": "North Pole",
+   "normalized": "North Pole",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "has last touched at the North Pole",
+   "note": "Figurative, in a metaphor about digestive experiments."
+  },
+  {
+   "as_written": "Cape",
+   "normalized": "Cape Colony, South Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the country where they make the Cape Wine",
+   "note": "Inferred from 'Cape Wine'."
+  },
+  {
+   "as_written": "Day and Martin’s",
+   "normalized": "Day and Martin’s, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Day and Martin’s.",
+   "note": "Named firm, not clearly a place; Eugene's guess at a wine source."
+  }
+ ]
+}

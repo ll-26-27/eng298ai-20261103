@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1568,
+  "completion_tokens": 99,
+  "total_tokens": 1667,
+  "cost": 0.0002063,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002063,
+   "upstream_inference_prompt_cost": 0.0001568,
+   "upstream_inference_completions_cost": 0.0000495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0433. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): Be happy, my friend; and if you obey me in this one request, remain satisfied that nothing on earth will have the power to interrupt my tranquillity.\n\n1818 text: \"Do not let this letter disturb you; do not answer it to-morrow, or the next day, or even until you come, if it will give you pain.\n\n1831 text: \"Do not let this letter disturb you; do not answer to-morrow, or the next day, or even until you come, if it will give you pain.\n\nDiff: \" Do not let this letter disturb you; do not answer [-it-] to-morrow, or the next day, or even until you come, if it will give you pain.\n\nContext after (unchanged): My uncle will send me news of your health; and if I see but one smile on your lips when we meet, occasioned by this or any other exertion of mine, I shall need no other happiness."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Deletion of the pronoun \"it\" in \"do not answer it to-morrow\" is a syntactic tightening that leaves the meaning intact; the instruction not to reply still stands.",
+  "confidence": "high",
+  "rationaleWords": 27
+ }
+}

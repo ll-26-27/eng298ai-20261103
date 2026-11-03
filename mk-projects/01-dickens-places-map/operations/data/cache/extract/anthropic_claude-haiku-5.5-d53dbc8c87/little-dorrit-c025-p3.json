@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c025-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1991,
+  "completion_tokens": 767,
+  "total_tokens": 2758,
+  "cost": 0.0005826,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005826,
+   "upstream_inference_prompt_cost": 0.0001991,
+   "upstream_inference_completions_cost": 0.0003835
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 532,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "pass round by Bleeding Heart Yard, go quietly up the stairs",
+   "note": "Fictional-seeming yard; the scene's setting. Also referred to earlier as 'the Yard'."
+  },
+  {
+   "as_written": "his own country",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "peeping out towards where his own country is",
+   "note": "Not named; implied by Mr Baptist's Italian speech ('signore', 'Altro'). Inferred, not stated."
+  }
+ ]
+}

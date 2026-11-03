@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1568,
+  "completion_tokens": 117,
+  "total_tokens": 1685,
+  "cost": 0.004306,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004306,
+   "upstream_inference_prompt_cost": 0.003136,
+   "upstream_inference_completions_cost": 0.00117
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0179. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): The idea of this visit was torture to me, yet I could not refuse.\n\n1818 text: We entered the gloomy prison-chamber, and beheld Justine sitting on some straw at the further end; her hands were manacled, and her head rested on her knees.\n\n1831 text: We entered the gloomy prison-chamber, and beheld Justine sitting on some straw at the farther end; her hands were manacled, and her head rested on her knees.\n\nDiff: We entered the gloomy prison-chamber, and beheld Justine sitting on some straw at the [-further-] {+farther+} end; her hands were manacled, and her head rested on her knees.\n\nContext after (unchanged): She rose on seeing us enter; and when we were left alone with her, she threw herself at the feet of Elizabeth, weeping bitterly."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "'further' becomes 'farther' at the end of the prison chamber. It is a variant-form or usage swap with the same meaning and no interpretive consequence. It is close to orthography, but these are distinct word forms, so wording fits best.",
+  "confidence": "medium",
+  "rationaleWords": 40
+ }
+}

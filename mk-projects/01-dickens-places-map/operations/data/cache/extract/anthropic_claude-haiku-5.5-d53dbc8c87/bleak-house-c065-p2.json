@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c065-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3241,
+  "completion_tokens": 788,
+  "total_tokens": 4029,
+  "cost": 0.0007181,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007181,
+   "upstream_inference_prompt_cost": 0.0003241,
+   "upstream_inference_completions_cost": 0.000394
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 664,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House (fictional house, Hertfordshire)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "\"When I get down to Bleak House,\" said Richard",
+   "note": "Fictional house in the novel; the guardian's country home, not locatable on a real map."
+  }
+ ]
+}

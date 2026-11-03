@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c030-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4695,
+  "completion_tokens": 842,
+  "total_tokens": 5537,
+  "cost": 0.0008905,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008905,
+   "upstream_inference_prompt_cost": 0.0004695,
+   "upstream_inference_completions_cost": 0.000421
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 619,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Exchequer Coffee House",
+   "normalized": "Exchequer Coffee House, Palace Yard, Westminster, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Without it, I could never have gone to that Exchequer Coffee House, or taken Mrs Wilfer’s lodgings.",
+   "note": "Former coffee house near Westminster Hall; location approximate."
+  },
+  {
+   "as_written": "Whitehall",
+   "normalized": "Whitehall, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I found a crowd assembled round a placard posted at Whitehall.",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2607,
+  "completion_tokens": 129,
+  "total_tokens": 2736,
+  "cost": 0.0003252,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003252,
+   "upstream_inference_prompt_cost": 0.0002607,
+   "upstream_inference_completions_cost": 0.0000645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0065. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): The day of my departure at length arrived.\n\n1818 text: I had taken leave of all my friends, excepting Clerval, who spent the last evening with us. He bitterly lamented that he was unable to accompany me: but his father could not be persuaded to part with him, intending that he should become a partner with him in business, in compliance with his favourite theory, that learning was superfluous in the commerce of ordinary life. Henry had a refined mind; he had no desire to be idle, and was well pleased to become his father's partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding. We sat late, listening to his complaints, and making many little arrangements for the future. The next morning early I departed. Tears gushed from the eyes of Elizabeth; they proceeded partly from sorrow at my departure, and partly because she reflected that the same journey was to have taken place three months before, when a mother's blessing would have accompanied me.\n\n1831 text: Clerval spent the last evening with us. He had endeavoured to persuade his father to permit him to accompany me, and to become my fellow student; but in vain. His father was a narrow-minded trader, and saw idleness and ruin in the aspirations and ambition of his son. Henry deeply felt the misfortune of being debarred from a liberal education. He said little; but when he spoke, I read in his kindling eye and in his animated glance a restrained but firm resolve, not to be chained to the miserable details of commerce. We sat late. We could not tear ourselves away from each other, nor persuade ourselves to say the word \"Farewell!\" It was said; and we retired under the pretence of seeking repose, each fancying that the other was deceived: but when at morning's dawn I descended to the carriage which was to convey me away, they were all there—my father again to bless me, Clerval to press my hand once more, my Elizabeth to renew her entreaties that I would write often, and to bestow the last feminine attentions on her playmate and friend.\n\nDiff: [-I had taken leave of all my friends, excepting Clerval, who spent the last evening with us. He bitterly lamented that he was unable to accompany me: but his father could not be persuaded to part with him, intending that he should become a partner with him in business, in compliance with his favourite theory, that learning was superfluous in the commerce of ordinary life. Henry had a refined mind; he had no desire to be idle, and was well pleased to become his father's partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding. We sat late, listening to his complaints, and making many little arrangements for the future. The next morning early I departed. Tears gushed from the eyes of Elizabeth; they proceeded partly from sorrow at my departure, and partly because she reflected that the same journey was to have taken place three months before, when a mother's blessing would have accompanied me.-] {+Clerval spent the last evening with us. He had endeavoured to persuade his father to permit him to accompany me, and to become my fellow student; but in vain. His father was a narrow-minded trader, and saw idleness and ruin in the aspirations and ambition of his son. Henry deeply felt the misfortune of being debarred from a liberal education. He said little; but when he spoke, I read in his kindling eye and in his animated glance a restrained but firm resolve, not to be chained to the miserable details of commerce. We sat late. We could not tear ourselves away from each other, nor persuade ourselves to say the word \"Farewell!\" It was said; and we retired under the pretence of seeking repose, each fancying that the other was deceived: but when at morning's dawn I descended to the carriage which was to convey me away, they were all there—my father again to bless me, Clerval to press my hand once more, my Elizabeth to renew her entreaties that I would write often, and to bestow the last feminine attentions on her playmate and friend.+}\n\nContext after (unchanged): I threw myself into the chaise that was to convey me away, and indulged in the most melancholy reflections."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Greatly expands the parting scene, but also recasts Clerval's father as a 'narrow-minded trader' and Henry's ambition as a thwarted, liberal-education resolve, changing how both characters read and adding the emotional farewell with family.",
+  "confidence": "medium",
+  "rationaleWords": 34
+ }
+}

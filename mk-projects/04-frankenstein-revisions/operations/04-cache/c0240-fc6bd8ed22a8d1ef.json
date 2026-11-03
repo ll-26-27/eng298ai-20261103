@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1589,
+  "completion_tokens": 98,
+  "total_tokens": 1687,
+  "cost": 0.0002079,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002079,
+   "upstream_inference_prompt_cost": 0.0001589,
+   "upstream_inference_completions_cost": 0.000049
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0240. Location: 1818 Vol. II, Ch. IV; 1831 Ch. XII.\n\nContext before (unchanged): \"I spent the winter in this manner.\n\n1818 text: The gentle manners and beauty of the cottagers greatly endeared them to me: when they were unhappy, I felt depressed; when they rejoiced, I sympathized in their joys.\n\n1831 text: The gentle manners and beauty of the cottagers greatly endeared them to me: when they were unhappy, I felt depressed; when they rejoiced, I sympathised in their joys.\n\nDiff: The gentle manners and beauty of the cottagers greatly endeared them to me: when they were unhappy, I felt depressed; when they rejoiced, I [-sympathized-] {+sympathised+} in their joys.\n\nContext after (unchanged): I saw few human beings beside them; and if any other happened to enter the cottage, their harsh manners and rude gait only enhanced to me the superior accomplishments of my friends."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'sympathized' becomes 'sympathised' (-ize to -ise). The wording and meaning of 'sympathised in their joys' are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 21
+ }
+}

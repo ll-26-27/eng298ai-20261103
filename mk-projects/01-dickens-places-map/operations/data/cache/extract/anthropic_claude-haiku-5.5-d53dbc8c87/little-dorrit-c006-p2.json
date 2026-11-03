@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c006-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5171,
+  "completion_tokens": 275,
+  "total_tokens": 5446,
+  "cost": 0.0006546,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006546,
+   "upstream_inference_prompt_cost": 0.0005171,
+   "upstream_inference_completions_cost": 0.0001375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "You’ll find some characters behind other locks, I don’t say you won’t; but if you want the top sawyer in such respects as I’ve mentioned, you must come to the Marshalsea.",
+   "note": ""
+  },
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "Holborn Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "",
+   "note": "not present in this passage; omitted"
+  },
+  {
+   "as_written": "a neighbouring establishment decorated with three golden balls",
+   "normalized": "",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "",
+   "note": "unnamed; omitted"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1664,
+  "completion_tokens": 154,
+  "total_tokens": 1818,
+  "cost": 0.0002434,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002434,
+   "upstream_inference_prompt_cost": 0.0001664,
+   "upstream_inference_completions_cost": 0.000077
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0156. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): Good God! how can that be? who could attempt to pursue him?\n\n1818 text: It is impossible; one might as well try to overtake the winds, or confine a mountain-stream with a straw.\" \"I do not know what you mean; but we were all very unhappy when she was discovered.\n\n1831 text: It is impossible; one might as well try to overtake the winds, or confine a mountain-stream with a straw. I saw him too; he was free last night!\" \"I do not know what you mean,\" replied my brother, in accents of wonder, \"but to us the discovery we have made completes our misery.\n\nDiff: It is impossible; one might as well try to overtake the winds, or confine a mountain-stream with a straw. {+I saw him too; he was free last night!+} \" \" I do not know what you mean [-;-] {+, \" replied my brother, in accents of wonder, \"+} but {+to us the discovery+} we [-were all very unhappy when she was discovered-] {+have made completes our misery+} .\n\nContext after (unchanged): No one would believe it at first; and even now Elizabeth will not be convinced, notwithstanding all the evidence."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "plot"
+  ],
+  "significance": 4,
+  "rationale": "Adds Victor's dialogue 'I saw him too; he was free last night!' and rewrites Clerval/Ernest's reply, ascribing it to 'my brother' with 'accents of wonder'. The creature's freedom and Victor's active sighting heighten his guilt and sense of pursuit, changing how the scene reads.",
+  "confidence": "medium",
+  "rationaleWords": 44
+ }
+}

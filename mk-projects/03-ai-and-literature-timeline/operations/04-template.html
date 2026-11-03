@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI and Literature Timeline</title>
+<meta name="description" content="An interactive timeline of made beings, dialogue, and computing from antiquity to 2026, with every event checked against a source.">
+<style>
+:root {
+  --bg: #faf8f4; --surface: #ffffff; --surface-2: #f2efe8; --ink: #1d1b18; --ink-2: #4a4640; --ink-3: #7a746b;
+  --rule: #ddd7cc; --rule-2: #ebe6dc; --era-a: #f6f3ec; --era-b: #fbfaf6;
+  --readings: #a8740a; --computing: #2e5f8f; --made-beings: #9b3a3a; --dialogue: #3a7656;
+  --reading-glow: rgba(168,116,10,.08); --verified: #2f6b46; --corrected: #9a5b00; --unverified: #8a2d2d;
+  --focus: #2e5f8f; --shadow: 0 10px 40px rgba(30,25,15,.18);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161513; --surface: #1f1d1a; --surface-2: #272521; --ink: #ece8e1; --ink-2: #c2bcb2; --ink-3: #8f897f;
+    --rule: #3a3731; --rule-2: #2c2a26; --era-a: #1b1a17; --era-b: #201e1b;
+    --readings: #e0aa3e; --computing: #79a8d6; --made-beings: #d97f7f; --dialogue: #7cc39c;
+    --reading-glow: rgba(224,170,62,.09); --verified: #7cc39c; --corrected: #e7a54a; --unverified: #e08a8a;
+    --focus: #79a8d6; --shadow: 0 10px 40px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161513; --surface: #1f1d1a; --surface-2: #272521; --ink: #ece8e1; --ink-2: #c2bcb2; --ink-3: #8f897f;
+  --rule: #3a3731; --rule-2: #2c2a26; --era-a: #1b1a17; --era-b: #201e1b;
+  --readings: #e0aa3e; --computing: #79a8d6; --made-beings: #d97f7f; --dialogue: #7cc39c;
+  --reading-glow: rgba(224,170,62,.09); --verified: #7cc39c; --corrected: #e7a54a; --unverified: #e08a8a;
+  --focus: #79a8d6; --shadow: 0 10px 40px rgba(0,0,0,.5);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+.serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif; }
+a { color: var(--computing); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.wrap { max-width: 1400px; margin: 0 auto; padding: 0 16px; }
+
+header.top { padding: 28px 0 8px; }
+header.top h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.15; margin: 0 0 6px; font-weight: 600; letter-spacing: -.01em; }
+header.top p.lede { margin: 0; color: var(--ink-2); max-width: 62em; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 14px 0 4px; color: var(--ink-2); font-size: 14px; }
+.stats b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.stats .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 1px; }
+
+.controls { position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--rule); padding: 10px 0; }
+@media (max-width: 760px), (max-height: 700px) { .controls { position: static; } }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.row + .row { margin-top: 8px; }
+.label { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin-right: 2px; }
+.chip { border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 3px 11px; font-size: 13px; cursor: pointer; color: var(--ink-2); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip.track[aria-pressed="true"] { background: var(--c); border-color: var(--c); color: #fff; }
+.chip.track { --c: var(--ink-3); }
+.chip.track .sw { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--c); margin-right: 6px; }
+.chip.track[aria-pressed="true"] .sw { background: #fff; }
+.spacer { flex: 1; }
+input[type="search"] { border: 1px solid var(--rule); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 5px 10px; font: inherit; font-size: 14px; min-width: 0; width: 220px; max-width: 100%; }
+.zoom { display: flex; align-items: center; gap: 6px; }
+.zoom button { border: 1px solid var(--rule); background: var(--surface); border-radius: 6px; width: 30px; height: 28px; cursor: pointer; }
+.zoom input { width: 120px; }
+.eras { display: flex; flex-wrap: wrap; gap: 4px; }
+.eras button { border: 0; background: none; color: var(--ink-2); font-size: 13px; padding: 2px 6px; cursor: pointer; border-radius: 4px; }
+.eras button:hover { background: var(--surface-2); }
+
+.tl-box { position: relative; margin: 14px 0 6px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); overflow: hidden; }
+.scroller { overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-width: thin; }
+.canvas { position: relative; }
+.bands { position: absolute; inset: 0; pointer-events: none; }
+.band { position: absolute; top: 0; bottom: 0; border-right: 1px solid var(--rule); }
+.band:nth-child(odd) { background: var(--era-a); }
+.band:nth-child(even) { background: var(--era-b); }
+.band .brk { position: absolute; top: 4px; right: -7px; width: 12px; height: 18px; background: var(--surface); color: var(--ink-3); font-size: 12px; line-height: 18px; text-align: center; z-index: 2; }
+.axis { position: relative; height: 54px; border-bottom: 1px solid var(--rule); }
+.era-name { position: absolute; top: 6px; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; padding-right: 14px; font-size: 12px; font-weight: 600; color: var(--ink-2); white-space: nowrap; padding-left: 8px; text-transform: uppercase; letter-spacing: .05em; }
+.era-name small { font-weight: 400; color: var(--ink-3); text-transform: none; letter-spacing: 0; margin-left: 6px; }
+.tick { position: absolute; bottom: 0; height: 8px; border-left: 1px solid var(--ink-3); }
+.tick span { position: absolute; bottom: 10px; left: 0; transform: translateX(-50%); font-size: 11px; color: var(--ink-3); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.gridline { position: absolute; top: 54px; bottom: 0; border-left: 1px dashed var(--rule-2); pointer-events: none; }
+.lane { position: relative; border-bottom: 1px solid var(--rule); }
+.lane:last-child { border-bottom: 0; }
+.lane-label { position: sticky; left: 0; display: inline-flex; align-items: center; gap: 6px; z-index: 5; margin: 6px 0 0 6px; padding: 2px 8px; font-size: 12px; font-weight: 600; color: var(--c); background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; }
+.lane[data-track="readings"] { background: linear-gradient(var(--reading-glow), var(--reading-glow)); }
+.ev { position: absolute; display: flex; align-items: center; gap: 5px; height: 22px; padding: 0 6px 0 0; border: 0; background: none; cursor: pointer; white-space: nowrap; font-size: 12.5px; color: var(--ink); border-radius: 4px; transform: translateX(-6px); }
+.ev:hover, .ev.sel { background: var(--surface-2); }
+.ev .m { flex: none; width: 11px; height: 11px; border-radius: 50%; background: var(--c); border: 2px solid var(--surface); box-shadow: 0 0 0 1px var(--c); }
+.ev.reading .m { border-radius: 2px; transform: rotate(45deg); width: 11px; height: 11px; }
+.ev.paper .m { box-shadow: 0 0 0 1px var(--c), 0 0 0 3px var(--readings); }
+.ev.reading .t { font-weight: 600; }
+.ev .t { overflow: hidden; text-overflow: ellipsis; max-width: 210px; }
+.ev.dim { opacity: .14; }
+.ev .flag { font-size: 10px; color: var(--corrected); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; color: var(--ink-2); margin: 4px 0 18px; }
+.legend i { display: inline-block; width: 10px; height: 10px; margin-right: 5px; vertical-align: -1px; border-radius: 50%; background: var(--ink-3); }
+.legend i.dia { border-radius: 2px; transform: rotate(45deg); background: var(--readings); }
+.legend i.ring { background: var(--computing); box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--readings); }
+
+section.below { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; padding-bottom: 60px; }
+@media (min-width: 980px) { section.below { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); } }
+h2 { font-size: 20px; margin: 10px 0 8px; font-weight: 600; }
+.list .era-h { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin: 18px 0 4px; border-bottom: 1px solid var(--rule); padding-bottom: 3px; }
+.item { display: grid; grid-template-columns: 112px 1fr; gap: 10px; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--rule-2); padding: 7px 4px; cursor: pointer; }
+.item:hover { background: var(--surface-2); }
+.item .d { color: var(--ink-3); font-size: 13px; font-variant-numeric: tabular-nums; }
+.item .h { font-size: 14.5px; }
+.item .h .who { color: var(--ink-3); font-size: 13px; }
+.pill { display: inline-block; font-size: 10.5px; text-transform: uppercase; letter-spacing: .05em; padding: 1px 6px; border-radius: 3px; border: 1px solid currentColor; margin-left: 6px; vertical-align: 1px; }
+.pill.verified { color: var(--verified); } .pill.corrected { color: var(--corrected); } .pill.unverified { color: var(--unverified); }
+.pill.rd { color: var(--readings); }
+.tr { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); margin-right: 6px; vertical-align: 1px; }
+.caught { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; align-self: start; }
+.caught p { color: var(--ink-2); font-size: 14px; margin: 4px 0 10px; }
+.caught ol { margin: 0; padding-left: 20px; }
+.caught li { margin: 0 0 10px; font-size: 13.5px; }
+.caught li button { border: 0; background: none; padding: 0; cursor: pointer; font-weight: 600; text-align: left; }
+.caught li .was { color: var(--ink-3); }
+.method { font-size: 14px; color: var(--ink-2); }
+.method ol { padding-left: 20px; }
+
+.drawer { position: fixed; z-index: 50; top: 0; right: 0; bottom: 0; width: min(440px, 100%); background: var(--surface); border-left: 1px solid var(--rule); box-shadow: var(--shadow); transform: translateX(105%); transition: transform .2s ease; overflow-y: auto; padding: 18px 20px 40px; }
+.drawer.open { transform: none; }
+@media (max-width: 640px) { .drawer { top: auto; height: 72vh; width: 100%; border-left: 0; border-top: 1px solid var(--rule); border-radius: 12px 12px 0 0; transform: translateY(105%); } .drawer.open { transform: none; } }
+.drawer .close { position: absolute; top: 10px; right: 10px; border: 1px solid var(--rule); background: var(--surface); border-radius: 6px; padding: 2px 9px; cursor: pointer; }
+.drawer .kicker { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--c); font-weight: 600; }
+.drawer h3 { font-size: 23px; line-height: 1.2; margin: 6px 36px 4px 0; font-weight: 600; }
+.drawer .date { color: var(--ink-2); margin: 0 0 2px; }
+.drawer .who { color: var(--ink-3); margin: 0 0 12px; font-size: 14px; }
+.drawer blockquote { margin: 12px 0; padding: 8px 12px; border-left: 3px solid var(--c); background: var(--surface-2); font-size: 16px; }
+.drawer blockquote cite { display: block; font-style: normal; font-size: 12.5px; color: var(--ink-3); margin-top: 4px; }
+.drawer .why { border-top: 1px solid var(--rule); margin-top: 14px; padding-top: 10px; }
+.drawer .why b, .drawer .check b { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); display: block; margin-bottom: 2px; }
+.drawer .themes { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 5px; }
+.drawer .themes span { font-size: 12px; border: 1px solid var(--rule); border-radius: 999px; padding: 1px 8px; color: var(--ink-2); }
+.drawer .check { margin-top: 14px; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 6px; font-size: 13.5px; }
+.drawer .check p { margin: 4px 0; }
+.drawer .muted { color: var(--ink-3); }
+footer { border-top: 1px solid var(--rule); padding: 18px 0 40px; color: var(--ink-3); font-size: 13px; }
+.theme-toggle { border: 1px solid var(--rule); background: var(--surface); border-radius: 6px; padding: 3px 9px; cursor: pointer; font-size: 13px; color: var(--ink-2); }
+</style>
+</head>
+<body>
+<header class="top wrap">
+  <h1 class="serif">AI and literature: a timeline</h1>
+  <p class="lede">Stories about made beings, theories of conversation, and the history of computing, from Homer to this seminar. Course readings sit in the gold lane at the top. A model drafted every event; each date and claim was then checked against a source, and the corrections are listed below the timeline.</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="row">
+      <span class="label">Lanes</span>
+      <span id="tracks" class="row" style="gap:6px"></span>
+      <span class="spacer"></span>
+      <input type="search" id="q" placeholder="Search titles, people, descriptions" aria-label="Search events">
+    </div>
+    <div class="row">
+      <span class="label">Themes</span>
+      <span id="themes" class="row" style="gap:6px"></span>
+    </div>
+    <div class="row">
+      <span class="label">Jump to</span>
+      <span class="eras" id="eras"></span>
+      <span class="spacer"></span>
+      <span class="zoom"><span class="label">Zoom</span><button id="zout" aria-label="Zoom out">−</button><input type="range" id="zoom" min="0.5" max="4" step="0.25" value="1" aria-label="Zoom"><button id="zin" aria-label="Zoom in">+</button></span>
+      <button class="theme-toggle" id="themeBtn" title="Switch light or dark">◐</button>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="tl-box"><div class="scroller" id="scroller"><div class="canvas" id="canvas"></div></div></div>
+  <div class="legend">
+    <span><i class="dia"></i>course reading (by seminar)</span>
+    <span><i class="ring"></i>paper in the course's AI papers folder</span>
+    <span><span class="flag" style="color:var(--corrected)">✎</span> corrected by checking</span>
+    <span>Each era has its own scale; the axis breaks between them.</span>
+  </div>
+
+  <section class="below">
+    <div>
+      <h2 class="serif">All events</h2>
+      <div class="list" id="list"></div>
+    </div>
+    <div>
+      <div class="caught">
+        <h2 class="serif" style="margin-top:0">What checking caught</h2>
+        <p>The model's draft was mostly right about years. It was less reliable about which event a date belongs to (a release versus a premiere), about wording in quotations, and about links. These are the corrections.</p>
+        <ol id="caught"></ol>
+      </div>
+      <div class="method">
+        <h2 class="serif">How this page was made</h2>
+        <ol>
+          <li><b>Draft</b> (model): a model proposed candidate events from the course reading list and the two histories.</li>
+          <li><b>Verify</b> (research): each date and claim was checked against Wikipedia, arXiv, Crossref, publishers, or the text itself, and given a status.</li>
+          <li><b>Categorize</b> (model, structured output): track, themes from a fixed list, and a sentence on why it matters.</li>
+          <li><b>Build</b> (code): this page, with the data embedded.</li>
+        </ol>
+        <p>The prompts, scripts, and the full verification table are in the <code>operations/</code> folder beside this page. Descriptions are paraphrases; quotations appear only for public-domain texts.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap" id="foot"></div></footer>
+
+<aside class="drawer" id="drawer" aria-live="polite" aria-label="Event details"></aside>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+const TRACKS = [
+  { id: "readings", name: "Course readings", short: "Readings" },
+  { id: "made-beings", name: "Made beings in literature, theater, film", short: "Made beings" },
+  { id: "dialogue", name: "Dialogue and conversation", short: "Dialogue" },
+  { id: "computing", name: "AI and computing", short: "Computing" },
+];
+const THEME_NAMES = {
+  "making-minds": "making minds", "conversation": "conversation", "imitation-and-testing": "imitation and testing",
+  "persona-and-role": "persona and role", "meaning-and-understanding": "meaning and understanding",
+  "writing-and-authorship": "writing and authorship", "servants-and-labor": "servants and labor", "learning-and-training": "learning and training",
+};
+const ERAS = [
+  { name: "Antiquity", from: -800, to: 600, step: 200 },
+  { name: "Middle Ages and early modern", from: 600, to: 1750, step: 100 },
+  { name: "1750–1900", from: 1750, to: 1900, step: 25 },
+  { name: "1900–1945", from: 1900, to: 1945, step: 5 },
+  { name: "1945–1990", from: 1945, to: 1990, step: 5 },
+  { name: "1990–2015", from: 1990, to: 2015, step: 5 },
+  { name: "2015–2026", from: 2015, to: 2027, step: 1 },
+];
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+const events = DATA.events.map((e) => {
+  let t = e.year + 0.5;
+  const m = MONTHS.findIndex((mm) => (e.date_display || "").startsWith(mm) || new RegExp("^(early |late )?" + mm).test(e.date_display || ""));
+  if (m >= 0 && e.year > 1900) t = e.year + (m + 0.5) / 12;
+  return { ...e, t };
+}).sort((a, b) => a.t - b.t);
+const byId = Object.fromEntries(events.map((e) => [e.id, e]));
+const counts = ERAS.map((er) => events.filter((e) => e.t >= er.from && e.t < er.to).length);
+
+const state = { tracks: new Set(TRACKS.map((t) => t.id)), themes: new Set(), q: "", zoom: 1, sel: null };
+try { const z = parseFloat(localStorage.getItem("tl-zoom")); if (z) state.zoom = z; } catch {}
+
+const fmtYear = (y) => (y < 0 ? `${-y} BCE` : y < 1000 ? `${y} CE` : `${y}`);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const trackColor = (id) => `var(--${id})`;
+const eraOf = (t) => ERAS.findIndex((er) => t >= er.from && t < er.to);
+
+// ---------- scale: piecewise linear, one segment per era, width by how many events it holds
+let eraX = [], W = 0;
+function layoutScale() {
+  const box = document.getElementById("scroller").clientWidth;
+  const base = Math.max(box, 2600) * state.zoom;
+  const weights = counts.map((c) => c + 4);
+  const sum = weights.reduce((a, b) => a + b, 0);
+  let x = 120;
+  eraX = ERAS.map((er, i) => { const w = (base * weights[i]) / sum; const seg = { x0: x, x1: x + w }; x += w; return seg; });
+  W = x + 240;
+}
+function xOf(t) {
+  const i = Math.max(0, eraOf(t));
+  const er = ERAS[i], s = eraX[i];
+  return s.x0 + ((t - er.from) / (er.to - er.from)) * (s.x1 - s.x0);
+}
+
+function matches(e) {
+  if (state.themes.size && !e.themes.some((t) => state.themes.has(t))) return false;
+  if (state.q) {
+    const hay = `${e.title} ${e.who} ${e.description} ${e.date_display}`.toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+// ---------- timeline
+const measure = document.createElement("canvas").getContext("2d");
+function labelWidth(e) {
+  measure.font = `${e.track === "readings" ? 600 : 400} 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif`;
+  return Math.min(210, measure.measureText(e.title).width) + 32;
+}
+function renderTimeline() {
+  layoutScale();
+  const c = document.getElementById("canvas");
+  c.style.width = W + "px";
+  let html = `<div class="bands">`;
+  ERAS.forEach((er, i) => { html += `<div class="band" style="left:${eraX[i].x0}px;width:${eraX[i].x1 - eraX[i].x0}px">${i < ERAS.length - 1 ? '<span class="brk">⫽</span>' : ""}</div>`; });
+  html += `</div><div class="axis">`;
+  ERAS.forEach((er, i) => {
+    const pxPer = (eraX[i].x1 - eraX[i].x0) / (er.to - er.from);
+    let step = er.step; const minGap = er.to <= 600 ? 74 : 48; while (step * pxPer < minGap) step *= 2;
+    html += `<div class="era-name" style="left:${eraX[i].x0}px;width:${eraX[i].x1 - eraX[i].x0}px" title="${esc(er.name)}">${esc(er.name)}<small>${counts[i]} events</small></div>`;
+    for (let y = Math.ceil(er.from / step) * step; y < er.to; y += step) {
+      if (y === er.from && i > 0) continue;
+      html += `<div class="tick" style="left:${xOf(y)}px"><span>${fmtYear(y)}</span></div>`;
+    }
+  });
+  html += `</div>`;
+  for (const tr of TRACKS) {
+    if (!state.tracks.has(tr.id)) continue;
+    const evs = events.filter((e) => e.track === tr.id).sort((a, b) => a.t - b.t);
+    const rows = [];
+    const placed = evs.map((e) => {
+      const x = xOf(e.t), w = labelWidth(e);
+      let r = rows.findIndex((end) => end < x - 4);
+      if (r < 0) { rows.push(0); r = rows.length - 1; }
+      rows[r] = x + w;
+      return { e, x, r };
+    });
+    const h = 34 + Math.max(1, rows.length) * 25 + 6;
+    html += `<div class="lane" data-track="${tr.id}" style="height:${h}px;--c:${trackColor(tr.id)}"><span class="lane-label">${esc(tr.name)} <span style="font-weight:400;color:var(--ink-3)">${evs.length}</span></span>`;
+    for (const { e, x, r } of placed) {
+      const cls = ["ev", e.track === "readings" ? "reading" : "", e.in_papers_folder ? "paper" : "", matches(e) ? "" : "dim", state.sel === e.id ? "sel" : ""].join(" ");
+      const flag = e.status === "corrected" ? `<span class="flag" title="corrected by checking">✎</span>` : "";
+      html += `<button class="${cls}" data-id="${e.id}" style="left:${x}px;top:${34 + r * 25}px;--c:${trackColor(e.track)}" title="${esc(e.date_display)}: ${esc(e.title)}"><span class="m"></span><span class="t">${esc(e.title)}</span>${flag}</button>`;
+    }
+    html += `</div>`;
+  }
+  c.innerHTML = html;
+}
+
+// ---------- list and corrections
+function renderList() {
+  let html = "", lastEra = -1;
+  const shown = events.filter((e) => state.tracks.has(e.track) && matches(e));
+  for (const e of shown) {
+    const er = eraOf(e.t);
+    if (er !== lastEra) { html += `<div class="era-h">${esc(ERAS[er].name)}</div>`; lastEra = er; }
+    const rd = e.track === "readings" ? `<span class="pill rd">course</span>` : e.in_papers_folder ? `<span class="pill rd">papers folder</span>` : "";
+    html += `<button class="item" data-id="${e.id}"><span class="d">${esc(e.date_display.length > 26 ? fmtYear(e.year) : e.date_display)}</span><span class="h"><span class="tr" style="--c:${trackColor(e.track)}"></span>${esc(e.title)} <span class="who">${esc(e.who)}</span>${rd}<span class="pill ${e.status}">${e.status}</span></span></button>`;
+  }
+  document.getElementById("list").innerHTML = html || `<p class="muted">No events match these filters.</p>`;
+}
+function renderCaught() {
+  const items = events.filter((e) => e.status === "corrected");
+  document.getElementById("caught").innerHTML = items.map((e) => `<li><button data-id="${e.id}">${esc(e.title)}</button><br>${esc(e.check_note)}${e.drafted_date_display && e.drafted_date_display !== e.date_display ? `<br><span class="was">Drafted as: ${esc(e.drafted_date_display)}</span>` : ""}</li>`).join("");
+}
+
+// ---------- drawer
+function openEvent(id, scroll = true, smooth = true) {
+  const e = byId[id]; if (!e) return;
+  state.sel = id;
+  const d = document.getElementById("drawer");
+  const trackName = TRACKS.find((t) => t.id === e.track).name;
+  const quote = e.quote ? `<blockquote class="serif">${esc(e.quote)}<cite>${esc(e.quote_attribution)}</cite></blockquote>` : "";
+  const was = e.drafted_date_display && e.drafted_date_display !== e.date_display ? `<p class="muted">The draft said: ${esc(e.drafted_date_display)}</p>` : "";
+  const src = e.source_url ? `<p><a href="${esc(e.source_url)}" target="_blank" rel="noopener">Source: ${esc(e.source_url.replace(/^https?:\/\//, "").slice(0, 60))}</a></p>` : "";
+  const reading = e.track === "readings" ? "" : e.in_papers_folder ? `<span class="pill rd">in the papers folder</span>` : "";
+  d.style.setProperty("--c", trackColor(e.track));
+  d.innerHTML = `<button class="close" aria-label="Close">✕</button>
+    <div class="kicker">${esc(trackName)} ${reading}</div>
+    <h3 class="serif">${esc(e.title)}</h3>
+    <p class="date">${esc(e.date_display)}</p>
+    <p class="who">${esc(e.who)}</p>
+    <p>${esc(e.description)}</p>${quote}
+    <div class="why"><b>Why it matters here</b>${esc(e.why_it_matters)}<div class="themes">${e.themes.map((t) => `<span>${esc(THEME_NAMES[t] || t)}</span>`).join("")}</div></div>
+    <div class="check"><b>Checking</b>
+      <p><span class="pill ${e.status}" style="margin-left:0">${e.status}</span> <span class="muted">${esc(e.origin)}</span></p>
+      <p>${esc(e.check_note)}</p>${was}
+      <p class="muted">Checked against: ${esc(e.checked)}</p>${src}
+    </div>`;
+  d.classList.add("open");
+  try { history.replaceState(null, "", "#" + id); } catch {}
+  d.querySelector(".close").onclick = closeDrawer;
+  document.querySelectorAll(".ev.sel").forEach((n) => n.classList.remove("sel"));
+  const node = document.querySelector(`.ev[data-id="${id}"]`);
+  if (node) { node.classList.add("sel"); if (scroll) { const sc = document.getElementById("scroller"); sc.scrollTo({ left: Math.max(0, xOf(e.t) - sc.clientWidth / 2), behavior: smooth ? "smooth" : "auto" }); } }
+}
+function closeDrawer() { try { history.replaceState(null, "", location.pathname); } catch {} document.getElementById("drawer").classList.remove("open"); state.sel = null; document.querySelectorAll(".ev.sel").forEach((n) => n.classList.remove("sel")); }
+
+// ---------- controls
+function renderControls() {
+  document.getElementById("tracks").innerHTML = TRACKS.map((t) => `<button class="chip track" style="--c:${trackColor(t.id)}" data-track="${t.id}" aria-pressed="${state.tracks.has(t.id)}"><span class="sw"></span>${esc(t.short)}</button>`).join("");
+  document.getElementById("themes").innerHTML = [`<button class="chip" data-theme="" aria-pressed="${state.themes.size === 0}">all</button>`, ...Object.entries(THEME_NAMES).map(([k, v]) => `<button class="chip" data-theme="${k}" aria-pressed="${state.themes.has(k)}">${esc(v)}</button>`)].join("");
+  document.getElementById("eras").innerHTML = ERAS.map((er, i) => `<button data-era="${i}">${esc(er.name.replace("Middle Ages and early modern", "Medieval"))}</button>`).join("");
+}
+function rerender() { renderControls(); renderTimeline(); renderList(); if (state.sel) openEvent(state.sel, false); }
+
+document.addEventListener("click", (ev) => {
+  const b = ev.target.closest("[data-id],[data-track],[data-theme],[data-era]");
+  if (!b) return;
+  if (b.dataset.id) return openEvent(b.dataset.id);
+  if (b.dataset.track) { const t = b.dataset.track; state.tracks.has(t) ? state.tracks.delete(t) : state.tracks.add(t); if (!state.tracks.size) state.tracks.add(t); return rerender(); }
+  if (b.dataset.theme !== undefined) { const t = b.dataset.theme; if (!t) state.themes.clear(); else state.themes.has(t) ? state.themes.delete(t) : state.themes.add(t); return rerender(); }
+  if (b.dataset.era !== undefined) { const sc = document.getElementById("scroller"); sc.scrollTo({ left: eraX[+b.dataset.era].x0 - 10, behavior: "smooth" }); }
+});
+document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") closeDrawer(); });
+document.getElementById("q").addEventListener("input", (ev) => { state.q = ev.target.value.trim().toLowerCase(); renderTimeline(); renderList(); });
+function setZoom(z) {
+  const sc = document.getElementById("scroller"); const mid = (sc.scrollLeft + sc.clientWidth / 2) / W;
+  state.zoom = Math.min(4, Math.max(0.5, z)); document.getElementById("zoom").value = state.zoom;
+  try { localStorage.setItem("tl-zoom", state.zoom); } catch {}
+  renderTimeline(); sc.scrollLeft = mid * W - sc.clientWidth / 2;
+}
+document.getElementById("zoom").addEventListener("input", (ev) => setZoom(parseFloat(ev.target.value)));
+document.getElementById("zin").onclick = () => setZoom(state.zoom + 0.5);
+document.getElementById("zout").onclick = () => setZoom(state.zoom - 0.5);
+document.getElementById("themeBtn").onclick = () => {
+  const root = document.documentElement; const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = dark ? "light" : "dark"; try { localStorage.setItem("tl-theme", root.dataset.theme); } catch {}
+};
+try { const t = localStorage.getItem("tl-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(renderTimeline, 150); });
+
+// ---------- header and footer
+const n = (s) => events.filter((e) => e.status === s).length;
+document.getElementById("stats").innerHTML = `<span><b>${events.length}</b> events</span>
+  <span><span class="dot" style="background:var(--verified)"></span><b>${n("verified")}</b> verified as drafted</span>
+  <span><span class="dot" style="background:var(--corrected)"></span><b>${n("corrected")}</b> corrected by checking</span>
+  <span><span class="dot" style="background:var(--unverified)"></span><b>${n("unverified")}</b> unverified</span>
+  <span><b>${events.filter((e) => e.origin === "added at verification").length}</b> added by the checker</span>`;
+document.getElementById("foot").innerHTML = `Data checked ${esc(DATA.checked_on)}. Drafting model: ${esc(DATA.models.draft)}; tagging model: ${esc(DATA.models.categorize)}. Built ${esc(DATA.built)} for ENGLISH 298AI, Seminar 9. Descriptions are paraphrases; works still in copyright are represented by metadata and a link only.`;
+document.getElementById("zoom").value = state.zoom;
+renderControls(); renderTimeline(); renderList(); renderCaught();
+if (location.hash && byId[location.hash.slice(1)]) openEvent(location.hash.slice(1), true, false);
+</script>
+</body>
+</html>

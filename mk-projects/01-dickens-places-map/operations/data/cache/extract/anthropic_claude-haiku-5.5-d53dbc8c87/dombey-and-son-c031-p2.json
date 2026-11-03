@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c031-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5427,
+  "completion_tokens": 385,
+  "total_tokens": 5812,
+  "cost": 0.0007352,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007352,
+   "upstream_inference_prompt_cost": 0.0005427,
+   "upstream_inference_completions_cost": 0.0001925
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 189,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brook Street",
+   "normalized": "Brook Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I took the liberty of riding round to Brook Street",
+   "note": "Mr Carker's ride to the Dombey house; Carker is not there in this passage, so mentioned rather than setting."
+  },
+  {
+   "as_written": "Baden-Baden",
+   "normalized": "Baden-Baden, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He has come from Baden-Baden on purpose.",
+   "note": ""
+  }
+ ]
+}

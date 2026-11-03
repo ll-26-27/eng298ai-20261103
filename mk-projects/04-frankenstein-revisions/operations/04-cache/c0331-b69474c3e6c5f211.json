@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1650,
+  "completion_tokens": 127,
+  "total_tokens": 1777,
+  "cost": 0.0002285,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002285,
+   "upstream_inference_prompt_cost": 0.000165,
+   "upstream_inference_completions_cost": 0.0000635
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0331. Location: 1818 Vol. II, Ch. IX; 1831 Ch. XVII.\n\nContext before (unchanged): \"I consent to your demand, on your solemn oath to quit Europe for ever, and every other place in the neighbourhood of man, as soon as I shall deliver into your hands a female who will accompany you in your exile.\"\n\n1818 text: \"I swear,\" he cried, \"by the sun, and by the blue sky of heaven, that if you grant my prayer, while they exist you shall never behold me again.\n\n1831 text: \"I swear,\" he cried, \"by the sun, and by the blue sky of Heaven, and by the fire of love that burns my heart, that if you grant my prayer, while they exist you shall never behold me again.\n\nDiff: \" I swear, \" he cried, \" by the sun, and by the blue sky of [-heaven-] {+Heaven+} , {+and by the fire of love+} that {+burns my heart, that+} if you grant my prayer, while they exist you shall never behold me again.\n\nContext after (unchanged): Depart to your home, and commence your labours: I shall watch their progress with unutterable anxiety; and fear not but that when you are ready I shall appear.\""
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "The 1831 addition \"and by the fire of love that burns my heart\" adds a new oath-object, giving the Creature an emotional, passionate motive (love) and personalizing his vow; capitalizing \"Heaven\" is minor.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

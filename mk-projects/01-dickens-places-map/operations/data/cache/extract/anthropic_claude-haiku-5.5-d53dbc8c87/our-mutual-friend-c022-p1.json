@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c022-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5607,
+  "completion_tokens": 1113,
+  "total_tokens": 6720,
+  "cost": 0.0011172,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011172,
+   "upstream_inference_prompt_cost": 0.0005607,
+   "upstream_inference_completions_cost": 0.0005565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 711,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Albany",
+   "normalized": "The Albany, Piccadilly, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He lived in chambers in the Albany, did Fledgeby, and maintained a spruce appearance.",
+   "note": "Fledgeby's chambers; the scene of the breakfast."
+  },
+  {
+   "as_written": "Westminster Hall",
+   "normalized": "Westminster Hall, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I saw a man examined as a witness in Westminster Hall.",
+   "note": ""
+  },
+  {
+   "as_written": "Jobbery Forest",
+   "normalized": "Jobbery Forest",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the merry greenwood of Jobbery Forest",
+   "note": "Allegorical place in the novel's financial world; not locatable."
+  },
+  {
+   "as_written": "the Stock Exchange",
+   "normalized": "Stock Exchange, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lying on the outskirts of the Share-Market and the Stock Exchange.",
+   "note": "Used figuratively as the edge of Jobbery Forest."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c051-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5179,
+  "completion_tokens": 390,
+  "total_tokens": 5569,
+  "cost": 0.0007129,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007129,
+   "upstream_inference_prompt_cost": 0.0005179,
+   "upstream_inference_completions_cost": 0.000195
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "When Mr. Woodcourt arrived in London, he went, that very same day, to Mr. Vholes’s in Symond’s Inn.",
+   "note": ""
+  },
+  {
+   "as_written": "Symond’s Inn",
+   "normalized": "Symond's Inn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he went, that very same day, to Mr. Vholes’s in Symond’s Inn.",
+   "note": "Former Inn of Chancery, demolished 1880s; near Chancery Lane"
+  },
+  {
+   "as_written": "Vale of Taunton",
+   "normalized": "Vale of Taunton, Somerset",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "my venerable father, who is entirely dependent on me, in the Vale of Taunton",
+   "note": ""
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "So to Chancery Lane we went, and there, sure enough, we saw it written up.",
+   "note": ""
+  }
+ ]
+}

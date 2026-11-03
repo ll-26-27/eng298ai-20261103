@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c049-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3022,
+  "completion_tokens": 927,
+  "total_tokens": 3949,
+  "cost": 0.0007657,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007657,
+   "upstream_inference_prompt_cost": 0.0003022,
+   "upstream_inference_completions_cost": 0.0004635
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 617,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "at the house of public entertainment at Canterbury",
+   "note": "Hotel is unnamed; the meeting is planned there."
+  },
+  {
+   "as_written": "Mount Vesuvius",
+   "normalized": "Mount Vesuvius, Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "moved Mount Vesuvius--to eruption",
+   "note": "A volcano, used as a figure of speech; closest allowed type."
+  },
+  {
+   "as_written": "the Tweed",
+   "normalized": "River Tweed, Scottish Borders",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the immortal exciseman nurtured beyond the Tweed",
+   "note": "Refers to Scotland via the river; the exciseman is Robert Burns."
+  }
+ ]
+}

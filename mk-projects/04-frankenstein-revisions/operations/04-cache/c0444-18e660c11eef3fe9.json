@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1632,
+  "completion_tokens": 104,
+  "total_tokens": 1736,
+  "cost": 0.0002152,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002152,
+   "upstream_inference_prompt_cost": 0.0001632,
+   "upstream_inference_completions_cost": 0.000052
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0444. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): Great God! if for one instant I had thought what might be the hellish intention of my fiendish adversary, I would rather have banished myself for ever from my native country, and wandered a friendless outcast over the earth, than have consented to this miserable marriage.\n\n1818 text: But, as if possessed of magic powers, the monster had blinded me to his real intentions; and when I thought that I prepared only my own death, I hastened that of a far dearer victim.\n\n1831 text: But, as if possessed of magic powers, the monster had blinded me to his real intentions; and when I thought that I had prepared only my own death, I hastened that of a far dearer victim.\n\nDiff: But, as if possessed of magic powers, the monster had blinded me to his real intentions; and when I thought that I {+had+} prepared only my own death, I hastened that of a far dearer victim.\n\nContext after (unchanged): As the period fixed for our marriage drew nearer, whether from cowardice or a prophetic feeling, I felt my heart sink within me."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Insertion of \"had\" in \"when I thought that I had prepared\" is a grammatical tense adjustment (past perfect) that keeps the meaning identical; no event, motive, or judgment changes.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

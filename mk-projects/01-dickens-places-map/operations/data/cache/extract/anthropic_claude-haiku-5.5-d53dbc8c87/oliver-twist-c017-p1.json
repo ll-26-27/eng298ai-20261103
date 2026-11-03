@@ -1,0 +1,75 @@
+{
+ "chunk": "oliver-twist-c017-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5609,
+  "completion_tokens": 1348,
+  "total_tokens": 6957,
+  "cost": 0.0012349,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012349,
+   "upstream_inference_prompt_cost": 0.0005609,
+   "upstream_inference_completions_cost": 0.000674
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 853,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, unnamed market town (Oliver's birthplace), England",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "up the High Street",
+   "note": "Town is never named in the passage; not London"
+  },
+  {
+   "as_written": "workhouse-gate",
+   "normalized": "Workhouse, unnamed town (Oliver's birthplace), England",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Mr. Bumble emerged at early morning from the workhouse-gate",
+   "note": "Unnamed town; workhouse has no proper name here"
+  },
+  {
+   "as_written": "the town in which Oliver Twist was born",
+   "normalized": "Unnamed town of Oliver's birth",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he is going back to the town in which Oliver Twist was born",
+   "note": "Town is never named in the novel passage"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "\"Mrs. Mann, I am going to London.\"",
+   "note": "Destination; the coach arrives there at the end of the passage"
+  },
+  {
+   "as_written": "Clerkinwell",
+   "normalized": "Clerkenwell, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to dispose to the matter before the quarter-sessions at Clerkinwell",
+   "note": "Spelling as in text; modern Clerkenwell"
+  }
+ ]
+}

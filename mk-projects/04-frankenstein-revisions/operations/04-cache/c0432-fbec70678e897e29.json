@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1912,
+  "completion_tokens": 393,
+  "total_tokens": 2305,
+  "cost": 0.0003877,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003877,
+   "upstream_inference_prompt_cost": 0.0001912,
+   "upstream_inference_completions_cost": 0.0001965
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 251,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0432. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): But it is your happiness I desire as well as my own, when I declare to you, that our marriage would render me eternally miserable, unless it were the dictate of your own free choice.\n\n1818 text: Even now I weep to think, that, borne down as you are by the cruelest misfortunes, you may stifle, by the word honour, all hope of that love and happiness which would alone restore you to yourself. I, who have so interested an affection for you, may increase your miseries ten-fold, by being an obstacle to your wishes. Ah, Victor, be assured that your cousin and playmate has too sincere a love for you not to be made miserable by this supposition.\n\n1831 text: Even now I weep to think, that, borne down as you are by the cruellest misfortunes, you may stifle, by the word honour, all hope of that love and happiness which would alone restore you to yourself. I, who have so disinterested an affection for you, may increase your miseries tenfold, by being an obstacle to your wishes. Ah! Victor, be assured that your cousin and playmate has too sincere a love for you not to be made miserable by this supposition.\n\nDiff: Even now I weep to think, that, borne down as you are by the [-cruelest-] {+cruellest+} misfortunes, you may stifle, by the word honour, all hope of that love and happiness which would alone restore you to yourself. I, who have so [-interested-] {+disinterested+} an affection for you, may increase your miseries [-ten-fold-] {+tenfold+} , by being an obstacle to your wishes. Ah [-,-] {+!+} Victor, be assured that your cousin and playmate has too sincere a love for you not to be made miserable by this supposition.\n\nContext after (unchanged): Be happy, my friend; and if you obey me in this one request, remain satisfied that nothing on earth will have the power to interrupt my tranquillity."
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "characterization",
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "The key change is \"interested\" becoming \"disinterested\" affection, which recasts Elizabeth's love as selfless rather than self-regarding, altering how her virtue and motives read. The other edits (cruellest, tenfold, the exclamation mark) are spelling or punctuation.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

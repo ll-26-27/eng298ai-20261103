@@ -1,0 +1,111 @@
+{
+ "chunk": "dombey-and-son-c023-p5",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4012,
+  "completion_tokens": 1586,
+  "total_tokens": 5598,
+  "cost": 0.0011942,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011942,
+   "upstream_inference_prompt_cost": 0.0004012,
+   "upstream_inference_completions_cost": 0.000793
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 752,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "somewhere about the half-way house between London and Gravesend",
+   "note": "Named as the origin of the half-way house reference."
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "somewhere about the half-way house between London and Gravesend",
+   "note": ""
+  },
+  {
+   "as_written": "Sen' George's Channel",
+   "normalized": "St George's Channel, Irish Sea",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "If a skipper stands out by Sen' George's Channel, making for the Downs",
+   "note": "Sailor's pronunciation of St George's Channel."
+  },
+  {
+   "as_written": "the Downs",
+   "normalized": "The Downs, off the coast of Kent",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "making for the Downs, what's right ahead of him?",
+   "note": "Naval anchorage roadstead, not a land place."
+  },
+  {
+   "as_written": "the Goodwins",
+   "normalized": "Goodwin Sands, off the coast of Kent",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The Goodwins. He isn't forced to run upon the Goodwins",
+   "note": ""
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "dined late at a certain angular little tavern in the City",
+   "note": ""
+  },
+  {
+   "as_written": "Dombey's House",
+   "normalized": "Dombey and Son's offices, City of London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "on the very day when my boy entered Dombey's House",
+   "note": "Fictional firm's premises; location in the City is implied."
+  },
+  {
+   "as_written": "Sol Gills's",
+   "normalized": "Sol Gills's shop, Brig Place, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The Captain's principal intention was to pass Sol Gills's, after dark, and look in through the window",
+   "note": "Fictional shop; location inferred from Brig Place."
+  },
+  {
+   "as_written": "Brig Place",
+   "normalized": "Brig Place, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Captain headed for Brig Place, resolving to weigh anchor betimes in the morning",
+   "note": "Fictional street; location uncertain."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1899,
+  "completion_tokens": 114,
+  "total_tokens": 2013,
+  "cost": 0.0002469,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002469,
+   "upstream_inference_prompt_cost": 0.0001899,
+   "upstream_inference_completions_cost": 0.000057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0085. Location: 1818 Vol. I, Ch. III; 1831 Ch. IV.\n\nContext before (unchanged): I saw how the fine form of man was degraded and wasted; I beheld the corruption of death succeed to the blooming cheek of life; I saw how the worm inherited the wonders of the eye and brain.\n\n1818 text: I paused, examining and analysing all the minutiæ of causation, as exemplified in the change from life to death, and death to life, until from the midst of this darkness a sudden light broke in upon me—a light so brilliant and wondrous, yet so simple, that while I became dizzy with the immensity of the prospect which it illustrated, I was surprised that among so many men of genius, who had directed their inquiries towards the same science, that I alone should be reserved to discover so astonishing a secret.\n\n1831 text: I paused, examining and analysing all the minutiæ of causation, as exemplified in the change from life to death, and death to life, until from the midst of this darkness a sudden light broke in upon me—a light so brilliant and wondrous, yet so simple, that while I became dizzy with the immensity of the prospect which it illustrated, I was surprised, that among so many men of genius who had directed their enquiries towards the same science, that I alone should be reserved to discover so astonishing a secret.\n\nDiff: I paused, examining and analysing all the minutiæ of causation, as exemplified in the change from life to death, and death to life, until from the midst of this darkness a sudden light broke in upon me—a light so brilliant and wondrous, yet so simple, that while I became dizzy with the immensity of the prospect which it illustrated, I was surprised {+,+} that among so many men of genius [-,-] who had directed their [-inquiries-] {+enquiries+} towards the same science, that I alone should be reserved to discover so astonishing a secret.\n\nContext after (unchanged): Remember, I am not recording the vision of a madman."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic: 'inquiries' becomes 'enquiries', plus comma insertions and deletions around 'surprised' and 'genius'. No change in wording or meaning, so it has no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 27
+ }
+}

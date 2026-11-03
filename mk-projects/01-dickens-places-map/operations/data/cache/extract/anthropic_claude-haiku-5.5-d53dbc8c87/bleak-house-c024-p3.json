@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c024-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5129,
+  "completion_tokens": 815,
+  "total_tokens": 5944,
+  "cost": 0.0009204,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009204,
+   "upstream_inference_prompt_cost": 0.0005129,
+   "upstream_inference_completions_cost": 0.0004075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 504,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Leicester Square",
+   "normalized": "Leicester Square, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We then took a hackney-coach and drove away to the neighbourhood of Leicester Square.",
+   "note": ""
+  },
+  {
+   "as_written": "George's Shooting Gallery",
+   "normalized": "George's Shooting Gallery, near Leicester Square, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I ask your pardon, my good friend, but is this George's Shooting Gallery?",
+   "note": "Fictional business in a real area; location inferred from Leicester Square reference."
+  },
+  {
+   "as_written": "Shropshire",
+   "normalized": "Shropshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "My angry friend from Shropshire! Almost as celebrated as myself!",
+   "note": "Refers to Gridley's origin."
+  }
+ ]
+}

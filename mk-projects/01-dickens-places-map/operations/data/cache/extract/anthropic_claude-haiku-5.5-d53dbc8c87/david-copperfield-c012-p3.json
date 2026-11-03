@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c012-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1743,
+  "completion_tokens": 757,
+  "total_tokens": 2500,
+  "cost": 0.0005528,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005528,
+   "upstream_inference_prompt_cost": 0.0001743,
+   "upstream_inference_completions_cost": 0.0003785
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 464,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "doubting whether half London might not by this time be turning out for my apprehension",
+   "note": "Passage is set in the London streets; 'half London' is a figure of speech."
+  },
+  {
+   "as_written": "Greenwich",
+   "normalized": "Greenwich, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "faced about for Greenwich, which I had understood was on the Dover Road",
+   "note": "David's intended destination, not reached in this passage."
+  },
+  {
+   "as_written": "Dover Road",
+   "normalized": "Dover Road, London to Dover",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "which I had understood was on the Dover Road",
+   "note": "Historic coaching road; David's belief about Greenwich's location, not a verified fact."
+  }
+ ]
+}

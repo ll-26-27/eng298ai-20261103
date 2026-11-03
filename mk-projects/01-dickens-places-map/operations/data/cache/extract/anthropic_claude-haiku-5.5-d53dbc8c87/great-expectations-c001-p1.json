@@ -1,0 +1,84 @@
+{
+ "chunk": "great-expectations-c001-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4681,
+  "completion_tokens": 591,
+  "total_tokens": 5272,
+  "cost": 0.0007636,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007636,
+   "upstream_inference_prompt_cost": 0.0004681,
+   "upstream_inference_completions_cost": 0.0002955
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the churchyard",
+   "normalized": "Churchyard at Cooling, Kent",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "this bleak place overgrown with nettles was the churchyard",
+   "note": "Dickens's Cooling churchyard is unnamed in text; generic term used, so treat as fictional marsh churchyard"
+  },
+  {
+   "as_written": "the marshes",
+   "normalized": "Kentish marshes, Thames estuary",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the dark flat wilderness beyond the churchyard, intersected with dikes and mounds and gates",
+   "note": "unnamed marsh country; approximate location only"
+  },
+  {
+   "as_written": "the river",
+   "normalized": "River Thames",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the low leaden line beyond was the river",
+   "note": "river unnamed in passage; identification is inferred"
+  },
+  {
+   "as_written": "the sea",
+   "normalized": "North Sea, Thames estuary",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the distant savage lair from which the wind was rushing was the sea",
+   "note": "generic reference"
+  },
+  {
+   "as_written": "the Battery",
+   "normalized": "Battery at the Thames marshes, Kent",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "You bring the lot to me, at that old Battery over yonder.",
+   "note": "fictional-ish battery; location not fixed in text"
+  },
+  {
+   "as_written": "the beacon",
+   "normalized": "beacon on the Thames estuary",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one of these was the beacon by which the sailors steered",
+   "note": "object, not named place; may be omitted"
+  }
+ ]
+}

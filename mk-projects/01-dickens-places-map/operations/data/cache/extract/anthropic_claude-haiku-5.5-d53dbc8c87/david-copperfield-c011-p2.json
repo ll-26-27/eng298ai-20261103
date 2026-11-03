@@ -1,0 +1,111 @@
+{
+ "chunk": "david-copperfield-c011-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4861,
+  "completion_tokens": 2162,
+  "total_tokens": 7023,
+  "cost": 0.0015671,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015671,
+   "upstream_inference_prompt_cost": 0.0004861,
+   "upstream_inference_completions_cost": 0.001081
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1411,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "St. Martin’s Church",
+   "normalized": "St Martin-in-the-Fields, Trafalgar Square, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in a court close to St. Martin’s Church",
+   "note": "The court itself is unnamed; the church gives the location."
+  },
+  {
+   "as_written": "the Strand",
+   "normalized": "Strand, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "A good shop for the latter was in the Strand",
+   "note": ""
+  },
+  {
+   "as_written": "Murdstone and Grinby’s",
+   "normalized": "Murdstone and Grinby's warehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in going to Murdstone and Grinby’s, of a morning",
+   "note": "Fictional firm; the warehouse location is not stated in this passage."
+  },
+  {
+   "as_written": "Drury Lane",
+   "normalized": "Drury Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "near Drury Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Covent Garden Market",
+   "normalized": "Covent Garden Market, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as far as Covent Garden Market",
+   "note": ""
+  },
+  {
+   "as_written": "Fleet Street",
+   "normalized": "Fleet Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a venison shop in Fleet Street",
+   "note": ""
+  },
+  {
+   "as_written": "the Adelphi",
+   "normalized": "Adelphi, Strand, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I was fond of wandering about the Adelphi",
+   "note": ""
+  },
+  {
+   "as_written": "the Lion",
+   "normalized": "The Lion public house, opposite Murdstone and Grinby's, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a miserable old public-house opposite our place of business, called the Lion",
+   "note": "Fictional or unidentified pub name."
+  },
+  {
+   "as_written": "Suffolker",
+   "normalized": "Suffolk",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the young Suffolker.",
+   "note": "Used as a nickname for David, referring to his origin."
+  }
+ ]
+}

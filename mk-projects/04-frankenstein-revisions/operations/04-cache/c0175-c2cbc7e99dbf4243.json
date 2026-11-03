@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1688,
+  "completion_tokens": 136,
+  "total_tokens": 1824,
+  "cost": 0.0002368,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002368,
+   "upstream_inference_prompt_cost": 0.0001688,
+   "upstream_inference_completions_cost": 0.000068
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0175. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): She had no temptation for such an action: as to the bauble on which the chief proof rests, if she had earnestly desired it, I should have willingly given it to her; so much do I esteem and value her.\"\n\n1818 text: Excellent Elizabeth! A murmur of approbation was heard; but it was excited by her generous interference, and not in favour of poor Justine, on whom the public indignation was turned with renewed violence, charging her with the blackest ingratitude.\n\n1831 text: A murmur of approbation followed Elizabeth's simple and powerful appeal; but it was excited by her generous interference, and not in favour of poor Justine, on whom the public indignation was turned with renewed violence, charging her with the blackest ingratitude.\n\nDiff: [-Excellent Elizabeth!-] A murmur of approbation [-was heard-] {+followed Elizabeth's simple and powerful appeal+} ; but it was excited by her generous interference, and not in favour of poor Justine, on whom the public indignation was turned with renewed violence, charging her with the blackest ingratitude.\n\nContext after (unchanged): She herself wept as Elizabeth spoke, but she did not answer."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "The exclamation \"Excellent Elizabeth!\" is cut and replaced by \"followed Elizabeth's simple and powerful appeal,\" adding explicit praise of her speech's qualities; this is elaboration and emphasis without changing events, with some rewording of the sentence.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

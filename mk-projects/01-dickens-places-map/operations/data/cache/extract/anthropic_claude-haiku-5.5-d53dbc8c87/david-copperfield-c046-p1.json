@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c046-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5032,
+  "completion_tokens": 1345,
+  "total_tokens": 6377,
+  "cost": 0.0011757,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011757,
+   "upstream_inference_prompt_cost": 0.0005032,
+   "upstream_inference_completions_cost": 0.0006725
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 875,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mrs. Steerforth’s house",
+   "normalized": "Mrs. Steerforth’s house (Highgate, London)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "I came past Mrs. Steerforth’s house.",
+   "note": "Identified only by its owner; no proper name or location given in this passage."
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "since she left Yarmouth under Mr. James’s protection",
+   "note": ""
+  },
+  {
+   "as_written": "Naples",
+   "normalized": "Naples, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "from the neighbourhood of Naples, where we had a villa",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We have been in France, Switzerland, Italy",
+   "note": ""
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We have been in France, Switzerland, Italy",
+   "note": ""
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We have been in France, Switzerland, Italy",
+   "note": ""
+  }
+ ]
+}

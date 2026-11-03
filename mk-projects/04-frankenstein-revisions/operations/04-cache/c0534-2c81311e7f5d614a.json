@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1500,
+  "completion_tokens": 111,
+  "total_tokens": 1611,
+  "cost": 0.0002055,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002055,
+   "upstream_inference_prompt_cost": 0.00015,
+   "upstream_inference_completions_cost": 0.0000555
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0534. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): I, who irretrievably destroyed thee by destroying all thou lovedst.\n\n1818 text: Alas! he is cold; he may not answer me.\"\n\n1831 text: Alas! he is cold, he cannot answer me.\"\n\nDiff: Alas! he is cold [-;-] {+,+} he [-may not-] {+cannot+} answer me. \"\n\nContext after (unchanged): His voice seemed suffocated; and my first impulses, which had suggested to me the duty of obeying the dying request of my friend, in destroying his enemy, were now suspended by a mixture of curiosity and compassion."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Punctuation change from semicolon to comma and replacement of 'may not' with 'cannot' alters modal nuance from permission/possibility to inability, while keeping the same meaning in the Creature's lament over Victor's body.",
+  "confidence": "medium",
+  "rationaleWords": 32
+ }
+}

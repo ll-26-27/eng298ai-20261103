@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c054-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4877,
+  "completion_tokens": 679,
+  "total_tokens": 5556,
+  "cost": 0.0008272,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008272,
+   "upstream_inference_prompt_cost": 0.0004877,
+   "upstream_inference_completions_cost": 0.0003395
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 418,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Nore",
+   "normalized": "The Nore, Thames estuary, Kent",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "they did not go down to the landing-place which I could discern to be empty, but struck across the marsh in the direction of the Nore.",
+   "note": "Sandbank and anchorage at the mouth of the Thames estuary, not in London."
+  },
+  {
+   "as_written": "the Ship",
+   "normalized": "The Ship (inn), Thames estuary marshes, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the sign of the house (the Ship) was creaking and banging about",
+   "note": "Name of the tavern from its sign; exact location unidentified, so this is only a probable marshside inn."
+  }
+ ]
+}

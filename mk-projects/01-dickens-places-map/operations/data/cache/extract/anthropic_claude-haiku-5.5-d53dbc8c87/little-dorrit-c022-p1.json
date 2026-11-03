@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c022-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5083,
+  "completion_tokens": 1545,
+  "total_tokens": 6628,
+  "cost": 0.0012808,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012808,
+   "upstream_inference_prompt_cost": 0.0005083,
+   "upstream_inference_completions_cost": 0.0007725
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 867,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Borough High Street, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Mr Clennam did not increase in favour with the Father of the Marshalsea in the ratio of his increasing visits.",
+   "note": "Debtors' prison; the Lodge and College are parts of it. Also referred to as 'the College' in the passage."
+  },
+  {
+   "as_written": "the Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘I am going over the Bridge.’",
+   "note": "Inferred from context; the passage does not name it explicitly."
+  },
+  {
+   "as_written": "Horsemonger Lane",
+   "normalized": "Horsemonger Lane, Southwark, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "could you go round by Horsemonger Lane?",
+   "note": "Mrs Chivery's shop is on this street; also named as where she is respected."
+  },
+  {
+   "as_written": "Havannah",
+   "normalized": "Havana, Cuba",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Importers of pure Havannah Cigars, Bengal Cheroots, and fine-flavoured Cubas",
+   "note": "Named as the source of cigars on the shop card."
+  },
+  {
+   "as_written": "Bengal",
+   "normalized": "Bengal, India",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Importers of pure Havannah Cigars, Bengal Cheroots, and fine-flavoured Cubas",
+   "note": "Named as the source of cheroots on the shop card."
+  },
+  {
+   "as_written": "Cubas",
+   "normalized": "Cuba",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Importers of pure Havannah Cigars, Bengal Cheroots, and fine-flavoured Cubas",
+   "note": "Brand of cigar named after Cuba; a trade term more than a direct place reference."
+  }
+ ]
+}

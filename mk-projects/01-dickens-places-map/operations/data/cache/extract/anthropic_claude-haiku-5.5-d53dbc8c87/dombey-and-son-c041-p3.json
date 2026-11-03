@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c041-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2253,
+  "completion_tokens": 499,
+  "total_tokens": 2752,
+  "cost": 0.0004748,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004748,
+   "upstream_inference_prompt_cost": 0.0002253,
+   "upstream_inference_completions_cost": 0.0002495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 316,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "and go down to Brighton, and representing, in their two selves",
+   "note": ""
+  },
+  {
+   "as_written": "White's",
+   "normalized": "White's Club, St James's Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Man with cork leg, from White's.",
+   "note": "Gentlemen's club, named as an institution's building; referenced only as the origin of an acquaintance."
+  }
+ ]
+}

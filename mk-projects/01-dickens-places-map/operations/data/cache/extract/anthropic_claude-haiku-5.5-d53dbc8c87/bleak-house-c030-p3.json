@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c030-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5246,
+  "completion_tokens": 1476,
+  "total_tokens": 6722,
+  "cost": 0.0012626,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012626,
+   "upstream_inference_prompt_cost": 0.0005246,
+   "upstream_inference_completions_cost": 0.000738
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 884,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Saint Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if Mrs. Jellyby’s household had been the only lodgers in Saint Paul’s or Saint Peter’s",
+   "note": "Compared to the Jellybys' dirty lodging; a comparison, not a setting."
+  },
+  {
+   "as_written": "Saint Peter’s",
+   "normalized": "St Peter's Basilica, Vatican City, Rome",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the only lodgers in Saint Paul’s or Saint Peter’s",
+   "note": "Assumed to be St Peter's in Rome; ambiguous, could be a London church of that name."
+  },
+  {
+   "as_written": "Thavies Inn",
+   "normalized": "Thavies Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I mentioned in my account of our first visit in Thavies Inn",
+   "note": "Refers to an earlier visit; not the setting of this passage."
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "sat smiling at the limited vision that could see anything but Borrioboola-Gha.",
+   "note": "Fictional African settlement of Mrs. Jellyby's mission."
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "all her property was packed on the hired coach and pair that was to take her and her husband to Gravesend.",
+   "note": "Destination of the couple's journey; they do not arrive there in this passage."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1624,
+  "completion_tokens": 124,
+  "total_tokens": 1748,
+  "cost": 0.0002244,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002244,
+   "upstream_inference_prompt_cost": 0.0001624,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0249. Location: 1818 Vol. II, Ch. V; 1831 Ch. XIII.\n\nContext before (unchanged): Some conversation took place between him and his father; and the young stranger knelt at the old man's feet, and would have kissed his hand, but he raised her, and embraced her affectionately.\n\n1818 text: \"I soon perceived, that although the stranger uttered articulate sounds, and appeared to have a language of her own, she was neither understood by, or herself understood, the cottagers.\n\n1831 text: \"I soon perceived, that although the stranger uttered articulate sounds, and appeared to have a language of her own, she was neither understood by, nor herself understood, the cottagers.\n\nDiff: \" I soon perceived, that although the stranger uttered articulate sounds, and appeared to have a language of her own, she was neither understood by, [-or-] {+nor+} herself understood, the cottagers.\n\nContext after (unchanged): They made many signs which I did not comprehend; but I saw that her presence diffused gladness through the cottage, dispelling their sorrow as the sun dissipates the morning mists."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Swap of \"or\" for \"nor\" in \"neither understood by, [-or-] {+nor+} herself\" corrects a conjunction after \"neither\" to standard grammar; a grammatical correction rather than a change of meaning or orthography alone.",
+  "confidence": "medium",
+  "rationaleWords": 32
+ }
+}

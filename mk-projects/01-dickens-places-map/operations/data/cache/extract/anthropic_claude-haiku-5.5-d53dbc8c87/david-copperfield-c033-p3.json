@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c033-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4946,
+  "completion_tokens": 934,
+  "total_tokens": 5880,
+  "cost": 0.0009616,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009616,
+   "upstream_inference_prompt_cost": 0.0004946,
+   "upstream_inference_completions_cost": 0.000467
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 515,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Guildford",
+   "normalized": "Guildford, Surrey",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Perhaps it was near Guildford.",
+   "note": "Narrator guesses the location of the picnic spot; uncertain."
+  },
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, Strand, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I should wake in Buckingham Street presently, and hear Mrs. Crupp clinking the teacups",
+   "note": "Narrator's lodgings, referred to as a dream contrast."
+  },
+  {
+   "as_written": "Norwood",
+   "normalized": "Norwood, Surrey",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Norwood was many miles too near, and we reached it many hours too soon",
+   "note": "Then a village outside London (now part of London); Spenlow's home is nearby."
+  },
+  {
+   "as_written": "the desert of Sahara",
+   "normalized": "Sahara Desert, North Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the oasis in the desert of Sahara must not be plucked up idly.",
+   "note": "Figure of speech by Miss Mills."
+  }
+ ]
+}

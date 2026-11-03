@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c005-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5408,
+  "completion_tokens": 1084,
+  "total_tokens": 6492,
+  "cost": 0.0010828,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010828,
+   "upstream_inference_prompt_cost": 0.0005408,
+   "upstream_inference_completions_cost": 0.000542
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 696,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the hardest little stall of all the sterile little stalls in London",
+   "note": "City named as the general setting."
+  },
+  {
+   "as_written": "Cavendish Square",
+   "normalized": "Cavendish Square, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a corner house not far from Cavendish Square",
+   "note": ""
+  },
+  {
+   "as_written": "a London house, a corner house not far from Cavendish Square",
+   "normalized": "Corner house near Cavendish Square, London (unnamed; the Boffin house)",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Over against a London house, a corner house not far from Cavendish Square",
+   "note": "Unnamed house; location only approximate, identified by proximity to Cavendish Square."
+  },
+  {
+   "as_written": "the Funns",
+   "normalized": "Fens, East Anglia",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Are you in the Funns, or where are you?",
+   "note": "Ambiguous; probably Fens, but could be a garbled or invented name."
+  }
+ ]
+}

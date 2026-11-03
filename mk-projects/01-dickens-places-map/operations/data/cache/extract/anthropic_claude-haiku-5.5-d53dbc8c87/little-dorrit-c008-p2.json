@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c008-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4775,
+  "completion_tokens": 607,
+  "total_tokens": 5382,
+  "cost": 0.000781,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000781,
+   "upstream_inference_prompt_cost": 0.0004775,
+   "upstream_inference_completions_cost": 0.0003035
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 360,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "“For the Father of the Marshalsea,”",
+   "note": "Debtors' prison; the Father is the prison's senior inmate, and the prison is the setting throughout."
+  },
+  {
+   "as_written": "Snuggery",
+   "normalized": "The Snuggery, Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The Snuggery had two of the qualities popularly held to be essential to grog for ladies",
+   "note": "Tavern room inside the prison, named within Dickens's fiction; not a separate real building."
+  }
+ ]
+}

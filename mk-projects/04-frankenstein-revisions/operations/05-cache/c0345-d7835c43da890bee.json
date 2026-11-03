@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1531,
+  "completion_tokens": 99,
+  "total_tokens": 1630,
+  "cost": 0.004052,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004052,
+   "upstream_inference_prompt_cost": 0.003062,
+   "upstream_inference_completions_cost": 0.00099
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0345. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): This imagination was dreadful in itself, but soothing, inasmuch as it supposed the safety of my friends.\n\n1818 text: I was agonized with the idea of the possibility that the reverse of this might happen.\n\n1831 text: I was agonised with the idea of the possibility that the reverse of this might happen.\n\nDiff: I was [-agonized-] {+agonised+} with the idea of the possibility that the reverse of this might happen.\n\nContext after (unchanged): But through the whole period during which I was the slave of my creature, I allowed myself to be governed by the impulses of the moment; and my present sensations strongly intimated that the fiend would follow me, and exempt my family from the danger of his machinations."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'agonized' becomes 'agonised' (-ize to -ise). The word, meaning, and syntax are untouched, so there is no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

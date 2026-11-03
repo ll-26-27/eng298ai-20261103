@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1553,
+  "completion_tokens": 148,
+  "total_tokens": 1701,
+  "cost": 0.004586,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004586,
+   "upstream_inference_prompt_cost": 0.003106,
+   "upstream_inference_completions_cost": 0.00148
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0429. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): \"Explanation! you may possibly say; what can Elizabeth have to explain?\n\n1818 text: If you really say this, my questions are answered, and I have no more to do than to sign myself your affectionate cousin.\n\n1831 text: If you really say this, my questions are answered, and all my doubts satisfied.\n\nDiff: If you really say this, my questions are answered, and [-I have no more to do than to sign myself your affectionate cousin-] {+all my doubts satisfied+} .\n\nContext after (unchanged): But you are distant from me, and it is possible that you may dread, and yet be pleased with this explanation; and, in a probability of this being the case, I dare not any longer postpone writing what, during your absence, I have often wished to express to you, but have never had the courage to begin."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 2,
+  "rationale": "Elizabeth's letter replaces the epistolary sign-off \"I have no more to do than to sign myself your affectionate cousin\" with \"all my doubts satisfied.\" This is a rephrasing of the same conditional; the 1831 wording drops the letter-closing conceit and her \"cousin\" self-designation.",
+  "confidence": "medium",
+  "rationaleWords": 43
+ }
+}

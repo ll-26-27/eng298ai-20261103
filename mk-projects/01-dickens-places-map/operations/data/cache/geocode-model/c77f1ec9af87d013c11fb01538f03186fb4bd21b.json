@@ -1,0 +1,205 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "river thames",
+   "lat": 51.5075,
+   "lon": -0.0905,
+   "confidence": "medium",
+   "now": "the Thames, tidal through central London; this point is the Pool of London reach by London Bridge",
+   "reason": "The river is a line, not a point; the point is a representative one for the reach that most of Dickens's London scenes use, and it is not tied to any particular passage."
+  },
+  {
+   "place_id": "brighton",
+   "lat": 50.8225,
+   "lon": -0.1372,
+   "confidence": "high",
+   "now": "Brighton, part of the city of Brighton and Hove, East Sussex",
+   "reason": "A well-known seaside town; the hospital match is a spurious place-level result."
+  },
+  {
+   "place_id": "newgate prison",
+   "lat": 51.5156,
+   "lon": -0.1021,
+   "confidence": "high",
+   "now": "demolished 1902; the Central Criminal Court (Old Bailey) stands on the site at Newgate Street and Old Bailey",
+   "reason": "Newgate stood at the corner of Newgate Street and Old Bailey, and the Old Bailey was built on its site."
+  },
+  {
+   "place_id": "brig place",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "no known real street; fictional",
+   "reason": "Brig Place is Dickens's invention for Captain Cuttle's lodgings near the docks and Wooden Midshipman, and no real street is clearly identified."
+  },
+  {
+   "place_id": "cooks court",
+   "lat": 51.5161,
+   "lon": -0.1118,
+   "confidence": "medium",
+   "now": "vanished court; the site is around Cursitor Street off Chancery Lane (Holborn)",
+   "reason": "Cook's Court was a real small court off Cursitor Street, Chancery Lane (Snagsby's law-stationer's shop), though the exact spot is approximate."
+  },
+  {
+   "place_id": "west indies",
+   "lat": 17,
+   "lon": -72,
+   "confidence": "low",
+   "now": "the Caribbean islands (Jamaica, Barbados, Antigua and others)",
+   "reason": "A region, not a point; the coordinates are an approximate centre of the Caribbean island arc."
+  },
+  {
+   "place_id": "barnards inn",
+   "lat": 51.5173,
+   "lon": -0.1089,
+   "confidence": "high",
+   "now": "Barnard's Inn Hall, Holborn, owned by Gresham College",
+   "reason": "A well-documented former Inn of Chancery on the south side of Holborn near Fetter Lane, and the hall survives."
+  },
+  {
+   "place_id": "blue boar inn",
+   "lat": 51.3893,
+   "lon": 0.5023,
+   "confidence": "low",
+   "now": "Royal Victoria and Bull Hotel, High Street, Rochester (the Bull Inn, which probably inspired the Blue Boar)",
+   "reason": "The Blue Boar is a fictionalised Rochester inn modelled on the Bull Inn on Rochester High Street, so the spot is approximate."
+  },
+  {
+   "place_id": "buckingham street",
+   "lat": 51.5086,
+   "lon": -0.1231,
+   "confidence": "high",
+   "now": "Buckingham Street, WC2, running from the Strand down to Victoria Embankment Gardens",
+   "reason": "A real street in the Adelphi district; Dickens himself lodged at no. 15 in the 1830s and the street still exists."
+  },
+  {
+   "place_id": "high street",
+   "lat": 51.3893,
+   "lon": 0.5042,
+   "confidence": "medium",
+   "now": "High Street, Rochester, Kent",
+   "reason": "Pumblechook's premises are in the High Street of Dickens's Rochester-based market town, but the exact building is not identifiable; the gazetteer's ME2 postcode suggests it matched Strood instead."
+  },
+  {
+   "place_id": "princesss place",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "no known real place; fictional",
+   "reason": "Princess's Place (Miss Tox's retreat) is Dickens's invention, with no secure real location, and the Marylebone match is only a name resemblance."
+  },
+  {
+   "place_id": "six jolly fellowship porters",
+   "lat": 51.5095,
+   "lon": -0.039,
+   "confidence": "low",
+   "now": "probably the Grapes pub, Narrow Street, Limehouse (the usual identification)",
+   "reason": "The pub is fictional but commonly identified with the Grapes at 76 Narrow Street, Limehouse."
+  },
+  {
+   "place_id": "holborn hill",
+   "lat": 51.5172,
+   "lon": -0.1062,
+   "confidence": "high",
+   "now": "now part of Holborn Viaduct, running between Holborn Circus and Farringdon Street",
+   "reason": "Holborn Hill was the steep descent to the Fleet valley, largely superseded by the Holborn Viaduct (1869)."
+  },
+  {
+   "place_id": "doctor blimbers school",
+   "lat": 50.8215,
+   "lon": -0.145,
+   "confidence": "low",
+   "now": "fictional; no real building, so the point is only the Brighton seafront",
+   "reason": "Dr Blimber's is a fictional school in Brighton, located only loosely on the seafront."
+  },
+  {
+   "place_id": "bower",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "fictional; no real equivalent",
+   "reason": "Boffin's Bower is a fictional house set among the dust-heaps on the Harmon estate, with no securely identified location."
+  },
+  {
+   "place_id": "kings bench prison",
+   "lat": 51.4968,
+   "lon": -0.0991,
+   "confidence": "high",
+   "now": "demolished 1880; the site lies between Borough Road and Newington Causeway (Southwark), near Harper Road",
+   "reason": "The King's Bench Prison stood in Southwark's St George's Fields, and its site is well documented."
+  },
+  {
+   "place_id": "mrs pipchins boarding house",
+   "lat": 50.821,
+   "lon": -0.142,
+   "confidence": "low",
+   "now": "fictional; the point is only central Brighton seafront",
+   "reason": "Mrs Pipchin's 'Castle' is a fictional Brighton boarding house, located only loosely on the seafront."
+  },
+  {
+   "place_id": "symonds inn",
+   "lat": 51.5155,
+   "lon": -0.1115,
+   "confidence": "medium",
+   "now": "demolished (c. 1870s); site is on Chancery Lane near Cursitor Street, now offices",
+   "reason": "Symond's Inn was a real Inn of Chancery on Chancery Lane, and the exact position is approximate."
+  },
+  {
+   "place_id": "thavies inn",
+   "lat": 51.5173,
+   "lon": -0.1067,
+   "confidence": "high",
+   "now": "Thavies Inn, a small street off Holborn Circus, with modern buildings",
+   "reason": "Thavies Inn was a real Inn of Chancery near Holborn Circus, and the name survives on the street."
+  },
+  {
+   "place_id": "twickenham",
+   "lat": 51.4476,
+   "lon": -0.331,
+   "confidence": "high",
+   "now": "Twickenham, in the London Borough of Richmond upon Thames",
+   "reason": "A well-known town on the Thames in Middlesex; the hospital match is just a place-level mismatch."
+  },
+  {
+   "place_id": "albany",
+   "lat": 51.5086,
+   "lon": -0.1394,
+   "confidence": "high",
+   "now": "Albany, a residential set of chambers off Piccadilly",
+   "reason": "A well-documented building complex on the north side of Piccadilly, which survives."
+  },
+  {
+   "place_id": "jolly bargemen inn",
+   "lat": 51.441,
+   "lon": 0.485,
+   "confidence": "low",
+   "now": "fictional pub; the point is only the Hoo/Cooling marsh area of Kent",
+   "reason": "The Jolly Bargemen is a fictional pub in the village of Pip's Kent marsh country, which Dickens based on the Cooling and Hoo area."
+  },
+  {
+   "place_id": "midshipman",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "fictional; no real shop is identified",
+   "reason": "The Wooden Midshipman is a fictional instrument shop in the City near the docks, and the exact location is not given."
+  },
+  {
+   "place_id": "mill pond bank",
+   "lat": 51.5015,
+   "lon": -0.061,
+   "confidence": "low",
+   "now": "around Mill Pond, near Bermondsey Wall and Rotherhithe; much redeveloped",
+   "reason": "Mill Pond Bank and Chinks's Basin are fictionalised, perhaps based on the Mill Pond area at Bermondsey/Rotherhithe."
+  },
+  {
+   "place_id": "snuggery",
+   "lat": 51.5017,
+   "lon": -0.0927,
+   "confidence": "medium",
+   "now": "site of the Marshalsea Prison, off Borough High Street (Southwark); only a wall and a small park remain",
+   "reason": "The Snuggery was a tap-room inside the real Marshalsea, so the spot is approximate for the prison site."
+  }
+ ]
+}

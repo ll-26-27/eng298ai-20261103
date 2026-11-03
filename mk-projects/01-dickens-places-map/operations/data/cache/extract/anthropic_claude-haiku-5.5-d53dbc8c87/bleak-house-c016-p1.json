@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c016-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5062,
+  "completion_tokens": 1880,
+  "total_tokens": 6942,
+  "cost": 0.0014462,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014462,
+   "upstream_inference_prompt_cost": 0.0005062,
+   "upstream_inference_completions_cost": 0.00094
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1349,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold, Lincolnshire",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "To-day she is at Chesney Wold; yesterday she was at her house in town",
+   "note": "Fictional country house in Lincolnshire."
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the place in Lincolnshire",
+   "note": "Refers to Chesney Wold's county."
+  },
+  {
+   "as_written": "Tom-all-Alone’s",
+   "normalized": "Tom-all-Alone's, St Giles, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in a ruinous place known to the like of him by the name of Tom-all-Alone’s",
+   "note": "Fictional street; Dickens drew on the St Giles rookery."
+  },
+  {
+   "as_written": "the Society for the Propagation of the Gospel in Foreign Parts",
+   "normalized": "Society for the Propagation of the Gospel in Foreign Parts, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he sits down to breakfast on the door-step of the Society for the Propagation of the Gospel in Foreign Parts",
+   "note": "Real society's premises; exact building location in London may need checking."
+  },
+  {
+   "as_written": "the Pacific",
+   "normalized": "Pacific Ocean",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a coral reef in the Pacific",
+   "note": ""
+  }
+ ]
+}

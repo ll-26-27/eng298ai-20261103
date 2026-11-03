@@ -1,0 +1,75 @@
+{
+ "chunk": "great-expectations-c028-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2562,
+  "completion_tokens": 1067,
+  "total_tokens": 3629,
+  "cost": 0.0007897,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007897,
+   "upstream_inference_prompt_cost": 0.0002562,
+   "upstream_inference_completions_cost": 0.0005335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 603,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blue Boar",
+   "normalized": "Blue Boar inn, Rochester, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The coffee-room at the Blue Boar was empty",
+   "note": "Town is unnamed in this passage; Rochester is inferred from the wider novel."
+  },
+  {
+   "as_written": "Commercials",
+   "normalized": "Commercial Inn, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Great Remonstrance from the Commercials, on the day when I was bound",
+   "note": "Short for the Commercial inn; location inferred."
+  },
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, Rochester, Kent",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "within a hundred miles of the High Street",
+   "note": "Town's High Street; town unnamed in passage."
+  },
+  {
+   "as_written": "North Pole",
+   "normalized": "North Pole",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "if in the days of my prosperity I had gone to the North Pole",
+   "note": ""
+  },
+  {
+   "as_written": "Antwerp",
+   "normalized": "Antwerp, Belgium",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We believe that Quintin Matsys was the BLACKSMITH of Antwerp.",
+   "note": ""
+  }
+ ]
+}

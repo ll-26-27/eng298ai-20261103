@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1718,
+  "completion_tokens": 123,
+  "total_tokens": 1841,
+  "cost": 0.0002333,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002333,
+   "upstream_inference_prompt_cost": 0.0001718,
+   "upstream_inference_completions_cost": 0.0000615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0519. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Are you then so easily turned from your design?\n\n1818 text: Did you not call this a glorious expedition? and wherefore was it glorious? Not because the way was smooth and placid as a southern sea, but because it was full of dangers and terror; because, at every new incident, your fortitude was to be called forth, and your courage exhibited; because danger and death surrounded, and these dangers you were to brave and overcome.\n\n1831 text: Did you not call this a glorious expedition? And wherefore was it glorious? Not because the way was smooth and placid as a southern sea, but because it was full of dangers and terror; because, at every new incident, your fortitude was to be called forth, and your courage exhibited; because danger and death surrounded it, and these you were to brave and overcome.\n\nDiff: Did you not call this a glorious expedition? [-and-] {+And+} wherefore was it glorious? Not because the way was smooth and placid as a southern sea, but because it was full of dangers and terror; because, at every new incident, your fortitude was to be called forth, and your courage exhibited; because danger and death surrounded {+it+} , and these [-dangers-] you were to brave and overcome.\n\nContext after (unchanged): For this was it a glorious, for this was it an honourable undertaking."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Changes are minor syntactic and lexical adjustments: 'and'→'And' capitalization, 'surrounded it' replacing 'surrounded' with the pronoun, and 'these dangers' shortened to 'these'. Meaning and sense remain identical.",
+  "confidence": "high",
+  "rationaleWords": 27
+ }
+}

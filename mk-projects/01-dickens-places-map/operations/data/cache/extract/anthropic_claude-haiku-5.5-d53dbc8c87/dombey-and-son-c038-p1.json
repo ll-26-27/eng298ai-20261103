@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c038-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5399,
+  "completion_tokens": 241,
+  "total_tokens": 5640,
+  "cost": 0.0006604,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006604,
+   "upstream_inference_prompt_cost": 0.0005399,
+   "upstream_inference_completions_cost": 0.0001205
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Princess’s Place",
+   "normalized": "Princess's Place, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "no delicate pair of wedding cards, united by a silver thread, graced the chimney-glass in Princess’s Place",
+   "note": "Miss Tox's residence; fictional-sounding but a real Dickens-era street near Dombey's neighbourhood; location approximate"
+  },
+  {
+   "as_written": "Birmingham",
+   "normalized": "Birmingham, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "conveying the two young Toodles on his knees to Birmingham by special engine",
+   "note": "figurative use: imaginary railway journey"
+  }
+ ]
+}

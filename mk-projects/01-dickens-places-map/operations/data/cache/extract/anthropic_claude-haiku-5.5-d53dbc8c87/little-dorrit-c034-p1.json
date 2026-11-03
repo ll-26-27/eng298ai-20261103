@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c034-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5020,
+  "completion_tokens": 898,
+  "total_tokens": 5918,
+  "cost": 0.000951,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000951,
+   "upstream_inference_prompt_cost": 0.000502,
+   "upstream_inference_completions_cost": 0.000449
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 688,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Twickenham",
+   "normalized": "Twickenham, Middlesex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "coming down to Twickenham to represent that he begged",
+   "note": "Location of the Meagles's cottage; outside London in Dickens's day."
+  },
+  {
+   "as_written": "the Cottage",
+   "normalized": "Meagles's cottage, Twickenham",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "when they were walking near the Cottage within a week of the marriage",
+   "note": "Unnamed house, identified only as the Meagles's home at Twickenham."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c064-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4717,
+  "completion_tokens": 715,
+  "total_tokens": 5432,
+  "cost": 0.0008292,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008292,
+   "upstream_inference_prompt_cost": 0.0004717,
+   "upstream_inference_completions_cost": 0.0003575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 461,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yorkshire",
+   "normalized": "Yorkshire, England",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "my guardian was called out of town and went down into Yorkshire on Mr. Woodcourt’s business",
+   "note": "Guardian's journey destination; Esther joins him at a hotel there, so the passage's setting is in Yorkshire."
+  },
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House, the cottage near the cheerful town (Yorkshire)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "he showed me written over it, Bleak House.",
+   "note": "Fictional name for a country cottage newly furnished for Woodcourt; not the London Bleak House."
+  }
+ ]
+}

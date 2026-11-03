@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c061-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4953,
+  "completion_tokens": 743,
+  "total_tokens": 5696,
+  "cost": 0.0008668,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008668,
+   "upstream_inference_prompt_cost": 0.0004953,
+   "upstream_inference_completions_cost": 0.0003715
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 450,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "That you will ride to London with this gentleman, whom you know.",
+   "note": ""
+  },
+  {
+   "as_written": "Brook Street",
+   "normalized": "Brook Street, Mayfair, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "before that house in Brook Street, where her father’s unhappy marriage had been celebrated",
+   "note": ""
+  },
+  {
+   "as_written": "Bond Street",
+   "normalized": "Bond Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Jackson, who kept the boxing-rooms in Bond Street",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I took the liberty of seeking her in France",
+   "note": ""
+  }
+ ]
+}

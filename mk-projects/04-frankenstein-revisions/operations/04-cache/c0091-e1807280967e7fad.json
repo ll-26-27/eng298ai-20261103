@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1780,
+  "completion_tokens": 93,
+  "total_tokens": 1873,
+  "cost": 0.0002245,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002245,
+   "upstream_inference_prompt_cost": 0.000178,
+   "upstream_inference_completions_cost": 0.0000465
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0091. Location: 1818 Vol. I, Ch. III; 1831 Ch. IV.\n\nContext before (unchanged): My cheek had grown pale with study, and my person had become emaciated with confinement.\n\n1818 text: Sometimes, on the very brink of certainty, I failed; yet still I clung to the hope which the next day or the next hour might realize. One secret which I alone possessed was the hope to which I had dedicated myself; and the moon gazed on my midnight labours, while, with unrelaxed and breathless eagerness, I pursued nature to her hiding places.\n\n1831 text: Sometimes, on the very brink of certainty, I failed; yet still I clung to the hope which the next day or the next hour might realise. One secret which I alone possessed was the hope to which I had dedicated myself; and the moon gazed on my midnight labours, while, with unrelaxed and breathless eagerness, I pursued nature to her hiding-places.\n\nDiff: Sometimes, on the very brink of certainty, I failed; yet still I clung to the hope which the next day or the next hour might [-realize-] {+realise+} . One secret which I alone possessed was the hope to which I had dedicated myself; and the moon gazed on my midnight labours, while, with unrelaxed and breathless eagerness, I pursued nature to her [-hiding places-] {+hiding-places+} .\n\nContext after (unchanged): Who shall conceive the horrors of my secret toil, as I dabbled among the unhallowed damps of the grave, or tortured the living animal to animate the lifeless clay?"
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Changes are orthographic only: 'realize' to 'realise' and 'hiding places' to 'hiding-places' (hyphenation). No change in wording or meaning.",
+  "confidence": "high",
+  "rationaleWords": 19
+ }
+}

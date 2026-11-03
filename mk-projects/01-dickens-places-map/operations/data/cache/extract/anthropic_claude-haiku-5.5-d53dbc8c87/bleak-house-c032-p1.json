@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c032-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5446,
+  "completion_tokens": 1262,
+  "total_tokens": 6708,
+  "cost": 0.0011756,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011756,
+   "upstream_inference_prompt_cost": 0.0005446,
+   "upstream_inference_completions_cost": 0.000631
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 910,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincoln’s Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It is night in Lincoln’s Inn",
+   "note": ""
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "about the by-ways of Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "the Sol’s Arms",
+   "normalized": "Sol's Arms, Cook's Court, Chancery Lane, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the Harmonic Meeting at the Sol’s Arms",
+   "note": "fictional tavern in Bleak House; location approximate"
+  },
+  {
+   "as_written": "Jericho",
+   "normalized": "Jericho",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I thought you had gone to Jericho at least",
+   "note": "idiom 'go to Jericho', not a literal reference"
+  }
+ ]
+}

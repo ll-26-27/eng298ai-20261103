@@ -1,0 +1,48 @@
+{
+ "chunk": "david-copperfield-c060-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5149,
+  "completion_tokens": 528,
+  "total_tokens": 5677,
+  "cost": 0.0007789,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007789,
+   "upstream_inference_prompt_cost": 0.0005149,
+   "upstream_inference_completions_cost": 0.000264
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 367,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "when are you going over to Canterbury?",
+   "note": "Narrator rides there and visits his old school-days house, so it is a setting."
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when she came back to Dover",
+   "note": ""
+  }
+ ]
+}

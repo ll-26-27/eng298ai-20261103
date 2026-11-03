@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c029-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2972,
+  "completion_tokens": 976,
+  "total_tokens": 3948,
+  "cost": 0.0007852,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007852,
+   "upstream_inference_prompt_cost": 0.0002972,
+   "upstream_inference_completions_cost": 0.000488
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 693,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "that mysterious house",
+   "normalized": "Satis House, Rochester, Kent",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "who, for anything I know, had been in that mysterious house the whole time",
+   "note": "Satis House is not named in this passage; identified only as Miss Havisham's house."
+  },
+  {
+   "as_written": "the Boar",
+   "normalized": "The Boar inn, Rochester, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "My guardian lay at the Boar in the next room to mine.",
+   "note": "Inn in the novel's Rochester area; possibly fictional."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when Estella came to London I should be forewarned of her coming",
+   "note": ""
+  }
+ ]
+}

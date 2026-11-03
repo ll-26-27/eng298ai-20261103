@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c033-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5381,
+  "completion_tokens": 710,
+  "total_tokens": 6091,
+  "cost": 0.0008931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008931,
+   "upstream_inference_prompt_cost": 0.0005381,
+   "upstream_inference_completions_cost": 0.000355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 403,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Harley Street",
+   "normalized": "Harley Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "all the region of Harley Street, Cavendish Square, was resonant of carriage-wheels and double-knocks",
+   "note": "Mrs Merdle's house lies in this district; the passage does not give its exact address."
+  },
+  {
+   "as_written": "Cavendish Square",
+   "normalized": "Cavendish Square, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "all the region of Harley Street, Cavendish Square, was resonant of carriage-wheels and double-knocks",
+   "note": ""
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "instead of leaving them in the City, or wherever else they belong to",
+   "note": "Used as the name of the financial district, not a generic word."
+  }
+ ]
+}

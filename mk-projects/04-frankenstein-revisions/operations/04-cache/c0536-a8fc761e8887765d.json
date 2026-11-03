@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2018,
+  "completion_tokens": 119,
+  "total_tokens": 2137,
+  "cost": 0.0002613,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002613,
+   "upstream_inference_prompt_cost": 0.0002018,
+   "upstream_inference_completions_cost": 0.0000595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0536. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): The monster continued to utter wild and incoherent self-reproaches.\n\n1818 text: At length I gathered resolution to address him, in a pause of the tempest of his passion: \"Your repentance,\" I said, \"is now superfluous. If you had listened to the voice of conscience, and heeded the stings of remorse, before you had urged your diabolical vengeance to this extremity, Frankenstein would yet have lived.\" \"And do you dream?\" said the dæmon; \"do you think that I was then dead to agony and remorse?—He,\" he continued, pointing to the corpse, \"he suffered not more in the consummation of the deed;—oh! not the ten-thousandth portion of the anguish that was mine during the lingering detail of its execution.\n\n1831 text: At length I gathered resolution to address him in a pause of the tempest of his passion: \"Your repentance,\" I said, \"is now superfluous. If you had listened to the voice of conscience, and heeded the stings of remorse, before you had urged your diabolical vengeance to this extremity, Frankenstein would yet have lived. \"And do you dream?\" said the dæmon; \"do you think that I was then dead to agony and remorse?—He,\" he continued, pointing to the corpse, \"he suffered not in the consummation of the deed—oh! not the ten-thousandth portion of the anguish that was mine during the lingering detail of its execution.\n\nDiff: At length I gathered resolution to address him [-,-] in a pause of the tempest of his passion: \" Your repentance, \" I said, \" is now superfluous. If you had listened to the voice of conscience, and heeded the stings of remorse, before you had urged your diabolical vengeance to this extremity, Frankenstein would yet have lived. \" [-\"-] And do you dream? \" said the dæmon; \" do you think that I was then dead to agony and remorse?—He, \" he continued, pointing to the corpse, \" he suffered not [-more-] in the consummation of the deed [-;-] —oh! not the ten-thousandth portion of the anguish that was mine during the lingering detail of its execution.\n\nContext after (unchanged): A frightful selfishness hurried me on, while my heart was poisoned with remorse."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 2,
+  "rationale": "Deletion of 'more' in 'he suffered not more in the consummation' and punctuation tightening; the sense is kept, though the claim that Frankenstein suffered not at all at death is slightly sharpened, a minor stylistic shift.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c013-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5066,
+  "completion_tokens": 1165,
+  "total_tokens": 6231,
+  "cost": 0.0010891,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010891,
+   "upstream_inference_prompt_cost": 0.0005066,
+   "upstream_inference_completions_cost": 0.0005825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 685,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Oxford Street",
+   "normalized": "Oxford Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we took up our abode at a cheerful lodging near Oxford Street over an upholsterer’s shop",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Mr. Jarndyce had before proposed to take us to London for a few weeks",
+   "note": ""
+  },
+  {
+   "as_written": "Surgeons’ Hall",
+   "normalized": "Royal College of Surgeons (Surgeons' Hall), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "arranged in Surgeons’ Hall for the contemplation of the whole profession",
+   "note": "Hypothetical London hall in Boythorn's speech; ambiguous, could be Edinburgh or another Surgeons' Hall"
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the young gentlemen of classic Rome or Greece made verses to the same extent",
+   "note": "Ancient Rome"
+  },
+  {
+   "as_written": "Greece",
+   "normalized": "Greece",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the young gentlemen of classic Rome or Greece made verses to the same extent",
+   "note": "Ancient Greece"
+  }
+ ]
+}

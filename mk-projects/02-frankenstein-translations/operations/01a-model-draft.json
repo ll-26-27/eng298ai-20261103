@@ -1,0 +1,515 @@
+{
+  "note": "Drafted from model memory with no web access. Leads, not facts.",
+  "drafts": [
+    {
+      "model": "anthropic/claude-sonnet-5.5",
+      "rows": [
+        {
+          "language": "French",
+          "year": 1821,
+          "translator": "Jules Saladin",
+          "title": "Frankenstein, ou le Prométhée moderne",
+          "place": "Paris",
+          "publisher": "Corréard",
+          "source_text": "1818",
+          "confidence": "high"
+        },
+        {
+          "language": "German",
+          "year": 1912,
+          "translator": null,
+          "title": "Frankenstein oder Der moderne Prometheus",
+          "place": "Leipzig",
+          "publisher": "Max Altmann",
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Swedish",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Dutch",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Danish",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Norwegian",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Finnish",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Polish",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Spanish",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Italian",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Portuguese",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Catalan",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Romanian",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Russian",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Czech",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Hungarian",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Japanese",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Chinese",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Korean",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Greek",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Turkish",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Arabic",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Hebrew",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Bulgarian",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Serbian/Croatian",
+          "year": null,
+          "translator": null,
+          "title": null,
+          "place": null,
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "model": "google/gemini-3.8-flash",
+      "rows": [
+        {
+          "language": "French",
+          "year": 1821,
+          "translator": "Jules Saladin",
+          "title": "Frankenstein, ou le Prométhée moderne",
+          "place": "Paris",
+          "publisher": "Corréard",
+          "source_text": "1818",
+          "confidence": "high"
+        },
+        {
+          "language": "German",
+          "year": 1912,
+          "translator": "Heinz Widtmann",
+          "title": "Frankenstein, oder der neue Prometheus",
+          "place": "Esslingen",
+          "publisher": "J. F. Schreiber",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Swedish",
+          "year": 1951,
+          "translator": "Monica Stolpe",
+          "title": "Frankenstein eller Den moderne Prometheus",
+          "place": "Stockholm",
+          "publisher": "Forum",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Dutch",
+          "year": 1966,
+          "translator": "Else Hoog",
+          "title": "Frankenstein",
+          "place": "Utrecht",
+          "publisher": "Het Spectrum",
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Danish",
+          "year": 1966,
+          "translator": null,
+          "title": "Frankenstein",
+          "place": "Copenhagen",
+          "publisher": "Skrifola",
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Norwegian",
+          "year": 1976,
+          "translator": "Bjørn Carling",
+          "title": "Frankenstein",
+          "place": "Oslo",
+          "publisher": "Gyldendal",
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Finnish",
+          "year": 1973,
+          "translator": "Paavo Lehtonen",
+          "title": "Frankenstein, uusi Prometheus",
+          "place": "Helsinki",
+          "publisher": "Tammi",
+          "source_text": "1831",
+          "confidence": "high"
+        },
+        {
+          "language": "Polish",
+          "year": 1989,
+          "translator": "Barbara Supeł",
+          "title": "Frankenstein",
+          "place": "Katowice",
+          "publisher": "Wydawnictwo Śląsk",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Spanish",
+          "year": 1944,
+          "translator": "Manuel Bosch Sánchez",
+          "title": "Frankenstein o el moderno Prometeo",
+          "place": "Barcelona",
+          "publisher": "Ediciones Dédalo",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Italian",
+          "year": 1944,
+          "translator": "Ranieri Cochetti",
+          "title": "Frankenstein o il moderno Prometeo",
+          "place": "Rome",
+          "publisher": "Donatello De Luigi",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Portuguese",
+          "year": 1942,
+          "translator": "Manuel Ribeiro",
+          "title": "Frankenstein",
+          "place": "Lisbon",
+          "publisher": "Romance Popular",
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Catalan",
+          "year": 1983,
+          "translator": "Quim Monzó",
+          "title": "Frankenstein o el Prometeu modern",
+          "place": "Barcelona",
+          "publisher": "Edicions 62",
+          "source_text": "1831",
+          "confidence": "high"
+        },
+        {
+          "language": "Romanian",
+          "year": 1974,
+          "translator": "Mihai Stoian",
+          "title": "Frankenstein sau Prometeul modern",
+          "place": "Bucharest",
+          "publisher": "Albatros",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Russian",
+          "year": 1965,
+          "translator": "Zinaida Aleksandrova",
+          "title": "Франкенштейн, или Современный Прометей",
+          "place": "Moscow",
+          "publisher": "Khudozhestvennaya Literatura",
+          "source_text": "1831",
+          "confidence": "high"
+        },
+        {
+          "language": "Czech",
+          "year": 1966,
+          "translator": "Tomáš Korbař",
+          "title": "Frankenstein čili moderní Prométheus",
+          "place": "Prague",
+          "publisher": "Mladá fronta",
+          "source_text": "1831",
+          "confidence": "high"
+        },
+        {
+          "language": "Hungarian",
+          "year": 1977,
+          "translator": "Göncz Árpád",
+          "title": "Frankenstein avagy a modern Prométheusz",
+          "place": "Budapest",
+          "publisher": "Kozmosz Könyvek",
+          "source_text": "1831",
+          "confidence": "high"
+        },
+        {
+          "language": "Japanese",
+          "year": 1953,
+          "translator": "Yamamoto Masami",
+          "title": "フランケンシュタイン",
+          "place": "Tokyo",
+          "publisher": "Sogensha",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Chinese",
+          "year": 1958,
+          "translator": "Huang Jiazhen",
+          "title": "弗兰肯斯坦",
+          "place": "Beijing",
+          "publisher": "Renmin Wenxue Chubanshe",
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Korean",
+          "year": 1975,
+          "translator": null,
+          "title": "프랑켄슈타인",
+          "place": "Seoul",
+          "publisher": null,
+          "source_text": "unknown",
+          "confidence": "low"
+        },
+        {
+          "language": "Greek",
+          "year": 1969,
+          "translator": "Nikos Tassopoulos",
+          "title": "Φρανκενστάιν ή ο Σύγχρονος Προμηθέας",
+          "place": "Athens",
+          "publisher": null,
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Turkish",
+          "year": 1946,
+          "translator": "Memet Fuat",
+          "title": "Frankenstein ya da Modern Prometheus",
+          "place": "Istanbul",
+          "publisher": null,
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Arabic",
+          "year": 1965,
+          "translator": null,
+          "title": "فرانكنشتاين",
+          "place": "Cairo",
+          "publisher": null,
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Hebrew",
+          "year": 1979,
+          "translator": "Naomi Carmel",
+          "title": "פרנקנשטיין",
+          "place": "Tel Aviv",
+          "publisher": "Keter",
+          "source_text": "1831",
+          "confidence": "medium"
+        },
+        {
+          "language": "Bulgarian",
+          "year": 1980,
+          "translator": "Hristo Kanev",
+          "title": "Франкенщайн или новият Прометей",
+          "place": "Sofia",
+          "publisher": "Narodna kultura",
+          "source_text": "1831",
+          "confidence": "low"
+        },
+        {
+          "language": "Serbian/Croatian",
+          "year": 1968,
+          "translator": "Branko Vučićević",
+          "title": "Frankenštajn ili moderni Prometej",
+          "place": "Belgrade",
+          "publisher": "Nolit",
+          "source_text": "1831",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ]
+}

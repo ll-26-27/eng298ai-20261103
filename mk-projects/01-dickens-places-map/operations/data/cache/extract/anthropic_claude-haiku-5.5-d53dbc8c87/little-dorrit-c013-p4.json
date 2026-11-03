@@ -1,0 +1,129 @@
+{
+ "chunk": "little-dorrit-c013-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5189,
+  "completion_tokens": 2584,
+  "total_tokens": 7773,
+  "cost": 0.0018109,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0018109,
+   "upstream_inference_prompt_cost": 0.0005189,
+   "upstream_inference_completions_cost": 0.001292
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1617,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Henley",
+   "normalized": "Henley-on-Thames, Oxfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "When we lived at Henley, Barnes’s gander was stole by tinkers.",
+   "note": "Probably Henley-on-Thames; the passage does not specify."
+  },
+  {
+   "as_written": "The Monument near London Bridge",
+   "normalized": "The Monument, Fish Street Hill, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘The Monument near London Bridge,’ that lady instantly proclaimed",
+   "note": ""
+  },
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘The Monument near London Bridge,’ that lady instantly proclaimed",
+   "note": ""
+  },
+  {
+   "as_written": "Gray’s-Inn Gardens",
+   "normalized": "Gray's Inn Gardens, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "walked on the north-west side of Gray’s-Inn Gardens at exactly four o’clock in the afternoon",
+   "note": "Hypothetical reference, not a visit."
+  },
+  {
+   "as_written": "Cornish",
+   "normalized": "Cornwall",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "You’re not of the Clennams of Cornwall, Mr Clennam?",
+   "note": "Named as the county of the Clennams and a Cornish property."
+  },
+  {
+   "as_written": "Smithfield",
+   "normalized": "Smithfield, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They had crossed Smithfield together",
+   "note": ""
+  },
+  {
+   "as_written": "Barbican",
+   "normalized": "Barbican, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Clennam was left alone at the corner of Barbican.",
+   "note": ""
+  },
+  {
+   "as_written": "Aldersgate Street",
+   "normalized": "Aldersgate Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He turned slowly down Aldersgate Street",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "pondering his way along towards Saint Paul’s,",
+   "note": "Destination of walk, not reached in passage."
+  },
+  {
+   "as_written": "Lad Lane",
+   "normalized": "Lad Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "They come a racing out of Lad Lane and Wood Street",
+   "note": ""
+  },
+  {
+   "as_written": "Wood Street",
+   "normalized": "Wood Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "They come a racing out of Lad Lane and Wood Street",
+   "note": ""
+  }
+ ]
+}

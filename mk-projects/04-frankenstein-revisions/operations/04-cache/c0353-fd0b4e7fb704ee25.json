@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1778,
+  "completion_tokens": 123,
+  "total_tokens": 1901,
+  "cost": 0.0002393,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002393,
+   "upstream_inference_prompt_cost": 0.0001778,
+   "upstream_inference_completions_cost": 0.0000615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0353. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): But even human sympathies were not sufficient to satisfy his eager mind.\n\n1818 text: The scenery of external nature, which others regard only with admiration, he loved with ardour: ——\"The sounding cataract Haunted him like a passion: the tall rock, The mountain, and the deep and gloomy wood, Their colours and their forms, were then to him An appetite; a feeling, and a love, That had no need of a remoter charm, By thought supplied, or any interest Unborrowed from the eye.\"\n\n1831 text: The scenery of external nature, which others regard only with admiration, he loved with ardour:— —\"The sounding cataract Haunted him like a passion: the tall rock, The mountain, and the deep and gloomy wood, Their colours and their forms, were then to him An appetite; a feeling, and a love, That had no need of a remoter charm, By thought supplied, or any interest Unborrow'd from the eye\"\n\nDiff: The scenery of external nature, which others regard only with admiration, he loved with ardour:——\" The sounding cataract Haunted him like a passion: the tall rock, The mountain, and the deep and gloomy wood, Their colours and their forms, were then to him An appetite; a feeling, and a love, That had no need of a remoter charm, By thought supplied, or any interest [-Unborrowed-] {+Unborrow'd+} from the eye [-.-] \"\n\nContext after (unchanged): And where does he now exist?"
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only orthographic change: 'Unborrowed' becomes 'Unborrow'd' (elided past-participle apostrophe), with the closing period dropped. Wording, sense, and quoted Wordsworth/Coleridge-style lines are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

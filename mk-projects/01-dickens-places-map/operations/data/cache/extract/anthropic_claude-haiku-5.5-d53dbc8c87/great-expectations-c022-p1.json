@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c022-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5097,
+  "completion_tokens": 538,
+  "total_tokens": 5635,
+  "cost": 0.0007787,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007787,
+   "upstream_inference_prompt_cost": 0.0005097,
+   "upstream_inference_completions_cost": 0.000269
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 363,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Barnard’s Inn",
+   "normalized": "Barnard's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "stood contemplating one another in Barnard’s Inn, until we both burst out laughing",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "with no old people by, and with London all around us",
+   "note": "City as a whole; the dinner takes place in Barnard's Inn."
+  }
+ ]
+}

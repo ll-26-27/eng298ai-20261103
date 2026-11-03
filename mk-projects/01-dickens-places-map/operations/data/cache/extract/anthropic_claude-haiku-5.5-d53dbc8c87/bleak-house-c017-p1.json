@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c017-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5229,
+  "completion_tokens": 845,
+  "total_tokens": 6074,
+  "cost": 0.0009454,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009454,
+   "upstream_inference_prompt_cost": 0.0005229,
+   "upstream_inference_completions_cost": 0.0004225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 557,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "while we remained in London",
+   "note": ""
+  },
+  {
+   "as_written": "north of Devon",
+   "normalized": "North Devon, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "we were staying in the north of Devon after our marriage",
+   "note": ""
+  },
+  {
+   "as_written": "Mediterranean",
+   "normalized": "Mediterranean Sea",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when I was with Captain Swosser in the Mediterranean",
+   "note": ""
+  },
+  {
+   "as_written": "Temple of Science",
+   "normalized": "Temple of Science",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "he knew of no building save the Temple of Science",
+   "note": "figurative phrase, not a real building"
+  }
+ ]
+}

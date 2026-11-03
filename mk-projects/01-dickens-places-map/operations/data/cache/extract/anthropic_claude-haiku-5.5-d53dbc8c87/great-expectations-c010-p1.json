@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c010-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5209,
+  "completion_tokens": 936,
+  "total_tokens": 6145,
+  "cost": 0.0009889,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009889,
+   "upstream_inference_prompt_cost": 0.0005209,
+   "upstream_inference_completions_cost": 0.000468
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 692,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Three Jolly Bargemen",
+   "normalized": "Three Jolly Bargemen public house, village of Dickens's Kent marshes (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I had received strict orders from my sister to call for him at the Three Jolly Bargemen, that evening",
+   "note": "Fictional inn; village location not named in passage"
+  },
+  {
+   "as_written": "the marshes",
+   "normalized": "Thames marshes, Kent",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The lonely church, right out on the marshes, with graves round it!",
+   "note": "Generic name for the marshland; likely Kent marshes near the Thames estuary"
+  }
+ ]
+}

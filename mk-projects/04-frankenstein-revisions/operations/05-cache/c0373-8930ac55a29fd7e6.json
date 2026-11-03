@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1695,
+  "completion_tokens": 139,
+  "total_tokens": 1834,
+  "cost": 0.00478,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00478,
+   "upstream_inference_prompt_cost": 0.00339,
+   "upstream_inference_completions_cost": 0.00139
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0373. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): You are my creator, but I am your master;—obey!\"\n\n1818 text: \"The hour of my weakness is past, and the period of your power is arrived. Your threats cannot move me to do an act of wickedness; but they confirm me in a resolution of not creating you a companion in vice. Shall I, in cool blood, set loose upon the earth a dæmon, whose delight is in death and wretchedness.\n\n1831 text: \"The hour of my irresolution is past, and the period of your power is arrived. Your threats cannot move me to do an act of wickedness; but they confirm me in a determination of not creating you a companion in vice. Shall I, in cool blood, set loose upon the earth a dæmon, whose delight is in death and wretchedness?\n\nDiff: \" The hour of my [-weakness-] {+irresolution+} is past, and the period of your power is arrived. Your threats cannot move me to do an act of wickedness; but they confirm me in a [-resolution-] {+determination+} of not creating you a companion in vice. Shall I, in cool blood, set loose upon the earth a dæmon, whose delight is in death and wretchedness [-.-] {+?+}\n\nContext after (unchanged): Begone!"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 2,
+  "rationale": "Swaps 'weakness' for 'irresolution' and 'resolution' for 'determination', plus a period becoming a question mark after 'wretchedness'. Mostly diction and punctuation; 'irresolution' slightly sharpens Victor's hesitation as indecision rather than frailty.",
+  "confidence": "medium",
+  "rationaleWords": 31
+ }
+}

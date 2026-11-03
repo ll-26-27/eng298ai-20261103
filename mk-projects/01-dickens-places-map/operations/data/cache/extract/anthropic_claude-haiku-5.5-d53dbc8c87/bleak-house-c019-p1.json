@@ -1,0 +1,255 @@
+{
+ "chunk": "bleak-house-c019-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5475,
+  "completion_tokens": 3467,
+  "total_tokens": 8942,
+  "cost": 0.002281,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002281,
+   "upstream_inference_prompt_cost": 0.0005475,
+   "upstream_inference_completions_cost": 0.0017335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1238,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It is the long vacation in the regions of Chancery Lane.",
+   "note": ""
+  },
+  {
+   "as_written": "Westminster Hall",
+   "normalized": "Westminster Hall, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Westminster Hall itself is a shady solitude where nightingales might sing",
+   "note": ""
+  },
+  {
+   "as_written": "The Temple",
+   "normalized": "Temple, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The Temple, Chancery Lane, Serjeants’ Inn, and Lincoln’s Inn even unto the Fields",
+   "note": "Inn of Court"
+  },
+  {
+   "as_written": "Serjeants’ Inn",
+   "normalized": "Serjeants' Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The Temple, Chancery Lane, Serjeants’ Inn, and Lincoln’s Inn even unto the Fields",
+   "note": ""
+  },
+  {
+   "as_written": "Lincoln’s Inn even unto the Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Lincoln’s Inn even unto the Fields are like tidal harbours at low water",
+   "note": "Inn and its fields"
+  },
+  {
+   "as_written": "Lincoln’s Inn Hall",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "A crop of grass would grow in the chinks of the stone pavement outside Lincoln’s Inn Hall",
+   "note": ""
+  },
+  {
+   "as_written": "Inns of Court",
+   "normalized": "Inns of Court, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "All the unowned dogs who stray into the Inns of Court and pant about staircases",
+   "note": ""
+  },
+  {
+   "as_written": "Temple Bar",
+   "normalized": "Temple Bar, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Temple Bar gets so hot that it is, to the adjacent Strand and Fleet Street",
+   "note": ""
+  },
+  {
+   "as_written": "Strand",
+   "normalized": "The Strand, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to the adjacent Strand and Fleet Street, what a heater is in an urn",
+   "note": ""
+  },
+  {
+   "as_written": "Fleet Street",
+   "normalized": "Fleet Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to the adjacent Strand and Fleet Street, what a heater is in an urn",
+   "note": ""
+  },
+  {
+   "as_written": "Mr. Krook’s court",
+   "normalized": "Krook's court, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "In Mr. Krook’s court, it is so hot that the people turn their houses inside out",
+   "note": "fictional court"
+  },
+  {
+   "as_written": "Sol’s Arms",
+   "normalized": "Sol's Arms, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The Sol’s Arms has discontinued the Harmonic Meetings for the season",
+   "note": "fictional inn"
+  },
+  {
+   "as_written": "the Pastoral Gardens down the river",
+   "normalized": "Pastoral Gardens",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Little Swills is engaged at the Pastoral Gardens down the river",
+   "note": "location unnamed, downriver from London"
+  },
+  {
+   "as_written": "Cook’s Court, Cursitor Street",
+   "normalized": "Cook's Court, Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Mr. Snagsby, law-stationer of Cook’s Court, Cursitor Street, is sensible",
+   "note": ""
+  },
+  {
+   "as_written": "Staple Inn",
+   "normalized": "Staple Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "He has more leisure for musing in Staple Inn and in the Rolls Yard",
+   "note": ""
+  },
+  {
+   "as_written": "Rolls Yard",
+   "normalized": "Rolls Yard, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in Staple Inn and in the Rolls Yard during the long vacation",
+   "note": ""
+  },
+  {
+   "as_written": "Constantinople",
+   "normalized": "Istanbul, Turkey",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "is roaming, with a characteristic delight in aridity and dust, about Constantinople.",
+   "note": "Dickens's name for Istanbul"
+  },
+  {
+   "as_written": "the canals of Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Other dispersed fragments of the same great palladium are to be found on the canals of Venice",
+   "note": ""
+  },
+  {
+   "as_written": "the second cataract of the Nile",
+   "normalized": "Second Cataract, Nile, Sudan",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at the second cataract of the Nile, in the baths of Germany",
+   "note": ""
+  },
+  {
+   "as_written": "the baths of Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at the second cataract of the Nile, in the baths of Germany",
+   "note": ""
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "is doing infinitely better than might be expected in Switzerland.",
+   "note": ""
+  },
+  {
+   "as_written": "a French watering-place",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "is as merry as a grig at a French watering-place.",
+   "note": ""
+  },
+  {
+   "as_written": "Margate",
+   "normalized": "Margate, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "pine for bliss with the beloved object, at Margate, Ramsgate, or Gravesend.",
+   "note": ""
+  },
+  {
+   "as_written": "Ramsgate",
+   "normalized": "Ramsgate, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "pine for bliss with the beloved object, at Margate, Ramsgate, or Gravesend.",
+   "note": ""
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "pine for bliss with the beloved object, at Margate, Ramsgate, or Gravesend.",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1855,
+  "completion_tokens": 111,
+  "total_tokens": 1966,
+  "cost": 0.000241,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000241,
+   "upstream_inference_prompt_cost": 0.0001855,
+   "upstream_inference_completions_cost": 0.0000555
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0305. Location: 1818 Vol. II, Ch. VIII; 1831 Ch. XVI.\n\nContext before (unchanged): My protectors had departed, and had broken the only link that held me to the world.\n\n1818 text: For the first time the feelings of revenge and hatred filled my bosom, and I did not strive to controul them; but, allowing myself to be borne away by the stream, I bent my mind towards injury and death. When I thought of my friends, of the mild voice of De Lacy, the gentle eyes of Agatha, and the exquisite beauty of the Arabian, these thoughts vanished, and a gush of tears somewhat soothed me.\n\n1831 text: For the first time the feelings of revenge and hatred filled my bosom, and I did not strive to control them; but, allowing myself to be borne away by the stream, I bent my mind towards injury and death. When I thought of my friends, of the mild voice of De Lacey, the gentle eyes of Agatha, and the exquisite beauty of the Arabian, these thoughts vanished, and a gush of tears somewhat soothed me.\n\nDiff: For the first time the feelings of revenge and hatred filled my bosom, and I did not strive to [-controul-] {+control+} them; but, allowing myself to be borne away by the stream, I bent my mind towards injury and death. When I thought of my friends, of the mild voice of De [-Lacy-] {+Lacey+} , the gentle eyes of Agatha, and the exquisite beauty of the Arabian, these thoughts vanished, and a gush of tears somewhat soothed me.\n\nContext after (unchanged): But again, when I reflected that they had spurned and deserted me, anger returned, a rage of anger; and, unable to injure any thing human, I turned my fury towards inanimate objects."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic: 'controul' to 'control' and 'Lacy' to 'Lacey' (the surname spelling of De Lacey). No change in meaning or events; the name spelling is a minor correction.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

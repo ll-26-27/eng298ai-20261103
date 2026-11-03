@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c041-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4157,
+  "completion_tokens": 1213,
+  "total_tokens": 5370,
+  "cost": 0.0010222,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010222,
+   "upstream_inference_prompt_cost": 0.0004157,
+   "upstream_inference_completions_cost": 0.0006065
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 806,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold (fictional house and estate, Lincolnshire)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Sir Leicester and Chesney Wold, Sir Leicester and his ancestors and his patrimony",
+   "note": "Fictional house; the conversation takes place there."
+  },
+  {
+   "as_written": "Ghost’s Walk",
+   "normalized": "Ghost's Walk, Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "followed by the faithful step upon the Ghost’s Walk",
+   "note": "Walk within the fictional Chesney Wold; referred to hypothetically."
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there is hospitality at the place in Lincolnshire",
+   "note": "County where Chesney Wold is set."
+  },
+  {
+   "as_written": "Bath",
+   "normalized": "Bath, Somerset",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "long the admiration of Bath and the terror of every other community",
+   "note": ""
+  }
+ ]
+}

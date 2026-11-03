@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c023-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5362,
+  "completion_tokens": 1184,
+  "total_tokens": 6546,
+  "cost": 0.0011282,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011282,
+   "upstream_inference_prompt_cost": 0.0005362,
+   "upstream_inference_completions_cost": 0.000592
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 592,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I presently departed from the Commons, feeling very young when I went out of Spenlow and Jorkins’s",
+   "note": "Narrator refers to Doctors' Commons as 'the Commons'; the courtyard of the Doctors is where he was taken."
+  },
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We arrived at Lincoln’s Inn Fields without any new adventures",
+   "note": ""
+  },
+  {
+   "as_written": "the Adelphi",
+   "normalized": "Adelphi, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "There is a furnished little set of chambers to be let in the Adelphi, Trot",
+   "note": ""
+  },
+  {
+   "as_written": "Buckingham Street in the Adelphi",
+   "normalized": "Buckingham Street, Adelphi, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in Buckingham Street in the Adelphi there was to be let furnished, with a view of the river",
+   "note": ""
+  },
+  {
+   "as_written": "the Dover coach",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I saw her safely seated in the Dover coach",
+   "note": "Destination of the coach, not visited in passage."
+  },
+  {
+   "as_written": "the river",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and, sure enough, the river was outside the windows",
+   "note": "Not named in text; identified as Thames from Adelphi chambers."
+  }
+ ]
+}

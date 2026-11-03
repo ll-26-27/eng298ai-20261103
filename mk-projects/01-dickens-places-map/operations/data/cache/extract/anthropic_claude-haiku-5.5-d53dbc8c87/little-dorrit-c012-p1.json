@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c012-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5470,
+  "completion_tokens": 1933,
+  "total_tokens": 7403,
+  "cost": 0.0015135,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015135,
+   "upstream_inference_prompt_cost": 0.000547,
+   "upstream_inference_completions_cost": 0.0009665
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1337,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "In London itself, though in the old rustic road",
+   "note": "Setting of the chapter; named once, in the opening sentence."
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Hatton Garden, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Bleeding Heart Yard was to be found; a place much changed in feature and in fortune",
+   "note": "Fictional yard, modelled on a real court in Holborn/Hatton Garden area; the modern location is approximate."
+  },
+  {
+   "as_written": "the Marshalsea jail",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There's a gentleman to have run to seed in the Marshalsea jail!",
+   "note": ""
+  },
+  {
+   "as_written": "the Lock",
+   "normalized": "The Lock (debtors' prison), Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I have been on the wrong side of the Lock myself",
+   "note": "Ambiguous reference to a debtors' lock-up; location uncertain, possibly Southwark."
+  },
+  {
+   "as_written": "Britain",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as willing a Yard as any in Britain",
+   "note": ""
+  },
+  {
+   "as_written": "the Pyramids",
+   "normalized": "Pyramids of Giza, Egypt",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as Arabs of the desert pitch their tents among the fallen stones of the Pyramids",
+   "note": "Simile only."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c046-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4980,
+  "completion_tokens": 1221,
+  "total_tokens": 6201,
+  "cost": 0.0011085,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011085,
+   "upstream_inference_prompt_cost": 0.000498,
+   "upstream_inference_completions_cost": 0.0006105
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 916,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Spain",
+   "normalized": "Spain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "his master, as he hears, is coasting Spain",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I took the liberty of coming home to England",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "On the following evening I went into London in quest of him.",
+   "note": ""
+  },
+  {
+   "as_written": "Hungerford Market",
+   "normalized": "Hungerford Market, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He kept a lodging over the little chandler’s shop in Hungerford Market",
+   "note": "Market building, not a street; in Dickens's day it was a market on the Strand side near Charing Cross."
+  }
+ ]
+}

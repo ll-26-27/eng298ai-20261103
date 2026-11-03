@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c049-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4065,
+  "completion_tokens": 615,
+  "total_tokens": 4680,
+  "cost": 0.000714,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000714,
+   "upstream_inference_prompt_cost": 0.0004065,
+   "upstream_inference_completions_cost": 0.0003075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 462,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brogley's",
+   "normalized": "Brogley's lodging (unlocated), Dombey and Son",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "\"He slings his hammock for the present, lady lass,\" said Captain Cuttle, \"round at Brogley's.\"",
+   "note": "Lodging of Mr Brogley, not located in the passage; possibly fictional or unlocatable."
+  }
+ ]
+}

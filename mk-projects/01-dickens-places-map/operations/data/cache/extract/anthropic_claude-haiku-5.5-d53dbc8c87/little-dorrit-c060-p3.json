@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c060-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1736,
+  "completion_tokens": 546,
+  "total_tokens": 2282,
+  "cost": 0.0004466,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004466,
+   "upstream_inference_prompt_cost": 0.0001736,
+   "upstream_inference_completions_cost": 0.000273
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 269,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chelsea Veteran",
+   "normalized": "Royal Hospital Chelsea, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as remote from Mrs Sparkler's sense of touch as if he had been a highly meritorious Chelsea Veteran",
+   "note": "Refers to the Chelsea Hospital for veterans, not a residence; used as a figure of speech."
+  },
+  {
+   "as_written": "Greenwich Pensioner",
+   "normalized": "Royal Hospital Greenwich, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as if he had been a highly meritorious Chelsea Veteran or Greenwich Pensioner",
+   "note": "Refers to the Greenwich naval hospital for pensioners; used as a figure of speech."
+  }
+ ]
+}

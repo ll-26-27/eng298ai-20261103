@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c020-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5153,
+  "completion_tokens": 887,
+  "total_tokens": 6040,
+  "cost": 0.0009588,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009588,
+   "upstream_inference_prompt_cost": 0.0005153,
+   "upstream_inference_completions_cost": 0.0004435
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 563,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "said the Daughter of the Father of the Marshalsea",
+   "note": "Referred to through Fanny's epithet for herself, not as a location in the scene."
+  },
+  {
+   "as_written": "Harley Street",
+   "normalized": "Harley Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "if you are not too tired to walk to Harley Street, Cavendish Square.",
+   "note": "Mrs Merdle's house is on this street; the sisters walk there and are received."
+  },
+  {
+   "as_written": "Cavendish Square",
+   "normalized": "Cavendish Square, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if you are not too tired to walk to Harley Street, Cavendish Square.",
+   "note": "Given as the locality of Harley Street."
+  }
+ ]
+}

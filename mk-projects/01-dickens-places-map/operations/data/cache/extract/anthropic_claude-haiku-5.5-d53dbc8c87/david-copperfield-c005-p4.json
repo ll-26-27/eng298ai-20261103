@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c005-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4661,
+  "completion_tokens": 1019,
+  "total_tokens": 5680,
+  "cost": 0.0009756,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009756,
+   "upstream_inference_prompt_cost": 0.0004661,
+   "upstream_inference_completions_cost": 0.0005095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 701,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Salem House",
+   "normalized": "Salem House (fictional school, Dickens's invented setting)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "to Salem House, which was enclosed with a high brick wall",
+   "note": "Invented school; location not given in this passage."
+  },
+  {
+   "as_written": "Yarmouth flats",
+   "normalized": "Yarmouth flats, Great Yarmouth, Norfolk",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to the blowing of the wind on Yarmouth flats",
+   "note": "Narrator recalls home; not present in this scene."
+  },
+  {
+   "as_written": "Coventry",
+   "normalized": "Coventry, Warwickshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "seemed to send me to Coventry by general acclamation",
+   "note": "Figurative use in the idiom 'send to Coventry'; not a literal reference."
+  }
+ ]
+}

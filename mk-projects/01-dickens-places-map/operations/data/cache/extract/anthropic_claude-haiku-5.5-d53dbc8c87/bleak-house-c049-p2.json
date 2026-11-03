@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c049-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5325,
+  "completion_tokens": 1236,
+  "total_tokens": 6561,
+  "cost": 0.0011505,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011505,
+   "upstream_inference_prompt_cost": 0.0005325,
+   "upstream_inference_completions_cost": 0.000618
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 877,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Woolwich",
+   "normalized": "Woolwich, London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "“George. Woolwich. Quebec. Malta. This is her birthday.",
+   "note": "Also used as a nickname for the Bagnets' boy; in Dickens's day Woolwich was historically in Kent, now in south-east London."
+  },
+  {
+   "as_written": "Quebec",
+   "normalized": "Quebec, Canada",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "“George. Woolwich. Quebec. Malta. This is her birthday.",
+   "note": "Also the name of one of the Bagnet daughters; the toast names it, so the place reference is ambiguous."
+  },
+  {
+   "as_written": "Malta",
+   "normalized": "Malta",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "“George. Woolwich. Quebec. Malta. This is her birthday.",
+   "note": "Also the name of one of the Bagnet daughters; the toast names it, so the place reference is ambiguous."
+  }
+ ]
+}

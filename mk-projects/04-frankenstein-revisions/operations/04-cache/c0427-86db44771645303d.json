@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1752,
+  "completion_tokens": 459,
+  "total_tokens": 2211,
+  "cost": 0.0004047,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004047,
+   "upstream_inference_prompt_cost": 0.0001752,
+   "upstream_inference_completions_cost": 0.0002295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 328,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0427. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): By the utmost self-violence, I curbed the imperious voice of wretchedness, which sometimes desired to declare itself to the whole world; and my manners were calmer and more composed than they had ever been since my journey to the sea of ice.\n\n1818 text: We arrived at Havre on the 8th of May, and instantly proceeded to Paris, where my father had some business which detained us a few weeks. In this city, I received the following letter from Elizabeth:— \"To VICTOR FRANKENSTEIN. \"MY DEAREST FRIEND,\n\n1831 text: A few days before we left Paris on our way to Switzerland, I received the following letter from Elizabeth:— \"My dear Friend,\n\nDiff: [-We arrived at Havre on the 8th of May, and instantly proceeded to Paris, where my father had some business which detained us a few weeks. In this city, I received the following letter from Elizabeth:— \"To VICTOR FRANKENSTEIN. \"MY DEAREST FRIEND,-] {+A few days before we left Paris on our way to Switzerland, I received the following letter from Elizabeth:— \"My dear Friend,+}\n\nContext after (unchanged): \"It gave me the greatest pleasure to receive a letter from my uncle dated at Paris; you are no longer at a formidable distance, and I may hope to see you in less than a fortnight."
+ },
+ "result": {
+  "category": "framing",
+  "secondary": [
+   "cut",
+   "plot"
+  ],
+  "significance": 2,
+  "rationale": "The 1818 arrival at Havre, the 8 May date, and the father's business are cut, and the letter's address line 'To VICTOR FRANKENSTEIN' becomes 'My dear Friend'. This reframes the letter's setting and heading without changing the events.",
+  "confidence": "medium",
+  "rationaleWords": 38
+ }
+}

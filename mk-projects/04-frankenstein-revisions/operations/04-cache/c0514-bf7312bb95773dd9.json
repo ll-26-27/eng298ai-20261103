@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1623,
+  "completion_tokens": 129,
+  "total_tokens": 1752,
+  "cost": 0.0002268,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002268,
+   "upstream_inference_prompt_cost": 0.0001623,
+   "upstream_inference_completions_cost": 0.0000645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0514. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): There is something terribly appalling in our situation, yet my courage and hopes do not desert me.\n\n1818 text: We may survive; and if we do not, I will repeat the lessons of my Seneca, and die with a good heart. Yet what, Margaret, will be the state of your mind?\n\n1831 text: Yet it is terrible to reflect that the lives of all these men are endangered through me. If we are lost, my mad schemes are the cause. And what, Margaret, will be the state of your mind?\n\nDiff: [-We may survive; and if we do not, I will repeat the lessons of my Seneca, and die with a good heart. Yet what, Margaret, will be the state of your mind?-] {+Yet it is terrible to reflect that the lives of all these men are endangered through me. If we are lost, my mad schemes are the cause. And what, Margaret, will be the state of your mind?+}\n\nContext after (unchanged): You will not hear of my destruction, and you will anxiously await my return."
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "characterization",
+   "cut"
+  ],
+  "significance": 4,
+  "rationale": "Walton's stoic composure (\"repeat the lessons of my Seneca, and die with a good heart\") is replaced by guilt over endangering the men: \"my mad schemes are the cause.\" Adds moral self-judgment and reframes his character.",
+  "confidence": "high",
+  "rationaleWords": 36
+ }
+}

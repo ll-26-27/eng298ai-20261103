@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c062-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5414,
+  "completion_tokens": 1081,
+  "total_tokens": 6495,
+  "cost": 0.0010819,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010819,
+   "upstream_inference_prompt_cost": 0.0005414,
+   "upstream_inference_completions_cost": 0.0005405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 725,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Princess’s Place",
+   "normalized": "Princess's Place, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "since the morning of her shock in Princess’s Place",
+   "note": "Location uncertain; Dickens's fictional-seeming street, placed in London here by assumption"
+  },
+  {
+   "as_written": "Leadenhall Market",
+   "normalized": "Leadenhall Market, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "round the blue umbrella in Leadenhall Market",
+   "note": ""
+  },
+  {
+   "as_written": "Port of London",
+   "normalized": "Port of London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if no ship left the Port of London without the Midshipman’s assistance",
+   "note": "Refers to the port on the Thames generally"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Turn again Whittington, Lord Mayor of London",
+   "note": "Quoted nursery motto"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "our-mutual-friend-c008-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5284,
+  "completion_tokens": 1597,
+  "total_tokens": 6881,
+  "cost": 0.0013269,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013269,
+   "upstream_inference_prompt_cost": 0.0005284,
+   "upstream_inference_completions_cost": 0.0007985
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1009,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Fleet Street",
+   "normalized": "Fleet Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Whosoever had gone out of Fleet Street into the Temple",
+   "note": ""
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "had gone out of Fleet Street into the Temple at the date of this history",
+   "note": "Lawyers' district where Lightwood's office is located."
+  },
+  {
+   "as_written": "the Bower",
+   "normalized": "The Bower, Harmon estate house",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "both on its own ground and at the Bower",
+   "note": "Fictional house name; location not stated in passage."
+  },
+  {
+   "as_written": "the Roman Empire",
+   "normalized": "Roman Empire",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the uncertainties besetting the Roman Empire",
+   "note": "Historical empire, not a single modern location."
+  },
+  {
+   "as_written": "the Rocky Mountains",
+   "normalized": "Rocky Mountains, North America",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "take it with you to—say, to the Rocky Mountains",
+   "note": ""
+  },
+  {
+   "as_written": "Agincourt",
+   "normalized": "Agincourt, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Agincourt and Cressy",
+   "note": "Battle site, not a town as such."
+  },
+  {
+   "as_written": "Cressy",
+   "normalized": "Crécy-en-Ponthieu, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Agincourt and Cressy",
+   "note": "Battle site (Crécy)."
+  }
+ ]
+}

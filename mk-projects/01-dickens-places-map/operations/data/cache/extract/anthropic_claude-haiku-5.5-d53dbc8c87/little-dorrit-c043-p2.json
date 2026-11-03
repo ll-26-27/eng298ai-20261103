@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c043-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5059,
+  "completion_tokens": 1142,
+  "total_tokens": 6201,
+  "cost": 0.0010769,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010769,
+   "upstream_inference_prompt_cost": 0.0005059,
+   "upstream_inference_completions_cost": 0.000571
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 542,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "there's not a poorer man with whole elbows in Venice, than myself",
+   "note": "Dorrit family's stay and Blandois scenes take place here; named several times"
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "they moved, with their retinue, to Rome",
+   "note": "Family moves here at the end of the passage"
+  },
+  {
+   "as_written": "the Corso",
+   "normalized": "Via del Corso, Rome",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "A fine residence had been taken for them on the Corso",
+   "note": "Street in Rome"
+  },
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "this same society in which they lived, greatly resembled a superior sort of Marshalsea",
+   "note": "Debtors' prison; used as a comparison, appears repeatedly"
+  },
+  {
+   "as_written": "the College",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as much belonging to tourists as the College and the Snuggery belonged to the jail",
+   "note": "Informal name for a part of the Marshalsea, not a separate site"
+  },
+  {
+   "as_written": "the Snuggery",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as much belonging to tourists as the College and the Snuggery belonged to the jail",
+   "note": "Informal name for a part of the Marshalsea, not a separate site"
+  }
+ ]
+}

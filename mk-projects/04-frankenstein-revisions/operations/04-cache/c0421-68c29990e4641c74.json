@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1758,
+  "completion_tokens": 114,
+  "total_tokens": 1872,
+  "cost": 0.0002328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002328,
+   "upstream_inference_prompt_cost": 0.0001758,
+   "upstream_inference_completions_cost": 0.000057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0421. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): I was unable to pursue the train of thought; a thousand feelings pressed upon me, and I wept bitterly.\n\n1818 text: Ever since my recovery from the fever I had been in the custom of taking every night a small quantity of laudanum; for it was by means of this drug only that I was enabled to gain the rest necessary for the preservation of life. Oppressed by the recollection of my various misfortunes, I now took a double dose, and soon slept profoundly.\n\n1831 text: Ever since my recovery from the fever, I had been in the custom of taking every night a small quantity of laudanum; for it was by means of this drug only that I was enabled to gain the rest necessary for the preservation of life. Oppressed by the recollection of my various misfortunes, I now swallowed double my usual quantity, and soon slept profoundly.\n\nDiff: Ever since my recovery from the fever {+,+} I had been in the custom of taking every night a small quantity of laudanum; for it was by means of this drug only that I was enabled to gain the rest necessary for the preservation of life. Oppressed by the recollection of my various misfortunes, I now [-took a-] {+swallowed+} double [-dose-] {+my usual quantity+} , and soon slept profoundly.\n\nContext after (unchanged): But sleep did not afford me respite from thought and misery; my dreams presented a thousand objects that scared me."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "expansion"
+  ],
+  "significance": 2,
+  "rationale": "Replaces \"took a double dose\" with \"swallowed double my usual quantity\", a rephrasing that keeps the same act and meaning; the explicit reference to his usual quantity adds slight elaboration of his habit.",
+  "confidence": "high",
+  "rationaleWords": 33
+ }
+}

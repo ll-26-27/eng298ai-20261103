@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1919,
+  "completion_tokens": 110,
+  "total_tokens": 2029,
+  "cost": 0.004938,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004938,
+   "upstream_inference_prompt_cost": 0.003838,
+   "upstream_inference_completions_cost": 0.0011
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0369. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): Even if they were to leave Europe, and inhabit the deserts of the new world, yet one of the first results of those sympathies for which the dæmon thirsted would be children, and a race of devils would be propagated upon the earth, who might make the very existence of the species of man a condition precarious and full of terror.\n\n1818 text: Had I a right, for my own benefit, to inflict this curse upon everlasting generations? I had before been moved by the sophisms of the being I had created; I had been struck senseless by his fiendish threats: but now, for the first time, the wickedness of my promise burst upon me; I shuddered to think that future ages might curse me as their pest, whose selfishness had not hesitated to buy its own peace at the price perhaps of the existence of the whole human race.\n\n1831 text: Had I right, for my own benefit, to inflict this curse upon everlasting generations? I had before been moved by the sophisms of the being I had created; I had been struck senseless by his fiendish threats: but now, for the first time, the wickedness of my promise burst upon me; I shuddered to think that future ages might curse me as their pest, whose selfishness had not hesitated to buy its own peace at the price, perhaps, of the existence of the whole human race.\n\nDiff: Had I [-a-] right, for my own benefit, to inflict this curse upon everlasting generations? I had before been moved by the sophisms of the being I had created; I had been struck senseless by his fiendish threats: but now, for the first time, the wickedness of my promise burst upon me; I shuddered to think that future ages might curse me as their pest, whose selfishness had not hesitated to buy its own peace at the price {+,+} perhaps {+,+} of the existence of the whole human race.\n\nContext after (unchanged): I trembled, and my heart failed within me; when, on looking up, I saw, by the light of the moon, the dæmon at the casement."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Removes the article in \"Had I [a] right\" and adds commas around \"perhaps\" in \"at the price, perhaps, of the existence.\" These are grammatical and punctuation adjustments with no change in meaning.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

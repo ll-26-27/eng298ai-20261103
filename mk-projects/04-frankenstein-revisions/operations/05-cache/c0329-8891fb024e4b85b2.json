@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1535,
+  "completion_tokens": 122,
+  "total_tokens": 1657,
+  "cost": 0.00429,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00429,
+   "upstream_inference_prompt_cost": 0.00307,
+   "upstream_inference_completions_cost": 0.00122
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0329. Location: 1818 Vol. II, Ch. IX; 1831 Ch. XVII.\n\nContext before (unchanged): \"How is this?\n\n1818 text: I thought I had moved your compassion, and yet you still refuse to bestow on me the only benefit that can soften my heart, and render me harmless.\n\n1831 text: I must not be trifled with: and I demand an answer.\n\nDiff: [-I thought I had moved your compassion, and yet you still refuse to bestow on me the only benefit that can soften my heart, and render me harmless.-] {+I must not be trifled with: and I demand an answer.+}\n\nContext after (unchanged): If I have no ties and no affections, hatred and vice must be my portion; the love of another will destroy the cause of my crimes, and I shall become a thing, of whose existence every one will be ignorant."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "cut",
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "The 1818 plea ('I thought I had moved your compassion... render me harmless') is replaced by a curt threat ('I must not be trifled with: and I demand an answer'), making the creature more domineering and less pathetic in this exchange.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c047-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5179,
+  "completion_tokens": 422,
+  "total_tokens": 5601,
+  "cost": 0.0007289,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007289,
+   "upstream_inference_prompt_cost": 0.0005179,
+   "upstream_inference_completions_cost": 0.000211
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the streets",
+   "normalized": "London streets",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Allan Woodcourt and Jo proceed along the streets where the high church spires",
+   "note": "Generic reference to London streets, not a named place; consider omitting"
+  },
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "Holborn Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "",
+   "note": "Not present in this passage; remove"
+  },
+  {
+   "as_written": "Bell Yard",
+   "normalized": "Bell Yard, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Miss Flite and her birds are domiciled with a Mrs. Blinder, in Bell Yard",
+   "note": "Mrs. Blinder's lodging; Allan goes to that neighbouring place"
+  },
+  {
+   "as_written": "George's Shooting Gallery",
+   "normalized": "George's Shooting Gallery, Newcastle Street, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "From the exterior of George’s Shooting Gallery, and the long entry, and the bare perspective beyond it",
+   "note": "Location not named in passage; Newcastle Street is from elsewhere in novel"
+  }
+ ]
+}

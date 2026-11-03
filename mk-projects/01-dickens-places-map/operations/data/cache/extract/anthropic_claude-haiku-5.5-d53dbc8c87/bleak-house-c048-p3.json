@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c048-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5049,
+  "completion_tokens": 1105,
+  "total_tokens": 6154,
+  "cost": 0.0010574,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010574,
+   "upstream_inference_prompt_cost": 0.0005049,
+   "upstream_inference_completions_cost": 0.0005525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 885,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold (Lady Dedlock's country house, Lincolnshire)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when we spoke at night at Chesney Wold?",
+   "note": "Fictional house; the stars above its turret-leads are recalled, not visited."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "even on this stranger's wilderness of London there is some rest.",
+   "note": "City-level reference; Mr. Tulkinghorn walks its streets in this passage."
+  }
+ ]
+}

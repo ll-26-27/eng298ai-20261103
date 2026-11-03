@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c037-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5247,
+  "completion_tokens": 1002,
+  "total_tokens": 6249,
+  "cost": 0.0010257,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010257,
+   "upstream_inference_prompt_cost": 0.0005247,
+   "upstream_inference_completions_cost": 0.000501
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 634,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "having had the honour of making that gentleman’s acquaintance at the hotel at Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Bernard",
+   "normalized": "Great St Bernard Hospice, Great St Bernard Pass, Switzerland",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the conventional breed of Saint Bernard monks",
+   "note": "Named by saint and dogs; the convent/hospice is the setting, identified by the Saint Bernard reference."
+  },
+  {
+   "as_written": "Swiss",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It was like the supper of an ordinary Swiss hotel",
+   "note": "Adjectival reference identifying the country."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Dine with the Lord Mayor of London",
+   "note": ""
+  }
+ ]
+}

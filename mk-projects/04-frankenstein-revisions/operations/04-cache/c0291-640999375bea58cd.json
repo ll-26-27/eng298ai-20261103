@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2101,
+  "completion_tokens": 112,
+  "total_tokens": 2213,
+  "cost": 0.0002661,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002661,
+   "upstream_inference_prompt_cost": 0.0002101,
+   "upstream_inference_completions_cost": 0.000056
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0291. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): I had sagacity enough to discover, that the unnatural hideousness of my person was the chief object of horror with those who had formerly beheld me.\n\n1818 text: My voice, although harsh, had nothing terrible in it; I thought, therefore, that if, in the absence of his children, I could gain the good-will and mediation of the old De Lacy, I might, by his means, be tolerated by my younger protectors. \"One day, when the sun shone on the red leaves that strewed the ground, and diffused cheerfulness, although it denied warmth, Safie, Agatha, and Felix, departed on a long country walk, and the old man, at his own desire, was left alone in the cottage. When his children had departed, he took up his guitar, and played several mournful, but sweet airs, more sweet and mournful than I had ever heard him play before.\n\n1831 text: My voice, although harsh, had nothing terrible in it; I thought, therefore, that if, in the absence of his children, I could gain the good-will and mediation of the old De Lacey, I might, by his means, be tolerated by my younger protectors. \"One day, when the sun shone on the red leaves that strewed the ground, and diffused cheerfulness, although it denied warmth, Safie, Agatha, and Felix departed on a long country walk, and the old man, at his own desire, was left alone in the cottage. When his children had departed, he took up his guitar, and played several mournful but sweet airs, more sweet and mournful than I had ever heard him play before.\n\nDiff: My voice, although harsh, had nothing terrible in it; I thought, therefore, that if, in the absence of his children, I could gain the good-will and mediation of the old De [-Lacy-] {+Lacey+} , I might, by his means, be tolerated by my younger protectors. \" One day, when the sun shone on the red leaves that strewed the ground, and diffused cheerfulness, although it denied warmth, Safie, Agatha, and Felix [-,-] departed on a long country walk, and the old man, at his own desire, was left alone in the cottage. When his children had departed, he took up his guitar, and played several mournful [-,-] but sweet airs, more sweet and mournful than I had ever heard him play before.\n\nContext after (unchanged): At first his countenance was illuminated with pleasure, but, as he continued, thoughtfulness and sadness succeeded; at length, laying aside the instrument, he sat absorbed in reflection."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "The diff shows the surname changed from De Lacy to De Lacey, a spelling correction, plus removed commas after 'Felix' and 'mournful' that do not alter sense or meaning. No change in events or characterization.",
+  "confidence": "high",
+  "rationaleWords": 35
+ }
+}

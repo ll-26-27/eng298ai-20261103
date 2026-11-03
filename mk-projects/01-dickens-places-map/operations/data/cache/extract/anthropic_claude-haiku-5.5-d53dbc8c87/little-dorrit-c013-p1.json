@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c013-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5254,
+  "completion_tokens": 409,
+  "total_tokens": 5663,
+  "cost": 0.0007299,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007299,
+   "upstream_inference_prompt_cost": 0.0005254,
+   "upstream_inference_completions_cost": 0.0002045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Gray’s Inn Road",
+   "normalized": "Gray's Inn Road, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Mr Casby lived in a street in the Gray’s Inn Road, which had set off from that thoroughfare",
+   "note": "Spelling as in text; modern usually Gray's Inn Road."
+  },
+  {
+   "as_written": "Pentonville Hill",
+   "normalized": "Pentonville Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "up again to the top of Pentonville Hill",
+   "note": ""
+  },
+  {
+   "as_written": "the Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the case of the Father of the Marshalsea was indeed a hopeless one",
+   "note": "Named via 'Father of the Marshalsea'; prison in Southwark."
+  },
+  {
+   "as_written": "Eastern manner",
+   "normalized": "",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "stifled by Mutes in the Eastern manner",
+   "note": "Vague reference to Eastern custom, not a specific place; consider omitting."
+  }
+ ]
+}

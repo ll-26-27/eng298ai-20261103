@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c027-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 3354,
+  "completion_tokens": 204,
+  "total_tokens": 3558,
+  "cost": 0.0004374,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004374,
+   "upstream_inference_prompt_cost": 0.0003354,
+   "upstream_inference_completions_cost": 0.000102
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 110,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "map of England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in half the places of resort upon the map of England?",
+   "note": "Generic reference to England as a whole; the 'places of resort' are not named."
+  }
+ ]
+}

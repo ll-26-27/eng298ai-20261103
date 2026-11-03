@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1624,
+  "completion_tokens": 118,
+  "total_tokens": 1742,
+  "cost": 0.0002214,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002214,
+   "upstream_inference_prompt_cost": 0.0001624,
+   "upstream_inference_completions_cost": 0.000059
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0520. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): For this was it a glorious, for this was it an honourable undertaking.\n\n1818 text: You were hereafter to be hailed as the benefactors of your species; your name adored, as belonging to brave men who encountered death for honour and the benefit of mankind.\n\n1831 text: You were hereafter to be hailed as the benefactors of your species; your names adored, as belonging to brave men who encountered death for honour, and the benefit of mankind.\n\nDiff: You were hereafter to be hailed as the benefactors of your species; your [-name-] {+names+} adored, as belonging to brave men who encountered death for honour {+,+} and the benefit of mankind.\n\nContext after (unchanged): And now, behold, with the first imagination of danger, or, if you will, the first mighty and terrific trial of your courage, you shrink away, and are content to be handed down as men who had not strength enough to endure cold and peril; and so, poor souls, they were chilly, and returned to their warm fire-sides."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Singular 'name' becomes plural 'names' with the verb 'adored' unchanged in form; 'honour' gains a serial comma. Stylistic and grammatical tidying with no change to meaning or the speech's sense of the crew's reputation.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

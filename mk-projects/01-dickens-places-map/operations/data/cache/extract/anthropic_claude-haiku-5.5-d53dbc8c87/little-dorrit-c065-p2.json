@@ -1,0 +1,39 @@
+{
+ "chunk": "little-dorrit-c065-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4844,
+  "completion_tokens": 681,
+  "total_tokens": 5525,
+  "cost": 0.0008249,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008249,
+   "upstream_inference_prompt_cost": 0.0004844,
+   "upstream_inference_completions_cost": 0.0003405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 534,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Lodge",
+   "normalized": "Lodge (gatehouse of the Marshalsea Prison), Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "She was the last visitor to pass out at the Lodge, and the gate jarred heavily and hopelessly upon her.",
+   "note": "Gatehouse of the Marshalsea; the prison is not named in this passage."
+  }
+ ]
+}

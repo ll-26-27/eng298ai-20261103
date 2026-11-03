@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1747,
+  "completion_tokens": 105,
+  "total_tokens": 1852,
+  "cost": 0.004544,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004544,
+   "upstream_inference_prompt_cost": 0.003494,
+   "upstream_inference_completions_cost": 0.00105
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0009. Location: 1818 Letter I; 1831 Letter I.\n\nContext before (unchanged): But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.\n\n1818 text: These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to tranquillize the mind as a steady purpose,—a point on which the soul may fix its intellectual eye.\n\n1831 text: These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to tranquillise the mind as a steady purpose,—a point on which the soul may fix its intellectual eye.\n\nDiff: These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to [-tranquillize-] {+tranquillise+} the mind as a steady purpose,—a point on which the soul may fix its intellectual eye.\n\nContext after (unchanged): This expedition has been the favourite dream of my early years."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'tranquillize' becomes 'tranquillise' (-ize to -ise). The word, meaning and sentence are otherwise identical, so there is no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

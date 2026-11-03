@@ -1,0 +1,120 @@
+{
+ "chunk": "little-dorrit-c011-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5243,
+  "completion_tokens": 1602,
+  "total_tokens": 6845,
+  "cost": 0.0013253,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013253,
+   "upstream_inference_prompt_cost": 0.0005243,
+   "upstream_inference_completions_cost": 0.000801
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 875,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Break of Day",
+   "normalized": "Break of Day (inn, unlocated, France)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The landlady of the Break of Day looked at him again",
+   "note": "Fictional inn; location not given in passage."
+  },
+  {
+   "as_written": "Daybreak",
+   "normalized": "Break of Day (inn, unlocated, France)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It had been mentioned at the Daybreak, she remarked",
+   "note": "Variant name for the same inn as Break of Day."
+  },
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have been carted out of Marseilles in the dead of night",
+   "note": ""
+  },
+  {
+   "as_written": "Avignon",
+   "normalized": "Avignon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "doing odds and ends at Avignon",
+   "note": ""
+  },
+  {
+   "as_written": "Pont Esprit",
+   "normalized": "Pont-Saint-Esprit, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at Pont Esprit",
+   "note": ""
+  },
+  {
+   "as_written": "Lyons",
+   "normalized": "Lyon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at Lyons",
+   "note": ""
+  },
+  {
+   "as_written": "Rhone",
+   "normalized": "Rhône (river), France",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "upon the Rhone",
+   "note": ""
+  },
+  {
+   "as_written": "Saone",
+   "normalized": "Saône (river), France",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "upon the Saone",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have sometimes had a thought of going to Paris",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and perhaps to England.",
+   "note": ""
+  }
+ ]
+}

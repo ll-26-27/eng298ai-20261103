@@ -1,0 +1,39 @@
+{
+ "chunk": "great-expectations-c020-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3708,
+  "completion_tokens": 484,
+  "total_tokens": 4192,
+  "cost": 0.0006128,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006128,
+   "upstream_inference_prompt_cost": 0.0003708,
+   "upstream_inference_completions_cost": 0.000242
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 331,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Barnard’s Inn",
+   "normalized": "Barnard's Inn, Holborn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I was to go to “Barnard’s Inn,” to young Mr. Pocket’s rooms, where a bed had been sent in for my accommodation",
+   "note": "Former Inn of Chancery; Pip is directed there but does not arrive within this passage."
+  }
+ ]
+}

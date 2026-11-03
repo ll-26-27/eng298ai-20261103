@@ -1,0 +1,743 @@
+{
+  "about": "Step 2b (research): one verdict per candidate, written by the checker after reading the evidence fetched in 02a and, where that was not enough, a web search or the primary text. Fields: status (verified | corrected | unverified | dropped); checked (what was read); note (what it says); fix (fields replaced in the event). Checked by a Claude Code agent with web search on 2026-11-03; a scholar should spot-check, starting with the corrected and unverified rows. 'added' at the end lists events the checker added because the draft left gaps.",
+  "checked_on": "2026-11-03",
+  "verdicts": {
+    "plato-phaedrus": {
+      "status": "corrected",
+      "checked": "Wikipedia lead; course text",
+      "note": "Composition c. 370 BCE confirmed. The draft said the dialogue 'closes with' the myth of Theuth and Thamus; the myth comes near the end (274c), and the dialogue closes with a prayer to Pan.",
+      "fix": {
+        "description": "In this dialogue Socrates and the young Phaedrus walk outside the walls of Athens and discuss love, rhetoric, and the soul. Near its end Socrates tells the myth of Theuth and Thamus, a critique of writing as a text that cannot answer back when it is questioned."
+      }
+    },
+    "confucius-analects": {
+      "status": "corrected",
+      "checked": "Wikipedia lead; Legge's 1861 translation on Project Gutenberg (#4094) for the quote",
+      "note": "Scholarly consensus: compiled over the Warring States period (475–221 BCE), reaching final form in the mid-Han dynasty. The draft's 5th–3rd century range was close; the Han final form was missing. The Legge quotation of 1.1 matches the Gutenberg text exactly.",
+      "fix": {
+        "date_display": "Warring States period (475–221 BCE), final form in the Han dynasty",
+        "quote_attribution": "Analects 1.1, trans. James Legge, The Chinese Classics, vol. 1 (1861)"
+      }
+    },
+    "shelley-frankenstein-1818": {
+      "status": "corrected",
+      "checked": "Wikipedia lead; the 1818 text in the course folder",
+      "note": "Publication on 1 January 1818, anonymously, confirmed. The quotation was given in its 1831 wording; the 1818 text, which the citation names, has a comma after 'November'.",
+      "fix": {
+        "quote": "It was on a dreary night of November, that I beheld the accomplishment of my toils.",
+        "quote_attribution": "Frankenstein (1818), vol. I, ch. 4"
+      }
+    },
+    "wilde-dorian-gray": {
+      "status": "verified",
+      "checked": "Wikipedia lead; the 1891 text in the course folder",
+      "note": "July 1890 issue of Lippincott's confirmed; the novel-length book followed in April 1891. The quoted line is from the 1891 Preface, as the draft itself warned, and matches the text."
+    },
+    "wilde-critic-as-artist": {
+      "status": "corrected",
+      "checked": "Wikipedia, 'The Critic as Artist'; Intentions (1891) in the course folder",
+      "note": "Magazine version in The Nineteenth Century, July and September 1890, as 'The True Function and Value of Criticism', confirmed. The draft's source URL pointed to a Wikipedia article that does not exist. The quotation drops a hyphen: Intentions prints 're-write'.",
+      "fix": {
+        "source_url": "https://en.wikipedia.org/wiki/The_Critic_as_Artist",
+        "quote": "The one duty we owe to history is to re-write it.",
+        "quote_attribution": "The Critic as Artist, Part I, in Intentions (1891)"
+      }
+    },
+    "bergson-laughter": {
+      "status": "verified",
+      "checked": "Wikipedia; BnF catalogue record via web search; the 1911 translation in the course folder",
+      "note": "Three articles in the Revue de Paris, 1 and 15 February and 1 March 1899; the book's title page is dated 1900. The quoted phrase is in the Brereton and Rothwell translation."
+    },
+    "capek-rur": {
+      "status": "corrected",
+      "checked": "Wikipedia lead",
+      "note": "Published 1920. The draft gave the Prague National Theatre opening (25 January 1921) as the premiere; the world premiere was 2 January 1921 in Hradec Králové, which the draft had flagged as uncertain.",
+      "fix": {
+        "date_display": "1920 (published); first performed 2 January 1921, Hradec Králové; Prague premiere 25 January 1921"
+      }
+    },
+    "whale-frankenstein-film": {
+      "status": "corrected",
+      "checked": "Wikipedia; web search (Hollywood Reporter, TCM, NYT review of 5 December 1931)",
+      "note": "November 21, 1931 is the release date, not a New York premiere: the film opened at the Mayfair in New York on December 4, 1931. Still in US copyright until 1 January 2027.",
+      "fix": {
+        "date_display": "November 21, 1931 (release); New York opening December 4, 1931"
+      }
+    },
+    "sacks-schegloff-jefferson-turn-taking": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.2307/412243",
+      "note": "Language 50, no. 4, December 1974."
+    },
+    "grice-logic-and-conversation": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Paul Grice'",
+      "note": "Delivered in the William James Lectures at Harvard in 1967; published 1975 in Syntax and Semantics, vol. 3.",
+      "fix": {
+        "source_url": "https://en.wikipedia.org/wiki/Paul_Grice"
+      }
+    },
+    "askell-general-language-assistant": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 submitted 1 December 2021."
+    },
+    "shanahan-role-play": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.1038/s41586-023-06647-8",
+      "note": "Published online 8 November 2023; print issue (vol. 623, no. 7987) 16 November 2023."
+    },
+    "begus-artificial-humanities": {
+      "status": "corrected",
+      "checked": "web search (Fulcrum, DOAB, Project MUSE)",
+      "note": "University of Michigan Press, 2025, open access; subtitle 'A Fictional Perspective on Language in AI' confirmed. Source URL replaced: the draft linked the press home page.",
+      "fix": {
+        "title": "Nina Beguš, Artificial Humanities: A Fictional Perspective on Language in AI",
+        "source_url": "https://www.fulcrum.org/concern/monographs/jh343w51t"
+      }
+    },
+    "pascaline": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Designed 1642; shown publicly 1645; royal privilege 1649."
+    },
+    "jacquard-loom": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Patented 1804."
+    },
+    "babbage-difference-engine": {
+      "status": "verified",
+      "checked": "web search (IEEE Spectrum, Engineering and Technology History Wiki)",
+      "note": "Announced in a note to the Astronomical Society on 14 June 1822.",
+      "fix": {
+        "date_display": "June 14, 1822 (announced)"
+      }
+    },
+    "lovelace-notes": {
+      "status": "verified",
+      "checked": "Wikisource transcription of Scientific Memoirs vol. 3 (1843), Notes by the Translator",
+      "note": "The quotation, including the spelling 'any thing', matches the 1843 text."
+    },
+    "boole-laws-of-thought": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Published 1854."
+    },
+    "turing-computable-numbers": {
+      "status": "verified",
+      "checked": "Wikipedia lead; Crossref record for doi:10.1112/plms/s2-42.1.230",
+      "note": "Read to the London Mathematical Society in November 1936; Crossref dates the volume 1937. The draft's '1936–37' is right."
+    },
+    "mcculloch-pitts": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.1007/BF02478259",
+      "note": "Bulletin of Mathematical Biophysics 5, no. 4, December 1943.",
+      "fix": {
+        "source_url": "https://doi.org/10.1007/BF02478259"
+      }
+    },
+    "eniac": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Formally dedicated at the University of Pennsylvania on 15 February 1946; the press called it a 'Giant Brain'."
+    },
+    "shannon-communication": {
+      "status": "verified",
+      "checked": "Wikipedia lead; Crossref",
+      "note": "Bell System Technical Journal, July and October 1948."
+    },
+    "turing-imitation-game": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.1093/mind/LIX.236.433",
+      "note": "Mind 59, no. 236, October 1950."
+    },
+    "georgetown-ibm": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "7 January 1954."
+    },
+    "dartmouth-workshop": {
+      "status": "corrected",
+      "checked": "Wikipedia, 'Dartmouth workshop'",
+      "note": "Summer 1956 workshop confirmed. Sources differ on the proposal date: the proposal document is dated August 31, 1955, while Wikipedia says it was formally proposed on September 2, 1955. Display changed so it doesn't assert one day.",
+      "fix": {
+        "date_display": "Summer 1956 (proposal of late summer 1955)"
+      }
+    },
+    "rosenblatt-perceptron": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.1037/h0042519",
+      "note": "Psychological Review 65, no. 6, 1958.",
+      "fix": {
+        "source_url": "https://doi.org/10.1037/h0042519"
+      }
+    },
+    "eliza": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.1145/365153.365168; Wikipedia",
+      "note": "Communications of the ACM 9, no. 1, January 1966."
+    },
+    "shrdlu": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Developed 1968–1970 at MIT; the 1971 date is Winograd's dissertation."
+    },
+    "parry": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Implemented 1972."
+    },
+    "lighthill-report": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Published 1973."
+    },
+    "mycin": {
+      "status": "corrected",
+      "checked": "Wikipedia, 'Mycin'",
+      "note": "Wikipedia says MYCIN was developed over five or six years in the early 1970s. The 1976 book date was not checked, so the display gives the development period.",
+      "fix": {
+        "date_display": "early 1970s (developed at Stanford)",
+        "year": 1974
+      }
+    },
+    "backpropagation": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.1038/323533a0",
+      "note": "Nature 323, October 1986.",
+      "fix": {
+        "source_url": "https://doi.org/10.1038/323533a0"
+      }
+    },
+    "ibm-statistical-mt": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Published in parts in 1988 and 1990; full series 1993."
+    },
+    "loebner-prize": {
+      "status": "verified",
+      "checked": "web search (Computer Museum News, Winter 1992; Shieber, 'Lessons from a Restricted Turing Test')",
+      "note": "First contest held 8 November 1991 at the Computer Museum, Boston; Wikipedia's lead gives only the 1990 launch of the prize."
+    },
+    "deep-blue": {
+      "status": "verified",
+      "checked": "Wikipedia",
+      "note": "Game 6, 11 May 1997."
+    },
+    "siri": {
+      "status": "corrected",
+      "checked": "Wikipedia; web search (AP, Techmeme for 4 October 2011)",
+      "note": "Announced with the iPhone 4S on 4 October 2011; the phone shipped on 14 October. The draft's title said Siri 'ships' while its date was the announcement.",
+      "fix": {
+        "title": "Siri announced with the iPhone 4S"
+      }
+    },
+    "word2vec": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 16 January 2013."
+    },
+    "rl-human-preferences": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 12 June 2017."
+    },
+    "transformer": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 12 June 2017."
+    },
+    "bert": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 11 October 2018."
+    },
+    "gpt-2": {
+      "status": "verified",
+      "checked": "Wikipedia",
+      "note": "First announced 14 February 2019; full model 5 November 2019."
+    },
+    "gpt-3": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 28 May 2020."
+    },
+    "summarize-human-feedback": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 2 September 2020."
+    },
+    "lamda": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 20 January 2022."
+    },
+    "chain-of-thought": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 28 January 2022."
+    },
+    "instructgpt": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 4 March 2022."
+    },
+    "chatgpt": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Released 30 November 2022."
+    },
+    "talking-about-llms": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 7 December 2022."
+    },
+    "constitutional-ai": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 15 December 2022."
+    },
+    "claude-release": {
+      "status": "verified",
+      "checked": "Anthropic, 'Introducing Claude' (dated Mar 14, 2023)",
+      "note": "Wikipedia gives only March 2023; Anthropic's announcement is dated 14 March 2023.",
+      "fix": {
+        "source_url": "https://www.anthropic.com/news/introducing-claude"
+      }
+    },
+    "gpt-4": {
+      "status": "verified",
+      "checked": "Wikipedia",
+      "note": "Released 14 March 2023."
+    },
+    "generative-agents": {
+      "status": "verified",
+      "checked": "arXiv API",
+      "note": "v1 7 April 2023."
+    },
+    "eu-ai-act": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Entered into force 1 August 2024; provisions phased in over 6 to 36 months."
+    },
+    "iliad-golden-handmaidens": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Composition late 8th to early 7th century BCE; c. 750 is a placement, not a date."
+    },
+    "argonautica-talos": {
+      "status": "corrected",
+      "checked": "Wikipedia, 'Argonautica' and 'Talos'",
+      "note": "Argonautica confirmed as 3rd century BCE. The draft called Talos a 'bronze giant'; the Talos article notes that no ancient source says he was a giant.",
+      "fix": {
+        "date_display": "3rd century BCE",
+        "description": "In Book 4 of the Argonautica, Medea defeats Talos, the man of bronze who guards Crete. She does so by draining the single vein that carries his life."
+      }
+    },
+    "ovid-pygmalion": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Metamorphoses'",
+      "note": "Metamorphoses dated 8 CE."
+    },
+    "liezi-yan-shi": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Current text probably compiled around the 4th century CE (attributed to Zhang Zhan)."
+    },
+    "talmud-rava-golem": {
+      "status": "corrected",
+      "checked": "Wikipedia, 'Golem' and 'Talmud'",
+      "note": "Sanhedrin 65b (Rava creates a man and sends him to Rav Zeira) confirmed. Wikipedia says the traditional c. 500 CE compilation date is probably early; the middle of the sixth century is more likely.",
+      "fix": {
+        "date_display": "c. 500–550 CE (redaction of the Babylonian Talmud; Sanhedrin 65b)",
+        "year": 525
+      }
+    },
+    "al-jazari-automata": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Book of Knowledge of Ingenious Mechanical Devices, 1206."
+    },
+    "albertus-talking-head": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Brazen head'",
+      "note": "A legend recorded after Albertus's lifetime; the 13th-century placement is for his life, not the legend's first telling."
+    },
+    "vaucanson-flute-player": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Jacques de Vaucanson'",
+      "note": "Built 1737; presented to the Académie des Sciences in early 1738."
+    },
+    "mechanical-turk": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "First displayed 1770."
+    },
+    "jaquet-droz-writer": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "The three automata were built between 1768 and 1774."
+    },
+    "hoffmann-sandman": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Night Pieces, 1816."
+    },
+    "poe-maelzel": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1836."
+    },
+    "hawthorne-artist-beautiful": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "First published 1844; collected 1846."
+    },
+    "butler-erewhon": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Erewhon' and 'Darwin among the Machines'",
+      "note": "1872; the 1863 letter appeared in The Press, Christchurch, on 13 June 1863."
+    },
+    "villiers-eve-future": {
+      "status": "corrected",
+      "checked": "Wikipedia lead",
+      "note": "Wikipedia: begun 1878, first published in part in 1880 as L'Ève nouvelle. The draft gave only an 1885–86 serialization.",
+      "fix": {
+        "date_display": "1886 (book); begun 1878, partly published 1880 as L'Ève nouvelle"
+      }
+    },
+    "bierce-moxons-master": {
+      "status": "corrected",
+      "checked": "Wikipedia lead",
+      "note": "San Francisco Examiner, 16 April 1899, confirmed. The draft said the story was collected in 1909; it was included in the 1910 edition of Can Such Things Be?.",
+      "fix": {
+        "date_display": "April 16, 1899 (San Francisco Examiner)"
+      }
+    },
+    "baum-tik-tok": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Ozma of Oz'",
+      "note": "Tik-Tok first appears in Ozma of Oz, 1907.",
+      "fix": {
+        "source_url": "https://en.wikipedia.org/wiki/Ozma_of_Oz"
+      }
+    },
+    "forster-machine-stops": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Oxford and Cambridge Review, November 1909."
+    },
+    "metropolis-film": {
+      "status": "verified",
+      "checked": "web search (Berlinale 2010 programme; Wikipedia, 'Ufa-Palast am Zoo')",
+      "note": "Premiered at the Ufa-Palast am Zoo, Berlin, 10 January 1927."
+    },
+    "asimov-runaround": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Astounding, March 1942."
+    },
+    "asimov-i-robot": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Gnome Press, 1950."
+    },
+    "forbidden-planet": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1956 (month not checked; display gives the year only)."
+    },
+    "lem-cyberiad": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "First collection 1965; English translation 1974."
+    },
+    "dick-androids": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1968."
+    },
+    "kubrick-2001": {
+      "status": "verified",
+      "checked": "Wikipedia",
+      "note": "Premiered at the Uptown Theater, 2 April 1968."
+    },
+    "blade-runner": {
+      "status": "verified",
+      "checked": "Wikipedia",
+      "note": "Released 25 June 1982."
+    },
+    "gibson-neuromancer": {
+      "status": "corrected",
+      "checked": "Wikipedia",
+      "note": "1984 confirmed; the July publication month could not be found in the article, so the display gives the year only.",
+      "fix": {
+        "date_display": "1984"
+      }
+    },
+    "piercy-he-she-it": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1991; UK title Body of Glass."
+    },
+    "powers-galatea": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1995."
+    },
+    "spielberg-ai": {
+      "status": "verified",
+      "checked": "Wikipedia",
+      "note": "Released 29 June 2001."
+    },
+    "chiang-lifecycle": {
+      "status": "corrected",
+      "checked": "Wikipedia lead",
+      "note": "Subterranean Press, 2010, confirmed. The draft called the two main characters 'former zookeepers'; only Ana is a former zookeeper, Derek is an animator.",
+      "fix": {
+        "description": "A former zookeeper and an animator spend years raising digital creatures called digients, which learn language through long care and teaching. The novella treats AI development as upbringing."
+      }
+    },
+    "jonze-her": {
+      "status": "corrected",
+      "checked": "web search (Film Society of Lincoln Center; Hollywood Reporter)",
+      "note": "World premiere as the closing-night film of the New York Film Festival, Saturday 12 October 2013, confirmed. The draft's source URL was the disambiguation page for the word 'her'.",
+      "fix": {
+        "source_url": "https://en.wikipedia.org/wiki/Her_(film)"
+      }
+    },
+    "garland-ex-machina": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "UK release 21 January 2015, after a BFI Southbank premiere on 16 December 2014."
+    },
+    "mcewan-machines-like-me": {
+      "status": "corrected",
+      "checked": "Wikipedia lead",
+      "note": "2019 (Jonathan Cape) confirmed; the April month was not found, so the display gives the year only.",
+      "fix": {
+        "date_display": "2019"
+      }
+    },
+    "ishiguro-klara": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Published 2 March 2021."
+    },
+    "plato-meno": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Written around 385 BCE."
+    },
+    "plato-symposium": {
+      "status": "verified",
+      "checked": "Wikipedia",
+      "note": "Written 385–370 BCE, no earlier than 385."
+    },
+    "xenophon-memorabilia": {
+      "status": "corrected",
+      "checked": "Wikipedia, 'Memorabilia (Xenophon)'",
+      "note": "Probably completed after 371 BCE (a passage assumes the situation after Leuctra), not written in that year.",
+      "fix": {
+        "date_display": "after 371 BCE",
+        "year": -365
+      }
+    },
+    "cicero-de-oratore": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Written 55 BCE."
+    },
+    "lucian-dialogues-of-the-dead": {
+      "status": "corrected",
+      "checked": "Wikipedia, 'Lucian'",
+      "note": "The work is confirmed, but no source read gives c. 165 CE; Lucian lived c. 125 to after 180. Display reduced to the century.",
+      "fix": {
+        "date_display": "2nd century CE",
+        "precision": "century",
+        "source_url": "https://en.wikipedia.org/wiki/Lucian"
+      }
+    },
+    "augustine-soliloquies": {
+      "status": "corrected",
+      "checked": "web search (Yale University Press, Foley translation)",
+      "note": "Written at Cassiciacum while preparing for baptism (Easter 387). The draft's Wikipedia link did not exist.",
+      "fix": {
+        "source_url": "https://yalebooks.yale.edu/9780300238549/soliloquies"
+      }
+    },
+    "boethius-consolation": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Wikipedia says written in 523; the draft's c. 524 and its 523–525 range cover it.",
+      "fix": {
+        "date_display": "c. 523–524 CE"
+      }
+    },
+    "castiglione-courtier": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1528."
+    },
+    "galileo-dialogue": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1632; first printed copy to the Grand Duke 22 February 1632."
+    },
+    "hume-dialogues": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "Posthumous, 1779."
+    },
+    "diderot-rameaus-nephew": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "First published 1805 in Goethe's German translation."
+    },
+    "buber-i-and-thou": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1923; English 1937."
+    },
+    "bakhtin-dostoevsky": {
+      "status": "corrected",
+      "checked": "Wikipedia lead",
+      "note": "1929 confirmed, but under a different title: the 1929 book was Problems of Dostoevsky's Creative Art; the much-expanded 1963 edition is Problems of Dostoevsky's Poetics. The draft's title, 'Problems of Dostoevsky's Art', matched neither.",
+      "fix": {
+        "title": "Mikhail Bakhtin, Problems of Dostoevsky's Creative Art"
+      }
+    },
+    "wittgenstein-investigations": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1953."
+    },
+    "austin-how-to-do-things": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1962, from the 1955 William James Lectures."
+    },
+    "goffman-interaction-ritual": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Erving Goffman'",
+      "note": "Interaction Ritual, 1967."
+    },
+    "searle-speech-acts": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Speech Acts (book)'",
+      "note": "Cambridge University Press, 1969.",
+      "fix": {
+        "source_url": "https://en.wikipedia.org/wiki/Speech_Acts_(book)"
+      }
+    },
+    "weizenbaum-computer-power": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1976."
+    },
+    "schegloff-repair": {
+      "status": "corrected",
+      "checked": "Crossref record for doi:10.2307/413107",
+      "note": "Language 53, no. 2, June 1977. The draft's Wikipedia link did not exist.",
+      "fix": {
+        "source_url": "https://doi.org/10.2307/413107"
+      }
+    },
+    "brown-levinson-politeness": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Politeness theory'",
+      "note": "First published 1978 in Questions and Politeness; book 1987."
+    },
+    "reddy-conduit-metaphor": {
+      "status": "verified",
+      "checked": "Wikipedia lead",
+      "note": "1979."
+    },
+    "searle-chinese-room": {
+      "status": "verified",
+      "checked": "Crossref record for doi:10.1017/S0140525X00005756",
+      "note": "Behavioral and Brain Sciences 3, no. 3, September 1980."
+    },
+    "clark-brennan-grounding": {
+      "status": "verified",
+      "checked": "Wikipedia, 'Grounding in communication' (references)",
+      "note": "1991, in Perspectives on Socially Shared Cognition."
+    },
+    "bender-koller-octopus": {
+      "status": "verified",
+      "checked": "ACL Anthology page",
+      "note": "ACL 2020."
+    }
+  },
+  "added": [
+    {
+      "id": "stochastic-parrots",
+      "title": "\"On the Dangers of Stochastic Parrots\"",
+      "date_display": "March 2021 (ACM FAccT)",
+      "year": 2021,
+      "precision": "year",
+      "track": "computing",
+      "who": "Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell (as 'Shmargaret Shmitchell')",
+      "description": "The paper argues that ever-larger language models carry environmental, financial, and social costs, and that fluent output can be mistaken for meaning. Its phrase 'stochastic parrot' became shorthand in arguments about whether language models understand anything.",
+      "quote": "",
+      "quote_attribution": "",
+      "copyright": "in-copyright",
+      "source_url": "https://doi.org/10.1145/3442188.3445922",
+      "status": "verified",
+      "checked": "Wikipedia, 'Stochastic parrot'; web search (Quote Investigator citation, ACM DOI)",
+      "note": "Added by the checker: the draft had Bender and Koller's octopus paper but not this one."
+    },
+    {
+      "id": "vibe-coding-coined",
+      "title": "\"Vibe coding\" named",
+      "date_display": "February 2, 2025",
+      "year": 2025,
+      "precision": "day",
+      "track": "computing",
+      "who": "Andrej Karpathy",
+      "description": "In a post on X, Karpathy described a way of programming in which a person talks to an AI model, accepts the code it writes, and stops reading the code closely. The name spread quickly and gave this seminar's topic its label.",
+      "quote": "",
+      "quote_attribution": "",
+      "copyright": "not-a-text",
+      "source_url": "https://en.wikipedia.org/wiki/Vibe_coding",
+      "status": "verified",
+      "checked": "web search (several reports and embedded copies of the post; one outlier gives February 6)",
+      "note": "Added by the checker for this seminar. Check the date against the original post on X."
+    },
+    {
+      "id": "claude-code",
+      "title": "Claude Code released as a research preview",
+      "date_display": "February 24, 2025",
+      "year": 2025,
+      "precision": "day",
+      "track": "computing",
+      "who": "Anthropic",
+      "description": "Anthropic released a command-line tool in which a language model reads and edits files and runs commands in a person's own project folder. It is the tool this course uses for its vibe-coding sessions.",
+      "quote": "",
+      "quote_attribution": "",
+      "copyright": "not-a-text",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "status": "verified",
+      "checked": "Anthropic announcement (24 February 2025); Simon Willison's weblog, same date",
+      "note": "Added by the checker for this seminar."
+    },
+    {
+      "id": "seminar-9-vibe-coding",
+      "title": "Seminar 9: Introduction to vibe-coding",
+      "date_display": "November 3, 2026",
+      "year": 2026,
+      "precision": "day",
+      "track": "readings",
+      "who": "ENGLISH 298AI",
+      "description": "The course turns from reading about made beings and dialogue to making things with AI coding tools. This timeline is one of the session's worked examples.",
+      "quote": "",
+      "quote_attribution": "",
+      "copyright": "not-a-text",
+      "source_url": "",
+      "status": "verified",
+      "checked": "course syllabus",
+      "note": "Added by the checker so the timeline ends where the class is."
+    }
+  ]
+}

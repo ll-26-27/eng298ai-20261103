@@ -1,0 +1,93 @@
+{
+ "chunk": "bleak-house-c008-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4841,
+  "completion_tokens": 1336,
+  "total_tokens": 6177,
+  "cost": 0.0011521,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011521,
+   "upstream_inference_prompt_cost": 0.0004841,
+   "upstream_inference_completions_cost": 0.000668
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 774,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House, Hertfordshire (fictional)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Bleak House was not in Chancery, its master was",
+   "note": "Fictional house; the novel places it on a Hertfordshire heath, outside London."
+  },
+  {
+   "as_written": "city of London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There is, in that city of London there, some property of ours",
+   "note": "Refers to the city as a whole, not a district."
+  },
+  {
+   "as_written": "Quality Court",
+   "normalized": "Quality Court, Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "at the end of Quality Court, Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "at the end of Quality Court, Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "These are the Great Seal’s impressions, my dear, all over England",
+   "note": ""
+  },
+  {
+   "as_written": "Britain",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "They were the Women of England, the Daughters of Britain",
+   "note": "Appears in the name of a women's group."
+  },
+  {
+   "as_written": "America",
+   "normalized": "United States of America",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Females of America",
+   "note": "Appears in the name of a women's group."
+  }
+ ]
+}

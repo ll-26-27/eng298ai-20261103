@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c060-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5497,
+  "completion_tokens": 672,
+  "total_tokens": 6169,
+  "cost": 0.0008857,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008857,
+   "upstream_inference_prompt_cost": 0.0005497,
+   "upstream_inference_completions_cost": 0.000336
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 378,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "travelling day and night to Rome, where, after all, he arrived too late",
+   "note": ""
+  },
+  {
+   "as_written": "Sicily",
+   "normalized": "Sicily, Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "recovers his health in Sicily, sufficiently to come over",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he providentially came to England",
+   "note": ""
+  },
+  {
+   "as_written": "the West Indies",
+   "normalized": "West Indies, Caribbean",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "our fellows in the West Indies with Yellow Jack",
+   "note": ""
+  }
+ ]
+}

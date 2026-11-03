@@ -1,0 +1,205 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "monument to the great fire of london",
+   "lat": 51.5101,
+   "lon": -0.086,
+   "confidence": "high",
+   "now": "still standing; the Monument, at the junction of Monument Street and Fish Street Hill",
+   "reason": "Wren and Hooke's column (1671-77) is a well-documented landmark that stands where it did in Dickens's day."
+  },
+  {
+   "place_id": "mount etna",
+   "lat": 37.751,
+   "lon": 14.994,
+   "confidence": "high",
+   "now": "Mount Etna, active volcano in Sicily",
+   "reason": "A real, famous volcano; the gazetteer match is correct."
+  },
+  {
+   "place_id": "mount pleasant",
+   "lat": 51.5226,
+   "lon": -0.113,
+   "confidence": "high",
+   "now": "Mount Pleasant, Clerkenwell; Royal Mail sorting office on the site of the old Coldbath Fields prison",
+   "reason": "Mount Pleasant is a well-known rising ground in Clerkenwell, and the gazetteer match is the right place."
+  },
+  {
+   "place_id": "mr wickfields house",
+   "lat": 51.2825,
+   "lon": 1.0735,
+   "confidence": "low",
+   "now": "timber-framed house on St Dunstan's Street, Canterbury, traditionally identified as Wickfield's house",
+   "reason": "Wickfield's house is fictional; the coordinates are the traditional identification with a house in St Dunstan's Street, Canterbury, so the exact spot is uncertain."
+  },
+  {
+   "place_id": "niger river",
+   "lat": 7.8,
+   "lon": 6.74,
+   "confidence": "low",
+   "now": "Niger River, West Africa; the coordinates are its confluence with the Benue at Lokoja",
+   "reason": "The river is real, but Dickens only says 'left bank of the Niger' for Jellyby's fictional Borrioboola-Gha, so no exact spot exists."
+  },
+  {
+   "place_id": "nore",
+   "lat": 51.48,
+   "lon": 0.81,
+   "confidence": "medium",
+   "now": "The Nore sandbank and anchorage at the Thames/Medway mouth, marked by the Nore buoy; the old lightship has gone",
+   "reason": "The Nore was a well-known anchorage and sandbank off Sheerness, but the buoy or lightship position is approximate."
+  },
+  {
+   "place_id": "north bank of the thames",
+   "lat": 51.495,
+   "lon": -0.1255,
+   "confidence": "low",
+   "now": "Millbank riverside, Westminster, north bank of the Thames",
+   "reason": "This is a generic reference to the Middlesex shore leading toward Millbank, so the point is only a general riverside area near Millbank."
+  },
+  {
+   "place_id": "northern england",
+   "lat": 54,
+   "lon": -2.3,
+   "confidence": "low",
+   "now": "Northern England, a region with no precise point",
+   "reason": "A broad region rather than a place; the coordinates are only a rough centroid and the gazetteer's Guiseley match is wrong."
+  },
+  {
+   "place_id": "old battery",
+   "lat": 51.4668,
+   "lon": 0.5037,
+   "confidence": "low",
+   "now": "Hoo/Cooling marshes of north Kent; no identifiable battery",
+   "reason": "The Battery in Great Expectations is fictional and set in the Cooling/Hoo marshes, so the coordinates are only the village of Cooling."
+  },
+  {
+   "place_id": "oxford market",
+   "lat": 51.5174,
+   "lon": -0.1425,
+   "confidence": "medium",
+   "now": "Market Place, off Great Titchfield Street, Fitzrovia; the market is long gone",
+   "reason": "Oxford Market stood just north of Oxford Street around today's Market Place, and the gazetteer's pub match is on that street, but the exact market footprint is uncertain."
+  },
+  {
+   "place_id": "palace court",
+   "lat": 51.5075,
+   "lon": -0.126,
+   "confidence": "low",
+   "now": "Whitehall/Scotland Yard area; the Palace Court was abolished in 1849 and nothing of it survives",
+   "reason": "The Palace Court was the Court of the Marshalsea of the Household, sitting near Whitehall; the location is approximate and the Preston match is wrong."
+  },
+  {
+   "place_id": "port of london",
+   "lat": 51.5065,
+   "lon": -0.08,
+   "confidence": "low",
+   "now": "Pool of London, Thames near Tower Bridge; the working port has moved downriver",
+   "reason": "The Port of London covered the whole tidal Thames, and the point given is the historic Pool of London at its heart."
+  },
+  {
+   "place_id": "princesss arms",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "unknown; probably fictional",
+   "reason": "The Princess's Arms and Princess's Place in Dombey and Son appear to be fictional, with no firmly identified real counterpart."
+  },
+  {
+   "place_id": "pyramids of giza",
+   "lat": 29.9792,
+   "lon": 31.1342,
+   "confidence": "high",
+   "now": "Giza pyramid complex, near Cairo, Egypt",
+   "reason": "The Great Pyramids of Giza are a famous, precisely known site."
+  },
+  {
+   "place_id": "richmond green",
+   "lat": 51.462,
+   "lon": -0.306,
+   "confidence": "high",
+   "now": "Richmond Green, Richmond, London Borough of Richmond upon Thames (then in Surrey)",
+   "reason": "Richmond Green is a well-documented open space, the setting for Estella's house in Great Expectations."
+  },
+  {
+   "place_id": "rolls yard",
+   "lat": 51.5148,
+   "lon": -0.1118,
+   "confidence": "medium",
+   "now": "King's College London's Maughan Library and the Weston Street/Chancery Lane Rolls Estate area; Rolls Yard buildings demolished",
+   "reason": "Rolls Yard was by the Rolls Chapel and Rolls House off Chancery Lane, now on the site of the Maughan Library, but its exact spot is uncertain."
+  },
+  {
+   "place_id": "roman campagna",
+   "lat": 41.75,
+   "lon": 12.6,
+   "confidence": "medium",
+   "now": "Campagna Romana, the countryside around Rome, now largely suburban",
+   "reason": "A real region around Rome, so the coordinates are a central point in the countryside southeast of the city."
+  },
+  {
+   "place_id": "royal military college",
+   "lat": 51.347,
+   "lon": -0.793,
+   "confidence": "high",
+   "now": "Royal Military Academy Sandhurst; the Old College is still in use",
+   "reason": "The Royal Military College was established at Sandhurst in 1812 and the Old College is still there."
+  },
+  {
+   "place_id": "ship",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "fictional; no identifiable inn",
+   "reason": "The Ship inn in Great Expectations is a fictional riverside or marshland inn with no real counterpart."
+  },
+  {
+   "place_id": "six jolly fellowship porters tavern",
+   "lat": 51.5094,
+   "lon": -0.0366,
+   "confidence": "medium",
+   "now": "The Grapes, Narrow Street, Limehouse, still a pub, traditionally cited as the model",
+   "reason": "The Six Jolly Fellowship Porters is fictional, and The Grapes on the Limehouse riverside is the usual candidate for its original."
+  },
+  {
+   "place_id": "sluice house on the kent marshes",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "fictional; no identifiable sluice-house",
+   "reason": "The sluice-house in Great Expectations is a fictional structure on the Thames estuary marshes."
+  },
+  {
+   "place_id": "st lukes workhouse",
+   "lat": 51.5262,
+   "lon": -0.0918,
+   "confidence": "low",
+   "now": "demolished; the area near City Road and Old Street, Finsbury",
+   "reason": "St Luke's parish workhouse stood in the City Road/Old Street area of St Luke's, but I am unsure of the exact spot."
+  },
+  {
+   "place_id": "st peters basilica",
+   "lat": 41.9022,
+   "lon": 12.4539,
+   "confidence": "high",
+   "now": "St Peter's Basilica, Vatican City",
+   "reason": "A world-famous building at a well-known location."
+  },
+  {
+   "place_id": "staple inn",
+   "lat": 51.5174,
+   "lon": -0.1112,
+   "confidence": "high",
+   "now": "Staple Inn, High Holborn, with its Tudor timber-framed front; the gazetteer match is correct",
+   "reason": "Staple Inn is a surviving, well-documented former Inn of Chancery on High Holborn, so the gazetteer's guess is right."
+  },
+  {
+   "place_id": "tottenham court road",
+   "lat": 51.5205,
+   "lon": -0.1318,
+   "confidence": "high",
+   "now": "Tottenham Court Road, running from St Giles to Euston Road",
+   "reason": "A major, long-established London street; the coordinates are a midpoint along its length."
+  }
+ ]
+}

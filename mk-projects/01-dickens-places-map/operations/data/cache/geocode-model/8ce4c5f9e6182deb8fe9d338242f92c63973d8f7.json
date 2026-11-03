@@ -1,0 +1,205 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "penton place",
+   "lat": 51.532,
+   "lon": -0.111,
+   "confidence": "low",
+   "now": "Pentonville area of Islington, north of King's Cross; the original street is probably gone or renamed",
+   "reason": "Penton Place was a real Pentonville street, but I only know the district, so this point is approximate."
+  },
+  {
+   "place_id": "plymouth",
+   "lat": 50.3714,
+   "lon": -4.1426,
+   "confidence": "high",
+   "now": "Plymouth, Devon, a city and naval port",
+   "reason": "The text names the well-known port city, not the Plymouth Leat the gazetteer matched."
+  },
+  {
+   "place_id": "pumblechooks house",
+   "lat": 51.3883,
+   "lon": 0.5035,
+   "confidence": "low",
+   "now": "Rochester High Street, where the shops are modern",
+   "reason": "Pumblechook is a fictional corn chandler on the High Street of Dickens's Rochester-based town, so this is only a High Street guess."
+  },
+  {
+   "place_id": "royal hotel",
+   "lat": 52.2886,
+   "lon": -1.5365,
+   "confidence": "low",
+   "now": "The Parade, Leamington Spa; the Regent Hotel building there is no longer a working hotel",
+   "reason": "The Royal Hotel is probably a fictionalised version of the Regent Hotel on the Parade, which Dickens knew, so the location is a guess."
+  },
+  {
+   "place_id": "russian empire",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "Not a point; the former empire is now Russia and neighbouring states",
+   "reason": "It is a joking name for a whole empire, and the gazetteer's match to a statue in Kaliningrad Oblast is wrong."
+  },
+  {
+   "place_id": "saone",
+   "lat": 46.7806,
+   "lon": 4.853,
+   "confidence": "medium",
+   "now": "The Saône river, e.g. at Chalon-sur-Saône",
+   "reason": "The Saône is a real river in eastern France, but the exact spot in the novel is uncertain, so the point is at Chalon-sur-Saône; the Besançon match is a Doubs village and wrong."
+  },
+  {
+   "place_id": "sols arms public house",
+   "lat": 51.5163,
+   "lon": -0.1118,
+   "confidence": "low",
+   "now": "Cursitor Street area, off Chancery Lane; the pub is fictional and nothing survives",
+   "reason": "The Sol's Arms is a fictional pub in Cook's Court, which is generally identified with Cursitor Street near Chancery Lane."
+  },
+  {
+   "place_id": "sowerberrys undertakers shop",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "Fictional; no real site",
+   "reason": "Sowerberry's shop is in Mudfog, an unnamed fictional town in Oliver Twist."
+  },
+  {
+   "place_id": "st andrew holborn church",
+   "lat": 51.5171,
+   "lon": -0.1067,
+   "confidence": "high",
+   "now": "St Andrew Holborn church, beside Holborn Circus; rebuilt after wartime bombing",
+   "reason": "This is a well-documented Wren church on Holborn Viaduct, with its churchyard once a burial ground."
+  },
+  {
+   "place_id": "temple stairs",
+   "lat": 51.5107,
+   "lon": -0.1125,
+   "confidence": "medium",
+   "now": "Gone; the Victoria Embankment and Temple Pier now stand there",
+   "reason": "Temple Stairs were river steps at the foot of the Temple, lost when the Embankment was built, so the exact spot is approximate."
+  },
+  {
+   "place_id": "three cripples public house",
+   "lat": 51.5204,
+   "lon": -0.1087,
+   "confidence": "low",
+   "now": "Saffron Hill area, Holborn; the old rookery has been cleared and rebuilt",
+   "reason": "A pub of this name stood in Saffron Hill, though Dickens's Cripples is partly fictional, so the point is an approximation."
+  },
+  {
+   "place_id": "three magpies inn",
+   "lat": 51.488,
+   "lon": -0.309,
+   "confidence": "low",
+   "now": "Brentford area; probably no such inn today",
+   "reason": "The gazetteer entry places the inn at Brentford, but the name is likely a fictionalised riverside inn, so this is an educated guess."
+  },
+  {
+   "place_id": "vale of taunton",
+   "lat": 51.02,
+   "lon": -3.09,
+   "confidence": "medium",
+   "now": "Taunton Deane, the valley around Taunton in Somerset",
+   "reason": "The Vale of Taunton Deane is a real valley around Taunton, but it covers a wide area, so the point is the vale's centre."
+  },
+  {
+   "place_id": "banbury cross",
+   "lat": 52.0612,
+   "lon": -1.3405,
+   "confidence": "medium",
+   "now": "The Victorian Banbury Cross at Horse Fair/Banbury town centre",
+   "reason": "Dickens alludes to the nursery rhyme; the old cross was destroyed in the 1600s and the present cross dates from 1859, so the spot is approximate."
+  },
+  {
+   "place_id": "battery point",
+   "lat": 51.466,
+   "lon": 0.465,
+   "confidence": "low",
+   "now": "Marshland on the Thames near Cliffe, Kent; no visible battery",
+   "reason": "The Battery is fictional, set on the Thames-side marshes of the Hoo peninsula near the Cooling/Cliffe area, so this is a guess."
+  },
+  {
+   "place_id": "brewery at satis house",
+   "lat": 51.3855,
+   "lon": 0.5015,
+   "confidence": "low",
+   "now": "Rochester, near Restoration House; Satis House is a fictional composite",
+   "reason": "The brewery belongs to fictional Satis House, partly modelled on Restoration House in Rochester, so this is only a plausible location."
+  },
+  {
+   "place_id": "british empire",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "Not a place; the empire no longer exists",
+   "reason": "It is a political entity, and the gazetteer's match to a Nuremberg address is wrong."
+  },
+  {
+   "place_id": "cape colony",
+   "lat": -33.9249,
+   "lon": 18.4241,
+   "confidence": "low",
+   "now": "Western Cape and Eastern Cape provinces, South Africa; Cape Town is the old capital",
+   "reason": "The Cape Colony was a large region, so Cape Town is only a representative point, and the gazetteer's seal colony is wrong."
+  },
+  {
+   "place_id": "chatham dockyard",
+   "lat": 51.3995,
+   "lon": 0.528,
+   "confidence": "high",
+   "now": "The Historic Dockyard Chatham, now a museum",
+   "reason": "This is the famous Royal Navy dockyard on the Medway, where Dickens lived as a child."
+  },
+  {
+   "place_id": "commercial inn",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "Fictional; no known real site",
+   "reason": "The Commercials is a hotel in the unnamed Rochester-like town of Great Expectations and no real building is clearly identified."
+  },
+  {
+   "place_id": "cooling marshes",
+   "lat": 51.46,
+   "lon": 0.495,
+   "confidence": "medium",
+   "now": "Marshland of the Hoo peninsula near Cooling, Kent",
+   "reason": "The marsh country of Great Expectations is tied to Cooling and the Thames estuary, but the novel's marshes are not one exact spot."
+  },
+  {
+   "place_id": "cottage",
+   "lat": 51.447,
+   "lon": -0.329,
+   "confidence": "low",
+   "now": "Twickenham riverside area; the house is fictional",
+   "reason": "Meagles's Cottage is fictional, set by the Thames near Twickenham, so this is only an area guess."
+  },
+  {
+   "place_id": "cross keys inn",
+   "lat": 51.5148,
+   "lon": -0.0935,
+   "confidence": "medium",
+   "now": "Demolished; the site is around Wood Street, off Cheapside",
+   "reason": "The Cross Keys was a real coaching inn in Wood Street, long since demolished, so the exact spot is uncertain."
+  },
+  {
+   "place_id": "dismal swamp",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "Not a place; it is a figure of speech",
+   "reason": "Dickens uses it metaphorically for the Veneerings' house, and the Australian match is wrong."
+  },
+  {
+   "place_id": "dolphin inn",
+   "lat": 52.608,
+   "lon": 1.729,
+   "confidence": "low",
+   "now": "Great Yarmouth town centre; the Dolphin is fictional and no inn of that name is known",
+   "reason": "The Dolphin is a fictional inn in Yarmouth in David Copperfield, so the point is only the town centre."
+  }
+ ]
+}

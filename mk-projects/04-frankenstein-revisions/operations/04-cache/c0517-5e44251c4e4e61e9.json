@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1872,
+  "completion_tokens": 132,
+  "total_tokens": 2004,
+  "cost": 0.0002532,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002532,
+   "upstream_inference_prompt_cost": 0.0001872,
+   "upstream_inference_completions_cost": 0.000066
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0517. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): I mentioned in my last letter the fears I entertained of a mutiny.\n\n1818 text: This morning, as I sat watching the wan countenance of my friend—his eyes half closed, and his limbs hanging listlessly,—I was roused by half a dozen of the sailors, who desired admission into the cabin. They entered; and their leader addressed me. He told me that he and his companions had been chosen by the other sailors to come in deputation to me, to make me a demand, which, in justice, I could not refuse.\n\n1831 text: This morning, as I sat watching the wan countenance of my friend—his eyes half closed, and his limbs hanging listlessly,—I was roused by half a dozen of the sailors, who demanded admission into the cabin. They entered, and their leader addressed me. He told me that he and his companions had been chosen by the other sailors to come in deputation to me, to make me a requisition, which, in justice, I could not refuse.\n\nDiff: This morning, as I sat watching the wan countenance of my friend—his eyes half closed, and his limbs hanging listlessly,—I was roused by half a dozen of the sailors, who [-desired-] {+demanded+} admission into the cabin. They entered [-;-] {+,+} and their leader addressed me. He told me that he and his companions had been chosen by the other sailors to come in deputation to me, to make me a [-demand-] {+requisition+} , which, in justice, I could not refuse.\n\nContext after (unchanged): We were immured in ice, and should probably never escape; but they feared that if, as was possible, the ice should dissipate, and a free passage be opened, I should be rash enough to continue my voyage, and lead them into fresh dangers, after they might happily have surmounted this."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Synonym swaps keep the same meaning: 'desired' becomes 'demanded', 'demand' becomes 'requisition', with punctuation adjusted. The sailors' request is a demand in both texts; the 'requisition' wording adds only a slightly more formal, legalistic tone.",
+  "confidence": "high",
+  "rationaleWords": 35
+ }
+}

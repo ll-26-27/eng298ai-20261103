@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1573,
+  "completion_tokens": 104,
+  "total_tokens": 1677,
+  "cost": 0.004186,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004186,
+   "upstream_inference_prompt_cost": 0.003146,
+   "upstream_inference_completions_cost": 0.00104
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0413. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): \"Alas! yes, my father,\" replied I; \"some destiny of the most horrible kind hangs over me, and I must live to fulfil it, or surely I should have died on the coffin of Henry.\"\n\n1818 text: We were not allowed to converse for any length of time, for the precarious state of my health rendered every precaution necessary that could insure tranquillity.\n\n1831 text: We were not allowed to converse for any length of time, for the precarious state of my health rendered every precaution necessary that could ensure tranquillity.\n\nDiff: We were not allowed to converse for any length of time, for the precarious state of my health rendered every precaution necessary that could [-insure-] {+ensure+} tranquillity.\n\nContext after (unchanged): Mr. Kirwin came in, and insisted that my strength should not be exhausted by too much exertion."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"insure\" becomes \"ensure\" in the phrase \"could ensure tranquillity\". This is a modernized or standardized orthographic variant with the same meaning and no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 25
+ }
+}

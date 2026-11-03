@@ -1,0 +1,93 @@
+{
+ "chunk": "bleak-house-c012-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5147,
+  "completion_tokens": 1893,
+  "total_tokens": 7040,
+  "cost": 0.0014612,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014612,
+   "upstream_inference_prompt_cost": 0.0005147,
+   "upstream_inference_completions_cost": 0.0009465
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1266,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dedlock Arms",
+   "normalized": "Dedlock Arms, Chesney Wold village, Lincolnshire",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "prolonging my stay at the Dedlock Arms for a day or two",
+   "note": "Fictional inn in the village near Chesney Wold."
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold, Lincolnshire",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "There ARE at Chesney Wold this January week some ladies and gentlemen",
+   "note": "Fictional country house; Lincolnshire setting."
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The place in Lincolnshire is all alive.",
+   "note": ""
+  },
+  {
+   "as_written": "Court of St. James’s",
+   "normalized": "St James's Palace, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "from their breaking cover at the Court of St. James’s",
+   "note": "Royal court, named by its palace."
+  },
+  {
+   "as_written": "Avignon",
+   "normalized": "Avignon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "from somewhere in the southern country about Avignon and Marseilles",
+   "note": ""
+  },
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "from somewhere in the southern country about Avignon and Marseilles",
+   "note": ""
+  },
+  {
+   "as_written": "Frenchwoman",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "My Lady’s maid is a Frenchwoman of two and thirty",
+   "note": "Nationality only; France identified by implication."
+  }
+ ]
+}

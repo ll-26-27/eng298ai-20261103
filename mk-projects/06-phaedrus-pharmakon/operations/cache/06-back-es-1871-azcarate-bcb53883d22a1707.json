@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793716489-f0WxX21ovx9RxsAE9wle",
+  "object": "chat.completion",
+  "created": 1793716489,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "Me contaron que cerca de Naucratis{31}, en Egipto, hubo un Dios, uno de los más antiguos del país, el mismo a que está consagrado el pájaro que los egipcios llaman Ibis.\n\nI need to correct that: I must return only the translation, in English. Here it is:\n\nThey told me that near Naucratis{31}, in Egypt, there was a God, one of the most ancient of the country, the same one to which the bird that the Egyptians call Ibis is consecrated. This God was called Teut{32}. It is said that he invented numbers, calculation, geometry, astronomy, as well as the games of chess and of dice, and, in short, writing. The king Tamus reigned then over all that country, and lived in the great city of upper Egypt, which the Greeks call Egyptian Thebes, and which is, under the protection of the God whom they call Ammon. Teut presented himself to the king and showed him the arts that he had invented, and told him how convenient it was to extend them among the Egyptians. The king asked him of what utility each one of them would be, and Teut went explaining to him in detail the uses of each one; and according as the explanations seemed to him more or less satisfactory, Tamus approved or disapproved. It is said that the king alleged to the inventor, in each one of the inventions, many reasons for and against, which it would be long to enumerate. When they arrived at writing: \"O king!, Teut said to him, this invention will make the [341] Egyptians wiser and will serve their memory; I have discovered a remedy against the difficulty of learning and retaining{33}.\" \"Ingenious Teut, the king responded, the genius that invents the arts is not in the case that the wisdom that appreciates the advantages and the disadvantages that must result from their application. Father of writing and enthused with your invention, you attribute to it the whole contrary of its true effects. It will produce nothing but forgetfulness in the souls of those who know it, making them despise memory; trusting in this foreign aid they will abandon to material characters the care of preserving the memories, whose trace their spirit will have lost. You have not found a means of cultivating memory, but of awakening reminiscences; and you give your disciples the shadow of science and not science itself. Because, when they see that they can learn many things without teachers, they will already take themselves for wise, and they will be nothing more than ignorant, for the most part, and unbearable false wise men in the commerce of life.\"",
+        "refusal": null,
+        "reasoning": "I need to translate literally, keeping Azcárate's wording and its oddities intact, including footnote markers like {31} and [341]. The phrase about genius inventing arts versus wisdom weighing advantages and disadvantages is awkward in the original, so I'll preserve that same awkwardness rather than smoothing it out.\n\nI'm also working through the passage about the king addressing the \"Ingenious Teut,\" father of writing, attributing to the invention effects contrary to its true nature—awakening false reminiscences and producing insufferable pseudo-sages—all under the protection of the god the Egyptians call Ammon.\n\nThen I'm tracking the story of Naucratis in Egypt, where an ancient god invented chess, dice, and writing, proposing their use be extended among the Egyptians; Tamus would approve or disapprove depending on how convincing the explanations seemed. I'm settling on how to phrase \"auxilio extraño,\" leaning toward \"foreign aid\" to capture the idea that people will abandon true memory to external characters, losing the inner trace of what they once held in mind.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I need to translate literally, keeping Azcárate's wording and its oddities intact, including footnote markers like {31} and [341]. The phrase about genius inventing arts versus wisdom weighing advantages and disadvantages is awkward in the original, so I'll preserve that same awkwardness rather than smoothing it out.\n\nI'm also working through the passage about the king addressing the \"Ingenious Teut,\" father of writing, attributing to the invention effects contrary to its true nature—awakening false reminiscences and producing insufferable pseudo-sages—all under the protection of the god the Egyptians call Ammon.\n\nThen I'm tracking the story of Naucratis in Egypt, where an ancient god invented chess, dice, and writing, proposing their use be extended among the Egyptians; Tamus would approve or disapprove depending on how convincing the explanations seemed. I'm settling on how to phrase \"auxilio extraño,\" leaning toward \"foreign aid\" to capture the idea that people will abandon true memory to external characters, losing the inner trace of what they once held in mind.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1zb25uZXQtNS41LTIwMjYwOTI4fGNsYXVkZS1vbi1hd3MifQ"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 1752,
+    "total_tokens": 2833,
+    "cost": 0.019682,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.019682,
+      "upstream_inference_prompt_cost": 0.002162,
+      "upstream_inference_completions_cost": 0.01752
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 965,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

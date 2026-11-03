@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c036-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5039,
+  "completion_tokens": 996,
+  "total_tokens": 6035,
+  "cost": 0.0010019,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010019,
+   "upstream_inference_prompt_cost": 0.0005039,
+   "upstream_inference_completions_cost": 0.000498
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 679,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "within the so-soon-to-be-orphaned Marshalsea",
+   "note": "Debtors' prison where the whole passage is set; also called the Marshalsea court-yard in the text."
+  },
+  {
+   "as_written": "Borough High Street",
+   "normalized": "Borough High Street, Southwark, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "gracing the Borough High Street, outside the Marshalsea court-yard",
+   "note": ""
+  },
+  {
+   "as_written": "Monument Yard",
+   "normalized": "Monument Yard, City of London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Messrs Peddle and Pool, solicitors, of Monument Yard",
+   "note": "Location of the solicitors' office; the yard is near the Monument."
+  }
+ ]
+}

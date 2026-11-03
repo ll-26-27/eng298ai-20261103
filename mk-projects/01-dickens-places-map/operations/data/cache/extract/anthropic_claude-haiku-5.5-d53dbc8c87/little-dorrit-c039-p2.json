@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c039-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5255,
+  "completion_tokens": 984,
+  "total_tokens": 6239,
+  "cost": 0.0010175,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010175,
+   "upstream_inference_prompt_cost": 0.0005255,
+   "upstream_inference_completions_cost": 0.000492
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 648,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Great Saint Bernard",
+   "normalized": "Great St Bernard Pass, Switzerland",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "on this very journey down from the Great Saint Bernard",
+   "note": "Mountain pass with hospice; the convent is not named separately"
+  },
+  {
+   "as_written": "Martigny",
+   "normalized": "Martigny, Valais, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "These equipages adorned the yard of the hotel at Martigny",
+   "note": ""
+  },
+  {
+   "as_written": "Swiss country",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the wooden chalets and rough zigzag fences of Swiss country",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Blandois of Paris by degrees passed out of her mind",
+   "note": ""
+  }
+ ]
+}

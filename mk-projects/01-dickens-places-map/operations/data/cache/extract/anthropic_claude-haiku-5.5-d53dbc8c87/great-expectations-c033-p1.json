@@ -1,0 +1,129 @@
+{
+ "chunk": "great-expectations-c033-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4962,
+  "completion_tokens": 2304,
+  "total_tokens": 7266,
+  "cost": 0.0016482,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016482,
+   "upstream_inference_prompt_cost": 0.0004962,
+   "upstream_inference_completions_cost": 0.001152
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1397,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Inn Yard",
+   "normalized": "Coaching inn yard, London (unnamed inn)",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We stood in the Inn Yard while she pointed out her luggage to me",
+   "note": "Unnamed coaching inn; the London location is implied by the route to Cheapside."
+  },
+  {
+   "as_written": "Richmond",
+   "normalized": "Richmond, Surrey",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "\"I am going to Richmond,\" she told me.",
+   "note": "Surrey Richmond, then outside London; the destination of the journey."
+  },
+  {
+   "as_written": "Richmond",
+   "normalized": "Richmond, Yorkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one in Surrey and one in Yorkshire",
+   "note": "Estella's lesson distinguishes it from the Surrey Richmond."
+  },
+  {
+   "as_written": "Surrey",
+   "normalized": "Surrey",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one in Surrey and one in Yorkshire",
+   "note": ""
+  },
+  {
+   "as_written": "Yorkshire",
+   "normalized": "Yorkshire",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one in Surrey and one in Yorkshire",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "until she had gone to France",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "than any man in London.",
+   "note": ""
+  },
+  {
+   "as_written": "Cheapside",
+   "normalized": "Cheapside, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Turning into Cheapside and rattling up Newgate Street",
+   "note": ""
+  },
+  {
+   "as_written": "Newgate Street",
+   "normalized": "Newgate Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Turning into Cheapside and rattling up Newgate Street",
+   "note": ""
+  },
+  {
+   "as_written": "under the walls of which I was so ashamed",
+   "normalized": "Newgate Prison, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we were soon under the walls of which I was so ashamed.",
+   "note": "Not named; identified by context as Newgate (\"What place is that?\", \"that dismal place\")."
+  },
+  {
+   "as_written": "Gerrard Street",
+   "normalized": "Gerrard Street, Soho, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the dinner in Gerrard Street",
+   "note": "Jaggers's private house, where Pip has dined."
+  }
+ ]
+}

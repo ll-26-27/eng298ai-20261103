@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c056-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5230,
+  "completion_tokens": 981,
+  "total_tokens": 6211,
+  "cost": 0.0010135,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010135,
+   "upstream_inference_prompt_cost": 0.000523,
+   "upstream_inference_completions_cost": 0.0004905
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 571,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "No, she tells him; he is in London.",
+   "note": ""
+  },
+  {
+   "as_written": "Bath",
+   "normalized": "Bath, Somerset",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that grass-grown city of the ancients, Bath",
+   "note": ""
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "\"Chesney Wold?\"",
+   "note": "Fictional Dedlock country house, not locatable on a real map."
+  },
+  {
+   "as_written": "Almack's",
+   "normalized": "Almack's Assembly Rooms, King Street, St James's, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "getting myself up for Almack’s",
+   "note": ""
+  },
+  {
+   "as_written": "the Dedlock town house",
+   "normalized": "Dedlock town house, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the Dedlock town house stares at the other houses in the street of dismal grandeur",
+   "note": "Fictional house; London location inferred from context, not named in passage."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716310-odDN6Lo83NIXzQKzrKFB",
+  "object": "chat.completion",
+  "created": 1793716310,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"un remède\",\"gloss\":\"a remedy\",\"category\":\"remedy/medicine\",\"note\":\"Meunier writes 'un remède pour soulager la science et la mémoire', which reshapes the genitive 'of memory and wisdom' into a purpose clause: a remedy to relieve/assist science and memory. This makes memory and wisdom the patients rather than the goods produced.\"},\"mneme_274e\":{\"rendering\":\"la mémoire\",\"gloss\":\"the memory\",\"note\":\"Object of 'soulager', along with 'la science'. Earlier in the same sentence he also gives 'facilitera l'art de se souvenir' for μνημονικωτέρους.\"},\"sophia_274e\":{\"rendering\":\"la science\",\"gloss\":\"the science / knowledge\",\"note\":\"σοφία is rendered 'science' (knowledge), and the order is inverted to 'la science et la mémoire'. The comparative σοφωτέρους is rendered 'plus savants'.\"},\"pharmakon_275a\":{\"rendering\":\"le moyen\",\"gloss\":\"the means\",\"category\":\"means/aid\",\"note\":\"The word is 'moyen', not 'remède'. The clause 'Tu as trouvé le moyen, non point d'enrichir la mémoire, mais de conserver les souvenirs qu'elle a' also turns the genitives into infinitive purpose clauses.\"},\"mneme_275a\":{\"rendering\":\"la mémoire\",\"gloss\":\"the memory\",\"note\":\"Here it is the thing not to be enriched ('d'enrichir la mémoire'). It is a verbal paraphrase of the genitive.\"},\"hypomnesis_275a\":{\"rendering\":\"conserver les souvenirs qu'elle a\",\"gloss\":\"to preserve the memories that it has\",\"note\":\"ὑπομνήσεως is paraphrased as preserving existing memories, not as 'reminding' or 'reminder'. The mneme/hypomnesis wordplay is lost, though the sense of storage is kept.\"},\"sophia_275a\":{\"rendering\":\"la présomption qu'ils ont la science, non la science elle-même\",\"gloss\":\"the presumption that they have knowledge, not knowledge itself\",\"note\":\"δόξα is rendered 'présomption' (a conceit or presumed claim), and ἀλήθεια is turned into 'la science elle-même' (knowledge itself) rather than 'truth'.\"},\"doxosophoi_275b\":{\"rendering\":\"des savants imaginaires\",\"gloss\":\"imaginary scholars / learned men\",\"note\":\"This is a paraphrase of the compound, followed by 'au lieu de vrais savants'. The compound is not kept, but the contrast of seeming and true is clear.\"},\"argument\":\"Meunier does not keep one word for pharmakon: Theuth offers a 'remède' and Thamus replies with 'le moyen' (means). So the reversal in which Thamus turns Theuth's own word against him is lost, as is the ambivalence of remedy and poison. The genitives become purpose clauses, so Theuth's remedy is for relieving memory and knowledge, and Thamus's reply is a milder correction: the invention preserves memories but does not enrich memory. This weakens the mneme/hypomnesis contrast, and the 'remède' is not shown to turn into something harmful.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5922,
+    "completion_tokens": 1094,
+    "total_tokens": 7016,
+    "cost": 0.022784,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.022784,
+      "upstream_inference_prompt_cost": 0.011844,
+      "upstream_inference_completions_cost": 0.01094
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

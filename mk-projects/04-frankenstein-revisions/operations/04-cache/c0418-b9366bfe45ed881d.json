@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2558,
+  "completion_tokens": 154,
+  "total_tokens": 2712,
+  "cost": 0.0003328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003328,
+   "upstream_inference_prompt_cost": 0.0002558,
+   "upstream_inference_completions_cost": 0.000077
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0418. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): At these moments I often endeavoured to put an end to the existence I loathed; and it required unceasing attendance and vigilance to restrain me from committing some dreadful act of violence.\n\n1818 text: I remember, as I quitted the prison, I heard one of the men say, \"He may be innocent of the murder, but he has certainly a bad conscience.\" These words struck me. A bad conscience! yes, surely I had one. William, Justine, and Clerval, had died through my infernal machinations; \"And whose death,\" cried I, \"is to finish the tragedy? Ah! my father, do not remain in this wretched country; take me where I may forget myself, my existence, and all the world.\" My father easily acceded to my desire; and, after having taken leave of Mr. Kirwin, we hastened to Dublin. I felt as if I was relieved from a heavy weight, when the packet sailed with a fair wind from Ireland, and I had quitted for ever the country which had been to me the scene of so much misery.\n\n1831 text: Yet one duty remained to me, the recollection of which finally triumphed over my selfish despair. It was necessary that I should return without delay to Geneva, there to watch over the lives of those I so fondly loved; and to lie in wait for the murderer, that if any chance led me to the place of his concealment, or if he dared again to blast me by his presence, I might, with unfailing aim, put an end to the existence of the monstrous Image which I had endued with the mockery of a soul still more monstrous. My father still desired to delay our departure, fearful that I could not sustain the fatigues of a journey: for I was a shattered wreck,—the shadow of a human being. My strength was gone. I was a mere skeleton; and fever night and day preyed upon my wasted frame. Still, as I urged our leaving Ireland with such inquietude and impatience, my father thought it best to yield. We took our passage on board a vessel bound for Havre-de-Grace, and sailed with a fair wind from the Irish shores.\n\nDiff: [-I remember, as I quitted the prison, I heard one of the men say, \"He may be innocent of the murder, but he has certainly a bad conscience.\" These words struck me. A bad conscience! yes, surely I had one. William, Justine, and Clerval, had died through my infernal machinations; \"And whose death,\" cried I, \"is to finish the tragedy? Ah! my father, do not remain in this wretched country; take me where I may forget myself, my existence, and all the world.\" My father easily acceded to my desire; and, after having taken leave of Mr. Kirwin, we hastened to Dublin. I felt as if I was relieved from a heavy weight, when the packet sailed with a fair wind from Ireland, and I had quitted for ever the country which had been to me the scene of so much misery.-] {+Yet one duty remained to me, the recollection of which finally triumphed over my selfish despair. It was necessary that I should return without delay to Geneva, there to watch over the lives of those I so fondly loved; and to lie in wait for the murderer, that if any chance led me to the place of his concealment, or if he dared again to blast me by his presence, I might, with unfailing aim, put an end to the existence of the monstrous Image which I had endued with the mockery of a soul still more monstrous. My father still desired to delay our departure, fearful that I could not sustain the fatigues of a journey: for I was a shattered wreck,—the shadow of a human being. My strength was gone. I was a mere skeleton; and fever night and day preyed upon my wasted frame. Still, as I urged our leaving Ireland with such inquietude and impatience, my father thought it best to yield. We took our passage on board a vessel bound for Havre-de-Grace, and sailed with a fair wind from the Irish shores.+}\n\nContext after (unchanged): It was midnight."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "moral-religious",
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "The 1818 passage removes Victor's remorse ('A bad conscience! yes, surely I had one') and his despairing wish to flee; 1831 substitutes a revenge plan to lie in wait for the Creature and a physically wrecked, feverish Victor. Replacement, not pure cut, so expansion is primary.",
+  "confidence": "medium",
+  "rationaleWords": 46
+ }
+}

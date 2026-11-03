@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716117-Xef9W5435JpJkjdWFmEh",
+  "object": "chat.completion",
+  "created": 1793716117,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"pharmakon_274e\":{\"rendering\":\"средство\",\"gloss\":\"means, instrument, resource\",\"category\":\"means/aid\",\"note\":\"Appears in 'я изобрел ее, как средство для памяти и мудрости' ('I invented it as a means for memory and wisdom'). The sentence is recast as a first-person clause with 'как', so φάρμακον is rendered by a neutral word. The Russian has no sense of drug or remedy.\"},\"mneme_274e\":{\"rendering\":\"для памяти\",\"gloss\":\"for memory\",\"note\":\"The genitive becomes a dative-type 'для' phrase. Compare 'памятливее' ('more mindful') earlier in the same speech, which renders μνημονικωτέρους.\"},\"sophia_274e\":{\"rendering\":\"мудрости\",\"gloss\":\"of wisdom\",\"note\":\"Genitive, coordinated with 'памяти' under the same 'для'. Matches 'мудрее' ('wiser') earlier.\"},\"pharmakon_275a\":{\"rendering\":\"средство\",\"gloss\":\"means, instrument, resource\",\"category\":\"means/aid\",\"note\":\"Appears in 'ты изобрел средство не для памятования, а для напоминания'. It is the same word as at 274e, so Thamus's wording repeats Theuth's. No pharmacological sense is present in either place.\"},\"mneme_275a\":{\"rendering\":\"для памятования\",\"gloss\":\"for remembering\",\"note\":\"The translator uses the verbal noun 'памятование' ('the act of remembering'), not 'память' as at 274e. This shifts memory from a faculty to an activity and differs from Theuth's 'памяти'. The same stem appears in 'заботливость о памятовании' just before.\"},\"hypomnesis_275a\":{\"rendering\":\"для напоминания\",\"gloss\":\"for reminding\",\"note\":\"'Напоминание' is the act of reminding or calling to mind. It is built on the same root as 'память'/'памятование' (-мин-/-мня-), so the Russian partly keeps the Greek link between mneme and hypomnesis.\"},\"sophia_275a\":{\"rendering\":\"мудрость ученики приобретут у тебя не истинную, а кажущуюся\",\"gloss\":\"wisdom the pupils will acquire from you not true but seeming\",\"note\":\"The Greek contrast doxa/aletheia becomes an adjective pair, 'истинную' ('true') against 'кажущуюся' ('appearing, seeming'). 'Wisdom' is the noun in both cases. The verb is 'приобретут' ('will acquire'), not 'you provide'. Seeming is expressed through the participle, not through the noun 'мнение' or 'слава'.\"},\"doxosophoi_275b\":{\"rendering\":\"мнимые мудрецы\",\"gloss\":\"supposed/imaginary wise men\",\"note\":\"Rendered 'как мнимые мудрецы, вместо истинных' ('as supposed sages, instead of true ones'). 'Мнимые' means 'imagined, putative'. The compound is not reproduced, but the pairing with 'истинных' echoes the earlier 'кажущуюся' vs 'истинную'.\"},\"argument\":\"Karpov renders both occurrences of φάρμακον with the same neutral word 'средство', so Thamus does turn Theuth's own word against him, but only through the contrast of memory with reminding. Because 'средство' has no medical or poisonous sense, the Greek ambiguity between remedy and poison disappears, and the argument reads as a dispute about which faculty the invention serves. Theuth's claim is also softened to 'я изобрел ее, как средство', and the translator's 'памятование' versus 'напоминание' keeps Thamus's distinction, while the seeming/true wisdom contrast stays intact.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5723,
+    "completion_tokens": 1243,
+    "total_tokens": 6966,
+    "cost": 0.023876,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.023876,
+      "upstream_inference_prompt_cost": 0.011446,
+      "upstream_inference_completions_cost": 0.01243
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

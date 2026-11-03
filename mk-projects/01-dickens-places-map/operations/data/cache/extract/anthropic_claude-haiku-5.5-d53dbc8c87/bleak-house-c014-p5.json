@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c014-p5",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2906,
+  "completion_tokens": 868,
+  "total_tokens": 3774,
+  "cost": 0.0007246,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007246,
+   "upstream_inference_prompt_cost": 0.0002906,
+   "upstream_inference_completions_cost": 0.000434
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 502,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House (Mr. Jarndyce's house, fictional)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr. Jarndyce of Bleak House!",
+   "note": "Fictional house name; in the novel it lies outside London, in Hertfordshire."
+  },
+  {
+   "as_written": "Lincoln's Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as we all walked across Lincoln’s Inn together",
+   "note": "Walked across it, so it is a setting for this moment."
+  },
+  {
+   "as_written": "his Court of Chancery",
+   "normalized": "Krook's rag-and-bottle shop, Chancery Lane, London (fictional)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He proposed to show us his Court of Chancery and all the strange medley it contained",
+   "note": "Jocular nickname for Krook's shop of lumber, not the legal court; the shop itself is in Chancery Lane."
+  }
+ ]
+}

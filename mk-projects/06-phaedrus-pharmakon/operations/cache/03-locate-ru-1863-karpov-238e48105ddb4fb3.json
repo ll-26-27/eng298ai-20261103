@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793715939-FOmHTP4ADHJb7xx41krR",
+  "object": "chat.completion",
+  "created": 1793715939,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"found\": false,\n  \"start_words\": \"\",\n  \"end_words\": \"\",\n  \"stephanus_markers_seen\": \"p. 265 D, 274 D, p. 275 D\",\n  \"note\": \"The provided excerpt contains only commentary and footnotes to the dialogue, quoting fragments of phrases rather than the dialogue text itself.\"\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a1+qghUmOoXL0rCsdY56RRivKxXFP4MrRB6XU4KbG31sqY7fkqjB+e7aqlIZKiKSXsspeDGL8cRW5xTFEbEzzgNEBtlt98i0TQ1oA7gSOKrLpYyi",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4318,
+    "completion_tokens": 89,
+    "total_tokens": 4407,
+    "cost": 0.00357225,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00357225,
+      "upstream_inference_prompt_cost": 0.0032385,
+      "upstream_inference_completions_cost": 0.00033375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2072,
+  "completion_tokens": 142,
+  "total_tokens": 2214,
+  "cost": 0.0002782,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002782,
+   "upstream_inference_prompt_cost": 0.0002072,
+   "upstream_inference_completions_cost": 0.000071
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0026. Location: 1818 Letter II; 1831 Letter II.\n\nContext before (unchanged): It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart.\n\n1818 text: I am going to unexplored regions, to \"the land of mist and snow;\" but I shall kill no albatross, therefore do not be alarmed for my safety.\n\n1831 text: I am going to unexplored regions, to \"the land of mist and snow\"; but I shall kill no albatross, therefore do not be alarmed for my safety, or if I should come back to you as worn and woful as the \"Ancient Mariner\"? You will smile at my allusion; but I will disclose a secret. I have often attributed my attachment to, my passionate enthusiasm for, the dangerous mysteries of ocean, to that production of the most imaginative of modern poets. There is something at work in my soul, which I do not understand. I am practically industrious—pains-taking;—a workman to execute with perseverance and labour:—but besides this, there is a love for the marvellous, a belief in the marvellous, intertwined in all my projects, which hurries me out of the common pathways of men, even to the wild sea and unvisited regions I am about to explore. But to return to dearer considerations.\n\nDiff: [-I am going to unexplored regions, to \"the land of mist and snow;\" but I shall kill no albatross, therefore do not be alarmed for my safety.-] {+I am going to unexplored regions, to \"the land of mist and snow\"; but I shall kill no albatross, therefore do not be alarmed for my safety, or if I should come back to you as worn and woful as the \"Ancient Mariner\"? You will smile at my allusion; but I will disclose a secret. I have often attributed my attachment to, my passionate enthusiasm for, the dangerous mysteries of ocean, to that production of the most imaginative of modern poets. There is something at work in my soul, which I do not understand. I am practically industrious—pains-taking;—a workman to execute with perseverance and labour:—but besides this, there is a love for the marvellous, a belief in the marvellous, intertwined in all my projects, which hurries me out of the common pathways of men, even to the wild sea and unvisited regions I am about to explore. But to return to dearer considerations.+}\n\nContext after (unchanged): Shall I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America?"
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Large 1831 addition: Walton's 'Ancient Mariner' allusion, 'a love for the marvellous' and 'something at work in my soul' deepen his self-portrait as a dangerous, obsessive dreamer, adding interpretive weight beyond mere elaboration.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

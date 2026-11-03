@@ -1,0 +1,102 @@
+{
+ "chunk": "great-expectations-c053-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3656,
+  "completion_tokens": 2306,
+  "total_tokens": 5962,
+  "cost": 0.0015186,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015186,
+   "upstream_inference_prompt_cost": 0.0003656,
+   "upstream_inference_completions_cost": 0.001153
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1536,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blue Boar",
+   "normalized": "Blue Boar Inn, Rochester, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "So he and Startop arrived at the Blue Boar, fully expecting there to find me",
+   "note": "Inn named in the novel; the passage itself does not name Rochester"
+  },
+  {
+   "as_written": "Miss Havisham’s",
+   "normalized": "Satis House, Rochester, Kent",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "went on to Miss Havisham’s, where they lost me",
+   "note": "Miss Havisham's house; Satis House is not named in this passage"
+  },
+  {
+   "as_written": "the marshes",
+   "normalized": "Cooling Marshes, Kent",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "to get some one to guide them out upon the marshes",
+   "note": "Identified by context as the Thames-side marshes; name not given in passage"
+  },
+  {
+   "as_written": "the sluice-house",
+   "normalized": "Sluice-house on the Kent marshes",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "they went out to the sluice-house, though by the town way to the marshes",
+   "note": "Specific house in the novel, not a mapped real building"
+  },
+  {
+   "as_written": "the limekiln",
+   "normalized": "Limekiln near the sluice-house, Kent marshes",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "saved me from the limekiln",
+   "note": "Location unlocatable; referred to only in passing"
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was daylight when we reached the Temple",
+   "note": "Inner and Middle Temple, Inns of Court; refers to the chambers area"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "we determined to go back to London that night",
+   "note": ""
+  },
+  {
+   "as_written": "Mill Pond Bank",
+   "normalized": "Mill Pond Bank, Bermondsey, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "stand ready, you over there at Mill Pond Bank!",
+   "note": "Riverside street; Herbert's planned meeting point"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c007-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4582,
+  "completion_tokens": 1247,
+  "total_tokens": 5829,
+  "cost": 0.0010817,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010817,
+   "upstream_inference_prompt_cost": 0.0004582,
+   "upstream_inference_completions_cost": 0.0006235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 694,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Gravesen’",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We come, you see, the wind and tide making in our favour, in one of our Yarmouth lugs to Gravesen’.",
+   "note": "Spelled 'Gravesen’' in the text; Mr. Peggotty's party came from here."
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I shall bring him to Yarmouth, if he will let me, to see your house.",
+   "note": "Also appears in 'Yarmouth boatmen' and 'Yarmouth mail'; Peggotty's home."
+  },
+  {
+   "as_written": "Norfolk",
+   "normalized": "Norfolk, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "And if Mr. Steerforth ever comes into Norfolk or Suffolk, Mr. Peggotty,",
+   "note": ""
+  },
+  {
+   "as_written": "Suffolk",
+   "normalized": "Suffolk, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "And if Mr. Steerforth ever comes into Norfolk or Suffolk, Mr. Peggotty,",
+   "note": ""
+  },
+  {
+   "as_written": "Salem House",
+   "normalized": "Salem House, school (fictional)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "the ground outside the window was not the playground of Salem House",
+   "note": "Fictional school; the novel places it near Blackheath, but this passage does not say so."
+  }
+ ]
+}

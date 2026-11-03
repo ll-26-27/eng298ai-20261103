@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c010-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5607,
+  "completion_tokens": 1070,
+  "total_tokens": 6677,
+  "cost": 0.0010957,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010957,
+   "upstream_inference_prompt_cost": 0.0005607,
+   "upstream_inference_completions_cost": 0.000535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 601,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "St James's Church",
+   "normalized": "St James's Church, Piccadilly, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The scene is the Vestry-room of St James’s Church, with a number of leathery old registers on shelves",
+   "note": "Wedding ceremony takes place here."
+  },
+  {
+   "as_written": "Bond Street",
+   "normalized": "Bond Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "you could easily buy all you see of her, in Bond Street",
+   "note": ""
+  },
+  {
+   "as_written": "Stucconia",
+   "normalized": "Stucconia",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "carriages rolling back to Stucconia",
+   "note": "Dickens's satirical name for the stucco-fronted area where Veneering lives; location loosely London."
+  },
+  {
+   "as_written": "Isle of Wight",
+   "normalized": "Isle of Wight, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there is hurried preparation for the nuptial journey to the Isle of Wight",
+   "note": ""
+  },
+  {
+   "as_written": "Shanklin",
+   "normalized": "Shanklin, Isle of Wight",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "it comes to Mr and Mrs Lammle on the sands at Shanklin, in the Isle of Wight.",
+   "note": ""
+  }
+ ]
+}

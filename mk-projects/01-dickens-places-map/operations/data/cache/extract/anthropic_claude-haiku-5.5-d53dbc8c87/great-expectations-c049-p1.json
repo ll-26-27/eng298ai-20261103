@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c049-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4795,
+  "completion_tokens": 1249,
+  "total_tokens": 6044,
+  "cost": 0.001104,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001104,
+   "upstream_inference_prompt_cost": 0.0004795,
+   "upstream_inference_completions_cost": 0.0006245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 874,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Satis House",
+   "normalized": "Satis House",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "so soon reappearing at Satis House",
+   "note": "Fictional house in the novel's Rochester-based setting; not locatable on a map."
+  },
+  {
+   "as_written": "Halfway House",
+   "normalized": "Halfway House, on the London to Rochester road, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "But I alighted at the Halfway House, and breakfasted there",
+   "note": "Coaching inn on the road between London and Rochester; exact location not certain."
+  },
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, Rochester, Kent",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "along the quiet echoing courts behind the High Street",
+   "note": ""
+  },
+  {
+   "as_written": "priory garden",
+   "normalized": "Priory garden, Rochester, Kent",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in the priory garden",
+   "note": "Former priory grounds; name is descriptive rather than a formal title."
+  }
+ ]
+}

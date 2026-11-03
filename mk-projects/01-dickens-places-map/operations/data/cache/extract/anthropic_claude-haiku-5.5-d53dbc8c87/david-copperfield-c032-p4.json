@@ -1,0 +1,39 @@
+{
+ "chunk": "david-copperfield-c032-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5015,
+  "completion_tokens": 65,
+  "total_tokens": 5080,
+  "cost": 0.000534,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000534,
+   "upstream_inference_prompt_cost": 0.0005015,
+   "upstream_inference_completions_cost": 0.0000325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "",
+   "note": "not in this passage"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1808,
+  "completion_tokens": 574,
+  "total_tokens": 2382,
+  "cost": 0.0004678,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004678,
+   "upstream_inference_prompt_cost": 0.0001808,
+   "upstream_inference_completions_cost": 0.000287
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 415,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0178. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): This was a dire blow to poor Elizabeth, who had relied with firmness upon Justine's innocence.\n\n1818 text: \"Alas!\" said she, \"how shall I ever again believe in human benevolence? Justine, whom I loved and esteemed as my sister, how could she put on those smiles of innocence only to betray; her mild eyes seemed incapable of any severity or ill-humour, and yet she has committed a murder.\" Soon after we heard that the poor victim had expressed a wish to see my cousin.\n\n1831 text: \"Alas!\" said she, \"how shall I ever again believe in human goodness? Justine, whom I loved and esteemed as my sister, how could she put on those smiles of innocence only to betray? her mild eyes seemed incapable of any severity or guile, and yet she has committed a murder.\" Soon after we heard that the poor victim had expressed a desire to see my cousin.\n\nDiff: \" Alas! \" said she, \" how shall I ever again believe in human [-benevolence-] {+goodness+} ? Justine, whom I loved and esteemed as my sister, how could she put on those smiles of innocence only to betray [-;-] {+?+} her mild eyes seemed incapable of any severity or [-ill-humour-] {+guile+} , and yet she has committed a murder. \" Soon after we heard that the poor victim had expressed a [-wish-] {+desire+} to see my cousin.\n\nContext after (unchanged): My father wished her not to go; but said, that he left it to her own judgment and feelings to decide."
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "wording",
+   "characterization"
+  ],
+  "significance": 3,
+  "rationale": "The key change is \"ill-humour\" becoming \"guile\", which shifts Elizabeth's praise of Justine's innocence from temperament to moral capacity for deceit. \"Benevolence\" to \"goodness\" and \"wish\" to \"desire\" are wording shifts; the ';' to '?' change is punctuation.",
+  "confidence": "medium",
+  "rationaleWords": 38
+ }
+}

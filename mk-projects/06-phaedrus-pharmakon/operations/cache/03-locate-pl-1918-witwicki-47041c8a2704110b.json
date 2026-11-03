@@ -1,0 +1,60 @@
+{
+  "id": "gen-1793715985-LngOLkgUNVb1ULAQXcoa",
+  "object": "chat.completion",
+  "created": 1793715985,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "provisioned",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"found\": false,\n  \"start_words\": \"\",\n  \"end_words\": \"\",\n  \"stephanus_markers_seen\": \"\",\n  \"note\": \"The excerpt contains introductory background material on Greek religion and education rather than the translation of the dialogue itself.\"\n}",
+        "refusal": null,
+        "reasoning": "**Analyzing Textual References**\n\nI'm currently dissecting the provided excerpt, focusing on identifying direct translations or strong allusions to Phaedrus 274c–275b. My efforts are centered on the sections discussing Eleusinian mysteries and the interpretation of various myths, as these seem most pertinent to the user's request.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "**Analyzing Textual References**\n\nI'm currently dissecting the provided excerpt, focusing on identifying direct translations or strong allusions to Phaedrus 274c–275b. My efforts are centered on the sections discussing Eleusinian mysteries and the interpretation of various myths, as these seem most pertinent to the user's request.\n\n",
+            "format": "google-gemini-v1",
+            "index": 0
+          },
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a19O8/S7083GTD9xZOLcj3XO87peUv0FkBafNcgiEQhL6MXQR2Ol4zLy+2NDHuG9MnfHuRwFLDdv8aJ/EflGjHsE6wpUco9Wc1LJp5PRKbRX9LF0kD40efouLsybTSejswtrRYpB9u9soOvsCYeENNo8ZU+GkX/1bL8CI+4SypIkqN0DnTYytgq6YBbjpDv6zbiJcgdoetPwHKegMzk5gYGigTrowX50SV0OrdsFMyWAv0sSO2f4x9hMfO4pmHEY0022MCBror+bqxB4voz4J2Lj1Xjjt7MECoHzRFP2ltlVxgxl9R/6w2BDIo6FMnaCtcINqS5D87rKiWvz8mN2hmgfuSquhFaowQQS1pvUyAlhfqyTX8MVZO+sFrYUWRVRj11980B8fpP1oDVV11lFeUzCarNgjR/Cfj0188H/Px0tYdUaKLCAZh0i2Vf+bApmukMrnA6vciCBAGzK58x/h5ySiR6RhcKjy4fNNeFVaPrQ+cCCHrkthN6ucUF2pj2p5ERX/RYhYTLkBDdzmQHstq1Cjo80F/sToKgwL2Yz0ioGYd3924t5uvaqINGchEkwAshbmsHjkRdPCkm2GIa2T4PTeOCRxTd96mzVJQbrd9hFSSLn5y6hJ7BS7H82DNSVST26GurNNAKGgzhRxG3kfomaeEHdAaRp69CzJ1DnXGpPylYWzX6uQqo8RbMFY/8AfCzyyAUmMyV4e7beWeT1627HOxZ9KrZvScJzpJ9uDKs1LtXcqGo0Dg6NXzK9XAZpcaKl6xkH5NmckA8Ur/FxDeL7mgf9jNmWco+nYdL8u8OZtea8TGsrcY9L8M7ysWBR6p1E6XAVRVBIXMemwIlarWNsB6xMTNcuJUHS0ZppZOG+2n9/JJIUG/V6YyO6c0dZo/qaY6fYleS86su3/WV2XBZBwVK1MAxOFm1GHG9jHRWK/qKJYuBOjonUKLnrlUBa7P2FyldzZI3b",
+            "format": "google-gemini-v1",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4134,
+    "completion_tokens": 213,
+    "total_tokens": 4347,
+    "cost": 0.00389925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00389925,
+      "upstream_inference_prompt_cost": 0.0031005,
+      "upstream_inference_completions_cost": 0.00079875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 149,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

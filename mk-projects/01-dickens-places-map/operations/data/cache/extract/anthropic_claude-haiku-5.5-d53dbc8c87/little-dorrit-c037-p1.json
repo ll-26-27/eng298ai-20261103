@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c037-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5198,
+  "completion_tokens": 1115,
+  "total_tokens": 6313,
+  "cost": 0.0010773,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010773,
+   "upstream_inference_prompt_cost": 0.0005198,
+   "upstream_inference_completions_cost": 0.0005575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 467,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Alps",
+   "normalized": "Alps, Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Darkness and Night were creeping up to the highest ridges of the Alps.",
+   "note": "Mountain range spanning several countries"
+  },
+  {
+   "as_written": "Swiss side",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It was vintage time in the valleys on the Swiss side of the Pass of the Great Saint Bernard",
+   "note": ""
+  },
+  {
+   "as_written": "Pass of the Great Saint Bernard",
+   "normalized": "Great St Bernard Pass, Switzerland-Italy border",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Seen from these solitudes, and from the Pass of the Great Saint Bernard, which was one of them",
+   "note": ""
+  },
+  {
+   "as_written": "Lake of Geneva",
+   "normalized": "Lake Geneva, Switzerland",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "along the banks of the Lake of Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "convent of the Great Saint Bernard",
+   "normalized": "Great St Bernard Hospice, Great St Bernard Pass",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "When it at last rose to the walls of the convent of the Great Saint Bernard",
+   "note": ""
+  },
+  {
+   "as_written": "Martigny",
+   "normalized": "Martigny, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to leave the carriages and fourgon at Martigny.",
+   "note": ""
+  },
+  {
+   "as_written": "valley on the Italian side of the Pass",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The third party, which had ascended from the valley on the Italian side of the Pass",
+   "note": "Italian valley approach to the pass"
+  }
+ ]
+}

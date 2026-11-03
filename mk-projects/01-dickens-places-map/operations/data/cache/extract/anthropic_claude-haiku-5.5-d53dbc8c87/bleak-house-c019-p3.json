@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c019-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4473,
+  "completion_tokens": 1217,
+  "total_tokens": 5690,
+  "cost": 0.0010558,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010558,
+   "upstream_inference_prompt_cost": 0.0004473,
+   "upstream_inference_completions_cost": 0.0006085
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 793,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Kenge and Carboy’s office",
+   "normalized": "Kenge and Carboy's law office, Lincoln's Inn Fields, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Kenge and Carboy’s office for years",
+   "note": "Passage does not state the location; London and Lincoln's Inn Fields come from the novel elsewhere, so verify."
+  },
+  {
+   "as_written": "Blackfriars Bridge",
+   "normalized": "Blackfriars Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Jo moves on, through the long vacation, down to Blackfriars Bridge",
+   "note": ""
+  },
+  {
+   "as_written": "St. Paul’s Cathedral",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "looking up at the great cross on the summit of St. Paul’s Cathedral",
+   "note": "Seen from Blackfriars Bridge; not visited."
+  },
+  {
+   "as_written": "the river",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the river running fast",
+   "note": "River not named in passage; identified via Blackfriars Bridge."
+  }
+ ]
+}

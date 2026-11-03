@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c030-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5398,
+  "completion_tokens": 294,
+  "total_tokens": 5692,
+  "cost": 0.0006868,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006868,
+   "upstream_inference_prompt_cost": 0.0005398,
+   "upstream_inference_completions_cost": 0.000147
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I got down to Yarmouth in the evening, and went to the inn.",
+   "note": ""
+  },
+  {
+   "as_written": "Omer and Joram's",
+   "normalized": "Omer and Joram's shop, Great Yarmouth",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "When I came to Omer and Joram’s, I found the shutters up",
+   "note": "Business premises (draper's shop) in Yarmouth"
+  },
+  {
+   "as_written": "the inn",
+   "normalized": "Inn in Great Yarmouth",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "so I betook myself to the inn, and dined there, and engaged my bed.",
+   "note": "Unnamed inn; not named in passage"
+  }
+ ]
+}

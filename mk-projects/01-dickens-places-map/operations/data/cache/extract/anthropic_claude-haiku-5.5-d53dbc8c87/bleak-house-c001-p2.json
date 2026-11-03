@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c001-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2699,
+  "completion_tokens": 713,
+  "total_tokens": 3412,
+  "cost": 0.0006264,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006264,
+   "upstream_inference_prompt_cost": 0.0002699,
+   "upstream_inference_completions_cost": 0.0003565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 477,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "High Court of Chancery",
+   "normalized": "Court of Chancery, Lincoln's Inn Hall, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "sits the Lord High Chancellor in his High Court of Chancery.",
+   "note": "Named as the court where the Chancellor sits; the passage does not name the building, so the location is inferred from historical practice."
+  },
+  {
+   "as_written": "Shropshire",
+   "normalized": "Shropshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the man from Shropshire cries, \"My lord!\"",
+   "note": "Refers to a man's county of origin, not a place where the action occurs."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1676,
+  "completion_tokens": 113,
+  "total_tokens": 1789,
+  "cost": 0.0002241,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002241,
+   "upstream_inference_prompt_cost": 0.0001676,
+   "upstream_inference_completions_cost": 0.0000565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0257. Location: 1818 Vol. II, Ch. V; 1831 Ch. XIII.\n\nContext before (unchanged): Was I then a monster, a blot upon the earth, from which all men fled, and whom all men disowned?\n\n1818 text: \"I cannot describe to you the agony that these reflections inflicted upon me; I tried to dispel them, but sorrow only increased with knowledge. Oh, that I had for ever remained in my native wood, nor known or felt beyond the sensations of hunger, thirst, and heat!\n\n1831 text: \"I cannot describe to you the agony that these reflections inflicted upon me: I tried to dispel them, but sorrow only increased with knowledge. Oh, that I had for ever remained in my native wood, nor known nor felt beyond the sensations of hunger, thirst, and heat!\n\nDiff: \" I cannot describe to you the agony that these reflections inflicted upon me [-;-] {+:+} I tried to dispel them, but sorrow only increased with knowledge. Oh, that I had for ever remained in my native wood, nor known [-or-] {+nor+} felt beyond the sensations of hunger, thirst, and heat!\n\nContext after (unchanged): \"Of what a strange nature is knowledge!"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Semicolon changed to colon after 'upon me', and 'known or felt' becomes 'known nor felt'; both are punctuation or syntax-level adjustments that leave the meaning of the creature's lament unchanged.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

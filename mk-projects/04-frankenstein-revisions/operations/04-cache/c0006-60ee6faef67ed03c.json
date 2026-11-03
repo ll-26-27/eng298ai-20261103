@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1358,
+  "completion_tokens": 96,
+  "total_tokens": 1454,
+  "cost": 0.0001838,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001838,
+   "upstream_inference_prompt_cost": 0.0001358,
+   "upstream_inference_completions_cost": 0.000048
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0006. Location: 1818 Preface; 1831 Preface.\n\nContext before (unchanged): The following tale is the only one which has been completed.\n\n1818 text: (nothing: this passage is new in 1831)\n\n1831 text: Marlow, September, 1817.\n\nContext after (unchanged): (none)"
+ },
+ "result": {
+  "category": "framing",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The added text is a dateline ('Marlow, September, 1817') for the 1831 Preface, a paratextual element giving place and date of composition; it alters no wording of the tale itself.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

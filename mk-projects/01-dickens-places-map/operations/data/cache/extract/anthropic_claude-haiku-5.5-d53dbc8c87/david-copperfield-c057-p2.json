@@ -1,0 +1,102 @@
+{
+ "chunk": "david-copperfield-c057-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5353,
+  "completion_tokens": 2010,
+  "total_tokens": 7363,
+  "cost": 0.0015403,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015403,
+   "upstream_inference_prompt_cost": 0.0005353,
+   "upstream_inference_completions_cost": 0.001005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1454,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when he went from London to Canterbury",
+   "note": ""
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he went from London to Canterbury",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he went from England to Australia",
+   "note": ""
+  },
+  {
+   "as_written": "Australia",
+   "normalized": "Australia",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he went from England to Australia",
+   "note": ""
+  },
+  {
+   "as_written": "the channel",
+   "normalized": "English Channel",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as if he were going for a little trip across the channel",
+   "note": "named only generically as 'the channel'"
+  },
+  {
+   "as_written": "Albion",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "strengthen, not to weaken, the connexion between yourself and Albion.",
+   "note": "archaic poetic name for Britain"
+  },
+  {
+   "as_written": "Britannia",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "flow into the coffers of Britannia.",
+   "note": "personification of Britain"
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "my old nurse and I went down to Gravesend",
+   "note": ""
+  }
+ ]
+}

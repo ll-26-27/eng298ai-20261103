@@ -1,0 +1,57 @@
+{
+ "chunk": "dombey-and-son-c022-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5244,
+  "completion_tokens": 701,
+  "total_tokens": 5945,
+  "cost": 0.0008749,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008749,
+   "upstream_inference_prompt_cost": 0.0005244,
+   "upstream_inference_completions_cost": 0.0003505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 424,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "British Dominions",
+   "normalized": "British Empire",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "No taxgatherer in the British Dominions—that wide-spread territory on which the sun never sets",
+   "note": "Refers to the empire as a whole, not a single location."
+  },
+  {
+   "as_written": "the Black Badger",
+   "normalized": "Black Badger public house, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "always to be heard of at the bar of the Black Badger",
+   "note": "Location not stated in passage; London assumed from context but not confirmed."
+  },
+  {
+   "as_written": "Yorkshire",
+   "normalized": "Yorkshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a friend in Yorkshire had written to him",
+   "note": ""
+  }
+ ]
+}

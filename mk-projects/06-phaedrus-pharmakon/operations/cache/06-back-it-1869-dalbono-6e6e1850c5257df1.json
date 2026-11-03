@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793716440-YIcAzDec6udIqKD3gEeL",
+  "object": "chat.completion",
+  "created": 1793716440,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "I have heard it told, then, that in the vicinity of Naucrate of Egypt there was one of the ancient Gods of that place, the one to whom the bird they call Ibis is sacred, and that this divinity had the name of Tot[41], and that he had first found numbers and calculation and geometry and astronomy, and besides this chess, dice and writing. Tamo being in those days king of all Egypt, in that great city of upper Egypt which the Greeks call Egyptian Thebes, and they call the God Ammon, Tot having come to the [p. 101 edit] presence of this man, showed him the arts, and said to him that it was necessary to make a gift of them to the rest of the Egyptians. And the king asked what utility each of them had: and he showing it, the king, according as it seemed to him that he spoke well or badly, disapproved or approved: and they say that Tamo brought to Tot many reasons for and against for each art, which to relate them would be too long. But when it came to the letters: O king, said Tot, this teaching will render the Egyptians wiser and more mindful, because I have found this aid for knowledge and for memory. And the king said: O most ingenious Tot, one man will be able to create the arts, another man to judge what part of harm or of utility they have for him who makes use of them; and you now, being as the father of the written letters, through the love you bear to them, have said that which they cannot do, whereas writing will bring forgetfulness into the mind of him who learns it and will cause the exercise of memory to be neglected, because men, trusting themselves to the written letters, do not remember by a working that they do within themselves, but by the external aid of foreign signs, so that you have not found a means of retaining, but of recalling to memory things; hence to your disciples you give an apparent wisdom and not the true, because having heard many things, they become without a teacher, in appearance, learned in [p. 102 edit] many things, whereas they are for the most part ignorant; and they will be tiresome to those who deal with them, since instead of being wise, they will have only the appearance.",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 660,
+    "total_tokens": 1771,
+    "cost": 0.008822,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008822,
+      "upstream_inference_prompt_cost": 0.002222,
+      "upstream_inference_completions_cost": 0.0066
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

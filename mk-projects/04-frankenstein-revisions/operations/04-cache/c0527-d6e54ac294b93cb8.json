@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1482,
+  "completion_tokens": 93,
+  "total_tokens": 1575,
+  "cost": 0.0001947,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001947,
+   "upstream_inference_prompt_cost": 0.0001482,
+   "upstream_inference_completions_cost": 0.0000465
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0527. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): It was long before he was restored; and I often thought that life was entirely extinct.\n\n1818 text: At length he opened his eyes, but he breathed with difficulty, and was unable to speak.\n\n1831 text: At length he opened his eyes; he breathed with difficulty, and was unable to speak.\n\nDiff: At length he opened his eyes [-, but-] {+;+} he breathed with difficulty, and was unable to speak.\n\nContext after (unchanged): The surgeon gave him a composing draught, and ordered us to leave him undisturbed."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Removal of the conjunction 'but' and replacement with a semicolon, creating two independent clauses. Syntactic/punctuation change with no alteration of meaning or events.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}
