@@ -19,8 +19,8 @@ tools, loops, or a new form of output.
 | [Simulation · The Common Room](simulation/) | Extend your chatbot into a committee of four personas; inspect twenty actual model-generated replies and add a fifth participant. | [Guide](simulation/README.md) · [HTML](simulation/outputs/index.html) · [Transcript](simulation/outputs/conversation.md) |
 | [Simulation · A Socratic classroom](simulation/02-socratic-classroom/) | An imagined Socrates and four students test what counts as learning through definitions, counterexamples and revisions. | [Guide](simulation/02-socratic-classroom/README.md) · [Classroom](simulation/02-socratic-classroom/outputs/index.html) |
 | [Writing · 01 · Seminar paper](_writing/01-seminar-paper/) | Run the whole arc: brief, reading notes, brainstorm, thesis, quote bank, outline, draft, judges, your feedback, note on method. One complete run: the *Phaedrus* against Shanahan's role-play paper. | [Guide](_writing/01-seminar-paper/README.md) · [Paper](_writing/01-seminar-paper/paper/final.html) |
-| [Writing · 02 · Quotes and outlines](_writing/02-quotes-and-outlines/) | Pull the passages out of one text, see its skeleton, sketch three papers. Worked on Grice. | [Guide](_writing/02-quotes-and-outlines/README.md) · [Quote bank](_writing/02-quotes-and-outlines/notebook/work/Q1_quotes_grice.md) |
-| [Writing · 03 · Word clouds](_writing/03-word-clouds/) | Run Jonathan Feinberg's 2008 Wordle algorithm, rewritten in Python, on the Preface to *Dorian Gray*; check the picture against the counts. | [Guide](_writing/03-word-clouds/README.md) · [Page](_writing/03-word-clouds/paper/index.html) |
+| [Writing · 02 · Quotes and outlines](_writing/02-quotes-and-outlines/) | Pull the passages out of one text, see its skeleton, sketch three papers. Worked on Grice. | [Guide](_writing/02-quotes-and-outlines/README.md) · [Quote bank](_writing/02-quotes-and-outlines/operations/work/Q1_quotes_grice.md) |
+| [Writing · 03 · Word clouds](_writing/03-word-clouds/) | Run Jonathan Feinberg's 2008 Wordle algorithm, rewritten in Python, on the Preface to *Dorian Gray*; check the picture against the counts. | [Guide](_writing/03-word-clouds/README.md) · [Page](_writing/03-word-clouds/outputs/index.html) |
 | [Translation · 01 · Bergson's *Le Rire*](translation/01-bergson-laughter-chain/) | Translate Bergson's French through a visible prompt chain, then read an annotated bilingual page. | [Guide](translation/01-bergson-laughter-chain/README.md) · [Output](translation/01-bergson-laughter-chain/outputs/example/annotated-translation.html) |
 | [Translation · 02 · *Frankenstein* in translation](translation/02-frankenstein-translations/) | Follow the creature's plea through 21 translations in 14 languages, back-translated and read for connotation; then the first translations into 25 languages. | [Guide](translation/02-frankenstein-translations/README.md) · [Page](translation/02-frankenstein-translations/outputs/index.html) · [Essay](translation/02-frankenstein-translations/outputs/essay/essay.md) |
 | [Translation · 03 · *Pharmakon*](translation/03-phaedrus-pharmakon/) | Trace one word of the *Phaedrus* across 17 translations and five centuries. | [Guide](translation/03-phaedrus-pharmakon/README.md) · [Page](translation/03-phaedrus-pharmakon/outputs/index.html) · [Essay](translation/03-phaedrus-pharmakon/outputs/essay/essay.md) |
@@ -47,8 +47,8 @@ Each folder's own README has the full chain, sources, costs, and caveats.
   CLAUDE.md      Claude Code instructions; readable explicitly in other apps
 ```
 
-The `_writing/` examples use the older names for the same three folders:
-`books/`, `notebook/`, `paper/`.
+The seminar-paper example in `_writing/` uses the older names for the same
+three folders: `books/`, `notebook/`, `paper/`.
 
 Read an example's `README.md` to try it, or `summary.md` for its purpose. Use
 `index.md` to find a specific file. The outputs are examples, not guaranteed

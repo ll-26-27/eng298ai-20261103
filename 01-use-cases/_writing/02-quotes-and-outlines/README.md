@@ -11,7 +11,7 @@ Before there is a paper there is a notebook, and before there is an argument
 there are the passages you copied out and the shape you noticed. This
 example does only that. It stops on purpose before anyone writes prose.
 
-Three movements, each a file in `notebook/`:
+Three movements, each a file in `operations/`:
 
 | Step | What it does | Who |
 |---|---|---|
@@ -22,7 +22,7 @@ Three movements, each a file in `notebook/`:
 The worked run is on **H. P. Grice, "Logic and Conversation" (1975)**,
 assigned for Seminar 6. It is eighteen pages, which is why it was chosen: a
 reader can check every quotation in the time it takes to read this README.
-The results are in `notebook/work/`.
+The results are in `operations/work/`.
 
 ## Why this is worth doing with a model
 
@@ -37,12 +37,12 @@ labelled as such.
 ## Run it on another text
 
 ```text
-Follow 01-use-cases/_writing/02-quotes-and-outlines/notebook/Q1_pull-quotes.md
+Follow 01-use-cases/_writing/02-quotes-and-outlines/operations/Q1_pull-quotes.md
 for context/course-readings/course-readings-md/wilde-intentions.md.
-Write to 01-use-cases/_writing/02-quotes-and-outlines/notebook/work/Q1_quotes_wilde-intentions.md.
+Write to 01-use-cases/_writing/02-quotes-and-outlines/operations/work/Q1_quotes_wilde-intentions.md.
 ```
 
-Then `Q2`, then `Q3`. The texts are listed in [`books/README.md`](books/README.md).
+Then `Q2`, then `Q3`. The texts are listed in [`inputs/README.md`](inputs/README.md).
 
 ## What to check
 

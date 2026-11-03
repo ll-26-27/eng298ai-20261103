@@ -1,5 +1,5 @@
 {
- "source_counts": "paper/preface-counts.json",
+ "source_counts": "outputs/preface-counts.json",
  "font": "/Users/madeleinewoods/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
  "seed": 298,
  "layout": "mostly-horizontal",

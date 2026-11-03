@@ -3,9 +3,9 @@
 Read in full, 190 lines, one pass, 2026-11-03. The quote bank and the
 reverse outline for this text were made first in the smaller example and are
 not repeated here: see
-[`../../../02-quotes-and-outlines/notebook/work/Q1_quotes_grice.md`](../../../02-quotes-and-outlines/notebook/work/Q1_quotes_grice.md)
+[`../../../02-quotes-and-outlines/operations/work/Q1_quotes_grice.md`](../../../02-quotes-and-outlines/operations/work/Q1_quotes_grice.md)
 (37 passages, page-cited) and
-[`Q2_skeleton_grice.md`](../../../02-quotes-and-outlines/notebook/work/Q2_skeleton_grice.md)
+[`Q2_skeleton_grice.md`](../../../02-quotes-and-outlines/operations/work/Q2_skeleton_grice.md)
 (nine sections, the spine, the hinges). This file adds what `W01` asks for
 beyond those: where AI enters, tensions with the other readings, tensions
 with the AI papers, and open questions.

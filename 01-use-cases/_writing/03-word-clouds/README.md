@@ -7,7 +7,7 @@ created: 2026-11-03
 
 # Word clouds
 
-**[Open the page](paper/index.html)**
+**[Open the page](outputs/index.html)**
 
 Before distant reading had a name it had a toy. Wordle (Jonathan Feinberg,
 2008) took any text you pasted and drew its words at sizes proportional to
@@ -25,7 +25,7 @@ exercise ("All art is quite useless").
 
 | Step | What | Who |
 |---|---|---|
-| `books/` | The Preface, copied exactly; the original Wordle, cited | — |
+| `inputs/` | The Preface, copied exactly; the original Wordle, cited | — |
 | `C1` | Find the words, drop stop words, count. Weight = count. | deterministic code |
 | `C2` | Size by count; place biggest first along a spiral from the centre line; swell for spacing; colour at random. | deterministic code |
 | `C3` | The page: clouds, text, counts, algorithm, caveats. | deterministic code |
@@ -40,28 +40,28 @@ From the repository root:
 
 ```bash
 cd 01-use-cases/_writing/03-word-clouds
-python3 notebook/C1_count-words.py \
+python3 operations/C1_count-words.py \
   ../../../context/course-readings/course-readings-md/wilde-picture-of-dorian-gray-1891.md \
   --from "## The Preface" --to "## Chapter I" \
-  --out paper/preface-counts.json --excerpt notebook/work/preface.txt
-python3 notebook/C2_lay-out-wordle.py paper/preface-counts.json \
-  --png paper/preface-wordle.png --svg paper/preface-wordle.svg \
-  --layout-json paper/preface-layout.json --palette wilde --min-size 20 --max-size 240
-python3 notebook/C3_build-page.py --out paper/index.html \
-  --main-svg paper/preface-wordle.svg --main-counts paper/preface-counts.json \
-  --excerpt books/wilde-dorian-gray-preface.md \
-  --second-svg paper/common-room-wordle.svg --second-counts paper/common-room-counts.json
+  --out outputs/preface-counts.json --excerpt operations/work/preface.txt
+python3 operations/C2_lay-out-wordle.py outputs/preface-counts.json \
+  --png outputs/preface-wordle.png --svg outputs/preface-wordle.svg \
+  --layout-json outputs/preface-layout.json --palette wilde --min-size 20 --max-size 240
+python3 operations/C3_build-page.py --out outputs/index.html \
+  --main-svg outputs/preface-wordle.svg --main-counts outputs/preface-counts.json \
+  --excerpt inputs/wilde-dorian-gray-preface.md \
+  --second-svg outputs/common-room-wordle.svg --second-counts outputs/common-room-counts.json
 ```
 
 The second cloud on the page, the Common Room committee, was made with:
 
 ```bash
-python3 notebook/C1_count-words.py \
+python3 operations/C1_count-words.py \
   ../../simulation/outputs/runs/20261103T160946Z-cab251/conversation.json \
-  --json-path turns.utterance --remove-numbers --out paper/common-room-counts.json
-python3 notebook/C2_lay-out-wordle.py paper/common-room-counts.json \
-  --png paper/common-room-wordle.png --svg paper/common-room-wordle.svg \
-  --layout-json paper/common-room-layout.json --palette committee \
+  --json-path turns.utterance --remove-numbers --out outputs/common-room-counts.json
+python3 operations/C2_lay-out-wordle.py outputs/common-room-counts.json \
+  --png outputs/common-room-wordle.png --svg outputs/common-room-wordle.svg \
+  --layout-json outputs/common-room-layout.json --palette committee \
   --min-size 16 --max-size 200 --seed 1103
 ```
 
@@ -72,7 +72,7 @@ land elsewhere; change `--font` and they change their clothes.
 ### Run it on another text
 
 Any file in `context/`. Cut a passage with `--from` and `--to` (the headings
-in the Markdown), or feed a whole essay. `books/README.md` lists some cuts.
+in the Markdown), or feed a whole essay. `inputs/README.md` lists some cuts.
 
 ## What to check
 

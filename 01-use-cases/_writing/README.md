@@ -1,9 +1,10 @@
 # _writing
 
-Three examples of writing with AI, laid out as the humanist has always worked:
-the **books** you read, the **notebook** you keep, the **paper** you publish.
-That is the inputs → operations → outputs model in its oldest form, and the
-reason this folder sorts first.
+Three examples of writing with AI. The seminar paper is laid out as the
+humanist has always worked: the **books** you read, the **notebook** you
+keep, the **paper** you publish, which is the inputs → operations → outputs
+model in its oldest form and the reason this folder sorts first. The other
+two use the repository's usual `inputs/`, `operations/`, `outputs/`.
 
 | Example | What you will do | Size |
 |---|---|---|

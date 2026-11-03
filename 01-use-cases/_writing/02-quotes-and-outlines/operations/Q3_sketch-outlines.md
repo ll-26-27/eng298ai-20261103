@@ -16,7 +16,7 @@ topics: three claims. Each sketch:
 5. **Counter-reading**: the strongest objection, with the passage it would
    stand on.
 6. **Shape**: five paragraph-level moves, following the order in
-   `01-seminar-paper/notebook/W05_outline.md` (open on a passage; read it;
+   `01-seminar-outputs/notebook/W05_outline.md` (open on a passage; read it;
    collide; answer the objection; return).
 7. **Fit**, 1 to 5, and the reason.
 

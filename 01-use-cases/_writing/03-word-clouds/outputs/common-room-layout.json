@@ -1,5 +1,5 @@
 {
- "source_counts": "paper/common-room-counts.json",
+ "source_counts": "outputs/common-room-counts.json",
  "font": "/Users/madeleinewoods/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
  "seed": 1103,
  "layout": "mostly-horizontal",

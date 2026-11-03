@@ -124,9 +124,9 @@ a {{ color:inherit; }}
     while w intersects any previously placed words:
         move w a little bit along a spiral path</pre>
 <ol>
-<li><strong>Count.</strong> A word is letters and digits, optionally joined by hyphens or apostrophes. Stop words come out. <em>Weight = word count.</em> (<code>notebook/C1_count-words.py</code>)</li>
-<li><strong>Lay out.</strong> Biggest word first. Each starts near the horizontal centre line, scattered at random, and walks out along a spiral until it touches nothing. The field's rectangle holds it in while the spiral is small. A "randomized greedy algorithm." (<code>notebook/C2_lay-out-wordle.py</code>)</li>
-<li><strong>Page.</strong> This file. (<code>notebook/C3_build-page.py</code>)</li>
+<li><strong>Count.</strong> A word is letters and digits, optionally joined by hyphens or apostrophes. Stop words come out. <em>Weight = word count.</em> (<code>operations/C1_count-words.py</code>)</li>
+<li><strong>Lay out.</strong> Biggest word first. Each starts near the horizontal centre line, scattered at random, and walks out along a spiral until it touches nothing. The field's rectangle holds it in while the spiral is small. A "randomized greedy algorithm." (<code>operations/C2_lay-out-wordle.py</code>)</li>
+<li><strong>Page.</strong> This file. (<code>operations/C3_build-page.py</code>)</li>
 </ol>
 <div class="caveat"><strong>What Feinberg said not to trust.</strong> Word sizing is naïve: a longer word takes more space than a shorter one used as often. Colour is meaningless. And "merely counting words does not permit meaningful comparisons of like texts": a cloud of every book of the New Testament is a page of "Lord." The size of <em>artist</em> here tells you that Wilde used the word eleven times in five hundred. It does not tell you what he thought of artists.</div>
 </div>

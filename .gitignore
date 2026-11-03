@@ -30,3 +30,4 @@ context/LL-readings/pdfs/
 
 # the writing examples keep their run files in notebook/work/, which the work/ rule above would hide
 !**/notebook/work/
+!**/operations/work/

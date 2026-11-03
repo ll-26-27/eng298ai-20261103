@@ -67,7 +67,7 @@ claim about that text is marked *to verify*.
 4. The counter-reading: Grice's own rejection. Answer: fit versus falsity; the letter and the quarrel as exchanges one can leave.
 5. Return to the sealed lips. End on the difference between a speaker who will not say more and a system that cannot stop.
 
-**Fit.** 3. The idea is sharp but the Sacks side is a long, technical paper, and the claim about interfaces needs a documented example of a refusal (a published system prompt or model card would do; see `01-seminar-paper/notebook/W04_source-quotes.md`, Part C).
+**Fit.** 3. The idea is sharp but the Sacks side is a long, technical paper, and the claim about interfaces needs a documented example of a refusal (a published system prompt or model card would do; see `01-seminar-outputs/notebook/W04_source-quotes.md`, Part C).
 
 ---
 
