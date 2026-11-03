@@ -32,6 +32,8 @@ class Markdown:
     def __init__(self, source_url):
         self.url = source_url
         self.notes = []
+        self.note_ids = {}
+        self.note_marks = {}
         self.counts = Counter()
 
     def children(self, node):
@@ -58,9 +60,9 @@ class Markdown:
                 cols = int(cell.get('colspan', 1))
                 nrows = int(cell.get('rowspan', 1))
                 for cc in range(c, c + cols):
-                    values[cc] = value
+                    values[cc] = value if cc == c else ''
                     for rr in range(r + 1, r + nrows):
-                        spans[(rr, cc)] = value
+                        spans[(rr, cc)] = value if cc == c and len(value) < 120 else ''
                 c += cols
             if values:
                 grid.append([values.get(c, '') for c in range(max(values) + 1)])
@@ -116,11 +118,26 @@ class Markdown:
             content = node.select_one('.ltx_note_content')
             if content is None:
                 return self.children(node)
+            key = compact(content.get_text(' ', strip=True))
+            mark_node = node.select_one('.ltx_note_mark')
+            mark = compact(mark_node.get_text()) if mark_node else ''
+            if 'ltx_role_footnotemark' in classes:
+                number = self.note_marks.get(mark)
+                if number is None and mark.isdigit() and 0 < int(mark) <= len(self.notes):
+                    number = int(mark)
+                return f'[^{number}]' if number is not None else mark
+            if key in self.note_ids:
+                return f'[^{self.note_ids[key]}]'
             number = len(self.notes) + 1
+            self.note_ids[key] = number
+            if mark:
+                self.note_marks[mark] = number
             self.notes.append('')
             self.notes[number - 1] = self.children(content).strip()
             return f'[^{number}]'
-        if 'ltx_note_mark' in classes:
+        if 'ltx_note_mark' in classes or 'ltx_tag_note' in classes:
+            return ''
+        if 'ltx_tag_item' in classes and compact(node.get_text()) in ['•', '–', '◦', '▪']:
             return ''
         if name == 'math':
             tex = self.math(node)
@@ -135,17 +152,17 @@ class Markdown:
             if 'ltx_title_abstract' in classes or 'ltx_title_bibliography' in classes:
                 level = 2
             return '\n\n' + '#' * level + ' ' + compact(self.children(node)) + '\n\n'
-        if name == 'img':
+        if name == 'img' or name == 'object' and node.get('data'):
             self.counts['images'] += 1
             alt = compact(node.get('alt', ''))
             if not alt or alt == 'Refer to caption':
                 alt = 'Figure image; see caption'
-            return '\n\n![' + alt.replace('[', '').replace(']', '') + '](' + urljoin(self.url, node.get('src', '')) + ')\n\n'
+            return '\n\n![' + alt.replace('[', '').replace(']', '') + '](' + urljoin(self.url, node.get('src') or node.get('data', '')) + ')\n\n'
         if name == 'a':
             text = self.children(node).strip()
             href = node.get('href', '')
             # Keep source cross-reference labels; avoid hundreds of repeated URLs.
-            if not href or '#' in href and not re.match(r'https?://', href):
+            if not href or href == 'mailto:' or '#' in href and not re.match(r'https?://', href):
                 return text
             return f'[{text}]({urljoin(self.url, href)})' if text else ''
         if name == 'br':
@@ -205,6 +222,7 @@ def main():
     for md in sorted((PACK / 'papers-on-ai-md').glob('*.md')):
         original = md.read_text()
         metadata = original.split('---', 2)[1]
+        metadata = re.sub(r'^(source_html|text_format):.*\n', '', metadata, flags=re.M)
         version = md.name.split('--')[0]
         url = f'https://arxiv.org/html/{version}'
         source = args.source_dir / (version + '.html')
@@ -221,13 +239,21 @@ def main():
             raise ValueError(f'{version}: PDF version hash mismatch')
         converter = Markdown(url)
         body = converter.convert(article)
+        seen_notes = set()
         expected_math = len(article.find_all('math'))
+        for note in article.select('.ltx_note'):
+            content = note.select_one('.ltx_note_content')
+            if content is not None:
+                key = compact(content.get_text(' ', strip=True))
+                if key in seen_notes:
+                    expected_math -= len(content.find_all('math'))
+                seen_notes.add(key)
         if converter.counts['math'] != expected_math:
             raise ValueError(f'{version}: lost math ({converter.counts["math"]}/{expected_math})')
         expected_headings = len(article.find_all(re.compile('^h[1-6]$')))
         if converter.counts['headings'] != expected_headings:
             raise ValueError(f'{version}: lost section headings')
-        for selector, key in [('.ltx_bibitem', 'references'), ('figcaption', 'captions'), ('img', 'images')]:
+        for selector, key in [('.ltx_bibitem', 'references'), ('figcaption', 'captions'), ('img, object[data]', 'images')]:
             if len(article.select(selector)) != converter.counts[key]:
                 raise ValueError(f'{version}: lost {key}')
         if len(body) < 15000:

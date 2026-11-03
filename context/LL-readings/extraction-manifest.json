@@ -14,13 +14,14 @@
         "headings": 22,
         "tables": 1,
         "math": 45,
+        "images": 1,
         "captions": 9,
         "list_items": 32,
         "references": 32
       },
       "footnotes": 4,
-      "markdown_characters": 40135,
-      "markdown_sha256": "c2a69a7c961a9395fc954eced21e9d4c8e6827db7f1b106a7eec1dc2f93393ad"
+      "markdown_characters": 40170,
+      "markdown_sha256": "b6f016ee405026187ba9610439fea5a71599951a39d081c535e12c249ca4f952"
     },
     {
       "markdown": "papers-on-ai-md/1409.0473v7--neural-machine-translation-by-jointly-learning-to-align-and-translate.md",
@@ -35,14 +36,14 @@
         "headings": 34,
         "tables": 4,
         "math": 218,
+        "images": 6,
         "captions": 6,
-        "images": 4,
         "list_items": 29,
         "references": 29
       },
       "footnotes": 9,
-      "markdown_characters": 55260,
-      "markdown_sha256": "df85b9377ddb5f454b2d2f2c4229f0277237c9ca62c29b1315fafa10fcd73e48"
+      "markdown_characters": 55399,
+      "markdown_sha256": "cdd06784a8f6f39856620513f1ce20a7670494524dd3964ccc219f0fe0af1109"
     },
     {
       "markdown": "papers-on-ai-md/1706.03741v4--deep-reinforcement-learning-from-human-preferences.md",
@@ -57,14 +58,14 @@
         "headings": 31,
         "tables": 1,
         "list_items": 82,
+        "images": 6,
         "captions": 6,
         "math": 74,
-        "images": 5,
         "references": 45
       },
       "footnotes": 8,
-      "markdown_characters": 62346,
-      "markdown_sha256": "32d2caf10b4abbab5b8a44f64f7e1aa2e6b32f9b8291ada11f754162652797a3"
+      "markdown_characters": 62236,
+      "markdown_sha256": "465b22bf3db9e07017d10090a8b69678eda9232a41c59e15bb1a0748e5c10bba"
     },
     {
       "markdown": "papers-on-ai-md/1706.03762v7--attention-is-all-you-need.md",
@@ -79,14 +80,14 @@
         "headings": 31,
         "tables": 5,
         "math": 142,
-        "images": 3,
+        "images": 8,
         "captions": 9,
         "list_items": 43,
         "references": 40
       },
-      "footnotes": 12,
-      "markdown_characters": 43216,
-      "markdown_sha256": "4c3e99809c67e8dca0d0c3c1b491f72203859f18ffb551359cfddda09614f5f9"
+      "footnotes": 5,
+      "markdown_characters": 43104,
+      "markdown_sha256": "26a03382fe53c84db6cf3f60b561669e5e26fbbc4c99c89d90aacab6d1d35f68"
     },
     {
       "markdown": "papers-on-ai-md/1810.04805v2--bert-pre-training-of-deep-bidirectional-transformers-for-language-unders.md",
@@ -100,14 +101,15 @@
       "converted": {
         "headings": 47,
         "list_items": 76,
+        "images": 4,
         "captions": 13,
         "math": 111,
         "tables": 8,
         "references": 56
       },
       "footnotes": 16,
-      "markdown_characters": 69455,
-      "markdown_sha256": "bd55eb1eb3d24318f5c18630e6dc97d5feb0659b3e866ad31a272bdd6e7a5312"
+      "markdown_characters": 69073,
+      "markdown_sha256": "de4feff60fbdf69e5d512cdae21f0927f768fdc6ee2e43c1d9098eb48d2f8915"
     },
     {
       "markdown": "papers-on-ai-md/1910.10683v4--exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-tr.md",
@@ -120,6 +122,7 @@
       "source_math_expressions": 3429,
       "converted": {
         "headings": 64,
+        "images": 6,
         "captions": 22,
         "math": 3429,
         "list_items": 163,
@@ -127,8 +130,8 @@
         "references": 133
       },
       "footnotes": 21,
-      "markdown_characters": 228831,
-      "markdown_sha256": "dc4f1e0fd17430c43ef8183c9d67aa6227b617559e3cf97784b2b9775d4fe9df"
+      "markdown_characters": 228878,
+      "markdown_sha256": "431583846309a7945a515387b9d2608a0eb048b1a44f7354321f5401fb775bdd"
     },
     {
       "markdown": "papers-on-ai-md/2001.08361v1--scaling-laws-for-neural-language-models.md",
@@ -142,15 +145,15 @@
       "converted": {
         "headings": 55,
         "tables": 7,
+        "images": 36,
         "captions": 30,
         "math": 508,
-        "images": 11,
         "list_items": 75,
         "references": 50
       },
       "footnotes": 9,
-      "markdown_characters": 93917,
-      "markdown_sha256": "4a7e356acbf7d97a7d6f0f2fd6efcb270920d706d5c7b6256dd16ecd933a4f54"
+      "markdown_characters": 96092,
+      "markdown_sha256": "16460d7a97f21ae4a927eedc6ef06423ceaa2bac280b936b8afc10b415e9eafc"
     },
     {
       "markdown": "papers-on-ai-md/2005.11401v4--retrieval-augmented-generation-for-knowledge-intensive-nlp-tasks.md",
@@ -163,16 +166,16 @@
       "source_math_expressions": 65,
       "converted": {
         "headings": 49,
+        "images": 4,
         "math": 65,
         "captions": 11,
         "tables": 7,
-        "images": 2,
         "list_items": 68,
         "references": 68
       },
       "footnotes": 3,
-      "markdown_characters": 75874,
-      "markdown_sha256": "7d428bad37a1633dd75c333d68dc6555f1dd4677bfb2657cedbc8f860b5322da"
+      "markdown_characters": 75937,
+      "markdown_sha256": "b135fae979df3f53adb64769c0efdf825ca47cc9b872f98f0757a5f1958e12c9"
     },
     {
       "markdown": "papers-on-ai-md/2005.14165v4--language-models-are-few-shot-learners.md",
@@ -192,9 +195,9 @@
         "tables": 85,
         "references": 144
       },
-      "footnotes": 16,
-      "markdown_characters": 259678,
-      "markdown_sha256": "67cb370299c89e6c8e8ecbea7195f754b27a6a4a7d0be5c98d309b82d766eb3a"
+      "footnotes": 13,
+      "markdown_characters": 259276,
+      "markdown_sha256": "915affd4f506a13b4d1f51657a1603d34f4c36259b838fde0f55b8d8b07fabc0"
     },
     {
       "markdown": "papers-on-ai-md/2009.01325v3--learning-to-summarize-from-human-feedback.md",
@@ -207,16 +210,16 @@
       "source_math_expressions": 656,
       "converted": {
         "headings": 63,
+        "images": 18,
         "captions": 51,
         "tables": 55,
         "math": 656,
-        "images": 11,
         "list_items": 73,
         "references": 73
       },
       "footnotes": 16,
-      "markdown_characters": 144983,
-      "markdown_sha256": "b81dc2b185d111bd9f752ad061a6ea4fc4c45e1073ddcce58eff790c348d249c"
+      "markdown_characters": 143388,
+      "markdown_sha256": "1a089ab31c1ae0e919b8c3d6fd22cb611466080db4d0426385d30ca776812cc5"
     },
     {
       "markdown": "papers-on-ai-md/2106.09685v2--lora-low-rank-adaptation-of-large-language-models.md",
@@ -230,15 +233,15 @@
       "converted": {
         "headings": 43,
         "tables": 19,
+        "images": 8,
         "math": 631,
         "captions": 26,
         "list_items": 66,
-        "images": 5,
         "references": 62
       },
       "footnotes": 10,
-      "markdown_characters": 100026,
-      "markdown_sha256": "00a043602cb945da5c7ad362031253bffa98041619ff176f79c9373e31b5128c"
+      "markdown_characters": 98048,
+      "markdown_sha256": "5efc72ce7492c651e978b768c4b9504b8565bff53cde2c7c30b7d31c4108d762"
     },
     {
       "markdown": "papers-on-ai-md/2112.00861v3--a-general-language-assistant-as-a-laboratory-for-alignment.md",
@@ -252,15 +255,15 @@
       "converted": {
         "headings": 54,
         "tables": 3,
-        "images": 6,
+        "images": 78,
         "captions": 39,
         "list_items": 125,
         "math": 137,
         "references": 48
       },
-      "footnotes": 31,
-      "markdown_characters": 144727,
-      "markdown_sha256": "7c56bff94d005587685f2b144adbb4101ab3762860180030c68b9774098ede0e"
+      "footnotes": 24,
+      "markdown_characters": 151032,
+      "markdown_sha256": "fc36379e69ac2ca391c35b569fd6eb146a6c03f5bcfb1e4583e6a1ce6c75ff1b"
     },
     {
       "markdown": "papers-on-ai-md/2201.08239v3--lamda-language-models-for-dialog-applications.md",
@@ -280,9 +283,9 @@
         "tables": 8,
         "references": 109
       },
-      "footnotes": 7,
-      "markdown_characters": 165545,
-      "markdown_sha256": "82eb1e3a124e69561abee222c91fc596c8bb982ead8722eeb8551a9b927a8de5"
+      "footnotes": 6,
+      "markdown_characters": 164789,
+      "markdown_sha256": "20bc6371125cf4e119aaf9f8596efa7df4ddcfde178af78a2fd3a2be1ac7526a"
     },
     {
       "markdown": "papers-on-ai-md/2201.11903v6--chain-of-thought-prompting-elicits-reasoning-in-large-language-models.md",
@@ -295,7 +298,7 @@
       "source_math_expressions": 242,
       "converted": {
         "headings": 45,
-        "images": 1,
+        "images": 4,
         "captions": 41,
         "math": 242,
         "list_items": 137,
@@ -303,8 +306,8 @@
         "tables": 30
       },
       "footnotes": 5,
-      "markdown_characters": 143381,
-      "markdown_sha256": "f30c36979851f4a35d9c729d7bd998835625ce18e63f45ab33df480c975d9ebd"
+      "markdown_characters": 143118,
+      "markdown_sha256": "0508cf792c7166cb639ece64264278c1c190d2d3043305b1a22eeaf2eb0492af"
     },
     {
       "markdown": "papers-on-ai-md/2203.02155v1--training-language-models-to-follow-instructions-with-human-feedback.md",
@@ -317,16 +320,16 @@
       "source_math_expressions": 64,
       "converted": {
         "headings": 89,
+        "images": 24,
         "captions": 64,
-        "images": 3,
         "math": 64,
         "tables": 41,
         "list_items": 105,
         "references": 91
       },
       "footnotes": 10,
-      "markdown_characters": 191336,
-      "markdown_sha256": "a8c47089d64def40dcbf458e02431bdfded0d39d96888707bf19a7da225b3e7a"
+      "markdown_characters": 190969,
+      "markdown_sha256": "8d341d1640c1185745139ebeb116e37b76fc56248e1fa67bca8e365e4f149a08"
     },
     {
       "markdown": "papers-on-ai-md/2203.15556v1--training-compute-optimal-large-language-models.md",
@@ -340,15 +343,15 @@
       "converted": {
         "headings": 52,
         "math": 212,
+        "images": 14,
         "captions": 33,
         "tables": 19,
-        "images": 3,
         "list_items": 77,
         "references": 60
       },
       "footnotes": 10,
-      "markdown_characters": 103522,
-      "markdown_sha256": "6887f9aad47a70badaa0fd6a97293066e9c13d9430d23beb35efbee05f48aa93"
+      "markdown_characters": 103953,
+      "markdown_sha256": "0df9080c167e732f6d873eafb869f53665f1b41f375439c402ba0d83c1af1980"
     },
     {
       "markdown": "papers-on-ai-md/2210.03629v3--react-synergizing-reasoning-and-acting-in-language-models.md",
@@ -362,14 +365,15 @@
       "converted": {
         "headings": 52,
         "tables": 11,
+        "images": 6,
         "captions": 15,
         "math": 36,
         "list_items": 40,
         "references": 40
       },
       "footnotes": 9,
-      "markdown_characters": 108647,
-      "markdown_sha256": "c02a25c610c08d36dc36f4f90e6d54b4c530914684502afd5f3174bb685698e2"
+      "markdown_characters": 108882,
+      "markdown_sha256": "73256d87383dbb542963a516300c3f85d458e582d2c806d2fb429c2acd087f81"
     },
     {
       "markdown": "papers-on-ai-md/2212.03551v5--talking-about-large-language-models.md",
@@ -387,8 +391,8 @@
         "references": 39
       },
       "footnotes": 14,
-      "markdown_characters": 58956,
-      "markdown_sha256": "c59887f28b604da2034879980a3b0b89f612deaa35859f43bf6054b3455c569b"
+      "markdown_characters": 58923,
+      "markdown_sha256": "1021749027c2755a4ee2565179f26e0019e13bb3cf585324372b985fd7b79548"
     },
     {
       "markdown": "papers-on-ai-md/2212.08073v1--constitutional-ai-harmlessness-from-ai-feedback.md",
@@ -402,15 +406,15 @@
       "converted": {
         "headings": 47,
         "tables": 20,
-        "images": 3,
+        "images": 15,
         "captions": 12,
         "list_items": 31,
         "math": 82,
         "references": 26
       },
-      "footnotes": 13,
-      "markdown_characters": 155983,
-      "markdown_sha256": "7cbea9d330491f823025709660b58566f1937fef6895d5e59022524cff147c31"
+      "footnotes": 12,
+      "markdown_characters": 156996,
+      "markdown_sha256": "1b773daadb4308b265c15769edb47de5c561a50fc2453e7ca3dce8f6c88eb961"
     },
     {
       "markdown": "papers-on-ai-md/2302.13971v1--llama-open-and-efficient-foundation-language-models.md",
@@ -426,12 +430,13 @@
         "math": 38,
         "tables": 17,
         "captions": 19,
+        "images": 2,
         "list_items": 89,
         "references": 82
       },
-      "footnotes": 10,
-      "markdown_characters": 98847,
-      "markdown_sha256": "0ff97c73cfa1448707a518b5408aa85f04d817e457a6ba9e807bb3f257a273f9"
+      "footnotes": 6,
+      "markdown_characters": 98839,
+      "markdown_sha256": "e1b8b791fc78f910bc569ab5f92f114096589400a1b5003d5cc220907e72f8d6"
     },
     {
       "markdown": "papers-on-ai-md/2304.03442v2--generative-agents-interactive-simulacra-of-human-behavior.md",
@@ -451,8 +456,8 @@
         "references": 109
       },
       "footnotes": 5,
-      "markdown_characters": 138954,
-      "markdown_sha256": "e77e421e29d2da007d95989d832f48be047c79bdbb2dd90dc5f937faae720860"
+      "markdown_characters": 138774,
+      "markdown_sha256": "475ce63bdfa209f62b292f6c22ab1a40a34dc4976dfc98548d5d621852a5cdbf"
     },
     {
       "markdown": "papers-on-ai-md/2305.16367v1--role-play-with-large-language-models.md",
@@ -465,14 +470,15 @@
       "source_math_expressions": 5,
       "converted": {
         "headings": 14,
+        "images": 3,
         "captions": 3,
         "math": 5,
         "list_items": 25,
         "references": 25
       },
       "footnotes": 7,
-      "markdown_characters": 41950,
-      "markdown_sha256": "ba9f14a1bc44bd984715781201a6239bc67626e82a95e289a83e651935faa6ed"
+      "markdown_characters": 42179,
+      "markdown_sha256": "306bb1ffa6304661d7b18ac0feca66df478b864efed26f96c734cdc3e2f1f710"
     }
   ]
 }
