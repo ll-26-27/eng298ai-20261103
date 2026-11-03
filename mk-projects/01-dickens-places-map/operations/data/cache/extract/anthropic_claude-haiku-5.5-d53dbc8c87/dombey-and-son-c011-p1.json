@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c011-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5211,
+  "completion_tokens": 1411,
+  "total_tokens": 6622,
+  "cost": 0.0012266,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012266,
+   "upstream_inference_prompt_cost": 0.0005211,
+   "upstream_inference_completions_cost": 0.0007055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 880,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I purpose,” said Mr Dombey, “his remaining at Brighton.",
+   "note": "Paul's convalescence location; the Castle is implied to be there."
+  },
+  {
+   "as_written": "the Castle",
+   "normalized": "Mrs Pipchin's boarding house, Brighton",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "great consternation was occasioned in the Castle by the unlooked-for announcement of Mr Dombey",
+   "note": "Nickname for Mrs Pipchin's establishment; location inferred from Brighton context."
+  },
+  {
+   "as_written": "Doctor Blimber’s",
+   "normalized": "Doctor Blimber's school, Brighton",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have been thinking of Doctor Blimber’s, Mrs Pipchin.",
+   "note": "Location implied by Mrs Pipchin's 'my neighbour'; not explicitly named as Brighton in passage."
+  },
+  {
+   "as_written": "Peruvian mines",
+   "normalized": "Peru",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the deceased Mr Pipchin having broken his heart in the Peruvian mines",
+   "note": "Place named via adjective; mines themselves are not a locatable point."
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the solar heats of India acting on his blood",
+   "note": ""
+  }
+ ]
+}

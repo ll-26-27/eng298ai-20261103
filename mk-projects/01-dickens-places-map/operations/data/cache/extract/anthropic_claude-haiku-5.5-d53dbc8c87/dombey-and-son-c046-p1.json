@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c046-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5066,
+  "completion_tokens": 1078,
+  "total_tokens": 6144,
+  "cost": 0.0010456,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010456,
+   "upstream_inference_prompt_cost": 0.0005066,
+   "upstream_inference_completions_cost": 0.000539
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 660,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "his managing gentleman in the City",
+   "note": ""
+  },
+  {
+   "as_written": "the East",
+   "normalized": "East End, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "by the minnows among the tritons of the East",
+   "note": "Used as a shorthand for the East (of London); ambiguous."
+  },
+  {
+   "as_written": "the Stock Exchange",
+   "normalized": "Stock Exchange, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "bets were even offered on the Stock Exchange",
+   "note": ""
+  },
+  {
+   "as_written": "the counting-house of Dombey and Son",
+   "normalized": "Dombey and Son counting-house, City of London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "to the counting-house of Dombey and Son one day",
+   "note": "Location inferred as the firm's City office."
+  },
+  {
+   "as_written": "Mr Dombey's house",
+   "normalized": "Dombey's house, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "like that in which he had come away from Mr Dombey’s house",
+   "note": "Unnamed house; exact location not given in passage."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c017-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 811,
+  "total_tokens": 3229,
+  "cost": 0.0006473,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006473,
+   "upstream_inference_prompt_cost": 0.0002418,
+   "upstream_inference_completions_cost": 0.0004055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 599,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he was much astonished at the Captain’s coming into the City to propose a poet",
+   "note": "Financial district where Perch's office stands; the Captain comes here on business."
+  },
+  {
+   "as_written": "Doctor Blimber's",
+   "normalized": "Doctor Blimber's school",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "who might have been brought up at Doctor Blimber’s, she was such a Roman matron",
+   "note": "Fictional academy; its location is not stated in the passage."
+  }
+ ]
+}

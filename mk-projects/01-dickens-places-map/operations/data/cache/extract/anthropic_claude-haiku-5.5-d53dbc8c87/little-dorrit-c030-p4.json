@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c030-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2427,
+  "completion_tokens": 470,
+  "total_tokens": 2897,
+  "cost": 0.0004777,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004777,
+   "upstream_inference_prompt_cost": 0.0002427,
+   "upstream_inference_completions_cost": 0.000235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 298,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Calais",
+   "normalized": "Calais, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "gone back to the Continent by way of Calais",
+   "note": ""
+  },
+  {
+   "as_written": "the Continent",
+   "normalized": "Continental Europe (mainland Europe)",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "gone back to the Continent by way of Calais",
+   "note": "Generic term for mainland Europe; included as a region, may be dropped"
+  }
+ ]
+}

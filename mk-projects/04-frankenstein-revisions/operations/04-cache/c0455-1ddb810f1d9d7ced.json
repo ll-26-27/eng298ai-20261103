@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1655,
+  "completion_tokens": 116,
+  "total_tokens": 1771,
+  "cost": 0.0002235,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002235,
+   "upstream_inference_prompt_cost": 0.0001655,
+   "upstream_inference_completions_cost": 0.000058
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0455. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): She had been moved from the posture in which I had first beheld her; and now, as she lay, her head upon her arm, and a handkerchief thrown across her face and neck, I might have supposed her asleep.\n\n1818 text: I rushed towards her, and embraced her with ardour; but the deathly languor and coldness of the limbs told me, that what I now held in my arms had ceased to be the Elizabeth whom I had loved and cherished.\n\n1831 text: I rushed towards her, and embraced her with ardour; but the deadly languor and coldness of the limbs told me, that what I now held in my arms had ceased to be the Elizabeth whom I had loved and cherished.\n\nDiff: I rushed towards her, and embraced her with ardour; but the [-deathly-] {+deadly+} languor and coldness of the limbs told me, that what I now held in my arms had ceased to be the Elizabeth whom I had loved and cherished.\n\nContext after (unchanged): The murderous mark of the fiend's grasp was on her neck, and the breath had ceased to issue from her lips."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'deathly' with 'deadly' before 'languor and coldness'; the word swap keeps the meaning of death-like lifelessness, shifting only nuance toward a more lethal tone, so it is a minor stylistic change.",
+  "confidence": "medium",
+  "rationaleWords": 32
+ }
+}

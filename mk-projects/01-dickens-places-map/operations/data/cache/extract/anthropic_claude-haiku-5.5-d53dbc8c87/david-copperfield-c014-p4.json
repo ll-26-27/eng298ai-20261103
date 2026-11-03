@@ -1,0 +1,48 @@
+{
+ "chunk": "david-copperfield-c014-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2483,
+  "completion_tokens": 763,
+  "total_tokens": 3246,
+  "cost": 0.0006298,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006298,
+   "upstream_inference_prompt_cost": 0.0002483,
+   "upstream_inference_completions_cost": 0.0003815
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 512,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blunderstone (fictional village in David Copperfield)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the remoteness had come upon the old Blunderstone life",
+   "note": "Fictional village; not locatable. Passage says 'old Blunderstone life'."
+  },
+  {
+   "as_written": "Murdstone and Grinby’s",
+   "normalized": "Murdstone and Grinby's warehouse, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a curtain had for ever fallen on my life at Murdstone and Grinby’s",
+   "note": "Fictional firm's warehouse; passage does not state its location, which is London in the novel."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1782,
+  "completion_tokens": 87,
+  "total_tokens": 1869,
+  "cost": 0.004434,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004434,
+   "upstream_inference_prompt_cost": 0.003564,
+   "upstream_inference_completions_cost": 0.00087
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0446. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): I carried pistols and a dagger constantly about me, and was ever on the watch to prevent artifice; and by these means gained a greater degree of tranquillity.\n\n1818 text: Indeed, as the period approached, the threat appeared more as a delusion, not to be regarded as worthy to disturb my peace, while the happiness I hoped for in my marriage wore a greater appearance of certainty, as the day fixed for its solemnization drew nearer, and I heard it continually spoken of as an occurrence which no accident could possibly prevent.\n\n1831 text: Indeed, as the period approached, the threat appeared more as a delusion, not to be regarded as worthy to disturb my peace, while the happiness I hoped for in my marriage wore a greater appearance of certainty, as the day fixed for its solemnisation drew nearer, and I heard it continually spoken of as an occurrence which no accident could possibly prevent.\n\nDiff: Indeed, as the period approached, the threat appeared more as a delusion, not to be regarded as worthy to disturb my peace, while the happiness I hoped for in my marriage wore a greater appearance of certainty, as the day fixed for its [-solemnization-] {+solemnisation+} drew nearer, and I heard it continually spoken of as an occurrence which no accident could possibly prevent.\n\nContext after (unchanged): Elizabeth seemed happy; my tranquil demeanour contributed greatly to calm her mind."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only orthography changes: 'solemnization' becomes 'solemnisation' (-ize to -ise). Meaning, syntax and content are identical.",
+  "confidence": "high",
+  "rationaleWords": 15
+ }
+}

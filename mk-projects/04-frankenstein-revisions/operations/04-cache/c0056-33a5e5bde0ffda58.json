@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2199,
+  "completion_tokens": 479,
+  "total_tokens": 2678,
+  "cost": 0.0004594,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004594,
+   "upstream_inference_prompt_cost": 0.0002199,
+   "upstream_inference_completions_cost": 0.0002395
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 343,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0056. Location: 1818 Vol. I, Ch. I; 1831 Ch. II.\n\nContext before (unchanged): The raising of ghosts or devils was a promise liberally accorded by my favourite authors, the fulfilment of which I most eagerly sought; and if my incantations were always unsuccessful, I attributed the failure rather to my own inexperience and mistake, than to a want of skill or fidelity in my instructors.\n\n1818 text: The natural phænomena that take place every day before our eyes did not escape my examinations. Distillation, and the wonderful effects of steam, processes of which my favourite authors were utterly ignorant, excited my astonishment; but my utmost wonder was engaged by some experiments on an air-pump, which I saw employed by a gentleman whom we were in the habit of visiting. The ignorance of the early philosophers on these and several other points served to decrease their credit with me: but I could not entirely throw them aside, before some other system should occupy their place in my mind. When I was about fifteen years old, we had retired to our house near Belrive, when we witnessed a most violent and terrible thunder-storm.\n\n1831 text: And thus for a time I was occupied by exploded systems, mingling, like an unadept, a thousand contradictory theories, and floundering desperately in a very slough of multifarious knowledge, guided by an ardent imagination and childish reasoning, till an accident again changed the current of my ideas. When I was about fifteen years old we had retired to our house near Belrive, when we witnessed a most violent and terrible thunder-storm.\n\nDiff: [-The natural phænomena that take place every day before our eyes did not escape my examinations. Distillation, and the wonderful effects of steam, processes of which my favourite authors were utterly ignorant, excited my astonishment; but my utmost wonder was engaged by some experiments on an air-pump, which I saw employed by a gentleman whom we were in the habit of visiting. The ignorance of the early philosophers on these and several other points served to decrease their credit with me: but I could not entirely throw them aside, before some other system should occupy their place in my mind. When I was about fifteen years old, we had retired to our house near Belrive, when we witnessed a most violent and terrible thunder-storm.-] {+And thus for a time I was occupied by exploded systems, mingling, like an unadept, a thousand contradictory theories, and floundering desperately in a very slough of multifarious knowledge, guided by an ardent imagination and childish reasoning, till an accident again changed the current of my ideas. When I was about fifteen years old we had retired to our house near Belrive, when we witnessed a most violent and terrible thunder-storm.+}\n\nContext after (unchanged): It advanced from behind the mountains of Jura; and the thunder burst at once with frightful loudness from various quarters of the heavens."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 4,
+  "rationale": "The 1818 passage on distillation, steam and the air-pump is removed. The 1831 replacement has Victor judge his earlier self as an 'unadept' with 'childish reasoning' floundering in 'a very slough of multifarious knowledge', changing how he presents his youthful mind.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

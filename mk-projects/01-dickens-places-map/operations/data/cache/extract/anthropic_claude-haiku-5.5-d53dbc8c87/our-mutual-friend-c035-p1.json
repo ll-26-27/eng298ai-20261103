@@ -1,0 +1,93 @@
+{
+ "chunk": "our-mutual-friend-c035-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5389,
+  "completion_tokens": 1194,
+  "total_tokens": 6583,
+  "cost": 0.0011359,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011359,
+   "upstream_inference_prompt_cost": 0.0005389,
+   "upstream_inference_completions_cost": 0.000597
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 468,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Saint Mary Axe",
+   "normalized": "St Mary Axe, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Riah the Jew once more came forth into Saint Mary Axe.",
+   "note": ""
+  },
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He passed over London Bridge, and returned to the Middlesex shore by that of Westminster",
+   "note": ""
+  },
+  {
+   "as_written": "Middlesex shore",
+   "normalized": "North bank of the Thames, Middlesex, London",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "returned to the Middlesex shore by that of Westminster",
+   "note": "Refers to the northern bank; Middlesex was a county, so location is approximate."
+  },
+  {
+   "as_written": "Westminster Bridge",
+   "normalized": "Westminster Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Thus conversing, and having crossed Westminster Bridge, they traversed the ground",
+   "note": "Written as 'that of Westminster' earlier; listed once under the clearer form."
+  },
+  {
+   "as_written": "the Thames",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when they had recrossed the Thames by way of London Bridge",
+   "note": ""
+  },
+  {
+   "as_written": "the Park",
+   "normalized": "Hyde Park, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There's a Drawing Room, or a grand day in the Park, or a Show",
+   "note": "Presumed to be Hyde Park; the passage does not name it outright."
+  },
+  {
+   "as_written": "the Six Jolly Fellowship Porters",
+   "normalized": "Six Jolly Fellowship Porters tavern, Limehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Riah asked the way to a certain tavern called the Six Jolly Fellowship Porters.",
+   "note": "Real tavern on Limehouse Hole, near the river; the novel's setting is in Limehouse."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "chunk": "little-dorrit-c027-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 3810,
+  "completion_tokens": 240,
+  "total_tokens": 4050,
+  "cost": 0.000501,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000501,
+   "upstream_inference_prompt_cost": 0.000381,
+   "upstream_inference_completions_cost": 0.00012
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 134,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "with which she had watched her in her struggle at Marseilles",
+   "note": "Refers to an earlier episode in the novel, not to a scene in this passage."
+  }
+ ]
+}

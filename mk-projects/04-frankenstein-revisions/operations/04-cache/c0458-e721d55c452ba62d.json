@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1518,
+  "completion_tokens": 95,
+  "total_tokens": 1613,
+  "cost": 0.0001993,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001993,
+   "upstream_inference_prompt_cost": 0.0001518,
+   "upstream_inference_completions_cost": 0.0000475
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0458. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): I pointed to the spot where he had disappeared, and we followed the track with boats; nets were cast, but in vain.\n\n1818 text: After passing several hours, we returned hopeless, most of my companions believing it to have been a form conjured by my fancy.\n\n1831 text: After passing several hours, we returned hopeless, most of my companions believing it to have been a form conjured up by my fancy.\n\nDiff: After passing several hours, we returned hopeless, most of my companions believing it to have been a form conjured {+up+} by my fancy.\n\nContext after (unchanged): After having landed, they proceeded to search the country, parties going in different directions among the woods and vines."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Adding the particle 'up' to 'conjured' is a phrasal-verb stylistic tweak ('conjured up by my fancy'); the meaning and events are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

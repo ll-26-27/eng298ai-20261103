@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c005-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5249,
+  "completion_tokens": 1546,
+  "total_tokens": 6795,
+  "cost": 0.0012979,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012979,
+   "upstream_inference_prompt_cost": 0.0005249,
+   "upstream_inference_completions_cost": 0.000773
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1080,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Thavies Inn",
+   "normalized": "Thavies Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "dancing up and down Thavies Inn to warm his feet",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "sufficiently curious about London",
+   "note": ""
+  },
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "All made over to the public and Africa, I suppose!",
+   "note": "Continent, used figuratively"
+  },
+  {
+   "as_written": "Lincoln’s Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "This is the garden of Lincoln’s Inn.",
+   "note": "Inn of Court; the garden and the wall are referred to"
+  },
+  {
+   "as_written": "KROOK, RAG AND BOTTLE WAREHOUSE",
+   "normalized": "Krook's rag and bottle shop, Lincoln's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "She had stopped at a shop over which was written KROOK, RAG AND BOTTLE WAREHOUSE.",
+   "note": "Fictional shop named by its sign; located by the text near Lincoln's Inn"
+  }
+ ]
+}

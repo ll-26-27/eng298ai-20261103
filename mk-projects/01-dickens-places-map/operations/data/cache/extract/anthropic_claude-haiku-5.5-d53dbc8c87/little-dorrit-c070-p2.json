@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c070-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4820,
+  "completion_tokens": 911,
+  "total_tokens": 5731,
+  "cost": 0.0009375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009375,
+   "upstream_inference_prompt_cost": 0.000482,
+   "upstream_inference_completions_cost": 0.0004555
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 582,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshal's steps",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "having been elaborating some grievous scheme of injury in her mind since her first assumption of that public position on the Marshal’s steps",
+   "note": "Same place as the Marshalsea; listed once under the later mention."
+  },
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "As she was observed at this time to direct baleful glances towards the Marshalsea",
+   "note": ""
+  },
+  {
+   "as_written": "Allongers and Marshongers",
+   "normalized": "Allongers and Marshongers",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "came straight to you from the Allongers and Marshongers",
+   "note": "Satirical invented name for Continental resorts; cannot be located."
+  }
+ ]
+}

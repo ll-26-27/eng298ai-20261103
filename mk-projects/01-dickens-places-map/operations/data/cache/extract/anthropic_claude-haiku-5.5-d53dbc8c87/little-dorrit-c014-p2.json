@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c014-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5289,
+  "completion_tokens": 1130,
+  "total_tokens": 6419,
+  "cost": 0.0010939,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010939,
+   "upstream_inference_prompt_cost": 0.0005289,
+   "upstream_inference_completions_cost": 0.000565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 919,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "In course of time she came into the leading thoroughfare where the Marshalsea was",
+   "note": "The closed gate and court-yard they visit are the prison's; passage refers to it as 'these walls'."
+  },
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Three o’clock, and half-past three, and they had passed over London Bridge.",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1741,
+  "completion_tokens": 112,
+  "total_tokens": 1853,
+  "cost": 0.0002301,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002301,
+   "upstream_inference_prompt_cost": 0.0001741,
+   "upstream_inference_completions_cost": 0.000056
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0549. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): I shall no longer see the sun or stars, or feel the winds play on my cheeks.\n\n1818 text: Light, feeling, and sense, will pass away; and in this condition must I find my happiness. Some years ago, when the images which this world affords first opened upon me, when I felt the cheering warmth of summer, and heard the rustling of the leaves and the chirping of the birds, and these were all to me, I should have wept to die; now it is my only consolation.\n\n1831 text: Light, feeling, and sense will pass away; and in this condition must I find my happiness. Some years ago, when the images which this world affords first opened upon me, when I felt the cheering warmth of summer, and heard the rustling of the leaves and the warbling of the birds, and these were all to me, I should have wept to die; now it is my only consolation.\n\nDiff: Light, feeling, and sense [-,-] will pass away; and in this condition must I find my happiness. Some years ago, when the images which this world affords first opened upon me, when I felt the cheering warmth of summer, and heard the rustling of the leaves and the [-chirping-] {+warbling+} of the birds, and these were all to me, I should have wept to die; now it is my only consolation.\n\nContext after (unchanged): Polluted by crimes, and torn by the bitterest remorse, where can I find rest but in death?"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only 'chirping' is replaced by 'warbling' for the birds' song; the meaning and the narrator's sensory memory are unchanged. The comma removal after 'sense' is punctuation-level and similarly inconsequential.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

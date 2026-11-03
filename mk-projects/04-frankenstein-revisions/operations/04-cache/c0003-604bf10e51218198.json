@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1889,
+  "completion_tokens": 103,
+  "total_tokens": 1992,
+  "cost": 0.0002404,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002404,
+   "upstream_inference_prompt_cost": 0.0001889,
+   "upstream_inference_completions_cost": 0.0000515
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0003. Location: 1818 Preface; 1831 Preface.\n\nContext before (unchanged): I have thus endeavoured to preserve the truth of the elementary principles of human nature, while I have not scrupled to innovate upon their combinations.\n\n1818 text: The Iliad, the tragic poetry of Greece,—Shakespeare, in the Tempest and Midsummer Night's Dream,—and most especially Milton, in Paradise Lost, conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry.\n\n1831 text: The Iliad, the tragic poetry of Greece,—Shakspeare, in the Tempest, and Midsummer Night's Dream,—and most especially Milton, in Paradise Lost, conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry.\n\nDiff: The Iliad, the tragic poetry of Greece,— [-Shakespeare-] {+Shakspeare+} , in the Tempest {+,+} and Midsummer Night's Dream,—and most especially Milton, in Paradise Lost, conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry.\n\nContext after (unchanged): The circumstance on which my story rests was suggested in casual conversation."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes the author's name from 'Shakespeare' to 'Shakspeare', an orthographic variant, and adds a comma after 'Tempest'; no change in meaning or interpretation.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

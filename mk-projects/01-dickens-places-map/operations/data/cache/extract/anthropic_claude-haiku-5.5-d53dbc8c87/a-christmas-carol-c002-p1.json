@@ -1,0 +1,57 @@
+{
+ "chunk": "a-christmas-carol-c002-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5098,
+  "completion_tokens": 1349,
+  "total_tokens": 6447,
+  "cost": 0.0011843,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011843,
+   "upstream_inference_prompt_cost": 0.0005098,
+   "upstream_inference_completions_cost": 0.0006745
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 998,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "United States'",
+   "normalized": "United States of America",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "would have become a mere United States' security if there were no days to count by",
+   "note": "Refers to a US security in Scrooge's thoughts about bills of exchange; the name is used as an adjective."
+  },
+  {
+   "as_written": "a little market-town",
+   "normalized": "unnamed market town (Scrooge's boyhood town)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "until a little market-town appeared in the distance, with its bridge, its church, and winding river",
+   "note": "Unnamed town; cannot be located."
+  },
+  {
+   "as_written": "a mansion of dull red brick",
+   "normalized": "Scrooge's school, unnamed (Dickens's Salem House-type school)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "soon approached a mansion of dull red brick, with a little weathercock-surmounted cupola",
+   "note": "Unnamed building identified in the passage as the school; cannot be located."
+  }
+ ]
+}

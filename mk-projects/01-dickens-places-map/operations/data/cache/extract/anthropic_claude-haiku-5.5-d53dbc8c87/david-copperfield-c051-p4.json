@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c051-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4422,
+  "completion_tokens": 1164,
+  "total_tokens": 5586,
+  "cost": 0.0010242,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010242,
+   "upstream_inference_prompt_cost": 0.0004422,
+   "upstream_inference_completions_cost": 0.000582
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 908,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the boat-house",
+   "normalized": "Peggotty's boat-house, Yarmouth, Norfolk",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The door of the boat-house stood open when I approached",
+   "note": "Unnamed in passage; Yarmouth location is from the wider novel, not stated here."
+  },
+  {
+   "as_written": "Lon'on",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "my aunt will come to Lon'on afore they sail",
+   "note": "Dialect spelling of London."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "we were returning to London outside the coach",
+   "note": ""
+  }
+ ]
+}

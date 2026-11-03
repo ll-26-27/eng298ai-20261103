@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c029-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5385,
+  "completion_tokens": 1399,
+  "total_tokens": 6784,
+  "cost": 0.001238,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001238,
+   "upstream_inference_prompt_cost": 0.0005385,
+   "upstream_inference_completions_cost": 0.0006995
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 917,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the city",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The house in the city preserved its heavy dulness through all these transactions",
+   "note": "Generic phrase, but it locates Mrs Clennam's house in the City."
+  },
+  {
+   "as_written": "the Custom House",
+   "normalized": "Custom House, Lower Thames Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to the Custom House, and to Garraway’s Coffee House",
+   "note": ""
+  },
+  {
+   "as_written": "Garraway’s Coffee House",
+   "normalized": "Garraway's Coffee House, Change Alley, Cornhill, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to Garraway’s Coffee House, and the Jerusalem Coffee House",
+   "note": ""
+  },
+  {
+   "as_written": "the Jerusalem Coffee House",
+   "normalized": "Jerusalem Coffee House, Cornhill, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and the Jerusalem Coffee House, and on ‘Change",
+   "note": ""
+  },
+  {
+   "as_written": "‘Change",
+   "normalized": "Royal Exchange, Cornhill, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and the Jerusalem Coffee House, and on ‘Change",
+   "note": "Archaic short form of 'the Exchange'."
+  }
+ ]
+}

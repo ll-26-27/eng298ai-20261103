@@ -1,0 +1,48 @@
+{
+ "chunk": "david-copperfield-c059-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4835,
+  "completion_tokens": 453,
+  "total_tokens": 5288,
+  "cost": 0.00071,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00071,
+   "upstream_inference_prompt_cost": 0.0004835,
+   "upstream_inference_completions_cost": 0.0002265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 254,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Devonshire",
+   "normalized": "Devon, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I went down into Devonshire, and had some serious conversation in private with the Reverend Horace.",
+   "note": "Traddles's trip to the Reverend Horace's parish; Dickens's spelling of Devon."
+  },
+  {
+   "as_written": "Kent",
+   "normalized": "Kent, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘Tom’ had taken her down into Kent for a wedding trip",
+   "note": ""
+  }
+ ]
+}

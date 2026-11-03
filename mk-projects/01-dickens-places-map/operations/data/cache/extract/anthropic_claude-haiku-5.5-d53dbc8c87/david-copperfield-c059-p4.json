@@ -1,0 +1,48 @@
+{
+ "chunk": "david-copperfield-c059-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3150,
+  "completion_tokens": 795,
+  "total_tokens": 3945,
+  "cost": 0.0007125,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007125,
+   "upstream_inference_prompt_cost": 0.000315,
+   "upstream_inference_completions_cost": 0.0003975
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 534,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Gray's Inn Coffee-house",
+   "normalized": "Gray's Inn Coffee-house, Holborn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he was then at the Gray's Inn Coffee-house to lay his professional evidence before a Commission of Lunacy",
+   "note": "Mr. Chillip is there at the time of the conversation; location of the talk is implied."
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "passed the next day on the Dover coach; burst safe and sound into my aunt's old parlour",
+   "note": "Dover is named only as the coach destination, but the aunt's home there is the setting of the closing action."
+  }
+ ]
+}

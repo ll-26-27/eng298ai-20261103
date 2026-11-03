@@ -1,0 +1,102 @@
+{
+ "chunk": "little-dorrit-c064-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5386,
+  "completion_tokens": 2133,
+  "total_tokens": 7519,
+  "cost": 0.0016051,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016051,
+   "upstream_inference_prompt_cost": 0.0005386,
+   "upstream_inference_completions_cost": 0.0010665
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1418,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "to remain in the Marshalsea when the glorious liberties of his island home",
+   "note": ""
+  },
+  {
+   "as_written": "the Bench",
+   "normalized": "King's Bench Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the cost of being moved to the Bench is almost insignificant",
+   "note": "Refers to the King's Bench prison by its nickname."
+  },
+  {
+   "as_written": "the Lodge",
+   "normalized": "Marshalsea Prison gatehouse (Lodge), Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a gentleman of military exterior at present waiting in the Lodge",
+   "note": "Part of the Marshalsea; the visitor is in the Lodge."
+  },
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "one hot morning at Marseilles.",
+   "note": ""
+  },
+  {
+   "as_written": "Londra",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "what news in Londra, of foreigners arrived.",
+   "note": "Cavalletto's Italian-inflected spelling of London."
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as they say in Italy",
+   "note": ""
+  },
+  {
+   "as_written": "his island home",
+   "normalized": "England (Britain)",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the glorious liberties of his island home admit of his removal to the Bench",
+   "note": "Figurative reference to England, not named directly."
+  },
+  {
+   "as_written": "my mother’s house",
+   "normalized": "Mrs Clennam's house (location not named in passage)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "You have purposely cast a dreadful suspicion upon my mother’s house.",
+   "note": "House not named in this passage; location not specified here."
+  }
+ ]
+}

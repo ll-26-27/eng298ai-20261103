@@ -1,0 +1,205 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "battle bridge",
+   "lat": 51.5305,
+   "lon": -0.1235,
+   "confidence": "medium",
+   "now": "King's Cross area; the name survives only in Battle Bridge Road and Battle Bridge Place behind the station",
+   "reason": "Battle Bridge was the old name of the King's Cross district on the Fleet river crossing, renamed King's Cross in the 1830s; the gazetteer guess lies in the right area but the district is broader."
+  },
+  {
+   "place_id": "doctor strongs school",
+   "lat": 51.2798,
+   "lon": 1.083,
+   "confidence": "low",
+   "now": "fictional; Canterbury city centre (King's School and St Dunstan's streets are often suggested)",
+   "reason": "Dr Strong's school is fictional and given no exact site, so the coordinates are only a Canterbury city-centre guess."
+  },
+  {
+   "place_id": "gerrard street",
+   "lat": 51.5114,
+   "lon": -0.1311,
+   "confidence": "high",
+   "now": "Gerrard Street, the centre of London's Chinatown",
+   "reason": "A well-documented street in Soho running east-west north of Leicester Square, and unchanged in line since the 18th century."
+  },
+  {
+   "place_id": "hampton court palace",
+   "lat": 51.4037,
+   "lon": -0.3377,
+   "confidence": "high",
+   "now": "Hampton Court Palace, a historic royal palace and museum",
+   "reason": "A famous, well-documented Tudor palace on the Thames, still standing where it was in Dickens's time."
+  },
+  {
+   "place_id": "inner temple",
+   "lat": 51.5122,
+   "lon": -0.1103,
+   "confidence": "high",
+   "now": "Inner Temple, one of the four Inns of Court, between Fleet Street and the Embankment",
+   "reason": "One of the Inns of Court off Fleet Street; the gazetteer guess is correct, though much was rebuilt after WWII bombing."
+  },
+  {
+   "place_id": "london docks",
+   "lat": 51.5078,
+   "lon": -0.0625,
+   "confidence": "medium",
+   "now": "Wapping; the docks were closed in 1969 and mostly filled in, leaving Tobacco Dock, warehouses and Hermitage basins",
+   "reason": "The London Docks occupied a large area of Wapping north of Wapping High Street, so this is a central point and the gazetteer's church match is only nearby."
+  },
+  {
+   "place_id": "old bailey",
+   "lat": 51.5159,
+   "lon": -0.1019,
+   "confidence": "high",
+   "now": "Central Criminal Court (Old Bailey), on the site of Newgate Prison",
+   "reason": "The Old Bailey sessions house stood beside Newgate Prison; the present building opened in 1907 on the Newgate site, and the gazetteer guess is right."
+  },
+  {
+   "place_id": "sahara desert",
+   "lat": 23,
+   "lon": 12,
+   "confidence": "medium",
+   "now": "Sahara Desert, North Africa",
+   "reason": "A real region whose centre is placed here, though Dickens uses it figuratively, so only a regional point is meaningful."
+  },
+  {
+   "place_id": "adelphi",
+   "lat": 51.5091,
+   "lon": -0.1228,
+   "confidence": "high",
+   "now": "Adelphi area between the Strand and the Thames; the Adam terraces were demolished in the 1930s and replaced by the Art Deco Adelphi building on John Adam Street",
+   "reason": "The Adam brothers' riverside development off the Strand, with the arches beneath it, was the Adelphi of Dickens's day; the gazetteer's theatre match is nearby on the Strand."
+  },
+  {
+   "place_id": "alps",
+   "lat": 46.5,
+   "lon": 8.5,
+   "confidence": "medium",
+   "now": "Alps, mountain range in France, Switzerland, Italy and Austria",
+   "reason": "A mountain range with no single point; the coordinate is a central Swiss Alps point, and the gazetteer match (a Grenoble company) is wrong."
+  },
+  {
+   "place_id": "balls pond",
+   "lat": 51.5447,
+   "lon": -0.0825,
+   "confidence": "medium",
+   "now": "Balls Pond Road area, between Islington, Dalston and De Beauvoir; the pond is long gone",
+   "reason": "The name belonged to a suburban district on the Kingsland-Essex Road route and survives in Balls Pond Road, so this is an approximate point along it."
+  },
+  {
+   "place_id": "brentford",
+   "lat": 51.4875,
+   "lon": -0.3108,
+   "confidence": "high",
+   "now": "Brentford, in the London Borough of Hounslow",
+   "reason": "Brentford was a Middlesex town on the Thames and the Brent; the gazetteer's Middlesex Court is just an arbitrary nearby building, so the town centre is the better fix."
+  },
+  {
+   "place_id": "court of chancery",
+   "lat": 51.5152,
+   "lon": -0.1175,
+   "confidence": "medium",
+   "now": "Lincoln's Inn Old Hall still stands; the court moved to the Royal Courts of Justice in the Strand in 1882",
+   "reason": "In the 1830s-60s Chancery sat at Lincoln's Inn Old Hall in term and at Westminster Hall at other times; Dickens's scene is usually located at Lincoln's Inn."
+  },
+  {
+   "place_id": "georges shooting gallery",
+   "lat": 51.5105,
+   "lon": -0.13,
+   "confidence": "low",
+   "now": "fictional; the area is around Leicester Square",
+   "reason": "Mr George's gallery is fictional, and Bleak House places it in a back street near Leicester Square, so this is a rough guess."
+  },
+  {
+   "place_id": "great st bernard pass",
+   "lat": 45.8688,
+   "lon": 7.1711,
+   "confidence": "high",
+   "now": "Great St Bernard Pass, on the Swiss-Italian border, with the hospice and a road tunnel below",
+   "reason": "A famous alpine pass with a hospice at the summit; the coordinates are those of the pass summit."
+  },
+  {
+   "place_id": "krooks rag and bottle shop",
+   "lat": 51.5158,
+   "lon": -0.1112,
+   "confidence": "low",
+   "now": "fictional; the nearby Cursitor Street (Cook's Court in the novel) is around here",
+   "reason": "Krook's shop is fictional, set in a court by Chancery Lane (Cook's Court is usually identified with Cursitor Street), so the coordinates are an educated guess."
+  },
+  {
+   "place_id": "middlesex",
+   "lat": 51.52,
+   "lon": -0.32,
+   "confidence": "medium",
+   "now": "former county of Middlesex, now mostly in Greater London (north-west of the Thames) and partly Surrey",
+   "reason": "A historic county that included the northern half of the London area; the point is a rough centroid, and the gazetteer's Supreme Court match is just the old Middlesex Guildhall building."
+  },
+  {
+   "place_id": "sols arms",
+   "lat": 51.5158,
+   "lon": -0.1113,
+   "confidence": "low",
+   "now": "fictional pub; the Cursitor Street area near Chancery Lane is the likely setting",
+   "reason": "The Sol's Arms is a fictional pub in Cook's Court near Chancery Lane, probably based on a real inn there, so the point is a guess."
+  },
+  {
+   "place_id": "staggss gardens",
+   "lat": 51.5345,
+   "lon": -0.139,
+   "confidence": "low",
+   "now": "fictional; the area was cleared for the London & Birmingham Railway near Camden and Euston",
+   "reason": "Staggs's Gardens is fictional, an amalgam of the Camden Town district destroyed by the railway cutting near Euston, so this point is approximate."
+  },
+  {
+   "place_id": "bethlem royal hospital",
+   "lat": 51.4958,
+   "lon": -0.1087,
+   "confidence": "high",
+   "now": "Imperial War Museum London, in the former Bethlem building in Lambeth Road",
+   "reason": "Bethlem Hospital occupied the Lambeth Road site in St George's Fields from 1815 to 1930, so the gazetteer guess is correct for Dickens's day."
+  },
+  {
+   "place_id": "cliffords inn",
+   "lat": 51.514,
+   "lon": -0.1097,
+   "confidence": "high",
+   "now": "Clifford's Inn site, with surviving gatehouse and flats around Clifford's Inn Passage off Fleet Street",
+   "reason": "A former Inn of Chancery north of Fleet Street between Chancery Lane and Fetter Lane, sold in 1903 and partly demolished; the gazetteer guess is correct."
+  },
+  {
+   "place_id": "dover road",
+   "lat": 51.4825,
+   "lon": -0.073,
+   "confidence": "low",
+   "now": "A2 (Old Kent Road and Watling Street) from London to Dover",
+   "reason": "The Dover Road is a long route, here marked at its London start on the Old Kent Road, and its scenes lie along the whole of it."
+  },
+  {
+   "place_id": "downs",
+   "lat": 51.2167,
+   "lon": 1.48,
+   "confidence": "medium",
+   "now": "The Downs, a sheltered anchorage in the North Sea between Deal and the Goodwin Sands",
+   "reason": "A well-known roadstead off the Kent coast; the coordinate is its approximate centre."
+  },
+  {
+   "place_id": "kingston upon thames",
+   "lat": 51.4123,
+   "lon": -0.3007,
+   "confidence": "high",
+   "now": "Kingston upon Thames, a town in south-west London",
+   "reason": "A well-known Surrey market town on the Thames, and the gazetteer's New Malden business is the wrong place."
+  },
+  {
+   "place_id": "marshalsea prison lodge",
+   "lat": 51.5011,
+   "lon": -0.093,
+   "confidence": "medium",
+   "now": "Demolished; only a surviving wall remains in Angel Place beside Southwark library, off Borough High Street",
+   "reason": "The Marshalsea debtors' prison stood on the east side of Borough High Street and was closed in 1842; the lodge was the entrance, and the exact spot is approximate."
+  }
+ ]
+}

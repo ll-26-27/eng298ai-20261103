@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c046-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5133,
+  "completion_tokens": 1296,
+  "total_tokens": 6429,
+  "cost": 0.0011613,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011613,
+   "upstream_inference_prompt_cost": 0.0005133,
+   "upstream_inference_completions_cost": 0.000648
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1024,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Tom-All-Alone’s",
+   "normalized": "Tom-All-Alone's (fictional slum), London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Darkness rests upon Tom-All-Alone’s.",
+   "note": "Invented London slum; Dickens's fictional district."
+  },
+  {
+   "as_written": "the British dominions",
+   "normalized": "British Empire",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the sun should sometimes set upon the British dominions",
+   "note": "Generic reference to the empire; included as a named realm."
+  },
+  {
+   "as_written": "Saint Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "At Saint Albans.",
+   "note": ""
+  }
+ ]
+}

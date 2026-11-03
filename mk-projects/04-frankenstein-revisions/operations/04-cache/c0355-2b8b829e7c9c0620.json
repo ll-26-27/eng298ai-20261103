@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1868,
+  "completion_tokens": 294,
+  "total_tokens": 2162,
+  "cost": 0.0003338,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003338,
+   "upstream_inference_prompt_cost": 0.0001868,
+   "upstream_inference_completions_cost": 0.000147
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 174,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0355. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): The difference of manners which he observed was to him an inexhaustible source of instruction and amusement.\n\n1818 text: He was for ever busy; and the only check to his enjoyments was my sorrowful and dejected mien. I tried to conceal this as much as possible, that I might not debar him from the pleasures natural to one who was entering on a new scene of life, undisturbed by any care or bitter recollection.\n\n1831 text: He was also pursuing an object he had long had in view. His design was to visit India, in the belief that he had in his knowledge of its various languages, and in the views he had taken of its society, the means of materially assisting the progress of European colonisation and trade. In Britain only could he further the execution of his plan. He was for ever busy; and the only check to his enjoyments was my sorrowful and dejected mind. I tried to conceal this as much as possible, that I might not debar him from the pleasures natural to one, who was entering on a new scene of life, undisturbed by any care or bitter recollection.\n\nDiff: He was {+also pursuing an object he had long had in view. His design was to visit India, in the belief that he had in his knowledge of its various languages, and in the views he had taken of its society, the means of materially assisting the progress of European colonisation and trade. In Britain only could he further the execution of his plan. He was+} for ever busy; and the only check to his enjoyments was my sorrowful and dejected [-mien-] {+mind+} . I tried to conceal this as much as possible, that I might not debar him from the pleasures natural to one {+,+} who was entering on a new scene of life, undisturbed by any care or bitter recollection.\n\nContext after (unchanged): I often refused to accompany him, alleging another engagement, that I might remain alone."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "expansion",
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "The added passage gives Clerval a motive and ambition, a plan to visit India to further 'European colonisation and trade'. This reshapes his character toward colonial purpose. 'Mien' to 'mind' is a minor wording change.",
+  "confidence": "high",
+  "rationaleWords": 35
+ }
+}

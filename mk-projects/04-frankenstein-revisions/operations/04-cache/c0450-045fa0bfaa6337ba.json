@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1613,
+  "completion_tokens": 119,
+  "total_tokens": 1732,
+  "cost": 0.0002208,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002208,
+   "upstream_inference_prompt_cost": 0.0001613,
+   "upstream_inference_completions_cost": 0.0000595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0450. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): Something whispers to me not to depend too much on the prospect that is opened before us; but I will not listen to such a sinister voice.\n\n1818 text: Observe how fast we move along, and how the clouds which sometimes obscure, and sometimes rise above the dome of Mont Blânc, render this scene of beauty still more interesting.\n\n1831 text: Observe how fast we move along, and how the clouds, which sometimes obscure and sometimes rise above the dome of Mont Blanc, render this scene of beauty still more interesting.\n\nDiff: Observe how fast we move along, and how the clouds {+,+} which sometimes obscure [-,-] and sometimes rise above the dome of Mont [-Blânc-] {+Blanc+} , render this scene of beauty still more interesting.\n\nContext after (unchanged): Look also at the innumerable fish that are swimming in the clear waters, where we can distinguish every pebble that lies at the bottom."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic: 'Blânc' becomes 'Blanc' (accent dropped) and commas are added around the relative clause 'which sometimes obscure and sometimes rise'. No change in meaning or events; punctuation only.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

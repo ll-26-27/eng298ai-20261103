@@ -1,0 +1,156 @@
+{
+ "chunk": "david-copperfield-c059-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5385,
+  "completion_tokens": 1123,
+  "total_tokens": 6508,
+  "cost": 0.0011,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011,
+   "upstream_inference_prompt_cost": 0.0005385,
+   "upstream_inference_completions_cost": 0.0005615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I landed in London on a wintry autumn evening.",
+   "note": ""
+  },
+  {
+   "as_written": "Custom House",
+   "normalized": "Custom House, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I walked from the Custom House to the Monument before I found a coach",
+   "note": ""
+  },
+  {
+   "as_written": "Monument",
+   "normalized": "Monument to the Great Fire of London, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I walked from the Custom House to the Monument before I found a coach",
+   "note": ""
+  },
+  {
+   "as_written": "Fish-street Hill",
+   "normalized": "Fish Street Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "an old house on Fish-street Hill, which had stood untouched by painter",
+   "note": ""
+  },
+  {
+   "as_written": "St. Paul's Cathedral",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I half expected to find St. Paul’s Cathedral looking older.",
+   "note": ""
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "My aunt had long been re-established at Dover",
+   "note": ""
+  },
+  {
+   "as_written": "Gray’s Inn",
+   "normalized": "Gray's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He had chambers in Gray’s Inn, now;",
+   "note": ""
+  },
+  {
+   "as_written": "Gray’s Inn Coffee-house",
+   "normalized": "Gray's Inn Coffee House, Holborn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "when I alighted at the door of the Gray’s Inn Coffee-house",
+   "note": ""
+  },
+  {
+   "as_written": "Golden Cross",
+   "normalized": "Golden Cross Inn, Charing Cross, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when I had put up at the Golden Cross",
+   "note": ""
+  },
+  {
+   "as_written": "Holborn Court",
+   "normalized": "Holborn Court, Gray's Inn, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘Holborn Court, sir. Number two.’",
+   "note": ""
+  },
+  {
+   "as_written": "Holborn",
+   "normalized": "Holborn, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Holborn Hill",
+   "note": "Appears only in a simile in another passage; not in this text"
+  },
+  {
+   "as_written": "the Square",
+   "normalized": "Square Gray's Inn, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a retired conveyancer living in the Square",
+   "note": "Gray's Inn Square, unnamed in full"
+  },
+  {
+   "as_written": "Westminster Hall",
+   "normalized": "Westminster Hall, Westminster, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "But as that wouldn’t do in Westminster Hall",
+   "note": ""
+  },
+  {
+   "as_written": "Devonshire",
+   "normalized": "Devon",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to Sophy--down in Devonshire.",
+   "note": "Sophy's wedding took place there"
+  }
+ ]
+}

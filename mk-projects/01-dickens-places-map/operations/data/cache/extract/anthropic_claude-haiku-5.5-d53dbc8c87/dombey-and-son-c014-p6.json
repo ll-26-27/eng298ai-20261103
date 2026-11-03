@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c014-p6",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2413,
+  "completion_tokens": 819,
+  "total_tokens": 3232,
+  "cost": 0.0006508,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006508,
+   "upstream_inference_prompt_cost": 0.0002413,
+   "upstream_inference_completions_cost": 0.0004095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 560,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Doctor Blimber’s",
+   "normalized": "Doctor Blimber's school, Brighton",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "whenever he thought of Doctor Blimber’s, it came back as he had seen it in this last view",
+   "note": "Fictional school; the novel places it at Brighton, which the passage does not state."
+  },
+  {
+   "as_written": "Mrs Pipchin’s",
+   "normalized": "Mrs Pipchin's boarding house, Brighton",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "why they stayed at Mrs Pipchin’s days and nights, instead of going home",
+   "note": "Fictional boarding house; the novel places it at Brighton, which the passage does not state."
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c056-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5000,
+  "completion_tokens": 1085,
+  "total_tokens": 6085,
+  "cost": 0.0010425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010425,
+   "upstream_inference_prompt_cost": 0.0005,
+   "upstream_inference_completions_cost": 0.0005425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 649,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Royal Exchange",
+   "normalized": "Royal Exchange, Cornhill, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "twice go out to correct his watch by the Royal Exchange",
+   "note": ""
+  },
+  {
+   "as_written": "Aldgate Pump",
+   "normalized": "Aldgate Pump, Aldgate, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "once to take a little turn to Aldgate Pump and back!",
+   "note": "Named pump at Aldgate, a landmark rather than a street"
+  },
+  {
+   "as_written": "Kent",
+   "normalized": "Kent, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "stay in Kent until we go on board at Gravesend within a week?",
+   "note": ""
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "stay in Kent until we go on board at Gravesend within a week?",
+   "note": ""
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the eyes of that integral portion of Europe which lost itself weekly among the high-backed pews",
+   "note": "Figurative use for the congregation"
+  }
+ ]
+}

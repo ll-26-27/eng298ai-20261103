@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c011-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3519,
+  "completion_tokens": 1696,
+  "total_tokens": 5215,
+  "cost": 0.0011999,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011999,
+   "upstream_inference_prompt_cost": 0.0003519,
+   "upstream_inference_completions_cost": 0.000848
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1084,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Murdstone and Grinby’s",
+   "normalized": "Murdstone and Grinby's warehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "All this time I was working at Murdstone and Grinby’s",
+   "note": "Firm name used for the warehouse where he works; its location is not named in this passage."
+  },
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "my favourite lounging-place in the interval was old London Bridge",
+   "note": "Described as \"old London Bridge\"; he sits in its stone recesses."
+  },
+  {
+   "as_written": "the Monument",
+   "normalized": "The Monument, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lighting up the golden flame on the top of the Monument",
+   "note": ""
+  },
+  {
+   "as_written": "the Tower",
+   "normalized": "Tower of London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "astonishing fictions respecting the wharves and the Tower",
+   "note": ""
+  },
+  {
+   "as_written": "Southwark",
+   "normalized": "Southwark, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "As I walked to and fro daily between Southwark and Blackfriars",
+   "note": ""
+  },
+  {
+   "as_written": "Blackfriars",
+   "normalized": "Blackfriars, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "As I walked to and fro daily between Southwark and Blackfriars",
+   "note": ""
+  },
+  {
+   "as_written": "Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "which are held to have, once upon a time, obtained to a great extent in Germany",
+   "note": "Refers to German demoniacal parchments (legal documents) as a comparison."
+  }
+ ]
+}

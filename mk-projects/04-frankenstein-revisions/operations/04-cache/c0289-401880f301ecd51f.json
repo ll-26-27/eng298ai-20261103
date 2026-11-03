@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1747,
+  "completion_tokens": 117,
+  "total_tokens": 1864,
+  "cost": 0.0002332,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002332,
+   "upstream_inference_prompt_cost": 0.0001747,
+   "upstream_inference_completions_cost": 0.0000585
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0289. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): Their happiness was not decreased by the absence of summer.\n\n1818 text: They loved, and sympathized with one another; and their joys, depending on each other, were not interrupted by the casualties that took place around them. The more I saw of them, the greater became my desire to claim their protection and kindness; my heart yearned to be known and loved by these amiable creatures: to see their sweet looks turned towards me with affection, was the utmost limit of my ambition.\n\n1831 text: They loved, and sympathised with one another; and their joys, depending on each other, were not interrupted by the casualties that took place around them. The more I saw of them, the greater became my desire to claim their protection and kindness; my heart yearned to be known and loved by these amiable creatures: to see their sweet looks directed towards me with affection, was the utmost limit of my ambition.\n\nDiff: They loved, and [-sympathized-] {+sympathised+} with one another; and their joys, depending on each other, were not interrupted by the casualties that took place around them. The more I saw of them, the greater became my desire to claim their protection and kindness; my heart yearned to be known and loved by these amiable creatures: to see their sweet looks [-turned-] {+directed+} towards me with affection, was the utmost limit of my ambition.\n\nContext after (unchanged): I dared not think that they would turn them from me with disdain and horror."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Two changes: 'sympathized' to 'sympathised' is orthography only, and 'turned' to 'directed' swaps one verb for another while keeping the sense of the creature's gaze toward the cottagers. No change in events or character.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

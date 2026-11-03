@@ -1,0 +1,84 @@
+{
+ "chunk": "great-expectations-c044-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2969,
+  "completion_tokens": 1415,
+  "total_tokens": 4384,
+  "cost": 0.0010044,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010044,
+   "upstream_inference_prompt_cost": 0.0002969,
+   "upstream_inference_completions_cost": 0.0007075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 890,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was past midnight when I crossed London Bridge.",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and then struck off to walk all the way to London.",
+   "note": ""
+  },
+  {
+   "as_written": "the Middlesex shore of the river",
+   "normalized": "Middlesex, north bank of the River Thames, London",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Pursuing the narrow intricacies of the streets which at that time tended westward near the Middlesex shore of the river",
+   "note": "Middlesex shore; river not named in passage"
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London (Inner and Middle Temple)",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "my readiest access to the Temple was close by the river-side, through Whitefriars.",
+   "note": "Inns of Court; destination of the walk"
+  },
+  {
+   "as_written": "Whitefriars",
+   "normalized": "Whitefriars, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "my readiest access to the Temple was close by the river-side, through Whitefriars.",
+   "note": "Whitefriars gate into the Temple"
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "even if I remained in England and could hold my head up with the rest",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c054-p5",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2849,
+  "completion_tokens": 712,
+  "total_tokens": 3561,
+  "cost": 0.0006409,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006409,
+   "upstream_inference_prompt_cost": 0.0002849,
+   "upstream_inference_completions_cost": 0.000356
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 482,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The green, green woods of Chesney Wold, the noble house, the pictures of his forefathers",
+   "note": "Sir Leicester's country house in the novel; seen only in his imagination here."
+  },
+  {
+   "as_written": "the Police Office",
+   "normalized": "Police Office, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "“She’s gone forrard to the Police Office,” returns Mr. Bucket.",
+   "note": "Unnamed police office; presumably the London detective office, not specified in the passage."
+  }
+ ]
+}

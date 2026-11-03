@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2933,
+  "completion_tokens": 168,
+  "total_tokens": 3101,
+  "cost": 0.0003773,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003773,
+   "upstream_inference_prompt_cost": 0.0002933,
+   "upstream_inference_completions_cost": 0.000084
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0182. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): Why did you confess?\n\n1818 text: But do not mourn, my dear girl; I will every where proclaim your innocence, and force belief. Yet you must die; you, my playfellow, my companion, my more than sister. I never can survive so horrible a misfortune.\" \"Dear, sweet Elizabeth, do not weep. You ought to raise me with thoughts of a better life, and elevate me from the petty cares of this world of injustice and strife. Do not you, excellent friend, drive me to despair.\" \"I will try to comfort you; but this, I fear, is an evil too deep and poignant to admit of consolation, for there is no hope. Yet heaven bless thee, my dearest Justine, with resignation, and a confidence elevated beyond this world. Oh! how I hate its shews and mockeries! when one creature is murdered, another is immediately deprived of life in a slow torturing manner; then the executioners, their hands yet reeking with the blood of innocence, believe that they have done a great deed. They call this retribution. Hateful name! When that word is pronounced, I know greater and more horrid punishments are going to be inflicted than the gloomiest tyrant has ever invented to satiate his utmost revenge. Yet this is not consolation for you, my Justine, unless indeed that you may glory in escaping from so miserable a den. Alas! I would I were in peace with my aunt and my lovely William, escaped from a world which is hateful to me, and the visages of men which I abhor.\" Justine smiled languidly. \"This, dear lady, is despair, and not resignation. I must not learn the lesson that you would teach me. Talk of something else, something that will bring peace, and not increase of misery.\"\n\n1831 text: But do not mourn, dear girl. Do not fear. I will proclaim, I will prove your innocence. I will melt the stony hearts of your enemies by my tears and prayers. You shall not die!—You, my play-fellow, my companion, my sister, perish on the scaffold! No! no! I never could survive so horrible a misfortune.\" Justine shook her head mournfully. \"I do now not fear to die,\" she said; \"that pang is past. God raises my weakness, and gives me courage to endure the worst. I leave a sad and bitter world; and if you remember me, and think of me as of one unjustly condemned, I am resigned to the fate awaiting me. Learn from me, dear lady, to submit in patience to the will of Heaven!\"\n\nDiff: [-But do not mourn, my dear girl; I will every where proclaim your innocence, and force belief. Yet you must die; you, my playfellow, my companion, my more than sister. I never can survive so horrible a misfortune.\" \"Dear, sweet Elizabeth, do not weep. You ought to raise me with thoughts of a better life, and elevate me from the petty cares of this world of injustice and strife. Do not you, excellent friend, drive me to despair.\" \"I will try to comfort you; but this, I fear, is an evil too deep and poignant to admit of consolation, for there is no hope. Yet heaven bless thee, my dearest Justine, with resignation, and a confidence elevated beyond this world. Oh! how I hate its shews and mockeries! when one creature is murdered, another is immediately deprived of life in a slow torturing manner; then the executioners, their hands yet reeking with the blood of innocence, believe that they have done a great deed. They call this retribution. Hateful name! When that word is pronounced, I know greater and more horrid punishments are going to be inflicted than the gloomiest tyrant has ever invented to satiate his utmost revenge. Yet this is not consolation for you, my Justine, unless indeed that you may glory in escaping from so miserable a den. Alas! I would I were in peace with my aunt and my lovely William, escaped from a world which is hateful to me, and the visages of men which I abhor.\" Justine smiled languidly. \"This, dear lady, is despair, and not resignation. I must not learn the lesson that you would teach me. Talk of something else, something that will bring peace, and not increase of misery.\"-] {+But do not mourn, dear girl. Do not fear. I will proclaim, I will prove your innocence. I will melt the stony hearts of your enemies by my tears and prayers. You shall not die!—You, my play-fellow, my companion, my sister, perish on the scaffold! No! no! I never could survive so horrible a misfortune.\" Justine shook her head mournfully. \"I do now not fear to die,\" she said; \"that pang is past. God raises my weakness, and gives me courage to endure the worst. I leave a sad and bitter world; and if you remember me, and think of me as of one unjustly condemned, I am resigned to the fate awaiting me. Learn from me, dear lady, to submit in patience to the will of Heaven!\"+}\n\nContext after (unchanged): During this conversation I had retired to a corner of the prison-room, where I could conceal the horrid anguish that possessed me."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "moral-religious",
+   "fate-agency"
+  ],
+  "significance": 5,
+  "rationale": "Justine's 1818 despair ('This ... is despair, and not resignation') becomes resigned submission to Heaven's will ('I am resigned to the fate awaiting me'); she is remade from a rebuker of Elizabeth into a patient, pious victim, and Elizabeth's 'you shall not die' replaces the 1818 'Yet you must die'.",
+  "confidence": "high",
+  "rationaleWords": 50
+ }
+}

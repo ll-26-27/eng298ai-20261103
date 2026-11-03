@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2033,
+  "completion_tokens": 149,
+  "total_tokens": 2182,
+  "cost": 0.0002778,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002778,
+   "upstream_inference_prompt_cost": 0.0002033,
+   "upstream_inference_completions_cost": 0.0000745
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0066. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): I alighted, and was conducted to my solitary apartment, to spend the evening as I pleased.\n\n1818 text: The next morning I delivered my letters of introduction, and paid a visit to some of the principal professors, and among others to M. Krempe, professor of natural philosophy. He received me with politeness, and asked me several questions concerning my progress in the different branches of science appertaining to natural philosophy. I mentioned, it is true, with fear and trembling, the only authors I had ever read upon those subjects.\n\n1831 text: The next morning I delivered my letters of introduction, and paid a visit to some of the principal professors. Chance—or rather the evil influence, the Angel of Destruction, which asserted omnipotent sway over me from the moment I turned my reluctant steps from my father's door—led me first to Mr. Krempe, professor of natural philosophy. He was an uncouth man, but deeply embued in the secrets of his science. He asked me several questions concerning my progress in the different branches of science appertaining to natural philosophy. I replied carelessly; and, partly in contempt, mentioned the names of my alchymists as the principal authors I had studied.\n\nDiff: The next morning I delivered my letters of introduction, and paid a visit to some of the principal professors {+. Chance—or rather the evil influence+} , [-and among others-] {+the Angel of Destruction, which asserted omnipotent sway over me from the moment I turned my reluctant steps from my father's door—led me first+} to [-M-] {+Mr+} . Krempe, professor of natural philosophy. He [-received me with politeness-] {+was an uncouth man+} , [-and-] {+but deeply embued in the secrets of his science. He+} asked me several questions concerning my progress in the different branches of science appertaining to natural philosophy. I [-mentioned, it is true, with fear-] {+replied carelessly;+} and [-trembling-] , {+partly in contempt, mentioned+} the [-only-] {+names of my alchymists as the principal+} authors I had [-ever read upon those subjects-] {+studied+} .\n\nContext after (unchanged): The professor stared: \"Have you,\" he said, \"really spent your time in studying such nonsense?\""
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "fate-agency",
+   "moral-religious"
+  ],
+  "significance": 5,
+  "rationale": "Adds the 'Angel of Destruction' and 'evil influence' framing for Chance-led meeting, and recasts Krempe as uncouth yet learned and Victor as contemptuous, replacing 'with fear and trembling' humility. Major reshaping of Victor's self-presentation and fate.",
+  "confidence": "high",
+  "rationaleWords": 36
+ }
+}

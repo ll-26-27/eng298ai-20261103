@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c008-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3007,
+  "completion_tokens": 701,
+  "total_tokens": 3708,
+  "cost": 0.0006512,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006512,
+   "upstream_inference_prompt_cost": 0.0003007,
+   "upstream_inference_completions_cost": 0.0003505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 447,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the way to be healthy, wealthy, and wise, was to come to the Marshalsea",
+   "note": "Debtors' prison; the whole passage is set inside it. Called 'the college' by its inmates."
+  },
+  {
+   "as_written": "the Snuggery",
+   "normalized": "Snuggery (tavern within the Marshalsea Prison, Southwark, London)",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "with an awful enjoyment of the Snuggery’s resources",
+   "note": "Inmates' tavern inside the prison; a named room, not a separate outside place."
+  }
+ ]
+}

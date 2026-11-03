@@ -1,0 +1,102 @@
+{
+ "chunk": "great-expectations-c046-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5059,
+  "completion_tokens": 2114,
+  "total_tokens": 7173,
+  "cost": 0.0015629,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015629,
+   "upstream_inference_prompt_cost": 0.0005059,
+   "upstream_inference_completions_cost": 0.001057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1384,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the upper and lower Pool below Bridge",
+   "normalized": "Pool of London, Thames",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "All that water-side region of the upper and lower Pool below Bridge was unknown ground to me",
+   "note": ""
+  },
+  {
+   "as_written": "Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the upper and lower Pool below Bridge",
+   "note": "Named only as 'Bridge'; identified as London Bridge from context."
+  },
+  {
+   "as_written": "Mill Pond Bank",
+   "normalized": "Mill Pond Bank, Rotherhithe, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was called Mill Pond Bank, Chinks’s Basin",
+   "note": ""
+  },
+  {
+   "as_written": "Chinks’s Basin",
+   "normalized": "Chinks's Basin, Rotherhithe, London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was called Mill Pond Bank, Chinks’s Basin",
+   "note": "Likely invented; Dickens's riverside dock name."
+  },
+  {
+   "as_written": "the Old Green Copper Rope-walk",
+   "normalized": "Old Green Copper Rope-walk, Rotherhithe, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "there was the Old Green Copper Rope-walk",
+   "note": "Fictional building name."
+  },
+  {
+   "as_written": "Windsor",
+   "normalized": "Windsor, Berkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "on the terrace at Windsor",
+   "note": "Appears in an engraving of George III."
+  },
+  {
+   "as_written": "Hammersmith",
+   "normalized": "Hammersmith, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "completing her education at an establishment at Hammersmith",
+   "note": ""
+  },
+  {
+   "as_written": "Newgate prison",
+   "normalized": "Newgate Prison, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "how Wemmick had heard, in Newgate prison",
+   "note": ""
+  }
+ ]
+}

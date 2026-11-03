@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2007,
+  "completion_tokens": 387,
+  "total_tokens": 2394,
+  "cost": 0.0003942,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003942,
+   "upstream_inference_prompt_cost": 0.0002007,
+   "upstream_inference_completions_cost": 0.0001935
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 238,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0190. Location: 1818 Vol. II, Ch. I; 1831 Ch. IX.\n\nContext before (unchanged): Now all was blasted: instead of that serenity of conscience, which allowed me to look back upon the past with self-satisfaction, and from thence to gather promise of new hopes, I was seized by remorse and the sense of guilt, which hurried me away to a hell of intense tortures, such as no language can describe.\n\n1818 text: This state of mind preyed upon my health, which had entirely recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to me; solitude was my only consolation—deep, dark, death-like solitude. My father observed with pain the alteration perceptible in my disposition and habits, and endeavoured to reason with me on the folly of giving way to immoderate grief.\n\n1831 text: This state of mind preyed upon my health, which had perhaps never entirely recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to me; solitude was my only consolation—deep, dark, deathlike solitude. My father observed with pain the alteration perceptible in my disposition and habits, and endeavoured by arguments deduced from the feelings of his serene conscience and guiltless life, to inspire me with fortitude, and awaken in me the courage to dispel the dark cloud which brooded over me.\n\nDiff: This state of mind preyed upon my health, which had {+perhaps never+} entirely recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to me; solitude was my only consolation—deep, dark, [-death-like-] {+deathlike+} solitude. My father observed with pain the alteration perceptible in my disposition and habits, and endeavoured {+by arguments deduced from the feelings of his serene conscience and guiltless life,+} to [-reason-] {+inspire me+} with {+fortitude, and awaken in+} me [-on-] the [-folly of giving way-] {+courage+} to [-immoderate grief-] {+dispel the dark cloud which brooded over me+} .\n\nContext after (unchanged): \"Do you think, Victor,\" said he, \"that I do not suffer also?"
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "characterization",
+   "expansion"
+  ],
+  "significance": 4,
+  "rationale": "The father's rebuke on the 'folly of giving way to immoderate grief' becomes arguments 'deduced from the feelings of his serene conscience and guiltless life', explicitly setting his virtue against Victor's guilt. 'Perhaps never' also deepens the lasting damage to Victor's health.",
+  "confidence": "medium",
+  "rationaleWords": 42
+ }
+}

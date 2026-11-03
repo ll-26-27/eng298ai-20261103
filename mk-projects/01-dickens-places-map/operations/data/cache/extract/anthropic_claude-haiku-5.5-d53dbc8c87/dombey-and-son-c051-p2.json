@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c051-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4157,
+  "completion_tokens": 615,
+  "total_tokens": 4772,
+  "cost": 0.0007232,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007232,
+   "upstream_inference_prompt_cost": 0.0004157,
+   "upstream_inference_completions_cost": 0.0003075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 384,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Peruvian Mines",
+   "normalized": "Peru",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "This hint of the Peruvian Mines, causes Miss Tox to rise to go away",
+   "note": "Figurative reference to Peru via Mrs Pipchin's remark; the mines are not literally located."
+  },
+  {
+   "as_written": "Balls Pond",
+   "normalized": "Balls Pond, Islington, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the society of Mrs Perch at Balls Pond",
+   "note": "Mrs Perch's home area; Perch seeks her there rather than being there in this passage."
+  }
+ ]
+}

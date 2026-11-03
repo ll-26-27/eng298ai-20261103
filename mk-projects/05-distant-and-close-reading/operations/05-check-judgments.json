@@ -1,0 +1,126 @@
+{
+ "judged_by": "Judged by Claude (anthropic/claude-opus-5.5, the agent that built this example), reading the blind sheet on 2026-11-03 before looking at the model's labels; not a human reader. A scholar should redo this check.",
+ "note": "Six of the thirty were borderline calls (marked in the notes). Outside the sample, the reader also noticed the model naming the factory's human directors (Fabry, Alquist, Gall, Busman, Hallemeier) as \"the robots\" in R.U.R., Act One (rur-0023, rur-0024), repeating Helena's mistake in the scene as fact. The stronger model in step 6 read the same passage correctly.",
+ "judgments": {
+  "frankenstein-0035": {
+   "is_instance": false,
+   "note": "School mentioned in one clause. (I had already seen this passage and the model's label in the step 4 report.)"
+  },
+  "frankenstein-0034": {
+   "is_instance": true,
+   "note": "Victor narrates how the children were taught: by ends held in view, not emulation or punishment. A method of formation, told in detail."
+  },
+  "dorian-0172": {
+   "is_instance": false,
+   "note": "News of a death plus practical, cynical advice about scandal; nobody is being formed."
+  },
+  "rur-0016": {
+   "is_instance": false,
+   "note": "Borderline: Domin demonstrates what Sulla has been made to know, but no one in the scene is being taught."
+  },
+  "dorian-0334": {
+   "is_instance": false,
+   "note": "\"Dull hells were teaching them\" is a figure; the passage is about craving and memory."
+  },
+  "rur-0061": {
+   "is_instance": false,
+   "note": "A medical test on Radius; no instruction."
+  },
+  "phaedrus-0095": {
+   "is_instance": true,
+   "note": "Socrates tells Phaedrus how the art of speaking is acquired: nature, knowledge, practice."
+  },
+  "frankenstein-0112": {
+   "is_instance": false,
+   "note": "Justine's defence at her trial."
+  },
+  "phaedrus-0104": {
+   "is_instance": true,
+   "note": "The Theuth and Thamus myth begins: a god presents letters as a means of making people wiser; Socrates teaching through a story about teaching."
+  },
+  "dorian-0263": {
+   "is_instance": false,
+   "note": "Borderline: Basil is about to admonish Dorian, but here he only announces it and reports rumours."
+  },
+  "frankenstein-0142": {
+   "is_instance": true,
+   "note": "Borderline, brief: the creature's arguments make Victor feel for the first time \"what the duties of a creator towards his creature were\"; the made thing instructs its maker."
+  },
+  "dorian-0238": {
+   "is_instance": false,
+   "note": "Borderline: Dorian's self-directed study of perfumes and music is connoisseurship rather than formation."
+  },
+  "frankenstein-0159": {
+   "is_instance": true,
+   "note": "The old man's exhortations change Agatha; the creature watching learns sympathy."
+  },
+  "frankenstein-0100": {
+   "is_instance": false,
+   "note": "Victor alone in the storm."
+  },
+  "phaedrus-0047": {
+   "is_instance": true,
+   "note": "Borderline: doctrine of recollection, i.e. an explicit account of how the soul comes to know, inside Socrates' speech to Phaedrus."
+  },
+  "frankenstein-0205": {
+   "is_instance": false,
+   "note": "The creature burns the cottage."
+  },
+  "rur-0020": {
+   "is_instance": false,
+   "note": "Helena corrects a name and Domin shows her the factory: information and a tour."
+  },
+  "frankenstein-0244": {
+   "is_instance": true,
+   "note": "Brief: Clerval's mind \"expanded in the company of men of talent\"."
+  },
+  "phaedrus-0088": {
+   "is_instance": true,
+   "note": "Socrates on dialectic, disciples, and rhetoricians who teach and impart skill."
+  },
+  "frankenstein-0295": {
+   "is_instance": false,
+   "note": "The wedding day."
+  },
+  "rur-0067": {
+   "is_instance": false,
+   "note": "Celebration; no instruction."
+  },
+  "frankenstein-0230": {
+   "is_instance": false,
+   "note": "Planning the journey to England."
+  },
+  "dorian-0153": {
+   "is_instance": true,
+   "note": "Sibyl: \"You taught me what reality really is.\" Explicit and central."
+  },
+  "dorian-0325": {
+   "is_instance": false,
+   "note": "Dorian leaves the dinner unnerved; no instruction."
+  },
+  "rur-0028": {
+   "is_instance": true,
+   "note": "The directors on what Robots can be taught or preached to, and why childhood (education) is waste: reflection on instruction and its absence."
+  },
+  "frankenstein-0203": {
+   "is_instance": false,
+   "note": "The creature overhears a conversation about rent; he is trying to understand, but no one teaches him."
+  },
+  "dorian-0239": {
+   "is_instance": false,
+   "note": "A catalogue of instruments; a passing mention of initiation."
+  },
+  "dorian-0220": {
+   "is_instance": false,
+   "note": "Dorian hides the portrait and imagines purification."
+  },
+  "dorian-0030": {
+   "is_instance": true,
+   "note": "Borderline, brief: Dorian asks Lord Henry to tell him why he should not go in for philanthropy, inviting the instruction that follows."
+  },
+  "frankenstein-0313": {
+   "is_instance": false,
+   "note": "Victor's pursuit; no instruction."
+  }
+ }
+}

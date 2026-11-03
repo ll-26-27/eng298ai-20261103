@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1624,
+  "completion_tokens": 129,
+  "total_tokens": 1753,
+  "cost": 0.0002269,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002269,
+   "upstream_inference_prompt_cost": 0.0001624,
+   "upstream_inference_completions_cost": 0.0000645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0163. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): \"She is innocent, my Elizabeth,\" said I, \"and that shall be proved; fear nothing, but let your spirits be cheered by the assurance of her acquittal.\"\n\n1818 text: \"How kind you are! every one else believes in her guilt, and that made me wretched; for I knew that it was impossible: and to see every one else prejudiced in so deadly a manner, rendered me hopeless and despairing.\"\n\n1831 text: \"How kind and generous you are! every one else believes in her guilt, and that made me wretched, for I knew that it was impossible: and to see every one else prejudiced in so deadly a manner rendered me hopeless and despairing.\"\n\nDiff: \" How kind {+and generous+} you are! every one else believes in her guilt, and that made me wretched [-;-] {+,+} for I knew that it was impossible: and to see every one else prejudiced in so deadly a manner [-,-] rendered me hopeless and despairing. \"\n\nContext after (unchanged): She wept."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 2,
+  "rationale": "Adds 'and generous' to Justine's praise of Elizabeth's kindness ('How kind and generous you are!'), a stylistic intensifier; the semicolon and comma swaps are punctuation only. Slight shift in how Justine regards Elizabeth.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

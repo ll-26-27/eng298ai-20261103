@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c038-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4928,
+  "completion_tokens": 1210,
+  "total_tokens": 6138,
+  "cost": 0.0010978,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010978,
+   "upstream_inference_prompt_cost": 0.0004928,
+   "upstream_inference_completions_cost": 0.000605
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 691,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House (fictional house, Hertfordshire, near St Albans)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "When our time came for returning to Bleak House again",
+   "note": "Fictional house; location inferred from the novel, not stated in the passage."
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold (fictional house, Lincolnshire)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "something in the letter I had destroyed at Chesney Wold",
+   "note": "Fictional house in the novel."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I paid a visit of a few hours to London",
+   "note": ""
+  },
+  {
+   "as_written": "Newman Street",
+   "normalized": "Newman Street, Marylebone, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I got to London by stage-coach in such good time that I got to Newman Street with the day before me.",
+   "note": ""
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha (fictional African settlement)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "That old Mr. Turveydrop should ever, in the chances and changes of life, have come to the rescue of Mr. Jellyby from Borrioboola-Gha",
+   "note": "Fictional place from Mrs. Jellyby's philanthropic scheme."
+  }
+ ]
+}

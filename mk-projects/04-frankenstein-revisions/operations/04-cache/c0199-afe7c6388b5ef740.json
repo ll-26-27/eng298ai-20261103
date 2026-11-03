@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3732,
+  "completion_tokens": 163,
+  "total_tokens": 3895,
+  "cost": 0.0004547,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004547,
+   "upstream_inference_prompt_cost": 0.0003732,
+   "upstream_inference_completions_cost": 0.0000815
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0199. Location: 1818 Vol. II, Ch. I; 1831 Ch. IX.\n\nContext before (unchanged): But it was augmented and rendered sublime by the mighty Alps, whose white and shining pyramids and domes towered above all, as belonging to another earth, the habitations of another race of beings.\n\n1818 text: We passed the bridge of Pelissier, where the ravine, which the river forms, opened before us, and we began to ascend the mountain that overhangs it. Soon after we entered the valley of Chamounix. This valley is more wonderful and sublime, but not so beautiful and picturesque as that of Servox, through which we had just passed. The high and snowy mountains were its immediate boundaries; but we saw no more ruined castles and fertile fields. Immense glaciers approached the road; we heard the rumbling thunder of the falling avalanche, and marked the smoke of its passage. Mont Blânc, the supreme and magnificent Mont Blânc, raised itself from the surrounding aiguilles, and its tremendous dome overlooked the valley. During this journey, I sometimes joined Elizabeth, and exerted myself to point out to her the various beauties of the scene. I often suffered my mule to lag behind, and indulged in the misery of reflection. At other times I spurred on the animal before my companions, that I might forget them, the world, and, more than all, myself. When at a distance, I alighted, and threw myself on the grass, weighed down by horror and despair. At eight in the evening I arrived at Chamounix. My father and Elizabeth were very much fatigued; Ernest, who accompanied us, was delighted, and in high spirits: the only circumstance that detracted from his pleasure was the south wind, and the rain it seemed to promise for the next day. We retired early to our apartments, but not to sleep; at least I did not. I remained many hours at the window, watching the pallid lightning that played above Mont Blânc, and listening to the rushing of the Arve, which ran below my window.\n\n1831 text: I passed the bridge of Pélissier, where the ravine, which the river forms, opened before me, and I began to ascend the mountain that overhangs it. Soon after I entered the valley of Chamounix. This valley is more wonderful and sublime, but not so beautiful and picturesque, as that of Servox, through which I had just passed. The high and snowy mountains were its immediate boundaries; but I saw no more ruined castles and fertile fields. Immense glaciers approached the road; I heard the rumbling thunder of the falling avalanche, and marked the smoke of its passage. Mont Blanc, the supreme and magnificent Mont Blanc, raised itself from the surrounding aiguilles, and its tremendous dôme overlooked the valley. A tingling long-lost sense of pleasure often came across me during this journey. Some turn in the road, some new object suddenly perceived and recognised, reminded me of days gone by, and were associated with the light-hearted gaiety of boyhood. The very winds whispered in soothing accents, and maternal nature bade me weep no more. Then again the kindly influence ceased to act—I found myself fettered again to grief, and indulging in all the misery of reflection. Then I spurred on my animal, striving so to forget the world, my fears, and, more than all, myself—or, in a more desperate fashion, I alighted, and threw myself on the grass, weighed down by horror and despair. At length I arrived at the village of Chamounix. Exhaustion succeeded to the extreme fatigue both of body and of mind which I had endured. For a short space of time I remained at the window, watching the pallid lightnings that played above Mont Blanc, and listening to the rushing of the Arve, which pursued its noisy way beneath. The same lulling sounds acted as a lullaby to my too keen sensations: when I placed my head upon my pillow, sleep crept over me; I felt it as it came, and blest the giver of oblivion.\n\nDiff: [-We-] {+I+} passed the bridge of [-Pelissier-] {+Pélissier+} , where the ravine, which the river forms, opened before [-us-] {+me+} , and [-we-] {+I+} began to ascend the mountain that overhangs it. Soon after [-we-] {+I+} entered the valley of Chamounix. This valley is more wonderful and sublime, but not so beautiful and picturesque {+,+} as that of Servox, through which [-we-] {+I+} had just passed. The high and snowy mountains were its immediate boundaries; but [-we-] {+I+} saw no more ruined castles and fertile fields. Immense glaciers approached the road; [-we-] {+I+} heard the rumbling thunder of the falling avalanche, and marked the smoke of its passage. Mont [-Blânc-] {+Blanc+} , the supreme and magnificent Mont [-Blânc-] {+Blanc+} , raised itself from the surrounding aiguilles, and its tremendous [-dome-] {+dôme+} overlooked the valley. [-During-] {+A tingling long-lost sense of pleasure often came across me during+} this journey {+. Some turn in the road+} , [-I sometimes joined Elizabeth-] {+some new object suddenly perceived and recognised+} , {+reminded me of days gone by,+} and [-exerted myself to point out to her-] {+were associated with+} the [-various beauties-] {+light-hearted gaiety+} of [-the scene-] {+boyhood+} . {+The very winds whispered in soothing accents, and maternal nature bade me weep no more. Then again the kindly influence ceased to act—+} I [-often suffered my mule-] {+found myself fettered again+} to [-lag behind-] {+grief+} , and [-indulged-] {+indulging+} in {+all+} the misery of reflection. [-At other times-] {+Then+} I spurred on [-the animal before-] my [-companions-] {+animal+} , [-that I might-] {+striving so to+} forget [-them,-] the world, {+my fears,+} and, more than all, myself [-. When at-] {+—or, in+} a [-distance-] {+more desperate fashion+} , I alighted, and threw myself on the grass, weighed down by horror and despair. At [-eight in the evening-] {+length+} I arrived at {+the village of+} Chamounix. [-My father and Elizabeth were very much fatigued; Ernest, who accompanied us, was delighted, and in high spirits: the only circumstance that detracted from his pleasure was the south wind, and the rain it seemed-] {+Exhaustion succeeded+} to [-promise for-] the [-next day. We retired early to our apartments, but not to sleep; at least-] {+extreme fatigue both of body and of mind which+} I [-did not-] {+had endured+} . {+For a short space of time+} I remained [-many hours-] at the window, watching the pallid [-lightning-] {+lightnings+} that played above Mont [-Blânc-] {+Blanc+} , and listening to the rushing of the Arve, which [-ran below-] {+pursued its noisy way beneath. The same lulling sounds acted as a lullaby to+} my [-window-] {+too keen sensations: when I placed my head upon my pillow, sleep crept over me; I felt it as it came, and blest the giver of oblivion+} .\n\nContext after (unchanged): (none)"
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 5,
+  "rationale": "Large rewrite of the Chamounix passage: the 1831 text adds a 'long-lost sense of pleasure,' nostalgia for boyhood, 'maternal nature' and 'the giver of oblivion,' and cuts the 1818 'misery' and Elizabeth/Ernest details, reshaping Victor's emotional state and tone.",
+  "confidence": "high",
+  "rationaleWords": 39
+ }
+}

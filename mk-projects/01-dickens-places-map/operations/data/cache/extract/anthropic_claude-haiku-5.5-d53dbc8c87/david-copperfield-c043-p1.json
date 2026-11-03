@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c043-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5011,
+  "completion_tokens": 2011,
+  "total_tokens": 7022,
+  "cost": 0.0015066,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015066,
+   "upstream_inference_prompt_cost": 0.0005011,
+   "upstream_inference_completions_cost": 0.0010055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1430,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "We have removed, from Buckingham Street, to a pleasant little cottage very near the one I looked at",
+   "note": "David and his aunt have moved away from it."
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "My aunt, however (who has sold the house at Dover, to good advantage)",
+   "note": "The aunt's former house is here."
+  },
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Why does Traddles look so important when he calls upon me this afternoon in the Commons",
+   "note": "Refers to Doctors' Commons, not the House of Commons."
+  },
+  {
+   "as_written": "the Inner Temple",
+   "normalized": "Inner Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I should think the Inner Temple must have made a profit by it.",
+   "note": "Inn of Court."
+  },
+  {
+   "as_written": "Canterbury coach",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have brought Agnes from the Canterbury coach, and her cheerful and beautiful face is among us for the second time.",
+   "note": "Refers to the coach from Canterbury, the place Agnes travels from."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Miss Clarissa and my aunt roam all over London, to find out articles of furniture",
+   "note": ""
+  }
+ ]
+}

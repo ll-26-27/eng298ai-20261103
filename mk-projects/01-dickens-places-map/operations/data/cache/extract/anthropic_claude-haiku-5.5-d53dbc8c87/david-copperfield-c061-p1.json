@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c061-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5233,
+  "completion_tokens": 2023,
+  "total_tokens": 7256,
+  "cost": 0.0015348,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015348,
+   "upstream_inference_prompt_cost": 0.0005233,
+   "upstream_inference_completions_cost": 0.0010115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1506,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I took up my abode in my aunt’s house at Dover",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Occasionally, I went to London; to lose myself in the swarm of life there",
+   "note": ""
+  },
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "considering the Commons quite bad enough, without my doing anything to make it worse",
+   "note": "Refers to Doctors' Commons, the proctors' area of practice; named only as 'the Commons'."
+  },
+  {
+   "as_written": "Devonshire",
+   "normalized": "Devon, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "often humming her Devonshire ballads",
+   "note": ""
+  },
+  {
+   "as_written": "Middlesex",
+   "normalized": "Middlesex, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "He is a Middlesex Magistrate.",
+   "note": "County that then included much of north-west London; location of the magistracy is not stated."
+  },
+  {
+   "as_written": "Tower of Babel",
+   "normalized": "Tower of Babel",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "In an office that might have been on the ground-floor of the Tower of Babel",
+   "note": "Biblical place used as a comparison; cannot be located."
+  }
+ ]
+}

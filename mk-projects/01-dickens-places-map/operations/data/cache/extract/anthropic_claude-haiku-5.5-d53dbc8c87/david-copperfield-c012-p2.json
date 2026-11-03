@@ -1,0 +1,111 @@
+{
+ "chunk": "david-copperfield-c012-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4702,
+  "completion_tokens": 2231,
+  "total_tokens": 6933,
+  "cost": 0.0015857,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015857,
+   "upstream_inference_prompt_cost": 0.0004702,
+   "upstream_inference_completions_cost": 0.0011155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1394,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Coach Office, Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘Master David, to be left till called for, at the Coach Office, Dover.’",
+   "note": "Destination of Copperfield's box; the coach office itself is not separately located."
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "told me that Miss Betsey lived near Dover, but whether at Dover itself, at Hythe, Sandgate, or Folkestone",
+   "note": ""
+  },
+  {
+   "as_written": "Hythe",
+   "normalized": "Hythe, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "whether at Dover itself, at Hythe, Sandgate, or Folkestone",
+   "note": ""
+  },
+  {
+   "as_written": "Sandgate",
+   "normalized": "Sandgate, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "whether at Dover itself, at Hythe, Sandgate, or Folkestone",
+   "note": ""
+  },
+  {
+   "as_written": "Folkestone",
+   "normalized": "Folkestone, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "whether at Dover itself, at Hythe, Sandgate, or Folkestone",
+   "note": ""
+  },
+  {
+   "as_written": "St. Luke’s workhouse",
+   "normalized": "St Luke's Workhouse, Old Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "she going back, I suppose, to St. Luke’s workhouse",
+   "note": ""
+  },
+  {
+   "as_written": "the Obelisk, in the Blackfriars Road",
+   "normalized": "St George's Circus obelisk, Blackfriars Road, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "standing near the Obelisk, in the Blackfriars Road",
+   "note": "Named as a landmark where the cart was standing."
+  },
+  {
+   "as_written": "the Blackfriars Road",
+   "normalized": "Blackfriars Road, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "standing near the Obelisk, in the Blackfriars Road",
+   "note": ""
+  },
+  {
+   "as_written": "the King’s Bench prison",
+   "normalized": "King's Bench Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "when he came to the dead-wall of the King’s Bench prison",
+   "note": ""
+  }
+ ]
+}

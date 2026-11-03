@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c004-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5015,
+  "completion_tokens": 1076,
+  "total_tokens": 6091,
+  "cost": 0.0010395,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010395,
+   "upstream_inference_prompt_cost": 0.0005015,
+   "upstream_inference_completions_cost": 0.000538
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 695,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the momentous importance of Africa",
+   "note": "Continent; the scheme's focus, not a setting in this passage."
+  },
+  {
+   "as_written": "Tunbridge Wells",
+   "normalized": "Royal Tunbridge Wells, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "A Present from Tunbridge Wells",
+   "note": "Named on a mug, not visited."
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "told us a great deal that was interesting about Borrioboola-Gha and the natives",
+   "note": "Fictional African settlement of Mrs. Jellyby's scheme."
+  },
+  {
+   "as_written": "Winchester school",
+   "normalized": "Winchester College, Winchester, Hampshire",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at Winchester school",
+   "note": "Richard's school; reference to the institution's town."
+  }
+ ]
+}

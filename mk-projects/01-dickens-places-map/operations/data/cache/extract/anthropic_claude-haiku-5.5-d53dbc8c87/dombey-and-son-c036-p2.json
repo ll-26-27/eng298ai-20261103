@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c036-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5302,
+  "completion_tokens": 886,
+  "total_tokens": 6188,
+  "cost": 0.0009732,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009732,
+   "upstream_inference_prompt_cost": 0.0005302,
+   "upstream_inference_completions_cost": 0.000443
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 523,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Berkshire",
+   "normalized": "Berkshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "which I think took place in Berkshire?",
+   "note": "Cousin Feenix's guess; the marriage is later corrected to Shropshire."
+  },
+  {
+   "as_written": "Shropshire",
+   "normalized": "Shropshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "“Shropshire,” said the bold mild man",
+   "note": "Correction of Berkshire; the marriage's true location."
+  },
+  {
+   "as_written": "Anyshire",
+   "normalized": "Anyshire",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "So my friend being invited down to this marriage in Anyshire,",
+   "note": "Joke name meaning any county; not a real place."
+  },
+  {
+   "as_written": "the House of Commons",
+   "normalized": "Palace of Westminster (House of Commons), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "meeting him in the lobby of the House of Commons",
+   "note": ""
+  }
+ ]
+}

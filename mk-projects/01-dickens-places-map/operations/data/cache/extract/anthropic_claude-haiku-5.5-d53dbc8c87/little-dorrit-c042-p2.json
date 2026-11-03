@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c042-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5371,
+  "completion_tokens": 1414,
+  "total_tokens": 6785,
+  "cost": 0.0012441,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012441,
+   "upstream_inference_prompt_cost": 0.0005371,
+   "upstream_inference_completions_cost": 0.000707
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 893,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "All Venice would scarcely be that, I imagine,",
+   "note": "Implied setting: the gondola journey takes place in Venice."
+  },
+  {
+   "as_written": "Great Saint Bernard",
+   "normalized": "Great St Bernard Pass, Switzerland/Italy border",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as he had stood on the Great Saint Bernard,",
+   "note": "Alpine mountain pass."
+  },
+  {
+   "as_written": "Martigny",
+   "normalized": "Martigny, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "When we saw that woman at Martigny,",
+   "note": ""
+  },
+  {
+   "as_written": "Harley Street",
+   "normalized": "Harley Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "What did I tell you when we came away from Harley Street that time?",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Blandois of Paris in a great cloak",
+   "note": "Part of the character's epithet; the city is only referred to."
+  },
+  {
+   "as_written": "the Casino",
+   "normalized": "Casino, Venice",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I understand he makes a perfect spectacle of himself at the Casino",
+   "note": "Generic gambling house; likely Venetian, not certain which one."
+  }
+ ]
+}

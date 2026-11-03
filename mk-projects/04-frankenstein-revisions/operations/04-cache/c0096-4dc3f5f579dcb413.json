@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1947,
+  "completion_tokens": 155,
+  "total_tokens": 2102,
+  "cost": 0.0002722,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002722,
+   "upstream_inference_prompt_cost": 0.0001947,
+   "upstream_inference_completions_cost": 0.0000775
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0096. Location: 1818 Vol. I, Ch. III; 1831 Ch. IV.\n\nContext before (unchanged): But my enthusiasm was checked by my anxiety, and I appeared rather like one doomed by slavery to toil in the mines, or any other unwholesome trade, than an artist occupied by his favourite employment.\n\n1818 text: Every night I was oppressed by a slow fever, and I became nervous to a most painful degree; a disease that I regretted the more because I had hitherto enjoyed most excellent health, and had always boasted of the firmness of my nerves. But I believed that exercise and amusement would soon drive away such symptoms; and I promised myself both of these, when my creation should be complete.\n\n1831 text: Every night I was oppressed by a slow fever, and I became nervous to a most painful degree; the fall of a leaf startled me, and I shunned my fellow-creatures as if I had been guilty of a crime. Sometimes I grew alarmed at the wreck I perceived that I had become; the energy of my purpose alone sustained me: my labours would soon end, and I believed that exercise and amusement would then drive away incipient disease; and I promised myself both of these when my creation should be complete.\n\nDiff: Every night I was oppressed by a slow fever, and I became nervous to a most painful degree; [-a disease that I regretted-] the [-more because I had hitherto enjoyed most excellent health-] {+fall of a leaf startled me+} , and {+I shunned my fellow-creatures as if I+} had [-always boasted-] {+been guilty+} of {+a crime. Sometimes I grew alarmed at+} the [-firmness-] {+wreck I perceived that I had become; the energy+} of my [-nerves. But-] {+purpose alone sustained me: my labours would soon end, and+} I believed that exercise and amusement would [-soon-] {+then+} drive away [-such symptoms-] {+incipient disease+} ; and I promised myself both of these [-,-] when my creation should be complete.\n\nContext after (unchanged): (none)"
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Adds 'the fall of a leaf startled me' and 'I shunned my fellow-creatures as if I had been guilty of a crime', heightening Victor's guilt and nervous collapse; 'the energy of my purpose alone sustained me' and 'incipient disease' reframe his state, though the core events remain unchanged.",
+  "confidence": "medium",
+  "rationaleWords": 48
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "david-copperfield-c032-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5025,
+  "completion_tokens": 664,
+  "total_tokens": 5689,
+  "cost": 0.0008345,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008345,
+   "upstream_inference_prompt_cost": 0.0005025,
+   "upstream_inference_completions_cost": 0.000332
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 486,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Norwich",
+   "normalized": "Norwich, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "My country rounds brought me to Norwich, Mr. Copperfield, the night before last.",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I got into the coach from London last night, as it came through Norwich",
+   "note": "Named as the coach's starting point; city as a whole."
+  }
+ ]
+}

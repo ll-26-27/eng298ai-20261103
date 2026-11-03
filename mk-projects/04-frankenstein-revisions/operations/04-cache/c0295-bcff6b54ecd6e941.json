@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1418,
+  "completion_tokens": 128,
+  "total_tokens": 1546,
+  "cost": 0.0002058,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002058,
+   "upstream_inference_prompt_cost": 0.0001418,
+   "upstream_inference_completions_cost": 0.000064
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0295. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): I am now going to claim the protection of some friends, whom I sincerely love, and of whose favour I have some hopes.'\n\n1818 text: \"'Are these Germans?'\n\n1831 text: \"'Are they Germans?'\n\nDiff: \" 'Are [-these-] {+they+} Germans? '\n\nContext after (unchanged): \"'No, they are French."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the demonstrative 'these' is replaced by the pronoun 'they' in 'Are these Germans?' to 'Are they Germans?'. The meaning and sense of the question are unchanged; this is a syntactic or stylistic adjustment with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 38
+ }
+}

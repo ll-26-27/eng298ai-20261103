@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c006-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4838,
+  "completion_tokens": 764,
+  "total_tokens": 5602,
+  "cost": 0.0008658,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008658,
+   "upstream_inference_prompt_cost": 0.0004838,
+   "upstream_inference_completions_cost": 0.000382
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 577,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "African",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "float along an African river, embracing all the natives I meet",
+   "note": "Continent named only through the adjective 'African'; no specific river is named."
+  },
+  {
+   "as_written": "German",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "had once lived, in his professional capacity, in the household of a German prince",
+   "note": "Country named only through the adjective 'German'; the prince's domain is not specified."
+  }
+ ]
+}

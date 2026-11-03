@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c013-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5047,
+  "completion_tokens": 553,
+  "total_tokens": 5600,
+  "cost": 0.0007812,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007812,
+   "upstream_inference_prompt_cost": 0.0005047,
+   "upstream_inference_completions_cost": 0.0002765
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 454,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "you remember the happy night when first we came down to Bleak House?",
+   "note": "Fictional house; the passage implies it lies outside London."
+  }
+ ]
+}

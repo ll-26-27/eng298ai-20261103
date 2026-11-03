@@ -1,0 +1,147 @@
+{
+ "chunk": "little-dorrit-c054-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5648,
+  "completion_tokens": 2332,
+  "total_tokens": 7980,
+  "cost": 0.0017308,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017308,
+   "upstream_inference_prompt_cost": 0.0005648,
+   "upstream_inference_completions_cost": 0.001166
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1383,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "whether or no he should take the Marshalsea in his way back",
+   "note": "Former debtors' prison; Mr Dorrit's old quarters."
+  },
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "go over London Bridge and recross the river by Waterloo Bridge",
+   "note": "Coachman's proposed route; not taken."
+  },
+  {
+   "as_written": "Waterloo Bridge",
+   "normalized": "Waterloo Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "recross the river by Waterloo Bridge",
+   "note": "Coachman's proposed route; not taken."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "between London and Dover",
+   "note": "Departure point of the journey; city as a whole."
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "upon the Dover road",
+   "note": "Destination of the road journey; the Dover road itself is not separately listed."
+  },
+  {
+   "as_written": "Dartford",
+   "normalized": "Dartford, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "waylaid at Dartford",
+   "note": ""
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "pillaged at Gravesend",
+   "note": ""
+  },
+  {
+   "as_written": "Rochester",
+   "normalized": "Rochester, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "rifled at Rochester",
+   "note": ""
+  },
+  {
+   "as_written": "Sittingbourne",
+   "normalized": "Sittingbourne, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "fleeced at Sittingbourne",
+   "note": ""
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "sacked at Canterbury",
+   "note": ""
+  },
+  {
+   "as_written": "Calais",
+   "normalized": "Calais, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "saw him at Calais",
+   "note": ""
+  },
+  {
+   "as_written": "the Channel",
+   "normalized": "English Channel",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "having now got the Channel between himself and John Chivery",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the air of England",
+   "note": ""
+  }
+ ]
+}

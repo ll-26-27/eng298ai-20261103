@@ -1,0 +1,39 @@
+{
+ "chunk": "little-dorrit-c010-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5199,
+  "completion_tokens": 792,
+  "total_tokens": 5991,
+  "cost": 0.0009159,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009159,
+   "upstream_inference_prompt_cost": 0.0005199,
+   "upstream_inference_completions_cost": 0.000396
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 619,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Circumlocution Office",
+   "normalized": "Circumlocution Office (fictional government department, Little Dorrit)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "For Mr Tite Barnacle, Mr Arthur Clennam made his fifth inquiry one day at the Circumlocution Office",
+   "note": "Fictional government office; the passage also treats it as an institution, so this entry is included as a building where Clennam waits. Location not given in the passage."
+  }
+ ]
+}

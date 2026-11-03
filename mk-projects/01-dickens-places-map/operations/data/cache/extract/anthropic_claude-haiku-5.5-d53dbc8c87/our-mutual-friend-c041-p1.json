@@ -1,0 +1,93 @@
+{
+ "chunk": "our-mutual-friend-c041-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5074,
+  "completion_tokens": 2201,
+  "total_tokens": 7275,
+  "cost": 0.0016079,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016079,
+   "upstream_inference_prompt_cost": 0.0005074,
+   "upstream_inference_completions_cost": 0.0011005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1504,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "river Thames",
+   "normalized": "River Thames, upper reaches above London (Chertsey to Staines)",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The poor old creature had taken the upward course of the river Thames as her general track",
+   "note": "Passage concerns the upriver stretch outside London"
+  },
+  {
+   "as_written": "Chertsey",
+   "normalized": "Chertsey, Surrey",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "In the pleasant towns of Chertsey, Walton, Kingston, and Staines, her figure came to be quite well known",
+   "note": ""
+  },
+  {
+   "as_written": "Walton",
+   "normalized": "Walton-on-Thames, Surrey",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "In the pleasant towns of Chertsey, Walton, Kingston, and Staines, her figure came to be quite well known",
+   "note": ""
+  },
+  {
+   "as_written": "Kingston",
+   "normalized": "Kingston upon Thames, Surrey",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "In the pleasant towns of Chertsey, Walton, Kingston, and Staines, her figure came to be quite well known",
+   "note": "In Dickens's day in Surrey, not London"
+  },
+  {
+   "as_written": "Staines",
+   "normalized": "Staines, Middlesex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "In the pleasant towns of Chertsey, Walton, Kingston, and Staines, her figure came to be quite well known",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I’m a going to London when I’ve sold out all",
+   "note": "Betty's stated destination, not where the scene is set"
+  },
+  {
+   "as_written": "Mr Boffin’s house",
+   "normalized": "Boffin's house, London",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Nothing had been heard of her at Mr Boffin’s house since she trudged off.",
+   "note": "House not named or located in passage"
+  }
+ ]
+}

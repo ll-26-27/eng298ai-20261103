@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c059-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5118,
+  "completion_tokens": 1250,
+  "total_tokens": 6368,
+  "cost": 0.0011368,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011368,
+   "upstream_inference_prompt_cost": 0.0005118,
+   "upstream_inference_completions_cost": 0.000625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 804,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Saint Mary Axe",
+   "normalized": "St Mary Axe, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Set down by the omnibus at the corner of Saint Mary Axe",
+   "note": ""
+  },
+  {
+   "as_written": "Pubsey and Co.",
+   "normalized": "Pubsey and Co. premises, St Mary Axe, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "proceeded to the place of business of Pubsey and Co.",
+   "note": "Business premises of a firm; location inferred from Saint Mary Axe."
+  },
+  {
+   "as_written": "the Albany",
+   "normalized": "The Albany, Piccadilly, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Miss Jenny related what had come to pass in the Albany",
+   "note": "Chambers building; Miss Wren recounts events there."
+  },
+  {
+   "as_written": "Covent Garden Market",
+   "normalized": "Covent Garden Market, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "staggered into Covent Garden Market and there bivouacked",
+   "note": ""
+  },
+  {
+   "as_written": "Egypt",
+   "normalized": "Egypt",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "it's a pity they ever got out of Egypt",
+   "note": ""
+  }
+ ]
+}

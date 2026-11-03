@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c066-p5",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4664,
+  "completion_tokens": 824,
+  "total_tokens": 5488,
+  "cost": 0.0008784,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008784,
+   "upstream_inference_prompt_cost": 0.0004664,
+   "upstream_inference_completions_cost": 0.000412
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 480,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Antwerp",
+   "normalized": "Antwerp, Belgium",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in the little street of the high roofs, by the wharf at Antwerp!",
+   "note": "Rigaud's youth and Blandois-related past are recalled there; also named later as his destination."
+  },
+  {
+   "as_written": "the Cabaret of the Three Billiard Tables",
+   "normalized": "Cabaret of the Three Billiard Tables, Antwerp",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in the Cabaret of the Three Billiard Tables, in the little street of the high roofs",
+   "note": "Fictional establishment; location is only approximate, in Antwerp."
+  },
+  {
+   "as_written": "the Marshalsea gate",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Put off the time till the Marshalsea gate shall be shut for the night",
+   "note": ""
+  }
+ ]
+}

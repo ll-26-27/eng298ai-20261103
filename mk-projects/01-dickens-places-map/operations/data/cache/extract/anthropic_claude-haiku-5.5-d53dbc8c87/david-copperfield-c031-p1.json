@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c031-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5252,
+  "completion_tokens": 2157,
+  "total_tokens": 7409,
+  "cost": 0.0016037,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016037,
+   "upstream_inference_prompt_cost": 0.0005252,
+   "upstream_inference_completions_cost": 0.0010785
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1530,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blunderstone, Suffolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "make their last journey to Blunderstone",
+   "note": "Village; the funeral and churchyard burial take place here."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "My old nurse was to go to London with me next day",
+   "note": ""
+  },
+  {
+   "as_written": "Lowestoft",
+   "normalized": "Lowestoft, Suffolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "walked a little distance on the road to Lowestoft",
+   "note": ""
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Then I turned, and walked back towards Yarmouth.",
+   "note": ""
+  },
+  {
+   "as_written": "the Ferry",
+   "normalized": "Ferry near Yarmouth, Norfolk",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "some mile or two from the Ferry I have mentioned before",
+   "note": "Ferry crossing; exact location unclear."
+  },
+  {
+   "as_written": "Mr. Peggotty’s house",
+   "normalized": "Mr. Peggotty’s house on the sands near Yarmouth",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I was soon within sight of Mr. Peggotty’s house",
+   "note": "Fictional house, the boathouse on the sands near Yarmouth."
+  },
+  {
+   "as_written": "St. Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the work-box with St. Paul’s upon the lid",
+   "note": "Named only as a picture on a work-box."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "chunk": "dombey-and-son-c008-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5307,
+  "completion_tokens": 1781,
+  "total_tokens": 7088,
+  "cost": 0.0014212,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014212,
+   "upstream_inference_prompt_cost": 0.0005307,
+   "upstream_inference_completions_cost": 0.0008905
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1170,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Peruvian Mines",
+   "normalized": "Peru",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "In pumping water out of the Peruvian Mines",
+   "note": "Refers to mines in Peru rather than a named site; Mr Pipchin's fatal speculation."
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The Castle of this ogress and child-queller was in a steep by-street at Brighton",
+   "note": ""
+  },
+  {
+   "as_written": "Castle",
+   "normalized": "Mrs Pipchin's boarding-house, Brighton",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The Castle of this ogress and child-queller",
+   "note": "Mrs Pipchin's house in Brighton, a fictional name; not locatable."
+  },
+  {
+   "as_written": "Castle Dungeon",
+   "normalized": "Castle Dungeon, Mrs Pipchin's house, Brighton",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the Castle Dungeon (an empty apartment at the back, devoted to correctional purposes)",
+   "note": "An empty room inside the Castle, not a separate building."
+  },
+  {
+   "as_written": "Royal Pavilion",
+   "normalized": "Royal Pavilion, Brighton",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a little work-box, with the Royal Pavilion on the lid",
+   "note": "Only depicted on a work-box lid."
+  },
+  {
+   "as_written": "Cock Lane",
+   "normalized": "Cock Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "like the Cock Lane Ghost revived",
+   "note": "Named only through the Cock Lane Ghost legend."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c026-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5505,
+  "completion_tokens": 1244,
+  "total_tokens": 6749,
+  "cost": 0.0011725,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011725,
+   "upstream_inference_prompt_cost": 0.0005505,
+   "upstream_inference_completions_cost": 0.000622
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 865,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dismal Swamp",
+   "normalized": "Dismal Swamp (nickname for the Boffins' house in Our Mutual Friend)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "The Secretary, working in the Dismal Swamp betimes next morning",
+   "note": "Nickname in the novel for the Boffins' house or office; location unclear"
+  },
+  {
+   "as_written": "Three Magpies",
+   "normalized": "Three Magpies inn, Brentford",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "So, to the Three Magpies as before",
+   "note": "Inn at Brentford; Brentford was in Middlesex, outside the county of London"
+  },
+  {
+   "as_written": "Brentford",
+   "normalized": "Brentford, Middlesex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and then they would go down to Brentford",
+   "note": "Then in Middlesex, now Greater London"
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "while there's water enough in England to cover us!",
+   "note": ""
+  }
+ ]
+}

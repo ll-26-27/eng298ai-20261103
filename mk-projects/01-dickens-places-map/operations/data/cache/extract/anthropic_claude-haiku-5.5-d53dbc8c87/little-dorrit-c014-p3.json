@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c014-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 3386,
+  "completion_tokens": 1085,
+  "total_tokens": 4471,
+  "cost": 0.0008811,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008811,
+   "upstream_inference_prompt_cost": 0.0003386,
+   "upstream_inference_completions_cost": 0.0005425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 745,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the great capital",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "This was Little Dorrit’s party. The shame, desertion, wretchedness, and exposure of the great capital;",
+   "note": "Identified as London by the phrase 'the great capital'."
+  },
+  {
+   "as_written": "Marshalsea Prison",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Born, Marshalsea Prison, Parish of St George.",
+   "note": "Birthplace and long-term residence of Little Dorrit; not where the action takes place."
+  },
+  {
+   "as_written": "the Church",
+   "normalized": "St George the Martyr church, Borough High Street, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Going round by the Church, she saw lights there, and the door open;",
+   "note": "Identified only by the parish of St George named in the register; the church is inferred, not named outright."
+  }
+ ]
+}

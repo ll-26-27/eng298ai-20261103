@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1523,
+  "completion_tokens": 129,
+  "total_tokens": 1652,
+  "cost": 0.0002168,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002168,
+   "upstream_inference_prompt_cost": 0.0001523,
+   "upstream_inference_completions_cost": 0.0000645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0194. Location: 1818 Vol. II, Ch. I; 1831 Ch. IX.\n\nContext before (unchanged): I would have made a pilgrimage to the highest peak of the Andes, could I, when there, have precipitated him to their base.\n\n1818 text: I wished to see him again, that I might wreak the utmost extent of anger on his head, and avenge the deaths of William and Justine.\n\n1831 text: I wished to see him again, that I might wreak the utmost extent of abhorrence on his head, and avenge the deaths of William and Justine.\n\nDiff: I wished to see him again, that I might wreak the utmost extent of [-anger-] {+abhorrence+} on his head, and avenge the deaths of William and Justine.\n\nContext after (unchanged): Our house was the house of mourning."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "moral-religious"
+  ],
+  "significance": 3,
+  "rationale": "Replacing 'anger' with 'abhorrence' shifts Victor's emotional stance from hot, personal rage to a moral revulsion toward the creature, making his vengeful desire read as judgment rather than passion; the change is one word but reframes his motive.",
+  "confidence": "medium",
+  "rationaleWords": 38
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c040-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4801,
+  "completion_tokens": 1951,
+  "total_tokens": 6752,
+  "cost": 0.0014556,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014556,
+   "upstream_inference_prompt_cost": 0.0004801,
+   "upstream_inference_completions_cost": 0.0009755
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1364,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to work his way over to Italy",
+   "note": ""
+  },
+  {
+   "as_written": "Swiss mountains",
+   "normalized": "Swiss Alps, Switzerland",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "among them Swiss mountains yonder",
+   "note": "Vague reference; the Swiss Alps as a region"
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "There ain’t a child in Yarmouth that doen’t know him.",
+   "note": ""
+  },
+  {
+   "as_written": "the Upper Rhine",
+   "normalized": "Upper Rhine, Germany/France/Switzerland border region",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It was a town on the Upper Rhine.",
+   "note": "The specific town is not named"
+  },
+  {
+   "as_written": "the Dover Road",
+   "normalized": "Dover Road, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "He spoke of a traveller’s house on the Dover Road",
+   "note": "Historic road running out of Southwark"
+  },
+  {
+   "as_written": "Westminster Bridge",
+   "normalized": "Westminster Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I went with him over Westminster Bridge",
+   "note": ""
+  },
+  {
+   "as_written": "the Surrey shore",
+   "normalized": "Surrey side of the Thames, Southwark, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and parted from him on the Surrey shore",
+   "note": "South bank of the Thames"
+  }
+ ]
+}

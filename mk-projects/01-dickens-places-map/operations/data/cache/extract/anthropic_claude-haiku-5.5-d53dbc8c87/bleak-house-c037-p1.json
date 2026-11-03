@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c037-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4891,
+  "completion_tokens": 1043,
+  "total_tokens": 5934,
+  "cost": 0.0010106,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010106,
+   "upstream_inference_prompt_cost": 0.0004891,
+   "upstream_inference_completions_cost": 0.0005215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 741,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dedlock Arms",
+   "normalized": "Dedlock Arms, Chesney Wold village (fictional inn)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "\"You're wanted at the Dedlock Arms.\"",
+   "note": "Fictional inn in a fictional village near Chesney Wold; not locatable."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Lady Dedlock had only stayed at the house two nights on her way from London to visit",
+   "note": ""
+  },
+  {
+   "as_written": "Inns of Court",
+   "normalized": "Inns of Court, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "brightens the dull Inns of Court by making Fortune and her train sport through them",
+   "note": "Collective name for the London legal societies; used figuratively."
+  }
+ ]
+}

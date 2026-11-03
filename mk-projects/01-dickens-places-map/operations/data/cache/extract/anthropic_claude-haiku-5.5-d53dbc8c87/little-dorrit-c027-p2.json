@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c027-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5154,
+  "completion_tokens": 1131,
+  "total_tokens": 6285,
+  "cost": 0.0010809,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010809,
+   "upstream_inference_prompt_cost": 0.0005154,
+   "upstream_inference_completions_cost": 0.0005655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 785,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Oxford Street",
+   "normalized": "Oxford Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "They rode to the top of Oxford Street",
+   "note": ""
+  },
+  {
+   "as_written": "Grosvenor region",
+   "normalized": "Grosvenor Square area (Mayfair), London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the name of one of the dull by-streets in the Grosvenor region, near Park Lane",
+   "note": "Vague district; the street searched is unnamed"
+  },
+  {
+   "as_written": "Park Lane",
+   "normalized": "Park Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "of which there is a labyrinth near Park Lane",
+   "note": ""
+  },
+  {
+   "as_written": "the Park",
+   "normalized": "Hyde Park, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The roll of carriages in the Park was done for the day",
+   "note": "Inferred from context as Hyde Park"
+  }
+ ]
+}

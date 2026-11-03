@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c021-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5558,
+  "completion_tokens": 1240,
+  "total_tokens": 6798,
+  "cost": 0.0011758,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011758,
+   "upstream_inference_prompt_cost": 0.0005558,
+   "upstream_inference_completions_cost": 0.00062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 784,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Royal Hotel",
+   "normalized": "Royal Hotel, Leamington Spa, Warwickshire",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The Major was staying at the Royal Hotel, with his friend Dombey.",
+   "note": "Town not named in passage; location inferred from the novel."
+  },
+  {
+   "as_written": "Harrogate",
+   "normalized": "Harrogate, Yorkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "To Harrogate and Scarborough, and into Devonshire.",
+   "note": ""
+  },
+  {
+   "as_written": "Scarborough",
+   "normalized": "Scarborough, Yorkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "To Harrogate and Scarborough, and into Devonshire.",
+   "note": ""
+  },
+  {
+   "as_written": "Devonshire",
+   "normalized": "Devon, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "To Harrogate and Scarborough, and into Devonshire.",
+   "note": ""
+  },
+  {
+   "as_written": "the garden of what's-its-name",
+   "normalized": "Eden",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in the garden of what’s-its-name.",
+   "note": "Biblical garden named by Edith as 'Eden'; not a mappable place."
+  }
+ ]
+}

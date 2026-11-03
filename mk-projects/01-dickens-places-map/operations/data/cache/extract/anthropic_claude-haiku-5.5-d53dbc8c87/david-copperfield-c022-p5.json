@@ -1,0 +1,39 @@
+{
+ "chunk": "david-copperfield-c022-p5",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3707,
+  "completion_tokens": 424,
+  "total_tokens": 4131,
+  "cost": 0.0005827,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005827,
+   "upstream_inference_prompt_cost": 0.0003707,
+   "upstream_inference_completions_cost": 0.000212
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 364,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to go to London",
+   "note": ""
+  }
+ ]
+}

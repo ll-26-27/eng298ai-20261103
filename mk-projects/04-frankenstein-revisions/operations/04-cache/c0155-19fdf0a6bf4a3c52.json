@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2348,
+  "completion_tokens": 153,
+  "total_tokens": 2501,
+  "cost": 0.0003113,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003113,
+   "upstream_inference_prompt_cost": 0.0002348,
+   "upstream_inference_completions_cost": 0.0000765
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0155. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): I wish you had come three months ago, and then you would have found us all joyous and delighted.\n\n1818 text: But we are now unhappy; and, I am afraid, tears instead of smiles will be your welcome. Our father looks so sorrowful: this dreadful event seems to have revived in his mind his grief on the death of Mamma. Poor Elizabeth also is quite inconsolable.\" Ernest began to weep as he said these words. \"Do not,\" said I, \"welcome me thus; try to be more calm, that I may not be absolutely miserable the moment I enter my father's house after so long an absence. But, tell me, how does my father support his misfortunes? and how is my poor Elizabeth?\" \"She indeed requires consolation; she accused herself of having caused the death of my brother, and that made her very wretched.\n\n1831 text: You come to us now to share a misery which nothing can alleviate; yet your presence will, I hope, revive our father, who seems sinking under his misfortune; and your persuasions will induce poor Elizabeth to cease her vain and tormenting self-accusations.—Poor William! he was our darling and our pride!\" Tears, unrestrained, fell from my brother's eyes; a sense of mortal agony crept over my frame. Before, I had only imagined the wretchedness of my desolated home; the reality came on me as a new, and a not less terrible, disaster. I tried to calm Ernest; I enquired more minutely concerning my father, and her I named my cousin. \"She most of all,\" said Ernest, \"requires consolation; she accused herself of having caused the death of my brother, and that made her very wretched.\n\nDiff: [-But we are now unhappy; and, I am afraid, tears instead of smiles will be your welcome. Our father looks so sorrowful: this dreadful event seems to have revived in his mind his grief on the death of Mamma. Poor Elizabeth also is quite inconsolable.\" Ernest began to weep as he said these words. \"Do not,\" said I, \"welcome me thus; try to be more calm, that I may not be absolutely miserable the moment I enter my father's house after so long an absence. But, tell me, how does my father support his misfortunes? and how is my poor Elizabeth?\" \"She indeed requires consolation; she accused herself of having caused the death of my brother, and that made her very wretched.-] {+You come to us now to share a misery which nothing can alleviate; yet your presence will, I hope, revive our father, who seems sinking under his misfortune; and your persuasions will induce poor Elizabeth to cease her vain and tormenting self-accusations.—Poor William! he was our darling and our pride!\" Tears, unrestrained, fell from my brother's eyes; a sense of mortal agony crept over my frame. Before, I had only imagined the wretchedness of my desolated home; the reality came on me as a new, and a not less terrible, disaster. I tried to calm Ernest; I enquired more minutely concerning my father, and her I named my cousin. \"She most of all,\" said Ernest, \"requires consolation; she accused herself of having caused the death of my brother, and that made her very wretched.+}\n\nContext after (unchanged): But since the murderer has been discovered—\""
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Major rewrite of Ernest's greeting: adds Victor's inner response (\"a sense of mortal agony crept over my frame\", \"Before, I had only imagined the wretchedness\") and reframes the welcome; the 1818 father and Elizabeth details are recast, shifting emphasis to Victor's feelings.",
+  "confidence": "medium",
+  "rationaleWords": 42
+ }
+}

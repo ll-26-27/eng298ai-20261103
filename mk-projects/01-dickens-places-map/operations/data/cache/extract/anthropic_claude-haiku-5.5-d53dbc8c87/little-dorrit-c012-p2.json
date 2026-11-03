@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c012-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4929,
+  "completion_tokens": 1626,
+  "total_tokens": 6555,
+  "cost": 0.0013059,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013059,
+   "upstream_inference_prompt_cost": 0.0004929,
+   "upstream_inference_completions_cost": 0.000813
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 990,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Hatton Garden, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the interior life of Bleeding Heart Yard",
+   "note": "Fictional yard in Dickens's novel, placed near Hatton Garden; treat location as approximate."
+  },
+  {
+   "as_written": "High Holborn",
+   "normalized": "High Holborn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "a stable-yard in High Holborn",
+   "note": ""
+  },
+  {
+   "as_written": "Cheltenham",
+   "normalized": "Cheltenham, Gloucestershire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mrs Captain Barbary of Cheltenham",
+   "note": ""
+  },
+  {
+   "as_written": "Gloucestershire",
+   "normalized": "Gloucestershire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Captain Maroon of Gloucestershire",
+   "note": ""
+  },
+  {
+   "as_written": "Blackfriars Bridge",
+   "normalized": "Blackfriars Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "they drove in that direction over Blackfriars Bridge",
+   "note": ""
+  },
+  {
+   "as_written": "Marshalsea Gate",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "to offer to set him down at the Marshalsea Gate",
+   "note": "Gate of the Marshalsea debtors' prison."
+  },
+  {
+   "as_written": "hampton Court",
+   "normalized": "Hampton Court Palace, Hampton Court, Surrey",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "going to Hampton Court in a Wan",
+   "note": "Written as 'Hampton Court' in the passage."
+  }
+ ]
+}

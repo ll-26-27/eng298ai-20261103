@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1619,
+  "completion_tokens": 118,
+  "total_tokens": 1737,
+  "cost": 0.0002209,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002209,
+   "upstream_inference_prompt_cost": 0.0001619,
+   "upstream_inference_completions_cost": 0.000059
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0483. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Sometimes, when nature, overcome by hunger, sunk under the exhaustion, a repast was prepared for me in the desert, that restored and inspirited me.\n\n1818 text: The fare was indeed coarse, such as the peasants of the country ate; but I may not doubt that it was set there by the spirits that I had invoked to aid me.\n\n1831 text: The fare was, indeed, coarse, such as the peasants of the country ate; but I will not doubt that it was set there by the spirits that I had invoked to aid me.\n\nDiff: The fare was {+,+} indeed {+,+} coarse, such as the peasants of the country ate; but I [-may-] {+will+} not doubt that it was set there by the spirits that I had invoked to aid me.\n\nContext after (unchanged): Often, when all was dry, the heavens cloudless, and I was parched by thirst, a slight cloud would bedim the sky, shed the few drops that revived me, and vanish."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "moral-religious"
+  ],
+  "significance": 3,
+  "rationale": "\"may not doubt\" becomes \"will not doubt\", making the Creature's belief in the spirits' provision more assertive and less hedged; the added commas are punctuation only. The supernatural attribution stays but is firmer.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

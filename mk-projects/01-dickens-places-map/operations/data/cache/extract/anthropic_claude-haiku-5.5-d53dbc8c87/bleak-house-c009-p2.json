@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c009-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5229,
+  "completion_tokens": 1140,
+  "total_tokens": 6369,
+  "cost": 0.0010929,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010929,
+   "upstream_inference_prompt_cost": 0.0005229,
+   "upstream_inference_completions_cost": 0.00057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 715,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Himalaya Mountains",
+   "normalized": "Himalaya Mountains, Asia",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "gone away to the remotest summits of the Himalaya Mountains",
+   "note": ""
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the most astonishing bird in Europe!",
+   "note": "Continent, used in a hyperbolic comparison."
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "living in a hundred Chesney Wolds",
+   "note": "Dedlock family seat in the novel; also 'the park of Chesney Wold'."
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "coming from Lincolnshire, I of course have not yet been in town",
+   "note": ""
+  },
+  {
+   "as_written": "town",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I of course have not yet been in town",
+   "note": "'Town' here means London; inferred, not named."
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c064-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5572,
+  "completion_tokens": 1432,
+  "total_tokens": 7004,
+  "cost": 0.0012732,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012732,
+   "upstream_inference_prompt_cost": 0.0005572,
+   "upstream_inference_completions_cost": 0.000716
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 901,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Boffin’s Bower",
+   "normalized": "Boffin's Bower (Boffin's house and estate), London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the very day when the last waggon-load of the last Mound was driven out at the gates of Boffin’s Bower",
+   "note": "Fictional house in Our Mutual Friend; location uncertain, placed near London by the novel's setting"
+  },
+  {
+   "as_written": "Harmony Jail",
+   "normalized": "Harmony Jail (fictional)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the old hard jailer of Harmony Jail had coined every waif and stray into money",
+   "note": "Fictional name for the dust-heap site and Harmony Jail, Boffin's former residence"
+  },
+  {
+   "as_written": "Clerkenwell",
+   "normalized": "Clerkenwell, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "At a certain point of the road between Clerkenwell and Boffin’s house",
+   "note": ""
+  },
+  {
+   "as_written": "the Bank",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as was going to the Bank to draw out a handsome property",
+   "note": ""
+  },
+  {
+   "as_written": "Mr Venus’s museum",
+   "normalized": "Mr Venus's shop and museum, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "To Mr Venus’s museum Mr Wegg repaired when at length the Mounds were down and gone.",
+   "note": "Location not named in passage"
+  }
+ ]
+}

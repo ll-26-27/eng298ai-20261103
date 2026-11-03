@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c008-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5249,
+  "completion_tokens": 541,
+  "total_tokens": 5790,
+  "cost": 0.0007954,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007954,
+   "upstream_inference_prompt_cost": 0.0005249,
+   "upstream_inference_completions_cost": 0.0002705
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 362,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "even in the City, though we were never so rich",
+   "note": "Refers to the City of London as a commercial district; capitalised in the text."
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the air of Brighton",
+   "note": "Proposed destination for Paul's sea-air; not visited in this passage."
+  }
+ ]
+}

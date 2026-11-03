@@ -1,0 +1,102 @@
+{
+ "chunk": "our-mutual-friend-c003-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5326,
+  "completion_tokens": 1775,
+  "total_tokens": 7101,
+  "cost": 0.0014201,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014201,
+   "upstream_inference_prompt_cost": 0.0005326,
+   "upstream_inference_completions_cost": 0.0008875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1132,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Veneering staircase",
+   "normalized": "Veneering house staircase, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "As the disappearing skirts of the ladies ascended the Veneering staircase",
+   "note": "Fictional household; location in the novel is not given in this passage."
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "going to Canterbury in more gold frame than procession",
+   "note": "Refers to a painted picture of pilgrims, not a visit."
+  },
+  {
+   "as_written": "Red Sea",
+   "normalized": "Red Sea",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Pharaoh’s multitude that were drowned in the Red Sea",
+   "note": "Biblical reference."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "within the limits of the London Post-office town delivery",
+   "note": ""
+  },
+  {
+   "as_written": "Monument",
+   "normalized": "Monument (Fire Monument), London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "rolled down by the Monument and by the Tower",
+   "note": ""
+  },
+  {
+   "as_written": "Tower",
+   "normalized": "Tower of London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "rolled down by the Monument and by the Tower",
+   "note": ""
+  },
+  {
+   "as_written": "Ratcliffe",
+   "normalized": "Ratcliff, Stepney, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "down by Ratcliffe, and by Rotherhithe",
+   "note": ""
+  },
+  {
+   "as_written": "Rotherhithe",
+   "normalized": "Rotherhithe, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "down by Ratcliffe, and by Rotherhithe",
+   "note": ""
+  }
+ ]
+}

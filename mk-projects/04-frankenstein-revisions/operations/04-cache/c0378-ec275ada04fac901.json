@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1979,
+  "completion_tokens": 150,
+  "total_tokens": 2129,
+  "cost": 0.0002729,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002729,
+   "upstream_inference_prompt_cost": 0.0001979,
+   "upstream_inference_completions_cost": 0.000075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0378. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): The sun had far descended, and I still sat on the shore, satisfying my appetite, which had become ravenous, with an oaten cake, when I saw a fishing-boat land close to me, and one of the men brought me a packet; it contained letters from Geneva, and one from Clerval, entreating me to join him.\n\n1818 text: He said that nearly a year had elapsed since we had quitted Switzerland, and France was yet unvisited. He entreated me, therefore, to leave my solitary isle, and meet him at Perth, in a week from that time, when we might arrange the plan of our future proceedings.\n\n1831 text: He said that he was wearing away his time fruitlessly where he was; that letters from the friends he had formed in London desired his return to complete the negotiation they had entered into for his Indian enterprise. He could not any longer delay his departure; but as his journey to London might be followed, even sooner than he now conjectured, by his longer voyage, he entreated me to bestow as much of my society on him as I could spare. He besought me, therefore, to leave my solitary isle, and to meet him at Perth, that we might proceed southwards together.\n\nDiff: [-He said that nearly a year had elapsed since we had quitted Switzerland, and France was yet unvisited. He entreated me, therefore, to leave my solitary isle, and meet him at Perth, in a week from that time, when we might arrange the plan of our future proceedings.-] {+He said that he was wearing away his time fruitlessly where he was; that letters from the friends he had formed in London desired his return to complete the negotiation they had entered into for his Indian enterprise. He could not any longer delay his departure; but as his journey to London might be followed, even sooner than he now conjectured, by his longer voyage, he entreated me to bestow as much of my society on him as I could spare. He besought me, therefore, to leave my solitary isle, and to meet him at Perth, that we might proceed southwards together.+}\n\nContext after (unchanged): This letter in a degree recalled me to life, and I determined to quit my island at the expiration of two days."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "plot",
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "Replaces the 1818 plan (France unvisited, meet in a week to arrange future proceedings) with a new motive: Clerval's London friends and his Indian enterprise, and a voyage southward. This adds a substantive new plot situation and reframes Clerval's purpose, though the core request to meet at Perth stays.",
+  "confidence": "medium",
+  "rationaleWords": 49
+ }
+}

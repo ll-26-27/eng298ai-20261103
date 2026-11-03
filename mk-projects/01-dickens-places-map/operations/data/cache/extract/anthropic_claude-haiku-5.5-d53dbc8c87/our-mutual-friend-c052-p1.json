@@ -1,0 +1,39 @@
+{
+ "chunk": "our-mutual-friend-c052-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5582,
+  "completion_tokens": 569,
+  "total_tokens": 6151,
+  "cost": 0.0008427,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008427,
+   "upstream_inference_prompt_cost": 0.0005582,
+   "upstream_inference_completions_cost": 0.0002845
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 419,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mr Twemlow's",
+   "normalized": "Mr Twemlow's house, Our Mutual Friend (location not stated in passage)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "between her propitiatory bearing there, and her defiant bearing at Mr Twemlow’s",
+   "note": "Refers to the house of a character; no address given in this passage, so it may not be locatable."
+  }
+ ]
+}

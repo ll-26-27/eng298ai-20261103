@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c039-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5429,
+  "completion_tokens": 1098,
+  "total_tokens": 6527,
+  "cost": 0.0010919,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010919,
+   "upstream_inference_prompt_cost": 0.0005429,
+   "upstream_inference_completions_cost": 0.000549
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 710,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the coast of Greenland",
+   "normalized": "Greenland",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "with his eye on the coast of Greenland, seemed to listen for the contents",
+   "note": "Likely a picture or chart in the parlour; Bunsby gazes at it."
+  },
+  {
+   "as_written": "the West Indies",
+   "normalized": "West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "When I left home for the West Indies",
+   "note": "Place Solomon Gills travelled to in his search."
+  },
+  {
+   "as_written": "the Bays of Biscay",
+   "normalized": "Bay of Biscay",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "In the Bays of Biscay, O!",
+   "note": "Named in a song Bunsby bellows."
+  },
+  {
+   "as_written": "the East India Docks",
+   "normalized": "East India Docks, Blackwall, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "like a rushing air from the neighbourhood of the East India Docks",
+   "note": "Comparison for Mrs MacStinger's swift entrance."
+  }
+ ]
+}

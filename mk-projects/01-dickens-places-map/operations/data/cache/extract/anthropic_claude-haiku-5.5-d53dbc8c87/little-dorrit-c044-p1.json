@@ -1,0 +1,102 @@
+{
+ "chunk": "little-dorrit-c044-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5114,
+  "completion_tokens": 1688,
+  "total_tokens": 6802,
+  "cost": 0.0013554,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013554,
+   "upstream_inference_prompt_cost": 0.0005114,
+   "upstream_inference_completions_cost": 0.000844
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 936,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "While the waters of Venice and the ruins of Rome were sunning themselves",
+   "note": "Dorrit family's travels; not a setting here"
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the ruins of Rome were sunning themselves",
+   "note": ""
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the firm of Doyce and Clennam hammered away in Bleeding Heart Yard",
+   "note": "Location of the Doyce and Clennam factory"
+  },
+  {
+   "as_written": "the Circumlocution Office",
+   "normalized": "Circumlocution Office, London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "at the door of the Circumlocution Office",
+   "note": "Fictional government department; Clennam goes to its waiting-rooms"
+  },
+  {
+   "as_written": "Oxford Street",
+   "normalized": "Oxford Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "would pave the footways on both sides of Oxford Street from end to end",
+   "note": "Hypothetical comparison in Barnacle speech"
+  },
+  {
+   "as_written": "Hyde Park Corner",
+   "normalized": "Hyde Park Corner, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "from Hyde Park Corner to the General Post Office",
+   "note": "Hypothetical comparison in Barnacle speech"
+  },
+  {
+   "as_written": "General Post Office",
+   "normalized": "General Post Office, St Martin's le Grand, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "from Hyde Park Corner to the General Post Office",
+   "note": ""
+  },
+  {
+   "as_written": "Twickenham",
+   "normalized": "Twickenham, Middlesex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "visits scarcely less regular to Mr Meagles at Twickenham",
+   "note": "Clennam's visits to Mr Meagles"
+  }
+ ]
+}

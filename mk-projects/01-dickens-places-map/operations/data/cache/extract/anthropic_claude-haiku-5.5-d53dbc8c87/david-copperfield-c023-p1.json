@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c023-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5343,
+  "completion_tokens": 627,
+  "total_tokens": 5970,
+  "cost": 0.0008478,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008478,
+   "upstream_inference_prompt_cost": 0.0005343,
+   "upstream_inference_completions_cost": 0.0003135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "if it would have kept us eight-and-forty hours in Yarmouth",
+   "note": ""
+  },
+  {
+   "as_written": "Egypt",
+   "normalized": "Egypt",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as respectable a mystery as any pyramid in Egypt",
+   "note": ""
+  },
+  {
+   "as_written": "Doctors’ Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "deep in the evidence, pro and con, respecting a clergyman who has misbehaved himself",
+   "note": "Court building near St Paul's; named several times as Doctors' Commons"
+  },
+  {
+   "as_written": "St. Paul’s Churchyard",
+   "normalized": "St Paul's Churchyard, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a lazy old nook near St. Paul’s Churchyard",
+   "note": ""
+  },
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "she had taken lodgings for a week at a kind of private hotel at Lincoln’s Inn Fields",
+   "note": ""
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "If there is any Donkey in Dover, whose audacity it is harder to me to bear than another’s",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "my aunt being firmly persuaded that every house in London was going to be burnt down every night",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c015-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1887,
+  "completion_tokens": 609,
+  "total_tokens": 2496,
+  "cost": 0.0004932,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004932,
+   "upstream_inference_prompt_cost": 0.0001887,
+   "upstream_inference_completions_cost": 0.0003045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 366,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the village",
+   "normalized": "Cooling, Kent (fictional village based on it)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Thus, we came to the village.",
+   "note": "Unnamed village in the novel; Dickens's model is Cooling in the Kent marshes, so the location is approximate."
+  },
+  {
+   "as_written": "the Three Jolly Bargemen",
+   "normalized": "Three Jolly Bargemen inn, Cooling, Kent (fictional inn)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "past the Three Jolly Bargemen, which we were surprised to find",
+   "note": "Fictional inn in the village; not locatable on a real map."
+  }
+ ]
+}

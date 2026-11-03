@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c063-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3539,
+  "completion_tokens": 657,
+  "total_tokens": 4196,
+  "cost": 0.0006824,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006824,
+   "upstream_inference_prompt_cost": 0.0003539,
+   "upstream_inference_completions_cost": 0.0003285
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 424,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "But I shall get on best at Chesney Wold, where there’s more room for a weed than there is here",
+   "note": "Fictional house in the novel; cannot be located."
+  },
+  {
+   "as_written": "the West Indies",
+   "normalized": "West Indies, Caribbean",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "having been in existence, I never could and never would",
+   "note": "Arrival point of the transport-ship; the quote is a placeholder, see passage text: \"within a few hours of her arrival from the West Indies\"."
+  }
+ ]
+}

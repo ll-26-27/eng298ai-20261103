@@ -1,0 +1,156 @@
+{
+ "chunk": "oliver-twist-c048-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5067,
+  "completion_tokens": 2250,
+  "total_tokens": 7317,
+  "cost": 0.0016317,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016317,
+   "upstream_inference_prompt_cost": 0.0005067,
+   "upstream_inference_completions_cost": 0.001125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1068,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "within wide London’s bounds since night hung over it",
+   "note": "Named as the city the murder occurred in; Sikes later boards the mail from London."
+  },
+  {
+   "as_written": "Islington",
+   "normalized": "Islington, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He went through Islington; strode up the hill at Highgate",
+   "note": ""
+  },
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": false,
+   "quote": "strode up the hill at Highgate on which stands the stone in honour of Whittington",
+   "note": "Then a village outside London in Middlesex; now within London."
+  },
+  {
+   "as_written": "the stone in honour of Whittington",
+   "normalized": "Whittington Stone, Highgate Hill, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "strode up the hill at Highgate on which stands the stone in honour of Whittington",
+   "note": "Monument; in_london uncertain as Highgate was then outside London."
+  },
+  {
+   "as_written": "Highgate Hill",
+   "normalized": "Highgate Hill, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "turned down to Highgate Hill, unsteady of purpose",
+   "note": ""
+  },
+  {
+   "as_written": "Caen Wood",
+   "normalized": "Caen Wood, Highgate, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": false,
+   "quote": "skirted Caen Wood, and so came on Hampstead Heath",
+   "note": ""
+  },
+  {
+   "as_written": "Hampstead Heath",
+   "normalized": "Hampstead Heath, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": false,
+   "quote": "skirted Caen Wood, and so came on Hampstead Heath",
+   "note": ""
+  },
+  {
+   "as_written": "the Vale of Heath",
+   "normalized": "Vale of Health, Hampstead Heath, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Traversing the hollow by the Vale of Heath",
+   "note": "Dickens's spelling; modern name is Vale of Health."
+  },
+  {
+   "as_written": "Hampstead",
+   "normalized": "Hampstead, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the road which joins the villages of Hampstead and Highgate",
+   "note": ""
+  },
+  {
+   "as_written": "North End",
+   "normalized": "North End, Hampstead, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": false,
+   "quote": "made along the remaining portion of the heath to the fields at North End",
+   "note": ""
+  },
+  {
+   "as_written": "Hendon",
+   "normalized": "Hendon, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Where could he go, that was near and not too public, to get some meat and drink? Hendon.",
+   "note": ""
+  },
+  {
+   "as_written": "Hatfield",
+   "normalized": "Hatfield, Hertfordshire",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "At last he got away, and shaped his course for Hatfield.",
+   "note": ""
+  },
+  {
+   "as_written": "St. Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "took the road which leads from Hatfield to St. Albans",
+   "note": ""
+  },
+  {
+   "as_written": "Spitalfields",
+   "normalized": "Spitalfields, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I heerd talk of a murder, too, down Spitalfields way",
+   "note": ""
+  }
+ ]
+}

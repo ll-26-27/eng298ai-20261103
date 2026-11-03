@@ -1,0 +1,111 @@
+{
+ "chunk": "david-copperfield-c024-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5029,
+  "completion_tokens": 2003,
+  "total_tokens": 7032,
+  "cost": 0.0015044,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015044,
+   "upstream_inference_prompt_cost": 0.0005029,
+   "upstream_inference_completions_cost": 0.0010015
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1226,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "walked out to Highgate",
+   "note": "Mrs. Steerforth's house; Highgate was then on London's northern edge"
+  },
+  {
+   "as_written": "St. Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "who lived near St. Albans",
+   "note": ""
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "how much the people liked him at Yarmouth",
+   "note": "Presumably Great Yarmouth; the text does not specify"
+  },
+  {
+   "as_written": "Oxford",
+   "normalized": "Oxford",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I felt quite jealous of his Oxford friends",
+   "note": "Refers to Steerforth's university; also 'engagements to go to Oxford'"
+  },
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, Strand, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "what delightful company she would be in Buckingham Street",
+   "note": "Copperfield's own street; the dinner takes place there"
+  },
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I left the Commons early on the third day",
+   "note": "Named only as 'the Commons'; the institution's premises"
+  },
+  {
+   "as_written": "Piazza Hotel, in Covent Garden",
+   "normalized": "Piazza Hotel, Covent Garden, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "who is at the Piazza Hotel, in Covent Garden",
+   "note": ""
+  },
+  {
+   "as_written": "Covent Garden Market",
+   "normalized": "Covent Garden Market, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I bought a little dessert in Covent Garden Market",
+   "note": ""
+  },
+  {
+   "as_written": "the Strand",
+   "normalized": "The Strand, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Walking along the Strand, afterwards",
+   "note": ""
+  }
+ ]
+}

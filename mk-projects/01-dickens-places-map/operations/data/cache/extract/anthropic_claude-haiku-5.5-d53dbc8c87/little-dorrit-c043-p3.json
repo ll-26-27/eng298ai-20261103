@@ -1,0 +1,111 @@
+{
+ "chunk": "little-dorrit-c043-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3095,
+  "completion_tokens": 1540,
+  "total_tokens": 4635,
+  "cost": 0.0010795,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010795,
+   "upstream_inference_prompt_cost": 0.0003095,
+   "upstream_inference_completions_cost": 0.00077
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 757,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Eternal City",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "who led that extensive department of life in the Eternal City that winter",
+   "note": "Figurative name for Rome; the party is in Rome."
+  },
+  {
+   "as_written": "St Peter’s",
+   "normalized": "St Peter's Basilica, Vatican City, Rome",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Everybody was walking about St Peter’s and the Vatican on somebody else’s cork legs",
+   "note": ""
+  },
+  {
+   "as_written": "the Vatican",
+   "normalized": "Vatican City, Rome",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Everybody was walking about St Peter’s and the Vatican on somebody else’s cork legs",
+   "note": ""
+  },
+  {
+   "as_written": "Martigny",
+   "normalized": "Martigny, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to resume an acquaintance so inauspiciously begun at Martigny",
+   "note": ""
+  },
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "He has returned quite transported with Venice.",
+   "note": ""
+  },
+  {
+   "as_written": "the Alps",
+   "normalized": "Alps, Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "if I have not the--hum--great advantage of becoming known to Mr Merdle on this side of the Alps or Mediterranean",
+   "note": ""
+  },
+  {
+   "as_written": "Mediterranean",
+   "normalized": "Mediterranean Sea",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "on this side of the Alps or Mediterranean",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I shall have that honour on returning to England.",
+   "note": ""
+  },
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Here it seemed to Little Dorrit that a change came over the Marshalsea spirit of their society",
+   "note": "Used figuratively for the spirit of the family's former prison life."
+  }
+ ]
+}

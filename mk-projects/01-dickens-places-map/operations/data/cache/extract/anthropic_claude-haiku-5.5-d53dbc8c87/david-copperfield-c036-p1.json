@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c036-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5193,
+  "completion_tokens": 1226,
+  "total_tokens": 6419,
+  "cost": 0.0011323,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011323,
+   "upstream_inference_prompt_cost": 0.0005193,
+   "upstream_inference_completions_cost": 0.000613
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 806,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Roman bath",
+   "normalized": "Roman bath establishment, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I began the next day with another dive into the Roman bath",
+   "note": "Ambiguous: a bathing establishment, exact location not given in passage"
+  },
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "and then started for Highgate.",
+   "note": "Village outside London in Dickens's day; now part of London"
+  },
+  {
+   "as_written": "Highgate road",
+   "normalized": "Highgate Road, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "When I found myself on the familiar Highgate road",
+   "note": "Road route from London to Highgate"
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as if they had been written to about him by the Canterbury rooks",
+   "note": "Refers to Canterbury, where the Doctor formerly lived"
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "\"From India?\" said the Doctor.",
+   "note": ""
+  }
+ ]
+}

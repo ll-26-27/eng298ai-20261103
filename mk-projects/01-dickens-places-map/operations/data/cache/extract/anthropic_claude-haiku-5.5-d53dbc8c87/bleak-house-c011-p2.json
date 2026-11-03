@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c011-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5019,
+  "completion_tokens": 1696,
+  "total_tokens": 6715,
+  "cost": 0.0013499,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013499,
+   "upstream_inference_prompt_cost": 0.0005019,
+   "upstream_inference_completions_cost": 0.000848
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1292,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "bare-headed scouts come hurrying in from Chancery Lane to know what’s the matter",
+   "note": ""
+  },
+  {
+   "as_written": "Mr. Krook’s",
+   "normalized": "Krook’s rag and bottle shop, Cook’s Court, Chancery Lane, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the beadle goes to Mr. Krook’s to keep a small appointment",
+   "note": "Fictional building in Dickens's novel; Cook's Court is not named in this passage"
+  },
+  {
+   "as_written": "Sol’s Arms",
+   "normalized": "Sol’s Arms public house, Cook’s Court, Chancery Lane, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The coroner is to sit in the first-floor room at the Sol’s Arms",
+   "note": "Fictional public house; location inferred from the court setting"
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "aboard a vessel bound for China",
+   "note": ""
+  }
+ ]
+}

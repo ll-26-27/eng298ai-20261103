@@ -1,0 +1,102 @@
+{
+ "chunk": "little-dorrit-c025-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5398,
+  "completion_tokens": 1468,
+  "total_tokens": 6866,
+  "cost": 0.0012738,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012738,
+   "upstream_inference_prompt_cost": 0.0005398,
+   "upstream_inference_completions_cost": 0.000734
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 871,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Pentonville",
+   "normalized": "Pentonville, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "such was the dinner without precedent, given by Pancks at Pentonville",
+   "note": ""
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Holborn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "down Bleeding Heart Yard",
+   "note": "Fictional-sounding name; Dickens's Yard is based on a real court near Hatton Garden."
+  },
+  {
+   "as_written": "Bedfordshire",
+   "normalized": "Bedfordshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there’s a churchyard in Bedfordshire",
+   "note": ""
+  },
+  {
+   "as_written": "York",
+   "normalized": "York, Yorkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there’s an Enquiry in York",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There’s a Church in London",
+   "note": ""
+  },
+  {
+   "as_written": "Durham",
+   "normalized": "Durham, County Durham",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Here’s a Clerk at Durham for you",
+   "note": ""
+  },
+  {
+   "as_written": "Dunstable",
+   "normalized": "Dunstable, Bedfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "an old seafaring gentleman at Dunstable for you",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that England did not, and did not do things that England did",
+   "note": ""
+  }
+ ]
+}

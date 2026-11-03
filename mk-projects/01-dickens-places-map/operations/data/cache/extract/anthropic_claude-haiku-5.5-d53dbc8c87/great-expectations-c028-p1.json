@@ -1,0 +1,129 @@
+{
+ "chunk": "great-expectations-c028-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4638,
+  "completion_tokens": 1248,
+  "total_tokens": 5886,
+  "cost": 0.0010878,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010878,
+   "upstream_inference_prompt_cost": 0.0004638,
+   "upstream_inference_completions_cost": 0.000624
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Joe’s",
+   "normalized": "Joe Gargery's forge, Blacksmith's forge, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "it was equally clear that I must stay at Joe’s",
+   "note": "Joe's home/forge in the town of Rochester (Dickens's 'our town'); fictional-ish setting, locate as Rochester"
+  },
+  {
+   "as_written": "Blue Boar",
+   "normalized": "Blue Boar inn, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "began to invent reasons and make excuses for putting up at the Blue Boar",
+   "note": "Inn name in Dickens's town of Rochester; the novel's Blue Boar is an inn in Rochester"
+  },
+  {
+   "as_written": "Blue Boar’s posting-yard",
+   "normalized": "Blue Boar inn, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "publicly airing his boots in the archway of the Blue Boar’s posting-yard",
+   "note": "Same inn as Blue Boar"
+  },
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, Rochester, Kent",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "might hoot him in the High Street",
+   "note": "Rochester's High Street"
+  },
+  {
+   "as_written": "Cross Keys",
+   "normalized": "Cross Keys inn, Wood Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Our time of starting from the Cross Keys was two o’clock.",
+   "note": "Coaching inn in London (Wood Street, Cheapside) in the novel"
+  },
+  {
+   "as_written": "Half-way House",
+   "normalized": "Half-way House, Kent road between London and Rochester",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when we had left the Half-way House behind",
+   "note": "Coaching inn on the road between London and Rochester; location approximate"
+  },
+  {
+   "as_written": "Three Jolly Bargemen",
+   "normalized": "Three Jolly Bargemen inn, Chinks's Basin, Hamersmith? Kent marshes",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "There stood the man whom I had seen on the settle at the Three Jolly Bargemen on a Saturday night",
+   "note": "Fictional inn on the Thames marshes near Cooling; location uncertain, likely fictional"
+  },
+  {
+   "as_written": "Mr. Pocket’s",
+   "normalized": "Pocket's house, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "had been down to Mr. Pocket’s and back",
+   "note": "Pocket family house in London (Hammersmith/Barnard's Inn area in novel); ambiguous"
+  },
+  {
+   "as_written": "Miss Havisham’s",
+   "normalized": "Satis House, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I should be too far from Miss Havisham’s",
+   "note": "Miss Havisham's house in Rochester; named as Satis House"
+  },
+  {
+   "as_written": "marsh country",
+   "normalized": "Kent marshes near Rochester",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I traced marsh country in the cold damp wind that blew at us.",
+   "note": "General marsh region; approximate"
+  },
+  {
+   "as_written": "dock-yards",
+   "normalized": "Chatham Dockyard, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "it was customary to carry Convicts down to the dock-yards by stage-coach",
+   "note": "Dockyard at Chatham, implied; the 'Dock-yard' in the passage"
+  }
+ ]
+}

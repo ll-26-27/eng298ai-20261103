@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c062-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5085,
+  "completion_tokens": 1032,
+  "total_tokens": 6117,
+  "cost": 0.0010245,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010245,
+   "upstream_inference_prompt_cost": 0.0005085,
+   "upstream_inference_completions_cost": 0.000516
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 748,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I am going over to Canterbury.",
+   "note": "Destination of the ride; Agnes's home is there but the passage does not say so directly."
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "sweeping over those mountain wastes of snow in Switzerland",
+   "note": ""
+  },
+  {
+   "as_written": "Down-land",
+   "normalized": "North Downs, Kent",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the whitened slopes and sweeps of Down-land lying against the dark sky",
+   "note": "Generic term for chalk downland; identified as the North Downs on the Canterbury road."
+  }
+ ]
+}

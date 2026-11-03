@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1534,
+  "completion_tokens": 93,
+  "total_tokens": 1627,
+  "cost": 0.003998,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003998,
+   "upstream_inference_prompt_cost": 0.003068,
+   "upstream_inference_completions_cost": 0.00093
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0221. Location: 1818 Vol. II, Ch. III; 1831 Ch. XI.\n\nContext before (unchanged): Sometimes I wished to express my sensations in my own mode, but the uncouth and inarticulate sounds which broke from me frightened me into silence again.\n\n1818 text: \"The moon had disappeared from the night, and again, with a lessened form, shewed itself, while I still remained in the forest.\n\n1831 text: \"The moon had disappeared from the night, and again, with a lessened form, showed itself, while I still remained in the forest.\n\nDiff: \" The moon had disappeared from the night, and again, with a lessened form, [-shewed-] {+showed+} itself, while I still remained in the forest.\n\nContext after (unchanged): My sensations had, by this time, become distinct, and my mind received every day additional ideas."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the archaic spelling 'shewed' becomes modern 'showed'; the word, tense, and meaning are unchanged, so this is purely orthographic modernization.",
+  "confidence": "high",
+  "rationaleWords": 21
+ }
+}

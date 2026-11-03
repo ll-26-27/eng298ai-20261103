@@ -1,0 +1,129 @@
+{
+ "chunk": "our-mutual-friend-c020-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5648,
+  "completion_tokens": 2204,
+  "total_tokens": 7852,
+  "cost": 0.0016668,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016668,
+   "upstream_inference_prompt_cost": 0.0005648,
+   "upstream_inference_completions_cost": 0.001102
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1311,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Waterloo",
+   "normalized": "Waterloo, Belgium",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "like the Life-Guards at Waterloo",
+   "note": "Battle site, used in a simile"
+  },
+  {
+   "as_written": "Duke Street, Saint James’s",
+   "normalized": "Duke Street, St James's, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "is driven furiously to Duke Street, Saint James’s",
+   "note": ""
+  },
+  {
+   "as_written": "the Monument on Fish Street Hill",
+   "normalized": "Monument to the Great Fire of London, Fish Street Hill, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "looking equally like the Monument on Fish Street Hill",
+   "note": "Used in a simile"
+  },
+  {
+   "as_written": "Fish Street Hill",
+   "normalized": "Fish Street Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "looking equally like the Monument on Fish Street Hill",
+   "note": ""
+  },
+  {
+   "as_written": "Pall Mall",
+   "normalized": "Pall Mall, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to be respectfully contemplated by Pall Mall",
+   "note": "Refers to the street as the club's location; the club itself is unnamed"
+  },
+  {
+   "as_written": "Snigsworthy Park",
+   "normalized": "Snigsworthy Park",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "write down to Snigsworthy Park",
+   "note": "Fictional family seat"
+  },
+  {
+   "as_written": "Pocket-Breaches",
+   "normalized": "Pocket-Breaches",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "take up this borough of Pocket-Breaches on its own terms",
+   "note": "Fictional borough"
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that Italy is not England",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that Italy is not England",
+   "note": ""
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to charge into the City",
+   "note": ""
+  },
+  {
+   "as_written": "the Belgravian Borders",
+   "normalized": "Belgravia, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "dwells over a staymaker’s in the Belgravian Borders",
+   "note": "Lady Tippins's home; Mrs Veneering is only heading there"
+  }
+ ]
+}

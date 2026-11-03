@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1437,
+  "completion_tokens": 553,
+  "total_tokens": 1990,
+  "cost": 0.0004202,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004202,
+   "upstream_inference_prompt_cost": 0.0001437,
+   "upstream_inference_completions_cost": 0.0002765
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 407,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0060. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): This expectation will now be the consolation of your father.\n\n1818 text: Elizabeth, my love, you must supply my place to your younger cousins.\n\n1831 text: Elizabeth, my love, you must supply my place to my younger children.\n\nDiff: Elizabeth, my love, you must supply my place to [-your-] {+my+} younger [-cousins-] {+children+} .\n\nContext after (unchanged): Alas!"
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Caroline's dying charge shifts from Elizabeth's \"your younger cousins\" to \"my younger children,\" recasting Elizabeth as a surrogate mother within Caroline's own family rather than a kinswoman caring for cousins. This alters how Elizabeth's domestic role and family ties are presented.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

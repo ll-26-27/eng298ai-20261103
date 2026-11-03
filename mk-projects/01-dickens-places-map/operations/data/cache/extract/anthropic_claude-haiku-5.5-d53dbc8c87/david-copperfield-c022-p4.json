@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c022-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5379,
+  "completion_tokens": 1458,
+  "total_tokens": 6837,
+  "cost": 0.0012669,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012669,
+   "upstream_inference_prompt_cost": 0.0005379,
+   "upstream_inference_completions_cost": 0.000729
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 962,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "this town",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "She is at present apprenticed, Miss Mowcher, or articled, or whatever it may be, to Omer and Joram, Haberdashers, Milliners, and so forth, in this town.",
+   "note": "Town not named in passage; identified by context as Yarmouth."
+  },
+  {
+   "as_written": "Omer and Joram",
+   "normalized": "Omer and Joram's shop, Great Yarmouth, Norfolk",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to Omer and Joram, Haberdashers, Milliners, and so forth, in this town.",
+   "note": "Business premises named for its proprietors; location inferred from 'this town'."
+  },
+  {
+   "as_written": "Mr. Barkis’s house",
+   "normalized": "Barkis's house, Great Yarmouth, Norfolk",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I was surprised, when I came to Mr. Barkis’s house, to find Ham walking up and down in front of it",
+   "note": "Unnamed house identified by its owner; location inferred from Yarmouth setting."
+  },
+  {
+   "as_written": "Norfolk",
+   "normalized": "Norfolk",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Take care of yourself, jockey of Norfolk!",
+   "note": "Used as a nickname for Copperfield."
+  }
+ ]
+}

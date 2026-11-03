@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1751,
+  "completion_tokens": 425,
+  "total_tokens": 2176,
+  "cost": 0.0003876,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003876,
+   "upstream_inference_prompt_cost": 0.0001751,
+   "upstream_inference_completions_cost": 0.0002125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 307,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0047. Location: 1818 Vol. I, Ch. I; 1831 Ch. I.\n\nContext before (unchanged): My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation.\n\n1818 text: He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; and it was not until the decline of life that he thought of marrying, and bestowing on the state sons who might carry his virtues and his name down to posterity.\n\n1831 text: He was respected by all who knew him, for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; a variety of circumstances had prevented his marrying early, nor was it until the decline of life that he became a husband and the father of a family.\n\nDiff: He was respected by all who knew him {+,+} for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; [-and it-] {+a variety of circumstances had prevented his marrying early, nor+} was [-not-] {+it+} until the decline of life that he [-thought of marrying,-] {+became a husband+} and [-bestowing on-] the [-state sons who might carry his virtues and his name down to posterity-] {+father of a family+} .\n\nContext after (unchanged): As the circumstances of his marriage illustrate his character, I cannot refrain from relating them."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "fate-agency",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Removes the father's deliberate wish to bestow sons who would carry 'his virtues and his name' and substitutes 'a variety of circumstances had prevented his marrying early', recasting his motives and agency.",
+  "confidence": "medium",
+  "rationaleWords": 32
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1902,
+  "completion_tokens": 104,
+  "total_tokens": 2006,
+  "cost": 0.0002422,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002422,
+   "upstream_inference_prompt_cost": 0.0001902,
+   "upstream_inference_completions_cost": 0.000052
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0237. Location: 1818 Vol. II, Ch. IV; 1831 Ch. XII.\n\nContext before (unchanged): Did they really express pain?\n\n1818 text: I was at first unable to solve these questions; but perpetual attention, and time, explained to me many appearances which were at first enigmatic. \"A considerable period elapsed before I discovered one of the causes of the uneasiness of this amiable family; it was poverty: and they suffered that evil in a very distressing degree. Their nourishment consisted entirely of the vegetables of their garden, and the milk of one cow, who gave very little during the winter, when its masters could scarcely procure food to support it.\n\n1831 text: I was at first unable to solve these questions; but perpetual attention and time explained to me many appearances which were at first enigmatic. \"A considerable period elapsed before I discovered one of the causes of the uneasiness of this amiable family: it was poverty; and they suffered that evil in a very distressing degree. Their nourishment consisted entirely of the vegetables of their garden, and the milk of one cow, which gave very little during the winter, when its masters could scarcely procure food to support it.\n\nDiff: I was at first unable to solve these questions; but perpetual attention [-,-] and time [-,-] explained to me many appearances which were at first enigmatic. \" A considerable period elapsed before I discovered one of the causes of the uneasiness of this amiable family [-;-] {+:+} it was poverty [-:-] {+;+} and they suffered that evil in a very distressing degree. Their nourishment consisted entirely of the vegetables of their garden, and the milk of one cow, [-who-] {+which+} gave very little during the winter, when its masters could scarcely procure food to support it.\n\nContext after (unchanged): They often, I believe, suffered the pangs of hunger very poignantly, especially the two younger cottagers; for several times they placed food before the old man, when they reserved none for themselves."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only punctuation changes (commas and semicolons swapped to colons and vice versa) and one relative pronoun, 'who' changed to 'which' for the cow. No change in meaning, events, or characterization.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

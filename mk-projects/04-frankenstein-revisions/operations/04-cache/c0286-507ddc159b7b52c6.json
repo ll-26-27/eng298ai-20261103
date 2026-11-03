@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1745,
+  "completion_tokens": 456,
+  "total_tokens": 2201,
+  "cost": 0.0004025,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004025,
+   "upstream_inference_prompt_cost": 0.0001745,
+   "upstream_inference_completions_cost": 0.000228
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 309,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0286. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): Why did you form a monster so hideous that even you turned from me in disgust?\n\n1818 text: God in pity made man beautiful and alluring, after his own image; but my form is a filthy type of your's, more horrid from its very resemblance. Satan had his companions, fellow-devils, to admire and encourage him; but I am solitary and detested.'\n\n1831 text: God, in pity, made man beautiful and alluring, after his own image; but my form is a filthy type of yours, more horrid even from the very resemblance. Satan had his companions, fellow-devils, to admire and encourage him; but I am solitary and abhorred.'\n\nDiff: God {+,+} in pity {+,+} made man beautiful and alluring, after his own image; but my form is a filthy type of [-your's-] {+yours+} , more horrid {+even+} from [-its-] {+the+} very resemblance. Satan had his companions, fellow-devils, to admire and encourage him; but I am solitary and [-detested-] {+abhorred+} . '\n\nContext after (unchanged): \"These were the reflections of my hours of despondency and solitude; but when I contemplated the virtues of the cottagers, their amiable and benevolent dispositions, I persuaded myself that when they should become acquainted with my admiration of their virtues, they would compassionate me, and overlook my personal deformity."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 2,
+  "rationale": "Mostly stylistic: \"your's\" becomes \"yours\" (spelling), \"its\" becomes \"the\" (\"from the very resemblance\"), and \"detested\" becomes \"abhorred,\" a slightly stronger word for how the creature is regarded. Meaning is essentially unchanged.",
+  "confidence": "medium",
+  "rationaleWords": 31
+ }
+}

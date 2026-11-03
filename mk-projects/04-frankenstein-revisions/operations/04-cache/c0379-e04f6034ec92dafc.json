@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1802,
+  "completion_tokens": 104,
+  "total_tokens": 1906,
+  "cost": 0.0002322,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002322,
+   "upstream_inference_prompt_cost": 0.0001802,
+   "upstream_inference_completions_cost": 0.000052
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0379. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): This letter in a degree recalled me to life, and I determined to quit my island at the expiration of two days.\n\n1818 text: Yet, before I departed, there was a task to perform, on which I shuddered to reflect: I must pack my chemical instruments; and for that purpose I must enter the room which had been the scene of my odious work, and I must handle those utensils, the sight of which was sickening to me. The next morning, at day-break, I summoned sufficient courage, and unlocked the door of my laboratory.\n\n1831 text: Yet, before I departed, there was a task to perform, on which I shuddered to reflect: I must pack up my chemical instruments; and for that purpose I must enter the room which had been the scene of my odious work, and I must handle those utensils, the sight of which was sickening to me. The next morning, at daybreak, I summoned sufficient courage, and unlocked the door of my laboratory.\n\nDiff: Yet, before I departed, there was a task to perform, on which I shuddered to reflect: I must pack {+up+} my chemical instruments; and for that purpose I must enter the room which had been the scene of my odious work, and I must handle those utensils, the sight of which was sickening to me. The next morning, at [-day-break-] {+daybreak+} , I summoned sufficient courage, and unlocked the door of my laboratory.\n\nContext after (unchanged): The remains of the half-finished creature, whom I had destroyed, lay scattered on the floor, and I almost felt as if I had mangled the living flesh of a human being."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Only 'pack up' for 'pack' (phrasal verb addition) and 'daybreak' for 'day-break' (hyphen dropped, compound spelling); no change to meaning or events.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c017-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5161,
+  "completion_tokens": 1183,
+  "total_tokens": 6344,
+  "cost": 0.0011076,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011076,
+   "upstream_inference_prompt_cost": 0.0005161,
+   "upstream_inference_completions_cost": 0.0005915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 879,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Kingston",
+   "normalized": "Kingston upon Thames, Surrey",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "came over from Kingston, my present headquarters",
+   "note": "Gowan's temporary base; in Dickens's day outside London (Surrey)."
+  },
+  {
+   "as_written": "Mount Etna",
+   "normalized": "Mount Etna, Sicily",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in the crater of Mount Etna",
+   "note": "Mountain, not a regional type in the schema; used figuratively."
+  },
+  {
+   "as_written": "Circumlocution Office",
+   "normalized": "Circumlocution Office (fictional government office), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "that which had made him burst out of the Circumlocution Office",
+   "note": "Fictional government office; London location implied by the novel."
+  }
+ ]
+}

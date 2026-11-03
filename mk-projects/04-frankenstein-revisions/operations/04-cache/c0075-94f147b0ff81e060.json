@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1702,
+  "completion_tokens": 122,
+  "total_tokens": 1824,
+  "cost": 0.0002312,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002312,
+   "upstream_inference_prompt_cost": 0.0001702,
+   "upstream_inference_completions_cost": 0.000061
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0075. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): His manners in private were even more mild and attractive than in public; for there was a certain dignity in his mien during his lecture, which in his own house was replaced by the greatest affability and kindness.\n\n1818 text: He heard with attention my little narration concerning my studies, and smiled at the names of Cornelius Agrippa, and Paracelsus, but without the contempt that M. Krempe had exhibited.\n\n1831 text: I gave him pretty nearly the same account of my former pursuits as I had given to his fellow-professor. He heard with attention the little narration concerning my studies, and smiled at the names of Cornelius Agrippa and Paracelsus, but without the contempt that M. Krempe had exhibited.\n\nDiff: {+I gave him pretty nearly the same account of my former pursuits as I had given to his fellow-professor.+} He heard with attention [-my-] {+the+} little narration concerning my studies, and smiled at the names of Cornelius Agrippa [-,-] and Paracelsus, but without the contempt that M. Krempe had exhibited.\n\nContext after (unchanged): He said, that \"these were men to whose indefatigable zeal modern philosophers were indebted for most of the foundations of their knowledge."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 2,
+  "rationale": "Adds a new sentence linking Clerval-like account to Krempe ('same account... as I had given to his fellow-professor'), a elaboration of the scene; other edits ('my' to 'the', comma deletion) are minor wording and punctuation.",
+  "confidence": "medium",
+  "rationaleWords": 35
+ }
+}

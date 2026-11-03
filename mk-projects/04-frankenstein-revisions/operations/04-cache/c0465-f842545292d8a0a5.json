@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1563,
+  "completion_tokens": 146,
+  "total_tokens": 1709,
+  "cost": 0.0002293,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002293,
+   "upstream_inference_prompt_cost": 0.0001563,
+   "upstream_inference_completions_cost": 0.000073
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0465. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): Cursed, cursed be the fiend that brought misery on his grey hairs, and doomed him to waste in wretchedness!\n\n1818 text: He could not live under the horrors that were accumulated around him; an apoplectic fit was brought on, and in a few days he died in my arms.\n\n1831 text: He could not live under the horrors that were accumulated around him; the springs of existence suddenly gave way: he was unable to rise from his bed, and in a few days he died in my arms.\n\nDiff: He could not live under the horrors that were accumulated around him; [-an apoplectic fit-] {+the springs of existence suddenly gave way: he+} was [-brought on-] {+unable to rise from his bed+} , and in a few days he died in my arms.\n\nContext after (unchanged): What then became of me?"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "expansion"
+  ],
+  "significance": 3,
+  "rationale": "Replaces the medical term 'an apoplectic fit was brought on' with the vaguer, more lyrical 'the springs of existence suddenly gave way: he was unable to rise from his bed.' Same event (Justine's... Victor's father dies), but the diction shifts from clinical cause to metaphorical collapse.",
+  "confidence": "medium",
+  "rationaleWords": 46
+ }
+}

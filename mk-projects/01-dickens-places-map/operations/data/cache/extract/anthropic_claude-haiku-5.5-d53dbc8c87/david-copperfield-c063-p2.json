@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c063-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 3711,
+  "completion_tokens": 1514,
+  "total_tokens": 5225,
+  "cost": 0.0011281,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011281,
+   "upstream_inference_prompt_cost": 0.0003711,
+   "upstream_inference_completions_cost": 0.000757
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 954,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Port Middlebay",
+   "normalized": "Port Middlebay, colonial Australia (fictional town)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The public dinner to our distinguished fellow-colonist and townsman, WILKINS MICAWBER, ESQUIRE, Port Middlebay District Magistrate",
+   "note": "Fictional colonial town; Dickens's setting for the Micawbers in Australia."
+  },
+  {
+   "as_written": "Colonial Salem-House Grammar School, Port Middlebay",
+   "normalized": "Colonial Salem-House Grammar School, Port Middlebay",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Doctor Mell (of Colonial Salem-House Grammar School, Port Middlebay) presided",
+   "note": "Fictional school, echoing Salem House in the novel."
+  },
+  {
+   "as_written": "Middlesex",
+   "normalized": "Middlesex, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "formerly poor pinched usher to my Middlesex magistrate",
+   "note": "Refers to Mr. Micawber's earlier magistracy; county boundaries overlap London."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "his sister and my aunt came to London to see him",
+   "note": ""
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "he went with me to Yarmouth, to see a little tablet I had put up in the churchyard",
+   "note": ""
+  }
+ ]
+}

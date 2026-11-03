@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1543,
+  "completion_tokens": 117,
+  "total_tokens": 1660,
+  "cost": 0.0002128,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002128,
+   "upstream_inference_prompt_cost": 0.0001543,
+   "upstream_inference_completions_cost": 0.0000585
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0509. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): When I reflected on the work I had completed, no less a one than the creation of a sensitive and rational animal, I could not rank myself with the herd of common projectors.\n\n1818 text: But this feeling, which supported me in the commencement of my career, now serves only to plunge me lower in the dust.\n\n1831 text: But this thought, which supported me in the commencement of my career, now serves only to plunge me lower in the dust.\n\nDiff: But this [-feeling-] {+thought+} , which supported me in the commencement of my career, now serves only to plunge me lower in the dust.\n\nContext after (unchanged): All my speculations and hopes are as nothing; and, like the archangel who aspired to omnipotence, I am chained in an eternal hell."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Single word swap 'feeling' to 'thought' keeps the meaning of the sentence; it shifts the self-reflection from emotion toward intellectual reflection, a minor stylistic change in diction rather than a change in events or moral judgment.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

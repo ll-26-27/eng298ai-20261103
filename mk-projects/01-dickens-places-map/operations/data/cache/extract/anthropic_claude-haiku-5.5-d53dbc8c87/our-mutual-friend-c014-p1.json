@@ -1,0 +1,39 @@
+{
+ "chunk": "our-mutual-friend-c014-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5305,
+  "completion_tokens": 578,
+  "total_tokens": 5883,
+  "cost": 0.0008195,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008195,
+   "upstream_inference_prompt_cost": 0.0005305,
+   "upstream_inference_completions_cost": 0.000289
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 435,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Grandmamma's cottage",
+   "normalized": "Grandmamma's cottage (from the Little Red Riding Hood tale)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "like the dreadfully facetious Wolf in bed in Grandmamma's cottage",
+   "note": "Cottage in a nursery tale, referred to in a simile; not a real location."
+  }
+ ]
+}

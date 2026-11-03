@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c039-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5141,
+  "completion_tokens": 991,
+  "total_tokens": 6132,
+  "cost": 0.0010096,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010096,
+   "upstream_inference_prompt_cost": 0.0005141,
+   "upstream_inference_completions_cost": 0.0004955
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 621,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "recalling the old Marshalsea room, her present existence was a dream",
+   "note": "Debtors' prison; referred to throughout as a memory of home."
+  },
+  {
+   "as_written": "Simplon",
+   "normalized": "Simplon Pass, Switzerland-Italy border",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The gorges of the Simplon, its enormous depths and thundering waterfalls",
+   "note": "Mountain pass the family travels through."
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the descent into Italy, the opening of that beautiful land",
+   "note": ""
+  },
+  {
+   "as_written": "Dorsetshire",
+   "normalized": "Dorsetshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the sole remaining branch of the Dorrits of Dorsetshire",
+   "note": "Historic county name."
+  }
+ ]
+}

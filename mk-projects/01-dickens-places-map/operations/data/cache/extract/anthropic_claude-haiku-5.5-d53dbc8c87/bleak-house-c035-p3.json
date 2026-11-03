@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c035-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5183,
+  "completion_tokens": 389,
+  "total_tokens": 5572,
+  "cost": 0.0007128,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007128,
+   "upstream_inference_prompt_cost": 0.0005183,
+   "upstream_inference_completions_cost": 0.0001945
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 266,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "those East Indian seas",
+   "normalized": "East Indian seas (Indian Ocean region, Dickens's day)",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there has been a terrible shipwreck over in those East Indian seas.",
+   "note": "Vague regional reference rather than a precise location; approximate."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c038-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5381,
+  "completion_tokens": 1685,
+  "total_tokens": 7066,
+  "cost": 0.0013806,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013806,
+   "upstream_inference_prompt_cost": 0.0005381,
+   "upstream_inference_completions_cost": 0.0008425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1222,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Happy Return",
+   "normalized": "Happy Return (public house), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "On that very night of her return from the Happy Return, something chanced",
+   "note": "Location not given in passage; the name may be an invented tavern."
+  },
+  {
+   "as_written": "Boffin mansion",
+   "normalized": "Boffin mansion (Boffins' house in Our Mutual Friend)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "There was an apartment at the side of the Boffin mansion, known as Mr Boffin’s room.",
+   "note": "Descriptive name for a house whose location is not stated in this passage."
+  },
+  {
+   "as_written": "Silas Wegg’s old corner",
+   "normalized": "Silas Wegg's old corner (Wegg's former pitch, Our Mutual Friend)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "its windows gave on Silas Wegg’s old corner",
+   "note": "A former stall pitch named after a character; location not stated here."
+  },
+  {
+   "as_written": "the Bower",
+   "normalized": "Boffin's Bower (Holloway, London)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when he first came to see us at the Bower",
+   "note": "Boffins' house in the novel, usually placed at Holloway; passage does not say so directly."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1705,
+  "completion_tokens": 121,
+  "total_tokens": 1826,
+  "cost": 0.000231,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000231,
+   "upstream_inference_prompt_cost": 0.0001705,
+   "upstream_inference_completions_cost": 0.0000605
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0030. Location: 1818 Letter III; 1831 Letter III.\n\nContext before (unchanged): We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not expected.\n\n1818 text: No incidents have hitherto befallen us, that would make a figure in a letter. One or two stiff gales, and the breaking of a mast, are accidents which experienced navigators scarcely remember to record; and I shall be well content, if nothing worse happen to us during our voyage.\n\n1831 text: No incidents have hitherto befallen us that would make a figure in a letter. One or two stiff gales, and the springing of a leak, are accidents which experienced navigators scarcely remember to record; and I shall be well content if nothing worse happen to us during our voyage.\n\nDiff: No incidents have hitherto befallen us [-,-] that would make a figure in a letter. One or two stiff gales, and the [-breaking-] {+springing+} of a [-mast-] {+leak+} , are accidents which experienced navigators scarcely remember to record; and I shall be well content [-,-] if nothing worse happen to us during our voyage.\n\nContext after (unchanged): Adieu, my dear Margaret."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "plot"
+  ],
+  "significance": 3,
+  "rationale": "Replaces \"the breaking of a mast\" with \"the springing of a leak\"; the sentence still names a minor accident, but the damage changes from a dismasting to a leak, subtly altering the ship's condition and Walton's tone of unease.",
+  "confidence": "medium",
+  "rationaleWords": 39
+ }
+}

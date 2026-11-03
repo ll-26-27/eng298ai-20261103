@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1780,
+  "completion_tokens": 119,
+  "total_tokens": 1899,
+  "cost": 0.0002375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002375,
+   "upstream_inference_prompt_cost": 0.000178,
+   "upstream_inference_completions_cost": 0.0000595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0232. Location: 1818 Vol. II, Ch. III; 1831 Ch. XI.\n\nContext before (unchanged): \"Soon after this the young man returned, bearing on his shoulders a load of wood.\n\n1818 text: The girl met him at the door, helped to relieve him of his burden, and, taking some of the fuel into the cottage, placed it on the fire; then she and the youth went apart into a nook of the cottage, and he shewed her a large loaf and a piece of cheese. She seemed pleased; and went into the garden for some roots and plants, which she placed in water, and then upon the fire.\n\n1831 text: The girl met him at the door, helped to relieve him of his burden, and, taking some of the fuel into the cottage, placed it on the fire; then she and the youth went apart into a nook of the cottage, and he showed her a large loaf and a piece of cheese. She seemed pleased, and went into the garden for some roots and plants, which she placed in water, and then upon the fire.\n\nDiff: The girl met him at the door, helped to relieve him of his burden, and, taking some of the fuel into the cottage, placed it on the fire; then she and the youth went apart into a nook of the cottage, and he [-shewed-] {+showed+} her a large loaf and a piece of cheese. She seemed pleased [-;-] {+,+} and went into the garden for some roots and plants, which she placed in water, and then upon the fire.\n\nContext after (unchanged): She afterwards continued her work, whilst the young man went into the garden, and appeared busily employed in digging and pulling up roots."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Main change is orthographic: 'shewed' becomes 'showed', a modernised spelling with no change in meaning. The semicolon-to-comma swap in 'She seemed pleased, and went' is punctuation only, not a change of sense.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

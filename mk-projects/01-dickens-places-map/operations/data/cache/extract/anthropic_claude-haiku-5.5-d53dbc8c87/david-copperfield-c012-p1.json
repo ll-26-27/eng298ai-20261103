@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c012-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5183,
+  "completion_tokens": 962,
+  "total_tokens": 6145,
+  "cost": 0.0009993,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009993,
+   "upstream_inference_prompt_cost": 0.0005183,
+   "upstream_inference_completions_cost": 0.000481
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 611,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "King's Bench",
+   "normalized": "King's Bench Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Mr. Micawber returned to the King’s Bench when his case was over",
+   "note": "Debtors' prison; the club within it is the setting for the evening"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr. Micawber should quit London, and exert his talents in the country.",
+   "note": ""
+  },
+  {
+   "as_written": "Plymouth",
+   "normalized": "Plymouth, Devon",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr. Micawber should go down to Plymouth.",
+   "note": ""
+  },
+  {
+   "as_written": "Custom House",
+   "normalized": "Custom House, Plymouth",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "something might be done for a man of his ability in the Custom House",
+   "note": "Location unclear; context suggests Plymouth but could be London"
+  }
+ ]
+}

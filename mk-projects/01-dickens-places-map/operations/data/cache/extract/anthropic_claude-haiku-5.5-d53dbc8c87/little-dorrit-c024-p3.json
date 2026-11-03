@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c024-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5394,
+  "completion_tokens": 1877,
+  "total_tokens": 7271,
+  "cost": 0.0014779,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014779,
+   "upstream_inference_prompt_cost": 0.0005394,
+   "upstream_inference_completions_cost": 0.0009385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1378,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "A garret, and a Marshalsea garret without compromise, was Little Dorrit’s room.",
+   "note": ""
+  },
+  {
+   "as_written": "the Lodge",
+   "normalized": "Lodge of Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "found him to her astonishment in the Lodge one night",
+   "note": "Prison gatehouse; part of Marshalsea."
+  },
+  {
+   "as_written": "the College",
+   "normalized": "The College, Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "taking a Sunday saunter into the College on that gentleman’s arm",
+   "note": "Debtors' area within the Marshalsea; name as used in the novel."
+  },
+  {
+   "as_written": "the Snuggery",
+   "normalized": "The Snuggery, Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the social club that held its meetings in the Snuggery",
+   "note": "Club room within the prison."
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Holborn, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "down Bleeding Heart Yard that this was Pancks",
+   "note": ""
+  }
+ ]
+}

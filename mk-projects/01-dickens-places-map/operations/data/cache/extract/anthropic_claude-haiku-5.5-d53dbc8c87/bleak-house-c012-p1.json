@@ -1,0 +1,165 @@
+{
+ "chunk": "bleak-house-c012-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5445,
+  "completion_tokens": 3715,
+  "total_tokens": 9160,
+  "cost": 0.002402,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002402,
+   "upstream_inference_prompt_cost": 0.0005445,
+   "upstream_inference_completions_cost": 0.0018575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2390,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It has left off raining down in Lincolnshire at last",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "communicates the glad tidings to benighted England",
+   "note": ""
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold, Lincolnshire",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Chesney Wold has taken heart",
+   "note": "Fictional Dedlock seat in Lincolnshire"
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Fling Paris back into the distance, then",
+   "note": ""
+  },
+  {
+   "as_written": "Hôtel Bristol",
+   "normalized": "Hôtel Bristol, Paris",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "they rattle out of the yard of the Hôtel Bristol in the Place Vendôme",
+   "note": ""
+  },
+  {
+   "as_written": "Place Vendôme",
+   "normalized": "Place Vendôme, Paris",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": false,
+   "quote": "they rattle out of the yard of the Hôtel Bristol in the Place Vendôme",
+   "note": ""
+  },
+  {
+   "as_written": "Rue de Rivoli",
+   "normalized": "Rue de Rivoli, Paris",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "canter between the sun-and-shadow-chequered colonnade of the Rue de Rivoli",
+   "note": ""
+  },
+  {
+   "as_written": "the garden of the ill-fated palace of a headless king and queen",
+   "normalized": "Tuileries Garden, Paris",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the garden of the ill-fated palace of a headless king and queen",
+   "note": "Identified by description; inferred as Tuileries"
+  },
+  {
+   "as_written": "the Place of Concord",
+   "normalized": "Place de la Concorde, Paris",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": false,
+   "quote": "off by the Place of Concord, and the Elysian Fields",
+   "note": ""
+  },
+  {
+   "as_written": "the Elysian Fields",
+   "normalized": "Champs-Élysées, Paris",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "walking, a score abreast, in the Elysian Fields",
+   "note": "Archaic English name"
+  },
+  {
+   "as_written": "the Gate of the Star",
+   "normalized": "Arc de Triomphe de l'Étoile, Paris",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "with the Gate of the Star a white speck glittering in the sun",
+   "note": "Barrière de l'Étoile"
+  },
+  {
+   "as_written": "the Cathedral of Our Lady",
+   "normalized": "Notre-Dame Cathedral, Paris",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "through the gloomy Cathedral of Our Lady",
+   "note": ""
+  },
+  {
+   "as_written": "the Golden Ape",
+   "normalized": "Golden Ape inn (location unknown)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "says Madame, the hostess of the Golden Ape",
+   "note": "Inn location not stated"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lying only one night in London on the way to Lincolnshire",
+   "note": ""
+  },
+  {
+   "as_written": "the Ghost’s Walk",
+   "normalized": "Ghost’s Walk, Chesney Wold park",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Ghost’s Walk, touched at the western corner by a pile of fire in the sky",
+   "note": "Named feature of the fictional park"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2199,
+  "completion_tokens": 147,
+  "total_tokens": 2346,
+  "cost": 0.0002934,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002934,
+   "upstream_inference_prompt_cost": 0.0002199,
+   "upstream_inference_completions_cost": 0.0000735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0074. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): They have acquired new and almost unlimited powers; they can command the thunders of heaven, mimic the earthquake, and even mock the invisible world with its own shadows.\"\n\n1818 text: I departed highly pleased with the professor and his lecture, and paid him a visit the same evening.\n\n1831 text: Such were the professor's words—rather let me say such the words of fate, enounced to destroy me. As he went on, I felt as if my soul were grappling with a palpable enemy; one by one the various keys were touched which formed the mechanism of my being: chord after chord was sounded, and soon my mind was filled with one thought, one conception, one purpose. So much has been done, exclaimed the soul of Frankenstein,—more, far more, will I achieve: treading in the steps already marked, I will pioneer a new way, explore unknown powers, and unfold to the world the deepest mysteries of creation. I closed not my eyes that night. My internal being was in a state of insurrection and turmoil; I felt that order would thence arise, but I had no power to produce it. By degrees, after the morning's dawn, sleep came. I awoke, and my yesternight's thoughts were as a dream. There only remained a resolution to return to my ancient studies, and to devote myself to a science for which I believed myself to possess a natural talent. On the same day, I paid M. Waldman a visit.\n\nDiff: [-I departed highly pleased with the professor and his lecture, and paid him a visit the same evening.-] {+Such were the professor's words—rather let me say such the words of fate, enounced to destroy me. As he went on, I felt as if my soul were grappling with a palpable enemy; one by one the various keys were touched which formed the mechanism of my being: chord after chord was sounded, and soon my mind was filled with one thought, one conception, one purpose. So much has been done, exclaimed the soul of Frankenstein,—more, far more, will I achieve: treading in the steps already marked, I will pioneer a new way, explore unknown powers, and unfold to the world the deepest mysteries of creation. I closed not my eyes that night. My internal being was in a state of insurrection and turmoil; I felt that order would thence arise, but I had no power to produce it. By degrees, after the morning's dawn, sleep came. I awoke, and my yesternight's thoughts were as a dream. There only remained a resolution to return to my ancient studies, and to devote myself to a science for which I believed myself to possess a natural talent. On the same day, I paid M. Waldman a visit.+}\n\nContext after (unchanged): His manners in private were even more mild and attractive than in public; for there was a certain dignity in his mien during his lecture, which in his own house was replaced by the greatest affability and kindness."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "fate-agency",
+   "moral-religious",
+   "characterization"
+  ],
+  "significance": 5,
+  "rationale": "Replaces a single plain sentence with a long passage: 'words of fate, enounced to destroy me', the soul's insurrection and turmoil, and Frankenstein's ambition. It reframes the lecture as fated and damning and deepens his inner life, a major revision scholars discuss.",
+  "confidence": "high",
+  "rationaleWords": 42
+ }
+}

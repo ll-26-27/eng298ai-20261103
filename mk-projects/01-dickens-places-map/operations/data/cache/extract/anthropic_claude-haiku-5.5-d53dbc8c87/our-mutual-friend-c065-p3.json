@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c065-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3173,
+  "completion_tokens": 828,
+  "total_tokens": 4001,
+  "cost": 0.0007313,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007313,
+   "upstream_inference_prompt_cost": 0.0003173,
+   "upstream_inference_completions_cost": 0.000414
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 517,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lock House",
+   "normalized": "Lock House, Plashwater Weir Lock, upper Thames (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Without a sign to show that he heard, Bradley walked out of the Lock House.",
+   "note": "Fictional lock-keeper's house on the upper Thames, not in London; location uncertain."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Bradley turned towards London.",
+   "note": ""
+  },
+  {
+   "as_written": "The Weir",
+   "normalized": "Plashwater Weir, upper Thames (fictional)",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The Weir’s there, and you’ll have to come back, you know.",
+   "note": "Named as 'The Weir' only; identification with Plashwater Weir is inferred."
+  }
+ ]
+}

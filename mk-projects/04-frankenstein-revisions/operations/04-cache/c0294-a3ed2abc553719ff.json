@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1841,
+  "completion_tokens": 98,
+  "total_tokens": 1939,
+  "cost": 0.0002331,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002331,
+   "upstream_inference_prompt_cost": 0.0001841,
+   "upstream_inference_completions_cost": 0.000049
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0294. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): 'Who is there?' said the old man—'Come in.'\n\n1818 text: \"I entered; 'Pardon this intrusion,' said I, 'I am a traveller in want of a little rest; you would greatly oblige me, if you would allow me to remain a few minutes before the fire.' \"'Enter,' said De Lacy; 'and I will try in what manner I can relieve your wants; but, unfortunately, my children are from home, and, as I am blind, I am afraid I shall find it difficult to procure food for you.'\n\n1831 text: \"I entered; 'Pardon this intrusion,' said I: 'I am a traveller in want of a little rest; you would greatly oblige me, if you would allow me to remain a few minutes before the fire.' \"'Enter,' said De Lacey; 'and I will try in what manner I can relieve your wants; but, unfortunately, my children are from home, and, as I am blind, I am afraid I shall find it difficult to procure food for you.'\n\nDiff: \" I entered; 'Pardon this intrusion, ' said I [-,-] {+:+} 'I am a traveller in want of a little rest; you would greatly oblige me, if you would allow me to remain a few minutes before the fire. ' \" 'Enter, ' said De [-Lacy-] {+Lacey+} ; 'and I will try in what manner I can relieve your wants; but, unfortunately, my children are from home, and, as I am blind, I am afraid I shall find it difficult to procure food for you. '\n\nContext after (unchanged): \"'Do not trouble yourself, my kind host, I have food; it is warmth and rest only that I need.'"
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Punctuation change (comma to colon) and the spelling of the name De Lacy to De Lacey; no change in meaning or events, though the name respelling is an orthographic revision.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

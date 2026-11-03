@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c022-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5019,
+  "completion_tokens": 1188,
+  "total_tokens": 6207,
+  "cost": 0.0010959,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010959,
+   "upstream_inference_prompt_cost": 0.0005019,
+   "upstream_inference_completions_cost": 0.000594
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 832,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Leamington",
+   "normalized": "Leamington Spa, Warwickshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It was in the writing of his great chief, Mr Dombey, and dated from Leamington.",
+   "note": ""
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "appoint some other young man and keep him in the City for the present.",
+   "note": ""
+  },
+  {
+   "as_written": "the offices of Dombey and Son",
+   "normalized": "Dombey and Son offices, City of London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "If there had been anything in the offices of Dombey and Son that he could read",
+   "note": "Fictional firm's offices; location inferred as City of London."
+  },
+  {
+   "as_written": "the Docks",
+   "normalized": "London Docks, Wapping",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "that he considered something might be done for him about the Docks",
+   "note": "Ambiguous; probably the London docks."
+  }
+ ]
+}

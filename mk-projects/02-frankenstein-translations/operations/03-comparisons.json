@@ -1,0 +1,616 @@
+{
+  "categories": [
+    "omission",
+    "addition",
+    "intensification",
+    "softening",
+    "domestication",
+    "shift in meaning"
+  ],
+  "note": "Categories are an interpretive choice made for this exercise.",
+  "comparisons": [
+    {
+      "id": "fr-1821",
+      "language": "French",
+      "model": "anthropic/claude-sonnet-5.5",
+      "back_translation": "It was in November, during a dreadful night, that I saw the accomplishment of my labours. In an anxiety close to agony, I gathered around me the instruments suited to giving life, in order to introduce a spark of existence into that inanimate matter which was at my feet. The bronze had already struck the first hour after midnight; the rain beat, with a horrible hissing, against my windows; my light was close to going out, when, by that wavering glimmer, I saw the yellow and stupid eye of the creature open: it breathed with force, and its limbs were agitated by a convulsive movement.\n\nHow to describe what I felt at this sight, or how to paint the unfortunate being whose formation had cost me so many efforts, pains, and cares? His limbs were of a just proportion, and the features I had given him were no less beautiful. Beautiful!... great God! his yellow skin barely covered the system of muscles and arteries: his flowing hair was a shining black; his teeth were white as pearls; but these advantages formed only a more horrible contrast with insipid eyes, which seemed almost the same colour as their white and dark sockets; a wrinkled skin, and black lips pressed tight against one another.",
+      "changes": [
+        {
+          "shelley": "dreary night of November",
+          "translation": "Ce fut en novembre, pendant une nuit affreuse",
+          "back_translation": "It was in November, during a dreadful night",
+          "category": "intensification",
+          "rationale": "\"Dreary\" (gloomy, bleak) becomes \"affreuse\" (dreadful, frightful), a stronger and more fearful word.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the lifeless thing that lay at my feet",
+          "translation": "cette matière inanimée qui était à mes pieds",
+          "back_translation": "that inanimate matter which was at my feet",
+          "category": "softening",
+          "rationale": "\"Thing\" with its note of horror becomes the more abstract, scientific \"matière\"; \"lifeless\" becomes the technical \"inanimée\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "It was already one in the morning",
+          "translation": "L'airain avait déjà sonné la première heure après minuit",
+          "back_translation": "The bronze had already struck the first hour after midnight",
+          "category": "domestication",
+          "rationale": "A plain time statement becomes a literary, poetic image of a tolling bell (\"l'airain\"), which also adds a sound not in the source.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the rain pattered dismally against the panes",
+          "translation": "la pluie battait, avec un sifflement horrible, contre mes fenêtres",
+          "back_translation": "the rain beat, with a horrible hissing, against my windows",
+          "category": "intensification",
+          "rationale": "Gentle \"pattered\" becomes the more violent \"battait\" with an added \"horrible hissing\"; \"dismally\" becomes \"horrible\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "my candle was nearly burnt out",
+          "translation": "ma lumière était près de s'éteindre",
+          "back_translation": "my light was close to going out",
+          "category": "shift in meaning",
+          "rationale": "\"Candle\" becomes the generic \"lumière\" and \"burnt out\" becomes \"going out\", a small loss of concreteness; may be partly stylistic.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the glimmer of the half-extinguished light",
+          "translation": "cette lueur vacillante",
+          "back_translation": "that wavering glimmer",
+          "category": "shift in meaning",
+          "rationale": "\"Half-extinguished\" (dying) becomes \"vacillante\" (flickering), changing the image from fading to unsteady.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the dull yellow eye",
+          "translation": "l'œil jaune et stupide",
+          "back_translation": "the yellow and stupid eye",
+          "category": "shift in meaning",
+          "rationale": "\"Dull\" (lacklustre) becomes \"stupide\", which suggests lack of intelligence (or possibly stupefaction) rather than lack of shine.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "I had selected his features as beautiful",
+          "translation": "les traits que je lui avais donnés n'étaient pas moins beaux",
+          "back_translation": "the features I had given him were no less beautiful",
+          "category": "shift in meaning",
+          "rationale": "The deliberate act of choosing (\"selected\") becomes \"giving\", and the claim is weakened to \"no less beautiful\" (comparison with the proportions).",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the work of muscles and arteries beneath",
+          "translation": "le système des muscles et des artères",
+          "back_translation": "the system of muscles and arteries",
+          "category": "shift in meaning",
+          "rationale": "\"Work\" (the labour or workings beneath) becomes the anatomical \"système\", giving a more clinical register and dropping \"beneath\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "these luxuriances",
+          "translation": "ces avantages",
+          "back_translation": "these advantages",
+          "category": "softening",
+          "rationale": "The sensuous, excessive \"luxuriances\" is flattened into the neutral \"advantages\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "his watery eyes",
+          "translation": "des yeux insipides",
+          "back_translation": "insipid eyes",
+          "category": "shift in meaning",
+          "rationale": "\"Watery\" (moist, physical) becomes \"insipides\" (dull, lacking expression); the sense is plausibly a figurative reading of \"watery\" but loses the liquid image.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the dun white sockets",
+          "translation": "leurs blanches et sombres orbites",
+          "back_translation": "their white and dark sockets",
+          "category": "shift in meaning",
+          "rationale": "\"Dun white\" (a dingy off-white) is split into two separate adjectives, \"white\" and \"dark\", which alters the colour comparison on which the horror depends.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "straight black lips",
+          "translation": "des lèvres noires et serrées l'une contre l'autre",
+          "back_translation": "black lips pressed tight against one another",
+          "category": "shift in meaning",
+          "rationale": "\"Straight\" (a flat line) becomes \"pressed together\", which suggests a clenched expression rather than a shape.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        }
+      ],
+      "note": "The French is generally faithful in structure and sequence, but it tends to heighten the Gothic atmosphere (\"affreuse\", \"sifflement horrible\", the tolling \"airain\") while rendering Shelley's physical details in a more abstract or clinical register (\"matière inanimée\", \"système des muscles\", \"avantages\"). Several descriptive words shift in sense (\"dull\" to \"stupide\", \"watery\" to \"insipides\", \"dun white\" to \"blanches et sombres\"), which may reflect the difficulty of rendering precise English colour and texture terms rather than a deliberate strategy. The overall effect is somewhat more rhetorical and less physically exact than the original."
+    },
+    {
+      "id": "de-1912",
+      "language": "German",
+      "model": "anthropic/claude-sonnet-5.5",
+      "back_translation": "It was a desolate November night when I saw my work finished lying before me. With an agitation that almost resembled mortal fear, I set about breathing the living breath into the lifeless thing. It was already one o'clock in the morning. The rain slapped hard against the window panes when, by the light of my almost completely burnt-down candle, I saw the dull eye of the creature open. A deep breath stretched the chest and the limbs twitched convulsively.\n\nHow could I describe to you what I felt, and portray the monster that I had created there with so much effort and diligence? His limbs were proportioned and I had made his features as beautiful as possible. Beautiful! Great God! His yellowish skin hardly sufficed to cover the web of muscles and veins; his hair was shiny black and long; his teeth like pearls. But all that formed only an all the more striking contrast to the watery eyes, which hardly stood out from the eye sockets, the wrinkled skin and the blackish, narrow lips.",
+      "changes": [
+        {
+          "shelley": "I beheld the accomplishment of my toils",
+          "translation": "ich mein Werk fertig vor mir liegen sah",
+          "back_translation": "I saw my work lying finished before me",
+          "category": "softening",
+          "rationale": "The abstract, laboured 'accomplishment of my toils' becomes a plain concrete 'finished work', losing the sense of long suffering.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet",
+          "translation": "machte ich mich daran, dem leblosen Dinge den lebendigen Odem einzublasen",
+          "back_translation": "I set about breathing the living breath into the lifeless thing",
+          "category": "omission",
+          "rationale": "The gathering of the instruments of life and the creature lying at his feet are dropped, and 'spark of being' becomes a biblical 'Odem' (breath), which also reads as domestication.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "anxiety that almost amounted to agony",
+          "translation": "Erregung, die fast einer Todesangst glich",
+          "back_translation": "agitation that almost resembled mortal fear",
+          "category": "shift in meaning",
+          "rationale": "'Anxiety' becomes the more neutral 'Erregung' (agitation/excitement) while 'agony' becomes 'Todesangst' (fear of death), shifting the emotion's nature; the two changes partly offset each other.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the rain pattered dismally against the panes",
+          "translation": "Der Regen klatschte heftig an die Fensterscheiben",
+          "back_translation": "The rain slapped hard against the window panes",
+          "category": "shift in meaning",
+          "rationale": "Gentle 'pattered' with gloomy 'dismally' becomes forceful 'klatschte heftig', changing the quality and mood of the sound (also intensification).",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "my candle was nearly burnt out, when, by the glimmer of the half-extinguished light",
+          "translation": "beim Scheine meiner fast ganz herabgebrannten Kerze",
+          "back_translation": "by the light of my almost completely burnt-down candle",
+          "category": "omission",
+          "rationale": "The second image of the 'glimmer of the half-extinguished light' is merged into one, flattening the dwindling light.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "dull yellow eye",
+          "translation": "trübe Auge",
+          "back_translation": "dull/cloudy eye",
+          "category": "omission",
+          "rationale": "The colour 'yellow' is dropped, losing a detail that links to the yellow skin.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "it breathed hard, and a convulsive motion agitated its limbs",
+          "translation": "Ein tiefer Atemzug dehnte die Brust und die Glieder zuckten krampfhaft.",
+          "back_translation": "A deep breath stretched the chest and the limbs twitched convulsively.",
+          "category": "shift in meaning",
+          "rationale": "The creature's laboured breathing becomes a single deep breath, and a chest is added; the creature is less an agent ('it breathed').",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "How can I describe my emotions at this catastrophe",
+          "translation": "Wie könnte ich Ihnen beschreiben, was ich empfand",
+          "back_translation": "How could I describe to you what I felt",
+          "category": "addition",
+          "rationale": "'Ihnen' adds an addressee (Walton), while 'catastrophe' is omitted, removing the sense of disaster.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the wretch",
+          "translation": "das Ungetüm",
+          "back_translation": "the monster",
+          "category": "intensification",
+          "rationale": "'Wretch' (pitiable) becomes 'monster', foreshadowing and anticipating the horror and removing the pathos.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "with such infinite pains and care I had endeavoured to form",
+          "translation": "mit so viel Mühe und Fleiß geschaffen",
+          "back_translation": "created with so much effort and diligence",
+          "category": "shift in meaning",
+          "rationale": "'Endeavoured to form' becomes the achieved 'geschaffen' (created), and 'infinite' is reduced to 'so viel', losing the tentative effort.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "his teeth of a pearly whiteness; but these luxuriances only formed a more horrid contrast",
+          "translation": "seine Zähne wie Perlen. Aber das alles bildete nur einen um so auffallenderen Gegensatz",
+          "back_translation": "his teeth like pearls. But all that formed only an all the more striking contrast",
+          "category": "softening",
+          "rationale": "'More horrid' becomes 'more striking' (auffallender), removing the horror from the contrast.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "his shrivelled complexion and straight black lips",
+          "translation": "der faltigen Haut und den schwärzlichen, schmalen Lippen",
+          "back_translation": "the wrinkled skin and the blackish, narrow lips",
+          "category": "shift in meaning",
+          "rationale": "'Straight' lips become 'narrow', and 'black' becomes 'blackish', slightly altering the description.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        }
+      ],
+      "note": "The German is fluent and mostly faithful in outline, but it tends to flatten Shelley's elaborate, emotionally charged diction into plainer, more concrete phrasing (e.g., 'accomplishment of my toils', 'instruments of life', 'catastrophe'). At the same time it makes the creature more openly monstrous ('Ungetüm' for 'wretch') while muting the explicit horror in the contrast of features. These judgments rest on one short passage and may not hold for the translation as a whole."
+    },
+    {
+      "id": "model-fr-oneshot",
+      "language": "French",
+      "model": "anthropic/claude-sonnet-5.5",
+      "back_translation": "It was on a lugubrious night of November that I contemplated the accomplishment of my labours. With an anxiety that bordered almost on agony, I gathered around me the instruments of life, in order to breathe a spark of existence into the inanimate thing that lay at my feet. It was already one o'clock in the morning; the rain crackled sadly against the windowpanes, and my candle was almost consumed, when, by the glimmer of that half-extinguished light, I saw the yellow and dull eye of the creature open; it breathed laboriously, and a convulsive movement agitated its limbs.\n\nHow to describe my emotions before this catastrophe, or how to depict the wretch whom, with such infinite pains and cares, I had striven to form? His limbs were well proportioned, and I had chosen his features for their beauty. Some beauty! — Great God! His yellow skin barely covered the network of muscles and arteries beneath; his hair was of a shining black and floating; his teeth of a mother-of-pearl whiteness; but these luxuries formed only a more horrible contrast with his tearful eyes, which seemed almost of the same colour as the dull white sockets in which they were set, his parchment-like complexion and his straight and black lips.",
+      "changes": [
+        {
+          "shelley": "dreary",
+          "translation": "lugubre",
+          "back_translation": "lugubrious",
+          "category": "intensification",
+          "rationale": "\"Lugubre\" carries funereal, mournful overtones that are stronger than the English \"dreary\", which suggests gloom or bleakness.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "pattered dismally",
+          "translation": "crépitait tristement",
+          "back_translation": "crackled sadly",
+          "category": "shift in meaning",
+          "rationale": "\"Crépiter\" suggests a sharper crackling sound than \"patter\", and \"tristement\" (sadly) is milder than \"dismally\"; the change could also be read as a softening.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "it breathed hard",
+          "translation": "elle respira péniblement",
+          "back_translation": "it breathed laboriously",
+          "category": "shift in meaning",
+          "rationale": "\"Hard\" suggests forceful, heaving breath, while \"péniblement\" stresses difficulty and suffering, which gives the creature a more pitiable cast.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "Beautiful!",
+          "translation": "De la beauté !",
+          "back_translation": "Some beauty!",
+          "category": "domestication",
+          "rationale": "The French partitive exclamation is an idiomatic way of voicing bitter irony, but it changes the echo of the preceding \"beautiful\" into a noun.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the work of muscles and arteries",
+          "translation": "le lacis des muscles et des artères",
+          "back_translation": "the network of muscles and arteries",
+          "category": "shift in meaning",
+          "rationale": "\"Lacis\" gives an anatomical image of interlacing, but it loses \"work\", which hints at the labour of construction and at Frankenstein's own craftsmanship.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "luxuriances",
+          "translation": "luxes",
+          "back_translation": "luxuries",
+          "category": "shift in meaning",
+          "rationale": "\"Luxuriance\" means lush abundance, whereas \"luxes\" suggests expensive indulgences, so the sense is slightly different.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "watery eyes",
+          "translation": "yeux larmoyants",
+          "back_translation": "tearful eyes",
+          "category": "shift in meaning",
+          "rationale": "\"Larmoyant\" implies weeping or tearfulness, while the English describes a moist, filmy, pale look; this adds emotion that is not in the original.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "dun white sockets",
+          "translation": "orbites d'un blanc terne",
+          "back_translation": "sockets of a dull white",
+          "category": "softening",
+          "rationale": "\"Dun\" implies a dingy brownish-grey, but \"terne\" just means dull, so the specific sickly colour is lost; it could also count as a shift in meaning.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "shrivelled complexion",
+          "translation": "teint parcheminé",
+          "back_translation": "parchment-like complexion",
+          "category": "shift in meaning",
+          "rationale": "\"Parcheminé\" is a familiar French image of dry, wrinkled skin, but it is more static than \"shrivelled\", which suggests shrinking and withering.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        }
+      ],
+      "note": "This is a close and fairly literal rendering that keeps the structure, rhythm and sequence of Shelley's sentences. Its changes are mostly small lexical ones, and they pull in different directions: \"lugubre\" is somewhat stronger, while \"tristement\" and \"terne\" are somewhat weaker. Words like \"larmoyants\", \"parcheminé\" and \"lacis\" bring in familiar French images and slightly alter the clinical, repellent description. Judgments about tone rest on a short passage, so they should be taken with caution."
+    },
+    {
+      "id": "model-fr-revised",
+      "language": "French",
+      "model": "anthropic/claude-sonnet-5.5",
+      "back_translation": "It was on a gloomy night of November that I saw the accomplishment of my labors. With an anxiety that bordered on agony, I gathered around me the instruments of life, in order to breathe a spark of existence into the inanimate thing that lay at my feet. It was already one o'clock in the morning; the rain drummed mournfully against the windowpanes, and my candle was almost consumed, when, by the half-extinguished glow, I saw the dull and yellowish eye of the creature open; it breathed with difficulty, and a convulsive movement shook its limbs.\n\nHow to describe my emotions before this catastrophe, or how to depict the wretch whom with such infinite pains and cares I had striven to form? His limbs were well proportioned, and I had chosen his features for their beauty. Beauty! — Great God! His yellow skin barely covered the work of the muscles and arteries lying beneath; his hair was of a glossy black, wavy; his teeth of a pearl-like whiteness; but these riches only formed a more horrible contrast with his watery eyes, which seemed almost the same color as the greyish-white sockets in which they were set, his withered complexion and his black, straight lips.",
+      "changes": [
+        {
+          "shelley": "dull yellow eye",
+          "translation": "l'œil terne et jaunâtre",
+          "back_translation": "the dull and yellowish eye",
+          "category": "softening",
+          "rationale": "\"Jaunâtre\" (yellowish) weakens the flat, stark \"yellow\" and splits the compact phrase into two adjectives.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "it breathed hard",
+          "translation": "elle respira péniblement",
+          "back_translation": "it breathed with difficulty",
+          "category": "shift in meaning",
+          "rationale": "\"Hard\" suggests forceful, heavy breathing, while \"péniblement\" suggests laboured, painful breathing, a slightly different image.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the rain pattered dismally",
+          "translation": "la pluie tambourinait lugubrement",
+          "back_translation": "the rain drummed mournfully",
+          "category": "intensification",
+          "rationale": "\"Tambouriner\" (to drum) is louder and heavier than \"pattered\", and \"lugubrement\" is more funereal than \"dismally\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "Beautiful!—Great God!",
+          "translation": "De la beauté ! — Grand Dieu !",
+          "back_translation": "Beauty! — Great God!",
+          "category": "shift in meaning",
+          "rationale": "The ironic echo of the adjective \"beautiful\" becomes the noun \"beauty\", which slightly alters the bitter repetition of his own word.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "his hair was of a lustrous black, and flowing",
+          "translation": "sa chevelure était d'un noir lustré, ondoyante",
+          "back_translation": "his hair was of a glossy black, wavy",
+          "category": "shift in meaning",
+          "rationale": "\"Ondoyante\" (undulating, wavy) is not quite \"flowing\", and \"chevelure\" is a more poetic word for hair.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "these luxuriances",
+          "translation": "ces richesses",
+          "back_translation": "these riches",
+          "category": "shift in meaning",
+          "rationale": "\"Luxuriances\" implies lush abundance, while \"richesses\" suggests valuable assets, losing the sense of excessive growth.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the dun white sockets",
+          "translation": "les orbites d'un blanc grisâtre",
+          "back_translation": "the sockets of a greyish white",
+          "category": "shift in meaning",
+          "rationale": "\"Dun\" means dull brownish-grey; \"grisâtre\" drops the brown tint and is slightly vaguer.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "shrivelled complexion",
+          "translation": "son teint flétri",
+          "back_translation": "his withered complexion",
+          "category": "softening",
+          "rationale": "\"Flétri\" (withered, faded) is a little more conventional and less harshly physical than \"shrivelled\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "in which they were set",
+          "translation": "où ils étaient enchâssés",
+          "back_translation": "in which they were enshrined/mounted",
+          "category": "intensification",
+          "rationale": "\"Enchâssés\" is a jeweller's term (as of a gem in a setting), a more elevated image than the plain \"set\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "I had selected his features as beautiful",
+          "translation": "j'avais choisi ses traits pour leur beauté",
+          "back_translation": "I had chosen his features for their beauty",
+          "category": "shift in meaning",
+          "rationale": "The French states the reason for the choice (their beauty) rather than the creator's judgment (\"as beautiful\"), removing some of the subjective irony.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        }
+      ],
+      "note": "The French is close and complete, with no real omissions and a consistently elevated literary register (\"labeurs\", \"enchâssés\", \"nacre\", \"chevelure\"). Its small shifts tend toward polish and slightly more formal diction, though a few words are heightened (\"tambourinait\"). The loss of Frankenstein's ironic echo \"Beautiful!\" is probably the most noteworthy change, though it may be an unavoidable grammatical consequence."
+    },
+    {
+      "id": "model-de-oneshot",
+      "language": "German",
+      "model": "anthropic/claude-sonnet-5.5",
+      "back_translation": "It was on a murky November night that I beheld the completion of my exertions. With an anxiety that almost bordered on torment, I gathered the instruments of life around me, so that I might pour a spark of being into the lifeless thing that lay at my feet. It was already one o'clock in the morning; the rain drummed gloomily against the panes, and my candle was almost burnt down, when, by the glimmer of the half-extinguished light, I saw how the murky, yellow eye of the creature opened; it breathed heavily, and a convulsive movement twitched through its limbs.\n\nHow am I able to describe my feelings at this catastrophe, or how to draw the wretched one whom I had tried to form with such endless exertions and such carefulness? His limbs were well proportioned, and I had picked out his features as beautiful. Beautiful! – Great God! His yellow skin barely covered the web of muscles and arteries lying beneath; his hair was of a shining black and billowing; his teeth of pearl-like whiteness; but these splendours formed only an all the more gruesome contrast to his watery eyes, which seemed almost of the same colour as the pale-white cavities in which they sat, his shrivelled complexion and the straight, black lips.",
+      "changes": [
+        {
+          "shelley": "these luxuriances",
+          "translation": "diese Herrlichkeiten",
+          "back_translation": "these splendours / glories",
+          "category": "shift in meaning",
+          "rationale": "\"Luxuriances\" suggests excessive, overgrown abundance, whereas \"Herrlichkeiten\" praises the features as magnificent, which weakens the sense of excess.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the work of muscles and arteries beneath",
+          "translation": "das darunterliegende Geflecht von Muskeln und Arterien",
+          "back_translation": "the web/network of muscles and arteries lying beneath",
+          "category": "shift in meaning",
+          "rationale": "\"Work\" (the machinery or workings of the body, with an echo of the maker's labour) becomes a static woven \"Geflecht\", so the image changes and the artisanal overtone is lost.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the rain pattered dismally against the panes",
+          "translation": "der Regen prasselte düster gegen die Scheiben",
+          "back_translation": "the rain drummed/crackled gloomily against the panes",
+          "category": "intensification",
+          "rationale": "\"Prasseln\" is a harder, noisier verb than \"pattered\", though \"düster\" for \"dismally\" is close.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "a convulsive motion agitated its limbs",
+          "translation": "eine krampfhafte Bewegung durchzuckte ihre Glieder",
+          "back_translation": "a convulsive movement twitched/flashed through its limbs",
+          "category": "intensification",
+          "rationale": "\"Durchzucken\" is more sudden and vivid than \"agitated\", although this is a mild difference.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the dull yellow eye",
+          "translation": "das trübe, gelbe Auge",
+          "back_translation": "the murky/cloudy, yellow eye",
+          "category": "shift in meaning",
+          "rationale": "\"Trüb\" suggests cloudiness or turbidity rather than dullness, and it repeats the word used for \"dreary\" in the first sentence, so the two English adjectives are no longer distinguished.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the dun white sockets",
+          "translation": "den fahlweißen Höhlen",
+          "back_translation": "the pale-white cavities",
+          "category": "shift in meaning",
+          "rationale": "\"Dun\" (a dull greyish-brown tint) becomes \"fahl\" (pallid), and \"Höhlen\" (cavities, caves) is more cave-like than \"sockets\", so the colour and the image both change slightly.",
+          "shelley_quote_found": true,
+          "translation_quote_found": false
+        },
+        {
+          "shelley": "his hair was of a lustrous black, and flowing",
+          "translation": "sein Haar war von glänzendem Schwarz und wallend",
+          "back_translation": "his hair was of a shining black and billowing",
+          "category": "intensification",
+          "rationale": "\"Wallend\" is more poetic and billowy than plain \"flowing\", which makes the beauty a little more lavish.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "that I might infuse a spark of being",
+          "translation": "auf dass ich ... einflößen möge",
+          "back_translation": "so that I might pour in",
+          "category": "domestication",
+          "rationale": "The archaic, biblical-sounding \"auf dass ... möge\" gives a solemn register that matches German literary convention more than Shelley's plainer purpose clause, though it could also count as intensification.",
+          "shelley_quote_found": true,
+          "translation_quote_found": false
+        },
+        {
+          "shelley": "with such infinite pains and care",
+          "translation": "mit so unendlichen Mühen und solcher Sorgfalt",
+          "back_translation": "with such endless exertions and such carefulness",
+          "category": "shift in meaning",
+          "rationale": "\"Mühen\" renders both \"toils\" in the first sentence and \"pains\" here, so the repetition flattens a distinction in Shelley's vocabulary of labour.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        }
+      ],
+      "note": "The translation is close and sentence-by-sentence faithful, with no real omissions or additions. Its tendencies are a slightly elevated, literary German register (\"auf dass ... möge\", \"vermag\", \"wallend\") and a handful of lexical choices that soften or reshape Shelley's images, most notably \"Herrlichkeiten\" for \"luxuriances\" and \"Geflecht\" for \"work\". These shifts are small, and a few (such as \"trübe\" appearing twice) may reflect limited German vocabulary rather than deliberate choice."
+    },
+    {
+      "id": "model-de-revised",
+      "language": "German",
+      "model": "anthropic/claude-sonnet-5.5",
+      "back_translation": "It was on a desolate November night that I caught sight of the completion of my work. With an oppressive unease that almost bordered on torment, I gathered the instruments of life around me, in order to instil a spark of being into the lifeless thing that lay at my feet. It was already one o'clock in the morning; the rain drummed desolately against the panes, and my candle was almost burnt down, when by the shimmer of the half-extinguished light I saw how the dull yellow eye of the creature opened; it breathed heavily, and a spasmodic movement shot through its limbs.\n\nHow can I describe my feelings at this catastrophe, or how portray the wretch whom I had tried to form with such endless effort and such care? His limbs were well proportioned, and I had selected his features as beautiful. Beautiful! – Great God! His yellow skin barely covered the play of the muscles and arteries beneath; his hair was of a shining black and flowing; his teeth of pearl-like whiteness; but these opulences formed only an all the more gruesome contrast to his watery eyes, which seemed almost of the same colour as the pale-white hollows in which they sat, his shrivelled complexion and the straight, black lips.",
+      "changes": [
+        {
+          "shelley": "the work of muscles and arteries beneath",
+          "translation": "das Spiel der Muskeln und Arterien darunter",
+          "back_translation": "the play of the muscles and arteries beneath",
+          "category": "shift in meaning",
+          "rationale": "\"Work\" (labour, function) becomes \"Spiel\" (play, visible movement), which gives the image a more aesthetic, less mechanical or anatomical flavour.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "the rain pattered dismally",
+          "translation": "der Regen trommelte trostlos",
+          "back_translation": "the rain drummed desolately",
+          "category": "intensification",
+          "rationale": "\"Trommelte\" is somewhat harsher than \"pattered\", and \"trostlos\" repeats the opening \"trostlosen\" (dreary), so the gloom is heightened by repetition.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "my toils",
+          "translation": "meiner Arbeit",
+          "back_translation": "my work",
+          "category": "softening",
+          "rationale": "The plural, laboured \"toils\" becomes a neutral singular \"Arbeit\", losing the sense of drudgery.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "a convulsive motion agitated its limbs",
+          "translation": "eine krampfhafte Bewegung durchzuckte ihre Glieder",
+          "back_translation": "a spasmodic movement shot through its limbs",
+          "category": "intensification",
+          "rationale": "\"Durchzuckte\" implies a sudden jolt, more vivid than the more general \"agitated\".",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "anxiety that almost amounted to agony",
+          "translation": "Beklommenheit, die beinahe an Qual grenzte",
+          "back_translation": "oppressive unease that almost bordered on torment",
+          "category": "shift in meaning",
+          "rationale": "\"Beklommenheit\" suggests a feeling of constriction or oppression rather than anxious anticipation, though the sense is close.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "His limbs were in proportion",
+          "translation": "Seine Glieder waren wohlproportioniert",
+          "back_translation": "His limbs were well proportioned",
+          "category": "intensification",
+          "rationale": "\"In proportion\" is neutral, whereas \"wohl-\" adds a positive evaluation.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "dun white sockets",
+          "translation": "fahlweißen Höhlen",
+          "back_translation": "pale-white hollows",
+          "category": "shift in meaning",
+          "rationale": "\"Dun\" (dull brownish) becomes \"fahl\" (pale, sallow), and bare \"Höhlen\" is more cavernous than \"sockets\"; both shifts are small.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        },
+        {
+          "shelley": "a more horrid contrast",
+          "translation": "einen umso grausigeren Kontrast",
+          "back_translation": "an all the more gruesome contrast",
+          "category": "intensification",
+          "rationale": "\"Grausig\" (gruesome) is a little stronger than \"horrid\", and \"umso\" makes the comparison more emphatic.",
+          "shelley_quote_found": true,
+          "translation_quote_found": true
+        }
+      ],
+      "note": "This is a close, faithful rendering that follows Shelley's syntax and rhythm almost clause by clause. Where it departs, it tends slightly towards a more vivid, literary register (\"trommelte\", \"durchzuckte\", \"grausigeren\"), while a few word choices (\"Spiel\", \"Arbeit\") make the language more aesthetic or neutral. The changes are small, and the overall effect seems to be a polished, heightened German Gothic tone rather than any substantive reinterpretation."
+    }
+  ]
+}

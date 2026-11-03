@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c019-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5032,
+  "completion_tokens": 631,
+  "total_tokens": 5663,
+  "cost": 0.0008187,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008187,
+   "upstream_inference_prompt_cost": 0.0005032,
+   "upstream_inference_completions_cost": 0.0003155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 379,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "a serious picture they had in their obscure gallery of the Marshalsea that Sunday night",
+   "note": "Debtors' prison where the whole passage is set; named several times, listed once."
+  },
+  {
+   "as_written": "the Lodge",
+   "normalized": "Marshalsea Prison Lodge, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Little recked the Collegians who were laughing in their rooms over his late address in the Lodge",
+   "note": "Gatehouse area of the Marshalsea; ambiguous as a separately mapped place."
+  }
+ ]
+}

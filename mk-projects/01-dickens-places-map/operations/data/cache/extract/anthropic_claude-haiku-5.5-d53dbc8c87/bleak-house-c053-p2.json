@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c053-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5481,
+  "completion_tokens": 728,
+  "total_tokens": 6209,
+  "cost": 0.0009121,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009121,
+   "upstream_inference_prompt_cost": 0.0005481,
+   "upstream_inference_completions_cost": 0.000364
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 532,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bath",
+   "normalized": "Bath, Somerset",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Meanwhile she folds up a cocked hat for that redoubtable old general at Bath",
+   "note": ""
+  },
+  {
+   "as_written": "Blue Chamber",
+   "normalized": "Blue Chamber",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "that charmingly horrible person is a perfect Blue Chamber",
+   "note": "Name of a room in the novel used figuratively; ambiguous as a place"
+  }
+ ]
+}

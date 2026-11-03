@@ -1,0 +1,111 @@
+{
+ "chunk": "bleak-house-c058-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4892,
+  "completion_tokens": 2523,
+  "total_tokens": 7415,
+  "cost": 0.0017507,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017507,
+   "upstream_inference_prompt_cost": 0.0004892,
+   "upstream_inference_completions_cost": 0.0012615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1572,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Dedlock town house",
+   "normalized": "Dedlock town house, London (fictional, location unnamed)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Still impassive, as behoves its breeding, the Dedlock town house carries itself as usual towards the street of dismal grandeur.",
+   "note": "Unnamed London house; the street it faces is not named."
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It is given out that my Lady has gone down into Lincolnshire",
+   "note": ""
+  },
+  {
+   "as_written": "Blaze and Sparkle’s",
+   "normalized": "Blaze and Sparkle’s jewellers, London (fictional)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "At Blaze and Sparkle’s the jewellers and at Sheen and Gloss’s the mercers",
+   "note": "Fictional shop name; location not given."
+  },
+  {
+   "as_written": "Sheen and Gloss’s",
+   "normalized": "Sheen and Gloss’s mercers, London (fictional)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "At Blaze and Sparkle’s the jewellers and at Sheen and Gloss’s the mercers",
+   "note": "Fictional shop name; location not given."
+  },
+  {
+   "as_written": "Horse Guards’",
+   "normalized": "Horse Guards, Whitehall, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "By half-past five, post meridian, Horse Guards’ time",
+   "note": "Referred to as the source of the time signal."
+  },
+  {
+   "as_written": "the House",
+   "normalized": "Palace of Westminster, London (House of Commons)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "down to the House, where the Whip for his party hands it about",
+   "note": "Refers to the House of Commons."
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold (fictional country house, Lincolnshire)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Nor yet within the walls of Chesney Wold, my dear.",
+   "note": "Fictional house; Lincolnshire location implied by context."
+  },
+  {
+   "as_written": "the Ghost’s Walk",
+   "normalized": "Ghost’s Walk, Chesney Wold (fictional)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the step on the Ghost’s Walk had almost walked her down.",
+   "note": "Fictional feature within Chesney Wold."
+  },
+  {
+   "as_written": "Bath",
+   "normalized": "Bath, Somerset",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "however calculated to embellish Bath",
+   "note": ""
+  }
+ ]
+}

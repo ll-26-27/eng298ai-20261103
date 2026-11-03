@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c012-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5468,
+  "completion_tokens": 1176,
+  "total_tokens": 6644,
+  "cost": 0.0011348,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011348,
+   "upstream_inference_prompt_cost": 0.0005468,
+   "upstream_inference_completions_cost": 0.000588
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 811,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Temple Church",
+   "normalized": "Temple Church, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "went down the stairs, round by the Temple Church, across the Temple into Whitefriars",
+   "note": ""
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "across the Temple into Whitefriars",
+   "note": ""
+  },
+  {
+   "as_written": "Whitefriars",
+   "normalized": "Whitefriars, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "across the Temple into Whitefriars",
+   "note": "Historic district name; the passage uses it as a route"
+  },
+  {
+   "as_written": "the Six Jolly Fellowship Porters",
+   "normalized": "Six Jolly Fellowship Porters, Limehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the leeside of the Six Jolly Fellowship Porters before he spoke.",
+   "note": "Riverside inn; also called the Six Jolly Fellowships in the passage"
+  }
+ ]
+}

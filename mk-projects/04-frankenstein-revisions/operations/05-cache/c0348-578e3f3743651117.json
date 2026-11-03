@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1913,
+  "completion_tokens": 125,
+  "total_tokens": 2038,
+  "cost": 0.005076,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.005076,
+   "upstream_inference_prompt_cost": 0.003826,
+   "upstream_inference_completions_cost": 0.00125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0348. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): He pointed out to me the shifting colours of the landscape, and the appearances of the sky.\n\n1818 text: \"This is what it is to live;\" he cried, \"now I enjoy existence! But you, my dear Frankenstein, wherefore are you desponding and sorrowful?\" In truth, I was occupied by gloomy thoughts, and neither saw the descent of the evening star, nor the golden sun-rise reflected in the Rhine.—And you, my friend, would be far more amused with the journal of Clerval, who observed the scenery with an eye of feeling and delight, than to listen to my reflections.\n\n1831 text: \"This is what it is to live,\" he cried, \"now I enjoy existence! But you, my dear Frankenstein, wherefore are you desponding and sorrowful!\" In truth, I was occupied by gloomy thoughts, and neither saw the descent of the evening star, nor the golden sunrise reflected in the Rhine.—And you, my friend, would be far more amused with the journal of Clerval, who observed the scenery with an eye of feeling and delight, than in listening to my reflections.\n\nDiff: \" This is what it is to live [-;-] {+,+} \" he cried, \" now I enjoy existence! But you, my dear Frankenstein, wherefore are you desponding and sorrowful [-?-] {+!+} \" In truth, I was occupied by gloomy thoughts, and neither saw the descent of the evening star, nor the golden [-sun-rise-] {+sunrise+} reflected in the Rhine.—And you, my friend, would be far more amused with the journal of Clerval, who observed the scenery with an eye of feeling and delight, than [-to listen-] {+in listening+} to my reflections.\n\nContext after (unchanged): I, a miserable wretch, haunted by a curse that shut up every avenue to enjoyment."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Punctuation shifts (; to , and ? to !), \"sun-rise\" becomes \"sunrise\", and \"than to listen\" becomes \"than in listening\". These are small stylistic and orthographic adjustments with no effect on events or characters.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

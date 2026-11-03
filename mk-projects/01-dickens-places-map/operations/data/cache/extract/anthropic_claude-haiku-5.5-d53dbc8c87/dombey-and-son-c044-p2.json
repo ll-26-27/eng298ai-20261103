@@ -1,0 +1,57 @@
+{
+ "chunk": "dombey-and-son-c044-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5149,
+  "completion_tokens": 1146,
+  "total_tokens": 6295,
+  "cost": 0.0010879,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010879,
+   "upstream_inference_prompt_cost": 0.0005149,
+   "upstream_inference_completions_cost": 0.000573
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 830,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Essex",
+   "normalized": "Essex, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I’ve got a brother down in the country Miss—a farmer in Essex,",
+   "note": ""
+  },
+  {
+   "as_written": "Brighton",
+   "normalized": "Brighton, Sussex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "after the manner in which I was Beast enough to conduct myself at Brighton",
+   "note": "Referred to as the site of earlier events; not a setting in this passage."
+  },
+  {
+   "as_written": "Bluecoat School",
+   "normalized": "Christ's Hospital (Blue Coat School), Newgate Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "was educated in the Bluecoat School, and blown up in a powder-mill.",
+   "note": "Identification of the Bluecoat School with Christ's Hospital is inferred; verify."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "oliver-twist-c002-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5076,
+  "completion_tokens": 469,
+  "total_tokens": 5545,
+  "cost": 0.0007421,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007421,
+   "upstream_inference_prompt_cost": 0.0005076,
+   "upstream_inference_completions_cost": 0.0002345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 269,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Doctors’ Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "kindly undertook to divorce poor married people, in consequence of the great expense of a suit in Doctors’ Commons",
+   "note": "Former college of civil lawyers; a named institution and building, cited here only as the costly court venue."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "What a novel illustration of the tender laws of England!",
+   "note": ""
+  }
+ ]
+}

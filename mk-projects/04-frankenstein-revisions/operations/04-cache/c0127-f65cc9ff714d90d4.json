@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1796,
+  "completion_tokens": 124,
+  "total_tokens": 1920,
+  "cost": 0.0002416,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002416,
+   "upstream_inference_prompt_cost": 0.0001796,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0127. Location: 1818 Vol. I, Ch. V; 1831 Ch. VI.\n\nContext before (unchanged): Study had before secluded me from the intercourse of my fellow-creatures, and rendered me unsocial; but Clerval called forth the better feelings of my heart; he again taught me to love the aspect of nature, and the cheerful faces of children.\n\n1818 text: Excellent friend! how sincerely did you love me, and endeavour to elevate my mind, until it was on a level with your own. A selfish pursuit had cramped and narrowed me, until your gentleness and affection warmed and opened my senses; I became the same happy creature who, a few years ago, loving and beloved by all, had no sorrow or care.\n\n1831 text: Excellent friend! how sincerely did you love me, and endeavour to elevate my mind until it was on a level with your own! A selfish pursuit had cramped and narrowed me, until your gentleness and affection warmed and opened my senses; I became the same happy creature who, a few years ago, loved and beloved by all, had no sorrow or care.\n\nDiff: Excellent friend! how sincerely did you love me, and endeavour to elevate my mind [-,-] until it was on a level with your own [-.-] {+!+} A selfish pursuit had cramped and narrowed me, until your gentleness and affection warmed and opened my senses; I became the same happy creature who, a few years ago, [-loving-] {+loved+} and beloved by all, had no sorrow or care.\n\nContext after (unchanged): When happy, inanimate nature had the power of bestowing on me the most delightful sensations."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "other"
+  ],
+  "significance": 2,
+  "rationale": "Punctuation changes (comma to none, period to exclamation) and 'loving' changed to 'loved' in 'a few years ago, loving and beloved'. Grammatical tense/participle shift; meaning largely kept, slight shift in emphasis to past state.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

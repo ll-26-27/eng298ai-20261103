@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1637,
+  "completion_tokens": 124,
+  "total_tokens": 1761,
+  "cost": 0.0002257,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002257,
+   "upstream_inference_prompt_cost": 0.0001637,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0337. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): Reserve on such a point would be not only useless, but draw down treble misery on us all.\"\n\n1818 text: I trembled violently at this exordium, and my father continued— \"I confess, my son, that I have always looked forward to your marriage with your cousin as the tie of our domestic comfort, and the stay of my declining years.\n\n1831 text: I trembled violently at his exordium, and my father continued— \"I confess, my son, that I have always looked forward to your marriage with our dear Elizabeth as the tie of our domestic comfort, and the stay of my declining years.\n\nDiff: I trembled violently at [-this-] {+his+} exordium, and my father continued—\" I confess, my son, that I have always looked forward to your marriage with [-your cousin-] {+our dear Elizabeth+} as the tie of our domestic comfort, and the stay of my declining years.\n\nContext after (unchanged): You were attached to each other from your earliest infancy; you studied together, and appeared, in dispositions and tastes, entirely suited to one another."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Replacing \"your cousin\" with \"our dear Elizabeth\" makes Elizabeth a named, affectionate family member rather than a kinship label, altering how she and the family bond read; \"this\" to \"his\" is a minor wording shift.",
+  "confidence": "high",
+  "rationaleWords": 35
+ }
+}

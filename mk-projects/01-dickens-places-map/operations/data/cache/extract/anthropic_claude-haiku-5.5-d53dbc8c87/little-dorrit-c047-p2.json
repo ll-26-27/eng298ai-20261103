@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c047-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2851,
+  "completion_tokens": 1288,
+  "total_tokens": 4139,
+  "cost": 0.0009291,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009291,
+   "upstream_inference_prompt_cost": 0.0002851,
+   "upstream_inference_completions_cost": 0.000644
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 794,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Pisa",
+   "normalized": "Pisa, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "When we went to see the famous leaning tower at Pisa",
+   "note": "Recalls a past visit; the leaning tower is the Campanile."
+  },
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "taking my place at dinner at Venice",
+   "note": "Figures in a recurring dream, not a real visit described."
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in Switzerland, or France, or Italy",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in Switzerland, or France, or Italy",
+   "note": ""
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in Switzerland, or France, or Italy",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Heaven knows when your poor child will see England again.",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "visit to London late in this next spring",
+   "note": ""
+  }
+ ]
+}

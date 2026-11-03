@@ -1,0 +1,102 @@
+{
+ "chunk": "our-mutual-friend-c067-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5684,
+  "completion_tokens": 1687,
+  "total_tokens": 7371,
+  "cost": 0.0014119,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014119,
+   "upstream_inference_prompt_cost": 0.0005684,
+   "upstream_inference_completions_cost": 0.0008435
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Calais",
+   "normalized": "Calais, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Veneerings will retire to Calais",
+   "note": ""
+  },
+  {
+   "as_written": "Juan Fernandez",
+   "normalized": "Juan Fernández Islands, Chile",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "They were becoming civilized when I left Juan Fernandez,",
+   "note": "Island reference in Robinson Crusoe joke; type is approximate."
+  },
+  {
+   "as_written": "Russia",
+   "normalized": "Russia",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "We know what Russia means, sir",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "we know what France wants",
+   "note": ""
+  },
+  {
+   "as_written": "America",
+   "normalized": "United States of America",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "we see what America is up to",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "we know what England is",
+   "note": ""
+  },
+  {
+   "as_written": "House of Commons",
+   "normalized": "House of Commons, Palace of Westminster, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the House of Commons was composed of himself",
+   "note": ""
+  },
+  {
+   "as_written": "Pocket-Breaches",
+   "normalized": "Pocket-Breaches",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the pure electors of Pocket-Breaches",
+   "note": "Fictional parliamentary borough."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1643,
+  "completion_tokens": 117,
+  "total_tokens": 1760,
+  "cost": 0.004456,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004456,
+   "upstream_inference_prompt_cost": 0.003286,
+   "upstream_inference_completions_cost": 0.00117
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0515. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Years will pass, and you will have visitings of despair, and yet be tortured by hope.\n\n1818 text: Oh! my beloved sister, the sickening failings of your heart-felt expectations are, in prospect, more terrible to me than my own death. But you have a husband, and lovely children; you may be happy: heaven bless you, and make you so!\n\n1831 text: Oh! my beloved sister, the sickening failing of your heart-felt expectations is, in prospect, more terrible to me than my own death. But you have a husband, and lovely children; you may be happy: Heaven bless you, and make you so!\n\nDiff: Oh! my beloved sister, the sickening [-failings-] {+failing+} of your heart-felt expectations [-are-] {+is+} , in prospect, more terrible to me than my own death. But you have a husband, and lovely children; you may be happy: [-heaven-] {+Heaven+} bless you, and make you so!\n\nContext after (unchanged): My unfortunate guest regards me with the tenderest compassion."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Grammatical adjustment from plural \"failings...are\" to singular \"failing...is\", plus capitalization of \"heaven\" to \"Heaven\". Meaning is unchanged; purely stylistic and orthographic.",
+  "confidence": "high",
+  "rationaleWords": 21
+ }
+}

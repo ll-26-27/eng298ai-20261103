@@ -1,0 +1,420 @@
+{
+ "pattern": "\\b(teach(es|ing|er|ers)?|taught|learn(s|ed|t|ing)?|lessons?|instruct(s|ed|ing|ion|ions|or|ors|ive)?|tutor(s|ed|ing)?|educat(e|ed|es|ing|ion)|pupils?|disciples?|school(s|ed|ing|master)?|preceptors?)\\b",
+ "hits": {
+  "frankenstein-0006": [
+   "education",
+   "learning"
+  ],
+  "frankenstein-0010": [
+   "educated"
+  ],
+  "frankenstein-0011": [
+   "school"
+  ],
+  "frankenstein-0024": [
+   "educated"
+  ],
+  "frankenstein-0030": [
+   "education"
+  ],
+  "frankenstein-0031": [
+   "educate",
+   "educating"
+  ],
+  "frankenstein-0034": [
+   "learned",
+   "learn",
+   "learned"
+  ],
+  "frankenstein-0035": [
+   "school"
+  ],
+  "frankenstein-0036": [
+   "instructors",
+   "pupils"
+  ],
+  "frankenstein-0038": [
+   "disciple",
+   "schools",
+   "instructors"
+  ],
+  "frankenstein-0041": [
+   "learning",
+   "instructor",
+   "pupil"
+  ],
+  "frankenstein-0043": [
+   "schools",
+   "education"
+  ],
+  "frankenstein-0044": [
+   "learn"
+  ],
+  "frankenstein-0045": [
+   "instructed",
+   "learning"
+  ],
+  "frankenstein-0047": [
+   "disciple"
+  ],
+  "frankenstein-0048": [
+   "teacher"
+  ],
+  "frankenstein-0049": [
+   "learning"
+  ],
+  "frankenstein-0050": [
+   "teachers"
+  ],
+  "frankenstein-0051": [
+   "disciple",
+   "instructing"
+  ],
+  "frankenstein-0053": [
+   "instructions"
+  ],
+  "frankenstein-0054": [
+   "lessons"
+  ],
+  "frankenstein-0055": [
+   "education"
+  ],
+  "frankenstein-0058": [
+   "learn"
+  ],
+  "frankenstein-0070": [
+   "schoolmaster",
+   "learning"
+  ],
+  "frankenstein-0073": [
+   "learned"
+  ],
+  "frankenstein-0077": [
+   "educated"
+  ],
+  "frankenstein-0078": [
+   "learned"
+  ],
+  "frankenstein-0079": [
+   "education"
+  ],
+  "frankenstein-0085": [
+   "instruction",
+   "pupil",
+   "instruction"
+  ],
+  "frankenstein-0087": [
+   "taught"
+  ],
+  "frankenstein-0113": [
+   "educated"
+  ],
+  "frankenstein-0120": [
+   "learn",
+   "lesson",
+   "teach"
+  ],
+  "frankenstein-0143": [
+   "learned"
+  ],
+  "frankenstein-0158": [
+   "learned",
+   "learned",
+   "learned"
+  ],
+  "frankenstein-0167": [
+   "learn",
+   "instructions",
+   "learned",
+   "lesson"
+  ],
+  "frankenstein-0170": [
+   "learned",
+   "taught",
+   "instructed"
+  ],
+  "frankenstein-0171": [
+   "instructions"
+  ],
+  "frankenstein-0172": [
+   "learned"
+  ],
+  "frankenstein-0173": [
+   "learned"
+  ],
+  "frankenstein-0174": [
+   "lessons"
+  ],
+  "frankenstein-0176": [
+   "learned",
+   "learn"
+  ],
+  "frankenstein-0179": [
+   "instructed",
+   "taught",
+   "lessons"
+  ],
+  "frankenstein-0182": [
+   "learned"
+  ],
+  "frankenstein-0184": [
+   "learnt"
+  ],
+  "frankenstein-0185": [
+   "learned"
+  ],
+  "frankenstein-0188": [
+   "learned",
+   "taught",
+   "school"
+  ],
+  "frankenstein-0195": [
+   "educated"
+  ],
+  "frankenstein-0206": [
+   "learned",
+   "lessons",
+   "learned"
+  ],
+  "frankenstein-0211": [
+   "educate"
+  ],
+  "frankenstein-0214": [
+   "lessons",
+   "learned"
+  ],
+  "frankenstein-0236": [
+   "teach"
+  ],
+  "frankenstein-0240": [
+   "instruction",
+   "instruction"
+  ],
+  "frankenstein-0272": [
+   "learned"
+  ],
+  "frankenstein-0286": [
+   "taught"
+  ],
+  "frankenstein-0292": [
+   "lessons"
+  ],
+  "frankenstein-0294": [
+   "schools"
+  ],
+  "frankenstein-0324": [
+   "learn"
+  ],
+  "frankenstein-0328": [
+   "lessons"
+  ],
+  "rur-0009": [
+   "school",
+   "school"
+  ],
+  "rur-0010": [
+   "learning",
+   "school",
+   "school",
+   "school"
+  ],
+  "rur-0062": [
+   "pupils"
+  ],
+  "rur-0077": [
+   "instructions"
+  ],
+  "rur-0084": [
+   "teach"
+  ],
+  "rur-0110": [
+   "learnt",
+   "teach",
+   "teach",
+   "learned"
+  ],
+  "dorian-0007": [
+   "learned"
+  ],
+  "dorian-0020": [
+   "school",
+   "school"
+  ],
+  "dorian-0023": [
+   "educate"
+  ],
+  "dorian-0028": [
+   "learn"
+  ],
+  "dorian-0048": [
+   "taught"
+  ],
+  "dorian-0060": [
+   "learn"
+  ],
+  "dorian-0069": [
+   "education"
+  ],
+  "dorian-0070": [
+   "educated"
+  ],
+  "dorian-0104": [
+   "schools"
+  ],
+  "dorian-0105": [
+   "taught"
+  ],
+  "dorian-0136": [
+   "taught"
+  ],
+  "dorian-0138": [
+   "taught"
+  ],
+  "dorian-0148": [
+   "taught"
+  ],
+  "dorian-0153": [
+   "taught"
+  ],
+  "dorian-0161": [
+   "taught",
+   "teach"
+  ],
+  "dorian-0170": [
+   "taught"
+  ],
+  "dorian-0193": [
+   "taught"
+  ],
+  "dorian-0195": [
+   "teach"
+  ],
+  "dorian-0198": [
+   "learn"
+  ],
+  "dorian-0200": [
+   "pupils"
+  ],
+  "dorian-0226": [
+   "school"
+  ],
+  "dorian-0234": [
+   "teach"
+  ],
+  "dorian-0249": [
+   "learn"
+  ],
+  "dorian-0266": [
+   "teach"
+  ],
+  "dorian-0277": [
+   "taught"
+  ],
+  "dorian-0279": [
+   "lesson",
+   "lesson",
+   "taught"
+  ],
+  "dorian-0299": [
+   "taught",
+   "taught"
+  ],
+  "dorian-0324": [
+   "educated"
+  ],
+  "dorian-0334": [
+   "teaching"
+  ],
+  "dorian-0353": [
+   "educated"
+  ],
+  "dorian-0377": [
+   "teach"
+  ],
+  "dorian-0387": [
+   "lesson"
+  ],
+  "phaedrus-0003": [
+   "learned",
+   "lesson"
+  ],
+  "phaedrus-0004": [
+   "learn"
+  ],
+  "phaedrus-0008": [
+   "teachers"
+  ],
+  "phaedrus-0012": [
+   "education"
+  ],
+  "phaedrus-0038": [
+   "instruction"
+  ],
+  "phaedrus-0055": [
+   "learn",
+   "teach"
+  ],
+  "phaedrus-0056": [
+   "educate"
+  ],
+  "phaedrus-0069": [
+   "teach"
+  ],
+  "phaedrus-0074": [
+   "learn"
+  ],
+  "phaedrus-0088": [
+   "disciples",
+   "teach"
+  ],
+  "phaedrus-0090": [
+   "teaches"
+  ],
+  "phaedrus-0092": [
+   "teaching",
+   "teaching"
+  ],
+  "phaedrus-0094": [
+   "taught",
+   "taught",
+   "disciples"
+  ],
+  "phaedrus-0095": [
+   "teach"
+  ],
+  "phaedrus-0097": [
+   "learn",
+   "teach"
+  ],
+  "phaedrus-0098": [
+   "teaches",
+   "pupil",
+   "teaches"
+  ],
+  "phaedrus-0100": [
+   "learn",
+   "pupil",
+   "learned",
+   "teaching",
+   "teacher"
+  ],
+  "phaedrus-0105": [
+   "disciples",
+   "learned"
+  ],
+  "phaedrus-0109": [
+   "teach"
+  ],
+  "phaedrus-0111": [
+   "teaching"
+  ],
+  "phaedrus-0112": [
+   "instruction",
+   "taught",
+   "instruction"
+  ],
+  "phaedrus-0113": [
+   "school"
+  ]
+ }
+}

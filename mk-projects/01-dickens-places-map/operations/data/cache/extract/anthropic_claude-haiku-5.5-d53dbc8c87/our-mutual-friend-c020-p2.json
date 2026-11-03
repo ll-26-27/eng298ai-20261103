@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c020-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5360,
+  "completion_tokens": 1075,
+  "total_tokens": 6435,
+  "cost": 0.0010735,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010735,
+   "upstream_inference_prompt_cost": 0.000536,
+   "upstream_inference_completions_cost": 0.0005375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 750,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Pocket-Breaches",
+   "normalized": "Pocket-Breaches (fictional parliamentary borough)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "how that Veneering has been offered Pocket-Breaches",
+   "note": "Fictional borough in the novel; cannot be located."
+  },
+  {
+   "as_written": "House of Commons",
+   "normalized": "Palace of Westminster (House of Commons), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "go down to the House of Commons and see how things look",
+   "note": "Brewer goes there; the passage does not show him arriving."
+  },
+  {
+   "as_written": "Snigsworthy Park",
+   "normalized": "Snigsworthy Park (fictional estate of Lord Snigsworth)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "under the spreading beeches of Snigsworthy Park",
+   "note": "Invented estate; cannot be located."
+  }
+ ]
+}

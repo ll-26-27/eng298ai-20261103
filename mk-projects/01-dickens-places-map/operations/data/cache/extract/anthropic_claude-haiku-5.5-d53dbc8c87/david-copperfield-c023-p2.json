@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c023-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5109,
+  "completion_tokens": 1230,
+  "total_tokens": 6339,
+  "cost": 0.0011259,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011259,
+   "upstream_inference_prompt_cost": 0.0005109,
+   "upstream_inference_completions_cost": 0.000615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 688,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Doctors’ Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we set out for the office of Messrs Spenlow and Jorkins, in Doctors’ Commons.",
+   "note": ""
+  },
+  {
+   "as_written": "Fleet Street",
+   "normalized": "Fleet Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We made a pause at the toy shop in Fleet Street",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Dunstan’s",
+   "normalized": "St Dunstan-in-the-West church, Fleet Street, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "to see the giants of Saint Dunstan’s strike upon the bells",
+   "note": "Church whose clock giants are meant; identification inferred"
+  },
+  {
+   "as_written": "Ludgate Hill",
+   "normalized": "Ludgate Hill, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and then went on towards Ludgate Hill, and St. Paul’s Churchyard.",
+   "note": ""
+  },
+  {
+   "as_written": "St. Paul’s Churchyard",
+   "normalized": "St Paul's Churchyard, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "get me a coach, my dear, and wait for me in St. Paul’s Churchyard.",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "this other general opinion in reference to London, that every man she saw was a pickpocket",
+   "note": ""
+  }
+ ]
+}

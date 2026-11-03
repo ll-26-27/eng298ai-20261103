@@ -1,0 +1,93 @@
+{
+ "chunk": "great-expectations-c040-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5119,
+  "completion_tokens": 685,
+  "total_tokens": 5804,
+  "cost": 0.0008544,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008544,
+   "upstream_inference_prompt_cost": 0.0005119,
+   "upstream_inference_completions_cost": 0.0003425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Botany Bay",
+   "normalized": "Botany Bay, New South Wales",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "nor yet I don’t intend to advertise myself in the newspapers by the name of A.M. come back from Botany Bay",
+   "note": "Penal settlement name; used as a figure for the colony"
+  },
+  {
+   "as_written": "the old country",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I’ve come to the old country fur to see my gentleman spend his money",
+   "note": "Magwitch's phrase for England"
+  },
+  {
+   "as_written": "Essex Street",
+   "normalized": "Essex Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "There being to my knowledge a respectable lodging-house in Essex Street, the back of which looked into the Temple",
+   "note": ""
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the back of which looked into the Temple, and was almost within hail of my windows",
+   "note": "Inns of Court area; Pip's chambers are there"
+  },
+  {
+   "as_written": "Little Britain",
+   "normalized": "Little Britain, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I then went from shop to shop, making such purchases as were necessary to the change in his appearance. This business transacted, I turned my face, on my own account, to Little Britain.",
+   "note": "Jaggers's office"
+  },
+  {
+   "as_written": "New South Wales",
+   "normalized": "New South Wales, Australia",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "You can’t have verbal communication with a man in New South Wales, you know.",
+   "note": ""
+  },
+  {
+   "as_written": "Portsmouth",
+   "normalized": "Portsmouth, Hampshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he has received a letter, under date Portsmouth, from a colonist of the name of Purvis",
+   "note": "Place of letter's date"
+  }
+ ]
+}

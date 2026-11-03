@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c032-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5410,
+  "completion_tokens": 912,
+  "total_tokens": 6322,
+  "cost": 0.000997,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000997,
+   "upstream_inference_prompt_cost": 0.000541,
+   "upstream_inference_completions_cost": 0.000456
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 712,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Saint Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "It’s eleven o’clock striking by the bell of Saint Paul’s.",
+   "note": ""
+  },
+  {
+   "as_written": "the Sol’s Arms",
+   "normalized": "Sol's Arms, Cook's Court, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "cooking chops at the Sol’s Arms.",
+   "note": "Fictional inn in Bleak House; location approximate"
+  }
+ ]
+}

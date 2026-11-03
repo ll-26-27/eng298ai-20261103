@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1727,
+  "completion_tokens": 105,
+  "total_tokens": 1832,
+  "cost": 0.004504,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004504,
+   "upstream_inference_prompt_cost": 0.003454,
+   "upstream_inference_completions_cost": 0.00105
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0425. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): William, Justine, and Henry—they all died by my hands.\"\n\n1818 text: My father had often, during my imprisonment, heard me make the same assertion; when I thus accused myself, he sometimes seemed to desire an explanation, and at others he appeared to consider it as caused by delirium, and that, during my illness, some idea of this kind had presented itself to my imagination, the remembrance of which I preserved in my convalescence.\n\n1831 text: My father had often, during my imprisonment, heard me make the same assertion; when I thus accused myself, he sometimes seemed to desire an explanation, and at others he appeared to consider it as the offspring of delirium, and that, during my illness, some idea of this kind had presented itself to my imagination, the remembrance of which I preserved in my convalescence.\n\nDiff: My father had often, during my imprisonment, heard me make the same assertion; when I thus accused myself, he sometimes seemed to desire an explanation, and at others he appeared to consider it as [-caused by-] {+the offspring of+} delirium, and that, during my illness, some idea of this kind had presented itself to my imagination, the remembrance of which I preserved in my convalescence.\n\nContext after (unchanged): I avoided explanation, and maintained a continual silence concerning the wretch I had created."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "\"caused by\" becomes \"the offspring of\" delirium: a stylistic substitution with the same meaning. The procreative metaphor faintly echoes the creation theme, but the sense is unchanged.",
+  "confidence": "high",
+  "rationaleWords": 27
+ }
+}

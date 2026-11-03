@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c022-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5371,
+  "completion_tokens": 547,
+  "total_tokens": 5918,
+  "cost": 0.0008106,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008106,
+   "upstream_inference_prompt_cost": 0.0005371,
+   "upstream_inference_completions_cost": 0.0002735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Allegory looks pretty cool in Lincoln’s Inn Fields, though the evening is hot",
+   "note": ""
+  },
+  {
+   "as_written": "the Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "He has a priceless bin of port in some artful cellar under the Fields",
+   "note": "Short form of Lincoln's Inn Fields; same place as above"
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "walked leisurely home to the Temple and hanged himself",
+   "note": "Inns of Court complex; refers to the Temple"
+  },
+  {
+   "as_written": "Tom-all-Alone’s",
+   "normalized": "Tom-all-Alone's, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if Mr. Snagsby don’t object to go down with me to Tom-all-Alone’s and point him out",
+   "note": "Fictional slum name in Bleak House; location is London but the place is invented"
+  },
+  {
+   "as_written": "Tom-all-Alone’s",
+   "normalized": "Tom-all-Alone's, London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "go down with me, in confidence, to Tom-all-Alone’s and to keep the whole thing quiet",
+   "note": "Fictional slum; same place as above"
+  }
+ ]
+}

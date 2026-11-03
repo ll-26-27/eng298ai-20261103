@@ -1,0 +1,39 @@
+{
+ "chunk": "little-dorrit-c010-p5",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1575,
+  "completion_tokens": 379,
+  "total_tokens": 1954,
+  "cost": 0.000347,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000347,
+   "upstream_inference_prompt_cost": 0.0001575,
+   "upstream_inference_completions_cost": 0.0001895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 235,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Holborn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Bleeding Heart Yard was no inappropriate destination for a man who had been in official correspondence",
+   "note": "Fictional-sounding name but a real yard off Greville Street, Holborn; the party is walking there."
+  }
+ ]
+}

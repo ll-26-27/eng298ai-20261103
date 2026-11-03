@@ -1,0 +1,84 @@
+{
+ "chunk": "great-expectations-c053-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4931,
+  "completion_tokens": 3027,
+  "total_tokens": 7958,
+  "cost": 0.0020066,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020066,
+   "upstream_inference_prompt_cost": 0.0004931,
+   "upstream_inference_completions_cost": 0.0015135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2325,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mill Pond Bank",
+   "normalized": "Mill Pond Bank, Limehouse, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mill Pond Bank, and Chinks’s Basin, and the Old Green Copper Rope-walk, all so clear and plain!",
+   "note": "Pip's London memory; location approximate."
+  },
+  {
+   "as_written": "Chinks’s Basin",
+   "normalized": "Chinks's Basin, Limehouse, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mill Pond Bank, and Chinks’s Basin, and the Old Green Copper Rope-walk",
+   "note": "Dock basin on the Thames; location approximate."
+  },
+  {
+   "as_written": "the Old Green Copper Rope-walk",
+   "normalized": "Old Green Copper Rope-walk, Limehouse, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and the Old Green Copper Rope-walk, all so clear and plain!",
+   "note": "Location approximate (Limehouse/Wapping area)."
+  },
+  {
+   "as_written": "Gargery’s",
+   "normalized": "Joe Gargery's forge, Pip's village (Kent marshes)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I know’d you at Gargery’s when you was so small a wolf",
+   "note": "Fictional forge in Pip's village; refers to the house and forge."
+  },
+  {
+   "as_written": "the dark and empty sluice-house",
+   "normalized": "Sluice-house on the Kent marshes (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "we had shut the door of the dark and empty sluice-house",
+   "note": "Unnamed in text; fictional location on the marshes."
+  },
+  {
+   "as_written": "limekiln",
+   "normalized": "Limekiln on the Kent marshes (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The white vapour of the kiln was passing from us as we went by",
+   "note": "Unnamed proper name; fictional location."
+  }
+ ]
+}

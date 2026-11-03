@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2012,
+  "completion_tokens": 120,
+  "total_tokens": 2132,
+  "cost": 0.0002612,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002612,
+   "upstream_inference_prompt_cost": 0.0002012,
+   "upstream_inference_completions_cost": 0.00006
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0528. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): His sentence was pronounced; and I could only grieve, and be patient.\n\n1818 text: I sat by his bed watching him; his eyes were closed, and I thought he slept; but presently he called to me in a feeble voice, and, bidding me come near, said—\"Alas! the strength I relied on is gone; I feel that I shall soon die, and he, my enemy and persecutor, may still be in being. Think not, Walton, that in the last moments of my existence I feel that burning hatred, and ardent desire of revenge, I once expressed, but I feel myself justified in desiring the death of my adversary. During these last days I have been occupied in examining my past conduct; nor do I find it blameable.\n\n1831 text: I sat by his bed, watching him; his eyes were closed, and I thought he slept; but presently he called to me in a feeble voice, and, bidding me come near, said—\"Alas! the strength I relied on is gone; I feel that I shall soon die, and he, my enemy and persecutor, may still be in being. Think not, Walton, that in the last moments of my existence I feel that burning hatred, and ardent desire of revenge, I once expressed; but I feel myself justified in desiring the death of my adversary. During these last days I have been occupied in examining my past conduct; nor do I find it blamable.\n\nDiff: I sat by his bed {+,+} watching him; his eyes were closed, and I thought he slept; but presently he called to me in a feeble voice, and, bidding me come near, said—\" Alas! the strength I relied on is gone; I feel that I shall soon die, and he, my enemy and persecutor, may still be in being. Think not, Walton, that in the last moments of my existence I feel that burning hatred, and ardent desire of revenge, I once expressed [-,-] {+;+} but I feel myself justified in desiring the death of my adversary. During these last days I have been occupied in examining my past conduct; nor do I find it [-blameable-] {+blamable+} .\n\nContext after (unchanged): In a fit of enthusiastic madness I created a rational creature, and was bound towards him, to assure, as far as was in my power, his happiness and well-being."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic or punctuational: 'blameable' becomes 'blamable' (spelling variant), and a comma after 'expressed' becomes a semicolon, with a comma inserted after 'bed'. No change in meaning or content.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

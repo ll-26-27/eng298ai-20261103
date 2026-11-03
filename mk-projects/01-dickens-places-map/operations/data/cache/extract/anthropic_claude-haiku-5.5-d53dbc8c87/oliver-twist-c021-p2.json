@@ -1,0 +1,39 @@
+{
+ "chunk": "oliver-twist-c021-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1778,
+  "completion_tokens": 335,
+  "total_tokens": 2113,
+  "cost": 0.0003453,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003453,
+   "upstream_inference_prompt_cost": 0.0001778,
+   "upstream_inference_completions_cost": 0.0001675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 224,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Shepperton",
+   "normalized": "Shepperton, Surrey",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "They turned into no house at Shepperton, as the weary boy had expected",
+   "note": "Village named only as a place they passed; they do not stop there in this passage."
+  }
+ ]
+}

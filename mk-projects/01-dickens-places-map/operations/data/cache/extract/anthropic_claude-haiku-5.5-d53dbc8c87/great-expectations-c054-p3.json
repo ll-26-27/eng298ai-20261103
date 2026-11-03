@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c054-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4459,
+  "completion_tokens": 1437,
+  "total_tokens": 5896,
+  "cost": 0.0011644,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011644,
+   "upstream_inference_prompt_cost": 0.0004459,
+   "upstream_inference_completions_cost": 0.0007185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1027,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Hamburg",
+   "normalized": "Hamburg, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "gave me the word “Hamburg,” in a low voice",
+   "note": "Name of the approaching steamer, not necessarily a place visited; included as a mention."
+  },
+  {
+   "as_written": "Rotterdam",
+   "normalized": "Rotterdam, Netherlands",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "But, the Rotterdam steamer now came up",
+   "note": "Used for the second steamer, named after the port; included as a mention."
+  },
+  {
+   "as_written": "the Ship",
+   "normalized": "The Ship, tavern on the Thames below London (location unclear)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The Jack at the Ship was instructed where the drowned man had gone down",
+   "note": "Inn name; exact location not given in passage, likely on the lower Thames estuary."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "He further gave me leave to accompany the prisoner to London",
+   "note": "Destination of the journey; mentioned rather than visited in this passage."
+  }
+ ]
+}

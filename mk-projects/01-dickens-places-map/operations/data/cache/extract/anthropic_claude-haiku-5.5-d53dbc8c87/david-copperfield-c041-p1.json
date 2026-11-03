@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c041-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5346,
+  "completion_tokens": 1023,
+  "total_tokens": 6369,
+  "cost": 0.0010461,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010461,
+   "upstream_inference_prompt_cost": 0.0005346,
+   "upstream_inference_completions_cost": 0.0005115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 704,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Putney",
+   "normalized": "Putney, London (then Surrey)",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "as we were walking to Putney",
+   "note": "Then a village in Surrey outside London; the Misses Spenlow's house is implied to be here."
+  },
+  {
+   "as_written": "the Inner Temple",
+   "normalized": "Inner Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "his friend Mr. Thomas Traddles of the Inner Temple",
+   "note": "Inn of Court; Traddles's association only."
+  },
+  {
+   "as_written": "Calcutta",
+   "normalized": "Calcutta, India",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "having been at Calcutta in his youth",
+   "note": ""
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that he would go to India",
+   "note": ""
+  }
+ ]
+}

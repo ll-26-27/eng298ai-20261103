@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c015-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2045,
+  "completion_tokens": 683,
+  "total_tokens": 2728,
+  "cost": 0.000546,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000546,
+   "upstream_inference_prompt_cost": 0.0002045,
+   "upstream_inference_completions_cost": 0.0003415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 485,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Birmingham",
+   "normalized": "Birmingham, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr Toodle, who had just come home from Birmingham",
+   "note": ""
+  },
+  {
+   "as_written": "Mr Dombey’s house",
+   "normalized": "Mr Dombey's house, Brook Street, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "deposited them safely in the hall of Mr Dombey’s house",
+   "note": "Street not named in this passage; Brook Street is from elsewhere in the novel."
+  }
+ ]
+}

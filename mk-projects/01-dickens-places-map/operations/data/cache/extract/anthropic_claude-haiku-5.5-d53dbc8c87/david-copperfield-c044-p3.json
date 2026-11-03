@@ -1,0 +1,39 @@
+{
+ "chunk": "david-copperfield-c044-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4971,
+  "completion_tokens": 762,
+  "total_tokens": 5733,
+  "cost": 0.0008781,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008781,
+   "upstream_inference_prompt_cost": 0.0004971,
+   "upstream_inference_completions_cost": 0.000381
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 633,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Chinese House",
+   "normalized": "Chinese House, Highgate, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "sitting down on the floor outside the Chinese House, ringing all the little bells one after another",
+   "note": "Summerhouse named in the novel; location inferred from the Highgate setting, not stated in this passage."
+  }
+ ]
+}

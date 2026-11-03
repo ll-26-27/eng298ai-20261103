@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c009-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5004,
+  "completion_tokens": 1658,
+  "total_tokens": 6662,
+  "cost": 0.0013294,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013294,
+   "upstream_inference_prompt_cost": 0.0005004,
+   "upstream_inference_completions_cost": 0.000829
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1156,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Iron Bridge",
+   "normalized": "Southwark Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "‘Will you go by the Iron Bridge,’ said he, ‘where there is an escape from the noise of the street?’",
+   "note": "Dickens's 'Iron Bridge' is generally identified with Southwark Bridge; the passage does not name it."
+  },
+  {
+   "as_written": "Marshalsea Hotel",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "To think of growing up with a kind of awe upon one as to the luxuries of that superb establishment, the Marshalsea Hotel!",
+   "note": "Ironic name for the debtors' prison, which is the place the passage is about."
+  },
+  {
+   "as_written": "Grosvenor Square",
+   "normalized": "Grosvenor Square, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "He lived in Grosvenor Square, she thought, or very near it.",
+   "note": ""
+  },
+  {
+   "as_written": "Beau Nash",
+   "normalized": "Bath, Somerset",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Thus did Cripples unconsciously become a master of the ceremonies between them, and bring them more naturally together than Beau Nash might have done",
+   "note": "Place is implied through Beau Nash, the master of ceremonies at Bath, not named directly."
+  }
+ ]
+}

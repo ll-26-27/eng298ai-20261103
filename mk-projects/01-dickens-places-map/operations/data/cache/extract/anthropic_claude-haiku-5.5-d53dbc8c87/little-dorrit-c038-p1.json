@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c038-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4713,
+  "completion_tokens": 974,
+  "total_tokens": 5687,
+  "cost": 0.0009583,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009583,
+   "upstream_inference_prompt_cost": 0.0004713,
+   "upstream_inference_completions_cost": 0.000487
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 618,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Alps",
+   "normalized": "Alps, Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to the top of the Alps",
+   "note": ""
+  },
+  {
+   "as_written": "Herculaneum",
+   "normalized": "Herculaneum, near Naples, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the bottom of Herculaneum",
+   "note": "Ancient Roman town buried by Vesuvius; referred to as a place visited."
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "she made the tour of Europe",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Bernard",
+   "normalized": "Great St Bernard Hospice, Swiss Alps",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "lying asleep in the arms of the good Saint Bernard",
+   "note": "Ambiguous: could refer to the dog or the hospice on the pass; hospice inferred from 'house-top'."
+  }
+ ]
+}

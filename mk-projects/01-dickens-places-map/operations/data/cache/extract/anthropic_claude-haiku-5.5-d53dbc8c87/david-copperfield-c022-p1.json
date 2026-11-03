@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c022-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5036,
+  "completion_tokens": 1219,
+  "total_tokens": 6255,
+  "cost": 0.0011131,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011131,
+   "upstream_inference_prompt_cost": 0.0005036,
+   "upstream_inference_completions_cost": 0.0006095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 733,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blundeston, Suffolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "going over to Blunderstone, and revisiting the old familiar scenes of my childhood",
+   "note": "Dickens's fictional name for the real village of Blundeston, near Lowestoft; the passage is set there during the walks."
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "My nearest way to Yarmouth, in coming back from these long walks, was by a ferry.",
+   "note": ""
+  },
+  {
+   "as_written": "‘The Willing Mind’",
+   "normalized": "The Willing Mind (fictional inn, Yarmouth area)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Peggotty’s house of call, ‘The Willing Mind’",
+   "note": "Invented house of call; location not given beyond the Yarmouth area."
+  },
+  {
+   "as_written": "South America",
+   "normalized": "South America",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Our old neighbours, Mr. and Mrs. Grayper, were gone to South America",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I told you at the inn in London, I am heavy company for myself",
+   "note": ""
+  }
+ ]
+}

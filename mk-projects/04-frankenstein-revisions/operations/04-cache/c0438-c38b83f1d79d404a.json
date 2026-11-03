@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1858,
+  "completion_tokens": 125,
+  "total_tokens": 1983,
+  "cost": 0.0002483,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002483,
+   "upstream_inference_prompt_cost": 0.0001858,
+   "upstream_inference_completions_cost": 0.0000625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0438. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): My destruction might indeed arrive a few months sooner; but if my torturer should suspect that I postponed it, influenced by his menaces, he would surely find other, and perhaps more dreadful means of revenge.\n\n1818 text: He had vowed to be with me on my wedding-night, yet he did not consider that threat as binding him to peace in the mean time; for, as if to shew me that he was not yet satiated with blood, he had murdered Clerval immediately after the enunciation of his threats. I resolved, therefore, that if my immediate union with my cousin would conduce either to her's or my father's happiness, my adversary's designs against my life should not retard it a single hour.\n\n1831 text: He had vowed to be with me on my wedding-night, yet he did not consider that threat as binding him to peace in the mean time; for, as if to show me that he was not yet satiated with blood, he had murdered Clerval immediately after the enunciation of his threats. I resolved, therefore, that if my immediate union with my cousin would conduce either to hers or my father's happiness, my adversary's designs against my life should not retard it a single hour.\n\nDiff: He had vowed to be with me on my wedding-night, yet he did not consider that threat as binding him to peace in the mean time; for, as if to [-shew-] {+show+} me that he was not yet satiated with blood, he had murdered Clerval immediately after the enunciation of his threats. I resolved, therefore, that if my immediate union with my cousin would conduce either to [-her's-] {+hers+} or my father's happiness, my adversary's designs against my life should not retard it a single hour.\n\nContext after (unchanged): In this state of mind I wrote to Elizabeth."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic: 'shew' to 'show' and 'her's' to 'hers' (possessive apostrophe removed). Meaning and sense are unchanged; the possessive correction is a grammatical-orthographic fix with no interpretive effect.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

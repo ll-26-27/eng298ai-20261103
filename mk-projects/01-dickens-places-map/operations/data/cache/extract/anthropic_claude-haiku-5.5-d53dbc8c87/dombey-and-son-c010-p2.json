@@ -1,0 +1,57 @@
+{
+ "chunk": "dombey-and-son-c010-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5430,
+  "completion_tokens": 1326,
+  "total_tokens": 6756,
+  "cost": 0.001206,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001206,
+   "upstream_inference_prompt_cost": 0.000543,
+   "upstream_inference_completions_cost": 0.000663
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 991,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Princess’s Place",
+   "normalized": "Princess's Place, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Princess’s Place is changed into Kamschatka in the winter time.",
+   "note": "Major's residence; likely fictional, location assumed London."
+  },
+  {
+   "as_written": "Kamschatka",
+   "normalized": "Kamchatka Peninsula, Russia",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Princess’s Place is changed into Kamschatka in the winter time.",
+   "note": "Used hyperbolically for the cold; original spelling of Kamchatka."
+  },
+  {
+   "as_written": "the military college",
+   "normalized": "Royal Military College, Sandhurst",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "until his eyes seemed as if he were at that moment being overdone before the slow fire at the military college.",
+   "note": "Not named; identification uncertain (Sandhurst or Woolwich)."
+  }
+ ]
+}

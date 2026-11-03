@@ -1,0 +1,39 @@
+{
+ "chunk": "oliver-twist-c003-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5304,
+  "completion_tokens": 700,
+  "total_tokens": 6004,
+  "cost": 0.0008804,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008804,
+   "upstream_inference_prompt_cost": 0.0005304,
+   "upstream_inference_completions_cost": 0.00035
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 568,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, unnamed provincial town (fictional)",
+   "type": "street",
+   "role": "setting",
+   "in_london": null,
+   "quote": "Mr. Gamfield, chimney-sweep, went his way down the High Street, deeply cogitating",
+   "note": "Unnamed town in the novel; a generic High Street, not identifiable on a real map."
+  }
+ ]
+}

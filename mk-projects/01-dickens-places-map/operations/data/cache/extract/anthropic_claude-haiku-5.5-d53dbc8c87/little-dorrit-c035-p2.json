@@ -1,0 +1,39 @@
+{
+ "chunk": "little-dorrit-c035-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5058,
+  "completion_tokens": 580,
+  "total_tokens": 5638,
+  "cost": 0.0007958,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007958,
+   "upstream_inference_prompt_cost": 0.0005058,
+   "upstream_inference_completions_cost": 0.00029
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 443,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and finally came out of the house with Clennam, and took coach for the Marshalsea.",
+   "note": "Debtors' prison; the College is the Collegians' name for it, and Dickens also calls it 'his jail'."
+  }
+ ]
+}

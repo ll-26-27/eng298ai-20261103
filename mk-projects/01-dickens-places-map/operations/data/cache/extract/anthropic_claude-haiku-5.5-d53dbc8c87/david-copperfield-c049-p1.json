@@ -1,0 +1,102 @@
+{
+ "chunk": "david-copperfield-c049-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5387,
+  "completion_tokens": 2074,
+  "total_tokens": 7461,
+  "cost": 0.0015757,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015757,
+   "upstream_inference_prompt_cost": 0.0005387,
+   "upstream_inference_completions_cost": 0.001037
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1356,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "dated Canterbury, and addressed to me at Doctor’s Commons",
+   "note": "Letter's dateline and Micawbers' home; also 'Post Office, Canterbury'."
+  },
+  {
+   "as_written": "Doctor’s Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "addressed to me at Doctor’s Commons",
+   "note": "Narrator's workplace; a legal society and precinct."
+  },
+  {
+   "as_written": "King’s Bench Prison",
+   "normalized": "King's Bench Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "my feet will naturally tend towards the King’s Bench Prison",
+   "note": "Meeting place is outside its south wall."
+  },
+  {
+   "as_written": "Inner Temple",
+   "normalized": "Inner Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr. Thomas Traddles of the Inner Temple",
+   "note": "Inn of Court where Traddles is a barrister."
+  },
+  {
+   "as_written": "Temple",
+   "normalized": "Inner Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a shattered fragment of the Temple once called Man",
+   "note": "Figurative reference to the Inner Temple."
+  },
+  {
+   "as_written": "West-End",
+   "normalized": "West End, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The West-End destination of the coach, is the Golden Cross.",
+   "note": ""
+  },
+  {
+   "as_written": "Golden Cross",
+   "normalized": "Golden Cross inn, Charing Cross, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The West-End destination of the coach, is the Golden Cross.",
+   "note": "Coaching inn terminus."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr. Micawber is going to London.",
+   "note": ""
+  }
+ ]
+}

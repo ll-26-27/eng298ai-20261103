@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c049-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5321,
+  "completion_tokens": 786,
+  "total_tokens": 6107,
+  "cost": 0.0009251,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009251,
+   "upstream_inference_prompt_cost": 0.0005321,
+   "upstream_inference_completions_cost": 0.000393
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 406,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Holborn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Down in Bleeding Heart Yard, where there was not one unappropriated halfpenny",
+   "note": ""
+  },
+  {
+   "as_written": "Stock Exchange",
+   "normalized": "London Stock Exchange, Threadneedle Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as lively an interest was taken in this paragon of men as on the Stock Exchange",
+   "note": ""
+  },
+  {
+   "as_written": "West-End",
+   "normalized": "West End, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "though he had gone to the West-End with some work",
+   "note": ""
+  },
+  {
+   "as_written": "Happy Cottage",
+   "normalized": "Happy Cottage",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "presenting the inscription, Happy Cottage, T. and M. Plornish",
+   "note": "Painted cottage and brass-plate name inside the Plornish shop parlour, not a real place"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c018-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5144,
+  "completion_tokens": 788,
+  "total_tokens": 5932,
+  "cost": 0.0009084,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009084,
+   "upstream_inference_prompt_cost": 0.0005144,
+   "upstream_inference_completions_cost": 0.000394
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 509,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the North Pole",
+   "normalized": "North Pole, Arctic",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "adventurous spirits going to the North Pole or penetrating to the heart of the Torrid Zone",
+   "note": ""
+  },
+  {
+   "as_written": "the Torrid Zone",
+   "normalized": "Torrid Zone (tropics), Earth",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "penetrating to the heart of the Torrid Zone with admiration",
+   "note": "Geographic zone rather than a bounded place"
+  },
+  {
+   "as_written": "American plantations",
+   "normalized": "United States of America",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Take the case of the slaves on American plantations.",
+   "note": "Identified by adjective only; approximate"
+  }
+ ]
+}

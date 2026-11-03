@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1596,
+  "completion_tokens": 117,
+  "total_tokens": 1713,
+  "cost": 0.0002181,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002181,
+   "upstream_inference_prompt_cost": 0.0001596,
+   "upstream_inference_completions_cost": 0.0000585
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0391. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): \"Why do you answer me so roughly?\"\n\n1818 text: I replied: \"surely it is not the custom of Englishmen to receive strangers so inhospitably.\" \"I do not know,\" said the man, \"what the custom of the English may be; but it is the custom of the Irish to hate villains.\"\n\n1831 text: I replied; \"surely it is not the custom of Englishmen to receive strangers so inhospitably.\" \"I do not know,\" said the man, \"what the custom of the English may be; but is the custom of the Irish to hate villains.\"\n\nDiff: I replied [-:-] {+;+} \" surely it is not the custom of Englishmen to receive strangers so inhospitably. \" \" I do not know, \" said the man, \" what the custom of the English may be; but [-it-] is the custom of the Irish to hate villains. \"\n\nContext after (unchanged): While this strange dialogue continued, I perceived the crowd rapidly increase."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Punctuation change (colon to semicolon after 'I replied') and deletion of 'it' in 'but it is the custom'; the 1831 'but is the custom' is a grammatical slip or ellipsis with no change of meaning.",
+  "confidence": "medium",
+  "rationaleWords": 35
+ }
+}

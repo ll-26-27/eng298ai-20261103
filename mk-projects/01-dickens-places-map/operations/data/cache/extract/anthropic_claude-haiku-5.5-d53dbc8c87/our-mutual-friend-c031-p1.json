@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c031-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4711,
+  "completion_tokens": 941,
+  "total_tokens": 5652,
+  "cost": 0.0009416,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009416,
+   "upstream_inference_prompt_cost": 0.0004711,
+   "upstream_inference_completions_cost": 0.0004705
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 679,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London walls",
+   "normalized": "London Wall, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "placarded by the police authorities upon the London walls for dead",
+   "note": "Refers to the City's walls generally; the street is a modern name for the same area"
+  },
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Anywhere. Anywhere in Africa, I mean.",
+   "note": "Continent, referred to in Mr Wilfer's remarks on African travel books"
+  },
+  {
+   "as_written": "Manchester",
+   "normalized": "Manchester, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "or a Manchester pair of braces",
+   "note": ""
+  }
+ ]
+}

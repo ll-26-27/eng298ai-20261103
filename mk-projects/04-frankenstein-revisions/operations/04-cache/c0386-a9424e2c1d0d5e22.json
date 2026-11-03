@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1707,
+  "completion_tokens": 122,
+  "total_tokens": 1829,
+  "cost": 0.0002317,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002317,
+   "upstream_inference_prompt_cost": 0.0001707,
+   "upstream_inference_completions_cost": 0.000061
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0386. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): \"Fiend,\" I exclaimed, \"your task is already fulfilled!\"\n\n1818 text: I thought of Elizabeth, of my father, and of Clerval; and sunk into a reverie, so despairing and frightful, that even now, when the scene is on the point of closing before me for ever, I shudder to reflect on it.\n\n1831 text: I thought of Elizabeth, of my father, and of Clerval; all left behind, on whom the monster might satisfy his sanguinary and merciless passions. This idea plunged me into a reverie, so despairing and frightful, that even now, when the scene is on the point of closing before me for ever, I shudder to reflect on it.\n\nDiff: I thought of Elizabeth, of my father, and of Clerval; {+all left behind, on whom the monster might satisfy his sanguinary+} and [-sunk-] {+merciless passions. This idea plunged me+} into a reverie, so despairing and frightful, that even now, when the scene is on the point of closing before me for ever, I shudder to reflect on it.\n\nContext after (unchanged): Some hours passed thus; but by degrees, as the sun declined towards the horizon, the wind died away into a gentle breeze, and the sea became free from breakers."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Adds 'all left behind, on whom the monster might satisfy his sanguinary and merciless passions', making the monster's malice toward named family explicit and reframing Victor's reverie as a response to that threat rather than mere despair.",
+  "confidence": "high",
+  "rationaleWords": 37
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c005-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4985,
+  "completion_tokens": 999,
+  "total_tokens": 5984,
+  "cost": 0.000998,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000998,
+   "upstream_inference_prompt_cost": 0.0004985,
+   "upstream_inference_completions_cost": 0.0004995
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 685,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "old Battery",
+   "normalized": "Old Battery, Hoo Marshes, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "moving on in the direction of the old Battery",
+   "note": "Fortification on the marshes; the exact real site is uncertain."
+  },
+  {
+   "as_written": "Hulks",
+   "normalized": "Hulks (prison ships on the Thames estuary, Hoo, Kent)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Now, the Hulks has got its gentleman again, through me.",
+   "note": "Prison-hulks, referred to collectively rather than as one named ship."
+  },
+  {
+   "as_written": "willage over yonder",
+   "normalized": "Unnamed village on the marshes",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I took some wittles, up at the willage over yonder",
+   "note": "Unnamed village; cannot be located."
+  }
+ ]
+}

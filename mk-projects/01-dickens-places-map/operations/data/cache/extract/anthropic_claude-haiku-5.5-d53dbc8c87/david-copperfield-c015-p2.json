@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c015-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5073,
+  "completion_tokens": 843,
+  "total_tokens": 5916,
+  "cost": 0.0009288,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009288,
+   "upstream_inference_prompt_cost": 0.0005073,
+   "upstream_inference_completions_cost": 0.0004215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 543,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Kentish",
+   "normalized": "Kent, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "poring over the columns of a Kentish newspaper",
+   "note": "Adjective form; names the county only indirectly."
+  },
+  {
+   "as_written": "the grey Cathedral",
+   "normalized": "Canterbury Cathedral, Canterbury, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "the old houses, and the grey Cathedral",
+   "note": "Not named in this passage; identified from context as the Cathedral in the cathedral city of the novel's opening chapters."
+  },
+  {
+   "as_written": "that old city",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "think of my coming through that old city on my journey",
+   "note": "Town not named in this passage; identified from context (the cathedral city)."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c050-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5259,
+  "completion_tokens": 843,
+  "total_tokens": 6102,
+  "cost": 0.0009474,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009474,
+   "upstream_inference_prompt_cost": 0.0005259,
+   "upstream_inference_completions_cost": 0.0004215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 697,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the wooden Midshipman’s",
+   "normalized": "Sol Gills's instrument shop (the Midshipman), City of London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "There was an empty room above-stairs at the wooden Midshipman’s",
+   "note": "Named shop sign, not a formal address; the passage gives no street name. Also referred to as the Instrument-maker's house."
+  }
+ ]
+}

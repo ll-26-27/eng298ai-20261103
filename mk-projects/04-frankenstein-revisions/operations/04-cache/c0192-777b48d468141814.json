@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1616,
+  "completion_tokens": 125,
+  "total_tokens": 1741,
+  "cost": 0.0002241,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002241,
+   "upstream_inference_prompt_cost": 0.0001616,
+   "upstream_inference_completions_cost": 0.0000625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0192. Location: 1818 Vol. II, Ch. I; 1831 Ch. IX.\n\nContext before (unchanged): It is also a duty owed to yourself; for excessive sorrow prevents improvement or enjoyment, or even the discharge of daily usefulness, without which no man is fit for society.\"\n\n1818 text: This advice, although good, was totally inapplicable to my case; I should have been the first to hide my grief, and console my friends, if remorse had not mingled its bitterness with my other sensations.\n\n1831 text: This advice, although good, was totally inapplicable to my case; I should have been the first to hide my grief, and console my friends, if remorse had not mingled its bitterness, and terror its alarm with my other sensations.\n\nDiff: This advice, although good, was totally inapplicable to my case; I should have been the first to hide my grief, and console my friends, if remorse had not mingled its bitterness {+, and terror its alarm+} with my other sensations.\n\nContext after (unchanged): Now I could only answer my father with a look of despair, and endeavour to hide myself from his view."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 3,
+  "rationale": "Added clause \"and terror its alarm\" adds a second emotion beside remorse, intensifying Victor's guilt-fear and his inner state. It elaborates feeling without changing events, so expansion fits best, with some characterization of Victor's mental state.",
+  "confidence": "high",
+  "rationaleWords": 36
+ }
+}

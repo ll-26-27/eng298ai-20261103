@@ -1,0 +1,39 @@
+{
+ "chunk": "great-expectations-c004-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5256,
+  "completion_tokens": 614,
+  "total_tokens": 5870,
+  "cost": 0.0008326,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008326,
+   "upstream_inference_prompt_cost": 0.0005256,
+   "upstream_inference_completions_cost": 0.000307
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 503,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Spanish arena",
+   "normalized": "Spain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I might have been an unfortunate little bull in a Spanish arena",
+   "note": "Appears only in a simile; the arena itself is unnamed, so only the country is recorded."
+  }
+ ]
+}

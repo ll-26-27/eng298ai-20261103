@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1609,
+  "completion_tokens": 86,
+  "total_tokens": 1695,
+  "cost": 0.0002039,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002039,
+   "upstream_inference_prompt_cost": 0.0001609,
+   "upstream_inference_completions_cost": 0.000043
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0496. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): I indeed perceptibly gained on it; and when, after nearly two days' journey, I beheld my enemy at no more than a mile distant, my heart bounded within me.\n\n1818 text: But now, when I appeared almost within grasp of my enemy, my hopes were suddenly extinguished, and I lost all trace of him more utterly than I had ever done before.\n\n1831 text: But now, when I appeared almost within grasp of my foe, my hopes were suddenly extinguished, and I lost all trace of him more utterly than I had ever done before.\n\nDiff: But now, when I appeared almost within grasp of my [-enemy-] {+foe+} , my hopes were suddenly extinguished, and I lost all trace of him more utterly than I had ever done before.\n\nContext after (unchanged): A ground sea was heard; the thunder of its progress, as the waters rolled and swelled beneath me, became every moment more ominous and terrific."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Single word swap 'enemy' to 'foe' in 'almost within grasp of my enemy/foe'; same meaning and event, only diction changes.",
+  "confidence": "high",
+  "rationaleWords": 20
+ }
+}

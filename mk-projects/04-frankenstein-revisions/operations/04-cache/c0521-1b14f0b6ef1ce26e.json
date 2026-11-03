@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1517,
+  "completion_tokens": 108,
+  "total_tokens": 1625,
+  "cost": 0.0002057,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002057,
+   "upstream_inference_prompt_cost": 0.0001517,
+   "upstream_inference_completions_cost": 0.000054
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0521. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Be steady to your purposes, and firm as a rock.\n\n1818 text: This ice is not made of such stuff as your hearts might be; it is mutable, cannot withstand you, if you say that it shall not.\n\n1831 text: This ice is not made of such stuff as your hearts may be; it is mutable, and cannot withstand you, if you say that it shall not.\n\nDiff: This ice is not made of such stuff as your hearts [-might-] {+may+} be; it is mutable, {+and+} cannot withstand you, if you say that it shall not.\n\nContext after (unchanged): Do not return to your families with the stigma of disgrace marked on your brows."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Swaps 'might' for 'may' and inserts 'and' before 'cannot withstand you'; these are grammatical and stylistic tweaks that leave the meaning of Walton's speech to the crew unchanged.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

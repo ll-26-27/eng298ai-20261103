@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c059-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5096,
+  "completion_tokens": 575,
+  "total_tokens": 5671,
+  "cost": 0.0007971,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007971,
+   "upstream_inference_prompt_cost": 0.0005096,
+   "upstream_inference_completions_cost": 0.0002875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 398,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Market of Covent Garden",
+   "normalized": "Covent Garden Market, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "This market of Covent Garden was quite out of the creature’s line of road",
+   "note": ""
+  },
+  {
+   "as_written": "Temple",
+   "normalized": "The Temple, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "addressed himself to the Temple.",
+   "note": "Inns of Court complex; Young Blight's chambers are here"
+  }
+ ]
+}

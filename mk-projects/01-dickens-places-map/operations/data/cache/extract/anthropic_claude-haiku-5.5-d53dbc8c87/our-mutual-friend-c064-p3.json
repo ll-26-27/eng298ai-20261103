@@ -1,0 +1,39 @@
+{
+ "chunk": "our-mutual-friend-c064-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3398,
+  "completion_tokens": 677,
+  "total_tokens": 4075,
+  "cost": 0.0006783,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006783,
+   "upstream_inference_prompt_cost": 0.0003398,
+   "upstream_inference_completions_cost": 0.0003385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 547,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mound",
+   "normalized": "Boffin's Mound, Harmony dust heap (fictional)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "he should take his Mound and no more",
+   "note": "Capitalised common noun for the dust heap inherited by Boffin; a novel-specific landmark, not a locatable real place."
+  }
+ ]
+}

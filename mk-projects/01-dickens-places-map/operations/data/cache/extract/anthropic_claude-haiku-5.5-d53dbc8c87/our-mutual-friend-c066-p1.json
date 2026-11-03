@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c066-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5201,
+  "completion_tokens": 1126,
+  "total_tokens": 6327,
+  "cost": 0.0010831,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010831,
+   "upstream_inference_prompt_cost": 0.0005201,
+   "upstream_inference_completions_cost": 0.000563
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 820,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Pa had been sent for into the City, on the very day of taking possession",
+   "note": "Refers to the financial district of the City of London."
+  },
+  {
+   "as_written": "Duke Street, St James's",
+   "normalized": "Duke Street, St James's, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "waited in person on him over the stable yard in Duke Street, St James’s",
+   "note": ""
+  },
+  {
+   "as_written": "the Six Jolly Fellowship Porters",
+   "normalized": "Six Jolly Fellowship Porters, Clerkenwell, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "over a jug of mellow flip in the bar of the Six Jolly Fellowship Porters",
+   "note": "Public house; the confiding was reported, not dramatised."
+  }
+ ]
+}

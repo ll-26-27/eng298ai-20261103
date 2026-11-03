@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1629,
+  "completion_tokens": 276,
+  "total_tokens": 1905,
+  "cost": 0.0003009,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003009,
+   "upstream_inference_prompt_cost": 0.0001629,
+   "upstream_inference_completions_cost": 0.000138
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 155,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0409. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): I suppose some astonishment was exhibited in my countenance; for Mr. Kirwin hastened to say—\n\n1818 text: \"It was not until a day or two after your illness that I thought of examining your dress, that I might discover some trace by which I could send to your relations an account of your misfortune and illness.\n\n1831 text: \"Immediately upon your being taken ill, all the papers that were on your person were brought me, and I examined them that I might discover some trace by which I could send to your relations an account of your misfortune and illness.\n\nDiff: \" [-It was not until a day or two after-] {+Immediately upon+} your [-illness-] {+being taken ill, all the papers+} that [-I thought of examining-] {+were on+} your [-dress-] {+person were brought me+} , {+and I examined them+} that I might discover some trace by which I could send to your relations an account of your misfortune and illness.\n\nContext after (unchanged): I found several letters, and, among others, one which I discovered from its commencement to be from your father."
+ },
+ "result": {
+  "category": "plot",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Changes the sequence and agents of events: 'It was not until a day or two after' becomes 'Immediately upon your being taken ill,' and the papers are now 'brought me' rather than Walton examining the dress himself. The rest is rephrasing.",
+  "confidence": "medium",
+  "rationaleWords": 41
+ }
+}

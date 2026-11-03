@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1802,
+  "completion_tokens": 130,
+  "total_tokens": 1932,
+  "cost": 0.004904,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004904,
+   "upstream_inference_prompt_cost": 0.003604,
+   "upstream_inference_completions_cost": 0.0013
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0039. Location: 1818 Letter IV; 1831 Letter IV.\n\nContext before (unchanged): I replied, that I could not answer with any degree of certainty; for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge.\n\n1818 text: From this time the stranger seemed very eager to be upon deck, to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. But I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight.\n\n1831 text: From this time a new spirit of life animated the decaying frame of the stranger. He manifested the greatest eagerness to be upon deck, to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight.\n\nDiff: From this time {+a new spirit of life animated+} the {+decaying frame of the+} stranger [-seemed very eager-] {+. He manifested the greatest eagerness+} to be upon deck, to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. [-But-] I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight.\n\nContext after (unchanged): Such is my journal of what relates to this strange occurrence up to the present day."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 2,
+  "rationale": "Adds \"a new spirit of life animated the decaying frame of the stranger\" and strengthens \"seemed very eager\" to \"manifested the greatest eagerness\"; also drops \"But\". Elaborates Victor's vitality and frailty without changing events.",
+  "confidence": "medium",
+  "rationaleWords": 34
+ }
+}

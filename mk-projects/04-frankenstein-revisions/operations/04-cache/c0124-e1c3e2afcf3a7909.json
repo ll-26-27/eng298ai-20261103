@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2010,
+  "completion_tokens": 437,
+  "total_tokens": 2447,
+  "cost": 0.0004195,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004195,
+   "upstream_inference_prompt_cost": 0.000201,
+   "upstream_inference_completions_cost": 0.0002185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 310,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0124. Location: 1818 Vol. I, Ch. V; 1831 Ch. VI.\n\nContext before (unchanged): \"D—n the fellow!\" cried he; \"why, M. Clerval, I assure you he has outstript us all.\n\n1818 text: Aye, stare if you please; but it is nevertheless true. A youngster who, but a few years ago, believed Cornelius Agrippa as firmly as the gospel, has now set himself at the head of the university; and if he is not soon pulled down, we shall all be out of countenance.—Aye, aye,\" continued he, observing my face expressive of suffering, \"M. Frankenstein is modest; an excellent quality in a young man. Young men should be diffident of themselves, you know, M. Clerval; I was myself when young: but that wears out in a very short time.\"\n\n1831 text: Ay, stare if you please; but it is nevertheless true. A youngster who, but a few years ago, believed in Cornelius Agrippa as firmly as in the gospel, has now set himself at the head of the university; and if he is not soon pulled down, we shall all be out of countenance.—Ay, ay,\" continued he, observing my face expressive of suffering, \"M. Frankenstein is modest; an excellent quality in a young man. Young men should be diffident of themselves, you know, M. Clerval: I was myself when young; but that wears out in a very short time.\"\n\nDiff: [-Aye-] {+Ay+} , stare if you please; but it is nevertheless true. A youngster who, but a few years ago, believed {+in+} Cornelius Agrippa as firmly as {+in+} the gospel, has now set himself at the head of the university; and if he is not soon pulled down, we shall all be out of countenance.— [-Aye-] {+Ay+} , [-aye-] {+ay+} , \" continued he, observing my face expressive of suffering, \" M. Frankenstein is modest; an excellent quality in a young man. Young men should be diffident of themselves, you know, M. Clerval [-;-] {+:+} I was myself when young [-:-] {+;+} but that wears out in a very short time. \"\n\nContext after (unchanged): M. Krempe had now commenced an eulogy on himself, which happily turned the conversation from a subject that was so annoying to me."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 2,
+  "rationale": "Mostly orthographic (Aye to Ay, aye to ay), plus added prepositions 'believed in Cornelius Agrippa as firmly as in the gospel', which make the parallel between occult belief and scripture grammatically explicit without changing the sense.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

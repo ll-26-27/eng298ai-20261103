@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1517,
+  "completion_tokens": 97,
+  "total_tokens": 1614,
+  "cost": 0.0002002,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002002,
+   "upstream_inference_prompt_cost": 0.0001517,
+   "upstream_inference_completions_cost": 0.0000485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0390. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): As it was, I merely remarked that they spoke English; and I therefore addressed them in that language: \"My good friends,\" said I, \"will you be so kind as to tell me the name of this town, and inform me where I am?\"\n\n1818 text: \"You will know that soon enough,\" replied a man with a gruff voice.\n\n1831 text: \"You will know that soon enough,\" replied a man with a hoarse voice.\n\nDiff: \" You will know that soon enough, \" replied a man with a [-gruff-] {+hoarse+} voice.\n\nContext after (unchanged): \"May be you are come to a place that will not prove much to your taste; but you will not be consulted as to your quarters, I promise you.\""
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Simple lexical substitution of 'gruff' for 'hoarse' describing the man's voice; the meaning and events are unchanged, only the descriptive adjective shifts in tone.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

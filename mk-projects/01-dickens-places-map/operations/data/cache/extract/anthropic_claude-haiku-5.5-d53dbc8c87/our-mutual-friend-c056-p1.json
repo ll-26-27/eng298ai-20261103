@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c056-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5202,
+  "completion_tokens": 417,
+  "total_tokens": 5619,
+  "cost": 0.0007287,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007287,
+   "upstream_inference_prompt_cost": 0.0005202,
+   "upstream_inference_completions_cost": 0.0002085
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Paper Mill",
+   "normalized": "Paper Mill, Hexam area, Kent (Plashwater Weir Mill in novel)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The Paper Mill had stopped work for the night",
+   "note": "Fictional mill; the riverside village is Plashwater, not a real place"
+  },
+  {
+   "as_written": "Barcelona",
+   "normalized": "Barcelona, Spain",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a heap of nuts, long, long exiled from Barcelona",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in this land of England ever is and shall be",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I left London, Mr Wrayburn?",
+   "note": ""
+  },
+  {
+   "as_written": "St Helena",
+   "normalized": "Saint Helena, South Atlantic",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Napoleon Buonaparte at St Helena.",
+   "note": "Island; real place, listed as island/territory"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c045-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4892,
+  "completion_tokens": 1111,
+  "total_tokens": 6003,
+  "cost": 0.0010447,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010447,
+   "upstream_inference_prompt_cost": 0.0004892,
+   "upstream_inference_completions_cost": 0.0005555
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 645,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Deal",
+   "normalized": "Deal, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "At last we came into the narrow streets of Deal, and very gloomy they were upon a raw misty morning.",
+   "note": ""
+  },
+  {
+   "as_written": "Kentish",
+   "normalized": "Kent",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "rolling away seaward with the Kentish letters",
+   "note": "Adjective form; the mail carried letters for Kent."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We all went to London that afternoon, and finding two places in the mail, secured them.",
+   "note": "Also mentioned as the destination of the coach passing from Deal-bound landscape."
+  },
+  {
+   "as_written": "Vale of Taunton",
+   "normalized": "Vale of Taunton, Somerset",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have a father to support in the Vale of Taunton",
+   "note": ""
+  },
+  {
+   "as_written": "the downs",
+   "normalized": "The Downs, anchorage off Deal, Kent",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I don’t know how many sail the waiter told us were then lying in the downs.",
+   "note": "Sheltered sea anchorage, not a river; lowercase in text."
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "dombey-and-son-c041-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5278,
+  "completion_tokens": 1627,
+  "total_tokens": 6905,
+  "cost": 0.0013413,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013413,
+   "upstream_inference_prompt_cost": 0.0005278,
+   "upstream_inference_completions_cost": 0.0008135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1067,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blimber’s",
+   "normalized": "Doctor Blimber's school, Brighton",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "if you would like to walk to Blimber’s",
+   "note": "Brighton is not named in the passage; the school is identified from context."
+  },
+  {
+   "as_written": "the Bedford",
+   "normalized": "Bedford Hotel, Brighton",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "asking him to come and dine with him today at the Bedford",
+   "note": "Hotel name inferred as Bedford Hotel, Brighton."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "every inch of the way from London",
+   "note": ""
+  },
+  {
+   "as_written": "Montargis",
+   "normalized": "Montargis, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "like a very dog of Montargis",
+   "note": "Refers to the legendary dog of Montargis."
+  },
+  {
+   "as_written": "Bengal",
+   "normalized": "Bengal, India",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "born beneath some Bengal star of ill-omen",
+   "note": ""
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "wishes he could catch “old Blimber” in India",
+   "note": ""
+  },
+  {
+   "as_written": "Rubicon",
+   "normalized": "Rubicon River, Italy",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as one who has passed the Rubicon",
+   "note": "Figurative allusion, not a physical location in the scene."
+  }
+ ]
+}

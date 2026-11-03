@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1825,
+  "completion_tokens": 411,
+  "total_tokens": 2236,
+  "cost": 0.000388,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000388,
+   "upstream_inference_prompt_cost": 0.0001825,
+   "upstream_inference_completions_cost": 0.0002055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 276,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0404. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): I replied in the same language, with a feeble voice, \"I believe I am; but if it be all true, if indeed I did not dream, I am sorry that I am still alive to feel this misery and horror.\"\n\n1818 text: \"For that matter,\" replied the old woman, \"if you mean about the gentleman you murdered, I believe that it were better for you if you were dead, for I fancy it will go hard with you; but you will be hung when the next sessions come on. However, that's none of my business, I am sent to nurse you, and get you well; I do my duty with a safe conscience, it were well if every body did the same.\"\n\n1831 text: \"For that matter,\" replied the old woman, \"if you mean about the gentleman you murdered, I believe that it were better for you if you were dead, for I fancy it will go hard with you! However, that's none of my business; I am sent to nurse you, and get you well; I do my duty with a safe conscience; it were well if every body did the same.\"\n\nDiff: \" For that matter, \" replied the old woman, \" if you mean about the gentleman you murdered, I believe that it were better for you if you were dead, for I fancy it will go hard with you [-; but you will be hung when the next sessions come on.-] {+!+} However, that's none of my business [-,-] {+;+} I am sent to nurse you, and get you well; I do my duty with a safe conscience [-,-] {+;+} it were well if every body did the same. \"\n\nContext after (unchanged): I turned with loathing from the woman who could utter so unfeeling a speech to a person just saved, on the very edge of death; but I felt languid, and unable to reflect on all that had passed."
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [
+   "plot"
+  ],
+  "significance": 3,
+  "rationale": "The 1831 text removes the explicit prediction \"but you will be hung when the next sessions come on,\" dropping a stated future legal consequence and leaving only the nurse's cold \"I believe it were better for you if you were dead.\" The emphasis on the Creature's impending execution is softened.",
+  "confidence": "high",
+  "rationaleWords": 50
+ }
+}

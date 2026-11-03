@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1831,
+  "completion_tokens": 396,
+  "total_tokens": 2227,
+  "cost": 0.0003811,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003811,
+   "upstream_inference_prompt_cost": 0.0001831,
+   "upstream_inference_completions_cost": 0.000198
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 272,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0478. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): They were dead, and I lived; their murderer also lived, and to destroy him I must drag out my weary existence.\n\n1818 text: I knelt on the grass, and kissed the earth, and with quivering lips exclaimed, \"By the sacred earth on which I kneel, by the shades that wander near me, by the deep and eternal grief that I feel, I swear; and by thee, O Night, and by the spirits that preside over thee, I swear to pursue the dæmon, who caused this misery, until he or I shall perish in mortal conflict.\n\n1831 text: I knelt on the grass, and kissed the earth, and with quivering lips exclaimed, \"By the sacred earth on which I kneel, by the shades that wander near me, by the deep and eternal grief that I feel, I swear; and by thee, O Night, and the spirits that preside over thee, to pursue the dæmon, who caused this misery, until he or I shall perish in mortal conflict.\n\nDiff: I knelt on the grass, and kissed the earth, and with quivering lips exclaimed, \" By the sacred earth on which I kneel, by the shades that wander near me, by the deep and eternal grief that I feel, I swear; and by thee, O Night, and [-by-] the spirits that preside over thee, [-I swear-] to pursue the dæmon, who caused this misery, until he or I shall perish in mortal conflict.\n\nContext after (unchanged): For this purpose I will preserve my life: to execute this dear revenge, will I again behold the sun, and tread the green herbage of earth, which otherwise should vanish from my eyes for ever."
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Removes the second 'by' and the second 'I swear' from Victor's oath to the spirits of the night, so the vow to pursue the dæmon is no longer explicitly sworn. The syntax becomes looser, weakening the formal oath's solemnity.",
+  "confidence": "medium",
+  "rationaleWords": 39
+ }
+}

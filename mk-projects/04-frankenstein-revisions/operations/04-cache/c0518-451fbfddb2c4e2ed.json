@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1587,
+  "completion_tokens": 126,
+  "total_tokens": 1713,
+  "cost": 0.0002217,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002217,
+   "upstream_inference_prompt_cost": 0.0001587,
+   "upstream_inference_completions_cost": 0.000063
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0518. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): We were immured in ice, and should probably never escape; but they feared that if, as was possible, the ice should dissipate, and a free passage be opened, I should be rash enough to continue my voyage, and lead them into fresh dangers, after they might happily have surmounted this.\n\n1818 text: They desired, therefore, that I should engage with a solemn promise, that if the vessel should be freed, I would instantly direct my coarse southward.\n\n1831 text: They insisted, therefore, that I should engage with a solemn promise, that if the vessel should be freed I would instantly direct my course southward.\n\nDiff: They [-desired-] {+insisted+} , therefore, that I should engage with a solemn promise, that if the vessel should be freed [-,-] I would instantly direct my [-coarse-] {+course+} southward.\n\nContext after (unchanged): This speech troubled me."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 2,
+  "rationale": "Verb swap 'desired' to 'insisted' raises the force of the crew's demand, a stylistic intensification. 'coarse' to 'course' is a typo correction (a spelling/printing error), not a change in meaning, and the comma removal is punctuation.",
+  "confidence": "high",
+  "rationaleWords": 36
+ }
+}

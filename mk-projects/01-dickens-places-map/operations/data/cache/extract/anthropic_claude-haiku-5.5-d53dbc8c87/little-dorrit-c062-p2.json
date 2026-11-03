@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c062-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5075,
+  "completion_tokens": 700,
+  "total_tokens": 5775,
+  "cost": 0.0008575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008575,
+   "upstream_inference_prompt_cost": 0.0005075,
+   "upstream_inference_completions_cost": 0.00035
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as he was turning in Bleeding Heart Yard by Mrs Plornish's corner",
+   "note": "Fictional-seeming but Dickens's Bleeding Heart Yard is in Clerkenwell/Little Dorrit's Southwark-area setting; treat as a London yard"
+  },
+  {
+   "as_written": "Happy Cottage",
+   "normalized": "Happy Cottage, Bleeding Heart Yard",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "mysteriously besought him to step into Happy Cottage",
+   "note": "Named house within Bleeding Heart Yard"
+  },
+  {
+   "as_written": "Palace Court",
+   "normalized": "Palace Court, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a mere Palace Court jurisdiction",
+   "note": "Court of Requests; name refers to institution, marginal"
+  },
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "you would go to the Marshalsea",
+   "note": ""
+  },
+  {
+   "as_written": "King's Bench",
+   "normalized": "King's Bench Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Whereas in the King’s Bench--",
+   "note": "Prison named by abbreviation"
+  },
+  {
+   "as_written": "the Counting-house",
+   "normalized": "Clennam and Co. counting-house, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I wouldn’t go on to the Counting-house this morning if I was you, sir.",
+   "note": "Business premises; location not named explicitly"
+  },
+  {
+   "as_written": "the old gates",
+   "normalized": "Marshalsea Prison gates, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and drove to the old gates.",
+   "note": "Refers to Marshalsea gates"
+  }
+ ]
+}

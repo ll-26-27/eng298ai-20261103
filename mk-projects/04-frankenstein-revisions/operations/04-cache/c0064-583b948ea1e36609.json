@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2286,
+  "completion_tokens": 147,
+  "total_tokens": 2433,
+  "cost": 0.0003021,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003021,
+   "upstream_inference_prompt_cost": 0.0002286,
+   "upstream_inference_completions_cost": 0.0000735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0064. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): I obtained from my father a respite of some weeks.\n\n1818 text: This period was spent sadly; my mother's death, and my speedy departure, depressed our spirits; but Elizabeth endeavoured to renew the spirit of cheerfulness in our little society. Since the death of her aunt, her mind had acquired new firmness and vigour. She determined to fulfil her duties with the greatest exactness; and she felt that that most imperious duty, of rendering her uncle and cousins happy, had devolved upon her. She consoled me, amused her uncle, instructed my brothers; and I never beheld her so enchanting as at this time, when she was continually endeavouring to contribute to the happiness of others, entirely forgetful of herself.\n\n1831 text: It appeared to me sacrilege so soon to leave the repose, akin to death, of the house of mourning, and to rush into the thick of life. I was new to sorrow, but it did not the less alarm me. I was unwilling to quit the sight of those that remained to me; and, above all, I desired to see my sweet Elizabeth in some degree consoled. She indeed veiled her grief, and strove to act the comforter to us all. She looked steadily on life, and assumed its duties with courage and zeal. She devoted herself to those whom she had been taught to call her uncle and cousins. Never was she so enchanting as at this time, when she recalled the sunshine of her smiles and spent them upon us. She forgot even her own regret in her endeavours to make us forget.\n\nDiff: [-This period was spent sadly; my mother's death, and my speedy departure, depressed our spirits; but Elizabeth endeavoured to renew the spirit of cheerfulness in our little society. Since the death of her aunt, her mind had acquired new firmness and vigour. She determined to fulfil her duties with the greatest exactness; and she felt that that most imperious duty, of rendering her uncle and cousins happy, had devolved upon her. She consoled me, amused her uncle, instructed my brothers; and I never beheld her so enchanting as at this time, when she was continually endeavouring to contribute to the happiness of others, entirely forgetful of herself.-] {+It appeared to me sacrilege so soon to leave the repose, akin to death, of the house of mourning, and to rush into the thick of life. I was new to sorrow, but it did not the less alarm me. I was unwilling to quit the sight of those that remained to me; and, above all, I desired to see my sweet Elizabeth in some degree consoled. She indeed veiled her grief, and strove to act the comforter to us all. She looked steadily on life, and assumed its duties with courage and zeal. She devoted herself to those whom she had been taught to call her uncle and cousins. Never was she so enchanting as at this time, when she recalled the sunshine of her smiles and spent them upon us. She forgot even her own regret in her endeavours to make us forget.+}\n\nContext after (unchanged): The day of my departure at length arrived."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Whole passage rewritten: 1818 'This period was spent sadly' becomes 1831 'sacrilege' and 'repose, akin to death'; Elizabeth is recast as a grieving, veiled comforter who 'forgot even her own regret', with the 1818 'duty' language dropped.",
+  "confidence": "medium",
+  "rationaleWords": 37
+ }
+}

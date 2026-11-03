@@ -1,0 +1,102 @@
+{
+ "chunk": "bleak-house-c024-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4907,
+  "completion_tokens": 1474,
+  "total_tokens": 6381,
+  "cost": 0.0012277,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012277,
+   "upstream_inference_prompt_cost": 0.0004907,
+   "upstream_inference_completions_cost": 0.000737
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 842,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Hertfordshire",
+   "normalized": "Hertfordshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "who remained in Hertfordshire while he, Mr. Jarndyce, and I went up to London for a week",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "who remained in Hertfordshire while he, Mr. Jarndyce, and I went up to London for a week",
+   "note": ""
+  },
+  {
+   "as_written": "Westminster",
+   "normalized": "Westminster, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we walked down to Westminster, where the court was then sitting",
+   "note": "Court of Chancery sat in Westminster Hall"
+  },
+  {
+   "as_written": "Lincoln’s Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in his private room in Lincoln’s Inn",
+   "note": ""
+  },
+  {
+   "as_written": "Liverpool",
+   "normalized": "Liverpool, Lancashire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he was to go to Liverpool for Holyhead",
+   "note": ""
+  },
+  {
+   "as_written": "Holyhead",
+   "normalized": "Holyhead, Anglesey, Wales",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he was to go to Liverpool for Holyhead",
+   "note": ""
+  },
+  {
+   "as_written": "Shropshire",
+   "normalized": "Shropshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he began by being a small Shropshire farmer",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "all over England the name in which they were assembled was a bitter jest",
+   "note": ""
+  }
+ ]
+}

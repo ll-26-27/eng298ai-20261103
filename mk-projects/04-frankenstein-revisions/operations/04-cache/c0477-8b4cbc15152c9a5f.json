@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1563,
+  "completion_tokens": 98,
+  "total_tokens": 1661,
+  "cost": 0.0002053,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002053,
+   "upstream_inference_prompt_cost": 0.0001563,
+   "upstream_inference_completions_cost": 0.000049
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0477. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Every thing was silent, except the leaves of the trees, which were gently agitated by the wind; the night was nearly dark; and the scene would have been solemn and affecting even to an uninterested observer.\n\n1818 text: The spirits of the departed seemed to flit around, and to cast a shadow, which was felt but seen not, around the head of the mourner.\n\n1831 text: The spirits of the departed seemed to flit around, and to cast a shadow, which was felt but not seen, around the head of the mourner.\n\nDiff: The spirits of the departed seemed to flit around, and to cast a shadow, which was felt but [-seen-] not {+seen+} , around the head of the mourner.\n\nContext after (unchanged): The deep grief which this scene had at first excited quickly gave way to rage and despair."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the word order changes: 'felt but seen not' becomes 'felt but not seen'. The meaning is identical, so this is a syntactic rephrasing with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

@@ -1,0 +1,748 @@
+{
+ "method": "For each 1831 section, the 1818 sections sharing the most five-word sequences (lowercased, letters only). The top match is the aligned section; shareOf1831 is the fraction of the 1831 section's five-word sequences also found in that 1818 section.",
+ "editions": {
+  "1818": {
+   "sections": 28,
+   "chapters": 23,
+   "paragraphs": 772,
+   "sentences": 3101,
+   "words": 72369
+  },
+  "1831": {
+   "sections": 30,
+   "chapters": 24,
+   "paragraphs": 786,
+   "sentences": 3332,
+   "words": 77716
+  }
+ },
+ "unmatched1818": [],
+ "sections": [
+  {
+   "s1831": "introduction",
+   "label1831": "Author's Introduction (1831)",
+   "words1831": 2247,
+   "matches1818": [
+    {
+     "s1818": "v1-ch4",
+     "label1818": "Vol. I, Ch. IV",
+     "sharedShingles": 4,
+     "shareOf1831": 0.002
+    },
+    {
+     "s1818": "v1-ch1",
+     "label1818": "Vol. I, Ch. I",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v3-ch7",
+     "label1818": "Vol. III, Ch. VII",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "preface",
+   "label1831": "Preface",
+   "words1831": 571,
+   "matches1818": [
+    {
+     "s1818": "preface",
+     "label1818": "Preface",
+     "sharedShingles": 552,
+     "shareOf1831": 0.972
+    },
+    {
+     "s1818": "v1-ch6",
+     "label1818": "Vol. I, Ch. VI",
+     "sharedShingles": 2,
+     "shareOf1831": 0.004
+    }
+   ]
+  },
+  {
+   "s1831": "letter-1",
+   "label1831": "Letter I",
+   "words1831": 1199,
+   "matches1818": [
+    {
+     "s1818": "letter-1",
+     "label1818": "Letter I",
+     "sharedShingles": 1175,
+     "shareOf1831": 0.975
+    },
+    {
+     "s1818": "v2-ch8",
+     "label1818": "Vol. II, Ch. VIII",
+     "sharedShingles": 1,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "letter-2",
+   "label1831": "Letter II",
+   "words1831": 1310,
+   "matches1818": [
+    {
+     "s1818": "letter-2",
+     "label1818": "Letter II",
+     "sharedShingles": 965,
+     "shareOf1831": 0.734
+    },
+    {
+     "s1818": "letter-4",
+     "label1818": "Letter IV",
+     "sharedShingles": 3,
+     "shareOf1831": 0.002
+    },
+    {
+     "s1818": "v1-ch3",
+     "label1818": "Vol. I, Ch. III",
+     "sharedShingles": 1,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "letter-3",
+   "label1831": "Letter III",
+   "words1831": 300,
+   "matches1818": [
+    {
+     "s1818": "letter-3",
+     "label1818": "Letter III",
+     "sharedShingles": 196,
+     "shareOf1831": 0.664
+    }
+   ]
+  },
+  {
+   "s1831": "letter-4",
+   "label1831": "Letter IV",
+   "words1831": 2727,
+   "matches1818": [
+    {
+     "s1818": "letter-4",
+     "label1818": "Letter IV",
+     "sharedShingles": 1953,
+     "shareOf1831": 0.713
+    },
+    {
+     "s1818": "v2-ch8",
+     "label1818": "Vol. II, Ch. VIII",
+     "sharedShingles": 4,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "letter-2",
+     "label1818": "Letter II",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch1",
+   "label1831": "Ch. I",
+   "words1831": 1766,
+   "matches1818": [
+    {
+     "s1818": "v1-ch1",
+     "label1818": "Vol. I, Ch. I",
+     "sharedShingles": 517,
+     "shareOf1831": 0.29
+    },
+    {
+     "s1818": "v2-ch6",
+     "label1818": "Vol. II, Ch. VI",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v1-ch3",
+     "label1818": "Vol. I, Ch. III",
+     "sharedShingles": 1,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch2",
+   "label1831": "Ch. II",
+   "words1831": 2202,
+   "matches1818": [
+    {
+     "s1818": "v1-ch1",
+     "label1818": "Vol. I, Ch. I",
+     "sharedShingles": 686,
+     "shareOf1831": 0.31
+    },
+    {
+     "s1818": "v1-ch3",
+     "label1818": "Vol. I, Ch. III",
+     "sharedShingles": 1,
+     "shareOf1831": 0
+    },
+    {
+     "s1818": "v2-ch3",
+     "label1818": "Vol. II, Ch. III",
+     "sharedShingles": 1,
+     "shareOf1831": 0
+    }
+   ]
+  },
+  {
+   "s1831": "ch3",
+   "label1831": "Ch. III",
+   "words1831": 2672,
+   "matches1818": [
+    {
+     "s1818": "v1-ch2",
+     "label1818": "Vol. I, Ch. II",
+     "sharedShingles": 1708,
+     "shareOf1831": 0.636
+    },
+    {
+     "s1818": "v1-ch1",
+     "label1818": "Vol. I, Ch. I",
+     "sharedShingles": 4,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v2-ch7",
+     "label1818": "Vol. II, Ch. VII",
+     "sharedShingles": 4,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch4",
+   "label1831": "Ch. IV",
+   "words1831": 2532,
+   "matches1818": [
+    {
+     "s1818": "v1-ch3",
+     "label1818": "Vol. I, Ch. III",
+     "sharedShingles": 2364,
+     "shareOf1831": 0.931
+    },
+    {
+     "s1818": "v1-ch6",
+     "label1818": "Vol. I, Ch. VI",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v1-ch1",
+     "label1818": "Vol. I, Ch. I",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch5",
+   "label1831": "Ch. V",
+   "words1831": 2350,
+   "matches1818": [
+    {
+     "s1818": "v1-ch4",
+     "label1818": "Vol. I, Ch. IV",
+     "sharedShingles": 2306,
+     "shareOf1831": 0.978
+    },
+    {
+     "s1818": "v3-ch3",
+     "label1818": "Vol. III, Ch. III",
+     "sharedShingles": 6,
+     "shareOf1831": 0.003
+    },
+    {
+     "s1818": "v1-ch6",
+     "label1818": "Vol. I, Ch. VI",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch6",
+   "label1831": "Ch. VI",
+   "words1831": 2714,
+   "matches1818": [
+    {
+     "s1818": "v1-ch5",
+     "label1818": "Vol. I, Ch. V",
+     "sharedShingles": 2031,
+     "shareOf1831": 0.745
+    },
+    {
+     "s1818": "v1-ch6",
+     "label1818": "Vol. I, Ch. VI",
+     "sharedShingles": 1,
+     "shareOf1831": 0
+    },
+    {
+     "s1818": "v2-ch5",
+     "label1818": "Vol. II, Ch. V",
+     "sharedShingles": 1,
+     "shareOf1831": 0
+    }
+   ]
+  },
+  {
+   "s1831": "ch7",
+   "label1831": "Ch. VII",
+   "words1831": 3569,
+   "matches1818": [
+    {
+     "s1818": "v1-ch6",
+     "label1818": "Vol. I, Ch. VI",
+     "sharedShingles": 3063,
+     "shareOf1831": 0.856
+    },
+    {
+     "s1818": "v2-ch8",
+     "label1818": "Vol. II, Ch. VIII",
+     "sharedShingles": 4,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v1-ch3",
+     "label1818": "Vol. I, Ch. III",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch8",
+   "label1831": "Ch. VIII",
+   "words1831": 3085,
+   "matches1818": [
+    {
+     "s1818": "v1-ch7",
+     "label1818": "Vol. I, Ch. VII",
+     "sharedShingles": 2540,
+     "shareOf1831": 0.818
+    },
+    {
+     "s1818": "v3-ch7",
+     "label1818": "Vol. III, Ch. VII",
+     "sharedShingles": 4,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v2-ch1",
+     "label1818": "Vol. II, Ch. I",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch9",
+   "label1831": "Ch. IX",
+   "words1831": 2209,
+   "matches1818": [
+    {
+     "s1818": "v2-ch1",
+     "label1818": "Vol. II, Ch. I",
+     "sharedShingles": 1444,
+     "shareOf1831": 0.649
+    },
+    {
+     "s1818": "v2-ch9",
+     "label1818": "Vol. II, Ch. IX",
+     "sharedShingles": 4,
+     "shareOf1831": 0.002
+    },
+    {
+     "s1818": "v3-ch6",
+     "label1818": "Vol. III, Ch. VI",
+     "sharedShingles": 4,
+     "shareOf1831": 0.002
+    }
+   ]
+  },
+  {
+   "s1831": "ch10",
+   "label1831": "Ch. X",
+   "words1831": 2354,
+   "matches1818": [
+    {
+     "s1818": "v2-ch2",
+     "label1818": "Vol. II, Ch. II",
+     "sharedShingles": 2037,
+     "shareOf1831": 0.862
+    },
+    {
+     "s1818": "v3-ch3",
+     "label1818": "Vol. III, Ch. III",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v3-ch4",
+     "label1818": "Vol. III, Ch. IV",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch11",
+   "label1831": "Ch. XI",
+   "words1831": 2902,
+   "matches1818": [
+    {
+     "s1818": "v2-ch3",
+     "label1818": "Vol. II, Ch. III",
+     "sharedShingles": 2856,
+     "shareOf1831": 0.983
+    },
+    {
+     "s1818": "v2-ch2",
+     "label1818": "Vol. II, Ch. II",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v3-ch4",
+     "label1818": "Vol. III, Ch. IV",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch12",
+   "label1831": "Ch. XII",
+   "words1831": 2068,
+   "matches1818": [
+    {
+     "s1818": "v2-ch4",
+     "label1818": "Vol. II, Ch. IV",
+     "sharedShingles": 2050,
+     "shareOf1831": 0.99
+    },
+    {
+     "s1818": "v2-ch8",
+     "label1818": "Vol. II, Ch. VIII",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "letter-2",
+     "label1818": "Letter II",
+     "sharedShingles": 1,
+     "shareOf1831": 0
+    }
+   ]
+  },
+  {
+   "s1831": "ch13",
+   "label1831": "Ch. XIII",
+   "words1831": 2031,
+   "matches1818": [
+    {
+     "s1818": "v2-ch5",
+     "label1818": "Vol. II, Ch. V",
+     "sharedShingles": 1964,
+     "shareOf1831": 0.965
+    },
+    {
+     "s1818": "v1-ch5",
+     "label1818": "Vol. I, Ch. V",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v2-ch9",
+     "label1818": "Vol. II, Ch. IX",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch14",
+   "label1831": "Ch. XIV",
+   "words1831": 1854,
+   "matches1818": [
+    {
+     "s1818": "v2-ch6",
+     "label1818": "Vol. II, Ch. VI",
+     "sharedShingles": 1769,
+     "shareOf1831": 0.957
+    },
+    {
+     "s1818": "v1-ch1",
+     "label1818": "Vol. I, Ch. I",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v2-ch1",
+     "label1818": "Vol. II, Ch. I",
+     "sharedShingles": 1,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch15",
+   "label1831": "Ch. XV",
+   "words1831": 3006,
+   "matches1818": [
+    {
+     "s1818": "v2-ch7",
+     "label1818": "Vol. II, Ch. VII",
+     "sharedShingles": 2910,
+     "shareOf1831": 0.965
+    },
+    {
+     "s1818": "v1-ch2",
+     "label1818": "Vol. I, Ch. II",
+     "sharedShingles": 4,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v1-ch4",
+     "label1818": "Vol. I, Ch. IV",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch16",
+   "label1831": "Ch. XVI",
+   "words1831": 3196,
+   "matches1818": [
+    {
+     "s1818": "v2-ch8",
+     "label1818": "Vol. II, Ch. VIII",
+     "sharedShingles": 2962,
+     "shareOf1831": 0.924
+    },
+    {
+     "s1818": "v1-ch6",
+     "label1818": "Vol. I, Ch. VI",
+     "sharedShingles": 4,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v3-ch3",
+     "label1818": "Vol. III, Ch. III",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch17",
+   "label1831": "Ch. XVII",
+   "words1831": 1915,
+   "matches1818": [
+    {
+     "s1818": "v2-ch9",
+     "label1818": "Vol. II, Ch. IX",
+     "sharedShingles": 1725,
+     "shareOf1831": 0.898
+    },
+    {
+     "s1818": "v3-ch3",
+     "label1818": "Vol. III, Ch. III",
+     "sharedShingles": 4,
+     "shareOf1831": 0.002
+    },
+    {
+     "s1818": "v2-ch2",
+     "label1818": "Vol. II, Ch. II",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch18",
+   "label1831": "Ch. XVIII",
+   "words1831": 2838,
+   "matches1818": [
+    {
+     "s1818": "v3-ch1",
+     "label1818": "Vol. III, Ch. I",
+     "sharedShingles": 2222,
+     "shareOf1831": 0.78
+    },
+    {
+     "s1818": "v1-ch2",
+     "label1818": "Vol. I, Ch. II",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v1-ch4",
+     "label1818": "Vol. I, Ch. IV",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch19",
+   "label1831": "Ch. XIX",
+   "words1831": 2609,
+   "matches1818": [
+    {
+     "s1818": "v3-ch2",
+     "label1818": "Vol. III, Ch. II",
+     "sharedShingles": 2497,
+     "shareOf1831": 0.955
+    },
+    {
+     "s1818": "v3-ch3",
+     "label1818": "Vol. III, Ch. III",
+     "sharedShingles": 4,
+     "shareOf1831": 0.002
+    },
+    {
+     "s1818": "letter-4",
+     "label1818": "Letter IV",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch20",
+   "label1831": "Ch. XX",
+   "words1831": 3518,
+   "matches1818": [
+    {
+     "s1818": "v3-ch3",
+     "label1818": "Vol. III, Ch. III",
+     "sharedShingles": 3346,
+     "shareOf1831": 0.947
+    },
+    {
+     "s1818": "v3-ch5",
+     "label1818": "Vol. III, Ch. V",
+     "sharedShingles": 11,
+     "shareOf1831": 0.003
+    },
+    {
+     "s1818": "v1-ch4",
+     "label1818": "Vol. I, Ch. IV",
+     "sharedShingles": 6,
+     "shareOf1831": 0.002
+    }
+   ]
+  },
+  {
+   "s1831": "ch21",
+   "label1831": "Ch. XXI",
+   "words1831": 3738,
+   "matches1818": [
+    {
+     "s1818": "v3-ch4",
+     "label1818": "Vol. III, Ch. IV",
+     "sharedShingles": 3371,
+     "shareOf1831": 0.9
+    },
+    {
+     "s1818": "v2-ch2",
+     "label1818": "Vol. II, Ch. II",
+     "sharedShingles": 3,
+     "shareOf1831": 0.001
+    },
+    {
+     "s1818": "v1-ch4",
+     "label1818": "Vol. I, Ch. IV",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch22",
+   "label1831": "Ch. XXII",
+   "words1831": 3417,
+   "matches1818": [
+    {
+     "s1818": "v3-ch5",
+     "label1818": "Vol. III, Ch. V",
+     "sharedShingles": 2876,
+     "shareOf1831": 0.84
+    },
+    {
+     "s1818": "v3-ch3",
+     "label1818": "Vol. III, Ch. III",
+     "sharedShingles": 11,
+     "shareOf1831": 0.003
+    },
+    {
+     "s1818": "v2-ch9",
+     "label1818": "Vol. II, Ch. IX",
+     "sharedShingles": 2,
+     "shareOf1831": 0.001
+    }
+   ]
+  },
+  {
+   "s1831": "ch23",
+   "label1831": "Ch. XXIII",
+   "words1831": 2590,
+   "matches1818": [
+    {
+     "s1818": "v3-ch6",
+     "label1818": "Vol. III, Ch. VI",
+     "sharedShingles": 2354,
+     "shareOf1831": 0.907
+    },
+    {
+     "s1818": "v3-ch4",
+     "label1818": "Vol. III, Ch. IV",
+     "sharedShingles": 6,
+     "shareOf1831": 0.002
+    },
+    {
+     "s1818": "v2-ch1",
+     "label1818": "Vol. II, Ch. I",
+     "sharedShingles": 4,
+     "shareOf1831": 0.002
+    }
+   ]
+  },
+  {
+   "s1831": "ch24",
+   "label1831": "Ch. XXIV",
+   "words1831": 8227,
+   "matches1818": [
+    {
+     "s1818": "v3-ch7",
+     "label1818": "Vol. III, Ch. VII",
+     "sharedShingles": 7826,
+     "shareOf1831": 0.947
+    },
+    {
+     "s1818": "v1-ch6",
+     "label1818": "Vol. I, Ch. VI",
+     "sharedShingles": 3,
+     "shareOf1831": 0
+    },
+    {
+     "s1818": "v1-ch1",
+     "label1818": "Vol. I, Ch. I",
+     "sharedShingles": 2,
+     "shareOf1831": 0
+    }
+   ]
+  }
+ ]
+}

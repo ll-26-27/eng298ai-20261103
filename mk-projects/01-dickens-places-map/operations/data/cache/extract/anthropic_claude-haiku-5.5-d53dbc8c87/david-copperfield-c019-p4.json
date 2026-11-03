@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c019-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3317,
+  "completion_tokens": 1000,
+  "total_tokens": 4317,
+  "cost": 0.0008317,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008317,
+   "upstream_inference_prompt_cost": 0.0003317,
+   "upstream_inference_completions_cost": 0.0005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 593,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Covent Garden",
+   "normalized": "Theatre Royal, Covent Garden, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "At Covent Garden. What a delightful and magnificent entertainment, Steerforth!",
+   "note": "Theatre where both narrator and Steerforth saw the play; not the scene of this passage."
+  },
+  {
+   "as_written": "Canterbury coach",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I came here by the Canterbury coach, today.",
+   "note": "Named as the coach's route; the coach is referred to, not a setting."
+  },
+  {
+   "as_written": "Oxford",
+   "normalized": "Oxford, Oxfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Well, I am what they call an Oxford man,",
+   "note": "Steerforth's university, referred to only."
+  },
+  {
+   "as_written": "ancient Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "dreamed of ancient Rome, Steerforth, and friendship,",
+   "note": "Appears in the narrator's dream only."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1662,
+  "completion_tokens": 101,
+  "total_tokens": 1763,
+  "cost": 0.0002167,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002167,
+   "upstream_inference_prompt_cost": 0.0001662,
+   "upstream_inference_completions_cost": 0.0000505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0537. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): A frightful selfishness hurried me on, while my heart was poisoned with remorse.\n\n1818 text: Think ye that the groans of Clerval were music to my ears? My heart was fashioned to be susceptible of love and sympathy; and, when wrenched by misery to vice and hatred, it did not endure the violence of the change without torture such as you cannot even imagine.\n\n1831 text: Think you that the groans of Clerval were music to my ears? My heart was fashioned to be susceptible of love and sympathy; and, when wrenched by misery to vice and hatred, it did not endure the violence of the change, without torture such as you cannot even imagine.\n\nDiff: Think [-ye-] {+you+} that the groans of Clerval were music to my ears? My heart was fashioned to be susceptible of love and sympathy; and, when wrenched by misery to vice and hatred, it did not endure the violence of the change {+,+} without torture such as you cannot even imagine.\n\nContext after (unchanged): \"After the murder of Clerval, I returned to Switzerland, heart-broken and overcome."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Changes 'ye' to 'you' (pronoun modernization, same meaning) and adds a comma before 'without' (punctuation only). No change in content, emphasis, or meaning.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

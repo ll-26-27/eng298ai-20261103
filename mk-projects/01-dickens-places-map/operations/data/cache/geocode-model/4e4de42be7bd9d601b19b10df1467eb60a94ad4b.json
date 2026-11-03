@@ -1,0 +1,21 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "bethlem royal hospital",
+   "lat": 51.4958,
+   "lon": -0.1086,
+   "confidence": "high",
+   "now": "Imperial War Museum London, in the surviving central block of the 1815 Bethlem building on Lambeth Road",
+   "reason": "In Dickens's time (from 1815 until the move to Beckenham in 1930) Bethlem stood in St George's Fields, Southwark; the gazetteer's guess is the same building, which later became the IWM."
+  },
+  {
+   "place_id": "scrooges school, unnamed",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "fictional; no identifiable site",
+   "reason": "Scrooge's boyhood school is an unnamed fictional building in the countryside, generally linked to Dickens's own school days, with no specific location."
+  }
+ ]
+}

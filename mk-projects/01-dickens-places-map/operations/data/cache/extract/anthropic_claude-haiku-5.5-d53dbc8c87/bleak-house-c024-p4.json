@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c024-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4041,
+  "completion_tokens": 1136,
+  "total_tokens": 5177,
+  "cost": 0.0009721,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009721,
+   "upstream_inference_prompt_cost": 0.0004041,
+   "upstream_inference_completions_cost": 0.000568
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 841,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Fleet",
+   "normalized": "Fleet Prison, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Haven't I seen you in the Fleet over and over again for contempt?",
+   "note": ""
+  },
+  {
+   "as_written": "Lincoln's Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "here's this warrant got by Mr. Tulkinghorn of Lincoln's Inn Fields",
+   "note": ""
+  },
+  {
+   "as_written": "Shropshire",
+   "normalized": "Shropshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Upon a plain canvas-covered sofa lay the man from Shropshire",
+   "note": "Refers to Gridley's home county, not a location in the scene."
+  }
+ ]
+}

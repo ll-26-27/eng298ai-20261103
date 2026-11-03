@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c018-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5209,
+  "completion_tokens": 451,
+  "total_tokens": 5660,
+  "cost": 0.0007464,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007464,
+   "upstream_inference_prompt_cost": 0.0005209,
+   "upstream_inference_completions_cost": 0.0002255
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Queen Square",
+   "normalized": "Queen Square, Bloomsbury, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "a neat little furnished lodging in a quiet old house near Queen Square",
+   "note": ""
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "We made a pleasant journey down into Lincolnshire by the coach",
+   "note": ""
+  },
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "we had long since gone back to Bleak House, and it was too far off",
+   "note": "Jarndyce's house in Hertfordshire in the novel; fictional"
+  },
+  {
+   "as_written": "Sir Leicester Dedlock's park",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "our direct road lies through Sir Leicester Dedlock’s park",
+   "note": "Dedlock park named in novel as Chesney Wold; fictional"
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as still, as hot, as motionless a little town as England could produce",
+   "note": ""
+  }
+ ]
+}

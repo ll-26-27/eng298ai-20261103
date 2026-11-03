@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1519,
+  "completion_tokens": 126,
+  "total_tokens": 1645,
+  "cost": 0.004298,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004298,
+   "upstream_inference_prompt_cost": 0.003038,
+   "upstream_inference_completions_cost": 0.00126
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0529. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): This was my duty; but there was another still paramount to that.\n\n1818 text: My duties towards my fellow-creatures had greater claims to my attention, because they included a greater proportion of happiness or misery.\n\n1831 text: My duties towards the beings of my own species had greater claims to my attention, because they included a greater proportion of happiness or misery.\n\nDiff: My duties towards {+the beings of+} my [-fellow-creatures-] {+own species+} had greater claims to my attention, because they included a greater proportion of happiness or misery.\n\nContext after (unchanged): Urged by this view, I refused, and I did right in refusing, to create a companion for the first creature."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "\"my fellow-creatures\" becomes \"the beings of my own species\": a diction change with the same referent, humankind. The new phrase slightly stresses species boundaries over shared creaturehood, which fits the creature theme, but the meaning is essentially unchanged.",
+  "confidence": "medium",
+  "rationaleWords": 38
+ }
+}

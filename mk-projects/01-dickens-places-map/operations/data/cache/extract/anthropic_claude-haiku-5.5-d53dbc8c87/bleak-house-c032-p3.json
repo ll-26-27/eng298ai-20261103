@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c032-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3895,
+  "completion_tokens": 791,
+  "total_tokens": 4686,
+  "cost": 0.000785,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000785,
+   "upstream_inference_prompt_cost": 0.0003895,
+   "upstream_inference_completions_cost": 0.0003955
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 549,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Saint Paul's",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when Saint Paul’s bell strikes twelve and all those other bells strike twelve",
+   "note": "Heard, not visited; the bell is the reference."
+  },
+  {
+   "as_written": "the Lord Chancellor's Court",
+   "normalized": "Court of Chancery, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "by hanging about the Lord Chancellor’s Court and hearing of documents for ever",
+   "note": "Institution named as a place of hanging about; the specific building is not named, so this may fall under the institution exclusion."
+  }
+ ]
+}

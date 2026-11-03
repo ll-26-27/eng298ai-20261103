@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1917,
+  "completion_tokens": 137,
+  "total_tokens": 2054,
+  "cost": 0.005204,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.005204,
+   "upstream_inference_prompt_cost": 0.003834,
+   "upstream_inference_completions_cost": 0.00137
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0105. Location: 1818 Vol. I, Ch. IV; 1831 Ch. V.\n\nContext before (unchanged): Clerval continued talking for some time about our mutual friends, and his own good fortune in being permitted to come to Ingolstadt.\n\n1818 text: \"You may easily believe,\" said he, \"how great was the difficulty to persuade my father that it was not absolutely necessary for a merchant not to understand any thing except book-keeping; and, indeed, I believe I left him incredulous to the last, for his constant answer to my unwearied entreaties was the same as that of the Dutch schoolmaster in the Vicar of Wakefield: 'I have ten thousand florins a year without Greek, I eat heartily without Greek.'\n\n1831 text: \"You may easily believe,\" said he, \"how great was the difficulty to persuade my father that all necessary knowledge was not comprised in the noble art of book-keeping; and, indeed, I believe I left him incredulous to the last, for his constant answer to my unwearied entreaties was the same as that of the Dutch schoolmaster in the Vicar of Wakefield:—'I have ten thousand florins a year without Greek, I eat heartily without Greek.'\n\nDiff: \" You may easily believe, \" said he, \" how great was the difficulty to persuade my father that [-it was not absolutely-] {+all+} necessary [-for a merchant-] {+knowledge was+} not [-to understand any thing except-] {+comprised in the noble art of+} book-keeping; and, indeed, I believe I left him incredulous to the last, for his constant answer to my unwearied entreaties was the same as that of the Dutch schoolmaster in the Vicar of Wakefield: {+—+} 'I have ten thousand florins a year without Greek, I eat heartily without Greek. '\n\nContext after (unchanged): But his affection for me at length overcame his dislike of learning, and he has permitted me to undertake a voyage of discovery to the land of knowledge.\""
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "expansion"
+  ],
+  "significance": 2,
+  "rationale": "The awkward double negative \"not absolutely necessary for a merchant not to understand any thing except book-keeping\" becomes \"all necessary knowledge was not comprised in the noble art of book-keeping\". The sense is the same, with a slightly ironic flourish; the added dash is trivial.",
+  "confidence": "high",
+  "rationaleWords": 45
+ }
+}

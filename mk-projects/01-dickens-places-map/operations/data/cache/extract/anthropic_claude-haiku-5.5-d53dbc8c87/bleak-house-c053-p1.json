@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c053-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5269,
+  "completion_tokens": 1723,
+  "total_tokens": 6992,
+  "cost": 0.0013884,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013884,
+   "upstream_inference_prompt_cost": 0.0005269,
+   "upstream_inference_completions_cost": 0.0008615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1260,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "A great crowd assembles in Lincoln’s Inn Fields on the day of the funeral.",
+   "note": ""
+  },
+  {
+   "as_written": "Sir Leicester Dedlock’s house in town",
+   "normalized": "Sir Leicester Dedlock's London house (unnamed)",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "This evening he will be casually looking into the iron extinguishers at the door of Sir Leicester Dedlock’s house in town",
+   "note": "Unnamed London town house; location inferred from 'in town'."
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to-morrow morning he will be walking on the leads at Chesney Wold",
+   "note": "Fictional country house of the Dedlocks."
+  },
+  {
+   "as_written": "the Detective Temple",
+   "normalized": "Detective Temple",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "The Augurs of the Detective Temple invariably predict that when Mr. Bucket and that finger are in much conference",
+   "note": "Figurative name, probably for the detective police; not locatable."
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "chunk": "great-expectations-c045-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4987,
+  "completion_tokens": 1845,
+  "total_tokens": 6832,
+  "cost": 0.0014212,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014212,
+   "upstream_inference_prompt_cost": 0.0004987,
+   "upstream_inference_completions_cost": 0.0009225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1149,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Temple gate",
+   "normalized": "Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Turning from the Temple gate as soon as I had read the warning",
+   "note": "Inns of Court precinct; gate named generically"
+  },
+  {
+   "as_written": "Fleet Street",
+   "normalized": "Fleet Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I made the best of my way to Fleet Street",
+   "note": ""
+  },
+  {
+   "as_written": "the Hummums in Covent Garden",
+   "normalized": "Hummums hotel, Covent Garden, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "drove to the Hummums in Covent Garden",
+   "note": "Covent Garden hotel (Dickens's Hummums)"
+  },
+  {
+   "as_written": "Covent Garden",
+   "normalized": "Covent Garden, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "drove to the Hummums in Covent Garden",
+   "note": ""
+  },
+  {
+   "as_written": "the Castle",
+   "normalized": "Wemmick's house, Walworth, London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The Castle battlements arose upon my view at eight o’clock.",
+   "note": "Wemmick's house with proper name; located in Walworth"
+  },
+  {
+   "as_written": "Walworth",
+   "normalized": "Walworth, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "this was a case in which his Walworth sentiments only could be taken",
+   "note": ""
+  },
+  {
+   "as_written": "Garden Court, Temple",
+   "normalized": "Garden Court, Temple, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "you at your chambers in Garden Court, Temple, had been watched",
+   "note": ""
+  },
+  {
+   "as_written": "Little Britain",
+   "normalized": "Little Britain, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "restrained by fealty to Little Britain from saying as much as he could",
+   "note": "Wemmick's office area; used figuratively for the office"
+  }
+ ]
+}

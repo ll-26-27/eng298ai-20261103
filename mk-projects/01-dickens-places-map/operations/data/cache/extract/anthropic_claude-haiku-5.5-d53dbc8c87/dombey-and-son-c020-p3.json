@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c020-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4816,
+  "completion_tokens": 686,
+  "total_tokens": 5502,
+  "cost": 0.0008246,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008246,
+   "upstream_inference_prompt_cost": 0.0004816,
+   "upstream_inference_completions_cost": 0.000343
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 446,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Leamington",
+   "normalized": "Leamington Spa, Warwickshire",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "when evening came on, and found them trotting through the green and leafy road near Leamington",
+   "note": "Travellers are on the road near the town in the evening."
+  },
+  {
+   "as_written": "the Royal Hotel",
+   "normalized": "Royal Hotel, Leamington Spa, Warwickshire",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Nor did the Major improve it at the Royal Hotel, where rooms and dinner had been ordered",
+   "note": "Hotel's location is implied by the nearby Leamington reference, not stated outright."
+  }
+ ]
+}

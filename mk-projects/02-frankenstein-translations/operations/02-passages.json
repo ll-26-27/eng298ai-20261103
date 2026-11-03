@@ -1,0 +1,50 @@
+{
+  "anchor_location": {
+    "en-1818": "Volume I, Chapter IV",
+    "en-1831": "Chapter 5"
+  },
+  "passages": [
+    {
+      "id": "fr-1821",
+      "language": "French",
+      "edition": "Frankenstein, ou le Prométhée moderne, tome premier, trans. J. S.*** [Jules Saladin] (Paris: Corréard, 1821)",
+      "source_page": "https://www.gutenberg.org/ebooks/62404",
+      "copyright": "Public domain (published 1821). Project Gutenberg transcription made from the Gallica (BnF) scans.",
+      "follows": "1818",
+      "model": "google/gemini-3.8-flash",
+      "window": "whole file",
+      "model_says": {
+        "found": true,
+        "chapter_heading": "CHAPITRE IV",
+        "first_words": "Ce fut en novembre, pendant une nuit affreuse, que je vis l'accomplissement",
+        "last_words": "une peau ridée, et des lèvres noires et serrées l'une contre l'autre.",
+        "comment": "I am certain of this passage; it translates the two English paragraphs directly at the opening of Chapter IV."
+      },
+      "status": "located and verified by exact match",
+      "line_start": 1550,
+      "line_end": 1570,
+      "text": "Ce fut en novembre, pendant une nuit affreuse, que je vis l'accomplissement de mes travaux. Dans une inquiétude voisine de l'agonie, je rassemblai autour de moi les instruments propres à donner la vie, pour introduire une étincelle d'existence dans cette matière inanimée qui était à mes pieds. L'airain avait déjà sonné la première heure après minuit; la pluie battait, avec un sifflement horrible, contre mes fenêtres; ma lumière était près de s'éteindre, lorsqu'à cette lueur vacillante, je vis s'ouvrir l'œil jaune et stupide de la créature: elle respira avec force, et ses membres furent agités d'un mouvement convulsif.\n\nComment décrire ce que j'éprouvai à cette vue, ou comment peindre le malheureux dont la formation m'avait coûté tant d'efforts, de peines, et de soins? Ses membres étaient d'une juste proportion, et les traits que je lui avais donnés n'étaient pas moins beaux. Beaux!... grand Dieu! sa peau jaune couvrait à peine le système des muscles et des artères: sa chevelure flottante était d'un noir brillant; ses dents étaient blanches comme des perles; mais ces avantages ne formaient qu'un contraste plus horrible avec des yeux insipides, qui paraissaient presque de la même couleur que leurs blanches et sombres orbites; une peau ridée, et des lèvres noires et serrées l'une contre l'autre."
+    },
+    {
+      "id": "de-1912",
+      "language": "German",
+      "edition": "Frankenstein oder Der moderne Prometheus, trans. Heinz Widtmann (Leipzig: Max Altmann, 1912); one chapter, as transcribed by Projekt Gutenberg-DE from a 2009 Fischer Taschenbuch reprint",
+      "source_page": "https://projekt-gutenberg.org/authors/mary-shelley/books/frankenstein-oder-der-moderne-prometheus",
+      "copyright": "Widtmann's translation was first published in 1912, so it is public domain in the US. The transcription follows a 2009 reprint and has not been checked against the 1912 printing; only this one chapter is kept here.",
+      "follows": "1831",
+      "model": "google/gemini-3.8-flash",
+      "window": "whole file",
+      "model_says": {
+        "found": true,
+        "chapter_heading": null,
+        "first_words": "Es war eine trostlose Novembernacht, als ich mein Werk fertig",
+        "last_words": "der faltigen Haut und den schwärzlichen, schmalen Lippen.",
+        "comment": "I am certain; the translation directly renders the two English paragraphs and starts at the very beginning of the provided text, which is duplicated once in the prompt."
+      },
+      "status": "located and verified by exact match",
+      "line_start": 1,
+      "line_end": 3,
+      "text": "Es war eine trostlose Novembernacht, als ich mein Werk fertig vor mir liegen sah. Mit einer Erregung, die fast einer Todesangst glich, machte ich mich daran, dem leblosen Dinge den lebendigen Odem einzublasen. Es war schon ein Uhr morgens. Der Regen klatschte heftig an die Fensterscheiben, als ich beim Scheine meiner fast ganz herabgebrannten Kerze das trübe Auge der Kreatur sich öffnen sah. Ein tiefer Atemzug dehnte die Brust und die Glieder zuckten krampfhaft.\n\nWie könnte ich Ihnen beschreiben, was ich empfand, und das Ungetüm schildern, das ich da mit so viel Mühe und Fleiß geschaffen? Seine Glieder waren proportioniert und seine Züge hatte ich möglichst schön gemacht. Schön! Großer Gott! Seine gelbliche Haut genügte kaum, um das Geflecht von Muskeln und Adern zu decken; sein Haar war glänzend schwarz und lang; seine Zähne wie Perlen. Aber das alles bildete nur einen um so auffallenderen Gegensatz zu den wässerigen Augen, die sich von den Augenhöhlen kaum abhoben, der faltigen Haut und den schwärzlichen, schmalen Lippen."
+    }
+  ]
+}

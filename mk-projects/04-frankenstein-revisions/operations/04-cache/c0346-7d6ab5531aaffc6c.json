@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2097,
+  "completion_tokens": 166,
+  "total_tokens": 2263,
+  "cost": 0.0002927,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002927,
+   "upstream_inference_prompt_cost": 0.0002097,
+   "upstream_inference_completions_cost": 0.000083
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0346. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): But through the whole period during which I was the slave of my creature, I allowed myself to be governed by the impulses of the moment; and my present sensations strongly intimated that the fiend would follow me, and exempt my family from the danger of his machinations.\n\n1818 text: It was in the latter end of August that I departed, to pass two years of exile. Elizabeth approved of the reasons of my departure, and only regretted that she had not the same opportunities of enlarging her experience, and cultivating her understanding. She wept, however, as she bade me farewell, and entreated me to return happy and tranquil. \"We all,\" said she, \"depend upon you; and if you are miserable, what must be our feelings?\"\n\n1831 text: It was in the latter end of September that I again quitted my native country. My journey had been my own suggestion, and Elizabeth, therefore, acquiesced: but she was filled with disquiet at the idea of my suffering, away from her, the inroads of misery and grief. It had been her care which provided me a companion in Clerval—and yet a man is blind to a thousand minute circumstances, which call forth a woman's sedulous attention. She longed to bid me hasten my return,—a thousand conflicting emotions rendered her mute, as she bade me a tearful silent farewell.\n\nDiff: [-It was in the latter end of August that I departed, to pass two years of exile. Elizabeth approved of the reasons of my departure, and only regretted that she had not the same opportunities of enlarging her experience, and cultivating her understanding. She wept, however, as she bade me farewell, and entreated me to return happy and tranquil. \"We all,\" said she, \"depend upon you; and if you are miserable, what must be our feelings?\"-] {+It was in the latter end of September that I again quitted my native country. My journey had been my own suggestion, and Elizabeth, therefore, acquiesced: but she was filled with disquiet at the idea of my suffering, away from her, the inroads of misery and grief. It had been her care which provided me a companion in Clerval—and yet a man is blind to a thousand minute circumstances, which call forth a woman's sedulous attention. She longed to bid me hasten my return,—a thousand conflicting emotions rendered her mute, as she bade me a tearful silent farewell.+}\n\nContext after (unchanged): I threw myself into the carriage that was to convey me away, hardly knowing whither I was going, and careless of what was passing around."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Wholesale rewrite of the departure passage: 1818 'to pass two years of exile' and Elizabeth's cheerful approval are replaced by 1831 'my own suggestion' and Elizabeth's disquiet and tearful silence, with new emphasis on Clerval as companion and women's attention. Shifts Elizabeth's role and Victor's agency.",
+  "confidence": "medium",
+  "rationaleWords": 46
+ }
+}

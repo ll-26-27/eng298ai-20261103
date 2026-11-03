@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c047-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5023,
+  "completion_tokens": 613,
+  "total_tokens": 5636,
+  "cost": 0.0008088,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008088,
+   "upstream_inference_prompt_cost": 0.0005023,
+   "upstream_inference_completions_cost": 0.0003065
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 382,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brighton Castle",
+   "normalized": "Brighton Castle (Mrs Pipchin's boarding house), Brighton",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "many young victims in the days of the Brighton Castle had been committed to bed at ten o’clock in the morning",
+   "note": "Dickens's name for Mrs Pipchin's establishment at Brighton; may be fictional"
+  },
+  {
+   "as_written": "Brook Street",
+   "normalized": "Brook Street, Mayfair, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "He had driven his mistress to her old house in Brook Street",
+   "note": ""
+  }
+ ]
+}

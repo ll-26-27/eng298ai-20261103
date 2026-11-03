@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c015-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5153,
+  "completion_tokens": 804,
+  "total_tokens": 5957,
+  "cost": 0.0009173,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009173,
+   "upstream_inference_prompt_cost": 0.0005153,
+   "upstream_inference_completions_cost": 0.000402
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 546,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bell Yard",
+   "normalized": "Bell Yard, London (off Chancery Lane, Holborn)",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Then we all went to Bell Yard, a narrow alley at a very short distance.",
+   "note": "Narrow alley; house numbers and exact location not given in passage."
+  },
+  {
+   "as_written": "Lincoln's Inn",
+   "normalized": "Lincoln's Inn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "went back to Lincoln's Inn, where Mr. Skimpole, who had not cared to remain nearer Coavinses, awaited us.",
+   "note": "Inn of Court; the party returns there briefly before going to Bell Yard."
+  }
+ ]
+}

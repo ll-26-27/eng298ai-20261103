@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1529,
+  "completion_tokens": 103,
+  "total_tokens": 1632,
+  "cost": 0.0002044,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002044,
+   "upstream_inference_prompt_cost": 0.0001529,
+   "upstream_inference_completions_cost": 0.0000515
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0439. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): My letter was calm and affectionate.\n\n1818 text: \"I fear, my beloved girl,\" I said, \"little happiness remains for us on earth; yet all that I may one day enjoy is concentered in you.\n\n1831 text: \"I fear, my beloved girl,\" I said, \"little happiness remains for us on earth; yet all that I may one day enjoy is centred in you.\n\nDiff: \" I fear, my beloved girl, \" I said, \" little happiness remains for us on earth; yet all that I may one day enjoy is [-concentered-] {+centred+} in you.\n\nContext after (unchanged): Chase away your idle fears; to you alone do I consecrate my life, and my endeavours for contentment."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "\"concentered\" becomes \"centred\": the same verb, with the same meaning; the change is orthographic/lexical variant (a shorter form of the same word), with no change in sense or content.",
+  "confidence": "medium",
+  "rationaleWords": 29
+ }
+}

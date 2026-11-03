@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2272,
+  "completion_tokens": 123,
+  "total_tokens": 2395,
+  "cost": 0.0002887,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002887,
+   "upstream_inference_prompt_cost": 0.0002272,
+   "upstream_inference_completions_cost": 0.0000615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0494. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): But again the frost came, and made the paths of the sea secure.\n\n1818 text: By the quantity of provision which I had consumed I should guess that I had passed three weeks in this journey; and the continual protraction of hope, returning back upon the heart, often wrung bitter drops of despondency and grief from my eyes. Despair had indeed almost secured her prey, and I should soon have sunk beneath this misery; when once, after the poor animals that carried me had with incredible toil gained the summit of a sloping ice mountain, and one sinking under his fatigue died, I viewed the expanse before me with anguish, when suddenly my eye caught a dark speck upon the dusky plain. I strained my sight to discover what it could be, and uttered a wild cry of ecstacy when I distinguished a sledge, and the distorted proportions of a well-known form within.\n\n1831 text: By the quantity of provision which I had consumed, I should guess that I had passed three weeks in this journey; and the continual protraction of hope, returning back upon the heart, often wrung bitter drops of despondency and grief from my eyes. Despair had indeed almost secured her prey, and I should soon have sunk beneath this misery. Once, after the poor animals that conveyed me had with incredible toil gained the summit of a sloping ice-mountain, and one, sinking under his fatigue, died, I viewed the expanse before me with anguish, when suddenly my eye caught a dark speck upon the dusky plain. I strained my sight to discover what it could be, and uttered a wild cry of ecstasy when I distinguished a sledge, and the distorted proportions of a well-known form within.\n\nDiff: By the quantity of provision which I had consumed {+,+} I should guess that I had passed three weeks in this journey; and the continual protraction of hope, returning back upon the heart, often wrung bitter drops of despondency and grief from my eyes. Despair had indeed almost secured her prey, and I should soon have sunk beneath this misery [-; when once-] {+. Once+} , after the poor animals that [-carried-] {+conveyed+} me had with incredible toil gained the summit of a sloping [-ice mountain-] {+ice-mountain+} , and one {+,+} sinking under his fatigue {+,+} died, I viewed the expanse before me with anguish, when suddenly my eye caught a dark speck upon the dusky plain. I strained my sight to discover what it could be, and uttered a wild cry of [-ecstacy-] {+ecstasy+} when I distinguished a sledge, and the distorted proportions of a well-known form within.\n\nContext after (unchanged): Oh! with what a burning gush did hope revisit my heart! warm tears filled my eyes, which I hastily wiped away, that they might not intercept the view I had of the dæmon; but still my sight was dimmed by the burning drops, until, giving way to the emotions that oppressed me, I wept aloud."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Mostly punctuation and orthography: 'when once' becomes '. Once', 'carried' becomes 'conveyed', 'ecstacy' becomes 'ecstasy', and commas are added. The sentence's meaning and events are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 26
+ }
+}

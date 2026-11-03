@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c008-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5360,
+  "completion_tokens": 1490,
+  "total_tokens": 6850,
+  "cost": 0.001281,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001281,
+   "upstream_inference_prompt_cost": 0.000536,
+   "upstream_inference_completions_cost": 0.000745
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 974,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the present Bower",
+   "normalized": "Boffin's Bower, Harmony Jail, Battle Bridge, London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "situate up the yard of the present Bower",
+   "note": "Fictional house in the novel; location approximate, near Battle Bridge"
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "The Temple, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "having frequently heerd tell of the Temple as a spot where lawyer’s dust is contracted for",
+   "note": "Inns of Court area; Boffin is now there seeking a lawyer, so setting also applies"
+  },
+  {
+   "as_written": "Saint Paul’s Churchyard",
+   "normalized": "St Paul's Churchyard, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "under the little archway in Saint Paul’s Churchyard",
+   "note": ""
+  },
+  {
+   "as_written": "Doctors’ Commons",
+   "normalized": "Doctors' Commons, St Paul's Churchyard, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Doctors’ Commons,’ observed Lightwood.",
+   "note": "Name spoken as Doctor Scommons by Boffin; the place is an institution building"
+  },
+  {
+   "as_written": "Fleet Street",
+   "normalized": "Fleet Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "still jogging along Fleet Street in this condition of mind",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c041-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4918,
+  "completion_tokens": 719,
+  "total_tokens": 5637,
+  "cost": 0.0008513,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008513,
+   "upstream_inference_prompt_cost": 0.0004918,
+   "upstream_inference_completions_cost": 0.0003595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 502,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Italian",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "setting",
+   "in_london": false,
+   "quote": "in the brilliant light of a bright Italian day, the wonderful city without and the splendours of an old palace within",
+   "note": "Adjectival form only; the city and palace are not named in this passage."
+  },
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "there was the well-known shadow of the Marshalsea wall",
+   "note": "Recalled from the past; Dorrit's former debtors' prison."
+  }
+ ]
+}

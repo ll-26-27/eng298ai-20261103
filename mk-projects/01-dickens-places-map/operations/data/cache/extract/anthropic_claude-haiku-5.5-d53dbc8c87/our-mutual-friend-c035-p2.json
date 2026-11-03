@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c035-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5597,
+  "completion_tokens": 1344,
+  "total_tokens": 6941,
+  "cost": 0.0012317,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012317,
+   "upstream_inference_prompt_cost": 0.0005597,
+   "upstream_inference_completions_cost": 0.000672
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 891,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cape of Good Hope",
+   "normalized": "Cape of Good Hope, South Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "For where, in the name of the Cape of Good Hope?",
+   "note": "Figure of speech in Miss Potterson's question."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "before she quitted London for",
+   "note": ""
+  },
+  {
+   "as_written": "Six Jolly Fellowships",
+   "normalized": "Six Jolly Fellowship Porters, Limehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "dreamed those two rare figures into the bar of the Six Jolly Fellowships",
+   "note": "Public house where the scene is set; name as written omits 'Porters'."
+  },
+  {
+   "as_written": "Thames",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "she mashed up Thames lightermen with her paddles",
+   "note": ""
+  },
+  {
+   "as_written": "Gallows Bay",
+   "normalized": "Gallows Bay",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "She was the Murderer, bound for Gallows Bay",
+   "note": "Invented name in crowd's taunt against the steamer."
+  }
+ ]
+}

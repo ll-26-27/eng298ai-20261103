@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1786,
+  "completion_tokens": 124,
+  "total_tokens": 1910,
+  "cost": 0.0002406,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002406,
+   "upstream_inference_prompt_cost": 0.0001786,
+   "upstream_inference_completions_cost": 0.000062
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0282. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): I often referred the several situations, as their similarity struck me, to my own.\n\n1818 text: Like Adam, I was created apparently united by no link to any other being in existence; but his state was far different from mine in every other respect. He had come forth from the hands of God a perfect creature, happy and prosperous, guarded by the especial care of his Creator; he was allowed to converse with, and acquire knowledge from beings of a superior nature: but I was wretched, helpless, and alone.\n\n1831 text: Like Adam, I was apparently united by no link to any other being in existence; but his state was far different from mine in every other respect. He had come forth from the hands of God a perfect creature, happy and prosperous, guarded by the especial care of his Creator; he was allowed to converse with, and acquire knowledge from, beings of a superior nature: but I was wretched, helpless, and alone.\n\nDiff: Like Adam, I was [-created-] apparently united by no link to any other being in existence; but his state was far different from mine in every other respect. He had come forth from the hands of God a perfect creature, happy and prosperous, guarded by the especial care of his Creator; he was allowed to converse with, and acquire knowledge from {+,+} beings of a superior nature: but I was wretched, helpless, and alone.\n\nContext after (unchanged): Many times I considered Satan as the fitter emblem of my condition; for often, like him, when I viewed the bliss of my protectors, the bitter gall of envy rose within me."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 2,
+  "rationale": "Deletion of 'created' weakens the creation-as-origin emphasis, and the added comma in 'acquire knowledge from, beings' is punctuation only. Small stylistic tightening; the creature's loneliness and the Adam parallel stay intact.",
+  "confidence": "medium",
+  "rationaleWords": 31
+ }
+}

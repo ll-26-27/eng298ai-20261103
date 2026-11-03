@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c048-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5349,
+  "completion_tokens": 596,
+  "total_tokens": 5945,
+  "cost": 0.0008329,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008329,
+   "upstream_inference_prompt_cost": 0.0005349,
+   "upstream_inference_completions_cost": 0.000298
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 387,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Eton",
+   "normalized": "Eton, Buckinghamshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a pear-tree formerly growing in a garden near the back of his dame's house at Eton",
+   "note": "Lord Decimus's schooldays; Eton is across the Thames from Windsor"
+  },
+  {
+   "as_written": "this Island",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "three little rotten holes in this Island",
+   "note": "Narrator's phrase for the country; the three constituencies are unnamed"
+  }
+ ]
+}

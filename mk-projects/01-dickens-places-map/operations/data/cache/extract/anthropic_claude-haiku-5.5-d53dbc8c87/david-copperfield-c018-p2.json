@@ -1,0 +1,39 @@
+{
+ "chunk": "david-copperfield-c018-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3707,
+  "completion_tokens": 358,
+  "total_tokens": 4065,
+  "cost": 0.0005497,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005497,
+   "upstream_inference_prompt_cost": 0.0003707,
+   "upstream_inference_completions_cost": 0.000179
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 234,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ashford",
+   "normalized": "Ashford, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "if you ever like to come over to our neighbourhood--neighbourhood of Ashford",
+   "note": "Mr. Chestle's hop-growing neighbourhood; mentioned only in his invitation."
+  }
+ ]
+}

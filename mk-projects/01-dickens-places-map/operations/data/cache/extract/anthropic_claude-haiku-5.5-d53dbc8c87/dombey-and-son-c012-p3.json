@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c012-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5222,
+  "completion_tokens": 1324,
+  "total_tokens": 6546,
+  "cost": 0.0011842,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011842,
+   "upstream_inference_prompt_cost": 0.0005222,
+   "upstream_inference_completions_cost": 0.000662
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1094,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Doctor Blimber’s",
+   "normalized": "Doctor Blimber's school, fictional",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "I am afraid he feels lonely and lost at Doctor Blimber’s, Susan,",
+   "note": "Fictional school-house; location not stated in passage."
+  },
+  {
+   "as_written": "Mrs Pipchin’s house",
+   "normalized": "Mrs Pipchin's house, fictional",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "the first morning she arose in Mrs Pipchin’s house.",
+   "note": "Fictional boarding house; Brighton is not named in this passage."
+  }
+ ]
+}

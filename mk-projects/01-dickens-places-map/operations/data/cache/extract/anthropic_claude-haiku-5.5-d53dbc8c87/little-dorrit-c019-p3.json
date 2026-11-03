@@ -1,0 +1,39 @@
+{
+ "chunk": "little-dorrit-c019-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2746,
+  "completion_tokens": 358,
+  "total_tokens": 3104,
+  "cost": 0.0004536,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004536,
+   "upstream_inference_prompt_cost": 0.0002746,
+   "upstream_inference_completions_cost": 0.000179
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 231,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "both the private father and the Father of the Marshalsea were strong within him then",
+   "note": "Named via the title 'Father of the Marshalsea'; the prison is the setting throughout the passage."
+  }
+ ]
+}

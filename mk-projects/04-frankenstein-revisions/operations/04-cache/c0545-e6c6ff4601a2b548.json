@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1493,
+  "completion_tokens": 92,
+  "total_tokens": 1585,
+  "cost": 0.0001953,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001953,
+   "upstream_inference_prompt_cost": 0.0001493,
+   "upstream_inference_completions_cost": 0.000046
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0545. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): But, in the detail which he gave you of them, he could not sum up the hours and months of misery which I endured, wasting in impotent passions.\n\n1818 text: For whilst I destroyed his hopes, I did not satisfy my own desires.\n\n1831 text: For while I destroyed his hopes, I did not satisfy my own desires.\n\nDiff: For [-whilst-] {+while+} I destroyed his hopes, I did not satisfy my own desires.\n\nContext after (unchanged): They were for ever ardent and craving; still I desired love and fellowship, and I was still spurned."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Swaps the archaic conjunction 'whilst' for 'while' with no change in meaning; a diction-level change of the same sense, not an orthographic or substantive one.",
+  "confidence": "high",
+  "rationaleWords": 25
+ }
+}

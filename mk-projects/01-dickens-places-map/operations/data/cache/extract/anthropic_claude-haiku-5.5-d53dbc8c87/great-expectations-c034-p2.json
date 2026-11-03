@@ -1,0 +1,29 @@
+{
+ "chunk": "great-expectations-c034-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2021,
+  "completion_tokens": 112,
+  "total_tokens": 2133,
+  "cost": 0.0002581,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002581,
+   "upstream_inference_prompt_cost": 0.0002021,
+   "upstream_inference_completions_cost": 0.000056
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 103,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": []
+}

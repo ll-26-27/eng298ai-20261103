@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c038-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4929,
+  "completion_tokens": 1356,
+  "total_tokens": 6285,
+  "cost": 0.0011709,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011709,
+   "upstream_inference_prompt_cost": 0.0004929,
+   "upstream_inference_completions_cost": 0.000678
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 986,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Green at Richmond",
+   "normalized": "Richmond Green, Richmond, Surrey",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "that staid old house near the Green at Richmond",
+   "note": "Green is the locating landmark for the house; outside London."
+  },
+  {
+   "as_written": "Richmond",
+   "normalized": "Richmond, Surrey",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "we sat apart at a darkening window of the house in Richmond",
+   "note": "Then a separate town in Surrey, outside London."
+  },
+  {
+   "as_written": "Satis",
+   "normalized": "Satis House",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "The time has come round when Miss Havisham wishes to have me for a day at Satis.",
+   "note": "Fictional house; the novel locates it in Kent, not London."
+  },
+  {
+   "as_written": "in town",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I heard of her often in town",
+   "note": "Implicit reference to London via the idiom 'in town'."
+  }
+ ]
+}

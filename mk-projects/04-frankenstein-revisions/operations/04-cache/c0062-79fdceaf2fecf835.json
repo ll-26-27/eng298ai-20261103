@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1575,
+  "completion_tokens": 116,
+  "total_tokens": 1691,
+  "cost": 0.0002155,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002155,
+   "upstream_inference_prompt_cost": 0.0001575,
+   "upstream_inference_completions_cost": 0.000058
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0062. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): These are the reflections of the first days; but when the lapse of time proves the reality of the evil, then the actual bitterness of grief commences.\n\n1818 text: Yet from whom has not that rude hand rent away some dear connexion; and why should I describe a sorrow which all have felt, and must feel?\n\n1831 text: Yet from whom has not that rude hand rent away some dear connection? and why should I describe a sorrow which all have felt, and must feel?\n\nDiff: Yet from whom has not that rude hand rent away some dear [-connexion;-] {+connection?+} and why should I describe a sorrow which all have felt, and must feel?\n\nContext after (unchanged): The time at length arrives, when grief is rather an indulgence than a necessity; and the smile that plays upon the lips, although it may be deemed a sacrilege, is not banished."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 2,
+  "rationale": "'connexion' becomes 'connection' (orthographic modernization), but the semicolon becomes a question mark, turning the rhetorical clause into a question. Mainly spelling, with a punctuation-driven shift in syntax.",
+  "confidence": "medium",
+  "rationaleWords": 27
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1496,
+  "completion_tokens": 111,
+  "total_tokens": 1607,
+  "cost": 0.0002051,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002051,
+   "upstream_inference_prompt_cost": 0.0001496,
+   "upstream_inference_completions_cost": 0.0000555
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0266. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): He revolved a thousand plans by which he should be enabled to prolong the deceit until it might be no longer necessary, and secretly to take his daughter with him when he departed.\n\n1818 text: His plans were greatly facilitated by the news which arrived from Paris.\n\n1831 text: His plans were facilitated by the news which arrived from Paris.\n\nDiff: His plans were [-greatly-] facilitated by the news which arrived from Paris.\n\nContext after (unchanged): \"The government of France were greatly enraged at the escape of their victim, and spared no pains to detect and punish his deliverer."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Deletion of the intensifier \"greatly\" from \"His plans were greatly facilitated\" reduces emphasis slightly but keeps the event and meaning intact; a stylistic trimming rather than a change in events or character.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

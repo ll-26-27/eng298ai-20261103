@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1637,
+  "completion_tokens": 97,
+  "total_tokens": 1734,
+  "cost": 0.0002122,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002122,
+   "upstream_inference_prompt_cost": 0.0001637,
+   "upstream_inference_completions_cost": 0.0000485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0272. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): \"When alone, Safie resolved in her own mind the plan of conduct that it would become her to pursue in this emergency.\n\n1818 text: A residence in Turkey was abhorrent to her; her religion and feelings were alike adverse to it. By some papers of her father's, which fell into her hands, she heard of the exile of her lover, and learnt the name of the spot where he then resided.\n\n1831 text: A residence in Turkey was abhorrent to her; her religion and her feelings were alike adverse to it. By some papers of her father, which fell into her hands, she heard of the exile of her lover, and learnt the name of the spot where he then resided.\n\nDiff: A residence in Turkey was abhorrent to her; her religion and {+her+} feelings were alike adverse to it. By some papers of her [-father's-] {+father+} , which fell into her hands, she heard of the exile of her lover, and learnt the name of the spot where he then resided.\n\nContext after (unchanged): She hesitated some time, but at length she formed her determination."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only grammatical polish: adds possessive 'her' before 'feelings' and drops the genitive 's from 'father's', with no change in meaning or events. Pure syntax and diction.",
+  "confidence": "high",
+  "rationaleWords": 26
+ }
+}

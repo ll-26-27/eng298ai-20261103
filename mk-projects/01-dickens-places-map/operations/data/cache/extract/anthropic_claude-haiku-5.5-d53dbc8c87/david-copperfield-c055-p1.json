@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c055-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4620,
+  "completion_tokens": 1497,
+  "total_tokens": 6117,
+  "cost": 0.0012105,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012105,
+   "upstream_inference_prompt_cost": 0.000462,
+   "upstream_inference_completions_cost": 0.0007485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1033,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "My aunt and I were at that time vacating the two cottages at Highgate;",
+   "note": "Then a village just outside the city; now part of London."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "came up to London.",
+   "note": ""
+  },
+  {
+   "as_written": "Covent Garden",
+   "normalized": "Covent Garden, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We had a temporary lodging in Covent Garden.",
+   "note": ""
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to return to her house at Dover.",
+   "note": ""
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "The water was out, over miles and miles of the flat country adjacent to Yarmouth;",
+   "note": "Named several times, as home of the Peggottys and the setting of the storm."
+  },
+  {
+   "as_written": "Ipswich",
+   "normalized": "Ipswich, Suffolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "We came to Ipswich--very late",
+   "note": ""
+  }
+ ]
+}

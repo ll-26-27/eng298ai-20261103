@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c038-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5322,
+  "completion_tokens": 1435,
+  "total_tokens": 6757,
+  "cost": 0.0012497,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012497,
+   "upstream_inference_prompt_cost": 0.0005322,
+   "upstream_inference_completions_cost": 0.0007175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1018,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Norwood",
+   "normalized": "Norwood, Surrey (now South/Upper Norwood, London)",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I wonder I did not take up my hat and rush insanely to Norwood.",
+   "note": "Dora's whereabouts; outside London in Dickens's day (Surrey), now within Greater London."
+  },
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blunderstone, Suffolk",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "in our parlour at Blunderstone",
+   "note": "Fictional Blunderstone (Rookery) of Copperfield's childhood."
+  },
+  {
+   "as_written": "the Dragon of Wantley",
+   "normalized": "Wantley",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "or the Dragon of Wantley",
+   "note": "Legendary place from a comic ballad; not locatable."
+  },
+  {
+   "as_written": "the Commons here",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in the Commons here, every day",
+   "note": "Refers to Doctors' Commons; the office and Spenlow's room are there."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1437,
+  "completion_tokens": 106,
+  "total_tokens": 1543,
+  "cost": 0.0001967,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001967,
+   "upstream_inference_prompt_cost": 0.0001437,
+   "upstream_inference_completions_cost": 0.000053
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0153. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): Six years had elapsed, passed as a dream but for one indelible trace, and I stood in the same place where I had last embraced my father before my departure for Ingolstadt.\n\n1818 text: Beloved and respectable parent!\n\n1831 text: Beloved and venerable parent!\n\nDiff: Beloved and [-respectable-] {+venerable+} parent!\n\nContext after (unchanged): He still remained to me."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 2,
+  "rationale": "Replacing 'respectable' with 'venerable' is a diction change that keeps the address to the father; 'venerable' raises him toward age and reverence, slightly reshaping how Victor presents him.",
+  "confidence": "medium",
+  "rationaleWords": 28
+ }
+}

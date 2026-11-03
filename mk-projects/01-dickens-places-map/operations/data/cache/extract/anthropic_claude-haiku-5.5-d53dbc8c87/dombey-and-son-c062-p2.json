@@ -1,0 +1,93 @@
+{
+ "chunk": "dombey-and-son-c062-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2956,
+  "completion_tokens": 1627,
+  "total_tokens": 4583,
+  "cost": 0.0011091,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011091,
+   "upstream_inference_prompt_cost": 0.0002956,
+   "upstream_inference_completions_cost": 0.0008135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1035,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "DEVONSHIRE TERRACE",
+   "normalized": "Devonshire Terrace, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "DEVONSHIRE TERRACE, Twenty-Fourth March, 1848.",
+   "note": "Dickens's London address where the 1848 preface was dated"
+  },
+  {
+   "as_written": "the Lake of Geneva",
+   "normalized": "Lake Geneva, Switzerland/France",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I began this book by the Lake of Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "went on with it for some months in France",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "before pursuing it in England",
+   "note": ""
+  },
+  {
+   "as_written": "the streets of Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "my remembrance wanders for a whole winter night about the streets of Paris",
+   "note": ""
+  },
+  {
+   "as_written": "the mountains of Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as secluding himself from Mrs MacStinger among the mountains of Switzerland",
+   "note": ""
+  },
+  {
+   "as_written": "Doctor Blimber’s establishment",
+   "normalized": "Doctor Blimber's school (fictional)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "every young gentleman’s bedstead in Doctor Blimber’s establishment",
+   "note": "Fictional school; location not specified in passage"
+  }
+ ]
+}

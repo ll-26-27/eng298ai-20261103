@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2747,
+  "completion_tokens": 391,
+  "total_tokens": 3138,
+  "cost": 0.0004702,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004702,
+   "upstream_inference_prompt_cost": 0.0002747,
+   "upstream_inference_completions_cost": 0.0001955
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 247,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0068. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): Good God! in what desert land have you lived, where no one was kind enough to inform you that these fancies, which you have so greedily imbibed, are a thousand years old, and as musty as they are ancient?\n\n1818 text: I little expected in this enlightened and scientific age to find a disciple of Albertus Magnus and Paracelsus. My dear Sir, you must begin your studies entirely anew.\" So saying, he stept aside, and wrote down a list of several books treating of natural philosophy, which he desired me to procure, and dismissed me, after mentioning that in the beginning of the following week he intended to commence a course of lectures upon natural philosophy in its general relations, and that M. Waldman, a fellow-professor, would lecture upon chemistry the alternate days that he missed. I returned home, not disappointed, for I had long considered those authors useless whom the professor had so strongly reprobated; but I did not feel much inclined to study the books which I procured at his recommendation. M. Krempe was a little squat man, with a gruff voice and repulsive countenance; the teacher, therefore, did not prepossess me in favour of his doctrine.\n\n1831 text: I little expected, in this enlightened and scientific age, to find a disciple of Albertus Magnus and Paracelsus. My dear sir, you must begin your studies entirely anew.\" So saying, he stept aside, and wrote down a list of several books treating of natural philosophy, which he desired me to procure; and dismissed me, after mentioning that in the beginning of the following week he intended to commence a course of lectures upon natural philosophy in its general relations, and that M. Waldman, a fellow-professor, would lecture upon chemistry the alternate days that he omitted. I returned home, not disappointed, for I have said that I had long considered those authors useless whom the professor reprobated; but I returned, not at all the more inclined to recur to these studies in any shape. M. Krempe was a little squat man, with a gruff voice and a repulsive countenance; the teacher, therefore, did not prepossess me in favour of his pursuits. In rather a too philosophical and connected a strain, perhaps, I have given an account of the conclusions I had come to concerning them in my early years. As a child, I had not been content with the results promised by the modern professors of natural science. With a confusion of ideas only to be accounted for by my extreme youth, and my want of a guide on such matters, I had retrod the steps of knowledge along the paths of time, and exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists.\n\nDiff: I little expected {+,+} in this enlightened and scientific age {+,+} to find a disciple of Albertus Magnus and Paracelsus. My dear [-Sir-] {+sir+} , you must begin your studies entirely anew. \" So saying, he stept aside, and wrote down a list of several books treating of natural philosophy, which he desired me to procure [-,-] {+;+} and dismissed me, after mentioning that in the beginning of the following week he intended to commence a course of lectures upon natural philosophy in its general relations, and that M. Waldman, a fellow-professor, would lecture upon chemistry the alternate days that he [-missed-] {+omitted+} . I returned home, not disappointed, for I {+have said that I+} had long considered those authors useless whom the professor [-had so strongly-] reprobated; but I [-did-] {+returned,+} not [-feel much-] {+at all the more+} inclined to [-study the books which I procured at his recommendation-] {+recur to these studies in any shape+} . M. Krempe was a little squat man, with a gruff voice and {+a+} repulsive countenance; the teacher, therefore, did not prepossess me in favour of his [-doctrine-] {+pursuits+} . {+In rather a too philosophical and connected a strain, perhaps, I have given an account of the conclusions I had come to concerning them in my early years. As a child, I had not been content with the results promised by the modern professors of natural science. With a confusion of ideas only to be accounted for by my extreme youth, and my want of a guide on such matters, I had retrod the steps of knowledge along the paths of time, and exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists.+}\n\nContext after (unchanged): Besides, I had a contempt for the uses of modern natural philosophy."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "expansion",
+   "framing"
+  ],
+  "significance": 5,
+  "rationale": "The 1831 addition of 'In rather a too philosophical and connected a strain' and 'I had retrod the steps of knowledge' has the narrator retrospectively judge his youthful alchemy as confusion, reshaping how Victor presents himself. The 'I have said' also reworks the earlier text.",
+  "confidence": "medium",
+  "rationaleWords": 45
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c058-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5641,
+  "completion_tokens": 1071,
+  "total_tokens": 6712,
+  "cost": 0.0010996,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010996,
+   "upstream_inference_prompt_cost": 0.0005641,
+   "upstream_inference_completions_cost": 0.0005355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 712,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "St Mary Axe",
+   "normalized": "St Mary Axe, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "went no more to the business-premises of Pubsey and Co. in St Mary Axe",
+   "note": ""
+  },
+  {
+   "as_written": "Albany, Piccadilly",
+   "normalized": "Albany, Piccadilly, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘Albany, Piccadilly,’ replied Fledgeby.",
+   "note": "Fledgeby's address; Albany is a set of residential chambers."
+  },
+  {
+   "as_written": "Piccadilly",
+   "normalized": "Piccadilly, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘Albany, Piccadilly,’ replied Fledgeby.",
+   "note": ""
+  },
+  {
+   "as_written": "Bond Street",
+   "normalized": "Bond Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "have an appointment in Bond Street at ten precisely",
+   "note": ""
+  }
+ ]
+}

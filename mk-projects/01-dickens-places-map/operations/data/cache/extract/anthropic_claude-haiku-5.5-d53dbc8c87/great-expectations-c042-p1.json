@@ -1,0 +1,75 @@
+{
+ "chunk": "great-expectations-c042-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5163,
+  "completion_tokens": 1308,
+  "total_tokens": 6471,
+  "cost": 0.0011703,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011703,
+   "upstream_inference_prompt_cost": 0.0005163,
+   "upstream_inference_completions_cost": 0.000654
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 753,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Essex",
+   "normalized": "Essex, England",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I first become aware of myself down in Essex, a thieving turnips for my living.",
+   "note": ""
+  },
+  {
+   "as_written": "Kingston Jail",
+   "normalized": "Kingston upon Thames gaol, Surrey",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I had come out of Kingston Jail last on a vagrancy committal.",
+   "note": "Historically in Surrey, outside London; now within Greater London."
+  },
+  {
+   "as_written": "Epsom races",
+   "normalized": "Epsom Downs, Epsom, Surrey",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": false,
+   "quote": "At Epsom races, a matter of over twenty years ago, I got acquainted wi' a man",
+   "note": "The booth 'on the heath' is at Epsom Downs; the race venue is the setting."
+  },
+  {
+   "as_written": "Brentford",
+   "normalized": "Brentford, Middlesex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Arthur lived at the top of Compeyson's house (over nigh Brentford it was)",
+   "note": "Western edge of London in Dickens's day, historically Middlesex; boundary unclear."
+  },
+  {
+   "as_written": "Traveller's Rest",
+   "normalized": "Traveller's Rest (inn), location unknown",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "A deserting soldier in a Traveller's Rest, what lay hid up to the chin under a lot of taturs",
+   "note": "Probably a generic inn name; cannot be located."
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "little-dorrit-c003-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5040,
+  "completion_tokens": 1649,
+  "total_tokens": 6689,
+  "cost": 0.0013285,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013285,
+   "upstream_inference_prompt_cost": 0.000504,
+   "upstream_inference_completions_cost": 0.0008245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1136,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was a Sunday evening in London, gloomy, close, and stale.",
+   "note": ""
+  },
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "newly arrived from Marseilles by way of Dover",
+   "note": ""
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "by way of Dover, and by Dover coach the Blue-eyed Maid",
+   "note": ""
+  },
+  {
+   "as_written": "Ludgate Hill",
+   "normalized": "Ludgate Hill, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "sat in the window of a coffee-house on Ludgate Hill",
+   "note": ""
+  },
+  {
+   "as_written": "the British Museum",
+   "normalized": "British Museum, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the ugly South Sea gods in the British Museum",
+   "note": ""
+  },
+  {
+   "as_written": "St Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He crossed by St Paul’s and went down",
+   "note": ""
+  },
+  {
+   "as_written": "Cheapside",
+   "normalized": "Cheapside, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "between the river and Cheapside",
+   "note": ""
+  }
+ ]
+}

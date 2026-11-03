@@ -1,0 +1,816 @@
+{
+ "model": "anthropic/claude-opus-5.5",
+ "readings": [
+  {
+   "id": "frankenstein-0051",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "The Disciple and the Borrowed Machines",
+   "reading": "Waldman's first word for Victor names a vocation: he is happy \"to have gained a disciple.\" The term is devotional, and it turns a request for a reading list into something like a conversion. Yet the instruction itself is a counsel of breadth. \"A man would make but a very sorry chemist\" if he studied chemistry \"alone\"; the ideal is to become \"really a man of science, and not merely a petty experimentalist,\" and the syllabus extends to \"including mathematics.\" The praise is conditional, \"if your application equals your ability,\" so flattery and exhortation arrive in a single sentence that binds the pupil's self-regard to his labour.\n\nThe scene then shifts from quoted speech to the narrator's summary, and from words to things. Waldman \"explained to me the uses of his various machines,\" \"instructing me as to what I ought to procure,\" \"promising me the use of his own.\" The stacked participles compress an apprenticeship into one breath. The machines are lent on a condition: Victor must advance far enough \"not to derange their mechanism.\" The phrase casts the learner as a danger to the made thing. The novel will later make this literal when Victor assembles a mechanism of his own and is deranged by it.\n\nOne could read Waldman as Victor's author, handing over tools and texts. But Victor leaves with \"the list of books which I had requested,\" and Waldman's warning against narrowness is exactly what he will ignore. The teacher supplies the means; the disciple supplies the obsession.",
+   "quotations": [
+    {
+     "q": "to have gained a disciple",
+     "found": true
+    },
+    {
+     "q": "A man would make but a very sorry chemist",
+     "found": true
+    },
+    {
+     "q": "alone",
+     "found": true
+    },
+    {
+     "q": "really a man of science, and not merely a petty experimentalist",
+     "found": true
+    },
+    {
+     "q": "including mathematics",
+     "found": true
+    },
+    {
+     "q": "if your application equals your ability",
+     "found": true
+    },
+    {
+     "q": "explained to me the uses of his various machines",
+     "found": true
+    },
+    {
+     "q": "instructing me as to what I ought to procure",
+     "found": true
+    },
+    {
+     "q": "promising me the use of his own",
+     "found": true
+    },
+    {
+     "q": "not to derange their mechanism",
+     "found": true
+    },
+    {
+     "q": "the list of books which I had requested",
+     "found": true
+    }
+   ],
+   "question": "If Waldman explicitly counsels breadth against the narrow experimentalism Victor later pursues, should the retrospective narration's verdict that this day \"decided my future destiny\" be read as an accurate account of influence, or as Victor's attempt to shift authorship of his ruin onto a teacher?"
+  },
+  {
+   "id": "frankenstein-0087",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Clerval's Lesson: Victor Remade as Creature",
+   "reading": "Victor narrates this fortnight as a second education that undoes the first. \"Study\" is the grammatical agent that \"secluded me from the intercourse of my fellow-creatures,\" and Clerval is the agent of repair. Victor is the object of every verb: Clerval \"called forth the better feelings of my heart,\" and \"warmed and opened my senses.\" The teaching works through conversation and affection, not doctrine, and its content is a way of seeing: \"to love the aspect of nature, and the cheerful faces of children.\" The word \"again\" matters. This is remedial instruction, a restoring of capacities that \"A selfish pursuit had cramped and narrowed.\" The apostrophe, \"Excellent friend!\", reveals a retrospective, elegiac narrator. He addresses a friend who will later be dead, and the phrase \"on a level with your own\" admits a hierarchy in which Clerval is the teacher. The scene uncannily anticipates the made being's own awakening: a self whose \"senses\" are opened, delighted by \"inanimate nature,\" and named \"the same happy creature.\" Victor gives himself the word that names what he abandoned, receiving exactly the warm formation he withheld. Yet the cure is fragile. The burden is not dissolved; Victor is only \"undisturbed\" by it. \"The same happy creature\" also implies a regression rather than growth, a fantasy of returning to childhood. Clerval's lesson may soothe Victor more than it changes him.",
+   "quotations": [
+    {
+     "q": "Study",
+     "found": true
+    },
+    {
+     "q": "secluded me from the intercourse of my fellow-creatures",
+     "found": true
+    },
+    {
+     "q": "called forth the better feelings of my heart",
+     "found": true
+    },
+    {
+     "q": "warmed and opened my senses",
+     "found": true
+    },
+    {
+     "q": "to love the aspect of nature, and the cheerful faces of children",
+     "found": true
+    },
+    {
+     "q": "A selfish pursuit had cramped and narrowed",
+     "found": true
+    },
+    {
+     "q": "Excellent friend!",
+     "found": true
+    },
+    {
+     "q": "on a level with your own",
+     "found": true
+    },
+    {
+     "q": "inanimate nature",
+     "found": true
+    },
+    {
+     "q": "the same happy creature",
+     "found": true
+    },
+    {
+     "q": "undisturbed",
+     "found": true
+    }
+   ],
+   "question": "Does Clerval's affectionate formation of Victor serve as the novel's implicit model of the parental education the creature is denied, or does its regressive return to a childhood state suggest that Shelley distrusts sympathetic instruction as a real remedy for the damage done by solitary making?"
+  },
+  {
+   "id": "frankenstein-0158",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Eavesdropping on a Godlike Science",
+   "reading": "This is a scene of instruction with no willing teacher. The cottagers never know they are giving lessons; the creature learns by watching through a chink, and the only active verbs of learning are his own: \"I found,\" \"I perceived,\" \"I discovered.\" What he grasps first is not what words mean but what they do. Speech appears as a technology of affect that \"produced pleasure or pain, smiles or sadness,\" so rhetoric comes before reference. Calling it a \"godlike science\" places language beside the power his maker has usurped: to speak is to move another mind, a kind of making. Meaning resists him because the words have \"not having any apparent connexion with visible objects,\" and he must \"unravel the mystery of their reference\" by sheer \"By great application.\" His first vocabulary follows his own hidden labour: fire and wood are the very things he has secretly supplied. Then come names of kinship, and the syntax pauses on the fact that \"the old man had only one.\" The creature, unnamed and unfathered, learns relation as vocabulary before he can know it as experience. The passage ends on words he can say but not yet \"understand or apply\": \"_good_, _dearest_, _unhappy_.\" Ethics and grief arrive as sound first. One might read this as self-authorship, the creature as his own tutor; yet what he absorbs is the family's idiom, and it is their influence that writes him.",
+   "quotations": [
+    {
+     "q": "I found",
+     "found": true
+    },
+    {
+     "q": "I perceived",
+     "found": true
+    },
+    {
+     "q": "I discovered",
+     "found": true
+    },
+    {
+     "q": "produced pleasure or pain, smiles or sadness",
+     "found": true
+    },
+    {
+     "q": "godlike science",
+     "found": true
+    },
+    {
+     "q": "not having any apparent connexion with visible objects",
+     "found": true
+    },
+    {
+     "q": "unravel the mystery of their reference",
+     "found": true
+    },
+    {
+     "q": "By great application",
+     "found": true
+    },
+    {
+     "q": "the old man had only one",
+     "found": true
+    },
+    {
+     "q": "understand or apply",
+     "found": true
+    },
+    {
+     "q": "_good_, _dearest_, _unhappy_",
+     "found": true
+    }
+   ],
+   "question": "Does the creature's discovery that words act on feelings before they refer to objects make his later eloquence toward Victor primarily a technique of moving others rather than of expressing a self, and does the novel endorse or distrust that understanding of language?"
+  },
+  {
+   "id": "frankenstein-0170",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "The Overheard Lesson: Imitation at Second Hand",
+   "reading": "The creature's education here is stolen. He learns letters only \"as it was taught to the stranger,\" so every lesson reaches him through a pupil who does not know he is there, and from a teacher, Felix, who does not know he is teaching. Yet the creature narrates himself as a rival student: \"I may boast that I improved more rapidly than the Arabian,\" who \"conversed in broken accents.\" His measure of success is mimetic. He \"comprehended and could imitate almost every word that was spoken,\" a phrase that sets understanding and copying side by side as though they were one achievement. Imitation runs through the whole scene. Felix chooses Volney because \"the declamatory style was framed in imitation of the eastern authors,\" so a European imitation of the East is used to teach an Eastern woman, and the creature in turn imitates the lesson. The syntax of what he takes in is repetitive and receptive. \"I heard of the slothful Asiatics\" opens a catalogue that collapses centuries into alliteration: \"of chivalry, Christianity, and kings.\" He absorbs Volney's prejudices whole, including a contempt for Asia that implicitly takes in Safie herself. Still, the lesson ends in shared feeling rather than mastery. He \"wept with Safie over the hapless fate of its original inhabitants.\" One reading takes this as sympathy he has learned. Another takes it as recognition: a dispossessed being finding his own story inside someone else's history.",
+   "quotations": [
+    {
+     "q": "as it was taught to the stranger",
+     "found": true
+    },
+    {
+     "q": "I may boast that I improved more rapidly than the Arabian",
+     "found": true
+    },
+    {
+     "q": "conversed in broken accents",
+     "found": true
+    },
+    {
+     "q": "comprehended and could imitate almost every word that was spoken",
+     "found": true
+    },
+    {
+     "q": "the declamatory style was framed in imitation of the eastern authors",
+     "found": true
+    },
+    {
+     "q": "I heard of the slothful Asiatics",
+     "found": true
+    },
+    {
+     "q": "of chivalry, Christianity, and kings",
+     "found": true
+    },
+    {
+     "q": "wept with Safie over the hapless fate of its original inhabitants",
+     "found": true
+    }
+   ],
+   "question": "Does the creature's weeping with Safie show a sympathy that escapes Volney's hierarchical history, or is even his compassion shaped, and authored, by the book and by Felix's \"very minute explanations\"?"
+  },
+  {
+   "id": "rur-0023",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Preaching Liberation to the Makers",
+   "reading": "This scene of instruction misfires, and its comedy depends on who is mistaken for what. Helena arrives to awaken consciousness in beings she takes to be manufactured, yet the men she addresses already behave like mechanisms. Their greetings arrive as interchangeable fragments, \"Allow me--\", \"Please--\", \"Excuse me--\", each broken off by the next. The stage directions show them as \"MEN conscious of their appearance\": \"BUSMAN polishes shoes\", others fix ties. Before Helena teaches anything, her gaze has already disciplined them into self-display. Domin then issues the real instruction of the passage, \"Be quiet and let\" her speak, and they obey at once: \"MEN sit erect.\" The makers respond to command as their products are meant to. Helena's own speech is equally governed. She asks Domin, not her audience, \"What am I to speak to them about?\" and then \"May I speak quite frankly?\" She would-be liberator must seek a license from the owner, and \"Anything you like.\" grants her a freedom he controls. Her question, \"doesn’t it ever distress you the way you are treated?\", comes \"Wavering, then in desperate resolution\", so her rhetoric of awakening needs courage before it needs a reply. The answers, \"Treated?\" and \"What makes you think--\", show that the lesson finds no learner. One might counter that the men are not baffled but amused, playing along with Domin's joke, so that Helena, not the men, is the one being taught.",
+   "quotations": [
+    {
+     "q": "Allow me--",
+     "found": true
+    },
+    {
+     "q": "Please--",
+     "found": true
+    },
+    {
+     "q": "Excuse me--",
+     "found": true
+    },
+    {
+     "q": "MEN conscious of their appearance",
+     "found": true
+    },
+    {
+     "q": "BUSMAN polishes shoes",
+     "found": true
+    },
+    {
+     "q": "Be quiet and let",
+     "found": true
+    },
+    {
+     "q": "MEN sit erect.",
+     "found": true
+    },
+    {
+     "q": "What am I to speak to them about?",
+     "found": true
+    },
+    {
+     "q": "May I speak quite frankly?",
+     "found": true
+    },
+    {
+     "q": "Anything you like.",
+     "found": true
+    },
+    {
+     "q": "doesn’t it ever distress you the way you are treated?",
+     "found": true
+    },
+    {
+     "q": "Wavering, then in desperate resolution",
+     "found": true
+    },
+    {
+     "q": "Treated?",
+     "found": true
+    },
+    {
+     "q": "What makes you think--",
+     "found": true
+    }
+   ],
+   "question": "If Helena's speech of awakening is authorized and staged by Domin, can any appeal to the Robots' humanity in R.U.R. escape being one more product of the factory's management of speech?"
+  },
+  {
+   "id": "rur-0059",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "The Library's Pupil Refuses the Lesson",
+   "reading": "Helena's speech reveals, too late, that this scene of instruction began offstage: \"I had you put into the library, so that you could read everything, understand everything.\" The parallel infinitives promise a total, almost frictionless education, but the sentence breaks at its climax (\"and then, oh, Radius--\") before naming its true aim: \"I wanted you to show the whole world that the Robots are our equals.\" The learner is to be a demonstration, evidence in an argument his teacher is making. Helena even closes by restating the ownership: \"That's what I wanted of you.\" Radius has learned, but not what he was meant to show. His retort turns the library's lesson against its sponsor: \"You only give orders. You do nothing but talk.\" The irony is sharp, because talk is precisely what Helena gave him, and he now uses speech to disparage speech. His short, paratactic sentences (\"The Robots can do everything\") have the flat certainty of a catalogue, while the repeated stage direction, \"Open and close fists,\" sets a bodily vocabulary of labor against her words. Most striking is his claim to self-authorship: \"I know everything for myself.\" Reading, which Helena imagined as a path to equality, produces instead a refusal of any \"master.\" Still, the line can be read against itself: a being formed by Gall's \"better brain\" and Helena's library claims to owe nothing to either, and that claim may be the education's most perfect, and most human, result.",
+   "quotations": [
+    {
+     "q": "I had you put into the library, so that you could read everything, understand everything",
+     "found": true
+    },
+    {
+     "q": "and then, oh, Radius--",
+     "found": true
+    },
+    {
+     "q": "I wanted you to show the whole world that the Robots are our equals.",
+     "found": true
+    },
+    {
+     "q": "That's what I wanted of you.",
+     "found": true
+    },
+    {
+     "q": "You only give orders. You do nothing but talk.",
+     "found": true
+    },
+    {
+     "q": "The Robots can do everything",
+     "found": true
+    },
+    {
+     "q": "Open and close fists",
+     "found": true
+    },
+    {
+     "q": "I know everything for myself.",
+     "found": true
+    },
+    {
+     "q": "master",
+     "found": true
+    }
+   ],
+   "question": "Is Radius's revolt the failure of Helena's humanitarian instruction or its fulfillment—does reading \"everything\" teach the Robot equality, or teach him that mastery is what human knowledge is for?"
+  },
+  {
+   "id": "rur-0110",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "History as Primer, the Lost Formula as Unteachable",
+   "reading": "The passage stages two instructions, one completed and one refused. The first is already over: \"We had learnt everything and could do everything,\" Radius says, in a pluperfect that closes the curriculum. What the Robots learned, they learned from a book their makers left behind. \"Read history\" turns the imperative of the schoolroom back on the last schoolmaster, and the lesson it cites is grimly accurate: \"Slaughter and domination are necessary if you would be human beings.\" Humanity here is not language or feeling but a conduct to be copied, and the Robots have copied it so well that imitation has become authorship of the world's ending. \"It had to be\" and \"We had to become\" borrow the fatalism of the very history they read. Then the pupils ask for a second lesson: \"Teach us to multiply or we perish.\" Alquist's answer, \"you must breed like animals,\" is instruction as taunt, pointing to a knowledge that cannot be transmitted because it belongs to the body, not to writing. The Robots, however, trust the document: \"It was written down.\" Alquist's broken reply, \"It was-- (_Rising_) burnt,\" severs the chain of text through which making has passed. His self-description, \"I am only a builder. I work with my hands,\" offers a counter-pedagogy, knowledge of the hand rather than the formula. Yet it is ambiguous whether this is humility or a refusal disguised as incapacity. The man who \"cannot create life\" may be the only teacher left who understands what the lesson costs.",
+   "quotations": [
+    {
+     "q": "We had learnt everything and could do everything.",
+     "found": true
+    },
+    {
+     "q": "Read history.",
+     "found": true
+    },
+    {
+     "q": "Slaughter and domination are necessary if you would be human beings.",
+     "found": true
+    },
+    {
+     "q": "It had to be.",
+     "found": true
+    },
+    {
+     "q": "We had to become",
+     "found": true
+    },
+    {
+     "q": "Teach us to multiply or we perish.",
+     "found": true
+    },
+    {
+     "q": "you must breed like animals",
+     "found": true
+    },
+    {
+     "q": "It was written down.",
+     "found": true
+    },
+    {
+     "q": "It was-- (_Rising_) burnt.",
+     "found": true
+    },
+    {
+     "q": "I am only a builder. I work with my hands.",
+     "found": true
+    },
+    {
+     "q": "cannot create life",
+     "found": true
+    }
+   ],
+   "question": "If the Robots became human by reading history, is Alquist's withholding of the formula a final act of teaching, a lesson that some knowledge must not be reproduced, or merely the last human failure to transmit anything but violence?"
+  },
+  {
+   "id": "dorian-0035",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Words That Give Form: Dorian's Unwitting Lesson",
+   "reading": "The passage opens with the learner trying to halt the lesson: \"Stop!\" Dorian's speech breaks down into imperatives and admissions of incapacity: \"There is some answer to you, but I cannot find it.\" The pupil senses a counter-argument yet lacks the language to make it, and his final retreat, \"let me try not to think,\" suggests that Lord Henry's instruction works best by suspending reflection. The narration then moves inward through free indirect discourse, and here the scene's central irony appears: Dorian knows \"entirely fresh influences were at work within him,\" yet \"they seemed to him to have come really from himself.\" Influence succeeds by passing for self-discovery; the author of Dorian's new self vanishes into the self he authors. The narrator's hedge, \"words spoken by chance, no doubt,\" is itself ambiguous. It may report Dorian's view, or quietly ironize it, since \"wilful paradox\" hardly sounds accidental. The meditation on language sharpens the course's concern with making. Music creates \"another chaos,\" but words \"give a plastic form to formless things,\" which casts Lord Henry as a sculptor working in the same studio as Basil, who shapes Dorian on canvas. Words are \"terrible,\" \"cruel,\" yet possessed of \"subtle magic.\" The closing question, \"Was there anything so real as words?\", records Dorian's conversion to Lord Henry's creed even as he asks it, since he is already thinking in the paradox-laden manner of his teacher.",
+   "quotations": [
+    {
+     "q": "Stop!",
+     "found": true
+    },
+    {
+     "q": "There is some answer to you, but I cannot find it.",
+     "found": true
+    },
+    {
+     "q": "let me try not to think",
+     "found": true
+    },
+    {
+     "q": "entirely fresh influences were at work within him",
+     "found": true
+    },
+    {
+     "q": "they seemed to him to have come really from himself",
+     "found": true
+    },
+    {
+     "q": "words spoken by chance, no doubt",
+     "found": true
+    },
+    {
+     "q": "wilful paradox",
+     "found": true
+    },
+    {
+     "q": "another chaos",
+     "found": true
+    },
+    {
+     "q": "give a plastic form to formless things",
+     "found": true
+    },
+    {
+     "q": "terrible",
+     "found": true
+    },
+    {
+     "q": "cruel",
+     "found": true
+    },
+    {
+     "q": "subtle magic",
+     "found": true
+    },
+    {
+     "q": "Was there anything so real as words?",
+     "found": true
+    }
+   ],
+   "question": "If Lord Henry's words give \"plastic form\" to feelings Dorian claims as his own, is Dorian being created by Lord Henry, as Basil creates the portrait, or only revealed, and does the novel allow us to tell the difference?"
+  },
+  {
+   "id": "dorian-0040",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Teaching a Face to Feel Its Future",
+   "reading": "Lord Henry's lesson begins as care for an artwork: in the sun Dorian \"will be quite spoiled,\" and \"Basil will never paint you again.\" Dorian is addressed as a surface to be preserved, and \"It would be unbecoming\" quietly implies that he is still becoming something. Dorian's resistance, \"What can it matter?\", followed by the bare \"Why?\", supplies the pupil's cue, so the dialogue's form produces a monologue. The decisive exchange concerns feeling itself. To \"I don’t feel that, Lord Henry\" comes the reply \"No, you don’t feel it now,\" and then a prophecy: \"you will feel it, you will feel it terribly.\" Instruction here works by implanting a future emotion, which the repetition rehearses in advance. Lord Henry also writes on the face he praises: \"thought has seared your forehead with its lines\" and \"passion branded your lips with its hideous fires\" turn experience into inscription. That imagery anticipates the portrait that will later bear these marks. He narrates and corrects Dorian's expressions (\"Don’t frown. You have.\" \"You smile?\"), shaping the visible self as he describes it. There is an irony in the method: beauty is said to be higher \"as it needs no explanation,\" yet it receives a long explanation. The dogma \"It cannot be questioned\" closes off the very questioning Dorian has just begun. Still, the paradox \"It is only shallow people who do not judge by appearances\" may teach Dorian less a creed than a style of reversal.",
+   "quotations": [
+    {
+     "q": "you will be quite spoiled",
+     "found": true
+    },
+    {
+     "q": "Basil will never paint you again",
+     "found": true
+    },
+    {
+     "q": "It would be unbecoming",
+     "found": true
+    },
+    {
+     "q": "What can it matter?",
+     "found": true
+    },
+    {
+     "q": "Why?",
+     "found": true
+    },
+    {
+     "q": "I don’t feel that, Lord Henry",
+     "found": true
+    },
+    {
+     "q": "No, you don’t feel it now",
+     "found": true
+    },
+    {
+     "q": "you will feel it, you will feel it terribly",
+     "found": true
+    },
+    {
+     "q": "thought has seared your forehead with its lines",
+     "found": true
+    },
+    {
+     "q": "passion branded your lips with its hideous fires",
+     "found": true
+    },
+    {
+     "q": "Don’t frown. You have.",
+     "found": true
+    },
+    {
+     "q": "You smile?",
+     "found": true
+    },
+    {
+     "q": "as it needs no explanation",
+     "found": true
+    },
+    {
+     "q": "It cannot be questioned",
+     "found": true
+    },
+    {
+     "q": "It is only shallow people who do not judge by appearances",
+     "found": true
+    }
+   ],
+   "question": "Does Lord Henry's prophecy describe a fear latent in Dorian or author it, and is the later bargain over the portrait therefore Dorian's own wish or one composed for him?"
+  },
+  {
+   "id": "dorian-0103",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Musical Words and the Premature Pupil",
+   "reading": "Narrated in free indirect discourse that slides into Lord Henry's self-congratulation, this passage is a teacher's private audit of his lesson. The instrument is named with odd doubling: \"certain words of his, musical words said with musical utterance.\" What instructs is not content but sound. The repeated \"musical\" suggests that influence works like melody, entering below argument. Its effect is devotional: Dorian's soul \"turned to this white girl and bowed in worship before her,\" so the pupil's love for Sibyl is recast as the tutor's composition. The maker's claim follows in flat, clipped sentences: \"To a large extent the lad was his own creation. He had made him premature. That was something.\" The qualifier \"To a large extent\" is the one modest note. \"Premature\" is telling, because Henry's art is acceleration, a revelation that comes \"before the veil was drawn away,\" knowledge outrunning experience. He casts himself as a rival to \"the art of literature,\" a personality that \"assumed the office of art.\" Yet the grammar wavers. Is the \"real work of art\" Henry, the complex personality, or Dorian, his creation? That blur is what influence as authorship looks like. The observer's \"brown agate eyes\" are stony, a collector's gems, while the pupil remains animate. A counter-reading: a love born in a theatre may owe more to Shakespeare than to Henry, whose authorship may be only vanity.",
+   "quotations": [
+    {
+     "q": "certain words of his, musical words said with musical utterance",
+     "found": true
+    },
+    {
+     "q": "turned to this white girl and bowed in worship before her",
+     "found": true
+    },
+    {
+     "q": "To a large extent the lad was his own creation. He had made him premature. That was something.",
+     "found": true
+    },
+    {
+     "q": "To a large extent",
+     "found": true
+    },
+    {
+     "q": "before the veil was drawn away",
+     "found": true
+    },
+    {
+     "q": "the art of literature",
+     "found": true
+    },
+    {
+     "q": "assumed the office of art",
+     "found": true
+    },
+    {
+     "q": "real work of art",
+     "found": true
+    },
+    {
+     "q": "brown agate eyes",
+     "found": true
+    }
+   ],
+   "question": "Does Wilde endorse Lord Henry's claim that a personality can 'assume the office of art' and author another self, or does the novel expose that claim as a fantasy of control that Dorian's later independence, and the portrait, refute?"
+  },
+  {
+   "id": "dorian-0389",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "\"Yes, you are the same\": Instruction as Contradiction",
+   "reading": "The scene opens with a flat refusal of the pupil's self-description. Dorian says \"I am not the same, Harry,\" and Lord Henry simply overwrites him: \"Yes, you are the same.\" The lesson proceeds through imperatives (\"Don't spoil it by renunciations,\" \"Don't make yourself incomplete,\" \"don't deceive yourself\") that forbid change rather than teach it. Henry instructs by naming, and his names are aesthetic categories: Dorian is \"a perfect type,\" \"quite flawless.\" Even Dorian's silent dissent is absorbed: \"You need not shake your head: you know you are.\" The teacher claims to know the pupil's mind better than the pupil does. His doctrine, that \"Life is not governed by will or intention\" but by \"nerves, and fibres, and slowly built-up cells,\" denies Dorian the very agency his renunciation would require. The long catalogue of colour, perfume, poem and cadence enacts what it describes, a lulling sensory cadence that overrides argument. The final praise, \"Life has been your art. You have set yourself to music,\" makes Dorian both artwork and self-made artist. Yet the novel knows who composed this \"type\": Henry's influence is the authorship that dare not sign itself, and the portrait upstairs is the thing \"produced... outside of yourself\" that Henry cannot see. One might counter-read Henry's wistful \"I wish I could change places with you\" as the maker envying, even fearing, what he has made.",
+   "quotations": [
+    {
+     "q": "I am not the same, Harry.",
+     "found": true
+    },
+    {
+     "q": "Yes, you are the same.",
+     "found": true
+    },
+    {
+     "q": "Don't spoil it by renunciations.",
+     "found": true
+    },
+    {
+     "q": "Don't make yourself incomplete.",
+     "found": true
+    },
+    {
+     "q": "don't deceive yourself",
+     "found": true
+    },
+    {
+     "q": "a perfect type",
+     "found": true
+    },
+    {
+     "q": "quite flawless",
+     "found": true
+    },
+    {
+     "q": "You need not shake your head: you know you are.",
+     "found": true
+    },
+    {
+     "q": "Life is not governed by will or intention.",
+     "found": true
+    },
+    {
+     "q": "nerves, and fibres, and slowly built-up cells",
+     "found": true
+    },
+    {
+     "q": "Life has been your art. You have set yourself to music.",
+     "found": true
+    },
+    {
+     "q": "produced anything outside of yourself",
+     "found": true
+    },
+    {
+     "q": "I wish I could change places with you",
+     "found": true
+    }
+   ],
+   "question": "Does Lord Henry's materialist claim that life depends on \"nerves\" and chance sensations rather than will disclaim his own responsibility as Dorian's shaper, and if so, is his theory of influence finally a theory that erases the influencer?"
+  },
+  {
+   "id": "phaedrus-0003",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Narrating the Pupil to Himself",
+   "reading": "Phaedrus pleads an \"unpractised memory,\" and Socrates answers not by arguing but by telling Phaedrus's own morning back to him in the third person. The instruction here is narrative: \"I believe that I know Phaedrus about as well as I know myself\" claims an authority that is almost authorial, as though Socrates had composed the character he addresses. The story he tells is itself a scene of instruction in miniature. Lysias repeats the speech \"not once only, but again and again,\" and is \"very willing to gratify him\"; the pupil then turns from voice to \"the book,\" and finally has \"learned by heart the entire discourse.\" The walk outside the wall is rehearsal, undertaken \"that he might practise his lesson.\" Learning, so described, is erotic and mechanical at once: repetition, gratification, possession of a text. Socrates casts himself not as master but as fellow addict, \"a certain lover of discourse who had a similar weakness,\" and ventriloquizes Phaedrus's delight: \"I shall have a partner in my revels.\" Phaedrus's coy \"No I cannot\" is exposed as performance. The closing imperative, \"bid him do at once what he will soon do whether bidden or not,\" is oddly addressed to Phaedrus about Phaedrus, splitting him into speaker and spoken-of. Socrates shapes him by showing him a script he is already following. One might read this as flattery rather than teaching; yet flattery that predicts behaviour also produces it.",
+   "quotations": [
+    {
+     "q": "unpractised memory",
+     "found": true
+    },
+    {
+     "q": "I believe that I know Phaedrus about as well as I know myself",
+     "found": true
+    },
+    {
+     "q": "not once only, but again and again",
+     "found": true
+    },
+    {
+     "q": "very willing to gratify him",
+     "found": true
+    },
+    {
+     "q": "the book",
+     "found": true
+    },
+    {
+     "q": "learned by heart the entire discourse",
+     "found": true
+    },
+    {
+     "q": "that he might practise his lesson",
+     "found": true
+    },
+    {
+     "q": "a certain lover of discourse who had a similar weakness",
+     "found": true
+    },
+    {
+     "q": "I shall have a partner in my revels.",
+     "found": true
+    },
+    {
+     "q": "No I cannot",
+     "found": true
+    },
+    {
+     "q": "bid him do at once what he will soon do whether bidden or not",
+     "found": true
+    }
+   ],
+   "question": "Does Socrates's third-person narration of Phaedrus anticipate the dialogue's later critique of writing—treating the pupil as a text that can be read and recited—or does it model a living, dialogic knowledge of another soul that the memorized book cannot provide?"
+  },
+  {
+   "id": "phaedrus-0025",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Anti-Instruction: The Lover Who Implants Defects",
+   "reading": "This passage describes a scene of instruction turned upside down: a teacher whose pedagogy aims at diminishment. The lover \"will not brook any superiority or equality\"; he is \"always employed in reducing him to inferiority.\" The verb \"employed\" makes degradation a labour, a craft. Most striking is the horticultural language of making: defects \"implanted by nature\" please him, and where nature has failed, \"he must contrive to implant them in him.\" The lover becomes a second maker who corrects nature downward, authoring the beloved as an image fitted \"to himself.\" His curriculum is subtraction: he will \"debar his beloved from the advantages of society which would make a man of him.\" Being made into \"a man\" requires other voices, and the lover's monopoly on influence unmakes. The goal is total dependence: the beloved \"shall be wholly ignorant, and in everything shall look to him.\" The list of inferiorities includes \"the slow of speech of the speaker,\" so speech itself, what might make the beloved fully human, is withheld. The closing \"Verily, a lover is a profitable guardian\" is plainly ironic. Yet the frame complicates the ironic voice: Socrates speaks a speech he will soon recant, posing as a concealed lover persuading \"my youth,\" while Phaedrus listens \"in silence.\" The speech that condemns manipulative instruction is itself a seduction, and Socrates later calls it blasphemous. Whether we hear Socratic teaching or its parody remains unsettled.",
+   "quotations": [
+    {
+     "q": "will not brook any superiority or equality",
+     "found": true
+    },
+    {
+     "q": "always employed in reducing him to inferiority",
+     "found": true
+    },
+    {
+     "q": "implanted by nature",
+     "found": true
+    },
+    {
+     "q": "he must contrive to implant them in him",
+     "found": true
+    },
+    {
+     "q": "to himself",
+     "found": true
+    },
+    {
+     "q": "debar his beloved from the advantages of society which would make a man of him",
+     "found": true
+    },
+    {
+     "q": "shall be wholly ignorant, and in everything shall look to him",
+     "found": true
+    },
+    {
+     "q": "the slow of speech of the speaker",
+     "found": true
+    },
+    {
+     "q": "Verily, a lover is a profitable guardian",
+     "found": true
+    }
+   ],
+   "question": "If the non-lover's speech accuses the lover of shaping the beloved to make him look wholly to the lover, does Socratic philosophy, which also asks the youth to submit to a guiding voice, escape the charge, or does the palinode merely redescribe the same dependence as divine?"
+  },
+  {
+   "id": "phaedrus-0055",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Pouring One's Own Fountain: Teaching as Likeness",
+   "reading": "In Socrates' palinode, instruction begins not with speech but with desire: Zeus's followers \"desire that their beloved should have a soul like him.\" Yet the shaping is curiously hedged. They \"seek out\" a nature already \"philosophical and imperial,\" and they \"confirm such a nature in him.\" To confirm is less to make than to ratify, so the maker here is partly a recognizer. The teacher is also a pupil. Lacking experience, \"they learn of any one who can teach them, and themselves follow in the same way,\" so the lover's education runs alongside the beloved's. The lover's own formation comes through looking: \"compelled to gaze intensely,\" his \"recollection clings to him,\" and he becomes \"possessed of him.\" The pronoun \"him\" slides between god and beloved, and the syntax blurs the very figures the lover is meant to bring into alignment. The limit \"so far as man can participate in God\" marks imitation as necessarily partial. The darker note is projection: \"The qualities of their god they attribute to the beloved, wherefore they love him all the more.\" The beloved is loved for qualities that are partly assigned to him. Finally, inspiration drawn \"from Zeus\" becomes \"their own fountain,\" which they \"pour out\" upon the beloved. Influence here works as a kind of authorship whose source is uncertain. It may be divine or the lover's own, and it may be a gift or an imposition.",
+   "quotations": [
+    {
+     "q": "desire that their beloved should have a soul like him",
+     "found": true
+    },
+    {
+     "q": "seek out",
+     "found": true
+    },
+    {
+     "q": "philosophical and imperial",
+     "found": true
+    },
+    {
+     "q": "confirm such a nature in him",
+     "found": true
+    },
+    {
+     "q": "they learn of any one who can teach them, and themselves follow in the same way",
+     "found": true
+    },
+    {
+     "q": "compelled to gaze intensely",
+     "found": true
+    },
+    {
+     "q": "recollection clings to him",
+     "found": true
+    },
+    {
+     "q": "possessed of him",
+     "found": true
+    },
+    {
+     "q": "so far as man can participate in God",
+     "found": true
+    },
+    {
+     "q": "The qualities of their god they attribute to the beloved, wherefore they love him all the more",
+     "found": true
+    },
+    {
+     "q": "from Zeus",
+     "found": true
+    },
+    {
+     "q": "their own fountain",
+     "found": true
+    },
+    {
+     "q": "pour out",
+     "found": true
+    }
+   ],
+   "question": "If the lover attributes divine qualities to the beloved and then labors to make him match them, is this education a discovery of the beloved's nature or the lover's fabrication of an image, and does Plato's language of recollection let us tell the difference?"
+  },
+  {
+   "id": "phaedrus-0060",
+   "model": "anthropic/claude-opus-5.5",
+   "heading": "Taming the Tongue, Leading the Beloved",
+   "reading": "The passage stages two lessons, one violent and one gentle, and asks us to see them as continuous. The first is pure discipline: the charioteer \"drags the bit out of the teeth of the wild steed\" and \"covers his abusive tongue and jaws with blood.\" The punishment falls on the organ of speech. The dark horse has just been haranguing his fellows with reproaches, and training begins by bloodying the tongue that argued. Learning here comes through repetition, \"when this has happened several times,\" until the pupil \"is tamed and humbled, and follows the will of the charioteer.\" What the horse learns is not a proposition but a reflex: he is \"ready to die of fear.\" That terror is then renamed, at the level of the whole soul, as \"modesty and holy fear,\" so that coercion becomes piety. The second lesson inverts the hierarchy. The beloved, served \"like a god,\" is taught by service rather than force, and must unlearn a rival instruction, the companions who \"slanderously told him that he would be disgraced.\" Yet the grammar withholds the teacher: he \"is led to receive him into communion,\" led by time, fate, or the lover. His learning arrives as astonishment. He \"is quite amazed at the good-will of the lover,\" and \"he recognises\" its worth. Recognition suggests a recollected truth rather than one imposed, though the bloodied tongue makes that claim uneasy.",
+   "quotations": [
+    {
+     "q": "drags the bit out of the teeth of the wild steed",
+     "found": true
+    },
+    {
+     "q": "covers his abusive tongue and jaws with blood",
+     "found": true
+    },
+    {
+     "q": "when this has happened several times",
+     "found": true
+    },
+    {
+     "q": "is tamed and humbled, and follows the will of the charioteer",
+     "found": true
+    },
+    {
+     "q": "ready to die of fear",
+     "found": true
+    },
+    {
+     "q": "modesty and holy fear",
+     "found": true
+    },
+    {
+     "q": "like a god",
+     "found": true
+    },
+    {
+     "q": "slanderously told him that he would be disgraced",
+     "found": true
+    },
+    {
+     "q": "is led to receive him into communion",
+     "found": true
+    },
+    {
+     "q": "is quite amazed at the good-will of the lover",
+     "found": true
+    },
+    {
+     "q": "he recognises",
+     "found": true
+    }
+   ],
+   "question": "Does the beloved's free \"recognition\" depend on the lover's prior self-taming through pain, so that the gentle education of the beloved is secretly authored by the violent education of the lover's own soul? And if so, is Socratic persuasion here modeled on silencing rather than on dialogue?"
+  }
+ ]
+}

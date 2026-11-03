@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c069-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5210,
+  "completion_tokens": 1461,
+  "total_tokens": 6671,
+  "cost": 0.0012515,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012515,
+   "upstream_inference_prompt_cost": 0.000521,
+   "upstream_inference_completions_cost": 0.0007305
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1100,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The Marshalsea walls, during a portion of every day, again embraced her in their shadows as their child",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "At Paris Mr Meagles found a letter from Little Dorrit, lying waiting for him",
+   "note": "Also alluded to as the Parisian market in the Mrs Merdle cap passage."
+  },
+  {
+   "as_written": "Calais",
+   "normalized": "Calais, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "that he had been known to Miss Wade, then living in such a street at Calais",
+   "note": "Miss Wade's lodgings are in Calais; the scene at her door is set there."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "would not come over to England",
+   "note": ""
+  }
+ ]
+}

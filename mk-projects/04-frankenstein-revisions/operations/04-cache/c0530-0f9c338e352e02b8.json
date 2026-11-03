@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1640,
+  "completion_tokens": 84,
+  "total_tokens": 1724,
+  "cost": 0.000206,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000206,
+   "upstream_inference_prompt_cost": 0.000164,
+   "upstream_inference_completions_cost": 0.000042
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0530. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Urged by this view, I refused, and I did right in refusing, to create a companion for the first creature.\n\n1818 text: He shewed unparalleled malignity and selfishness, in evil: he destroyed my friends; he devoted to destruction beings who possessed exquisite sensations, happiness, and wisdom; nor do I know where this thirst for vengeance may end.\n\n1831 text: He showed unparalleled malignity and selfishness, in evil: he destroyed my friends; he devoted to destruction beings who possessed exquisite sensations, happiness, and wisdom; nor do I know where this thirst for vengeance may end.\n\nDiff: He [-shewed-] {+showed+} unparalleled malignity and selfishness, in evil: he destroyed my friends; he devoted to destruction beings who possessed exquisite sensations, happiness, and wisdom; nor do I know where this thirst for vengeance may end.\n\nContext after (unchanged): Miserable himself, that he may render no other wretched, he ought to die."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only change is orthographic: 'shewed' becomes 'showed' with identical wording and meaning. No interpretive consequence for the passage.",
+  "confidence": "high",
+  "rationaleWords": 18
+ }
+}

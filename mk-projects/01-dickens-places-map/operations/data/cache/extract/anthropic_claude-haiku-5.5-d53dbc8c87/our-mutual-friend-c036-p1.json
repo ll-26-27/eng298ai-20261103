@@ -1,0 +1,39 @@
+{
+ "chunk": "our-mutual-friend-c036-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5291,
+  "completion_tokens": 907,
+  "total_tokens": 6198,
+  "cost": 0.0009826,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009826,
+   "upstream_inference_prompt_cost": 0.0005291,
+   "upstream_inference_completions_cost": 0.0004535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 746,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Miss Abbey Potterson's",
+   "normalized": "Six Jolly Fellowship Porters inn, Limehouse Hole, Thames-side, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "you are at Miss Abbey Potterson's.",
+   "note": "Fictional inn; the passage names it only as Miss Abbey's house or 'the Porters'. Located on the Thames at Limehouse in the novel."
+  }
+ ]
+}

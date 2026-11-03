@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c017-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5253,
+  "completion_tokens": 1554,
+  "total_tokens": 6807,
+  "cost": 0.0013023,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013023,
+   "upstream_inference_prompt_cost": 0.0005253,
+   "upstream_inference_completions_cost": 0.000777
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1060,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Portland Place",
+   "normalized": "Portland Place, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mrs Tapkins at Home, Wednesdays, Music, Portland Place.",
+   "note": ""
+  },
+  {
+   "as_written": "the Peninsula",
+   "normalized": "Iberian Peninsula (Peninsular War)",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when their gallant fathers waged war in the Peninsula",
+   "note": "Refers to the Peninsular War, not a London place."
+  },
+  {
+   "as_written": "the West of England",
+   "normalized": "West of England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "an estimable lady in the West of England has offered to present a purse",
+   "note": ""
+  },
+  {
+   "as_written": "Dismal Swamp",
+   "normalized": "Dismal Swamp",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "In such a Dismal Swamp does the new house stand",
+   "note": "Figurative only; real Great Dismal Swamp is in Virginia/North Carolina and is not located in the novel."
+  },
+  {
+   "as_written": "the Bower",
+   "normalized": "The Bower (Boffin's old house), Holloway, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There are no fish of the shark tribe in the Bower waters?",
+   "note": "Proper name of the Boffins' old house; Holloway location from the novel, not stated in passage."
+  }
+ ]
+}

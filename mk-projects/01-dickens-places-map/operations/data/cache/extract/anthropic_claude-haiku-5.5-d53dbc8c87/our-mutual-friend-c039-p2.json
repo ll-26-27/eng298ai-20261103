@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c039-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5742,
+  "completion_tokens": 1049,
+  "total_tokens": 6791,
+  "cost": 0.0010987,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010987,
+   "upstream_inference_prompt_cost": 0.0005742,
+   "upstream_inference_completions_cost": 0.0005245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 652,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blewbury",
+   "normalized": "Blewbury, Berkshire (now Oxfordshire), England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the Reverend Mr Jones of Blewbury",
+   "note": "Village named in a list of book contents; Berkshire in Dickens's day."
+  },
+  {
+   "as_written": "Cambridge",
+   "normalized": "Cambridge, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there lived at Cambridge a miserly old couple of the name of Jardine",
+   "note": "Setting of the Jardine story read aloud."
+  },
+  {
+   "as_written": "Maryborough",
+   "normalized": "Portlaoise (Maryborough), County Laois, Ireland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "was tried at the last Maryborough assizes in Ireland",
+   "note": "Historical name of Portlaoise, from a newspaper case read aloud."
+  },
+  {
+   "as_written": "Ireland",
+   "normalized": "Ireland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "was tried at the last Maryborough assizes in Ireland",
+   "note": ""
+  }
+ ]
+}

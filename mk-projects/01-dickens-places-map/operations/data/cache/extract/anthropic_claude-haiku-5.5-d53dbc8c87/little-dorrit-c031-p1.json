@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c031-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4914,
+  "completion_tokens": 1446,
+  "total_tokens": 6360,
+  "cost": 0.0012144,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012144,
+   "upstream_inference_prompt_cost": 0.0004914,
+   "upstream_inference_completions_cost": 0.000723
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1023,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the metropolis",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in the thronged thoroughfares of the metropolis",
+   "note": "Generic reference to the city, identified as London."
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He passed along the streets as usual to Bleeding Heart Yard",
+   "note": "Fictional yard in Clerkenwell; home of the Plornishes."
+  },
+  {
+   "as_written": "the Marshalsea College",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "on the settlement of that execution which had carried Mr Plornish to the Marshalsea College",
+   "note": "Dickens's ironic name for the debtors' prison."
+  },
+  {
+   "as_written": "over the water",
+   "normalized": "River Thames, south bank (Southwark), London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Father was going over the water to pay his respects",
+   "note": "Inferred from context; ambiguous phrase, likely crossing the Thames to Southwark."
+  }
+ ]
+}

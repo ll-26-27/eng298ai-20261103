@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2502,
+  "completion_tokens": 507,
+  "total_tokens": 3009,
+  "cost": 0.0005037,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005037,
+   "upstream_inference_prompt_cost": 0.0002502,
+   "upstream_inference_completions_cost": 0.0002535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 371,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0423. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): (none)\n\n1818 text: We had resolved not to go to London, but to cross the country to Portsmouth, and thence to embark for Havre. I preferred this plan principally because I dreaded to see again those places in which I had enjoyed a few moments of tranquillity with my beloved Clerval. I thought with horror of seeing again those persons whom we had been accustomed to visit together, and who might make inquiries concerning an event, the very remembrance of which made me again feel the pang I endured when I gazed on his lifeless form in the inn at—. As for my father, his desires and exertions were bounded to the again seeing me restored to health and peace of mind. His tenderness and attentions were unremitting; my grief and gloom was obstinate, but he would not despair.\n\n1831 text: The voyage came to an end. We landed, and proceeded to Paris. I soon found that I had overtaxed my strength, and that I must repose before I could continue my journey. My father's care and attentions were indefatigable; but he did not know the origin of my sufferings, and sought erroneous methods to remedy the incurable ill. He wished me to seek amusement in society. I abhorred the face of man. Oh, not abhorred! they were my brethren, my fellow beings, and I felt attracted even to the most repulsive among them, as to creatures of an angelic nature and celestial mechanism. But I felt that I had no right to share their intercourse. I had unchained an enemy among them, whose joy it was to shed their blood, and to revel in their groans. How they would, each and all, abhor me, and hunt me from the world, did they know my unhallowed acts, and the crimes which had their source in me! My father yielded at length to my desire to avoid society, and strove by various arguments to banish my despair.\n\nDiff: [-We had resolved not to go to London, but to cross the country to Portsmouth, and thence to embark for Havre. I preferred this plan principally because I dreaded to see again those places in which I had enjoyed a few moments of tranquillity with my beloved Clerval. I thought with horror of seeing again those persons whom we had been accustomed to visit together, and who might make inquiries concerning an event, the very remembrance of which made me again feel the pang I endured when I gazed on his lifeless form in the inn at—. As for my father, his desires and exertions were bounded to the again seeing me restored to health and peace of mind. His tenderness and attentions were unremitting; my grief and gloom was obstinate, but he would not despair.-] {+The voyage came to an end. We landed, and proceeded to Paris. I soon found that I had overtaxed my strength, and that I must repose before I could continue my journey. My father's care and attentions were indefatigable; but he did not know the origin of my sufferings, and sought erroneous methods to remedy the incurable ill. He wished me to seek amusement in society. I abhorred the face of man. Oh, not abhorred! they were my brethren, my fellow beings, and I felt attracted even to the most repulsive among them, as to creatures of an angelic nature and celestial mechanism. But I felt that I had no right to share their intercourse. I had unchained an enemy among them, whose joy it was to shed their blood, and to revel in their groans. How they would, each and all, abhor me, and hunt me from the world, did they know my unhallowed acts, and the crimes which had their source in me! My father yielded at length to my desire to avoid society, and strove by various arguments to banish my despair.+}\n\nContext after (unchanged): Sometimes he thought that I felt deeply the degradation of being obliged to answer a charge of murder, and he endeavoured to prove to me the futility of pride."
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "plot",
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "Wholesale replacement: 1818 route plan (Portsmouth, Havre) becomes a voyage to Paris, while 1831 adds self-condemnation: \"unhallowed acts, and the crimes which had their source in me.\" Guilt is the main new content.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

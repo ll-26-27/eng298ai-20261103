@@ -1,0 +1,37 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "tusculum",
+   "lat": 41.7961,
+   "lon": 12.7256,
+   "confidence": "medium",
+   "now": "ruins of ancient Tusculum on the Alban Hills above Frascati, Lazio, Italy",
+   "reason": "Tusculum was Cicero's villa town near Frascati; in Dombey and Son the name is used jocularly for a retirement home, so the novel's allusion is figurative, but the named place is the real ancient town."
+  },
+  {
+   "place_id": "windsor",
+   "lat": 51.4814,
+   "lon": -0.6044,
+   "confidence": "high",
+   "now": "Windsor, Royal Borough of Windsor and Maidenhead, with Windsor Castle",
+   "reason": "Windsor is the well-known Berkshire town on the Thames; the gazetteer's county-level match was too broad, but the town centre is well documented."
+  },
+  {
+   "place_id": "wooden midshipman",
+   "lat": 51.5123,
+   "lon": -0.0865,
+   "confidence": "low",
+   "now": "fictional shop; no surviving building, the City area near Leadenhall Street and Cornhill is only the approximate setting",
+   "reason": "Solomon Gills's nautical instrument shop is fictional and placed in the City near the Docks and Dombey's office, so the coordinates are only an educated guess for the area."
+  },
+  {
+   "place_id": "yarmouth roads",
+   "lat": 52.6,
+   "lon": 1.8,
+   "confidence": "medium",
+   "now": "Yarmouth Roads, the sheltered anchorage in the North Sea off Great Yarmouth, Norfolk",
+   "reason": "The Roads is the historic anchorage lying offshore between the Norfolk coast and the Scroby and other sandbanks, so the point is approximate."
+  }
+ ]
+}

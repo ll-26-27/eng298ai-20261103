@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c065-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5170,
+  "completion_tokens": 722,
+  "total_tokens": 5892,
+  "cost": 0.000878,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000878,
+   "upstream_inference_prompt_cost": 0.000517,
+   "upstream_inference_completions_cost": 0.000361
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 429,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Plashwater Weir Mill Lock",
+   "normalized": "Plashwater Weir Mill Lock (fictional lock on the Thames)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "set out on foot for Plashwater Weir Mill Lock",
+   "note": "Fictional lock; location not identifiable, though implicitly upriver of London."
+  },
+  {
+   "as_written": "Lock House",
+   "normalized": "Lock House, Plashwater Weir Mill Lock",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "until he saw a light ahead, which he knew gleamed from the Lock House window",
+   "note": "Fictional house at the lock."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "had traversed a greater part of London from east to west",
+   "note": ""
+  }
+ ]
+}

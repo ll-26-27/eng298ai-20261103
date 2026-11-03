@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1701,
+  "completion_tokens": 111,
+  "total_tokens": 1812,
+  "cost": 0.004512,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004512,
+   "upstream_inference_prompt_cost": 0.003402,
+   "upstream_inference_completions_cost": 0.00111
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0367. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): Sometimes I could not prevail on myself to enter my laboratory for several days; and at other times I toiled day and night in order to complete my work.\n\n1818 text: It was indeed a filthy process in which I was engaged. During my first experiment, a kind of enthusiastic frenzy had blinded me to the horror of my employment; my mind was intently fixed on the sequel of my labour, and my eyes were shut to the horror of my proceedings.\n\n1831 text: It was, indeed, a filthy process in which I was engaged. During my first experiment, a kind of enthusiastic frenzy had blinded me to the horror of my employment; my mind was intently fixed on the consummation of my labour, and my eyes were shut to the horror of my proceedings.\n\nDiff: It was {+,+} indeed {+,+} a filthy process in which I was engaged. During my first experiment, a kind of enthusiastic frenzy had blinded me to the horror of my employment; my mind was intently fixed on the [-sequel-] {+consummation+} of my labour, and my eyes were shut to the horror of my proceedings.\n\nContext after (unchanged): But now I went to it in cold blood, and my heart often sickened at the work of my hands."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Commas around \"indeed\" and the swap of \"sequel\" for \"consummation\" are stylistic diction changes; the meaning stays the same, with a slightly more elevated, climactic tone for the goal of his labour.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

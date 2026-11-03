@@ -1,0 +1,111 @@
+{
+ "chunk": "bleak-house-c004-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5291,
+  "completion_tokens": 2206,
+  "total_tokens": 7497,
+  "cost": 0.0016321,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016321,
+   "upstream_inference_prompt_cost": 0.0005291,
+   "upstream_inference_completions_cost": 0.001103
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1460,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "devoted to the subject of Africa",
+   "note": "Continent; the African project is central to Mrs. Jellyby's activities."
+  },
+  {
+   "as_written": "the Niger",
+   "normalized": "Niger River, West Africa",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "on the left bank of the Niger.",
+   "note": ""
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "educating the natives of Borrioboola-Gha, on the left bank of the Niger.",
+   "note": "Fictional African settlement in the novel."
+  },
+  {
+   "as_written": "Thavies Inn",
+   "normalized": "Thavies Inn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "round in Thavies Inn, you know.",
+   "note": "Mrs. Jellyby's house is round here; the party is taken there."
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "We just twist up Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Holborn",
+   "normalized": "High Holborn, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and cut along Holborn",
+   "note": "Also referred to in Mrs. Jellyby's remark about being run over in Holborn."
+  },
+  {
+   "as_written": "Winchester",
+   "normalized": "Winchester, Hampshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I come from Winchester and am strange in London.",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the strangeness of London",
+   "note": ""
+  },
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the road to Bleak House would have been very long, dark, and tedious",
+   "note": "Fictional house; location not stated in passage, though it lies outside town."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "chunk": "our-mutual-friend-c057-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2583,
+  "completion_tokens": 499,
+  "total_tokens": 3082,
+  "cost": 0.0005078,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005078,
+   "upstream_inference_prompt_cost": 0.0002583,
+   "upstream_inference_completions_cost": 0.0002495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 345,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Plashwater Weir Mill Lock-house",
+   "normalized": "Plashwater Weir Mill Lock-house (fictional lock-house on the Thames)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "had carried his fish home to Plashwater Weir Mill Lock-house, in a bundle.",
+   "note": "Fictional place in the novel; location relative to London not stated in the passage."
+  }
+ ]
+}

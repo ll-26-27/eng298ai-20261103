@@ -1,0 +1,57 @@
+{
+ "chunk": "david-copperfield-c021-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5149,
+  "completion_tokens": 929,
+  "total_tokens": 6078,
+  "cost": 0.0009794,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009794,
+   "upstream_inference_prompt_cost": 0.0005149,
+   "upstream_inference_completions_cost": 0.0004645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 593,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth Roads",
+   "normalized": "Yarmouth Roads, Great Yarmouth, Norfolk",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "if I was capsized, any night, in a gale of wind in Yarmouth Roads here",
+   "note": "Peggotty's hypothetical; the wider scene is set in Yarmouth."
+  },
+  {
+   "as_written": "Salem House",
+   "normalized": "Salem House, Blackheath (fictional school)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "he referred to me about the time when he had seen Mr. Peggotty at Salem House",
+   "note": "Fictional school in the novel; its location is not stated in this passage."
+  },
+  {
+   "as_written": "the Indies",
+   "normalized": "East and West Indies",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "for the wealth of the Indies!",
+   "note": "Used as a figure of speech; no specific place."
+  }
+ ]
+}

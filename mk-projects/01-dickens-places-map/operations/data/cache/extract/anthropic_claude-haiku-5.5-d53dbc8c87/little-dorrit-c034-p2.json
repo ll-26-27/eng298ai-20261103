@@ -1,0 +1,111 @@
+{
+ "chunk": "little-dorrit-c034-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4942,
+  "completion_tokens": 2138,
+  "total_tokens": 7080,
+  "cost": 0.0015632,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015632,
+   "upstream_inference_prompt_cost": 0.0004942,
+   "upstream_inference_completions_cost": 0.001069
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1279,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mews Street, Grosvenor Square",
+   "normalized": "Mews Street, Grosvenor Square, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There was Mr Tite Barnacle, from the Circumlocution Office, and Mews Street, Grosvenor Square",
+   "note": "Barnacle family address; check whether Mews Street is a real street"
+  },
+  {
+   "as_written": "Grosvenor Square",
+   "normalized": "Grosvenor Square, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and Mews Street, Grosvenor Square, with the expensive Mrs Tite Barnacle",
+   "note": ""
+  },
+  {
+   "as_written": "the Nile",
+   "normalized": "Nile River",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as they would have ‘done’ the Nile, Old Rome, the new singer, or Jerusalem",
+   "note": "Tourist sights used as comparison"
+  },
+  {
+   "as_written": "Old Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as they would have ‘done’ the Nile, Old Rome, the new singer, or Jerusalem",
+   "note": "Ancient city used as comparison"
+  },
+  {
+   "as_written": "Jerusalem",
+   "normalized": "Jerusalem",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as they would have ‘done’ the Nile, Old Rome, the new singer, or Jerusalem",
+   "note": "Comparison"
+  },
+  {
+   "as_written": "the Bank",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "prevented no end of gold from flying out of the Bank",
+   "note": ""
+  },
+  {
+   "as_written": "a governor-general of India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to a governor-general of India",
+   "note": "Colonial post, not a specific location"
+  },
+  {
+   "as_written": "the Twickenham cottage",
+   "normalized": "Twickenham, Middlesex",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "But the sprinkling was a swarm in the Twickenham cottage, and filled it.",
+   "note": "Wedding and breakfast take place here; Twickenham was outside London"
+  },
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and they were away for Dover",
+   "note": "Destination of the couple's journey"
+  }
+ ]
+}

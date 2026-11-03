@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c036-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5507,
+  "completion_tokens": 1277,
+  "total_tokens": 6784,
+  "cost": 0.0011892,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011892,
+   "upstream_inference_prompt_cost": 0.0005507,
+   "upstream_inference_completions_cost": 0.0006385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 792,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Inner Temple",
+   "normalized": "Inner Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "By the kindness of T. Traddles, Esquire, of the Inner Temple.",
+   "note": "Inn of Court; cited only as Traddles's address on the letter"
+  },
+  {
+   "as_written": "modern Babylon",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "In bidding adieu to the modern Babylon, where we have undergone many vicissitudes",
+   "note": "Figurative name for London"
+  },
+  {
+   "as_written": "China to Peru",
+   "normalized": "China and Peru",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "shall I say from China to Peru?",
+   "note": "Hyperbolic figure of speech for wide reputation"
+  },
+  {
+   "as_written": "the Gray’s Inn Road",
+   "normalized": "Gray's Inn Road, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "situated near the top of the Gray’s Inn Road.",
+   "note": "Location of Micawber's lodging where the scene takes place"
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘To Canterbury. In fact, my dear Copperfield,",
+   "note": "Future destination of the Micawbers; the cathedral town"
+  }
+ ]
+}

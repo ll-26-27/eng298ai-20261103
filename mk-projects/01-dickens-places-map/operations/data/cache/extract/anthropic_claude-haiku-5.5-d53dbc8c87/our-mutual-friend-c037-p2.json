@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c037-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5455,
+  "completion_tokens": 576,
+  "total_tokens": 6031,
+  "cost": 0.0008335,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008335,
+   "upstream_inference_prompt_cost": 0.0005455,
+   "upstream_inference_completions_cost": 0.000288
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 348,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Greenwich",
+   "normalized": "Greenwich, London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "how he supposed they cooked fowls at the Greenwich dinners",
+   "note": "Likely refers to the Greenwich Hospital dinners; the district is in London as it was in Dickens's day."
+  },
+  {
+   "as_written": "Prussia",
+   "normalized": "Prussia",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "if so, it was equally the weakness, I believe, of King Frederick of Prussia",
+   "note": "Historical kingdom, not modern Germany; Prussia is named only in a comparison."
+  }
+ ]
+}

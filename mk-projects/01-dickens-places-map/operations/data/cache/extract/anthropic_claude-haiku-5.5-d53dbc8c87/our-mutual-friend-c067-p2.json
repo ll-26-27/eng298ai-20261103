@@ -1,0 +1,75 @@
+{
+ "chunk": "our-mutual-friend-c067-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3152,
+  "completion_tokens": 1579,
+  "total_tokens": 4731,
+  "cost": 0.0011047,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011047,
+   "upstream_inference_prompt_cost": 0.0003152,
+   "upstream_inference_completions_cost": 0.0007895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1089,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple (Inner and Middle Temple), London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "fares to the Temple, gaily.",
+   "note": "Inn of Court; Mortimer's destination at the end of the passage."
+  },
+  {
+   "as_written": "Harmony Jail",
+   "normalized": "Harmony Jail",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the elder Mr Harmon of Harmony Jail.",
+   "note": "Fictional name for the Harmon house in the novel; location not determinable."
+  },
+  {
+   "as_written": "the Prerogative Office",
+   "normalized": "Prerogative Court of Canterbury (Somerset House), London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the stores of the Prerogative Office teem with instances",
+   "note": "Used as a repository for wills; treated as a building, may be read as an institution."
+  },
+  {
+   "as_written": "Coketown",
+   "normalized": "Coketown",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "leaving the Coketown ‘hands’ exactly as they were",
+   "note": "Dickens's fictional industrial town from Hard Times."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there has been in England, since the days of the STUARTS, no law so often infamously administered",
+   "note": ""
+  }
+ ]
+}

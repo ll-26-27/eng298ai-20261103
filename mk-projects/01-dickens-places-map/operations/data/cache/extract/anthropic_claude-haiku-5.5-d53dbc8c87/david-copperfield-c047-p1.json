@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c047-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4819,
+  "completion_tokens": 1809,
+  "total_tokens": 6628,
+  "cost": 0.0013864,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013864,
+   "upstream_inference_prompt_cost": 0.0004819,
+   "upstream_inference_completions_cost": 0.0009045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1367,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Westminster",
+   "normalized": "Westminster, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We were now down in Westminster.",
+   "note": ""
+  },
+  {
+   "as_written": "Westminster Abbey",
+   "normalized": "Westminster Abbey, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Westminster Abbey was the point at which she passed from the lights and noise of the leading streets.",
+   "note": ""
+  },
+  {
+   "as_written": "the bridge",
+   "normalized": "Westminster Bridge, London",
+   "type": "bridge",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the two currents of passengers setting towards and from the bridge",
+   "note": "Not named in text; identification inferred from the Westminster setting."
+  },
+  {
+   "as_written": "Millbank",
+   "normalized": "Millbank, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "we were in the narrow water-side street by Millbank before we came up with her.",
+   "note": ""
+  },
+  {
+   "as_written": "the great blank Prison",
+   "normalized": "Millbank Penitentiary, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "There were neither wharves nor houses on the melancholy waste of road near the great blank Prison.",
+   "note": "Not named in text; identification inferred from the Millbank setting."
+  }
+ ]
+}

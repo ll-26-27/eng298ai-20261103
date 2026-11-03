@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1813,
+  "completion_tokens": 104,
+  "total_tokens": 1917,
+  "cost": 0.0002333,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002333,
+   "upstream_inference_prompt_cost": 0.0001813,
+   "upstream_inference_completions_cost": 0.000052
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0480. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): It rung on my ears long and heavily; the mountains re-echoed it, and I felt as if all hell surrounded me with mockery and laughter.\n\n1818 text: Surely in that moment I should have been possessed by phrenzy, and have destroyed my miserable existence, but that my vow was heard, and that I was reserved for vengeance. The laughter died away: when a well-known and abhorred voice, apparently close to my ear, addressed me in an audible whisper—\"I am satisfied: miserable wretch! you have determined to live, and I am satisfied.\"\n\n1831 text: Surely in that moment I should have been possessed by frenzy, and have destroyed my miserable existence, but that my vow was heard, and that I was reserved for vengeance. The laughter died away; when a well-known and abhorred voice, apparently close to my ear, addressed me in an audible whisper—\"I am satisfied: miserable wretch! you have determined to live, and I am satisfied.\"\n\nDiff: Surely in that moment I should have been possessed by [-phrenzy-] {+frenzy+} , and have destroyed my miserable existence, but that my vow was heard, and that I was reserved for vengeance. The laughter died away [-:-] {+;+} when a well-known and abhorred voice, apparently close to my ear, addressed me in an audible whisper—\" I am satisfied: miserable wretch! you have determined to live, and I am satisfied. \"\n\nContext after (unchanged): I darted towards the spot from which the sound proceeded; but the devil eluded my grasp."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "other"
+  ],
+  "significance": 1,
+  "rationale": "Main change is orthographic: 'phrenzy' becomes 'frenzy'. The colon-to-semicolon swap after 'died away' is punctuation only, with no change in wording or meaning.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

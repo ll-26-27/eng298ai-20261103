@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c040-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4715,
+  "completion_tokens": 1566,
+  "total_tokens": 6281,
+  "cost": 0.0012545,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012545,
+   "upstream_inference_prompt_cost": 0.0004715,
+   "upstream_inference_completions_cost": 0.000783
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1115,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, Strand, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "We had a very serious conversation in Buckingham Street that night",
+   "note": ""
+  },
+  {
+   "as_written": "St. Martin’s Lane",
+   "normalized": "St Martin's Lane, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "was through St. Martin’s Lane.",
+   "note": ""
+  },
+  {
+   "as_written": "Strand",
+   "normalized": "Strand, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the lane winding down to the Strand.",
+   "note": ""
+  },
+  {
+   "as_written": "Golden Cross",
+   "normalized": "Golden Cross inn, Charing Cross, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the stable-yard of the Golden Cross",
+   "note": "Coaching inn; the stable-yard is where they go"
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Yarmouth way",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I went across-channel to France, and landed theer",
+   "note": ""
+  }
+ ]
+}

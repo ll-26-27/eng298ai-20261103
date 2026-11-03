@@ -1,0 +1,43 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3339,
+  "completion_tokens": 169,
+  "total_tokens": 3508,
+  "cost": 0.0004184,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004184,
+   "upstream_inference_prompt_cost": 0.0003339,
+   "upstream_inference_completions_cost": 0.0000845
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0344. Location: 1818 Vol. III, Ch. I; 1831 Ch. XVIII.\n\nContext before (unchanged): These feelings dictated my answer to my father.\n\n1818 text: I expressed a wish to visit England; but, concealing the true reasons of this request, I clothed my desires under the guise of wishing to travel and see the world before I sat down for life within the walls of my native town. I urged my entreaty with earnestness, and my father was easily induced to comply; for a more indulgent and less dictatorial parent did not exist upon earth. Our plan was soon arranged. I should travel to Strasburgh, where Clerval would join me. Some short time would be spent in the towns of Holland, and our principal stay would be in England. We should return by France; and it was agreed that the tour should occupy the space of two years. My father pleased himself with the reflection, that my union with Elizabeth should take place immediately on my return to Geneva. \"These two years,\" said he, \"will pass swiftly, and it will be the last delay that will oppose itself to your happiness. And, indeed, I earnestly desire that period to arrive, when we shall all be united, and neither hopes or fears arise to disturb our domestic calm.\" \"I am content,\" I replied, \"with your arrangement. By that time we shall both have become wiser, and I hope happier, than we at present are.\" I sighed; but my father kindly forbore to question me further concerning the cause of my dejection. He hoped that new scenes, and the amusement of travelling, would restore my tranquillity.\n\n1831 text: I expressed a wish to visit England; but, concealing the true reasons of this request, I clothed my desires under a guise which excited no suspicion, while I urged my desire with an earnestness that easily induced my father to comply. After so long a period of an absorbing melancholy, that resembled madness in its intensity and effects, he was glad to find that I was capable of taking pleasure in the idea of such a journey, and he hoped that change of scene and varied amusement would, before my return, have restored me entirely to myself. The duration of my absence was left to my own choice; a few months, or at most a year, was the period contemplated. One paternal kind precaution he had taken to ensure my having a companion. Without previously communicating with me, he had, in concert with Elizabeth, arranged that Clerval should join me at Strasburgh. This interfered with the solitude I coveted for the prosecution of my task; yet at the commencement of my journey the presence of my friend could in no way be an impediment, and truly I rejoiced that thus I should be saved many hours of lonely, maddening reflection. Nay, Henry might stand between me and the intrusion of my foe. If I were alone, would he not at times force his abhorred presence on me, to remind me of my task, or to contemplate its progress? To England, therefore, I was bound, and it was understood that my union with Elizabeth should take place immediately on my return. My father's age rendered him extremely averse to delay. For myself, there was one reward I promised myself from my detested toils—one consolation for my unparalleled sufferings; it was the prospect of that day when, enfranchised from my miserable slavery, I might claim Elizabeth, and forget the past in my union with her.\n\nDiff: [-I expressed a wish to visit England; but, concealing the true reasons of this request, I clothed my desires under the guise of wishing to travel and see the world before I sat down for life within the walls of my native town. I urged my entreaty with earnestness, and my father was easily induced to comply; for a more indulgent and less dictatorial parent did not exist upon earth. Our plan was soon arranged. I should travel to Strasburgh, where Clerval would join me. Some short time would be spent in the towns of Holland, and our principal stay would be in England. We should return by France; and it was agreed that the tour should occupy the space of two years. My father pleased himself with the reflection, that my union with Elizabeth should take place immediately on my return to Geneva. \"These two years,\" said he, \"will pass swiftly, and it will be the last delay that will oppose itself to your happiness. And, indeed, I earnestly desire that period to arrive, when we shall all be united, and neither hopes or fears arise to disturb our domestic calm.\" \"I am content,\" I replied, \"with your arrangement. By that time we shall both have become wiser, and I hope happier, than we at present are.\" I sighed; but my father kindly forbore to question me further concerning the cause of my dejection. He hoped that new scenes, and the amusement of travelling, would restore my tranquillity.-] {+I expressed a wish to visit England; but, concealing the true reasons of this request, I clothed my desires under a guise which excited no suspicion, while I urged my desire with an earnestness that easily induced my father to comply. After so long a period of an absorbing melancholy, that resembled madness in its intensity and effects, he was glad to find that I was capable of taking pleasure in the idea of such a journey, and he hoped that change of scene and varied amusement would, before my return, have restored me entirely to myself. The duration of my absence was left to my own choice; a few months, or at most a year, was the period contemplated. One paternal kind precaution he had taken to ensure my having a companion. Without previously communicating with me, he had, in concert with Elizabeth, arranged that Clerval should join me at Strasburgh. This interfered with the solitude I coveted for the prosecution of my task; yet at the commencement of my journey the presence of my friend could in no way be an impediment, and truly I rejoiced that thus I should be saved many hours of lonely, maddening reflection. Nay, Henry might stand between me and the intrusion of my foe. If I were alone, would he not at times force his abhorred presence on me, to remind me of my task, or to contemplate its progress? To England, therefore, I was bound, and it was understood that my union with Elizabeth should take place immediately on my return. My father's age rendered him extremely averse to delay. For myself, there was one reward I promised myself from my detested toils—one consolation for my unparalleled sufferings; it was the prospect of that day when, enfranchised from my miserable slavery, I might claim Elizabeth, and forget the past in my union with her.+}\n\nContext after (unchanged): I now made arrangements for my journey; but one feeling haunted me, which filled me with fear and agitation."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "plot",
+   "characterization",
+   "fate-agency"
+  ],
+  "significance": 5,
+  "rationale": "Wholesale rewrite: 1831 drops the 1818 travel itinerary and the father's pleasure speech, adds the father's prior arranging of Clerental's companionship, the narrator's 'absorbing melancholy' and foe-haunting, and the 'detested toils' and 'miserable slavery' framing, reshaping Victor's motives and agency.",
+  "confidence": "high",
+  "rationaleWords": 40
+ }
+}

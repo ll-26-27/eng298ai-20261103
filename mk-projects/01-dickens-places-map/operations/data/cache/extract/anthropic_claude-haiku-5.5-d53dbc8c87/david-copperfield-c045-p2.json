@@ -1,0 +1,48 @@
+{
+ "chunk": "david-copperfield-c045-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5261,
+  "completion_tokens": 765,
+  "total_tokens": 6026,
+  "cost": 0.0009086,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009086,
+   "upstream_inference_prompt_cost": 0.0005261,
+   "upstream_inference_completions_cost": 0.0003825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 482,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blunderstone, Suffolk (fictional village in David Copperfield)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the leaves smelt like our garden at Blunderstone as we trod them under foot",
+   "note": "Fictional village; Dickens's birthplace-inspired setting in Suffolk."
+  },
+  {
+   "as_written": "the Doctor’s cottage",
+   "normalized": "Doctor Strong's cottage (fictional house, Canterbury)",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "One fair evening, when Dora was not inclined to go out, my aunt and I strolled up to the Doctor’s cottage.",
+   "note": "Unnamed house identified only as the Doctor's cottage; location not given in passage."
+  }
+ ]
+}

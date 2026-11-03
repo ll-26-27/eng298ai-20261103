@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c013-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5194,
+  "completion_tokens": 322,
+  "total_tokens": 5516,
+  "cost": 0.0006804,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006804,
+   "upstream_inference_prompt_cost": 0.0005194,
+   "upstream_inference_completions_cost": 0.000161
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cosy",
+   "normalized": "Cosy (room in the Six Jolly Fellowship Porters inn), Limehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "that Cosy might be lighted in Cosy",
+   "note": "Fictional name for a room within the inn"
+  },
+  {
+   "as_written": "Six Jolly Fellowships",
+   "normalized": "Six Jolly Fellowship Porters, Limehouse, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "not the special causeway of the Six Jolly Fellowships, which had a landing-place of its own",
+   "note": "Fictional inn; Dickens's real-world model is in Limehouse"
+  },
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "Holborn Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "up Holborn Hill",
+   "note": "Not in this passage's text; omitted"
+  }
+ ]
+}

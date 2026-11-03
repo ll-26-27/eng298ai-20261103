@@ -1,0 +1,111 @@
+{
+ "chunk": "david-copperfield-c026-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4833,
+  "completion_tokens": 2623,
+  "total_tokens": 7456,
+  "cost": 0.0017948,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017948,
+   "upstream_inference_prompt_cost": 0.0004833,
+   "upstream_inference_completions_cost": 0.0013115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1866,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Buckingham Street",
+   "normalized": "Buckingham Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "if I could only have hung it up in my room in Buckingham Street",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "\"You have just come home from Paris,\" said I.",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I depreciated Paris; I depreciated France.",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I wouldn’t leave England, under existing circumstances, for any earthly consideration.",
+   "note": ""
+  },
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as we couldn’t be expected to know much about those matters in the Commons",
+   "note": "Short name for Doctors' Commons, where the Admiralty Court sat"
+  },
+  {
+   "as_written": "Norwood Road",
+   "normalized": "Norwood Road, Norwood, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "I was soon as well known on the Norwood Road",
+   "note": "Norwood was a Surrey village near London in Dickens's day; boundary unclear"
+  },
+  {
+   "as_written": "the Bazaar",
+   "normalized": "Soho Bazaar, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I haunted the Bazaar like an unquiet spirit",
+   "note": "Unnamed in text; identification is an inference"
+  },
+  {
+   "as_written": "the Park",
+   "normalized": "Hyde Park, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I fagged through the Park again and again",
+   "note": "Unnamed in text; presumed Hyde Park"
+  },
+  {
+   "as_written": "Fairyland",
+   "normalized": "Fairyland",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "if we were not all three in Fairyland, certainly I was",
+   "note": "Figurative"
+  }
+ ]
+}

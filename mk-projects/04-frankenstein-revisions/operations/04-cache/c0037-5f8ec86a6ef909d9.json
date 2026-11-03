@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1598,
+  "completion_tokens": 99,
+  "total_tokens": 1697,
+  "cost": 0.0002093,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002093,
+   "upstream_inference_prompt_cost": 0.0001598,
+   "upstream_inference_completions_cost": 0.0000495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0037. Location: 1818 Letter IV; 1831 Letter IV.\n\nContext before (unchanged): This aroused the stranger's attention; and he asked a multitude of questions concerning the route which the dæmon, as he called him, had pursued.\n\n1818 text: Soon after, when he was alone with me, he said, \"I have, doubtless, excited your curiosity, as well as that of these good people; but you are too considerate to make inquiries.\"\n\n1831 text: Soon after, when he was alone with me, he said,—\"I have, doubtless, excited your curiosity, as well as that of these good people; but you are too considerate to make enquiries.\"\n\nDiff: Soon after, when he was alone with me, he said, {+—+} \" I have, doubtless, excited your curiosity, as well as that of these good people; but you are too considerate to make [-inquiries-] {+enquiries+} . \"\n\nContext after (unchanged): \"Certainly; it would indeed be very impertinent and inhuman in me to trouble you with any inquisitiveness of mine.\""
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Change is orthographic: 'inquiries' becomes 'enquiries' with no change in meaning. The only other edit is an added dash after 'he said,', which is punctuation, not wording.",
+  "confidence": "high",
+  "rationaleWords": 27
+ }
+}

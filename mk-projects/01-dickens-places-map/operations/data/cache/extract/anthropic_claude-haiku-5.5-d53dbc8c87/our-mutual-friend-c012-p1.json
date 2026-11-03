@@ -1,0 +1,102 @@
+{
+ "chunk": "our-mutual-friend-c012-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5598,
+  "completion_tokens": 670,
+  "total_tokens": 6268,
+  "cost": 0.0008948,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008948,
+   "upstream_inference_prompt_cost": 0.0005598,
+   "upstream_inference_completions_cost": 0.000335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Hampton",
+   "normalized": "Hampton, Middlesex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "They had taken a bachelor cottage near Hampton, on the brink of the Thames",
+   "note": "Hampton lies on the Thames at the edge of London; not strictly within the city"
+  },
+  {
+   "as_written": "Thames",
+   "normalized": "River Thames",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "They had taken a bachelor cottage near Hampton, on the brink of the Thames, with a lawn",
+   "note": "Thames runs through London"
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "In Paris, where nothing is wasted, costly and luxurious city though it be",
+   "note": ""
+  },
+  {
+   "as_written": "Londres",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the city which Mr Podsnap so explanatorily called London, Londres, London",
+   "note": "Foreign-language form of London"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the city which Mr Podsnap so explanatorily called London, Londres, London",
+   "note": ""
+  },
+  {
+   "as_written": "Essex",
+   "normalized": "Essex",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "invested by the great Marsh Forces of Essex and Kent",
+   "note": "Marsh forces are the Essex and Kent marshes"
+  },
+  {
+   "as_written": "Kent",
+   "normalized": "Kent",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "invested by the great Marsh Forces of Essex and Kent",
+   "note": ""
+  },
+  {
+   "as_written": "Holborn Hill",
+   "normalized": "Holborn Hill, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "",
+   "note": "Not present in this passage; omitted"
+  }
+ ]
+}

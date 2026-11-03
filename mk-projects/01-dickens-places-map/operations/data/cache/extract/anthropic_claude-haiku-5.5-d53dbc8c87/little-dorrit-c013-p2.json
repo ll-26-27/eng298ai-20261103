@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c013-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5034,
+  "completion_tokens": 847,
+  "total_tokens": 5881,
+  "cost": 0.0009269,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009269,
+   "upstream_inference_prompt_cost": 0.0005034,
+   "upstream_inference_completions_cost": 0.0004235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 552,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Thames river",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "an unwieldy ship in the Thames river may sometimes be seen heavily driving with the tide",
+   "note": "Simile only; the river is named but the action is not located on it."
+  },
+  {
+   "as_written": "Royal Academy",
+   "normalized": "Royal Academy of Arts, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "whereas in the Royal Academy some evil old ruffian of a Dog-stealer will annually be found",
+   "note": "Refers to the annual exhibition; included as a named venue, may be dropped if treated as institution only."
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "being in China so long and being in business",
+   "note": ""
+  }
+ ]
+}

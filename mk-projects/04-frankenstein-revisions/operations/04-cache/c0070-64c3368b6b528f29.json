@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1557,
+  "completion_tokens": 358,
+  "total_tokens": 1915,
+  "cost": 0.0003347,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003347,
+   "upstream_inference_prompt_cost": 0.0001557,
+   "upstream_inference_completions_cost": 0.000179
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 229,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0070. Location: 1818 Vol. I, Ch. II; 1831 Ch. III.\n\nContext before (unchanged): I was required to exchange chimeras of boundless grandeur for realities of little worth.\n\n1818 text: Such were my reflections during the first two or three days spent almost in solitude.\n\n1831 text: Such were my reflections during the first two or three days of my residence at Ingolstadt, which were chiefly spent in becoming acquainted with the localities, and the principal residents in my new abode.\n\nDiff: Such were my reflections during the first two or three days {+of my residence at Ingolstadt, which were chiefly+} spent [-almost-] in [-solitude-] {+becoming acquainted with the localities, and the principal residents in my new abode+} .\n\nContext after (unchanged): But as the ensuing week commenced, I thought of the information which M. Krempe had given me concerning the lectures."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "expansion"
+  ],
+  "significance": 4,
+  "rationale": "Replaces \"almost in solitude\" with \"becoming acquainted with the localities, and the principal residents\", so Victor's early Ingolstadt period becomes socially engaged rather than isolated. Solitude is a key motif, so this alters how his character reads.",
+  "confidence": "medium",
+  "rationaleWords": 37
+ }
+}

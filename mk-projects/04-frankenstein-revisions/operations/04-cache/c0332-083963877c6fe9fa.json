@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1537,
+  "completion_tokens": 105,
+  "total_tokens": 1642,
+  "cost": 0.0002062,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002062,
+   "upstream_inference_prompt_cost": 0.0001537,
+   "upstream_inference_completions_cost": 0.0000525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0332. Location: 1818 Vol. II, Ch. IX; 1831 Ch. XVII.\n\nContext before (unchanged): Saying this, he suddenly quitted me, fearful, perhaps, of any change in my sentiments.\n\n1818 text: I saw him descend the mountain with greater speed than the flight of an eagle, and quickly lost him among the undulations of the sea of ice.\n\n1831 text: I saw him descend the mountain with greater speed than the flight of an eagle, and quickly lost among the undulations of the sea of ice.\n\nDiff: I saw him descend the mountain with greater speed than the flight of an eagle, and quickly lost [-him-] among the undulations of the sea of ice.\n\nContext after (unchanged): His tale had occupied the whole day; and the sun was upon the verge of the horizon when he departed."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Removal of the object pronoun 'him' in 'quickly lost him' to 'quickly lost' is a grammatical tightening with no change to events or meaning; the sense of losing sight of the creature remains.",
+  "confidence": "medium",
+  "rationaleWords": 33
+ }
+}

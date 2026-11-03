@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1511,
+  "completion_tokens": 126,
+  "total_tokens": 1637,
+  "cost": 0.004282,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004282,
+   "upstream_inference_prompt_cost": 0.003022,
+   "upstream_inference_completions_cost": 0.00126
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0130. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): But that would be a cruel kindness, and I dare not do it.\n\n1818 text: What would be your surprise, my son, when you expected a happy and gay welcome, to behold, on the contrary, tears and wretchedness?\n\n1831 text: What would be your surprise, my son, when you expected a happy and glad welcome, to behold, on the contrary, tears and wretchedness?\n\nDiff: What would be your surprise, my son, when you expected a happy and [-gay-] {+glad+} welcome, to behold, on the contrary, tears and wretchedness?\n\nContext after (unchanged): And how, Victor, can I relate our misfortune?"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Single word swap, 'gay' to 'glad', in Elizabeth's letter about Justine's trial and William's death. Meaning is essentially unchanged; it is a diction choice, possibly avoiding the shifting sense of 'gay'. No interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

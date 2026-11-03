@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1542,
+  "completion_tokens": 109,
+  "total_tokens": 1651,
+  "cost": 0.004174,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004174,
+   "upstream_inference_prompt_cost": 0.003084,
+   "upstream_inference_completions_cost": 0.00109
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0365. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): I did not doubt but that the monster followed me, and would discover himself to me when I should have finished, that he might receive his companion.\n\n1818 text: With this resolution I traversed the northern highlands, and fixed on one of the remotest of the Orkneys as the scene labours.\n\n1831 text: With this resolution I traversed the northern highlands, and fixed on one of the remotest of the Orkneys as the scene of my labours.\n\nDiff: With this resolution I traversed the northern highlands, and fixed on one of the remotest of the Orkneys as the scene {+of my+} labours.\n\nContext after (unchanged): It was a place fitted for such a work, being hardly more than a rock, whose high sides were continually beaten upon by the waves."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The 1818 text reads \"the scene labours\", an evident omission or typo. The 1831 text restores \"of my\" to give \"the scene of my labours\". This is a grammatical correction with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

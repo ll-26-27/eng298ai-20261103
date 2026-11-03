@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2142,
+  "completion_tokens": 157,
+  "total_tokens": 2299,
+  "cost": 0.005854,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.005854,
+   "upstream_inference_prompt_cost": 0.004284,
+   "upstream_inference_completions_cost": 0.00157
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0447. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): Elizabeth seemed happy; my tranquil demeanour contributed greatly to calm her mind.\n\n1818 text: But on the day that was to fulfil my wishes and my destiny, she was melancholy, and a presentiment of evil pervaded her; and perhaps also she thought of the dreadful secret, which I had promised to reveal to her the following day. My father was in the mean time overjoyed, and, in the bustle of preparation, only observed in the melancholy of his niece the diffidence of a bride. After the ceremony was performed, a large party assembled at my father's; but it was agreed that Elizabeth and I should pass the afternoon and night at Evian, and return to Cologny the next morning. As the day was fair, and the wind favourable, we resolved to go by water.\n\n1831 text: But on the day that was to fulfil my wishes and my destiny, she was melancholy, and a presentiment of evil pervaded her; and perhaps also she thought of the dreadful secret which I had promised to reveal to her on the following day. My father was in the mean time overjoyed, and, in the bustle of preparation, only recognised in the melancholy of his niece the diffidence of a bride. After the ceremony was performed, a large party assembled at my father's; but it was agreed that Elizabeth and I should commence our journey by water, sleeping that night at Evian, and continuing our voyage on the following day. The day was fair, the wind favourable, all smiled on our nuptial embarkation.\n\nDiff: But on the day that was to fulfil my wishes and my destiny, she was melancholy, and a presentiment of evil pervaded her; and perhaps also she thought of the dreadful secret [-,-] which I had promised to reveal to her {+on+} the following day. My father was in the mean time overjoyed, and, in the bustle of preparation, only [-observed-] {+recognised+} in the melancholy of his niece the diffidence of a bride. After the ceremony was performed, a large party assembled at my father's; but it was agreed that Elizabeth and I should [-pass the afternoon and-] {+commence our journey by water, sleeping that+} night at Evian, and [-return to Cologny-] {+continuing our voyage on+} the [-next morning-] {+following day+} . [-As the-] {+The+} day was fair, [-and-] the wind favourable, [-we resolved to go by water-] {+all smiled on our nuptial embarkation+} .\n\nContext after (unchanged): Those were the last moments of my life during which I enjoyed the feeling of happiness."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "expansion",
+   "plot"
+  ],
+  "significance": 2,
+  "rationale": "Mostly rephrasing: \"observed\" becomes \"recognised\", and the travel plans are recast as \"commence our journey by water\". The itinerary shifts slightly (return to Cologny becomes \"continuing our voyage\"). The added \"all smiled on our nuptial embarkation\" heightens the irony before the disaster.",
+  "confidence": "medium",
+  "rationaleWords": 42
+ }
+}

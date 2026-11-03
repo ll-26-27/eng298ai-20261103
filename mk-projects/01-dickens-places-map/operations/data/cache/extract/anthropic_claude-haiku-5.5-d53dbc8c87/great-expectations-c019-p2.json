@@ -1,0 +1,48 @@
+{
+ "chunk": "great-expectations-c019-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5174,
+  "completion_tokens": 927,
+  "total_tokens": 6101,
+  "cost": 0.0009809,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009809,
+   "upstream_inference_prompt_cost": 0.0005174,
+   "upstream_inference_completions_cost": 0.0004635
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 702,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, Rochester, Kent",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the officiating tradesman ceased to have his attention diverted through the window by the High Street",
+   "note": "Town not named in this passage; the novel's town is Rochester, so the location is inferred."
+  },
+  {
+   "as_written": "the Boar",
+   "normalized": "Blue Boar inn, Rochester, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Here is a chicken had round from the Boar",
+   "note": "Inn referred to by short name; identification with the Blue Boar is inferred."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1557,
+  "completion_tokens": 114,
+  "total_tokens": 1671,
+  "cost": 0.0002127,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002127,
+   "upstream_inference_prompt_cost": 0.0001557,
+   "upstream_inference_completions_cost": 0.000057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0035. Location: 1818 Letter IV; 1831 Letter IV.\n\nContext before (unchanged): We accordingly brought him back to the deck, and restored him to animation by rubbing him with brandy, and forcing him to swallow a small quantity.\n\n1818 text: As soon as he shewed signs of life, we wrapped him up in blankets, and placed him near the chimney of the kitchen-stove.\n\n1831 text: As soon as he showed signs of life we wrapped him up in blankets, and placed him near the chimney of the kitchen stove.\n\nDiff: As soon as he [-shewed-] {+showed+} signs of life [-,-] we wrapped him up in blankets, and placed him near the chimney of the [-kitchen-stove-] {+kitchen stove+} .\n\nContext after (unchanged): By slow degrees he recovered, and ate a little soup, which restored him wonderfully."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Main change is orthographic: 'shewed' to 'showed'. Also drops a comma and hyphenates 'kitchen-stove' into 'kitchen stove', which are typographic adjustments with no effect on meaning.",
+  "confidence": "high",
+  "rationaleWords": 26
+ }
+}

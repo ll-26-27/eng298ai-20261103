@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c039-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5234,
+  "completion_tokens": 1273,
+  "total_tokens": 6507,
+  "cost": 0.0011599,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011599,
+   "upstream_inference_prompt_cost": 0.0005234,
+   "upstream_inference_completions_cost": 0.0006365
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 786,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "made a pretence of being anxious that I should go to Dover",
+   "note": ""
+  },
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The last time I was in the Commons, a civil able-bodied person",
+   "note": "Refers to Doctors' Commons, the area of proctors and ecclesiastical courts; given as 'the Commons'."
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Coming into Canterbury, I loitered through the old streets",
+   "note": ""
+  },
+  {
+   "as_written": "cathedral towers",
+   "normalized": "Canterbury Cathedral, Canterbury, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The venerable cathedral towers",
+   "note": "Cathedral not named in the passage; identified by context."
+  },
+  {
+   "as_written": "Mr. Wickfield’s house",
+   "normalized": "Wickfield's house, Canterbury, Kent",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Arrived at Mr. Wickfield’s house, I found",
+   "note": "Fictional house in Canterbury, probably based on the Precincts area; cannot be located exactly."
+  }
+ ]
+}

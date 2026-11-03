@@ -1,0 +1,102 @@
+{
+ "chunk": "dombey-and-son-c004-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5441,
+  "completion_tokens": 1947,
+  "total_tokens": 7388,
+  "cost": 0.0015176,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015176,
+   "upstream_inference_prompt_cost": 0.0005441,
+   "upstream_inference_completions_cost": 0.0009735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1277,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "City of London",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "within the liberties of the City of London",
+   "note": ""
+  },
+  {
+   "as_written": "Bow Bells",
+   "normalized": "St Mary-le-Bow Church, Cheapside, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "within hearing of Bow Bells",
+   "note": "Bells of the church, referred to by their familiar name"
+  },
+  {
+   "as_written": "Gog and Magog",
+   "normalized": "Guildhall, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Gog and Magog held their state within ten minutes’ walk",
+   "note": "Refers to the Guildhall giant figures; the building is inferred"
+  },
+  {
+   "as_written": "Royal Exchange",
+   "normalized": "Royal Exchange, Cornhill, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Royal Exchange was close at hand",
+   "note": ""
+  },
+  {
+   "as_written": "Bank of England",
+   "normalized": "Bank of England, Threadneedle Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Bank of England, with its vaults of gold and silver",
+   "note": ""
+  },
+  {
+   "as_written": "East India House",
+   "normalized": "East India House, Leadenhall Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Just round the corner stood the rich East India House",
+   "note": ""
+  },
+  {
+   "as_written": "the Downs",
+   "normalized": "The Downs, anchorage off the Kent coast",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "All in the Downs, eh!",
+   "note": "Sea anchorage used figuratively for the weatherglasses"
+  },
+  {
+   "as_written": "the English Navy",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "have not been wanting in the English Navy",
+   "note": "Country named only through adjective; institution not listed"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1520,
+  "completion_tokens": 98,
+  "total_tokens": 1618,
+  "cost": 0.000201,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000201,
+   "upstream_inference_prompt_cost": 0.000152,
+   "upstream_inference_completions_cost": 0.000049
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0241. Location: 1818 Vol. II, Ch. IV; 1831 Ch. XII.\n\nContext before (unchanged): It was not thus with Felix.\n\n1818 text: He was always the saddest of the groupe; and, even to my unpractised senses, he appeared to have suffered more deeply than his friends.\n\n1831 text: He was always the saddest of the group; and, even to my unpractised senses, he appeared to have suffered more deeply than his friends.\n\nDiff: He was always the saddest of the [-groupe-] {+group+} ; and, even to my unpractised senses, he appeared to have suffered more deeply than his friends.\n\nContext after (unchanged): But if his countenance was more sorrowful, his voice was more cheerful than that of his sister, especially when he addressed the old man."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: 'groupe' becomes 'group' with no change in wording or meaning. The same word is simply spelled in the modern French-influenced form versus the plain English form.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

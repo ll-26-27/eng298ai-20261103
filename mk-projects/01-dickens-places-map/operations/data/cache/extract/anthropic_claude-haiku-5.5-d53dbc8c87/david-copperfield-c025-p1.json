@@ -1,0 +1,75 @@
+{
+ "chunk": "david-copperfield-c025-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5206,
+  "completion_tokens": 1667,
+  "total_tokens": 6873,
+  "cost": 0.0013541,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013541,
+   "upstream_inference_prompt_cost": 0.0005206,
+   "upstream_inference_completions_cost": 0.0008335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1251,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ely Place, Holborn",
+   "normalized": "Ely Place, Holborn, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I am staying at the house of papa’s agent, Mr. Waterbrook, in Ely Place, Holborn.",
+   "note": ""
+  },
+  {
+   "as_written": "St. Andrew’s, Holborn",
+   "normalized": "St Andrew Holborn church, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "according to the clock of St. Andrew’s, Holborn,",
+   "note": ""
+  },
+  {
+   "as_written": "Doctors’ Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "any other professional gentleman in Doctors’ Commons",
+   "note": "Former association of civil lawyers; named as office location"
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "my airy fresh school days at Canterbury",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Is he in London?",
+   "note": ""
+  }
+ ]
+}

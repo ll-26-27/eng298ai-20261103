@@ -1,0 +1,84 @@
+{
+ "chunk": "bleak-house-c025-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5539,
+  "completion_tokens": 1667,
+  "total_tokens": 7206,
+  "cost": 0.0013874,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013874,
+   "upstream_inference_prompt_cost": 0.0005539,
+   "upstream_inference_completions_cost": 0.0008335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1062,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cook’s Court",
+   "normalized": "Cook's Court, Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "There is disquietude in Cook’s Court, Cursitor Street.",
+   "note": "Fictional court in Dickens's novel; located off Cursitor Street, near Chancery Lane"
+  },
+  {
+   "as_written": "Cursitor Street",
+   "normalized": "Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "There is disquietude in Cook’s Court, Cursitor Street.",
+   "note": ""
+  },
+  {
+   "as_written": "Tom-all-Alone’s",
+   "normalized": "Tom-all-Alone's",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "For Tom-all-Alone’s and Lincoln’s Inn Fields persist in harnessing themselves",
+   "note": "Fictional slum of Dickens's invention, placed in London"
+  },
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "For Tom-all-Alone’s and Lincoln’s Inn Fields persist in harnessing themselves",
+   "note": ""
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "from Cook’s Court to Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Tooting",
+   "normalized": "Tooting, Surrey",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "picked up at Tooting, where they were found floating among the orphans",
+   "note": "Village then in Surrey, outside London"
+  }
+ ]
+}

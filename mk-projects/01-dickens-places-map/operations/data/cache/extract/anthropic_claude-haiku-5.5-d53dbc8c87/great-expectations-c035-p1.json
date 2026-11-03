@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c035-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4906,
+  "completion_tokens": 1484,
+  "total_tokens": 6390,
+  "cost": 0.0012326,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012326,
+   "upstream_inference_prompt_cost": 0.0004906,
+   "upstream_inference_completions_cost": 0.000742
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1033,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Blue Boar",
+   "normalized": "Blue Boar inn, Rochester area, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "alighted at the Blue Boar in good time to walk over to the forge.",
+   "note": "Inn where Pip arrives before walking to the village; in the novel's Kent setting."
+  },
+  {
+   "as_written": "the forge",
+   "normalized": "Gargery forge, village on the Kent marshes (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "alighted at the Blue Boar in good time to walk over to the forge.",
+   "note": "Joe's forge; the village it stands in is unnamed."
+  },
+  {
+   "as_written": "the Jolly Bargemen",
+   "normalized": "Jolly Bargemen inn, village (fictional)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to tell the Jolly Bargemen that he was the founder of my fortunes",
+   "note": "Pumblechook's intended audience; location not specified."
+  },
+  {
+   "as_written": "the churchyard",
+   "normalized": "village churchyard, Kent marshes (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "we went into the churchyard, close to the graves of my unknown parents",
+   "note": "Church unnamed; the graves of Pip's parents are here."
+  }
+ ]
+}

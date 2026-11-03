@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c044-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5297,
+  "completion_tokens": 901,
+  "total_tokens": 6198,
+  "cost": 0.0009802,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009802,
+   "upstream_inference_prompt_cost": 0.0005297,
+   "upstream_inference_completions_cost": 0.0004505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 554,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Temple gate",
+   "normalized": "Temple, London (Inner and Middle Temple)",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he lingered opposite the Temple gate when it closed on Wrayburn and Lightwood",
+   "note": "Inns of Court precinct; the gate is the entrance, the Temple is the place."
+  },
+  {
+   "as_written": "the Temple",
+   "normalized": "Temple, London (Inner and Middle Temple)",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "and that the Temple laid upon my line of road",
+   "note": "Same place as the Temple gate; listed once."
+  },
+  {
+   "as_written": "Temple Bar",
+   "normalized": "Temple Bar, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "like the spectre of one of the many heads erst hoisted upon neighbouring Temple Bar",
+   "note": "Former gateway on the Strand/Fleet Street boundary; historical reference to heads displayed on spikes."
+  }
+ ]
+}

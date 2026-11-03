@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1540,
+  "completion_tokens": 107,
+  "total_tokens": 1647,
+  "cost": 0.0002075,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002075,
+   "upstream_inference_prompt_cost": 0.000154,
+   "upstream_inference_completions_cost": 0.0000535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0216. Location: 1818 Vol. II, Ch. II; 1831 Ch. X.\n\nContext before (unchanged): Yet I ask you not to spare me: listen to me; and then, if you can, and if you will, destroy the work of your hands.\"\n\n1818 text: \"Why do you call to my remembrance circumstances of which I shudder to reflect, that I have been the miserable origin and author?\n\n1831 text: \"Why do you call to my remembrance,\" I rejoined, \"circumstances, of which I shudder to reflect, that I have been the miserable origin and author?\n\nDiff: \" Why do you call to my remembrance {+, \" I rejoined, \"+} circumstances {+,+} of which I shudder to reflect, that I have been the miserable origin and author?\n\nContext after (unchanged): Cursed be the day, abhorred devil, in which you first saw light!"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only punctuation and a speech tag are added: \"I rejoined,\" marks the creature's speech as Victor's reply. No change in events, meaning, or character; it is a dialogue-attribution and comma edit.",
+  "confidence": "high",
+  "rationaleWords": 31
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c032-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5268,
+  "completion_tokens": 862,
+  "total_tokens": 6130,
+  "cost": 0.0009578,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009578,
+   "upstream_inference_prompt_cost": 0.0005268,
+   "upstream_inference_completions_cost": 0.000431
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 533,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the triumphant proprietor of the Marshalsea, the Marshal, all the turnkeys, and all the Collegians",
+   "note": "Debtors' prison where the scene is set; also referred to as 'that Marshalsea pavement'."
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Clerkenwell, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I ought to be down in Bleeding Heart Yard by rights",
+   "note": ""
+  },
+  {
+   "as_written": "Pentonville",
+   "normalized": "Pentonville, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr Rugg of Pentonville, General Agent, Accountant, and Recoverer of Debts",
+   "note": ""
+  }
+ ]
+}

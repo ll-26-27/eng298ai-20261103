@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c052-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2640,
+  "completion_tokens": 489,
+  "total_tokens": 3129,
+  "cost": 0.0005085,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005085,
+   "upstream_inference_prompt_cost": 0.000264,
+   "upstream_inference_completions_cost": 0.0002445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 271,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dover Castle",
+   "normalized": "Dover Castle, Dover, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "you could as soon move Dover Castle as move George on this point",
+   "note": "Used as a figure of speech for immovability."
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I’m away to Lincolnshire to bring that old lady here.",
+   "note": "Mrs. Bagnet's destination; she leaves the scene for it but does not arrive within the passage."
+  }
+ ]
+}

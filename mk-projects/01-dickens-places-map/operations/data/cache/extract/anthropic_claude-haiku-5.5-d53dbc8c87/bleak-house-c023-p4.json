@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c023-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4041,
+  "completion_tokens": 422,
+  "total_tokens": 4463,
+  "cost": 0.0006151,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006151,
+   "upstream_inference_prompt_cost": 0.0004041,
+   "upstream_inference_completions_cost": 0.000211
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 281,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the great African continent",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "can I permit the film of a silly proceeding on the part of Caddy (from whom I expect nothing else) to interpose between me and the great African continent?",
+   "note": "Continent, not a country; Mrs. Jellyby's philanthropic cause, not a physical setting."
+  }
+ ]
+}

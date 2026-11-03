@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c013-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5079,
+  "completion_tokens": 1031,
+  "total_tokens": 6110,
+  "cost": 0.0010234,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010234,
+   "upstream_inference_prompt_cost": 0.0005079,
+   "upstream_inference_completions_cost": 0.0005155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 553,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Hatton Garden, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "driving, in an inane manner, through a stagnant account of Bleeding Heart Yard",
+   "note": "Real court in Holborn/Hatton Garden; Casby's property, discussed by Pancks."
+  },
+  {
+   "as_written": "Scotland",
+   "normalized": "Scotland",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a train of post-chaises and four, extending all the way to Scotland",
+   "note": "Figurative reference to elopement to Gretna Green."
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I am be denounced as heartless by the whole society of China",
+   "note": "Flora's joking name for her circle of acquaintance; figurative."
+  },
+  {
+   "as_written": "Pekin",
+   "normalized": "Peking (Beijing), China",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "it meant Come to Pekin Nankeen",
+   "note": "Figurative, in Flora's joke about a red wafer on a returned letter."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "You’re not going to keep open house for all the poor of London",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2889,
+  "completion_tokens": 499,
+  "total_tokens": 3388,
+  "cost": 0.0005384,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005384,
+   "upstream_inference_prompt_cost": 0.0002889,
+   "upstream_inference_completions_cost": 0.0002495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 351,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0188. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): Live, and be happy, and make others so.\"\n\n1818 text: As we returned, Elizabeth said, \"You know not, my dear Victor, how much I am relieved, now that I trust in the innocence of this unfortunate girl. I never could again have known peace, if I had been deceived in my reliance on her. For the moment that I did believe her guilty, I felt an anguish that I could not have long sustained. Now my heart is lightened. The innocent suffers; but she whom I thought amiable and good has not betrayed the trust I reposed in her, and I am consoled.\" Amiable cousin! such were your thoughts, mild and gentle as your own dear eyes and voice. But I—I was a wretch, and none ever conceived of the misery that I then endured.\n\n1831 text: And on the morrow Justine died. Elizabeth's heart-rending eloquence failed to move the judges from their settled conviction in the criminality of the saintly sufferer. My passionate and indignant appeals were lost upon them. And when I received their cold answers, and heard the harsh unfeeling reasoning of these men, my purposed avowal died away on my lips. Thus I might proclaim myself a madman, but not revoke the sentence passed upon my wretched victim. She perished on the scaffold as a murderess! From the tortures of my own heart, I turned to contemplate the deep and voiceless grief of my Elizabeth. This also was my doing! And my father's woe, and the desolation of that late so smiling home—all was the work of my thrice-accursed hands! Ye weep, unhappy ones; but these are not your last tears! Again shall you raise the funeral wail, and the sound of your lamentations shall again and again be heard! Frankenstein, your son, your kinsman, your early, much-loved friend; he who would spend each vital drop of blood for your sakes—who has no thought nor sense of joy, except as it is mirrored also in your dear countenances—who would fill the air with blessings, and spend his life in serving you—he bids you weep—to shed countless tears; happy beyond his hopes, if thus inexorable fate be satisfied, and if the destruction pause before the peace of the grave have succeeded to your sad torments! Thus spoke my prophetic soul, as, torn by remorse, horror, and despair, I beheld those I loved spend vain sorrow upon the graves of William and Justine, the first hapless victims to my unhallowed arts.\n\nDiff: [-As we returned, Elizabeth said, \"You know not, my dear Victor, how much I am relieved, now that I trust in the innocence of this unfortunate girl. I never could again have known peace, if I had been deceived in my reliance on her. For the moment that I did believe her guilty, I felt an anguish that I could not have long sustained. Now my heart is lightened. The innocent suffers; but she whom I thought amiable and good has not betrayed the trust I reposed in her, and I am consoled.\" Amiable cousin! such were your thoughts, mild and gentle as your own dear eyes and voice. But I—I was a wretch, and none ever conceived of the misery that I then endured.-] {+And on the morrow Justine died. Elizabeth's heart-rending eloquence failed to move the judges from their settled conviction in the criminality of the saintly sufferer. My passionate and indignant appeals were lost upon them. And when I received their cold answers, and heard the harsh unfeeling reasoning of these men, my purposed avowal died away on my lips. Thus I might proclaim myself a madman, but not revoke the sentence passed upon my wretched victim. She perished on the scaffold as a murderess! From the tortures of my own heart, I turned to contemplate the deep and voiceless grief of my Elizabeth. This also was my doing! And my father's woe, and the desolation of that late so smiling home—all was the work of my thrice-accursed hands! Ye weep, unhappy ones; but these are not your last tears! Again shall you raise the funeral wail, and the sound of your lamentations shall again and again be heard! Frankenstein, your son, your kinsman, your early, much-loved friend; he who would spend each vital drop of blood for your sakes—who has no thought nor sense of joy, except as it is mirrored also in your dear countenances—who would fill the air with blessings, and spend his life in serving you—he bids you weep—to shed countless tears; happy beyond his hopes, if thus inexorable fate be satisfied, and if the destruction pause before the peace of the grave have succeeded to your sad torments! Thus spoke my prophetic soul, as, torn by remorse, horror, and despair, I beheld those I loved spend vain sorrow upon the graves of William and Justine, the first hapless victims to my unhallowed arts.+}\n\nContext after (unchanged): (none)"
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "fate-agency",
+   "plot"
+  ],
+  "significance": 5,
+  "rationale": "Replaces Elizabeth's trust speech with Victor's self-accusation: \"my thrice-accursed hands\", \"my unhallowed arts\", guilt for Justine's execution. Adds \"inexorable fate\" and \"prophetic soul\", and reports her death on the scaffold.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

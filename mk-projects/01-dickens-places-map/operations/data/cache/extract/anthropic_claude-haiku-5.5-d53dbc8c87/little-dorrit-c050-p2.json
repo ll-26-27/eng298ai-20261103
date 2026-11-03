@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c050-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5247,
+  "completion_tokens": 919,
+  "total_tokens": 6166,
+  "cost": 0.0009842,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009842,
+   "upstream_inference_prompt_cost": 0.0005247,
+   "upstream_inference_completions_cost": 0.0004595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 597,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "set at least the whole distance from Rome to London between himself and his enchantress",
+   "note": "Family's residence; setting inferred from the Corso view."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "set at least the whole distance from Rome to London between himself and his enchantress",
+   "note": ""
+  },
+  {
+   "as_written": "Venice",
+   "normalized": "Venice, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "much as she had been used to while away the time in her balcony at Venice",
+   "note": ""
+  },
+  {
+   "as_written": "the Corso",
+   "normalized": "Via del Corso, Rome",
+   "type": "street",
+   "role": "setting",
+   "in_london": false,
+   "quote": "commanding all the picturesque life and variety of the Corso, both up and down",
+   "note": ""
+  }
+ ]
+}

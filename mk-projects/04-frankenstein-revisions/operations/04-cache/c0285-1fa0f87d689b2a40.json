@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1405,
+  "completion_tokens": 245,
+  "total_tokens": 1650,
+  "cost": 0.000263,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000263,
+   "upstream_inference_prompt_cost": 0.0001405,
+   "upstream_inference_completions_cost": 0.0001225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0285. Location: 1818 Vol. II, Ch. VII; 1831 Ch. XV.\n\nContext before (unchanged): I exclaimed in agony.\n\n1818 text: 'Cursed creator!\n\n1831 text: 'Accursed creator!\n\nDiff: [-'Cursed-] {+'Accursed+} creator!\n\nContext after (unchanged): Why did you form a monster so hideous that even you turned from me in disgust?"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "moral-religious"
+  ],
+  "significance": 2,
+  "rationale": "'Cursed' becomes 'Accursed' in the creature's accusation. The meaning stays much the same, but 'accursed' has a stronger archaic, religious ring of divine damnation, which slightly intensifies the moral charge.",
+  "confidence": "medium",
+  "rationaleWords": 30
+ }
+}

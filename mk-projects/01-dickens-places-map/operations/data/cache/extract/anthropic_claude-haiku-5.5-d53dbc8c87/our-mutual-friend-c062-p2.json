@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c062-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5418,
+  "completion_tokens": 971,
+  "total_tokens": 6389,
+  "cost": 0.0010273,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010273,
+   "upstream_inference_prompt_cost": 0.0005418,
+   "upstream_inference_completions_cost": 0.0004855
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 715,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London Bridge",
+   "normalized": "London Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "began driving from London Bridge, among low-lying water-side wharves and docks",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "went to London, and began driving from London Bridge",
+   "note": ""
+  },
+  {
+   "as_written": "the Fellowships",
+   "normalized": "Fellowship Porters' public house, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "would step round to the Fellowships and see how matters stood",
+   "note": "Identity of the Fellowships uncertain; may be a pub or porters' institution; location inferred"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c006-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2168,
+  "completion_tokens": 570,
+  "total_tokens": 2738,
+  "cost": 0.0005018,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005018,
+   "upstream_inference_prompt_cost": 0.0002168,
+   "upstream_inference_completions_cost": 0.000285
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 330,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "‘How dare you!’ he said to the man, and feebly burst into tears.",
+   "note": "Named via 'Father of the Marshalsea'; the prison is the setting throughout the passage."
+  },
+  {
+   "as_written": "Snuggery",
+   "normalized": "Snuggery, Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "The collegians, assembled in Symposium in the Snuggery that night",
+   "note": "A room inside the Marshalsea prison, not a separate street or building."
+  }
+ ]
+}

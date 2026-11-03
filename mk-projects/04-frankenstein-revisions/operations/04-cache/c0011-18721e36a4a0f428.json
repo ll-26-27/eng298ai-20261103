@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1591,
+  "completion_tokens": 86,
+  "total_tokens": 1677,
+  "cost": 0.0002021,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002021,
+   "upstream_inference_prompt_cost": 0.0001591,
+   "upstream_inference_completions_cost": 0.000043
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0011. Location: 1818 Letter I; 1831 Letter I.\n\nContext before (unchanged): These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven.\n\n1818 text: I also became a poet, and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and Shakespeare are consecrated.\n\n1831 text: I also became a poet, and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and Shakspeare are consecrated.\n\nDiff: I also became a poet, and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and [-Shakespeare-] {+Shakspeare+} are consecrated.\n\nContext after (unchanged): You are well acquainted with my failure, and how heavily I bore the disappointment."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography of Shakespeare changes to the archaic Shakspeare; the wording, meaning, and reference to the poet are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 20
+ }
+}

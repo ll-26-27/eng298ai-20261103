@@ -1,0 +1,66 @@
+{
+ "chunk": "oliver-twist-c012-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5085,
+  "completion_tokens": 1074,
+  "total_tokens": 6159,
+  "cost": 0.0010455,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010455,
+   "upstream_inference_prompt_cost": 0.0005085,
+   "upstream_inference_completions_cost": 0.000537
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 753,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when he first entered London in company with the Dodger",
+   "note": ""
+  },
+  {
+   "as_written": "the Angel at Islington",
+   "normalized": "The Angel, Islington, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "turning a different way when it reached the Angel at Islington",
+   "note": "Coaching inn; the coach passes it on the way, not a setting."
+  },
+  {
+   "as_written": "Islington",
+   "normalized": "Islington, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "turning a different way when it reached the Angel at Islington",
+   "note": ""
+  },
+  {
+   "as_written": "Pentonville",
+   "normalized": "Pentonville, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in a quiet shady street near Pentonville",
+   "note": "Street itself unnamed; house is near Pentonville."
+  }
+ ]
+}

@@ -1,0 +1,2414 @@
+{
+ "summary": {
+  "cheapModel": "anthropic/claude-haiku-5.5",
+  "checkModel": "anthropic/claude-sonnet-5.5",
+  "sampleSize": 100,
+  "population": 334,
+  "seed": 1831,
+  "sameCategoryPct": 78,
+  "overlappingPct": 96,
+  "significanceWithin1Pct": 98,
+  "significanceExactPct": 66,
+  "byConfidence": {
+   "high": {
+    "n": 66,
+    "agree": 58
+   },
+   "medium": {
+    "n": 34,
+    "agree": 20
+   }
+  },
+  "bySize": {
+   "small": {
+    "n": 70,
+    "agree": 59
+   },
+   "large": {
+    "n": 16,
+    "agree": 8
+   },
+   "medium": {
+    "n": 14,
+    "agree": 11
+   }
+  },
+  "disagreements": {
+   "spelling → wording": 3,
+   "expansion → characterization": 2,
+   "moral-religious → wording": 2,
+   "expansion → wording": 2,
+   "characterization → wording": 2,
+   "wording → spelling": 2,
+   "characterization → expansion": 1,
+   "wording → cut": 1,
+   "expansion → fate-agency": 1,
+   "wording → characterization": 1,
+   "moral-religious → plot": 1,
+   "wording → fate-agency": 1,
+   "characterization → plot": 1,
+   "expansion → plot": 1,
+   "moral-religious → characterization": 1
+  }
+ },
+ "run": {
+  "at": "2026-11-03T12:51:25.857Z",
+  "step": "05-check",
+  "model": "anthropic/claude-sonnet-5.5",
+  "calls": 0,
+  "cached": 100,
+  "retries": 0,
+  "failures": 0,
+  "promptTokens": 0,
+  "completionTokens": 0,
+  "cost": 0,
+  "prunedStaleCache": 0,
+  "sample": 100
+ },
+ "rows": [
+  {
+   "id": "c0008",
+   "label1818": "Letter I",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only orthography changes: the ligature in 'phænomena' becomes 'phenomena'. The word, meaning and syntax are identical, so there is no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0009",
+   "label1818": "Letter I",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only the orthography changes: 'tranquillize' becomes 'tranquillise' (-ize to -ise). The word, meaning and sentence are otherwise identical, so there is no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0014",
+   "label1818": "Letter I",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "other"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"wrapt\" becomes \"wrapped\" (archaic to modern spelling), and a dash replaces the comma before \"a dress which I have already adopted\". Punctuation and orthography only; the meaning is unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0019",
+   "label1818": "Letter II",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "The only change is 'sympathize' to 'sympathise', an orthographic variant (-ize/-ise) with no change in meaning, syntax, or emphasis."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0022",
+   "label1818": "Letter II",
+   "size": "large",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "expansion",
+     "cut"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "cut"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "Cuts the 1818 notes on the master (he will not hunt, 'heroically generous') and adds Walton's account of why he hired him: his 'solitude', 'feminine fosterage', distaste for 'brutality'. This elaborates Walton's own character and how the master's story is introduced."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0027",
+   "label1818": "Letter II",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "cut"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "cut",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 2,
+    "confidence": "high",
+    "rationale": "Removes the parenthetical \"(though the chance is very doubtful)\" about letters reaching Walton and adds \"for the present\"; this slightly softens his pessimism about correspondence, a minor stylistic change in Walton's letter."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0039",
+   "label1818": "Letter IV",
+   "size": "medium",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "expansion",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Adds \"a new spirit of life animated the decaying frame of the stranger\" and strengthens \"seemed very eager\" to \"manifested the greatest eagerness\"; also drops \"But\". Elaborates Victor's vitality and frailty without changing events."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 2
+  },
+  {
+   "id": "c0042",
+   "label1818": "Letter IV",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "wording"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "Walton's mildly teasing challenge to his sister ('If you do, you must have certainly lost that simplicity') is replaced by reassurance ('You would not, if you saw him') plus a new passage detailing Victor's 'intuitive discernment' and 'soul-subduing music' of voice, heightening his admirable portrayal."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0051",
+   "label1818": "Vol. I, Ch. I",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 5,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "plot",
+     "expansion"
+    ],
+    "significance": 5,
+    "confidence": "high",
+    "rationale": "Elizabeth changes from Victor's blood cousin, sent by her widowed uncle, to a foundling adopted from a Lombard cottage. She is now \"a present\" to Victor, \"mine only\". The parents' marriage and Victor's birth in Naples are also reworked. Scholars discuss this heavily."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0052",
+   "label1818": "Vol. I, Ch. I",
+   "size": "large",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "expansion",
+     "moral-religious"
+    ],
+    "significance": 5,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "expansion",
+     "moral-religious"
+    ],
+    "significance": 5,
+    "confidence": "high",
+    "rationale": "1831 replaces 1818's shared, forced-free education with Victor's 'violent' temper and vehement passions turned to 'secrets of heaven and earth', Clerval's moral ambition, and Elizabeth's 'saintly soul' as a softening 'celestial' influence. This reshapes all three characters and Victor's motives."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0057",
+   "label1818": "Vol. I, Ch. I",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "The only change is the orthographic variant 'ribbands' to 'ribands' in the lightning-struck tree description; the meaning and wording are otherwise identical."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0063",
+   "label1818": "Vol. I, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"journey to\" becomes \"departure for\" Ingolstadt; a synonymous phrasing that keeps the same event (the postponed trip to university) and has no interpretive effect."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0064",
+   "label1818": "Vol. I, Ch. II",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "expansion",
+     "wording"
+    ],
+    "significance": 4,
+    "confidence": "medium",
+    "rationale": "The passage is rewritten: Victor's reluctance to leave (\"sacrilege\", \"new to sorrow\") is added, and Elizabeth is recast as a veiled-grief comforter. \"Whom she had been taught to call her uncle and cousins\" reflects the 1831 change making Elizabeth not a blood cousin."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0073",
+   "label1818": "Vol. I, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Mostly orthographic normalization: 'shew' to 'show' and the corrected 'pour over' to 'pore over'. The semicolon-to-colon change after 'heavens' is minor punctuation. No change to meaning or events."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0074",
+   "label1818": "Vol. I, Ch. II",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "fate-agency",
+     "moral-religious",
+     "characterization"
+    ],
+    "significance": 5,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "fate-agency",
+    "secondary": [
+     "expansion",
+     "characterization"
+    ],
+    "significance": 5,
+    "confidence": "high",
+    "rationale": "A one-line 1818 departure becomes a long passage: \"the words of fate, enounced to destroy me.\" Victor's ambition is cast as destined doom, and his inner turmoil and resolve are dramatized. It is a major, much-discussed 1831 addition shifting responsibility toward fate."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0081",
+   "label1818": "Vol. I, Ch. III",
+   "size": "large",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "cut",
+     "expansion"
+    ],
+    "significance": 4,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "expansion",
+     "cut"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "1818 says Waldman's amiable character only drew Clerval-like Victor to chemistry, which he pursued 'for its own sake'. 1831 replaces this with Waldman smoothing 'the path of knowledge', and drops 'duty and resolution', making Victor's pursuit more teacher-aided and less self-driven."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0103",
+   "label1818": "Vol. I, Ch. IV",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "'wetted' becomes the stronger 'drenched', and the comma after 'rain' is dropped so the clause reads as restrictive. These are diction and punctuation tweaks with no change to events or character."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0105",
+   "label1818": "Vol. I, Ch. IV",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 2,
+    "confidence": "high",
+    "rationale": "The awkward double negative \"not absolutely necessary for a merchant not to understand any thing except book-keeping\" becomes \"all necessary knowledge was not comprised in the noble art of book-keeping\". The sense is the same, with a slightly ironic flourish; the added dash is trivial."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0114",
+   "label1818": "Vol. I, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "plot"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "\"her house\" becomes \"our house\": Justine now moves into the Frankenstein household, not just the aunt's. This ties her more closely to Victor's family, fitting the 1831 pattern of domestic closeness and adoption."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0128",
+   "label1818": "Vol. I, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Orthographic changes: ecstacy→ecstasy and sympathized→sympathised, plus a colon after 'in bud' becoming a full stop. No change in meaning or events; purely spelling and punctuation."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0130",
+   "label1818": "Vol. I, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Single word swap, 'gay' to 'glad', in Elizabeth's letter about Justine's trial and William's death. Meaning is essentially unchanged; it is a diction choice, possibly avoiding the shifting sense of 'gay'. No interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0135",
+   "label1818": "Vol. I, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high",
+    "rationale": "Single word swap, 'infant' to 'child', in Elizabeth's exclamation over William's body. Meaning is unchanged; William is a young boy, so 'child' is slightly more natural. Minor diction shift with little interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0140",
+   "label1818": "Vol. I, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"cabriole\" becomes \"cabriolet\": the same carriage, spelled in the standard form. The vehicle, action and meaning are unchanged, so this is an orthographic or lexical variant with no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0146",
+   "label1818": "Vol. I, Ch. VI",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "cut"
+    ],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"a village half a league to the east of the city\" becomes \"a village at the distance of half a league from the city\". This is a rephrasing of the same distance; the only loss is the minor compass detail \"to the east\"."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0157",
+   "label1818": "Vol. I, Ch. VI",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "\"all at once\" becomes \"suddenly\", and \"extremely wicked\" becomes \"capable of so frightful, so appalling a crime\". The meaning is the same, but the revision heightens emphasis and shifts from judging Justine's character to naming the crime."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0167",
+   "label1818": "Vol. I, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Orthographic variants inquired→enquired and shewn→shown, plus comma adjustments (added after 'and', removed after 'replied' and 'earnestly'). No change in meaning or events."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0177",
+   "label1818": "Vol. I, Ch. VII",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 4,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "expansion",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "Adds Victor's interior reaction: \"strange and unexpected intelligence; what could it mean? Had my eyes deceived me?\" and his fear of being thought mad. It elaborates his anxiety and silence without changing events, though it deepens his self-justification for not speaking."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0178",
+   "label1818": "Vol. I, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "moral-religious",
+    "secondary": [
+     "wording",
+     "characterization"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "moral-religious"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Word swaps keep the sense: benevolence→goodness, wish→desire, ill-humour→guile, plus ';' to '?'. 'Guile' makes Justine's imagined fault one of deceit rather than temper, a slight moral shift, but mainly diction and punctuation."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0179",
+   "label1818": "Vol. I, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "medium",
+    "rationale": "'further' becomes 'farther' at the end of the prison chamber. It is a variant-form or usage swap with the same meaning and no interpretive consequence. It is close to orthography, but these are distinct word forms, so wording fits best."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0188",
+   "label1818": "Vol. I, Ch. VII",
+   "size": "large",
+   "cheap": {
+    "category": "moral-religious",
+    "secondary": [
+     "fate-agency",
+     "plot"
+    ],
+    "significance": 5,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "plot",
+    "secondary": [
+     "characterization",
+     "fate-agency"
+    ],
+    "significance": 5,
+    "confidence": "high",
+    "rationale": "Replaces Elizabeth's consoled return with Justine's execution, Victor's failed avowal, and his prophetic self-accusation ('my thrice-accursed hands', 'inexorable fate', 'my unhallowed arts'). It changes events and scene order, deepens Victor's guilt, and adds fatalism."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0202",
+   "label1818": "Vol. II, Ch. II",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "expansion",
+    "secondary": [
+     "plot",
+     "characterization"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "The 1831 text swaps the family scene (father pleased, Elizabeth's \"do not relapse again!\") for a Romantic nature passage where mountains \"bade me be at peace,\" and Victor goes up by mule openly, not alone to avoid his father. This removes the family interaction and concealment motive."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0203",
+   "label1818": "Vol. II, Ch. II",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Main change is \"alone\" to \"without a guide\", a rephrasing that keeps Victor going unaccompanied (and slightly clarifies the practical sense). Also ecstacy→ecstasy with added comma, and solemnizing→solemnising, which are orthographic."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0206",
+   "label1818": "Vol. II, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only the diaeresis is dropped: 'aërial' becomes 'aerial'. This is an orthographic modernization with no change in wording or meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0216",
+   "label1818": "Vol. II, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Adds the speech tag \", I rejoined,\" and a comma after \"circumstances\". These are punctuation and dialogue-attribution changes only; the content of Victor's speech and the events are unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0217",
+   "label1818": "Vol. II, Ch. III",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "The change from the ligature spelling 'æra' to 'era' is purely orthographic modernization; the word and meaning are identical, so it has no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0221",
+   "label1818": "Vol. II, Ch. III",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only the archaic spelling 'shewed' becomes modern 'showed'; the word, tense, and meaning are unchanged, so this is purely orthographic modernization."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0233",
+   "label1818": "Vol. II, Ch. III",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only orthographic variant: 'dispatched' becomes 'despatched', an alternate spelling of the same word with identical meaning and no interpretive effect."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0234",
+   "label1818": "Vol. II, Ch. III",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Mostly comma removals (after 'light', 'find', 'instrument'), a semicolon becoming a colon, and 'or' corrected to 'nor' after 'neither'. These are grammatical and punctuation fixes with no change in meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0246",
+   "label1818": "Vol. II, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Adds a comma after \"events\" and changes \"from what I was\" to \"from what I had been\". This is a tense and grammar adjustment that keeps the meaning. The pluperfect only slightly sharpens the sense of a completed prior state."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0249",
+   "label1818": "Vol. II, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Changes \"neither ... or\" to the grammatically correct \"neither ... nor\" in the description of Safie. This is a grammatical correction with no effect on meaning or interpretation."
+   },
+   "sameCategory": false,
+   "overlapping": false,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0251",
+   "label1818": "Vol. II, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "The only change is the deletion of \"as\" in \"the same treatment [as] I had formerly endured\". This is a minor syntactic and grammatical adjustment (a relative clause without a conjunction) and leaves the meaning unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0260",
+   "label1818": "Vol. II, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "fate-agency",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "Adding \"accidentally\" presents Felix's presence at the trial as chance rather than design. This fits the 1831 emphasis on contingency and fate leading him into the Turk's cause, where 1818 gave no such framing."
+   },
+   "sameCategory": false,
+   "overlapping": false,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0261",
+   "label1818": "Vol. II, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Minor stylistic tweaks: \"that event\" becomes \"the event\", \"her father's\" becomes \"her father\", and \"her father\" becomes \"her parent\" to avoid repetition. Meaning and events are unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0270",
+   "label1818": "Vol. II, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "cut",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "cut",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Removes \"with him\" from \"prepare to return with him to her native country\". The father's command is unchanged, and the cut only trims a redundant phrase, with no effect on plot or character."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0283",
+   "label1818": "Vol. II, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"decypher\" becomes \"decipher\": a purely orthographic modernization of the same word, with no change in meaning, tone, or events."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0289",
+   "label1818": "Vol. II, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Two small changes: 'sympathized' becomes 'sympathised' (orthography), and 'turned towards me' becomes 'directed towards me' (synonymous diction). Meaning is unchanged. The 'turn them from me' echo in the following context is slightly weakened."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0292",
+   "label1818": "Vol. II, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only orthographic variation: 'realize' (1818) becomes 'realise' (1831). The word, meaning, and syntax are identical, so there is no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0304",
+   "label1818": "Vol. II, Ch. VIII",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only the surname's orthography changes, 'De Lacy' to 'De Lacey'; the character and the event are the same, so there is no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0317",
+   "label1818": "Vol. II, Ch. VIII",
+   "size": "large",
+   "cheap": {
+    "category": "plot",
+    "secondary": [
+     "characterization",
+     "moral-religious"
+    ],
+    "significance": 5,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "plot",
+    "secondary": [
+     "characterization",
+     "expansion"
+    ],
+    "significance": 5,
+    "confidence": "high",
+    "rationale": "The creature now enters a barn and finds the woman sleeping, rather than passing her in the open. He whispers 'Awake, fairest, thy lover is near' and fears she will denounce him. This adds psychological motive and blame ('The crime had its source in her'), changing the framing of the framing of Justine's victimization."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0328",
+   "label1818": "Vol. II, Ch. IX",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Orthographic changes: sympathize→sympathise and shewn→shown. The final question mark becoming a full stop is a minor punctuation change that leaves the sense of the question intact."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0329",
+   "label1818": "Vol. II, Ch. IX",
+   "size": "medium",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "moral-religious"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "cut",
+     "wording"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "The 1818 plea ('I thought I had moved your compassion... render me harmless') is replaced by a curt threat ('I must not be trifled with: and I demand an answer'), making the creature more domineering and less pathetic in this exchange."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0334",
+   "label1818": "Vol. II, Ch. IX",
+   "size": "large",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "plot",
+     "moral-religious"
+    ],
+    "significance": 5,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "plot",
+    "secondary": [
+     "characterization",
+     "cut"
+    ],
+    "significance": 4,
+    "confidence": "medium",
+    "rationale": "1818 has the father's failed cure, Elizabeth's inadequate affection, Dante's cowl, hallucinated 'filthy animals', and gradual calming. 1831 cuts these and adds Victor's silence, sense of exile from family, and resolve 'to save them' by completing the 'abhorred task', recasting his motive as sacrificial."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0335",
+   "label1818": "Vol. III, Ch. I",
+   "size": "medium",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "moral-religious"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "moral-religious",
+     "expansion"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "1818 Victor delays because he \"could not resolve to interrupt my returning tranquillity\"; 1831 he \"shrunk from taking the first step\" as the necessity \"began to appear less absolute.\" This rationalizes his avoidance and adds self-justifying psychology, plus \"A change indeed had taken place in me.\""
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0344",
+   "label1818": "Vol. III, Ch. I",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "plot",
+     "characterization",
+     "fate-agency"
+    ],
+    "significance": 5,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "plot",
+    "secondary": [
+     "characterization",
+     "expansion"
+    ],
+    "significance": 4,
+    "confidence": "high",
+    "rationale": "Rewrites the trip's arrangements: duration left open ('a few months, or at most a year') instead of two years; Clerval arranged by father and Elizabeth; Victor's fear of the monster and hope for marriage as 'reward' from 'detested toils' added, with the Holland itinerary and father's speech cut."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0345",
+   "label1818": "Vol. III, Ch. I",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only the orthography changes: 'agonized' becomes 'agonised' (-ize to -ise). The word, meaning, and syntax are untouched, so there is no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0348",
+   "label1818": "Vol. III, Ch. I",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Punctuation shifts (; to , and ? to !), \"sun-rise\" becomes \"sunrise\", and \"than to listen\" becomes \"than in listening\". These are small stylistic and orthographic adjustments with no effect on events or characters."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0349",
+   "label1818": "Vol. III, Ch. I",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Deletes \"by\" in \"passed by many willowy islands\" (a trivial syntactic tightening) and modernizes \"staid\" to \"stayed\" (orthography). No change in events or meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0353",
+   "label1818": "Vol. III, Ch. I",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Wordsworth quotation changes \"Unborrowed\" to the elided \"Unborrow'd\" and drops the final period before the closing quotation mark; these are orthographic and punctuation variants with no change in meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0356",
+   "label1818": "Vol. III, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"visitor\" becomes \"visiter\", an orthographic variant of the same word with identical meaning; no change in sense, style, or content."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0357",
+   "label1818": "Vol. III, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Adds the particle \"up\" to make \"packed up my chemical instruments\", a idiomatic phrasal-verb tweak with no change in meaning, events, or character."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0361",
+   "label1818": "Vol. III, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "other"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"Westmoreland\" becomes \"Westmorland\", an orthographic variant of the county name. A comma is also added after \"Derby\", which is punctuation only. Neither change affects meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0365",
+   "label1818": "Vol. III, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "The 1818 text reads \"the scene labours\", an evident omission or typo. The 1831 text restores \"of my\" to give \"the scene of my labours\". This is a grammatical correction with no interpretive consequence."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0367",
+   "label1818": "Vol. III, Ch. II",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high",
+    "rationale": "Commas around \"indeed\" and the swap of \"sequel\" for \"consummation\" are stylistic diction changes; the meaning stays the same, with a slightly more elevated, climactic tone for the goal of his labour."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0369",
+   "label1818": "Vol. III, Ch. III",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Removes the article in \"Had I [a] right\" and adds commas around \"perhaps\" in \"at the price, perhaps, of the existence.\" These are grammatical and punctuation adjustments with no change in meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0373",
+   "label1818": "Vol. III, Ch. III",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Swaps 'weakness' for 'irresolution' and 'resolution' for 'determination', plus a period becoming a question mark after 'wretchedness'. Mostly diction and punctuation; 'irresolution' slightly sharpens Victor's hesitation as indecision rather than frailty."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0393",
+   "label1818": "Vol. III, Ch. III",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"Aye\" becomes \"Ay\" and \"Sir\" becomes \"sir\": orthography and capitalization conventions only. Wording, meaning and the speaker's tone are unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0395",
+   "label1818": "Vol. III, Ch. IV",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Idiomatic phrase swap, 'fell all his length' to 'fell at his length'; same event, same meaning, only minor diction/idiom change with no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0397",
+   "label1818": "Vol. III, Ch. IV",
+   "size": "small",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Pronoun swap \"He\" to \"It\" for Clerval's corpse, following the context's \"it\" (the body). Largely a stylistic/grammatical alignment, but it slightly depersonalizes the dead Clerval before \"He had apparently been strangled\" restores personhood."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0400",
+   "label1818": "Vol. III, Ch. IV",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "cut"
+    ],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"agonizing suffering\" is condensed to \"agonies\" with the same meaning, and the closing quotation mark moves inside the dash. Both are stylistic and punctuation changes with no effect on events or interpretation."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0409",
+   "label1818": "Vol. III, Ch. IV",
+   "size": "medium",
+   "cheap": {
+    "category": "plot",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "plot",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Changes the sequence of events: Kirwin examined Victor's effects 'a day or two after' his illness in 1818, but 'Immediately upon' his being taken ill in 1831, with 'all the papers' brought to him. Procedure and timing change; no wider thematic effect."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0413",
+   "label1818": "Vol. III, Ch. IV",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"insure\" becomes \"ensure\" in the phrase \"could ensure tranquillity\". This is a modernized or standardized orthographic variant with the same meaning and no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0422",
+   "label1818": "Vol. III, Ch. IV",
+   "size": "large",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "fate-agency",
+     "characterization"
+    ],
+    "significance": 4,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "expansion",
+    "secondary": [
+     "fate-agency",
+     "plot"
+    ],
+    "significance": 3,
+    "confidence": "medium",
+    "rationale": "Replaces the plain arrival at Holyhead with an added passage on Victor's calm: 'the fiend was not here', 'a truce... between the present hour and the irresistible, disastrous future'. It deepens interiority and stresses fatedness; the Holyhead detail is dropped."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0423",
+   "label1818": "Vol. III, Ch. V",
+   "size": "large",
+   "cheap": {
+    "category": "moral-religious",
+    "secondary": [
+     "plot",
+     "characterization"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "moral-religious",
+     "plot"
+    ],
+    "significance": 4,
+    "confidence": "medium",
+    "rationale": "The 1818 travel plan (Portsmouth, Havre, grief for Clerval) is replaced by Victor's self-condemnation: 'I had unchained an enemy', 'unhallowed acts', 'crimes which had their source in me'. His guilt, secrecy and ambivalence toward humanity are heightened; the route also changes to Paris."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0425",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"caused by\" becomes \"the offspring of\" delirium: a stylistic substitution with the same meaning. The procreative metaphor faintly echoes the creation theme, but the sense is unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0429",
+   "label1818": "Vol. III, Ch. V",
+   "size": "medium",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "cut"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Elizabeth's letter replaces the epistolary sign-off \"I have no more to do than to sign myself your affectionate cousin\" with \"all my doubts satisfied.\" This is a rephrasing of the same conditional; the 1831 wording drops the letter-closing conceit and her \"cousin\" self-designation."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0432",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "moral-religious",
+    "secondary": [
+     "characterization",
+     "wording"
+    ],
+    "significance": 4,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Main change is \"interested\" to \"disinterested\" affection (in 1818 \"interested\" meant concerned/invested; 1831 clarifies selfless love). Also spelling variants (cruelest/cruellest, ten-fold/tenfold) and punctuation (\"Ah,\" to \"Ah!\"). Modest shift in diction."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 2
+  },
+  {
+   "id": "c0435",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Grammatical adjustment: indicative \"was\" becomes subjunctive \"were\" in the conditional clause, and the comma after \"victorious\" is dropped. Meaning and events are unchanged; it is purely stylistic and grammatical."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0436",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"pennyless\" is corrected to the standard \"penniless\"; this is an orthographic change only, with no effect on meaning or tone."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0437",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"paradisaical\" becomes \"paradisiacal\", a variant spelling of the same adjective with identical meaning. The surrounding Eden imagery (apple, angel's arm) is unchanged, so there is no interpretive effect."
+   },
+   "sameCategory": false,
+   "overlapping": false,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0440",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "characterization",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "characterization",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "\"My cousin\" becomes \"The sweet girl\": in 1831 Elizabeth is no longer Victor's cousin, so the kinship term is dropped, and the epithet \"sweet girl\" fits her idealized, gentle presentation. Mostly a diction swap, with a small characterizing effect."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0445",
+   "label1818": "Vol. III, Ch. V",
+   "size": "large",
+   "cheap": {
+    "category": "plot",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 4,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "plot",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 4,
+    "confidence": "high",
+    "rationale": "Replaces the purchase of a house near Cologny with Elizabeth's restored Austrian-controlled inheritance and a planned honeymoon at Villa Lavenza on Lake Como. This changes the settings and facts, ties in Elizabeth's revised origins, and drops Ernest's schooling."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0446",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Only orthography changes: 'solemnization' becomes 'solemnisation' (-ize to -ise). Meaning, syntax and content are identical."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0447",
+   "label1818": "Vol. III, Ch. V",
+   "size": "medium",
+   "cheap": {
+    "category": "expansion",
+    "secondary": [
+     "wording",
+     "moral-religious"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "expansion",
+     "plot"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Mostly rephrasing: \"observed\" becomes \"recognised\", and the travel plans are recast as \"commence our journey by water\". The itinerary shifts slightly (return to Cologny becomes \"continuing our voyage\"). The added \"all smiled on our nuptial embarkation\" heightens the irony before the disaster."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0450",
+   "label1818": "Vol. III, Ch. V",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Main change is orthographic: \"Blânc\" becomes \"Blanc\" (circumflex dropped). Punctuation also shifts: comma added after \"clouds\", comma removed after \"obscure\". These are comma-level adjustments with no effect on meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0454",
+   "label1818": "Vol. III, Ch. VI",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 2,
+    "confidence": "high",
+    "rationale": "\"fainted\" becomes \"fell senseless on the ground\": same event (Victor loses consciousness) with a more physical, dramatic phrasing; slight expansion, no change in plot or character."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0455",
+   "label1818": "Vol. III, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Single word swap, 'deathly' to 'deadly' languor, in Victor's discovery of Elizabeth's body. Near-synonymous diction with no change to events or meaning; at most a slight stylistic shift."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0457",
+   "label1818": "Vol. III, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Single verb swap, 'shot' to 'fired', after 'drawing a pistol'. The event is unchanged: Victor fires at the monster and misses. 'Fired' is the more idiomatic verb and has no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0465",
+   "label1818": "Vol. III, Ch. VI",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "expansion"
+    ],
+    "significance": 3,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "plot"
+    ],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "Alfred's father's death changes from a specific medical cause, \"an apoplectic fit was brought on\", to the figurative \"springs of existence suddenly gave way\" and bedridden decline. The result is the same (death in Victor's arms), but the cause is less clinical and more sentimental."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0469",
+   "label1818": "Vol. III, Ch. VI",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"provisionally\" is replaced by \"for an interval\", a plainer, less Latinate phrase with the same sense of temporary reconciliation to life, plus a comma added after \"history\". Stylistic only; no change of event or character."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0475",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Single word swap, 'modelled' to 'moulded', with the same sense of revenge shaping Victor's feelings. It is a minor diction change with no effect on events or character."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0477",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Word order changes from the archaic inversion 'felt but seen not' to the standard 'felt but not seen'. Meaning is unchanged; this is a syntactic modernization with no interpretive consequence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0496",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Single synonym swap, 'enemy' to 'foe', with no change in meaning or events; a minor diction choice, possibly avoiding repetition of 'enemy' from the preceding sentence."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0502",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Two small diction/grammar changes: \"congealed\" becomes \"congeal\" (verb form after \"do you not feel your blood\") and \"replete with agony\" becomes \"anguish,\" which avoids repeating \"agony\" from the previous clause. Meaning is unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0509",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high",
+    "rationale": "Single word swap, \"feeling\" to \"thought\", referring back to Victor's sense of not being a common projector. Slightly shifts from emotion to cognition, but meaning and events are unchanged; a minor diction change."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0515",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "spelling",
+    "secondary": [
+     "wording"
+    ],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [
+     "spelling"
+    ],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Grammatical adjustment from plural \"failings...are\" to singular \"failing...is\", plus capitalization of \"heaven\" to \"Heaven\". Meaning is unchanged; purely stylistic and orthographic."
+   },
+   "sameCategory": false,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0519",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Capitalizes \"And\" after the question mark, adds the object \"it\" after \"surrounded,\" and drops the repeated \"dangers\" before \"you were to brave.\" These are grammatical and stylistic tidying; Victor's speech to the sailors means the same."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0520",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "Singular 'your name' becomes plural 'your names' (agreeing with 'you' and 'brave men'), and a comma is added after 'honour'. Grammatical and punctuation adjustments only; no change in meaning."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 1
+  },
+  {
+   "id": "c0523",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "spelling",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "The only change is 'further' to 'farther' before 'north'. It is a variant of the same word for distance, with no change in meaning, events, or characterization."
+   },
+   "sameCategory": false,
+   "overlapping": false,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0529",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "medium",
+   "cheap": {
+    "category": "wording",
+    "secondary": [
+     "characterization"
+    ],
+    "significance": 2,
+    "confidence": "medium"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 2,
+    "confidence": "medium",
+    "rationale": "\"my fellow-creatures\" becomes \"the beings of my own species\": a diction change with the same referent, humankind. The new phrase slightly stresses species boundaries over shared creaturehood, which fits the creature theme, but the meaning is essentially unchanged."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  },
+  {
+   "id": "c0535",
+   "label1818": "Vol. III, Ch. VII",
+   "size": "small",
+   "cheap": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high"
+   },
+   "strong": {
+    "category": "wording",
+    "secondary": [],
+    "significance": 1,
+    "confidence": "high",
+    "rationale": "\"raise my looks upon his face\" becomes \"raise my eyes to his face\": a more idiomatic phrasing that keeps the same meaning, with no change to events or to Victor's reaction."
+   },
+   "sameCategory": true,
+   "overlapping": true,
+   "significanceDiff": 0
+  }
+ ]
+}

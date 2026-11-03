@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1514,
+  "completion_tokens": 118,
+  "total_tokens": 1632,
+  "cost": 0.0002104,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002104,
+   "upstream_inference_prompt_cost": 0.0001514,
+   "upstream_inference_completions_cost": 0.000059
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0462. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): Nothing is so painful to the human mind as a great and sudden change.\n\n1818 text: The sun might shine, or the clouds might lour; but nothing could appear to me as it had done the day before.\n\n1831 text: The sun might shine, or the clouds might lower: but nothing could appear to me as it had done the day before.\n\nDiff: The sun might shine, or the clouds might [-lour;-] {+lower:+} but nothing could appear to me as it had done the day before.\n\nContext after (unchanged): A fiend had snatched from me every hope of future happiness: no creature had ever been so miserable as I was; so frightful an event is single in the history of man."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "\"lour\" becomes \"lower\" (archaic/variant spelling of the verb meaning to scowl or darken); the sense of gloomy clouds is unchanged. The semicolon-to-colon shift is punctuation only.",
+  "confidence": "medium",
+  "rationaleWords": 26
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c020-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5146,
+  "completion_tokens": 1539,
+  "total_tokens": 6685,
+  "cost": 0.0012841,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012841,
+   "upstream_inference_prompt_cost": 0.0005146,
+   "upstream_inference_completions_cost": 0.0007695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1012,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "King Charles on horseback",
+   "normalized": "Equestrian statue of Charles I, Charing Cross, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "stood peeping out of window at King Charles on horseback",
+   "note": "Statue seen from the hotel window; identified by Dickens's description rather than named as a place."
+  },
+  {
+   "as_written": "Golden Cross",
+   "normalized": "Golden Cross Hotel, Charing Cross, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I could not enough admire the change he had wrought in the Golden Cross",
+   "note": "Coaching inn where Steerforth and David are staying."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I saw all London lying in the distance like a great vapour",
+   "note": ""
+  },
+  {
+   "as_written": "the Museum",
+   "normalized": "British Museum, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "took a walk through the Museum",
+   "note": "Definite article only; identification is inferred."
+  },
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": false,
+   "quote": "come home with me to Highgate, and stay a day or two",
+   "note": "Village outside London in Dickens's day; now part of Camden."
+  },
+  {
+   "as_written": "Suffolk",
+   "normalized": "Suffolk, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "my intention of going down into Suffolk",
+   "note": ""
+  }
+ ]
+}

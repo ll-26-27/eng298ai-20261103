@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c059-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3808,
+  "completion_tokens": 1033,
+  "total_tokens": 4841,
+  "cost": 0.0008973,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008973,
+   "upstream_inference_prompt_cost": 0.0003808,
+   "upstream_inference_completions_cost": 0.0005165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 863,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "a poor burying ground not very far from here",
+   "normalized": "Paupers' burial ground near Bleak House's London setting (unnamed in passage)",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "she meant a poor burying ground not very far from here, where there was an archway, and a step, and an iron gate.",
+   "note": "Unnamed in the passage; identified only by description and as the burial place of the man who took sleeping-stuff. Location uncertain."
+  }
+ ]
+}

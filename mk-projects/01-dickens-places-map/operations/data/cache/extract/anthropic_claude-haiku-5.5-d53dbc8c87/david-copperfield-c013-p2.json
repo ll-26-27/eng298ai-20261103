@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c013-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5167,
+  "completion_tokens": 1267,
+  "total_tokens": 6434,
+  "cost": 0.0011502,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011502,
+   "upstream_inference_prompt_cost": 0.0005167,
+   "upstream_inference_completions_cost": 0.0006335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 604,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "‘I am going to Dover,’ I said.",
+   "note": ""
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have associated it, ever since, with the sunny street of Canterbury, dozing as it were in the hot light",
+   "note": "Referred to as a memory; the narrator does not stay there in this passage."
+  },
+  {
+   "as_written": "Calais",
+   "normalized": "Calais, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "seen to mount a broom in the last high wind, and make direct for Calais",
+   "note": "Joke by a boatman."
+  },
+  {
+   "as_written": "Maidstone jail",
+   "normalized": "Maidstone Prison, Maidstone, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a third, that she was locked up in Maidstone jail for child-stealing",
+   "note": "Aunt's supposed imprisonment, mentioned in a boatman's joke."
+  },
+  {
+   "as_written": "South Foreland Light",
+   "normalized": "South Foreland Lighthouse, St Margaret's Bay, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "One said she lived in the South Foreland Light, and had singed her whiskers by doing so",
+   "note": "Lighthouse named in a boatman's joke."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "‘I come from London,’ I said.",
+   "note": ""
+  },
+  {
+   "as_written": "the bare, wide downs near Dover",
+   "normalized": "Downs near Dover, Kent",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "When I came, at last, upon the bare, wide downs near Dover",
+   "note": "Landscape feature, not a named place."
+  }
+ ]
+}

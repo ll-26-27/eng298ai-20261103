@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c019-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4177,
+  "completion_tokens": 771,
+  "total_tokens": 4948,
+  "cost": 0.0008032,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008032,
+   "upstream_inference_prompt_cost": 0.0004177,
+   "upstream_inference_completions_cost": 0.0003855
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 623,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Reach",
+   "normalized": "Unnamed reach of the Thames downriver from London, Dombey and Son setting",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": null,
+   "quote": "Arrived at this Reach (whither the ship had repaired by last night’s tide)",
+   "note": "Name deliberately withheld in the text; the Captain's name for it is a 'mystery'. Location uncertain."
+  }
+ ]
+}

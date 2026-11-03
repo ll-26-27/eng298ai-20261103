@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1714,
+  "completion_tokens": 134,
+  "total_tokens": 1848,
+  "cost": 0.004768,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004768,
+   "upstream_inference_prompt_cost": 0.003428,
+   "upstream_inference_completions_cost": 0.00134
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0502. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): August 26th, 17—.\n\n1818 text: You have read this strange and terrific story, Margaret; and do you not feel your blood congealed with horror, like that which even now curdles mine? Sometimes, seized with sudden agony, he could not continue his tale; at others, his voice broken, yet piercing, uttered with difficulty the words so replete with agony.\n\n1831 text: You have read this strange and terrific story, Margaret; and do you not feel your blood congeal with horror, like that which even now curdles mine? Sometimes, seized with sudden agony, he could not continue his tale; at others, his voice broken, yet piercing, uttered with difficulty the words so replete with anguish.\n\nDiff: You have read this strange and terrific story, Margaret; and do you not feel your blood [-congealed-] {+congeal+} with horror, like that which even now curdles mine? Sometimes, seized with sudden agony, he could not continue his tale; at others, his voice broken, yet piercing, uttered with difficulty the words so replete with [-agony-] {+anguish+} .\n\nContext after (unchanged): His fine and lovely eyes were now lighted up with indignation, now subdued to downcast sorrow, and quenched in infinite wretchedness."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Two small diction/grammar changes: \"congealed\" becomes \"congeal\" (verb form after \"do you not feel your blood\") and \"replete with agony\" becomes \"anguish,\" which avoids repeating \"agony\" from the previous clause. Meaning is unchanged.",
+  "confidence": "high",
+  "rationaleWords": 33
+ }
+}

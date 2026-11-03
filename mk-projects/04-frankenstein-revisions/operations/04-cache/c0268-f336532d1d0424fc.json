@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1790,
+  "completion_tokens": 118,
+  "total_tokens": 1908,
+  "cost": 0.000238,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000238,
+   "upstream_inference_prompt_cost": 0.000179,
+   "upstream_inference_completions_cost": 0.000059
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0268. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): \"They found a miserable asylum in the cottage in Germany, where I discovered them.\n\n1818 text: Felix soon learned that the treacherous Turk, for whom he and his family endured such unheard-of oppression, on discovering that his deliverer was thus reduced to poverty and impotence, became a traitor to good feeling and honour, and had quitted Italy with his daughter, insultingly sending Felix a pittance of money to aid him, as he said, in some plan of future maintenance.\n\n1831 text: Felix soon learned that the treacherous Turk, for whom he and his family endured such unheard-of oppression, on discovering that his deliverer was thus reduced to poverty and ruin, became a traitor to good feeling and honour, and had quitted Italy with his daughter, insultingly sending Felix a pittance of money, to aid him, as he said, in some plan of future maintenance.\n\nDiff: Felix soon learned that the treacherous Turk, for whom he and his family endured such unheard-of oppression, on discovering that his deliverer was thus reduced to poverty and [-impotence-] {+ruin+} , became a traitor to good feeling and honour, and had quitted Italy with his daughter, insultingly sending Felix a pittance of money {+,+} to aid him, as he said, in some plan of future maintenance.\n\nContext after (unchanged): \"Such were the events that preyed on the heart of Felix, and rendered him, when I first saw him, the most miserable of his family."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'impotence' with 'ruin' in describing the Turk's deliverer's reduced state, a shift from helplessness toward material/social collapse; plus a comma insertion. Stylistic word choice keeping the same event and meaning.",
+  "confidence": "medium",
+  "rationaleWords": 31
+ }
+}

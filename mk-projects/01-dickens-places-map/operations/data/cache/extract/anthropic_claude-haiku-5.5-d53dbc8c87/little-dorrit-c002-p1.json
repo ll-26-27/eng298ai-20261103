@@ -1,0 +1,84 @@
+{
+ "chunk": "little-dorrit-c002-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5082,
+  "completion_tokens": 1128,
+  "total_tokens": 6210,
+  "cost": 0.0010722,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010722,
+   "upstream_inference_prompt_cost": 0.0005082,
+   "upstream_inference_completions_cost": 0.000564
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 577,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "As to Marseilles, we know what Marseilles is.",
+   "note": "Travellers are held in quarantine here; the passage is set at the quarantine barracks."
+  },
+  {
+   "as_written": "the East",
+   "normalized": "East (Eastern Mediterranean and Asia)",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as we come from the East, and as the East is the country of the plague",
+   "note": "Vague regional term, not a single place."
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "As an Englishman who has been more than twenty years in China, no.",
+   "note": ""
+  },
+  {
+   "as_written": "the Foundling",
+   "normalized": "Foundling Hospital, Bloomsbury, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "when we took Pet to church at the Foundling--you have heard of the Foundling Hospital in London?",
+   "note": "Recollected visit; located in Bloomsbury in Dickens's day."
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Similar to the Institution for the Found Children in Paris?",
+   "note": "Refers to the Paris foundling institution."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "our English holding on by nonsense after every one has found it out",
+   "note": "Appears as 'English' adjective; included as a country reference."
+  }
+ ]
+}

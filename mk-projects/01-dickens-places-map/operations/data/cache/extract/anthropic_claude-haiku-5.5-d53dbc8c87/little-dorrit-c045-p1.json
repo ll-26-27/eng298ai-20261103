@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c045-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5300,
+  "completion_tokens": 833,
+  "total_tokens": 6133,
+  "cost": 0.0009465,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009465,
+   "upstream_inference_prompt_cost": 0.00053,
+   "upstream_inference_completions_cost": 0.0004165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 524,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "strike right through France into Italy, and see our Pet.",
+   "note": ""
+  },
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "strike right through France into Italy, and see our Pet.",
+   "note": ""
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘Rome is Rome, though it’s never so Romely.’",
+   "note": "Used in a pun on the proverb 'Home is Home'."
+  },
+  {
+   "as_written": "Strand",
+   "normalized": "Strand, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He was passing at nightfall along the Strand, and the lamp-lighter was going on before him",
+   "note": ""
+  }
+ ]
+}

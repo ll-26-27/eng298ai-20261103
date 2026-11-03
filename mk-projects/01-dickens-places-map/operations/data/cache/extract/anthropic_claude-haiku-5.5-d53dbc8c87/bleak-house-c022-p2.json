@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c022-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5135,
+  "completion_tokens": 479,
+  "total_tokens": 5614,
+  "cost": 0.000753,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000753,
+   "upstream_inference_prompt_cost": 0.0005135,
+   "upstream_inference_completions_cost": 0.0002395
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Tom-all-Alone’s",
+   "normalized": "Tom-all-Alone's (fictional slum), London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "When they come at last to Tom-all-Alone’s, Mr. Bucket stops for a moment at the corner",
+   "note": "Fictional London slum; cannot be located on a real map"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "he, who has lived in London all his life, can scarce believe his senses",
+   "note": ""
+  },
+  {
+   "as_written": "Hertfordshire",
+   "normalized": "Hertfordshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "“No, sir. We belong to Hertfordshire.”",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "“Saint Albans.”",
+   "note": ""
+  },
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "without which observance neither the Tough Subject nor any other Subject could be professionally conducted to Lincoln’s Inn Fields",
+   "note": "Destination of the group; police station/office implied"
+  }
+ ]
+}

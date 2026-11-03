@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1613,
+  "completion_tokens": 84,
+  "total_tokens": 1697,
+  "cost": 0.0002033,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002033,
+   "upstream_inference_prompt_cost": 0.0001613,
+   "upstream_inference_completions_cost": 0.000042
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0479. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Let the cursed and hellish monster drink deep of agony; let him feel the despair that now torments me.\"\n\n1818 text: I had begun my adjuration with solemnity, and an awe which almost assured me that the shades of my murdered friends heard and approved my devotion; but the furies possessed me as I concluded, and rage choaked my utterance.\n\n1831 text: I had begun my adjuration with solemnity, and an awe which almost assured me that the shades of my murdered friends heard and approved my devotion; but the furies possessed me as I concluded, and rage choked my utterance.\n\nDiff: I had begun my adjuration with solemnity, and an awe which almost assured me that the shades of my murdered friends heard and approved my devotion; but the furies possessed me as I concluded, and rage [-choaked-] {+choked+} my utterance.\n\nContext after (unchanged): I was answered through the stillness of night by a loud and fiendish laugh."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Change is orthographic only: 'choaked' becomes 'choked' with no change in wording or meaning. Same verb, corrected spelling.",
+  "confidence": "high",
+  "rationaleWords": 18
+ }
+}

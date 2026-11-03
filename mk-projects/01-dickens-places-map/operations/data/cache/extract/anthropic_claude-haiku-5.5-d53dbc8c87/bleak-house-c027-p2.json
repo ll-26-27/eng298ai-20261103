@@ -1,0 +1,147 @@
+{
+ "chunk": "bleak-house-c027-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5103,
+  "completion_tokens": 2713,
+  "total_tokens": 7816,
+  "cost": 0.0018668,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0018668,
+   "upstream_inference_prompt_cost": 0.0005103,
+   "upstream_inference_completions_cost": 0.0013565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1701,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Temple",
+   "normalized": "Temple, London (Inner and Middle Temple)",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "By the cloisterly Temple, and by Whitefriars",
+   "note": "Inns of Court precinct; route passage"
+  },
+  {
+   "as_written": "Whitefriars",
+   "normalized": "Whitefriars, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and by Whitefriars (there, not without a glance",
+   "note": "Former precinct; route passage"
+  },
+  {
+   "as_written": "Hanging-Sword Alley",
+   "normalized": "Hanging Sword Alley, Whitefriars, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a glance at Hanging-Sword Alley, which would seem to be something in his way",
+   "note": ""
+  },
+  {
+   "as_written": "Blackfriars Bridge",
+   "normalized": "Blackfriars Bridge, London",
+   "type": "bridge",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and by Blackfriars Bridge, and Blackfriars Road",
+   "note": ""
+  },
+  {
+   "as_written": "Blackfriars Road",
+   "normalized": "Blackfriars Road, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "and Blackfriars Road, Mr. George sedately marches",
+   "note": ""
+  },
+  {
+   "as_written": "Kent and Surrey",
+   "normalized": "Kent and Surrey, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "from Kent and Surrey",
+   "note": "Counties, roads leading into London"
+  },
+  {
+   "as_written": "elephant who has lost his castle",
+   "normalized": "Elephant and Castle, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "centring in the far-famed elephant who has lost his castle",
+   "note": "Figurative reference to the Elephant and Castle junction"
+  },
+  {
+   "as_written": "bridges of London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "from the bridges of London",
+   "note": ""
+  },
+  {
+   "as_written": "North America",
+   "normalized": "North America",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he died in North America",
+   "note": "Continent"
+  },
+  {
+   "as_written": "New Zealand",
+   "normalized": "New Zealand",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to New Zealand or Australey",
+   "note": ""
+  },
+  {
+   "as_written": "Australey",
+   "normalized": "Australia",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "New Zealand or Australey",
+   "note": "Dickens's spelling of Australia"
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "make its way home to Europe",
+   "note": "Continent"
+  },
+  {
+   "as_written": "Scotland",
+   "normalized": "Scotland, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mat's old mother in Scotland",
+   "note": ""
+  }
+ ]
+}

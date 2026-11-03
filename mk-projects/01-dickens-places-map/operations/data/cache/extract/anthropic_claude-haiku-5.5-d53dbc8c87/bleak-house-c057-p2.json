@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c057-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4949,
+  "completion_tokens": 1159,
+  "total_tokens": 6108,
+  "cost": 0.0010744,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010744,
+   "upstream_inference_prompt_cost": 0.0004949,
+   "upstream_inference_completions_cost": 0.0005795
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 798,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Saint Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "We were soon in Saint Albans and alighted a little before day",
+   "note": ""
+  },
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London (Archway toll)",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I heard of her first at the archway toll, over at Highgate",
+   "note": "Outside the metropolis in Dickens's day; now in London"
+  },
+  {
+   "as_written": "Woodpecker-tapping",
+   "normalized": "Woodpecker-tapping",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Puts a man in mind of the country house in the Woodpecker-tapping",
+   "note": "Nursery-rhyme or fairy-tale house, not locatable"
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "So having warned him out of London, I made an afternoon of it",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1607,
+  "completion_tokens": 104,
+  "total_tokens": 1711,
+  "cost": 0.0002127,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002127,
+   "upstream_inference_prompt_cost": 0.0001607,
+   "upstream_inference_completions_cost": 0.000052
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0144. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): The road ran by the side of the lake, which became narrower as I approached my native town.\n\n1818 text: I discovered more distinctly the black sides of Jura, and the bright summit of Mont Blânc; I wept like a child: \"Dear mountains! my own beautiful lake! how do you welcome your wanderer?\n\n1831 text: I discovered more distinctly the black sides of Jura, and the bright summit of Mont Blanc. I wept like a child. \"Dear mountains! my own beautiful lake! how do you welcome your wanderer?\n\nDiff: I discovered more distinctly the black sides of Jura, and the bright summit of Mont [-Blânc;-] {+Blanc.+} I wept like a child [-:-] {+.+} \" Dear mountains! my own beautiful lake! how do you welcome your wanderer?\n\nContext after (unchanged): Your summits are clear; the sky and lake are blue and placid."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Blânc becomes Blanc (orthographic accent removal), and the colon after 'child' becomes a full stop, a punctuation change that does not alter meaning or the narrator's emotion.",
+  "confidence": "medium",
+  "rationaleWords": 27
+ }
+}

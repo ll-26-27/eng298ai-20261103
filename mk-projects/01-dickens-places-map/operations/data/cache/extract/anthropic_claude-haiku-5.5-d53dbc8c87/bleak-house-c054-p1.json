@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c054-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5223,
+  "completion_tokens": 427,
+  "total_tokens": 5650,
+  "cost": 0.0007358,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007358,
+   "upstream_inference_prompt_cost": 0.0005223,
+   "upstream_inference_completions_cost": 0.0002135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 286,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincoln's Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I confronted the maid in the chambers in Lincoln's Inn Fields with a witness",
+   "note": "Refers to Mr. Tulkinghorn's chambers; not where the scene takes place."
+  }
+ ]
+}

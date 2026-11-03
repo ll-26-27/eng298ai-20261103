@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c005-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4562,
+  "completion_tokens": 1798,
+  "total_tokens": 6360,
+  "cost": 0.0013552,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013552,
+   "upstream_inference_prompt_cost": 0.0004562,
+   "upstream_inference_completions_cost": 0.000899
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1306,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Thavies Inn",
+   "normalized": "Thavies Inn, Holborn, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "scattered over the surface of Thavies Inn as we rolled out of its precincts.",
+   "note": "Former Inn of Chancery, Holborn; the Jellyby house is here."
+  },
+  {
+   "as_written": "Newgate market",
+   "normalized": "Newgate Market, Newgate Street, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "brought home from Newgate market by a policeman",
+   "note": "Historic market near Newgate; Newgate prison is not itself named."
+  },
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the letters forming the words Bleak House.",
+   "note": "Chalked by Krook as a word; the novel's house, not a London location."
+  },
+  {
+   "as_written": "Borrioboola-Gha",
+   "normalized": "Borrioboola-Gha",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the morning’s post brought a heavy correspondence relative to Borrioboola-Gha",
+   "note": "Fictional African settlement in Mrs Jellyby's scheme."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Quite an adventure for a morning in London!",
+   "note": ""
+  }
+ ]
+}

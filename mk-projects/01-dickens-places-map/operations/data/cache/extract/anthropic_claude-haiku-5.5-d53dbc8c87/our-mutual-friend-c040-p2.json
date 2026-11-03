@@ -1,0 +1,57 @@
+{
+ "chunk": "our-mutual-friend-c040-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5384,
+  "completion_tokens": 1379,
+  "total_tokens": 6763,
+  "cost": 0.0012279,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012279,
+   "upstream_inference_prompt_cost": 0.0005384,
+   "upstream_inference_completions_cost": 0.0006895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1050,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Bower",
+   "normalized": "Boffin's Bower, Harmony Jail (fictional house)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the late owner of the Bower, and the present circumstances of the Bower",
+   "note": "Named house in the novel; its real-world location is unclear."
+  },
+  {
+   "as_written": "the Mounds",
+   "normalized": "The Mounds (dust-heaps, Harmony Jail)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "they should allow the Mounds to be gradually levelled and cleared away",
+   "note": "Dust-heaps named in the novel; location inferred from the wider book, not this passage."
+  },
+  {
+   "as_written": "the British climate",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "You could hardly have been out parrot-shooting, in the British climate, sir?",
+   "note": "Adjectival reference to the country."
+  }
+ ]
+}

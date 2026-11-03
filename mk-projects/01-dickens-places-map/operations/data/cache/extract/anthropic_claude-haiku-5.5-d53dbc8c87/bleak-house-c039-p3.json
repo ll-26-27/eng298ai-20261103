@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c039-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5451,
+  "completion_tokens": 1384,
+  "total_tokens": 6835,
+  "cost": 0.0012371,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012371,
+   "upstream_inference_prompt_cost": 0.0005451,
+   "upstream_inference_completions_cost": 0.000692
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 968,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bank of England",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "old chairs and mattresses stuffed with Bank of England notes",
+   "note": "Used figuratively for the imagined hoard of money."
+  },
+  {
+   "as_written": "Suffolk",
+   "normalized": "Suffolk, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr. Elwes, of Suffolk",
+   "note": "Refers to the home of the miser John Elwes."
+  },
+  {
+   "as_written": "the Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr. Tulkinghorn of the Fields",
+   "note": "Short form for Lincoln's Inn Fields, where Tulkinghorn lives."
+  },
+  {
+   "as_written": "The Sol",
+   "normalized": "The Sol, Krook's neighbourhood public house, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The Sol skilfully carries a vein of the prevailing interest through the Harmonic nights.",
+   "note": "Probably a tavern or music hall; exact location uncertain."
+  }
+ ]
+}

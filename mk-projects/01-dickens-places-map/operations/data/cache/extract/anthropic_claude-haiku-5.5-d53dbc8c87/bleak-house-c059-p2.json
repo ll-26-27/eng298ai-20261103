@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c059-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5066,
+  "completion_tokens": 650,
+  "total_tokens": 5716,
+  "cost": 0.0008316,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008316,
+   "upstream_inference_prompt_cost": 0.0005066,
+   "upstream_inference_completions_cost": 0.000325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 430,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cook’s Court",
+   "normalized": "Cook's Court, Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "call upon us in Cook’s Court, Cursitor Street, at the present hour",
+   "note": "Snagsby's house; a court off Cursitor Street, near Chancery Lane."
+  },
+  {
+   "as_written": "Cursitor Street",
+   "normalized": "Cursitor Street, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "call upon us in Cook’s Court, Cursitor Street, at the present hour",
+   "note": "Near Chancery Lane."
+  }
+ ]
+}

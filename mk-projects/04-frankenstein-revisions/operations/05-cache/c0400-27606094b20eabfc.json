@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1643,
+  "completion_tokens": 114,
+  "total_tokens": 1757,
+  "cost": 0.004426,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004426,
+   "upstream_inference_prompt_cost": 0.003286,
+   "upstream_inference_completions_cost": 0.00114
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0400. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): I gasped for breath; and, throwing myself on the body, I exclaimed, \"Have my murderous machinations deprived you also, my dearest Henry, of life?\n\n1818 text: Two I have already destroyed; other victims await their destiny: but you, Clerval, my friend, my benefactor\"— The human frame could no longer support the agonizing suffering that I endured, and I was carried out of the room in strong convulsions.\n\n1831 text: Two I have already destroyed; other victims await their destiny: but you, Clerval, my friend, my benefactor—\" The human frame could no longer support the agonies that I endured, and I was carried out of the room in strong convulsions.\n\nDiff: Two I have already destroyed; other victims await their destiny: but you, Clerval, my friend, my benefactor [-\"-] — {+\"+} The human frame could no longer support the [-agonizing suffering-] {+agonies+} that I endured, and I was carried out of the room in strong convulsions.\n\nContext after (unchanged): A fever succeeded to this."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "\"agonizing suffering\" is condensed to \"agonies\" with the same meaning, and the closing quotation mark moves inside the dash. Both are stylistic and punctuation changes with no effect on events or interpretation.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

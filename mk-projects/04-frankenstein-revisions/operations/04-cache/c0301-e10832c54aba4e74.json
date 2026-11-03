@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1485,
+  "completion_tokens": 92,
+  "total_tokens": 1577,
+  "cost": 0.0001945,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001945,
+   "upstream_inference_prompt_cost": 0.0001485,
+   "upstream_inference_completions_cost": 0.000046
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0301. Location: 1818 Vol. II, Ch. VIII; 1831 Ch. XVI.\n\nContext before (unchanged): I crept into my hovel, and remained in silent expectation of the accustomed hour when the family arose.\n\n1818 text: That hour past, the sun mounted high in the heavens, but the cottagers did not appear.\n\n1831 text: That hour passed, the sun mounted high in the heavens, but the cottagers did not appear.\n\nDiff: That hour [-past-] {+passed+} , the sun mounted high in the heavens, but the cottagers did not appear.\n\nContext after (unchanged): I trembled violently, apprehending some dreadful misfortune."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Replacement of 'past' with 'passed' as the past tense of 'pass' is a grammatical/morphological modernization; the meaning of the sentence is unchanged.",
+  "confidence": "high",
+  "rationaleWords": 22
+ }
+}

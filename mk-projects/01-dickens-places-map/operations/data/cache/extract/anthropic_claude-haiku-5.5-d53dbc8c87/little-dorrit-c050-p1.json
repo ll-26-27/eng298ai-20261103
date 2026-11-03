@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c050-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5244,
+  "completion_tokens": 1180,
+  "total_tokens": 6424,
+  "cost": 0.0011144,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011144,
+   "upstream_inference_prompt_cost": 0.0005244,
+   "upstream_inference_completions_cost": 0.00059
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 765,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the yellow Tiber",
+   "normalized": "Tiber River, Rome, Italy",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "When it became known to the Britons on the shore of the yellow Tiber",
+   "note": "Britons in Rome are the setting for the news; Dickens's Tiber, not London's"
+  },
+  {
+   "as_written": "the black Thames",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "not, either upon the shore of the yellow Tiber or the shore of the black Thames, made apparent to men",
+   "note": ""
+  },
+  {
+   "as_written": "the Gate of the People",
+   "normalized": "Porta del Popolo, Rome, Italy",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "went through the whole round of his acquaintance between the Gate of the People and the town of Albano",
+   "note": "English name for Porta del Popolo; Gowan's acquaintance spans it"
+  },
+  {
+   "as_written": "the town of Albano",
+   "normalized": "Albano Laziale, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "between the Gate of the People and the town of Albano",
+   "note": ""
+  }
+ ]
+}

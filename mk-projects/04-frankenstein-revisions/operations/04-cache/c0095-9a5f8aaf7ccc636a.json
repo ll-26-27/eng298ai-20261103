@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2100,
+  "completion_tokens": 127,
+  "total_tokens": 2227,
+  "cost": 0.0002735,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002735,
+   "upstream_inference_prompt_cost": 0.00021,
+   "upstream_inference_completions_cost": 0.0000635
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0095. Location: 1818 Vol. I, Ch. III; 1831 Ch. IV.\n\nContext before (unchanged): If this rule were always observed; if no man allowed any pursuit whatsoever to interfere with the tranquillity of his domestic affections, Greece had not been enslaved; Cæsar would have spared his country; America would have been discovered more gradually; and the empires of Mexico and Peru had not been destroyed.\n\n1818 text: But I forget that I am moralizing in the most interesting part of my tale; and your looks remind me to proceed. My father made no reproach in his letters; and only took notice of my silence by inquiring into my occupations more particularly than before. Winter, spring, and summer, passed away during my labours; but I did not watch the blossom or the expanding leaves—sights which before always yielded me supreme delight, so deeply was I engrossed in my occupation. The leaves of that year had withered before my work drew near to a close; and now every day shewed me more plainly how well I had succeeded.\n\n1831 text: But I forget that I am moralising in the most interesting part of my tale; and your looks remind me to proceed. My father made no reproach in his letters, and only took notice of my silence by enquiring into my occupations more particularly than before. Winter, spring, and summer passed away during my labours; but I did not watch the blossom or the expanding leaves—sights which before always yielded me supreme delight—so deeply was I engrossed in my occupation. The leaves of that year had withered before my work drew near to a close; and now every day showed me more plainly how well I had succeeded.\n\nDiff: But I forget that I am [-moralizing-] {+moralising+} in the most interesting part of my tale; and your looks remind me to proceed. My father made no reproach in his letters [-;-] {+,+} and only took notice of my silence by [-inquiring-] {+enquiring+} into my occupations more particularly than before. Winter, spring, and summer [-,-] passed away during my labours; but I did not watch the blossom or the expanding leaves—sights which before always yielded me supreme delight [-,-] {+—+} so deeply was I engrossed in my occupation. The leaves of that year had withered before my work drew near to a close; and now every day [-shewed-] {+showed+} me more plainly how well I had succeeded.\n\nContext after (unchanged): But my enthusiasm was checked by my anxiety, and I appeared rather like one doomed by slavery to toil in the mines, or any other unwholesome trade, than an artist occupied by his favourite employment."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic: moralizing→moralising, inquiring→enquiring, shewed→showed. Punctuation shifts (semicolon, commas, dash) do not alter meaning; the only word change is the spelling of inquire/enquire and shew/show.",
+  "confidence": "high",
+  "rationaleWords": 26
+ }
+}

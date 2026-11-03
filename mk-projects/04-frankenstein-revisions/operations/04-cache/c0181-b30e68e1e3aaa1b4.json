@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1440,
+  "completion_tokens": 129,
+  "total_tokens": 1569,
+  "cost": 0.0002085,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002085,
+   "upstream_inference_prompt_cost": 0.000144,
+   "upstream_inference_completions_cost": 0.0000645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0181. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): \"And do you also believe that I am so very, very wicked?\n\n1818 text: Do you also join with my enemies to crush me?\"\n\n1831 text: Do you also join with my enemies to crush me, to condemn me as a murderer?\"\n\nDiff: Do you also join with my enemies to crush me {+, to condemn me as a murderer+} ? \"\n\nContext after (unchanged): Her voice was suffocated with sobs."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization",
+   "moral-religious"
+  ],
+  "significance": 4,
+  "rationale": "Adds \"to condemn me as a murderer\" to Justine's plea, making explicit the accusation against her and the charge of guilt. This sharpens the moral stakes of the trial and her sense of being judged, though events are unchanged.",
+  "confidence": "high",
+  "rationaleWords": 39
+ }
+}

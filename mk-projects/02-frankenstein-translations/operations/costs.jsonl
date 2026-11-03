@@ -1,0 +1,17 @@
+{"time":"2026-11-03T12:36:43.893Z","step":"01a-draft","model":"anthropic/claude-sonnet-5.5","prompt_tokens":862,"completion_tokens":3186,"cost_usd":0.033584}
+{"time":"2026-11-03T12:37:10.064Z","step":"01a-draft","model":"google/gemini-3.8-flash","prompt_tokens":508,"completion_tokens":2588,"cost_usd":0.010086}
+{"time":"2026-11-03T12:38:08.025Z","step":"02-locate-fr-1821","model":"google/gemini-3.8-flash","prompt_tokens":46742,"completion_tokens":785,"cost_usd":0.03800025}
+{"time":"2026-11-03T12:38:26.841Z","step":"02-locate-fr-1821","model":"google/gemini-3.8-flash","prompt_tokens":46742,"completion_tokens":105,"cost_usd":0.03545025}
+{"time":"2026-11-03T12:39:05.217Z","step":"03-compare-fr-1821","model":"anthropic/claude-sonnet-5.5","prompt_tokens":1980,"completion_tokens":2215,"cost_usd":0.02611}
+{"time":"2026-11-03T12:39:27.692Z","step":"04-translate-fr","model":"google/gemini-3.8-flash","prompt_tokens":306,"completion_tokens":326,"cost_usd":0.001452}
+{"time":"2026-11-03T12:39:50.745Z","step":"04-critique-fr","model":"anthropic/claude-sonnet-5.5","prompt_tokens":1093,"completion_tokens":3038,"cost_usd":0.032566}
+{"time":"2026-11-03T12:39:55.921Z","step":"04-revise-fr","model":"google/gemini-3.8-flash","prompt_tokens":1588,"completion_tokens":627,"cost_usd":0.00354225}
+{"time":"2026-11-03T12:40:03.148Z","step":"04-translate-de","model":"google/gemini-3.8-flash","prompt_tokens":306,"completion_tokens":337,"cost_usd":0.00149325}
+{"time":"2026-11-03T12:40:27.448Z","step":"04-critique-de","model":"anthropic/claude-sonnet-5.5","prompt_tokens":1174,"completion_tokens":3220,"cost_usd":0.034548}
+{"time":"2026-11-03T12:40:33.971Z","step":"04-revise-de","model":"google/gemini-3.8-flash","prompt_tokens":1639,"completion_tokens":650,"cost_usd":0.00366675}
+{"time":"2026-11-03T12:43:36.288Z","step":"03-compare-model-fr-oneshot","model":"anthropic/claude-sonnet-5.5","prompt_tokens":1979,"completion_tokens":2793,"cost_usd":0.031888}
+{"time":"2026-11-03T12:43:47.546Z","step":"03-compare-model-fr-revised","model":"anthropic/claude-sonnet-5.5","prompt_tokens":1977,"completion_tokens":1693,"cost_usd":0.020884}
+{"time":"2026-11-03T12:44:07.812Z","step":"03-compare-model-de-oneshot","model":"anthropic/claude-sonnet-5.5","prompt_tokens":2060,"completion_tokens":2953,"cost_usd":0.03365}
+{"time":"2026-11-03T12:44:29.047Z","step":"03-compare-model-de-revised","model":"anthropic/claude-sonnet-5.5","prompt_tokens":2058,"completion_tokens":3118,"cost_usd":0.035296}
+{"time":"2026-11-03T12:48:08.283Z","step":"02-locate-de-1912","model":"google/gemini-3.8-flash","prompt_tokens":7566,"completion_tokens":104,"cost_usd":0.0060645}
+{"time":"2026-11-03T12:48:21.960Z","step":"03-compare-de-1912","model":"anthropic/claude-sonnet-5.5","prompt_tokens":1940,"completion_tokens":2132,"cost_usd":0.0252}

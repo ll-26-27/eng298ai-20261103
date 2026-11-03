@@ -1,0 +1,120 @@
+{
+ "chunk": "little-dorrit-c016-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4737,
+  "completion_tokens": 2009,
+  "total_tokens": 6746,
+  "cost": 0.0014782,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014782,
+   "upstream_inference_prompt_cost": 0.0004737,
+   "upstream_inference_completions_cost": 0.0010045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1190,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Hatton Garden, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "within the precincts of Bleeding Heart Yard",
+   "note": "Site where the contract was made; not visited in this passage."
+  },
+  {
+   "as_written": "Twickenham",
+   "normalized": "Twickenham, Middlesex",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "turned his face on a certain Saturday towards Twickenham",
+   "note": "Destination; Meagles's cottage is there. Outside London then."
+  },
+  {
+   "as_written": "Fulham",
+   "normalized": "Fulham, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He went by Fulham and Putney",
+   "note": "Then on the western outskirts, in Middlesex."
+  },
+  {
+   "as_written": "Putney",
+   "normalized": "Putney, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "He went by Fulham and Putney",
+   "note": "Then in Surrey, on the metropolitan fringe."
+  },
+  {
+   "as_written": "the heath",
+   "normalized": "Putney Heath, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "for the pleasure of strolling over the heath",
+   "note": "Identified only as 'the heath'; inferred from route via Putney."
+  },
+  {
+   "as_written": "Land's End",
+   "normalized": "Land's End, Cornwall",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "though he had been walking to the Land’s End",
+   "note": ""
+  },
+  {
+   "as_written": "the Clyde",
+   "normalized": "River Clyde, Scotland",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "had betaken himself to the banks of the Clyde",
+   "note": ""
+  },
+  {
+   "as_written": "Lyons",
+   "normalized": "Lyon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "There he had had an offer to go to Lyons",
+   "note": ""
+  },
+  {
+   "as_written": "Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "from Lyons had been engaged to go to Germany",
+   "note": ""
+  },
+  {
+   "as_written": "St Petersburg",
+   "normalized": "Saint Petersburg, Russia",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "had an offer to go to St Petersburg",
+   "note": ""
+  }
+ ]
+}

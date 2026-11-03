@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1566,
+  "completion_tokens": 114,
+  "total_tokens": 1680,
+  "cost": 0.0002136,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002136,
+   "upstream_inference_prompt_cost": 0.0001566,
+   "upstream_inference_completions_cost": 0.000057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0053. Location: 1818 Vol. I, Ch. I; 1831 Ch. II.\n\nContext before (unchanged): A new light seemed to dawn upon my mind; and, bounding with joy, I communicated my discovery to my father.\n\n1818 text: I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked carelessly at the title-page of my book, and said, \"Ah!\n\n1831 text: My father looked carelessly at the titlepage of my book, and said, \"Ah!\n\nDiff: [-I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect.-] My father looked carelessly at the [-title-page-] {+titlepage+} of my book, and said, \" Ah!\n\nContext after (unchanged): Cornelius Agrippa!"
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Removes the narrator's general remark about instructors neglecting to direct pupils toward useful knowledge, a moralizing aside on education that the 1831 text drops; the hyphenation change to 'titlepage' is orthographic.",
+  "confidence": "high",
+  "rationaleWords": 31
+ }
+}

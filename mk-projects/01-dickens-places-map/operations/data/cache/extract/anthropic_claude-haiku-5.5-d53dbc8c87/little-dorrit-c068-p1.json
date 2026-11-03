@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c068-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5554,
+  "completion_tokens": 1579,
+  "total_tokens": 7133,
+  "cost": 0.0013449,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013449,
+   "upstream_inference_prompt_cost": 0.0005554,
+   "upstream_inference_completions_cost": 0.0007895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1013,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Arthur continuing to lie very ill in the Marshalsea",
+   "note": "Debtors' prison where Arthur is held."
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Down in Bleeding Heart Yard there was scarcely an inhabitant of note",
+   "note": "Fictional yard, located in Clerkenwell in the novel; the real location is uncertain."
+  },
+  {
+   "as_written": "the bills of mortality",
+   "normalized": "London (area defined by the Bills of Mortality)",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Everybody else within the bills of mortality was hot",
+   "note": "Historical term for the area of London covered by parish mortality returns; used figuratively."
+  },
+  {
+   "as_written": "the Dock of the Steam-Tug, Pancks",
+   "normalized": "Pancks's office (the Dock), Bleeding Heart Yard, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he steamed in and out of his little back Dock",
+   "note": "Pancks's nickname for his office/workroom; fictional."
+  },
+  {
+   "as_written": "Happy Cottage",
+   "normalized": "Happy Cottage, Bleeding Heart Yard, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "come and sit along with father in Happy Cottage",
+   "note": "Plornish family home in the Yard; fictional name for a dwelling."
+  }
+ ]
+}

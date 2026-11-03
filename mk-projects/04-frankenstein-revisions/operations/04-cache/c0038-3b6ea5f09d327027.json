@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1533,
+  "completion_tokens": 85,
+  "total_tokens": 1618,
+  "cost": 0.0001958,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001958,
+   "upstream_inference_prompt_cost": 0.0001533,
+   "upstream_inference_completions_cost": 0.0000425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0038. Location: 1818 Letter IV; 1831 Letter IV.\n\nContext before (unchanged): \"And yet you rescued me from a strange and perilous situation; you have benevolently restored me to life.\"\n\n1818 text: Soon after this he inquired, if I thought that the breaking up of the ice had destroyed the other sledge?\n\n1831 text: Soon after this he enquired if I thought that the breaking up of the ice had destroyed the other sledge?\n\nDiff: Soon after this he [-inquired,-] {+enquired+} if I thought that the breaking up of the ice had destroyed the other sledge?\n\nContext after (unchanged): I replied, that I could not answer with any degree of certainty; for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Replaces \"inquired\" with \"enquired\", a near-synonym swap with no change in meaning, event, or character; the question's content is identical.",
+  "confidence": "high",
+  "rationaleWords": 20
+ }
+}

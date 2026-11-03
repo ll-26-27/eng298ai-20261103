@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c021-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5503,
+  "completion_tokens": 824,
+  "total_tokens": 6327,
+  "cost": 0.0009623,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009623,
+   "upstream_inference_prompt_cost": 0.0005503,
+   "upstream_inference_completions_cost": 0.000412
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 470,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "half the women in Yarmouth--ah! and in five mile round--are mad against that girl",
+   "note": ""
+  },
+  {
+   "as_written": "Blunderstone",
+   "normalized": "Blunderstone, Suffolk",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "riding out to Blunderstone together",
+   "note": "Dickens's fictional village, loosely based on Blundeston; cannot be located precisely"
+  },
+  {
+   "as_written": "the Rookery",
+   "normalized": "The Rookery, Blunderstone",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a house there, that they call the--what is it?--the Rookery",
+   "note": "Fictional house at Blunderstone"
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "there's a Duchess in England can touch her",
+   "note": ""
+  }
+ ]
+}

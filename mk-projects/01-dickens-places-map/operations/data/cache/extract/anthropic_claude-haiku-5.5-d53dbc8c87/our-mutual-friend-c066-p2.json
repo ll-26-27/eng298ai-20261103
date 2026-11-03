@@ -1,0 +1,39 @@
+{
+ "chunk": "our-mutual-friend-c066-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5590,
+  "completion_tokens": 865,
+  "total_tokens": 6455,
+  "cost": 0.0009915,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009915,
+   "upstream_inference_prompt_cost": 0.000559,
+   "upstream_inference_completions_cost": 0.0004325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 717,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the land of Beanstalk",
+   "normalized": "Land of Beanstalk (Jack and the Beanstalk fairy tale)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he came home in the land of Beanstalk, and wanted Jack for supper",
+   "note": "Fairy-tale setting, not locatable; figurative reference in Miss Wren's dialogue."
+  }
+ ]
+}

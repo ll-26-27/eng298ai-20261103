@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1526,
+  "completion_tokens": 85,
+  "total_tokens": 1611,
+  "cost": 0.0001951,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001951,
+   "upstream_inference_prompt_cost": 0.0001526,
+   "upstream_inference_completions_cost": 0.0000425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0217. Location: 1818 Vol. II, Ch. III; 1831 Ch. XI.\n\nContext before (unchanged): (none)\n\n1818 text: \"It is with considerable difficulty that I remember the original æra of my being: all the events of that period appear confused and indistinct.\n\n1831 text: \"It is with considerable difficulty that I remember the original era of my being: all the events of that period appear confused and indistinct.\n\nDiff: \" It is with considerable difficulty that I remember the original [-æra-] {+era+} of my being: all the events of that period appear confused and indistinct.\n\nContext after (unchanged): A strange multiplicity of sensations seized me, and I saw, felt, heard, and smelt, at the same time; and it was, indeed, a long time before I learned to distinguish between the operations of my various senses."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "The only change is the ligature æ in 'æra' replaced by plain 'era'; the word and meaning are identical, so this is purely orthographic.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

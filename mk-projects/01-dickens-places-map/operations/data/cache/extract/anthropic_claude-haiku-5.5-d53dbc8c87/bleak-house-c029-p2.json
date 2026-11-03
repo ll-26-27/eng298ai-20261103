@@ -1,0 +1,66 @@
+{
+ "chunk": "bleak-house-c029-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4856,
+  "completion_tokens": 1252,
+  "total_tokens": 6108,
+  "cost": 0.0011116,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011116,
+   "upstream_inference_prompt_cost": 0.0004856,
+   "upstream_inference_completions_cost": 0.000626
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 890,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "your ladyship’s mansion of Chesney Wold",
+   "note": "Fictional country house in Lincolnshire; cannot be located."
+  },
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a short out in the county of Lincolnshire",
+   "note": ""
+  },
+  {
+   "as_written": "Chancery Lane",
+   "normalized": "Chancery Lane, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "at the house of a person named Krook, near Chancery Lane",
+   "note": ""
+  },
+  {
+   "as_written": "Olympus",
+   "normalized": "Mount Olympus, Greece",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "leave his Olympus by the hall-fire",
+   "note": "Mythological mountain used figuratively for the Dedlock hall; not a real location in this context."
+  }
+ ]
+}

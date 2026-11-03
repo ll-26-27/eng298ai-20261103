@@ -1,0 +1,57 @@
+{
+ "chunk": "little-dorrit-c065-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4671,
+  "completion_tokens": 1017,
+  "total_tokens": 5688,
+  "cost": 0.0009756,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009756,
+   "upstream_inference_prompt_cost": 0.0004671,
+   "upstream_inference_completions_cost": 0.0005085
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 740,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "prison",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the prison’s poverty, and shabbiness, and dirt, were growing in the sultry atmosphere",
+   "note": "Not named in this passage; identified from the chapter title 'A Plea in the Marshalsea' and context."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "It was only yesterday evening that I came to London with my brother.",
+   "note": ""
+  },
+  {
+   "as_written": "Italian",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the ripening touch of the Italian sun was visible upon her face",
+   "note": "Named by adjective only."
+  }
+ ]
+}

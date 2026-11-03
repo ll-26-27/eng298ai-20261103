@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1587,
+  "completion_tokens": 104,
+  "total_tokens": 1691,
+  "cost": 0.0002107,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002107,
+   "upstream_inference_prompt_cost": 0.0001587,
+   "upstream_inference_completions_cost": 0.000052
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0466. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): I know not; I lost sensation, and chains and darkness were the only objects that pressed upon me.\n\n1818 text: Sometimes, indeed, I dreamt that I wandered in flowery meadows and pleasant vales with the friends of my youth; but awoke, and found myself in a dungeon.\n\n1831 text: Sometimes, indeed, I dreamt that I wandered in flowery meadows and pleasant vales with the friends of my youth; but I awoke, and found myself in a dungeon.\n\nDiff: Sometimes, indeed, I dreamt that I wandered in flowery meadows and pleasant vales with the friends of my youth; but {+I+} awoke, and found myself in a dungeon.\n\nContext after (unchanged): Melancholy followed, but by degrees I gained a clear conception of my miseries and situation, and was then released from my prison."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the insertion of the pronoun \"I\" before \"awoke\" changes; the sentence's meaning and syntax are unaffected, a minor grammatical smoothing with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 25
+ }
+}

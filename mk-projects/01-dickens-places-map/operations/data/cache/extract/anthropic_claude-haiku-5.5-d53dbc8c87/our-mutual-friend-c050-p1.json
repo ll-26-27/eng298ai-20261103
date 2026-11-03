@@ -1,0 +1,93 @@
+{
+ "chunk": "our-mutual-friend-c050-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5497,
+  "completion_tokens": 1994,
+  "total_tokens": 7491,
+  "cost": 0.0015467,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015467,
+   "upstream_inference_prompt_cost": 0.0005497,
+   "upstream_inference_completions_cost": 0.000997
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1313,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Sackville Street",
+   "normalized": "Sackville Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "publicly announced on a waving hearthrug in Sackville Street",
+   "note": "Site of the Lammles' sale announcement; the Lammles' house is implied, not named here."
+  },
+  {
+   "as_written": "Pocket-Breaches",
+   "normalized": "Pocket-Breaches",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Hamilton Veneering, Esquire, M.P. for Pocket-Breaches",
+   "note": "Fictional parliamentary constituency."
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "some of the longer heads in the City are whispered to have shaken themselves",
+   "note": ""
+  },
+  {
+   "as_written": "Snigsworthy Park",
+   "normalized": "Snigsworthy Park",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "rather like the housekeeper’s room at Snigsworthy Park",
+   "note": "Fictional country house."
+  },
+  {
+   "as_written": "the Analytical’s pantry",
+   "normalized": "Analytical Club, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "The camels are polishing up in the Analytical’s pantry",
+   "note": "Fictional club named after its members' society; location assumed London."
+  },
+  {
+   "as_written": "Duke Street, Saint James’s",
+   "normalized": "Duke Street, St James’s, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "his lodgings over the stable yard in Duke Street, Saint James’s",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Mary Axe",
+   "normalized": "St Mary Axe, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "at Mr Riah’s in Saint Mary Axe.",
+   "note": "Location of Riah's premises, referred to as the place of the encounter with Fledgeby."
+  }
+ ]
+}

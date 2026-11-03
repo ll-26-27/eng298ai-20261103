@@ -1,0 +1,57 @@
+{
+ "chunk": "great-expectations-c025-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3190,
+  "completion_tokens": 940,
+  "total_tokens": 4130,
+  "cost": 0.000789,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000789,
+   "upstream_inference_prompt_cost": 0.000319,
+   "upstream_inference_completions_cost": 0.00047
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 689,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Walworth",
+   "normalized": "Walworth, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "he looked as unconscious of his Walworth property as if the Castle",
+   "note": ""
+  },
+  {
+   "as_written": "the Castle",
+   "normalized": "Wemmick's house (the Castle), Walworth, London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "When I go into the office, I leave the Castle behind me",
+   "note": "Wemmick's nickname for his house; fictional, located in Walworth"
+  },
+  {
+   "as_written": "Little Britain",
+   "normalized": "Little Britain, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "we started for Little Britain",
+   "note": ""
+  }
+ ]
+}

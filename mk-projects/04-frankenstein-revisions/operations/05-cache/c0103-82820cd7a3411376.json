@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1617,
+  "completion_tokens": 106,
+  "total_tokens": 1723,
+  "cost": 0.004294,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004294,
+   "upstream_inference_prompt_cost": 0.003234,
+   "upstream_inference_completions_cost": 0.00106
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0103. Location: 1818 Vol. I, Ch. IV; 1831 Ch. V.\n\nContext before (unchanged): The porter opened the gates of the court, which had that night been my asylum, and I issued into the streets, pacing them with quick steps, as if I sought to avoid the wretch whom I feared every turning of the street would present to my view.\n\n1818 text: I did not dare return to the apartment which I inhabited, but felt impelled to hurry on, although wetted by the rain, which poured from a black and comfortless sky.\n\n1831 text: I did not dare return to the apartment which I inhabited, but felt impelled to hurry on, although drenched by the rain which poured from a black and comfortless sky.\n\nDiff: I did not dare return to the apartment which I inhabited, but felt impelled to hurry on, although [-wetted-] {+drenched+} by the rain [-,-] which poured from a black and comfortless sky.\n\nContext after (unchanged): I continued walking in this manner for some time, endeavouring, by bodily exercise, to ease the load that weighed upon my mind."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "expansion"
+  ],
+  "significance": 1,
+  "rationale": "'wetted' becomes the stronger 'drenched', and the comma after 'rain' is dropped so the clause reads as restrictive. These are diction and punctuation tweaks with no change to events or character.",
+  "confidence": "high",
+  "rationaleWords": 31
+ }
+}

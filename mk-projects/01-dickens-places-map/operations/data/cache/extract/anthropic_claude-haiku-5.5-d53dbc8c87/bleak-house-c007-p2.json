@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c007-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5188,
+  "completion_tokens": 1074,
+  "total_tokens": 6262,
+  "cost": 0.0010558,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010558,
+   "upstream_inference_prompt_cost": 0.0005188,
+   "upstream_inference_completions_cost": 0.000537
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 735,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "they had heard a great deal said of Chesney Wold, and really didn’t know what to do with themselves",
+   "note": "Fictional country house of the Dedlocks; location not identified in the passage."
+  },
+  {
+   "as_written": "the Ghost’s Walk",
+   "normalized": "Ghost's Walk (terrace at Chesney Wold)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The terrace below is much admired. It is called, from an old story in the family, the Ghost’s Walk.",
+   "note": "Name of a terrace at Chesney Wold; fictional, not locatable beyond the house."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "came from London only last night by the mail",
+   "note": "Refers to the city as a whole, as the lawyers' point of origin."
+  }
+ ]
+}

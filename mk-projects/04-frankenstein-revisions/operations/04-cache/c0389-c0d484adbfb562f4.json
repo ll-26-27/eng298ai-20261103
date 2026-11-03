@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1606,
+  "completion_tokens": 84,
+  "total_tokens": 1690,
+  "cost": 0.0002026,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002026,
+   "upstream_inference_prompt_cost": 0.0001606,
+   "upstream_inference_completions_cost": 0.000042
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0389. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): As I was occupied in fixing the boat and arranging the sails, several people crowded towards the spot.\n\n1818 text: They seemed very much surprised at my appearance; but, instead of offering me any assistance, whispered together with gestures that at any other time might have produced in me a slight sensation of alarm.\n\n1831 text: They seemed much surprised at my appearance; but, instead of offering me any assistance, whispered together with gestures that at any other time might have produced in me a slight sensation of alarm.\n\nDiff: They seemed [-very-] much surprised at my appearance; but, instead of offering me any assistance, whispered together with gestures that at any other time might have produced in me a slight sensation of alarm.\n\nContext after (unchanged): As it was, I merely remarked that they spoke English; and I therefore addressed them in that language: \"My good friends,\" said I, \"will you be so kind as to tell me the name of this town, and inform me where I am?\""
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Removal of the intensifier \"very\" in \"very much surprised\" simply trims emphasis without replacing it with other material or changing events or character.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "bleak-house-c006-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5125,
+  "completion_tokens": 574,
+  "total_tokens": 5699,
+  "cost": 0.0007995,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007995,
+   "upstream_inference_prompt_cost": 0.0005125,
+   "upstream_inference_completions_cost": 0.000287
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "westward",
+   "normalized": "West London",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "The day had brightened very much, and still brightened as we went westward.",
+   "note": "Direction only, not a named place; consider removing"
+  },
+  {
+   "as_written": "Whittington",
+   "normalized": "Whittington",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "reminding me of my namesake Whittington",
+   "note": "Person's name, not a place; should not be listed"
+  },
+  {
+   "as_written": "Barnet",
+   "normalized": "Barnet, Hertfordshire",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "At Barnet there were other horses waiting for us",
+   "note": ""
+  },
+  {
+   "as_written": "St. Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "before we came to St. Albans, near to which town Bleak House was, we knew.",
+   "note": ""
+  },
+  {
+   "as_written": "Bleak House",
+   "normalized": "Bleak House",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "There was a light sparkling on the top of a hill before us, and the driver, pointing to it with his whip and crying, “That’s Bleak House!”",
+   "note": "Fictional house near St Albans"
+  },
+  {
+   "as_written": "Reading",
+   "normalized": "Reading, Berkshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "on the memorable day of my journey to Reading",
+   "note": ""
+  },
+  {
+   "as_written": "Africa",
+   "normalized": "Africa",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "She exerts herself very much for Africa, sir,",
+   "note": ""
+  }
+ ]
+}

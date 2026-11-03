@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c017-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5686,
+  "completion_tokens": 718,
+  "total_tokens": 6404,
+  "cost": 0.0009276,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009276,
+   "upstream_inference_prompt_cost": 0.0005686,
+   "upstream_inference_completions_cost": 0.000359
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 492,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Sussex coast",
+   "normalized": "Sussex coast, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I waited upon him down on the Sussex coast there",
+   "note": "Captain Cuttle's reference to the earlier business; the coast is only referred to."
+  },
+  {
+   "as_written": "Brig Place, number nine",
+   "normalized": "Brig Place, number nine (Captain Cuttle's lodging)",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "if you was to find yourself near Brig Place, number nine, at any time",
+   "note": "Location unclear; may be fictional. Verify against the novel."
+  }
+ ]
+}

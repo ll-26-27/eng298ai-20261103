@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1687,
+  "completion_tokens": 104,
+  "total_tokens": 1791,
+  "cost": 0.0002207,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002207,
+   "upstream_inference_prompt_cost": 0.0001687,
+   "upstream_inference_completions_cost": 0.000052
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0322. Location: 1818 Vol. II, Ch. IX; 1831 Ch. XVII.\n\nContext before (unchanged): If any being felt emotions of benevolence towards me, I should return them an hundred and an hundred fold; for that one creature's sake, I would make peace with the whole kind!\n\n1818 text: But I now indulge in dreams of bliss that cannot be realized. What I ask of you is reasonable and moderate; I demand a creature of another sex, but as hideous as myself: the gratification is small, but it is all that I can receive, and it shall content me.\n\n1831 text: But I now indulge in dreams of bliss that cannot be realised. What I ask of you is reasonable and moderate; I demand a creature of another sex, but as hideous as myself; the gratification is small, but it is all that I can receive, and it shall content me.\n\nDiff: But I now indulge in dreams of bliss that cannot be [-realized-] {+realised+} . What I ask of you is reasonable and moderate; I demand a creature of another sex, but as hideous as myself [-:-] {+;+} the gratification is small, but it is all that I can receive, and it shall content me.\n\nContext after (unchanged): It is true, we shall be monsters, cut off from all the world; but on that account we shall be more attached to one another."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "other"
+  ],
+  "significance": 1,
+  "rationale": "Changes 'realized' to 'realised' (orthography) and a colon to a semicolon after 'myself'; the punctuation swap is minor and does not alter the Creature's demand or its meaning.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

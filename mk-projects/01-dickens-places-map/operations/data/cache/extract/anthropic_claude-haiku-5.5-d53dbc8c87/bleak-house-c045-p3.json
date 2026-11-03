@@ -1,0 +1,75 @@
+{
+ "chunk": "bleak-house-c045-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3938,
+  "completion_tokens": 983,
+  "total_tokens": 4921,
+  "cost": 0.0008853,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008853,
+   "upstream_inference_prompt_cost": 0.0003938,
+   "upstream_inference_completions_cost": 0.0004915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 609,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "glad to be in England again",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "to welcome him home to England",
+   "note": "Same country named again later; listed once."
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "his probable return to India",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Richard proposed that we all should go to London together",
+   "note": "Destination of the journey; also mentioned as 'London' later."
+  },
+  {
+   "as_written": "Symond’s Inn",
+   "normalized": "Symond's Inn, Chancery Lane, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Say at Vholes’s, Symond’s Inn.",
+   "note": "Former Inn of Chancery, demolished in 1882; lodging of Vholes's office."
+  }
+ ]
+}

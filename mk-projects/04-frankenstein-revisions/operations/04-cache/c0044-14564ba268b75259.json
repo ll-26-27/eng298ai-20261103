@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2439,
+  "completion_tokens": 154,
+  "total_tokens": 2593,
+  "cost": 0.0003209,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003209,
+   "upstream_inference_prompt_cost": 0.0002439,
+   "upstream_inference_completions_cost": 0.000077
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0044. Location: 1818 Letter IV; 1831 Letter IV.\n\nContext before (unchanged): You seek for knowledge and wisdom, as I once did; and I ardently hope that the gratification of your wishes may not be a serpent to sting you, as mine has been.\n\n1818 text: I do not know that the relation of my misfortunes will be useful to you, yet, if you are inclined, listen to my tale. I believe that the strange incidents connected with it will afford a view of nature, which may enlarge your faculties and understanding. You will hear of powers and occurrences, such as you have been accustomed to believe impossible: but I do not doubt that my tale conveys in its series internal evidence of the truth of the events of which it is composed.\" You may easily conceive that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes.\n\n1831 text: I do not know that the relation of my disasters will be useful to you; yet, when I reflect that you are pursuing the same course, exposing yourself to the same dangers which have rendered me what I am, I imagine that you may deduce an apt moral from my tale; one that may direct you if you succeed in your undertaking, and console you in case of failure. Prepare to hear of occurrences which are usually deemed marvellous. Were we among the tamer scenes of nature, I might fear to encounter your unbelief, perhaps your ridicule; but many things will appear possible in these wild and mysterious regions, which would provoke the laughter of those unacquainted with the ever-varied powers of nature:—nor can I doubt but that my tale conveys in its series internal evidence of the truth of the events of which it is composed.\" You may easily imagine that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes.\n\nDiff: I do not know that the relation of my [-misfortunes-] {+disasters+} will be useful to you [-,-] {+;+} yet, [-if-] {+when I reflect that+} you are [-inclined-] {+pursuing the same course+} , [-listen-] {+exposing yourself+} to {+the same dangers which have rendered me what I am, I imagine that you may deduce an apt moral from+} my tale [-. I believe-] {+; one+} that [-the strange incidents connected with it will afford a view of nature, which-] may [-enlarge-] {+direct you if you succeed in+} your [-faculties-] {+undertaking,+} and [-understanding-] {+console you in case of failure+} . [-You will-] {+Prepare to+} hear of [-powers and-] occurrences {+which are usually deemed marvellous. Were we among the tamer scenes of nature+} , [-such as you have been accustomed-] {+I might fear+} to [-believe impossible:-] {+encounter your unbelief, perhaps your ridicule;+} but {+many things will appear possible in these wild and mysterious regions, which would provoke the laughter of those unacquainted with the ever-varied powers of nature:—nor can+} I [-do not-] doubt {+but+} that my tale conveys in its series internal evidence of the truth of the events of which it is composed. \" You may easily [-conceive-] {+imagine+} that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes.\n\nContext after (unchanged): I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "moral-religious",
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "Large rewrite adds Walton's-style framing of the tale as a moral lesson for the listener ('apt moral', 'console you in case of failure') and expands the 'marvellous' occurrences, with Victor's reference to the 'same dangers which have rendered me what I am' deepening his self-presentation as a warning figure.",
+  "confidence": "medium",
+  "rationaleWords": 49
+ }
+}

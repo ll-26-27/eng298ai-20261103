@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1660,
+  "completion_tokens": 381,
+  "total_tokens": 2041,
+  "cost": 0.0003565,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003565,
+   "upstream_inference_prompt_cost": 0.000166,
+   "upstream_inference_completions_cost": 0.0001905
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 249,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0489. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Again do I vow vengeance; again do I devote thee, miserable fiend, to torture and death.\n\n1818 text: Never will I omit my search, until he or I perish; and then with what ecstacy shall I join my Elizabeth, and those who even now prepare for me the reward of my tedious toil and horrible pilgrimage.\n\n1831 text: Never will I give up my search, until he or I perish; and then with what ecstasy shall I join my Elizabeth, and my departed friends, who even now prepare for me the reward of my tedious toil and horrible pilgrimage!\n\nDiff: Never will I [-omit-] {+give up+} my search, until he or I perish; and then with what [-ecstacy-] {+ecstasy+} shall I join my Elizabeth, and [-those-] {+my departed friends,+} who even now prepare for me the reward of my tedious toil and horrible pilgrimage [-.-] {+!+}\n\nContext after (unchanged): As I still pursued my journey to the northward, the snows thickened, and the cold increased in a degree almost too severe to support."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "wording",
+   "spelling"
+  ],
+  "significance": 3,
+  "rationale": "The main change is 'those' becoming 'my departed friends', which specifies who awaits the narrator and adds emphasis on his bonds with the dead. 'omit' to 'give up' is wording, and 'ecstacy' to 'ecstasy' is spelling.",
+  "confidence": "medium",
+  "rationaleWords": 36
+ }
+}

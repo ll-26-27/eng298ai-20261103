@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c022-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5477,
+  "completion_tokens": 388,
+  "total_tokens": 5865,
+  "cost": 0.0007417,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007417,
+   "upstream_inference_prompt_cost": 0.0005477,
+   "upstream_inference_completions_cost": 0.000194
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 291,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Ain’t you the idlest vagabond in London?",
+   "note": "Referred to in Carker's insult; the city itself is not a setting in this passage."
+  }
+ ]
+}

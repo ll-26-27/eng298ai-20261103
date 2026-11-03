@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c046-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4327,
+  "completion_tokens": 749,
+  "total_tokens": 5076,
+  "cost": 0.0008072,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008072,
+   "upstream_inference_prompt_cost": 0.0004327,
+   "upstream_inference_completions_cost": 0.0003745
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 405,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Tom-all-Alone's",
+   "normalized": "Tom-all-Alone's, London",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": true,
+   "quote": "In this order, the two come up out of Tom-all-Alone’s into the broad rays of the sunlight and the purer air.",
+   "note": "Dickens's fictional slum, placed in London; not a real locatable street."
+  },
+  {
+   "as_written": "Saint Albans",
+   "normalized": "St Albans, Hertfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "“He was along with me, sir,” says the woman. “Oh, you Jo! He was along with me, sir, down at Saint Albans, ill,",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Don’t let me ever see you nowheres within forty mile of London, or you’ll repent it.",
+   "note": "Named as the limit of Jo's banishment, within a quoted speech."
+  }
+ ]
+}

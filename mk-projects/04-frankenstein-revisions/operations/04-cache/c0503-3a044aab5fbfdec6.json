@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2127,
+  "completion_tokens": 126,
+  "total_tokens": 2253,
+  "cost": 0.0002757,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002757,
+   "upstream_inference_prompt_cost": 0.0002127,
+   "upstream_inference_completions_cost": 0.000063
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0503. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): Sometimes he commanded his countenance and tones, and related the most horrible incidents with a tranquil voice, suppressing every mark of agitation; then, like a volcano bursting forth, his face would suddenly change to an expression of the wildest rage, as he shrieked out imprecations on his persecutor.\n\n1818 text: His tale is connected, and told with an appearance of the simplest truth; yet I own to you that the letters of Felix and Safie, which he shewed me, and the apparition of the monster, seen from our ship, brought to me a greater conviction of the truth of his narrative than his asseverations, however earnest and connected. Such a monster has then really existence; I cannot doubt it; yet I am lost in surprise and admiration. Sometimes I endeavoured to gain from Frankenstein the particulars of his creature's formation; but on this point he was impenetrable. \"Are you mad, my friend?\" said he, \"or whither does your senseless curiosity lead you?\n\n1831 text: His tale is connected, and told with an appearance of the simplest truth; yet I own to you that the letters of Felix and Safie, which he showed me, and the apparition of the monster seen from our ship, brought to me a greater conviction of the truth of his narrative than his asseverations, however earnest and connected. Such a monster has then really existence! I cannot doubt it; yet I am lost in surprise and admiration. Sometimes I endeavoured to gain from Frankenstein the particulars of his creature's formation: but on this point he was impenetrable. \"Are you mad, my friend?\" said he; \"or whither does your senseless curiosity lead you?\n\nDiff: His tale is connected, and told with an appearance of the simplest truth; yet I own to you that the letters of Felix and Safie, which he [-shewed-] {+showed+} me, and the apparition of the monster [-,-] seen from our ship, brought to me a greater conviction of the truth of his narrative than his asseverations, however earnest and connected. Such a monster has then really existence [-;-] {+!+} I cannot doubt it; yet I am lost in surprise and admiration. Sometimes I endeavoured to gain from Frankenstein the particulars of his creature's formation [-;-] {+:+} but on this point he was impenetrable. \" Are you mad, my friend? \" said he [-,-] {+;+} \" or whither does your senseless curiosity lead you?\n\nContext after (unchanged): Would you also create for yourself and the world a demoniacal enemy?"
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Mostly punctuation and orthography: 'shewed' to 'showed', plus comma/semicolon/exclamation swaps. No change in wording, events, or meaning; the only substantive-seeming difference is the altered mark of emphasis after 'existence'.",
+  "confidence": "high",
+  "rationaleWords": 29
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c034-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5209,
+  "completion_tokens": 922,
+  "total_tokens": 6131,
+  "cost": 0.0009819,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009819,
+   "upstream_inference_prompt_cost": 0.0005209,
+   "upstream_inference_completions_cost": 0.000461
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 599,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "When they present themselves in Lincoln’s Inn Fields, Mr. Tulkinghorn is engaged and not to be seen.",
+   "note": ""
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "housekeeper at Chesney Wold.",
+   "note": "Fictional country house in Bleak House; not locatable."
+  },
+  {
+   "as_written": "Clifford’s Inn",
+   "normalized": "Clifford's Inn, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "You must go to Melchisedech’s in Clifford’s Inn.",
+   "note": "Former Inn of Chancery; Melchisedech's office is there."
+  }
+ ]
+}

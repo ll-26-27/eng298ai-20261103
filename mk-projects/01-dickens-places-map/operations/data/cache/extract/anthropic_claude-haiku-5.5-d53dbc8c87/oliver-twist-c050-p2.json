@@ -1,0 +1,39 @@
+{
+ "chunk": "oliver-twist-c050-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5083,
+  "completion_tokens": 641,
+  "total_tokens": 5724,
+  "cost": 0.0008288,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008288,
+   "upstream_inference_prompt_cost": 0.0005083,
+   "upstream_inference_completions_cost": 0.0003205
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 498,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Folly Ditch",
+   "normalized": "Folly Ditch (Jacob's Island), Bermondsey, London",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I may drop into the Folly Ditch, and clear off that way.",
+   "note": "Real ditch in Dickens's Jacob's Island; the house is beside it, and the water is named as the escape route."
+  }
+ ]
+}

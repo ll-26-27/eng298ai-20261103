@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c016-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5258,
+  "completion_tokens": 935,
+  "total_tokens": 6193,
+  "cost": 0.0009933,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009933,
+   "upstream_inference_prompt_cost": 0.0005258,
+   "upstream_inference_completions_cost": 0.0004675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 729,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Cottage",
+   "normalized": "The Cottage (Meagles's house), Twickenham, Middlesex",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "She was an important part of the Cottage, he said, and all his friends knew her.",
+   "note": "Proper name of the Meagles family home; the passage does not state its location, so the Twickenham identification is from the novel's wider setting."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "do you remember when you advised me to go straight to London?",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "david-copperfield-c017-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5106,
+  "completion_tokens": 1241,
+  "total_tokens": 6347,
+  "cost": 0.0011311,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011311,
+   "upstream_inference_prompt_cost": 0.0005106,
+   "upstream_inference_completions_cost": 0.0006205
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 897,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Dover",
+   "normalized": "Dover, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as soon as I was housed at Dover",
+   "note": ""
+  },
+  {
+   "as_written": "Doctor Strong’s",
+   "normalized": "Doctor Strong's School, Canterbury, Kent",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "On my being settled at Doctor Strong’s I wrote to her again",
+   "note": "Fictional school name; Canterbury location is in the novel"
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the coach-fare to Yarmouth was always to be had of her for the asking",
+   "note": ""
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Canterbury, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "she made several excursions over to Canterbury to see me",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "what": "A reading of 25 changes (every fourth change of the seeded 100-change sample in 05-check.json), each judged against the 1818 and 1831 text before looking closely at the two models' labels. The category given here is the reader's own; agreement with each model is computed by 07-aggregate.mjs.",
+ "reader": "Claude Opus 5.5, the agent that built this pipeline, on 2026-11-03. This is NOT a human scholar's reading. It is a third opinion, and a scholar using this pipeline should redo this step with their own eyes, on their own sample.",
+ "items": [
+  {
+   "id": "c0008",
+   "category": "spelling",
+   "significance": 1,
+   "note": "phænomena → phenomena; a ligature only."
+  },
+  {
+   "id": "c0022",
+   "category": "characterization",
+   "significance": 4,
+   "note": "Walton's anecdote about the master's generosity is replaced by Walton describing his own refined character, formed by 'your gentle and feminine fosterage'. The new material is about who Walton is, so characterization rather than expansion."
+  },
+  {
+   "id": "c0051",
+   "category": "characterization",
+   "significance": 5,
+   "note": "The Elizabeth revision: a cousin in 1818, a foundling adopted from Italian peasants in 1831 (a 'pretty present' for Victor). Haiku chose expansion; Sonnet chose characterization. The point is who Elizabeth is and what she is to Victor."
+  },
+  {
+   "id": "c0064",
+   "category": "characterization",
+   "significance": 4,
+   "note": "Elizabeth after Caroline's death. Note the 1831 phrase 'those whom she had been taught to call her uncle and cousins': the change in c0051 forced this one, which a keyword search for 'Milanese' would miss."
+  },
+  {
+   "id": "c0103",
+   "category": "wording",
+   "significance": 1,
+   "note": "wetted → drenched."
+  },
+  {
+   "id": "c0130",
+   "category": "wording",
+   "significance": 1,
+   "note": "gay → glad."
+  },
+  {
+   "id": "c0157",
+   "category": "wording",
+   "significance": 2,
+   "note": "'so extremely wicked' → 'capable of so frightful, so appalling a crime'. Heightened, not a change of meaning."
+  },
+  {
+   "id": "c0179",
+   "category": "spelling",
+   "significance": 1,
+   "note": "further → farther. Arguably a word choice, not spelling; borderline."
+  },
+  {
+   "id": "c0206",
+   "category": "spelling",
+   "significance": 1,
+   "note": "aërial → aerial."
+  },
+  {
+   "id": "c0233",
+   "category": "spelling",
+   "significance": 1,
+   "note": "dispatched → despatched."
+  },
+  {
+   "id": "c0251",
+   "category": "wording",
+   "significance": 1,
+   "note": "'as' removed."
+  },
+  {
+   "id": "c0283",
+   "category": "spelling",
+   "significance": 1,
+   "note": "decypher → decipher."
+  },
+  {
+   "id": "c0317",
+   "category": "plot",
+   "significance": 5,
+   "note": "The creature's framing of Justine: in 1818 a woman passes by; in 1831 he finds her asleep in a barn and whispers to her. Both models agree."
+  },
+  {
+   "id": "c0335",
+   "category": "characterization",
+   "significance": 3,
+   "note": "Victor shrinks from the task and 'a change indeed had taken place in me'."
+  },
+  {
+   "id": "c0349",
+   "category": "wording",
+   "significance": 1,
+   "note": "'passed by' → 'passed'; staid → stayed (spelling)."
+  },
+  {
+   "id": "c0361",
+   "category": "spelling",
+   "significance": 1,
+   "note": "Westmoreland → Westmorland, plus a comma."
+  },
+  {
+   "id": "c0373",
+   "category": "wording",
+   "significance": 2,
+   "note": "weakness → irresolution; resolution → determination. Small shift in Victor's self-description."
+  },
+  {
+   "id": "c0400",
+   "category": "wording",
+   "significance": 1,
+   "note": "'agonizing suffering' → 'agonies'."
+  },
+  {
+   "id": "c0423",
+   "category": "characterization",
+   "significance": 4,
+   "note": "The return through France is rewritten around Victor's guilt ('I abhorred the face of man. Oh, not abhorred!'). The itinerary changes too (plot), but the weight is on Victor's state of mind."
+  },
+  {
+   "id": "c0435",
+   "category": "wording",
+   "significance": 1,
+   "note": "was → were (subjunctive)."
+  },
+  {
+   "id": "c0445",
+   "category": "plot",
+   "significance": 4,
+   "note": "1818: a house near Cologny; 1831: Elizabeth's restored inheritance and the Villa Lavenza on Lake Como, where the couple plan to go after the wedding."
+  },
+  {
+   "id": "c0454",
+   "category": "wording",
+   "significance": 1,
+   "note": "fainted → fell senseless on the ground."
+  },
+  {
+   "id": "c0469",
+   "category": "wording",
+   "significance": 1,
+   "note": "provisionally → for an interval."
+  },
+  {
+   "id": "c0502",
+   "category": "wording",
+   "significance": 1,
+   "note": "congealed → congeal; agony → anguish."
+  },
+  {
+   "id": "c0520",
+   "category": "wording",
+   "significance": 1,
+   "note": "name → names."
+  }
+ ],
+ "alsoNoticed": {
+  "what": "Changes outside the sample where the model's label or rationale looked wrong while building the page. Not counted in the agreement figures.",
+  "items": [
+   {
+    "id": "c0113",
+    "category": "characterization",
+    "note": "The model's rationale says the 1818 letter is 'wholly replaced by a new letter from Elizabeth herself'. Both versions are letters from Elizabeth ('MY DEAR COUSIN' in 1818, 'My dearest Cousin' in 1831). The rationale misreads the text; 'framing' is a doubtful category for what is mostly a rewrite of what Elizabeth says and is."
+   },
+   {
+    "id": "c0358",
+    "category": "other",
+    "note": "Gower → Goring. The model asserts that 'Gower' was invented and Goring is the historical courtier. That is a factual claim the pipeline never checked; treat it as a lead to verify, not a finding."
+   }
+  ]
+ }
+}

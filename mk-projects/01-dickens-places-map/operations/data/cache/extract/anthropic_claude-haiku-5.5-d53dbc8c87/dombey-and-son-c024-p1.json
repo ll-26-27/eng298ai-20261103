@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c024-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5041,
+  "completion_tokens": 1074,
+  "total_tokens": 6115,
+  "cost": 0.0010411,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010411,
+   "upstream_inference_prompt_cost": 0.0005041,
+   "upstream_inference_completions_cost": 0.000537
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 710,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Fulham",
+   "normalized": "Fulham, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": null,
+   "quote": "resided in a pretty villa at Fulham, on the banks of the Thames",
+   "note": "Then a village in Middlesex near London; now inner London, so classification is uncertain."
+  },
+  {
+   "as_written": "Thames",
+   "normalized": "River Thames, London",
+   "type": "river_or_water",
+   "role": "setting",
+   "in_london": true,
+   "quote": "resided in a pretty villa at Fulham, on the banks of the Thames",
+   "note": ""
+  },
+  {
+   "as_written": "Jericho",
+   "normalized": "Jericho, West Bank",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "of whom the young gentleman often said he would have preferred their passing the vacation at Jericho",
+   "note": "Biblical town used as a joke for a remote place, not a real location for the story."
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "\"He is in England, I hope, aunt?\" said the child.",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1596,
+  "completion_tokens": 126,
+  "total_tokens": 1722,
+  "cost": 0.0002226,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002226,
+   "upstream_inference_prompt_cost": 0.0001596,
+   "upstream_inference_completions_cost": 0.000063
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0270. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): The arrival of the Arabian now infused new life into his soul.\n\n1818 text: \"When the news reached Leghorn, that Felix was deprived of his wealth and rank, the merchant commanded his daughter to think no more of her lover, but to prepare to return with him to her native country.\n\n1831 text: \"When the news reached Leghorn, that Felix was deprived of his wealth and rank, the merchant commanded his daughter to think no more of her lover, but to prepare to return to her native country.\n\nDiff: \" When the news reached Leghorn, that Felix was deprived of his wealth and rank, the merchant commanded his daughter to think no more of her lover, but to prepare to return [-with him-] to her native country.\n\nContext after (unchanged): The generous nature of Safie was outraged by this command; she attempted to expostulate with her father, but he left her angrily, reiterating his tyrannical mandate."
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 2,
+  "rationale": "The phrase \"with him\" is removed from \"prepare to return [-with him-] to her native country,\" so Safie's departure no longer explicitly accompanies her lover. The cut is small but slightly weakens the merchant's commanding of her return with Felix.",
+  "confidence": "medium",
+  "rationaleWords": 40
+ }
+}

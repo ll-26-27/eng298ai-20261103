@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1894,
+  "completion_tokens": 368,
+  "total_tokens": 2262,
+  "cost": 0.0003734,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003734,
+   "upstream_inference_prompt_cost": 0.0001894,
+   "upstream_inference_completions_cost": 0.000184
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 242,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0512. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): They know our infantine dispositions, which, however they may be afterwards modified, are never eradicated; and they can judge of our actions with more certain conclusions as to the integrity of our motives.\n\n1818 text: A sister or a brother can never, unless indeed such symptoms have been shewn early, suspect the other of fraud or false dealing, when another friend, however strongly he may be attached, may, in spite of himself, be invaded with suspicion. But I enjoyed friends, dear not only through habit and association, but from their own merits; and, wherever I am, the soothing voice of my Elizabeth, and the conversation of Clerval, will be ever whispered in my ear.\n\n1831 text: A sister or a brother can never, unless indeed such symptoms have been shown early, suspect the other of fraud or false dealing, when another friend, however strongly he may be attached, may, in spite of himself, be contemplated with suspicion. But I enjoyed friends, dear not only through habit and association, but from their own merits; and wherever I am, the soothing voice of my Elizabeth, and the conversation of Clerval, will be ever whispered in my ear.\n\nDiff: A sister or a brother can never, unless indeed such symptoms have been [-shewn-] {+shown+} early, suspect the other of fraud or false dealing, when another friend, however strongly he may be attached, may, in spite of himself, be [-invaded-] {+contemplated+} with suspicion. But I enjoyed friends, dear not only through habit and association, but from their own merits; and [-,-] wherever I am, the soothing voice of my Elizabeth, and the conversation of Clerval, will be ever whispered in my ear.\n\nContext after (unchanged): They are dead; and but one feeling in such a solitude can persuade me to preserve my life."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 3,
+  "rationale": "Main change is 'invaded' replaced by 'contemplated' in 'be invaded with suspicion', which softens an involuntary intrusion into a deliberate regard. 'shewn' to 'shown' is orthographic; the comma deletion is trivial.",
+  "confidence": "medium",
+  "rationaleWords": 31
+ }
+}

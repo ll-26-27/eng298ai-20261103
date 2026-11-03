@@ -1,0 +1,6 @@
+timestamp,step,model,requests,cached,prompt_tokens,completion_tokens,cost_usd,note
+2026-11-03T12:36:47.220Z,02-extract-places,anthropic/claude-haiku-5.5,18,0,80195,10076,0.0131,"a-christmas-carol"
+2026-11-03T12:39:51.272Z,04b-geocode-model-help,anthropic/claude-sonnet-5.5,1,0,1195,270,0.0051,"min 1"
+2026-11-03T12:45:22.242Z,02-extract-places,anthropic/claude-haiku-5.5,1271,18,5778519,1057562,1.1066,"all novels"
+2026-11-03T12:45:59.056Z,02-extract-places,anthropic/claude-haiku-5.5,1,1289,5255,2327,0.0017,"all novels"
+2026-11-03T13:12:54.019Z,04b-geocode-model-help,anthropic/claude-sonnet-5.5,7,0,29657,36127,0.4206,"min 2"

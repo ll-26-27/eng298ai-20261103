@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1742,
+  "completion_tokens": 105,
+  "total_tokens": 1847,
+  "cost": 0.0002267,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002267,
+   "upstream_inference_prompt_cost": 0.0001742,
+   "upstream_inference_completions_cost": 0.0000525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0267. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): This idea was torture to him.\n\n1818 text: He quickly arranged with the Turk, that if the latter should find a favourable opportunity for escape before Felix could return to Italy, Safie should remain as a boarder at a convent at Leghorn; and then, quitting the lovely Arabian, he hastened to Paris, and delivered himself up to the vengeance of the law, hoping to free De Lacey and Agatha by this proceeding.\n\n1831 text: He quickly arranged with the Turks, that if the latter should find a favourable opportunity for escape before Felix could return to Italy, Safie should remain as a boarder at a convent at Leghorn; and then, quitting the lovely Arabian, he hastened to Paris, and delivered himself up to the vengeance of the law, hoping to free De Lacey and Agatha by this proceeding.\n\nDiff: He quickly arranged with the [-Turk-] {+Turks+} , that if the latter should find a favourable opportunity for escape before Felix could return to Italy, Safie should remain as a boarder at a convent at Leghorn; and then, quitting the lovely Arabian, he hastened to Paris, and delivered himself up to the vengeance of the law, hoping to free De Lacey and Agatha by this proceeding.\n\nContext after (unchanged): \"He did not succeed."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Singular 'Turk' becomes plural 'Turks', a grammatical number change with no effect on events; 'the latter' still refers to the Turk(s) in the same sense, so meaning is unchanged.",
+  "confidence": "medium",
+  "rationaleWords": 29
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "chunk": "dombey-and-son-c056-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5576,
+  "completion_tokens": 1576,
+  "total_tokens": 7152,
+  "cost": 0.0013456,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013456,
+   "upstream_inference_prompt_cost": 0.0005576,
+   "upstream_inference_completions_cost": 0.000788
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1060,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Midshipman’s",
+   "normalized": "The Midshipman (inn), Brig Place, location uncertain",
+   "type": "building",
+   "role": "setting",
+   "in_london": null,
+   "quote": "They were all assembled in the upper room at the Midshipman’s",
+   "note": "Inn name as used in the novel; exact real-world location not confirmed in passage."
+  },
+  {
+   "as_written": "Number nine Brig Place",
+   "normalized": "Brig Place, Number 9 (lodgings of Mrs MacStinger)",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "directed by my own hand, Number nine Brig Place!",
+   "note": "Location of Brig Place uncertain; may be a fictional or unlocated street."
+  },
+  {
+   "as_written": "Barbados",
+   "normalized": "Barbados, West Indies",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "either to Barbados, or Jamaica, or Demerara, that was what I asked.",
+   "note": ""
+  },
+  {
+   "as_written": "Jamaica",
+   "normalized": "Jamaica, West Indies",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "either to Barbados, or Jamaica, or Demerara, that was what I asked.",
+   "note": ""
+  },
+  {
+   "as_written": "Demerara",
+   "normalized": "Demerara, British Guiana",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "either to Barbados, or Jamaica, or Demerara, that was what I asked.",
+   "note": "Historical colonial district on the Guiana coast."
+  }
+ ]
+}

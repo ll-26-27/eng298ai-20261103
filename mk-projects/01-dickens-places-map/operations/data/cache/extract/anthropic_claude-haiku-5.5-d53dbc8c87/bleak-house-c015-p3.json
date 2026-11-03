@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c015-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4655,
+  "completion_tokens": 1250,
+  "total_tokens": 5905,
+  "cost": 0.0010905,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010905,
+   "upstream_inference_prompt_cost": 0.0004655,
+   "upstream_inference_completions_cost": 0.000625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 906,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Court of Chancery",
+   "normalized": "Court of Chancery, Lincoln's Inn Hall, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Go into the Court of Chancery yonder and ask what is one of the standing jokes",
+   "note": "Named as the court building; the Court sat in Lincoln's Inn Hall in Dickens's day. Borderline institution vs. place."
+  },
+  {
+   "as_written": "Shropshire",
+   "normalized": "Shropshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I am the man from Shropshire.",
+   "note": "Gridley's home county; also 'down in Shropshire'."
+  },
+  {
+   "as_written": "Lincoln’s Inn Fields",
+   "normalized": "Lincoln's Inn Fields, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mr. Tulkinghorn, the solicitor in Lincoln’s Inn Fields",
+   "note": ""
+  }
+ ]
+}

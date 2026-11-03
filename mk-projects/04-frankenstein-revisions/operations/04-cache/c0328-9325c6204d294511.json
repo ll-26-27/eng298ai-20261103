@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1833,
+  "completion_tokens": 109,
+  "total_tokens": 1942,
+  "cost": 0.0002378,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002378,
+   "upstream_inference_prompt_cost": 0.0001833,
+   "upstream_inference_completions_cost": 0.0000545
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0328. Location: 1818 Vol. II, Ch. IX; 1831 Ch. XVII.\n\nContext before (unchanged): I compassionated him, and sometimes felt a wish to console him; but when I looked upon him, when I saw the filthy mass that moved and talked, my heart sickened, and my feelings were altered to those of horror and hatred.\n\n1818 text: I tried to stifle these sensations; I thought, that as I could not sympathize with him, I had no right to withhold from him the small portion of happiness which was yet in my power to bestow. \"You swear,\" I said, \"to be harmless; but have you not already shewn a degree of malice that should reasonably make me distrust you? May not even this be a feint that will increase your triumph by affording a wider scope for your revenge?\"\n\n1831 text: I tried to stifle these sensations; I thought, that as I could not sympathise with him, I had no right to withhold from him the small portion of happiness which was yet in my power to bestow. \"You swear,\" I said, \"to be harmless; but have you not already shown a degree of malice that should reasonably make me distrust you? May not even this be a feint that will increase your triumph by affording a wider scope for your revenge.\"\n\nDiff: I tried to stifle these sensations; I thought, that as I could not [-sympathize-] {+sympathise+} with him, I had no right to withhold from him the small portion of happiness which was yet in my power to bestow. \" You swear, \" I said, \" to be harmless; but have you not already [-shewn-] {+shown+} a degree of malice that should reasonably make me distrust you? May not even this be a feint that will increase your triumph by affording a wider scope for your revenge [-?-] {+.+} \"\n\nContext after (unchanged): \"How is this?"
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Changes are orthographic: sympathize→sympathise, shewn→shown. The question mark→period change at the end of the quoted question is punctuation, altering the sentence's grammatical mood without changing its substance.",
+  "confidence": "high",
+  "rationaleWords": 27
+ }
+}

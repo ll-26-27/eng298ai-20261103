@@ -1,0 +1,66 @@
+{
+ "chunk": "oliver-twist-c051-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5326,
+  "completion_tokens": 830,
+  "total_tokens": 6156,
+  "cost": 0.0009476,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009476,
+   "upstream_inference_prompt_cost": 0.0005326,
+   "upstream_inference_completions_cost": 0.000415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 504,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Wales",
+   "normalized": "Wales",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "fled with his children into a remote corner of Wales",
+   "note": "Backstory: where Edward Leeford's father fled and died."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "fled to London: where for two years he had associated with the lowest outcasts",
+   "note": "Backstory: Edward Leeford's years among outcasts."
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "he went back with her to France",
+   "note": "Backstory: where Leeford's mother died."
+  },
+  {
+   "as_written": "Chester",
+   "normalized": "Chester, Cheshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "a widow lady, residing, then, at Chester, saw the girl by chance",
+   "note": ""
+  }
+ ]
+}

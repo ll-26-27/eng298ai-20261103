@@ -1,0 +1,39 @@
+{
+ "chunk": "bleak-house-c041-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4984,
+  "completion_tokens": 469,
+  "total_tokens": 5453,
+  "cost": 0.0007329,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007329,
+   "upstream_inference_prompt_cost": 0.0004984,
+   "upstream_inference_completions_cost": 0.0002345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 351,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I leave Chesney Wold to-night. I go this hour.",
+   "note": "Fictional country house of the Dedlocks in Lincolnshire; not locatable on a real map."
+  }
+ ]
+}

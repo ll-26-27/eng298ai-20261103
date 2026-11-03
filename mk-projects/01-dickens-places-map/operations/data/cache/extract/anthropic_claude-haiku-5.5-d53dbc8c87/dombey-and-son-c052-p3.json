@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c052-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5272,
+  "completion_tokens": 494,
+  "total_tokens": 5766,
+  "cost": 0.0007742,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007742,
+   "upstream_inference_prompt_cost": 0.0005272,
+   "upstream_inference_completions_cost": 0.000247
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 284,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Southampton",
+   "normalized": "Southampton, Hampshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when she and me went down to Southampton",
+   "note": "Past journey recalled by the Grinder; the packet sailed from here."
+  },
+  {
+   "as_written": "D.I.J.O.N.",
+   "normalized": "Dijon, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "and thus they both spelt D.I.J.O.N.",
+   "note": "Name is spelled out letter by letter, never spoken aloud; identification is inferred from the spelling."
+  }
+ ]
+}

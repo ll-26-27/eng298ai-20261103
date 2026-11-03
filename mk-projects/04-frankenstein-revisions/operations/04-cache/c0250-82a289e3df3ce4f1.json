@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1752,
+  "completion_tokens": 102,
+  "total_tokens": 1854,
+  "cost": 0.0002262,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002262,
+   "upstream_inference_prompt_cost": 0.0001752,
+   "upstream_inference_completions_cost": 0.000051
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0250. Location: 1818 Vol. II, Ch. V; 1831 Ch. XIII.\n\nContext before (unchanged): Some hours passed thus, while they, by their countenances, expressed joy, the cause of which I did not comprehend.\n\n1818 text: Presently I found, by the frequent recurrence of one sound which the stranger repeated after them, that she was endeavouring to learn their language; and the idea instantly occurred to me, that I should make use of the same instructions to the same end. The stranger learned about twenty words at the first lesson, most of them indeed were those which I had before understood, but I profited by the others.\n\n1831 text: Presently I found, by the frequent recurrence of some sound which the stranger repeated after them, that she was endeavouring to learn their language; and the idea instantly occurred to me, that I should make use of the same instructions to the same end. The stranger learned about twenty words at the first lesson, most of them, indeed, were those which I had before understood, but I profited by the others.\n\nDiff: Presently I found, by the frequent recurrence of [-one-] {+some+} sound which the stranger repeated after them, that she was endeavouring to learn their language; and the idea instantly occurred to me, that I should make use of the same instructions to the same end. The stranger learned about twenty words at the first lesson, most of them {+,+} indeed {+,+} were those which I had before understood, but I profited by the others.\n\nContext after (unchanged): \"As night came on, Agatha and the Arabian retired early."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Changes 'one sound' to 'some sound' and adds commas around 'indeed' ('most of them, indeed, were'); these are word choice and punctuation adjustments that keep the meaning intact.",
+  "confidence": "high",
+  "rationaleWords": 28
+ }
+}

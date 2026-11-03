@@ -1,0 +1,120 @@
+{
+ "chunk": "little-dorrit-c051-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5164,
+  "completion_tokens": 2065,
+  "total_tokens": 7229,
+  "cost": 0.0015489,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015489,
+   "upstream_inference_prompt_cost": 0.0005164,
+   "upstream_inference_completions_cost": 0.0010325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1148,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the despatch of her maid to Paris under the protection of the Courier",
+   "note": ""
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Cards of breakfast-invitation were sent out to half the English in the city of Romulus",
+   "note": "Wedding celebrated here; 'city of Romulus' is Rome"
+  },
+  {
+   "as_written": "city of Romulus",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Cards of breakfast-invitation were sent out to half the English in the city of Romulus",
+   "note": "Periphrasis for Rome; duplicate of Rome entry"
+  },
+  {
+   "as_written": "Capitol",
+   "normalized": "Capitoline Hill, Rome, Italy",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The She-Wolf in the Capitol might have snarled with envy",
+   "note": "Figurative reference to the statue of the she-wolf"
+  },
+  {
+   "as_written": "Temple of Vesta",
+   "normalized": "Temple of Vesta, Rome, Italy",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The Temple of Vesta might have sprung up anew from its ruins",
+   "note": "Hypothetical in figure of speech"
+  },
+  {
+   "as_written": "Torlonia Bank",
+   "normalized": "Torlonia Bank, Rome, Italy",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The drafts of Mr Dorrit almost constituted a run on the Torlonia Bank.",
+   "note": "Bank in Rome; may be an institution rather than a place"
+  },
+  {
+   "as_written": "Naples",
+   "normalized": "Naples, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he is away at Naples or in Sicily",
+   "note": ""
+  },
+  {
+   "as_written": "Sicily",
+   "normalized": "Sicily, Italy",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when he is away at Naples or in Sicily",
+   "note": ""
+  },
+  {
+   "as_written": "Florence",
+   "normalized": "Florence, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "journey towards Florence",
+   "note": "Destination of the wedding journey"
+  },
+  {
+   "as_written": "Slough of Despond",
+   "normalized": "Slough of Despond",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "had begun to jolt through a Slough of Despond",
+   "note": "Allusion to Bunyan's Pilgrim's Progress"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1970,
+  "completion_tokens": 111,
+  "total_tokens": 2081,
+  "cost": 0.00505,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00505,
+   "upstream_inference_prompt_cost": 0.00394,
+   "upstream_inference_completions_cost": 0.00111
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0128. Location: 1818 Vol. I, Ch. V; 1831 Ch. VI.\n\nContext before (unchanged): When happy, inanimate nature had the power of bestowing on me the most delightful sensations.\n\n1818 text: A serene sky and verdant fields filled me with ecstacy. The present season was indeed divine; the flowers of spring bloomed in the hedges, while those of summer were already in bud: I was undisturbed by thoughts which during the preceding year had pressed upon me, notwithstanding my endeavours to throw them off, with an invincible burden. Henry rejoiced in my gaiety, and sincerely sympathized in my feelings: he exerted himself to amuse me, while he expressed the sensations that filled his soul.\n\n1831 text: A serene sky and verdant fields filled me with ecstasy. The present season was indeed divine; the flowers of spring bloomed in the hedges, while those of summer were already in bud. I was undisturbed by thoughts which during the preceding year had pressed upon me, notwithstanding my endeavours to throw them off, with an invincible burden. Henry rejoiced in my gaiety, and sincerely sympathised in my feelings: he exerted himself to amuse me, while he expressed the sensations that filled his soul.\n\nDiff: A serene sky and verdant fields filled me with [-ecstacy-] {+ecstasy+} . The present season was indeed divine; the flowers of spring bloomed in the hedges, while those of summer were already in bud [-:-] {+.+} I was undisturbed by thoughts which during the preceding year had pressed upon me, notwithstanding my endeavours to throw them off, with an invincible burden. Henry rejoiced in my gaiety, and sincerely [-sympathized-] {+sympathised+} in my feelings: he exerted himself to amuse me, while he expressed the sensations that filled his soul.\n\nContext after (unchanged): The resources of his mind on this occasion were truly astonishing: his conversation was full of imagination; and very often, in imitation of the Persian and Arabic writers, he invented tales of wonderful fancy and passion."
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 1,
+  "rationale": "Orthographic changes: ecstacy→ecstasy and sympathized→sympathised, plus a colon after 'in bud' becoming a full stop. No change in meaning or events; purely spelling and punctuation.",
+  "confidence": "high",
+  "rationaleWords": 25
+ }
+}

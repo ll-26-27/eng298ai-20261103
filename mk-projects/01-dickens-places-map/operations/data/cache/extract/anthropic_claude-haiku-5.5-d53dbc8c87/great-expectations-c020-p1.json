@@ -1,0 +1,129 @@
+{
+ "chunk": "great-expectations-c020-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5136,
+  "completion_tokens": 2746,
+  "total_tokens": 7882,
+  "cost": 0.0018866,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0018866,
+   "upstream_inference_prompt_cost": 0.0005136,
+   "upstream_inference_completions_cost": 0.001373
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1827,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "while I was scared by the immensity of London",
+   "note": ""
+  },
+  {
+   "as_written": "our town",
+   "normalized": "Unnamed town (possibly Rochester, Kent)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The journey from our town to the metropolis",
+   "note": "Unnamed in text; Rochester is a likely model, not confirmed."
+  },
+  {
+   "as_written": "Cross Keys",
+   "normalized": "Cross Keys inn, Wood Street, Cheapside, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "got into the ravel of traffic frayed out about the Cross Keys, Wood Street, Cheapside, London",
+   "note": "Coaching inn named as a traffic landmark."
+  },
+  {
+   "as_written": "Wood Street",
+   "normalized": "Wood Street, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Cross Keys, Wood Street, Cheapside, London",
+   "note": ""
+  },
+  {
+   "as_written": "Cheapside",
+   "normalized": "Cheapside, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Cross Keys, Wood Street, Cheapside, London",
+   "note": ""
+  },
+  {
+   "as_written": "Little Britain",
+   "normalized": "Little Britain, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "it was, Little Britain, and he had written after it",
+   "note": "Location of Mr Jaggers's office."
+  },
+  {
+   "as_written": "Smithfield",
+   "normalized": "Smithfield, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "So I came into Smithfield",
+   "note": ""
+  },
+  {
+   "as_written": "Newgate Prison",
+   "normalized": "Newgate Prison, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "which a bystander said was Newgate Prison",
+   "note": ""
+  },
+  {
+   "as_written": "Saint Paul’s",
+   "normalized": "St Paul's Cathedral, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the great black dome of Saint Paul’s bulging at me",
+   "note": "Seen from a distance."
+  },
+  {
+   "as_written": "Debtors’ Door",
+   "normalized": "Debtors' Door, Newgate Prison, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the Debtors’ Door, out of which culprits came to be hanged",
+   "note": "Part of Newgate Prison."
+  },
+  {
+   "as_written": "Bartholomew Close",
+   "normalized": "Bartholomew Close, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "turned into Bartholomew Close",
+   "note": ""
+  }
+ ]
+}

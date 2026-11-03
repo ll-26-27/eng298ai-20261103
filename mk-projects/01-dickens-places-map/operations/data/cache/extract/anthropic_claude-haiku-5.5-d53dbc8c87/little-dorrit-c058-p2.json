@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c058-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2834,
+  "completion_tokens": 1463,
+  "total_tokens": 4297,
+  "cost": 0.0010149,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010149,
+   "upstream_inference_prompt_cost": 0.0002834,
+   "upstream_inference_completions_cost": 0.0007315
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1000,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marsiglia--Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "‘At Marsiglia--Marseilles.’",
+   "note": "Dickens gives the Italian and English forms together."
+  },
+  {
+   "as_written": "Chalons on the Saone",
+   "normalized": "Chalon-sur-Saône, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at the house of entertainment called the Break of Day at Chalons on the Saone",
+   "note": ""
+  },
+  {
+   "as_written": "the Saone",
+   "normalized": "Saône (river), France",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at Chalons on the Saone",
+   "note": "River named within the town name."
+  },
+  {
+   "as_written": "the Break of Day",
+   "normalized": "Break of Day inn, Chalon-sur-Saône, France",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "at the house of entertainment called the Break of Day at Chalons on the Saone",
+   "note": "Named inn; may be fictional."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "In his passionate raptures, he at first forgot the fact that he had lately seen the assassin in London.",
+   "note": "Scene is set in Clennam's London office."
+  }
+ ]
+}

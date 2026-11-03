@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c019-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4691,
+  "completion_tokens": 1083,
+  "total_tokens": 5774,
+  "cost": 0.0010106,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010106,
+   "upstream_inference_prompt_cost": 0.0004691,
+   "upstream_inference_completions_cost": 0.0005415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 684,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I am going to London, Miss Pocket,",
+   "note": ""
+  },
+  {
+   "as_written": "Mr. Pumblechook’s",
+   "normalized": "Pumblechook's house and shop, village (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I went out in my new array, fearfully ashamed of having to pass the shopman",
+   "note": "Fictional village building; the village is unnamed in this passage"
+  },
+  {
+   "as_written": "Miss Havisham’s",
+   "normalized": "Satis House, Richmond (fictional)",
+   "type": "building",
+   "role": "setting",
+   "in_london": false,
+   "quote": "I went circuitously to Miss Havisham’s by all the back ways",
+   "note": "Named Satis House only elsewhere in the novel; not named here"
+  },
+  {
+   "as_written": "High Street",
+   "normalized": "High Street, village (fictional)",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "reflecting that it would never have done to have had an old shoe thrown after the coach, in sight of all the High Street",
+   "note": "Village high street in the unnamed village; not in London"
+  }
+ ]
+}

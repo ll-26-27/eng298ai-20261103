@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c026-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5478,
+  "completion_tokens": 1330,
+  "total_tokens": 6808,
+  "cost": 0.0012128,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012128,
+   "upstream_inference_prompt_cost": 0.0005478,
+   "upstream_inference_completions_cost": 0.000665
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 933,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "in one of the grave old-fashioned City streets",
+   "note": ""
+  },
+  {
+   "as_written": "London Wall",
+   "normalized": "London Wall, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "not far from the Bank of England, by London Wall.",
+   "note": ""
+  },
+  {
+   "as_written": "Bank of England",
+   "normalized": "Bank of England, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "lying not far from the Bank of England",
+   "note": ""
+  },
+  {
+   "as_written": "Twickenham",
+   "normalized": "Twickenham, Middlesex",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Mr Doyce had been to Twickenham to pass the day.",
+   "note": "Then a Middlesex village outside London; now a London borough"
+  },
+  {
+   "as_written": "the Ferry",
+   "normalized": "Twickenham ferry, Thames",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "the morning of the chance encounter at the Ferry",
+   "note": "Location inferred; ferry name not fully identified"
+  }
+ ]
+}

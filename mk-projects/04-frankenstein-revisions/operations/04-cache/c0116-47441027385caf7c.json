@@ -1,0 +1,42 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1805,
+  "completion_tokens": 469,
+  "total_tokens": 2274,
+  "cost": 0.000415,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000415,
+   "upstream_inference_prompt_cost": 0.0001805,
+   "upstream_inference_completions_cost": 0.0002345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 327,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0116. Location: 1818 Vol. I, Ch. V; 1831 Ch. VI.\n\nContext before (unchanged): Justine, thus received in our family, learned the duties of a servant; a condition which, in our fortunate country, does not include the idea of ignorance, and a sacrifice of the dignity of a human being.\n\n1818 text: \"After what I have said, I dare say you well remember the heroine of my little tale: for Justine was a great favourite of your's; and I recollect you once remarked, that if you were in an ill-humour, one glance from Justine could dissipate it, for the same reason that Ariosto gives concerning the beauty of Angelica—she looked so frank-hearted and happy.\n\n1831 text: \"Justine, you may remember, was a great favourite of yours; and I recollect you once remarked, that if you were in an ill-humour, one glance from Justine could dissipate it, for the same reason that Ariosto gives concerning the beauty of Angelica—she looked so frank-hearted and happy.\n\nDiff: \" [-After what I have said-] {+Justine+} , [-I dare say-] you [-well-] {+may+} remember [-the heroine of my little tale: for Justine-] {+,+} was a great favourite of [-your's-] {+yours+} ; and I recollect you once remarked, that if you were in an ill-humour, one glance from Justine could dissipate it, for the same reason that Ariosto gives concerning the beauty of Angelica—she looked so frank-hearted and happy.\n\nContext after (unchanged): My aunt conceived a great attachment for her, by which she was induced to give her an education superior to that which she had at first intended."
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [
+   "wording",
+   "framing"
+  ],
+  "significance": 2,
+  "rationale": "The 1831 text drops \"After what I have said, I dare say… the heroine of my little tale: for\", removing the narrator's self-conscious reference to the story as a \"little tale\" and its heroine, and simply opens with \"Justine, you may remember\". Mostly deletion, with some rewording.",
+  "confidence": "medium",
+  "rationaleWords": 47
+ }
+}

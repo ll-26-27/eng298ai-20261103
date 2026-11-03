@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1602,
+  "completion_tokens": 93,
+  "total_tokens": 1695,
+  "cost": 0.0002067,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002067,
+   "upstream_inference_prompt_cost": 0.0001602,
+   "upstream_inference_completions_cost": 0.0000465
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0428. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): I expect to see you looking even more ill than when you quitted Geneva.\n\n1818 text: This winter has been passed most miserably, tortured as I have been by anxious suspense; yet I hope to see peace in your countenance, and to find that your heart is not totally devoid of comfort and tranquillity.\n\n1831 text: This winter has been passed most miserably, tortured as I have been by anxious suspense; yet I hope to see peace in your countenance, and to find that your heart is not totally void of comfort and tranquillity.\n\nDiff: This winter has been passed most miserably, tortured as I have been by anxious suspense; yet I hope to see peace in your countenance, and to find that your heart is not totally [-devoid-] {+void+} of comfort and tranquillity.\n\nContext after (unchanged): \"Yet I fear that the same feelings now exist that made you so miserable a year ago, even perhaps augmented by time."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Single word swap 'devoid' to 'void' in 'not totally devoid of comfort'; same meaning and syntax, no change to sentiment or events, purely lexical.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

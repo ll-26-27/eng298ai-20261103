@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1523,
+  "completion_tokens": 84,
+  "total_tokens": 1607,
+  "cost": 0.0001943,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001943,
+   "upstream_inference_prompt_cost": 0.0001523,
+   "upstream_inference_completions_cost": 0.000042
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0392. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): Their faces expressed a mixture of curiosity and anger, which annoyed, and in some degree alarmed me.\n\n1818 text: I inquired the way to the inn; but no one replied.\n\n1831 text: I enquired the way to the inn; but no one replied.\n\nDiff: I [-inquired-] {+enquired+} the way to the inn; but no one replied.\n\nContext after (unchanged): I then moved forward, and a murmuring sound arose from the crowd as they followed and surrounded me; when an ill-looking man approaching, tapped me on the shoulder, and said, \"Come, Sir, you must follow me to Mr. Kirwin's, to give an account of yourself.\""
+ },
+ "result": {
+  "category": "spelling",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the orthography changes: \"inquired\" becomes \"enquired\" with identical meaning and no change in wording, events, or characterization.",
+  "confidence": "high",
+  "rationaleWords": 18
+ }
+}

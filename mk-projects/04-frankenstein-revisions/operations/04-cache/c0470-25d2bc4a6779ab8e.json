@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1622,
+  "completion_tokens": 115,
+  "total_tokens": 1737,
+  "cost": 0.0002197,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002197,
+   "upstream_inference_prompt_cost": 0.0001622,
+   "upstream_inference_completions_cost": 0.0000575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0470. Location: 1818 Vol. III, Ch. VI; 1831 Ch. XXIII.\n\nContext before (unchanged): The magistrate appeared at first perfectly incredulous, but as I continued he became more attentive and interested; I saw him sometimes shudder with horror, at others a lively surprise, unmingled with disbelief, was painted on his countenance.\n\n1818 text: When I had concluded my narration, I said. \"This is the being whom I accuse, and for whose detection and punishment I call upon you to exert your whole power.\n\n1831 text: When I had concluded my narration, I said, \"This is the being whom I accuse, and for whose seizure and punishment I call upon you to exert your whole power.\n\nDiff: When I had concluded my narration, I said [-.-] {+,+} \" This is the being whom I accuse, and for whose [-detection-] {+seizure+} and punishment I call upon you to exert your whole power.\n\nContext after (unchanged): It is your duty as a magistrate, and I believe and hope that your feelings as a man will not revolt from the execution of those functions on this occasion.\""
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Replaces 'detection' with 'seizure' in 'for whose detection and punishment'; the sense (apprehending the creature) is kept, but 'seizure' is more physical and concrete, a stylistic/diction shift of minor weight.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1775,
+  "completion_tokens": 132,
+  "total_tokens": 1907,
+  "cost": 0.0002435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002435,
+   "upstream_inference_prompt_cost": 0.0001775,
+   "upstream_inference_completions_cost": 0.000066
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0543. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): I was nourished with high thoughts of honour and devotion.\n\n1818 text: But now vice has degraded me beneath the meanest animal. No crime, no mischief, no malignity, no misery, can be found comparable to mine. When I call over the frightful catalogue of my deeds, I cannot believe that I am he whose thoughts were once filled with sublime and transcendant visions of the beauty and the majesty of goodness.\n\n1831 text: But now crime has degraded me beneath the meanest animal. No guilt, no mischief, no malignity, no misery, can be found comparable to mine. When I run over the frightful catalogue of my sins, I cannot believe that I am the same creature whose thoughts were once filled with sublime and transcendent visions of the beauty and the majesty of goodness.\n\nDiff: But now [-vice-] {+crime+} has degraded me beneath the meanest animal. No [-crime-] {+guilt+} , no mischief, no malignity, no misery, can be found comparable to mine. When I [-call-] {+run+} over the frightful catalogue of my [-deeds-] {+sins+} , I cannot believe that I am [-he-] {+the same creature+} whose thoughts were once filled with sublime and [-transcendant-] {+transcendent+} visions of the beauty and the majesty of goodness.\n\nContext after (unchanged): But it is even so; the fallen angel becomes a malignant devil."
+ },
+ "result": {
+  "category": "moral-religious",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 4,
+  "rationale": "Replacing 'vice' and 'deeds' with 'crime' and 'sins', and 'crime' with 'guilt', shifts the creature's self-judgment from behaviour to moral sinfulness and guilt, a religious register that frames his wrongdoing as sin.",
+  "confidence": "high",
+  "rationaleWords": 32
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "chunk": "dombey-and-son-c051-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5278,
+  "completion_tokens": 931,
+  "total_tokens": 6209,
+  "cost": 0.0009933,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009933,
+   "upstream_inference_prompt_cost": 0.0005278,
+   "upstream_inference_completions_cost": 0.0004655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 715,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Baden-Baden",
+   "normalized": "Baden-Baden, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Witness Cousin Feenix, who comes from Baden-Baden, purposely to talk to him.",
+   "note": ""
+  },
+  {
+   "as_written": "Princess’s Place",
+   "normalized": "Princess's Place, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "It is Miss Tox, who has borrowed this disguise from her servant, and comes from Princess’s Place",
+   "note": "Location in Dombey and Son not certain; check against the novel."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "seed": 20261103,
+ "population": {
+  "model_positive": 330,
+  "model_negative": 645
+ },
+ "ids": [
+  "frankenstein-0035",
+  "frankenstein-0034",
+  "dorian-0172",
+  "rur-0016",
+  "dorian-0334",
+  "rur-0061",
+  "phaedrus-0095",
+  "frankenstein-0112",
+  "phaedrus-0104",
+  "dorian-0263",
+  "frankenstein-0142",
+  "dorian-0238",
+  "frankenstein-0159",
+  "frankenstein-0100",
+  "phaedrus-0047",
+  "frankenstein-0205",
+  "rur-0020",
+  "frankenstein-0244",
+  "phaedrus-0088",
+  "frankenstein-0295",
+  "rur-0067",
+  "frankenstein-0230",
+  "dorian-0153",
+  "dorian-0325",
+  "rur-0028",
+  "frankenstein-0203",
+  "dorian-0239",
+  "dorian-0220",
+  "dorian-0030",
+  "frankenstein-0313"
+ ]
+}

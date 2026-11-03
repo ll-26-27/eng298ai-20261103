@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1633,
+  "completion_tokens": 134,
+  "total_tokens": 1767,
+  "cost": 0.0002303,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002303,
+   "upstream_inference_prompt_cost": 0.0001633,
+   "upstream_inference_completions_cost": 0.000067
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0500. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): No; I am not so selfish.\n\n1818 text: Yet, when I am dead, if he should appear; if the ministers of vengeance should conduct him to you, swear that he shall not live—swear that he shall not triumph over my accumulated woes, and live to make another such a wretch as I am.\n\n1831 text: Yet, when I am dead, if he should appear; if the ministers of vengeance should conduct him to you, swear that he shall not live—swear that he shall not triumph over my accumulated woes, and survive to add to the list of his dark crimes.\n\nDiff: Yet, when I am dead, if he should appear; if the ministers of vengeance should conduct him to you, swear that he shall not live—swear that he shall not triumph over my accumulated woes, and [-live-] {+survive+} to [-make another such a wretch as I am-] {+add to the list of his dark crimes+} .\n\nContext after (unchanged): He is eloquent and persuasive; and once his words had even power over my heart: but trust him not."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 4,
+  "rationale": "Replaces 'live to make another such a wretch as I am' (Victor's self-pity, his fate as creator of misery) with 'survive to add to the list of his dark crimes', recasting the creature as a criminal rather than a fellow wretch; the sympathetic parallel is removed.",
+  "confidence": "medium",
+  "rationaleWords": 46
+ }
+}

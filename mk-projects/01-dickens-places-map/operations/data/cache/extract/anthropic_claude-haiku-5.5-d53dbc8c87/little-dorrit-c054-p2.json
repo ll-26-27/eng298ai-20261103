@@ -1,0 +1,120 @@
+{
+ "chunk": "little-dorrit-c054-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2853,
+  "completion_tokens": 1575,
+  "total_tokens": 4428,
+  "cost": 0.0010728,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010728,
+   "upstream_inference_prompt_cost": 0.0002853,
+   "upstream_inference_completions_cost": 0.0007875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 795,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "Arrived at Paris, and resting there three days",
+   "note": ""
+  },
+  {
+   "as_written": "Notre Dame",
+   "normalized": "Notre-Dame de Paris, Paris",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "than the two square towers of Notre Dame",
+   "note": ""
+  },
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "posted away for Marseilles",
+   "note": ""
+  },
+  {
+   "as_written": "Saone",
+   "normalized": "Saône, France",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Neither the Saone nor the Rhone sped with the swiftness",
+   "note": ""
+  },
+  {
+   "as_written": "Rhone",
+   "normalized": "Rhône, France",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Neither the Saone nor the Rhone sped with the swiftness",
+   "note": ""
+  },
+  {
+   "as_written": "Mediterranean",
+   "normalized": "Mediterranean Sea",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "nor was the Mediterranean deeper than its foundations",
+   "note": "sea, not river; closest enum value"
+  },
+  {
+   "as_written": "Cornice road",
+   "normalized": "Corniche road, Riviera, France–Italy",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the distant landscapes on the Cornice road",
+   "note": "coast road, not a street; closest enum value"
+  },
+  {
+   "as_written": "Genoa the Superb",
+   "normalized": "Genoa, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the hills and bay of Genoa the Superb",
+   "note": ""
+  },
+  {
+   "as_written": "Civita Vecchia",
+   "normalized": "Civitavecchia, Italy",
+   "type": "town",
+   "role": "setting",
+   "in_london": false,
+   "quote": "disembarked among the dirty white houses and dirtier felons of Civita Vecchia",
+   "note": ""
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "scrambled on to Rome as they could",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c055-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5155,
+  "completion_tokens": 1708,
+  "total_tokens": 6863,
+  "cost": 0.0013695,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013695,
+   "upstream_inference_prompt_cost": 0.0005155,
+   "upstream_inference_completions_cost": 0.000854
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1275,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Marshalsea",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "welcoming you to the Marshalsea! Welcome to the Marshalsea!",
+   "note": "Debtors' prison; the father's mind is fixed on it, though he is speaking at Mrs Merdle's and at home."
+  },
+  {
+   "as_written": "Snuggery",
+   "normalized": "The Snuggery, Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "This is the Snuggery.",
+   "note": "Named room within the Marshalsea, mentioned in the father's speech."
+  },
+  {
+   "as_written": "Surrey hills",
+   "normalized": "Surrey Hills, Surrey",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Blows over the Surrey hills.",
+   "note": "Air of the Marshalsea said to blow over them."
+  },
+  {
+   "as_written": "Roman palace",
+   "normalized": "Rome, Italy",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The broad stairs of his Roman palace were contracted",
+   "note": "Imaginary palace from the father's dream of wealth, not a locatable building."
+  }
+ ]
+}

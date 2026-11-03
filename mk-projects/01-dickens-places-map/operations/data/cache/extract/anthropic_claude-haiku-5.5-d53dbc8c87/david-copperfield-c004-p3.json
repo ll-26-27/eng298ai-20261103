@@ -1,0 +1,39 @@
+{
+ "chunk": "david-copperfield-c004-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5157,
+  "completion_tokens": 657,
+  "total_tokens": 5814,
+  "cost": 0.0008442,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008442,
+   "upstream_inference_prompt_cost": 0.0005157,
+   "upstream_inference_completions_cost": 0.0003285
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 539,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "double-Gloucester",
+   "normalized": "Gloucestershire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "five thousand double-Gloucester cheeses at fourpence-halfpenny each",
+   "note": "Name of a cheese type, not a visit; included as a passing place reference."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1762,
+  "completion_tokens": 120,
+  "total_tokens": 1882,
+  "cost": 0.0002362,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002362,
+   "upstream_inference_prompt_cost": 0.0001762,
+   "upstream_inference_completions_cost": 0.00006
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0247. Location: 1818 Vol. II, Ch. V; 1831 Ch. XIII.\n\nContext before (unchanged): My senses were gratified and refreshed by a thousand scents of delight, and a thousand sights of beauty.\n\n1818 text: \"It was on one of these days, when my cottagers periodically rested from labour—the old man played on his guitar, and the children listened to him—I observed that the countenance of Felix was melancholy beyond expression: he sighed frequently; and once his father paused in his music, and I conjectured by his manner that he inquired the cause of his son's sorrow.\n\n1831 text: \"It was on one of these days, when my cottagers periodically rested from labour—the old man played on his guitar, and the children listened to him—that I observed the countenance of Felix was melancholy beyond expression; he sighed frequently; and once his father paused in his music, and I conjectured by his manner that he enquired the cause of his son's sorrow.\n\nDiff: \" It was on one of these days, when my cottagers periodically rested from labour—the old man played on his guitar, and the children listened to him— {+that+} I observed [-that-] the countenance of Felix was melancholy beyond expression [-:-] {+;+} he sighed frequently; and once his father paused in his music, and I conjectured by his manner that he [-inquired-] {+enquired+} the cause of his son's sorrow.\n\nContext after (unchanged): Felix replied in a cheerful accent, and the old man was recommencing his music, when some one tapped at the door."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "spelling"
+  ],
+  "significance": 1,
+  "rationale": "Changes are syntactic and orthographic: 'that I observed' becomes 'that I observed' with 'that' moved, colon becomes semicolon, and 'inquired' becomes 'enquired'. No change to events, characters, or moral content.",
+  "confidence": "high",
+  "rationaleWords": 30
+ }
+}

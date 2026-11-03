@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c058-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5233,
+  "completion_tokens": 1081,
+  "total_tokens": 6314,
+  "cost": 0.0010638,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010638,
+   "upstream_inference_prompt_cost": 0.0005233,
+   "upstream_inference_completions_cost": 0.0005405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 706,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Calais",
+   "normalized": "Calais, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Arthur Clennam had made his unavailing expedition to Calais in the midst of a great pressure of business.",
+   "note": ""
+  },
+  {
+   "as_written": "Southampton",
+   "normalized": "Southampton, Hampshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Doyce was to go to Southampton to join the small staff of his fellow-travellers",
+   "note": "Destination of Doyce's journey; he is not there in this passage."
+  },
+  {
+   "as_written": "Bleeding Heart Yard",
+   "normalized": "Bleeding Heart Yard, Hatton Garden, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "as if the concussion of the air had blown it out of Bleeding Heart Yard.",
+   "note": "Clennam's counting-house is here; the coach leaves from this yard."
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "They all know it in France.",
+   "note": ""
+  }
+ ]
+}

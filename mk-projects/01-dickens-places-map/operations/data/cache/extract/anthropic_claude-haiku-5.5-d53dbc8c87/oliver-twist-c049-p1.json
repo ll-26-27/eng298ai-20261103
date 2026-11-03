@@ -1,0 +1,57 @@
+{
+ "chunk": "oliver-twist-c049-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4983,
+  "completion_tokens": 547,
+  "total_tokens": 5530,
+  "cost": 0.0007718,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007718,
+   "upstream_inference_prompt_cost": 0.0004983,
+   "upstream_inference_completions_cost": 0.0002735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 246,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Before he went abroad, and as he passed through London on his way,",
+   "note": "Mr. Brownlow's account of his father's journey; the place is not a setting in this passage."
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "It was necessary that he should immediately repair to Rome, whither this man had sped for health,",
+   "note": "Recounted past event; Monks's uncle's death and his own death occur there."
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "was followed, the moment the intelligence reached Paris, by your mother who carried you with her;",
+   "note": "Recounted past event; the mother's location."
+  }
+ ]
+}

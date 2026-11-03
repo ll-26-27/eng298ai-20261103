@@ -1,0 +1,84 @@
+{
+ "chunk": "david-copperfield-c033-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4951,
+  "completion_tokens": 2184,
+  "total_tokens": 7135,
+  "cost": 0.0015871,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015871,
+   "upstream_inference_prompt_cost": 0.0004951,
+   "upstream_inference_completions_cost": 0.001092
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1586,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Commons",
+   "normalized": "Doctors' Commons, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Taking that part of the Commons which happened to be nearest to us",
+   "note": "Area of ecclesiastical courts and offices; 'Court' in the passage refers to these courts"
+  },
+  {
+   "as_written": "Prerogative Office",
+   "normalized": "Prerogative Office (Prerogative Court registry), St Paul's Churchyard, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "strolling past the Prerogative Office",
+   "note": "Registry of wills, discussed at length; located within Doctors' Commons area"
+  },
+  {
+   "as_written": "St. Paul’s Churchyard",
+   "normalized": "St Paul's Churchyard, London",
+   "type": "street",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "squeezed away in a corner of St. Paul’s Churchyard",
+   "note": ""
+  },
+  {
+   "as_written": "Canterbury",
+   "normalized": "Province of Canterbury, Kent, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the immense province of Canterbury",
+   "note": "Ecclesiastical province/diocese, not the city itself"
+  },
+  {
+   "as_written": "Norwood",
+   "normalized": "Norwood, Surrey (Upper Norwood)",
+   "type": "district",
+   "role": "setting",
+   "in_london": false,
+   "quote": "sent down by the Norwood coach the night before",
+   "note": "Then in Surrey, outside London; Dora's home and picnic setting"
+  },
+  {
+   "as_written": "Covent Garden Market",
+   "normalized": "Covent Garden Market, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "I was in Covent Garden Market, buying a bouquet for Dora.",
+   "note": ""
+  }
+ ]
+}

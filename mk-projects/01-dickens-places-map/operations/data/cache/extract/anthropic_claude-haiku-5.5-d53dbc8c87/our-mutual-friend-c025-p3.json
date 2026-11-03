@@ -1,0 +1,66 @@
+{
+ "chunk": "our-mutual-friend-c025-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5222,
+  "completion_tokens": 909,
+  "total_tokens": 6131,
+  "cost": 0.0009767,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009767,
+   "upstream_inference_prompt_cost": 0.0005222,
+   "upstream_inference_completions_cost": 0.0004545
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 623,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Greenwich",
+   "normalized": "Greenwich, London",
+   "type": "town",
+   "role": "setting",
+   "in_london": true,
+   "quote": "‘Greenwich!’ said Bella, valiantly.",
+   "note": ""
+  },
+  {
+   "as_written": "Newcastle",
+   "normalized": "Newcastle upon Tyne, Northumberland",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "tacking away to Newcastle",
+   "note": ""
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "Pa was going to China in that handsome threemasted ship",
+   "note": ""
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "when she got to Gravesend",
+   "note": ""
+  }
+ ]
+}

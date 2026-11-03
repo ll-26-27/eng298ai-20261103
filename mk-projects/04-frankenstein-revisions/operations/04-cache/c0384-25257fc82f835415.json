@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1540,
+  "completion_tokens": 98,
+  "total_tokens": 1638,
+  "cost": 0.000203,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000203,
+   "upstream_inference_prompt_cost": 0.000154,
+   "upstream_inference_completions_cost": 0.000049
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0384. Location: 1818 Vol. III, Ch. III; 1831 Ch. XX.\n\nContext before (unchanged): I confess that I felt a few sensations of terror.\n\n1818 text: I had no compass with me, and was so little acquainted with the geography of this part of the world that the sun was of little benefit to me.\n\n1831 text: I had no compass with me, and was so slenderly acquainted with the geography of this part of the world, that the sun was of little benefit to me.\n\nDiff: I had no compass with me, and was so [-little-] {+slenderly+} acquainted with the geography of this part of the world {+,+} that the sun was of little benefit to me.\n\nContext after (unchanged): I might be driven into the wide Atlantic, and feel all the tortures of starvation, or be swallowed up in the immeasurable waters that roared and buffeted around me."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Swaps 'little' for 'slenderly' and adds a comma; the meaning of acquaintance with geography is unchanged. A stylistic diction shift with no interpretive consequence.",
+  "confidence": "high",
+  "rationaleWords": 24
+ }
+}

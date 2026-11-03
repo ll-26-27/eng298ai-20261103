@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c014-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5309,
+  "completion_tokens": 1112,
+  "total_tokens": 6421,
+  "cost": 0.0010869,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010869,
+   "upstream_inference_prompt_cost": 0.0005309,
+   "upstream_inference_completions_cost": 0.000556
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 731,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Doctor Blimber’s",
+   "normalized": "Doctor Blimber’s school (fictional), Dombey and Son",
+   "type": "fictional",
+   "role": "setting",
+   "in_london": null,
+   "quote": "the leaden-eyed young gentlemen assembled at Doctor Blimber’s",
+   "note": "Fictional school; its location is not stated in this passage."
+  },
+  {
+   "as_written": "Bayswater",
+   "normalized": "Bayswater, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the friends of the family (then resident near Bayswater, London)",
+   "note": ""
+  },
+  {
+   "as_written": "Kensington Gardens",
+   "normalized": "Kensington Gardens, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "the ornamental piece of water in Kensington Gardens",
+   "note": ""
+  },
+  {
+   "as_written": "the Capitol",
+   "normalized": "Capitol, Rome",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "advancing within a few hours’ march of the Capitol",
+   "note": "Used in a simile about Mrs Tozer's dwelling."
+  }
+ ]
+}

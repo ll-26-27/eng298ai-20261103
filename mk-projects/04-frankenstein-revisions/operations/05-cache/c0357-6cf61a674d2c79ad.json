@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1597,
+  "completion_tokens": 93,
+  "total_tokens": 1690,
+  "cost": 0.004124,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.004124,
+   "upstream_inference_prompt_cost": 0.003194,
+   "upstream_inference_completions_cost": 0.00093
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0357. Location: 1818 Vol. III, Ch. II; 1831 Ch. XIX.\n\nContext before (unchanged): In this expedition we did not intend to follow the great road to Edinburgh, but to visit Windsor, Oxford, Matlock, and the Cumberland lakes, resolving to arrive at the completion of this tour about the end of July.\n\n1818 text: I packed my chemical instruments, and the materials I had collected, resolving to finish my labours in some obscure nook in the northern highlands of Scotland.\n\n1831 text: I packed up my chemical instruments, and the materials I had collected, resolving to finish my labours in some obscure nook in the northern highlands of Scotland.\n\nDiff: I packed {+up+} my chemical instruments, and the materials I had collected, resolving to finish my labours in some obscure nook in the northern highlands of Scotland.\n\nContext after (unchanged): We quitted London on the 27th of March, and remained a few days at Windsor, rambling in its beautiful forest."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Adds the particle \"up\" to make \"packed up my chemical instruments\", a idiomatic phrasal-verb tweak with no change in meaning, events, or character.",
+  "confidence": "high",
+  "rationaleWords": 23
+ }
+}

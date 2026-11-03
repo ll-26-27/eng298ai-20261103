@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1477,
+  "completion_tokens": 331,
+  "total_tokens": 1808,
+  "cost": 0.0003132,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003132,
+   "upstream_inference_prompt_cost": 0.0001477,
+   "upstream_inference_completions_cost": 0.0001655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 221,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0442. Location: 1818 Vol. III, Ch. V; 1831 Ch. XXII.\n\nContext before (unchanged): The agonies of remorse poison the luxury there is otherwise sometimes found in indulging the excess of grief.\n\n1818 text: Soon after my arrival my father spoke of my immediate marriage with my cousin.\n\n1831 text: Soon after my arrival, my father spoke of my immediate marriage with Elizabeth.\n\nDiff: Soon after my arrival {+,+} my father spoke of my immediate marriage with [-my cousin-] {+Elizabeth+} .\n\nContext after (unchanged): I remained silent."
+ },
+ "result": {
+  "category": "characterization",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 3,
+  "rationale": "Replaces the kinship label \"my cousin\" with the personal name \"Elizabeth,\" shifting how the narrator presents her: from a relation to an individual. The sentence's content and events are unchanged.",
+  "confidence": "medium",
+  "rationaleWords": 30
+ }
+}

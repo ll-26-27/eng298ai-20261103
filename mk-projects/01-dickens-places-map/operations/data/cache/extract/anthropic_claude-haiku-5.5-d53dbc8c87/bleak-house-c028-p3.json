@@ -1,0 +1,48 @@
+{
+ "chunk": "bleak-house-c028-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2570,
+  "completion_tokens": 512,
+  "total_tokens": 3082,
+  "cost": 0.000513,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000513,
+   "upstream_inference_prompt_cost": 0.000257,
+   "upstream_inference_completions_cost": 0.000256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 269,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ghost’s Walk",
+   "normalized": "Ghost's Walk, Chesney Wold (fictional)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "inattentive to the Ghost’s Walk, looks at Rosa, writing in an inner room",
+   "note": "Fictional walk on the Chesney Wold estate; the passage implies it is visible from the boudoir, so setting is debatable."
+  },
+  {
+   "as_written": "north of England",
+   "normalized": "North of England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "if there were a general rising in the north of England to obtain her rouge-pot and pearl necklace",
+   "note": "Used figuratively."
+  }
+ ]
+}

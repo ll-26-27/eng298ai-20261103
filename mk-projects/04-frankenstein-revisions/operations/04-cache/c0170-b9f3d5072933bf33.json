@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1670,
+  "completion_tokens": 130,
+  "total_tokens": 1800,
+  "cost": 0.000232,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000232,
+   "upstream_inference_prompt_cost": 0.000167,
+   "upstream_inference_completions_cost": 0.000065
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0170. Location: 1818 Vol. I, Ch. VII; 1831 Ch. VIII.\n\nContext before (unchanged): She was alarmed by this account, and passed several hours in looking for him, when the gates of Geneva were shut, and she was forced to remain several hours of the night in a barn belonging to a cottage, being unwilling to call up the inhabitants, to whom she was well known.\n\n1818 text: Unable to rest or sleep, she quitted her asylum early, that she might again endeavour to find my brother.\n\n1831 text: Most of the night she spent here watching; towards morning she believed that she slept for a few minutes; some steps disturbed her, and she awoke. It was dawn, and she quitted her asylum, that she might again endeavour to find my brother.\n\nDiff: [-Unable to rest or sleep, she quitted her asylum early, that she might again endeavour to find my brother.-] {+Most of the night she spent here watching; towards morning she believed that she slept for a few minutes; some steps disturbed her, and she awoke. It was dawn, and she quitted her asylum, that she might again endeavour to find my brother.+}\n\nContext after (unchanged): If she had gone near the spot where his body lay, it was without her knowledge."
+ },
+ "result": {
+  "category": "expansion",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 3,
+  "rationale": "The 1831 text adds sensory detail and narrative action (watching, dozing, steps waking her, dawn) elaborating Justine's night in the barn without changing events; the 'Unable to rest or sleep' contrast is lost, slightly shifting her portrayal.",
+  "confidence": "medium",
+  "rationaleWords": 37
+ }
+}

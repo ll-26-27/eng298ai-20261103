@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1717,
+  "completion_tokens": 411,
+  "total_tokens": 2128,
+  "cost": 0.0003772,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003772,
+   "upstream_inference_prompt_cost": 0.0001717,
+   "upstream_inference_completions_cost": 0.0002055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 276,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0399. Location: 1818 Vol. III, Ch. IV; 1831 Ch. XXI.\n\nContext before (unchanged): How can I describe my sensations on beholding it?\n\n1818 text: I feel yet parched with horror, nor can I reflect on that terrible moment without shuddering and agony, that faintly reminds me of the anguish of the recognition. The trial, the presence of the magistrate and witnesses, passed like a dream from my memory, when I saw the lifeless form of Henry Clerval stretched before me.\n\n1831 text: I feel yet parched with horror, nor can I reflect on that terrible moment without shuddering and agony. The examination, the presence of the magistrate and witnesses, passed like a dream from my memory, when I saw the lifeless form of Henry Clerval stretched before me.\n\nDiff: I feel yet parched with horror, nor can I reflect on that terrible moment without shuddering and agony [-, that faintly reminds me of the anguish of the recognition-] . The [-trial-] {+examination+} , the presence of the magistrate and witnesses, passed like a dream from my memory, when I saw the lifeless form of Henry Clerval stretched before me.\n\nContext after (unchanged): I gasped for breath; and, throwing myself on the body, I exclaimed, \"Have my murderous machinations deprived you also, my dearest Henry, of life?"
+ },
+ "result": {
+  "category": "cut",
+  "secondary": [
+   "wording"
+  ],
+  "significance": 2,
+  "rationale": "The main change is the deletion of \"that faintly reminds me of the anguish of the recognition,\" which removes a retrospective link to the creature's recognition scene. \"Trial\" becomes \"examination,\" a lighter legal term that reduces the sense of formal judicial proceedings.",
+  "confidence": "medium",
+  "rationaleWords": 42
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1607,
+  "completion_tokens": 129,
+  "total_tokens": 1736,
+  "cost": 0.0002252,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002252,
+   "upstream_inference_prompt_cost": 0.0001607,
+   "upstream_inference_completions_cost": 0.0000645
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0255. Location: 1818 Vol. II, Ch. V; 1831 Ch. XIII.\n\nContext before (unchanged): I learned that the possessions most esteemed by your fellow-creatures were, high and unsullied descent united with riches.\n\n1818 text: A man might be respected with only one of these acquisitions; but without either he was considered, except in very rare instances, as a vagabond and a slave, doomed to waste his powers for the profit of the chosen few.\n\n1831 text: A man might be respected with only one of these advantages; but, without either, he was considered, except in very rare instances, as a vagabond and a slave, doomed to waste his powers for the profits of the chosen few!\n\nDiff: A man might be respected with only one of these [-acquisitions-] {+advantages+} ; but {+,+} without either {+,+} he was considered, except in very rare instances, as a vagabond and a slave, doomed to waste his powers for the [-profit-] {+profits+} of the chosen few [-.-] {+!+}\n\nContext after (unchanged): And what was I?"
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Mostly word-level substitutions: 'acquisitions' becomes 'advantages' and 'profit' becomes 'profits', plus punctuation changes (added commas, period to exclamation). Meaning of the social critique is preserved; the exclamation adds slight emphasis only.",
+  "confidence": "high",
+  "rationaleWords": 31
+ }
+}

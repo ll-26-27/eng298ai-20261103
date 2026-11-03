@@ -1,0 +1,66 @@
+{
+ "chunk": "great-expectations-c053-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 4790,
+  "completion_tokens": 1211,
+  "total_tokens": 6001,
+  "cost": 0.0010845,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010845,
+   "upstream_inference_prompt_cost": 0.000479,
+   "upstream_inference_completions_cost": 0.0006055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 780,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the marshes",
+   "normalized": "Cooling Marshes, Kent",
+   "type": "region",
+   "role": "setting",
+   "in_london": false,
+   "quote": "passed out upon the marshes",
+   "note": "Generic landscape name in the text; location inferred from the Kent Thames-estuary setting."
+  },
+  {
+   "as_written": "the Hulks",
+   "normalized": "Hulks on the Thames estuary, Kent",
+   "type": "river_or_water",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "My back was turned towards the distant Hulks as I walked on",
+   "note": "Prison hulks moored off the Thames estuary; identified by the article capitalised as a name."
+  },
+  {
+   "as_written": "the old Battery",
+   "normalized": "Battery Point, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I knew the limekiln as well as I knew the old Battery",
+   "note": "Former battery on the Kent marshes; location inferred."
+  },
+  {
+   "as_written": "Miss Havisham's gate",
+   "normalized": "Satis House, Rochester",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I had called at Miss Havisham's gate for only a moment",
+   "note": "Fictional house named by its occupant; Satis House is the novel's name for it, not named in this passage."
+  }
+ ]
+}

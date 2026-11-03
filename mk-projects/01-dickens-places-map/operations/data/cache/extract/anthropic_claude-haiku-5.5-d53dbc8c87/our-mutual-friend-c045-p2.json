@@ -1,0 +1,48 @@
+{
+ "chunk": "our-mutual-friend-c045-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 4215,
+  "completion_tokens": 179,
+  "total_tokens": 4394,
+  "cost": 0.000511,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000511,
+   "upstream_inference_prompt_cost": 0.0004215,
+   "upstream_inference_completions_cost": 0.0000895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Albany",
+   "normalized": "The Albany, Piccadilly, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "since he came round the corner from the Albany",
+   "note": "Fledgeby's chambers in the Albany; a set of residential chambers."
+  },
+  {
+   "as_written": "St Mary Axe",
+   "normalized": "St Mary Axe, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "arriving at the counting-house in St Mary Axe",
+   "note": ""
+  }
+ ]
+}

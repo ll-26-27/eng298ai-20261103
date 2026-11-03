@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1559,
+  "completion_tokens": 125,
+  "total_tokens": 1684,
+  "cost": 0.0002184,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002184,
+   "upstream_inference_prompt_cost": 0.0001559,
+   "upstream_inference_completions_cost": 0.0000625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0264. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): The prospect of marrying a Christian, and remaining in a country where women were allowed to take a rank in society, was enchanting to her.\n\n1818 text: \"The day for the execution of the Turk was fixed; but, on the night previous to it, he had quitted prison, and before morning was distant many leagues from Paris.\n\n1831 text: \"The day for the execution of the Turk was fixed; but, on the night previous to it, he quitted his prison, and before morning was distant many leagues from Paris.\n\nDiff: \" The day for the execution of the Turk was fixed; but, on the night previous to it, he [-had-] quitted {+his+} prison, and before morning was distant many leagues from Paris.\n\nContext after (unchanged): Felix had procured passports in the name of his father, sister, and himself."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 1,
+  "rationale": "Only the auxiliary 'had' is dropped and 'his' inserted before 'prison' (\"he had quitted prison\" becomes \"he quitted his prison\"). Events and meaning are unchanged; this is a minor syntactic and stylistic adjustment.",
+  "confidence": "high",
+  "rationaleWords": 33
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "chunk": "dombey-and-son-c006-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5231,
+  "completion_tokens": 1939,
+  "total_tokens": 7170,
+  "cost": 0.0014926,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014926,
+   "upstream_inference_prompt_cost": 0.0005231,
+   "upstream_inference_completions_cost": 0.0009695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1211,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Staggs’s Gardens",
+   "normalized": "Staggs's Gardens, Camden Town, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "Staggs’s Gardens was uncommonly incredulous.",
+   "note": "Fictional street in the Camden Town area; the name is Dickens's invention."
+  },
+  {
+   "as_written": "Camberling Town",
+   "normalized": "Camden Town, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "known by the inhabitants of Staggs’s Gardens by the name of Camberling Town",
+   "note": "Local name for Camden Town, as given in the passage."
+  },
+  {
+   "as_written": "Camden Town",
+   "normalized": "Camden Town, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "condenses, with some show of reason, into Camden Town",
+   "note": "Same district as Camberling Town, here under its standard name."
+  },
+  {
+   "as_written": "the City",
+   "normalized": "City of London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "his daily road towards the City",
+   "note": ""
+  },
+  {
+   "as_written": "The Railway Arms",
+   "normalized": "The Railway Arms, Camden Town, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "had taken for its sign The Railway Arms",
+   "note": "Tavern sign in the fictional neighbourhood; location is not otherwise given."
+  },
+  {
+   "as_written": "number one hundred and forty-seven",
+   "normalized": "No. 147, Brook Street, London (Dombey house)",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "to see number one hundred and forty-seven, under the awful shadow of Mr Dombey’s roof",
+   "note": "Street not named in this passage; Brook Street is from elsewhere in the novel and is not stated here."
+  },
+  {
+   "as_written": "Banbury Cross",
+   "normalized": "Banbury Cross, Banbury, Oxfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "took her to Banbury Cross immediately",
+   "note": "Nursery-rhyme reference used in a figure of speech; the cross is in Banbury."
+  }
+ ]
+}

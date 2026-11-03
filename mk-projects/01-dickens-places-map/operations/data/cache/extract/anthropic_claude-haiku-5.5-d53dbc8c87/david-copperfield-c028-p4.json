@@ -1,0 +1,93 @@
+{
+ "chunk": "david-copperfield-c028-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5217,
+  "completion_tokens": 1510,
+  "total_tokens": 6727,
+  "cost": 0.0012767,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012767,
+   "upstream_inference_prompt_cost": 0.0005217,
+   "upstream_inference_completions_cost": 0.000755
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 908,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Salem House",
+   "normalized": "Salem House, Blackheath (fictional school)",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": null,
+   "quote": "Traddles in our room at Salem House?",
+   "note": "Fictional school; location in the novel is not stated in this passage."
+  },
+  {
+   "as_written": "Yarmouth",
+   "normalized": "Great Yarmouth, Norfolk",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I have come from Yarmouth.",
+   "note": ""
+  },
+  {
+   "as_written": "Oxford",
+   "normalized": "Oxford, Oxfordshire",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "I thought you came from Oxford?",
+   "note": ""
+  },
+  {
+   "as_written": "Highgate",
+   "normalized": "Highgate, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I am for Highgate tonight.",
+   "note": "Steerforth's destination that night; he is not there in the passage."
+  },
+  {
+   "as_written": "Devonshire",
+   "normalized": "Devon, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "down in Devonshire",
+   "note": ""
+  },
+  {
+   "as_written": "Inner Temple",
+   "normalized": "Inner Temple, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a member of the Honourable Society of the Inner Temple.",
+   "note": "Inn of Court."
+  },
+  {
+   "as_written": "The Willing Mind",
+   "normalized": "The Willing Mind inn, Yarmouth",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "J. Steerforth, Esquire, debtor, to The Willing Mind",
+   "note": "Inn name appearing in a bill heading; location inferred from the Yarmouth context and uncertain."
+  }
+ ]
+}

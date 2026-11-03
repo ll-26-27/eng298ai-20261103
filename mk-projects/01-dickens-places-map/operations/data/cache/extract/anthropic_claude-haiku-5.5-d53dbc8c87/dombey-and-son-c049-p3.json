@@ -1,0 +1,39 @@
+{
+ "chunk": "dombey-and-son-c049-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5382,
+  "completion_tokens": 424,
+  "total_tokens": 5806,
+  "cost": 0.0007502,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007502,
+   "upstream_inference_prompt_cost": 0.0005382,
+   "upstream_inference_completions_cost": 0.000212
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 311,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Port of London",
+   "normalized": "Port of London, Thames, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "as sailed out of the Port of London, with a fair wind and in fair weather",
+   "note": "Port named within the Captain's fictional story; the port area of the Thames."
+  }
+ ]
+}

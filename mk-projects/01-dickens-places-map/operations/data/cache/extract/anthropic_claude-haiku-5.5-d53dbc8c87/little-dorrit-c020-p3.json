@@ -1,0 +1,48 @@
+{
+ "chunk": "little-dorrit-c020-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5162,
+  "completion_tokens": 396,
+  "total_tokens": 5558,
+  "cost": 0.0007142,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007142,
+   "upstream_inference_prompt_cost": 0.0005162,
+   "upstream_inference_completions_cost": 0.000198
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 219,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Harley Street",
+   "normalized": "Harley Street, Marylebone, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "were shut out into unpowdered Harley Street, Cavendish Square.",
+   "note": ""
+  },
+  {
+   "as_written": "Cavendish Square",
+   "normalized": "Cavendish Square, London",
+   "type": "square_or_park",
+   "role": "setting",
+   "in_london": true,
+   "quote": "were shut out into unpowdered Harley Street, Cavendish Square.",
+   "note": ""
+  }
+ ]
+}

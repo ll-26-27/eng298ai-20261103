@@ -1,0 +1,66 @@
+{
+ "chunk": "little-dorrit-c010-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5493,
+  "completion_tokens": 1097,
+  "total_tokens": 6590,
+  "cost": 0.0010978,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010978,
+   "upstream_inference_prompt_cost": 0.0005493,
+   "upstream_inference_completions_cost": 0.0005485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 712,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Mews Street",
+   "normalized": "Mews Street, Mayfair, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "It was a hideous little street of dead wall, stables, and dunghills",
+   "note": "Fictional-era street; Clennam goes to number twenty-four and is there in this passage."
+  },
+  {
+   "as_written": "Grosvenor Square",
+   "normalized": "Grosvenor Square, Mayfair, London",
+   "type": "square_or_park",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "Mews Street, Grosvenor Square, was not absolutely Grosvenor Square itself",
+   "note": "Mews Street is said to be near the square, not in it."
+  },
+  {
+   "as_written": "Marshalsea Prison",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "I have found a debtor in the Marshalsea Prison of the name of Dorrit",
+   "note": ""
+  },
+  {
+   "as_written": "China",
+   "normalized": "China",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "have been for some years in China",
+   "note": ""
+  }
+ ]
+}

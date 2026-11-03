@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 1883,
+  "completion_tokens": 139,
+  "total_tokens": 2022,
+  "cost": 0.0002578,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002578,
+   "upstream_inference_prompt_cost": 0.0001883,
+   "upstream_inference_completions_cost": 0.0000695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0550. Location: 1818 Vol. III, Ch. VII; 1831 Ch. XXIV.\n\nContext before (unchanged): If thou wert yet alive, and yet cherished a desire of revenge against me, it would be better satiated in my life than in my destruction.\n\n1818 text: But it was not so; thou didst seek my extinction, that I might not cause greater wretchedness; and if yet, in some mode unknown to me, thou hast not yet ceased to think and feel, thou desirest not my life for my own misery. Blasted as thou wert, my agony was still superior to thine; for the bitter sting of remorse may not cease to rankle in my wounds until death shall close them for ever.\n\n1831 text: But it was not so; thou didst seek my extinction, that I might not cause greater wretchedness; and if yet, in some mode unknown to me, thou hadst not ceased to think and feel, thou wouldst not desire against me a vengeance greater than that which I feel. Blasted as thou wert, my agony was still superior to thine; for the bitter sting of remorse will not cease to rankle in my wounds until death shall close them for ever.\n\nDiff: But it was not so; thou didst seek my extinction, that I might not cause greater wretchedness; and if yet, in some mode unknown to me, thou [-hast-] {+hadst+} not [-yet-] ceased to think and feel, thou [-desirest-] {+wouldst+} not [-my life for my own misery-] {+desire against me a vengeance greater than that which I feel+} . Blasted as thou wert, my agony was still superior to thine; for the bitter sting of remorse [-may-] {+will+} not cease to rankle in my wounds until death shall close them for ever.\n\nContext after (unchanged): \"But soon,\" he cried, with sad and solemn enthusiasm, \"I shall die, and what I now feel be no longer felt."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "characterization"
+  ],
+  "significance": 3,
+  "rationale": "Rewrites the conditional clause: 'desirest not my life for my own misery' becomes 'wouldst not desire against me a vengeance greater than that which I feel', shifting the emphasis from the creature's desire for the creator's life to a comparative vengeance, which sharpens the revenge motif.",
+  "confidence": "medium",
+  "rationaleWords": 46
+ }
+}

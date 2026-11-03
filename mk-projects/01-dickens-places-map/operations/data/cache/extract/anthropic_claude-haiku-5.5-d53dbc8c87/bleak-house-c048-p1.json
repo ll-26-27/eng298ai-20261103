@@ -1,0 +1,57 @@
+{
+ "chunk": "bleak-house-c048-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5245,
+  "completion_tokens": 1043,
+  "total_tokens": 6288,
+  "cost": 0.001046,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001046,
+   "upstream_inference_prompt_cost": 0.0005245,
+   "upstream_inference_completions_cost": 0.0005215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 726,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lincolnshire",
+   "normalized": "Lincolnshire, England",
+   "type": "region",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "The place in Lincolnshire has shut its many eyes again",
+   "note": "Region where the Dedlock country seat lies; not a setting in this passage."
+  },
+  {
+   "as_written": "Chesney Wold",
+   "normalized": "Chesney Wold",
+   "type": "fictional",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "since their late interview in his turret-room at Chesney Wold",
+   "note": "Dedlock country house, invented by Dickens; location given only as Lincolnshire."
+  },
+  {
+   "as_written": "House of Lords",
+   "normalized": "House of Lords, Palace of Westminster, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "like its high and dry master in the House of Lords",
+   "note": "Used figuratively as a place where a lord sits; borderline institution."
+  }
+ ]
+}

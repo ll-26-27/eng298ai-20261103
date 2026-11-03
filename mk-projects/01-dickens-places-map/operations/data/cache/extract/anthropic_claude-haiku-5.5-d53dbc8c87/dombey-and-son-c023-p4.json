@@ -1,0 +1,66 @@
+{
+ "chunk": "dombey-and-son-c023-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 5331,
+  "completion_tokens": 375,
+  "total_tokens": 5706,
+  "cost": 0.0007206,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007206,
+   "upstream_inference_prompt_cost": 0.0005331,
+   "upstream_inference_completions_cost": 0.0001875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Brig Place",
+   "normalized": "Brig Place, Wapping, London",
+   "type": "street",
+   "role": "setting",
+   "in_london": true,
+   "quote": "they got to the corner of Brig Place without any molestation",
+   "note": "Dombey and Son's Brig Place is in Dickens's Wapping/Ratcliffe area; location approximate"
+  },
+  {
+   "as_written": "Ratcliffe",
+   "normalized": "Ratcliff, Stepney, London",
+   "type": "district",
+   "role": "setting",
+   "in_london": true,
+   "quote": "which lay outside the tier",
+   "note": ""
+  },
+  {
+   "as_written": "Ratcliffe",
+   "normalized": "Ratcliff, Stepney, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "was lying hard by Ratcliffe.",
+   "note": "Duplicate mention; kept once"
+  },
+  {
+   "as_written": "Chatham-yard",
+   "normalized": "Chatham Dockyard, Chatham, Kent",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "as you’d want a order for on Chatham-yard to build a pleasure yacht",
+   "note": ""
+  }
+ ]
+}

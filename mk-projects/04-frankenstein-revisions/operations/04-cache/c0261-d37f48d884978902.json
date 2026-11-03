@@ -1,0 +1,39 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Anthropic",
+ "usage": {
+  "prompt_tokens": 2018,
+  "completion_tokens": 126,
+  "total_tokens": 2144,
+  "cost": 0.0002648,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002648,
+   "upstream_inference_prompt_cost": 0.0002018,
+   "upstream_inference_completions_cost": 0.000063
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0261. Location: 1818 Vol. II, Ch. VI; 1831 Ch. XIV.\n\nContext before (unchanged): \"The Turk quickly perceived the impression that his daughter had made on the heart of Felix, and endeavoured to secure him more entirely in his interests by the promise of her hand in marriage, so soon as he should be conveyed to a place of safety.\n\n1818 text: Felix was too delicate to accept this offer; yet he looked forward to the probability of that event as to the consummation of his happiness. \"During the ensuing days, while the preparations were going forward for the escape of the merchant, the zeal of Felix was warmed by several letters that he received from this lovely girl, who found means to express her thoughts in the language of her lover by the aid of an old man, a servant of her father's, who understood French. She thanked him in the most ardent terms for his intended services towards her father; and at the same time she gently deplored her own fate.\n\n1831 text: Felix was too delicate to accept this offer; yet he looked forward to the probability of the event as to the consummation of his happiness. \"During the ensuing days, while the preparations were going forward for the escape of the merchant, the zeal of Felix was warmed by several letters that he received from this lovely girl, who found means to express her thoughts in the language of her lover by the aid of an old man, a servant of her father, who understood French. She thanked him in the most ardent terms for his intended services towards her parent; and at the same time she gently deplored her own fate.\n\nDiff: Felix was too delicate to accept this offer; yet he looked forward to the probability of [-that-] {+the+} event as to the consummation of his happiness. \" During the ensuing days, while the preparations were going forward for the escape of the merchant, the zeal of Felix was warmed by several letters that he received from this lovely girl, who found means to express her thoughts in the language of her lover by the aid of an old man, a servant of her [-father's-] {+father+} , who understood French. She thanked him in the most ardent terms for his intended services towards her [-father-] {+parent+} ; and at the same time she gently deplored her own fate.\n\nContext after (unchanged): \"I have copies of these letters; for I found means, during my residence in the hovel, to procure the implements of writing; and the letters were often in the hands of Felix or Agatha."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [],
+  "significance": 2,
+  "rationale": "Several small word swaps: 'that event' becomes 'the event', 'father's' becomes 'father', and 'father' becomes 'parent' in 'her father's intended services'. Meaning is essentially preserved, though 'parent' is a slightly more formal, generalized term.",
+  "confidence": "high",
+  "rationaleWords": 34
+ }
+}

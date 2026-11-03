@@ -1,0 +1,41 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1635,
+  "completion_tokens": 115,
+  "total_tokens": 1750,
+  "cost": 0.000221,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000221,
+   "upstream_inference_prompt_cost": 0.0001635,
+   "upstream_inference_completions_cost": 0.0000575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "request": {
+  "system": "see 03-schema-prompt.md",
+  "user": "Change c0146. Location: 1818 Vol. I, Ch. VI; 1831 Ch. VII.\n\nContext before (unchanged): I prophesied truly, and failed only in one single circumstance, that in all the misery I imagined and dreaded, I did not conceive the hundredth part of the anguish I was destined to endure.\n\n1818 text: It was completely dark when I arrived in the environs of Geneva; the gates of the town were already shut; and I was obliged to pass the night at Secheron, a village half a league to the east of the city.\n\n1831 text: It was completely dark when I arrived in the environs of Geneva; the gates of the town were already shut; and I was obliged to pass the night at Secheron, a village at the distance of half a league from the city.\n\nDiff: It was completely dark when I arrived in the environs of Geneva; the gates of the town were already shut; and I was obliged to pass the night at Secheron, a village {+at the distance of+} half a league [-to the east of-] {+from+} the city.\n\nContext after (unchanged): The sky was serene; and, as I was unable to rest, I resolved to visit the spot where my poor William had been murdered."
+ },
+ "result": {
+  "category": "wording",
+  "secondary": [
+   "cut"
+  ],
+  "significance": 2,
+  "rationale": "Replaces 'half a league to the east of the city' with 'at the distance of half a league from the city', dropping the directional detail (east) while keeping the same location and events; a stylistic rephrasing with a small loss of geographic specificity.",
+  "confidence": "high",
+  "rationaleWords": 43
+ }
+}

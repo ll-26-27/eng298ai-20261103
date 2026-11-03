@@ -1,0 +1,75 @@
+{
+ "chunk": "little-dorrit-c006-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 5395,
+  "completion_tokens": 998,
+  "total_tokens": 6393,
+  "cost": 0.0010385,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010385,
+   "upstream_inference_prompt_cost": 0.0005395,
+   "upstream_inference_completions_cost": 0.000499
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 539,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Marshalsea Prison",
+   "normalized": "Marshalsea Prison, Southwark, London",
+   "type": "building",
+   "role": "setting",
+   "in_london": true,
+   "quote": "the Marshalsea Prison. It had stood there many years before",
+   "note": "Demolished in 1842; the prison is the novel's main setting in this passage."
+  },
+  {
+   "as_written": "the church of Saint George",
+   "normalized": "St George the Martyr church, Borough High Street, Southwark, London",
+   "type": "building",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "a few doors short of the church of Saint George",
+   "note": ""
+  },
+  {
+   "as_written": "the borough of Southwark",
+   "normalized": "Southwark, London",
+   "type": "district",
+   "role": "mentioned",
+   "in_london": true,
+   "quote": "in the borough of Southwark, on the left-hand side of the way going southward",
+   "note": ""
+  },
+  {
+   "as_written": "Marseilles",
+   "normalized": "Marseille, France",
+   "type": "town",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "the sun shone on Marseilles and on the opening of this narrative",
+   "note": ""
+  },
+  {
+   "as_written": "our right little, tight little, island",
+   "normalized": "Great Britain",
+   "type": "country",
+   "role": "mentioned",
+   "in_london": false,
+   "quote": "neatly epitomising the administration of most of the public affairs in our right little, tight little, island",
+   "note": "Ironic figure of speech for Britain."
+  }
+ ]
+}
