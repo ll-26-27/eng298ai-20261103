@@ -2,7 +2,7 @@
 // instruction. The prompt and schema are read from 03-classify-prompt.md. Responses are cached
 // in operations/cache/03-classify/, and tokens and cost are appended to operations/cost-log.jsonl.
 // Usage (from the repo root):
-//   node --env-file=.env mk-projects/05-distant-and-close-reading/operations/03-classify.mjs [text_id] [limit]
+//   node --env-file=.env 01-use-cases/05-distant-and-close-reading/operations/03-classify.mjs [text_id] [limit]
 // Writes operations/03-classifications.json.
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';

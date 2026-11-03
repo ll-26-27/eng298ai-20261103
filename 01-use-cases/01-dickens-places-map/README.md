@@ -34,14 +34,14 @@ Output: **`outputs/index.html`**, a Leaflet 1.9.4 map on Esri's light gray base 
 From the repo root (the folder with `.env`), with Node 22 or later and an OpenRouter key in `.env` as `OPENROUTER_API_KEY`:
 
 ```
-node mk-projects/01-dickens-places-map/operations/00-fetch-texts.mjs
-node mk-projects/01-dickens-places-map/operations/01-clean-and-chunk.mjs
-node --env-file=.env mk-projects/01-dickens-places-map/operations/02-extract-places.mjs
-node mk-projects/01-dickens-places-map/operations/03-inventory.mjs
-node mk-projects/01-dickens-places-map/operations/03b-recall-check.mjs
-node mk-projects/01-dickens-places-map/operations/04-geocode.mjs
-node --env-file=.env mk-projects/01-dickens-places-map/operations/04b-geocode-model-help.mjs
-node mk-projects/01-dickens-places-map/operations/06-build-map.mjs
+node 01-use-cases/01-dickens-places-map/operations/00-fetch-texts.mjs
+node 01-use-cases/01-dickens-places-map/operations/01-clean-and-chunk.mjs
+node --env-file=.env 01-use-cases/01-dickens-places-map/operations/02-extract-places.mjs
+node 01-use-cases/01-dickens-places-map/operations/03-inventory.mjs
+node 01-use-cases/01-dickens-places-map/operations/03b-recall-check.mjs
+node 01-use-cases/01-dickens-places-map/operations/04-geocode.mjs
+node --env-file=.env 01-use-cases/01-dickens-places-map/operations/04b-geocode-model-help.mjs
+node 01-use-cases/01-dickens-places-map/operations/06-build-map.mjs
 ```
 
 Model answers and gazetteer lookups are cached in `operations/data/cache/`, so a rerun with the same prompt and model costs nothing and sends nothing. Change the prompt in `02-extract-places.prompt.md` and step 2 starts fresh (the cache is keyed by a hash of the prompt and model). To try one novel, pass its slug: `02-extract-places.mjs great-expectations`. Every model run appends its token counts and cost to `operations/cost-log.csv`.

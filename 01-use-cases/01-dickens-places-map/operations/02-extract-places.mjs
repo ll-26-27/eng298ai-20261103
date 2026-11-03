@@ -2,7 +2,7 @@
 // 02-extract-places.prompt.md and a strict JSON schema; save each answer to disk.
 //
 // Run from the repo root:
-//   node --env-file=.env mk-projects/01-dickens-places-map/operations/02-extract-places.mjs [slug ...]
+//   node --env-file=.env 01-use-cases/01-dickens-places-map/operations/02-extract-places.mjs [slug ...]
 // With no slugs it processes every novel. Answers are cached in data/cache/extract/, keyed by
 // model and a hash of the prompt, so rerunning costs nothing unless you change the prompt or model.
 // Writes data/02-places-raw.jsonl: one line per place mention, with its chunk's novel and chapter.

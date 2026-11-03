@@ -1,7 +1,7 @@
 // Step 1 (model judgment): ask a model to propose candidate events.
 // Reads 01-draft-prompt.md and ../inputs/course-readings.json, writes 01-candidates.json.
 // Run from the repo root:
-//   node --env-file=.env mk-projects/03-ai-and-literature-timeline/operations/01-draft.mjs
+//   node --env-file=.env 01-use-cases/03-ai-and-literature-timeline/operations/01-draft.mjs
 import { readFile, writeFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";

@@ -3,7 +3,7 @@
 // writes ../outputs/index.html with the data embedded inline, so the page opens by
 // double-click (a page opened from the file system can't fetch a separate data file).
 // No model is called.
-//   node mk-projects/03-ai-and-literature-timeline/operations/04-build.mjs
+//   node 01-use-cases/03-ai-and-literature-timeline/operations/04-build.mjs
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";

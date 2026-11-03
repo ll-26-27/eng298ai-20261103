@@ -1,7 +1,7 @@
 // Step 1a (model judgment, no web): ask a model to draft the inventory from memory.
 // The output, 01a-model-draft.json, is a list of LEADS. Step 1b checks every one against real sources,
 // and step 1c compares the two so you can see where model memory was right and wrong.
-// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/01a-draft-candidates.mjs
+// Run from the repo root: node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/01a-draft-candidates.mjs
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { chat, writeJSON, OPS } from "./lib/openrouter.mjs";

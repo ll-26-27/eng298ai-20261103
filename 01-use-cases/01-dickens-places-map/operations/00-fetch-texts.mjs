@@ -1,6 +1,6 @@
 // Step 0 (deterministic): download the Dickens novels from Project Gutenberg, unchanged.
 // Run from the repo root:
-//   node mk-projects/01-dickens-places-map/operations/00-fetch-texts.mjs
+//   node 01-use-cases/01-dickens-places-map/operations/00-fetch-texts.mjs
 // Files already on disk are skipped, so rerunning is free and polite.
 
 import { mkdir, writeFile, access } from 'node:fs/promises';

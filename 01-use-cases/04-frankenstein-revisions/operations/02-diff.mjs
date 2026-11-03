@@ -17,7 +17,7 @@
 // Writes 02-changes.json and prints the totals.
 //
 // Run from the repo root:
-//   node mk-projects/04-frankenstein-revisions/operations/02-diff.mjs
+//   node 01-use-cases/04-frankenstein-revisions/operations/02-diff.mjs
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';

@@ -12,7 +12,7 @@
 // Writes 05-check.json; appends tokens and cost to cost-log.jsonl.
 //
 // Run from the repo root:
-//   node --env-file=.env mk-projects/04-frankenstein-revisions/operations/05-check-with-stronger-model.mjs
+//   node --env-file=.env 01-use-cases/04-frankenstein-revisions/operations/05-check-with-stronger-model.mjs
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';

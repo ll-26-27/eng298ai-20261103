@@ -1,7 +1,7 @@
 // Step 1c (deterministic code): line up what each model "remembered" in step 1a against the verified inventory from step 1b.
 // A year counts as a match only if it is exactly the verified year; a translator matches if the verified surname appears in the guess.
 // Output: 01c-draft-vs-verified.csv. Rows the research could not verify are compared but flagged, since there is no settled answer.
-// Run from the repo root: node mk-projects/02-frankenstein-translations/operations/01c-compare-draft-to-verified.mjs
+// Run from the repo root: node 01-use-cases/02-frankenstein-translations/operations/01c-compare-draft-to-verified.mjs
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { readJSON, parseCSV, toCSV, OPS } from "./lib/openrouter.mjs";

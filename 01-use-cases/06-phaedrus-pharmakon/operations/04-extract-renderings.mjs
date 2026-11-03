@@ -3,7 +3,7 @@
 // seeming of wisdom") and doxosophoi, with a literal gloss and, for pharmakon, a category from a fixed list.
 // The instructions are read from 04-extract-prompt.md so the prompt students read is the one that ran.
 //
-//   node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/04-extract-renderings.mjs
+//   node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/04-extract-renderings.mjs
 
 import { readFileSync } from "node:fs";
 import { join } from "node:path";

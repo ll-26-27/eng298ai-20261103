@@ -56,25 +56,25 @@ The full list is on the page ("What checking caught") and in `operations/02-even
 Run from the repo root. Steps 1 and 3 need `OPENROUTER_API_KEY` in the repo's `.env`; the others need no key. Because responses are cached, rerunning an unchanged step is free.
 
 ```
-node --env-file=.env mk-projects/03-ai-and-literature-timeline/operations/01-draft.mjs
+node --env-file=.env 01-use-cases/03-ai-and-literature-timeline/operations/01-draft.mjs
 ```
 
 ```
-node mk-projects/03-ai-and-literature-timeline/operations/02a-fetch-sources.mjs
+node 01-use-cases/03-ai-and-literature-timeline/operations/02a-fetch-sources.mjs
 ```
 
 Then read `02a-source-extracts.json`, check each candidate, and record verdicts in `02b-verdicts.json`. This is the step that can't be automated.
 
 ```
-node mk-projects/03-ai-and-literature-timeline/operations/02c-merge.mjs
+node 01-use-cases/03-ai-and-literature-timeline/operations/02c-merge.mjs
 ```
 
 ```
-node --env-file=.env mk-projects/03-ai-and-literature-timeline/operations/03-categorize.mjs
+node --env-file=.env 01-use-cases/03-ai-and-literature-timeline/operations/03-categorize.mjs
 ```
 
 ```
-node mk-projects/03-ai-and-literature-timeline/operations/04-build.mjs
+node 01-use-cases/03-ai-and-literature-timeline/operations/04-build.mjs
 ```
 
 To make your own: replace `inputs/course-readings.json` with your reading list, rewrite the lanes in the two prompts and the `TRACKS` and `ERAS` lists in `04-template.html`, and expect the verify step to take most of the time.

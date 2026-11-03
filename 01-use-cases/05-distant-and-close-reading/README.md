@@ -54,15 +54,15 @@ Shared helpers (paths, the cached and cost-logged OpenRouter call, a seeded rand
 From the repository root, with an OpenRouter key in the root `.env` as `OPENROUTER_API_KEY`:
 
 ```
-node mk-projects/05-distant-and-close-reading/operations/01-chunk.mjs
-node mk-projects/05-distant-and-close-reading/operations/02-keyword-baseline.mjs
-node --env-file=.env mk-projects/05-distant-and-close-reading/operations/03-classify.mjs all
-node mk-projects/05-distant-and-close-reading/operations/04-compare.mjs
-node mk-projects/05-distant-and-close-reading/operations/05a-check-sample.mjs
-node mk-projects/05-distant-and-close-reading/operations/05b-check-score.mjs
-node --env-file=.env mk-projects/05-distant-and-close-reading/operations/06-close-read.mjs
-node --env-file=.env mk-projects/05-distant-and-close-reading/operations/07-embed.mjs
-node mk-projects/05-distant-and-close-reading/operations/08-build-page.mjs
+node 01-use-cases/05-distant-and-close-reading/operations/01-chunk.mjs
+node 01-use-cases/05-distant-and-close-reading/operations/02-keyword-baseline.mjs
+node --env-file=.env 01-use-cases/05-distant-and-close-reading/operations/03-classify.mjs all
+node 01-use-cases/05-distant-and-close-reading/operations/04-compare.mjs
+node 01-use-cases/05-distant-and-close-reading/operations/05a-check-sample.mjs
+node 01-use-cases/05-distant-and-close-reading/operations/05b-check-score.mjs
+node --env-file=.env 01-use-cases/05-distant-and-close-reading/operations/06-close-read.mjs
+node --env-file=.env 01-use-cases/05-distant-and-close-reading/operations/07-embed.mjs
+node 01-use-cases/05-distant-and-close-reading/operations/08-build-page.mjs
 ```
 
 `03-classify.mjs` takes a text id and a limit for a cheap trial first (`03-classify.mjs rur 10`). Model responses are cached in `operations/cache/` (gitignored), so a rerun after a crash only pays for what's missing; changing a prompt changes the cache key and reruns everything that prompt touches. Before step 5b, delete `05-check-judgments.json` and do the check yourself: `05a` writes a fresh blank form only when none exists.

@@ -7,7 +7,7 @@
 // Writes 07-aggregate.json.
 //
 // Run from the repo root:
-//   node mk-projects/04-frankenstein-revisions/operations/07-aggregate.mjs
+//   node 01-use-cases/04-frankenstein-revisions/operations/07-aggregate.mjs
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';

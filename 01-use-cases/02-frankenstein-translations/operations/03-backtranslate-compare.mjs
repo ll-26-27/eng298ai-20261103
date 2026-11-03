@@ -1,7 +1,7 @@
 // Step 3 (model judgment, structured output): back-translate each located passage and categorize the changes.
 // Input: 02-passages.json (and 04-chain.json if it exists, so the model-made translations get the same treatment).
 // Output: 03-comparisons.json. Every "change" quotes both sides; a scholar should check the quotes against the texts.
-// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/03-backtranslate-compare.mjs
+// Run from the repo root: node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/03-backtranslate-compare.mjs
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { chat, readJSON, writeJSON, ROOT, OPS } from "./lib/openrouter.mjs";

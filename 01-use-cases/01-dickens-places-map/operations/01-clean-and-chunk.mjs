@@ -7,7 +7,7 @@
 // impossible to audit. Small chunks guarantee that every page of every novel is read.
 //
 // Run from the repo root:
-//   node mk-projects/01-dickens-places-map/operations/01-clean-and-chunk.mjs
+//   node 01-use-cases/01-dickens-places-map/operations/01-clean-and-chunk.mjs
 // Writes operations/data/chunks/<slug>.jsonl (one JSON object per line).
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';

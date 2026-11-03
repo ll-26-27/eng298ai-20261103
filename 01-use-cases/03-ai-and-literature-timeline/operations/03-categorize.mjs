@@ -2,7 +2,7 @@
 // themes from a fixed list, and one sentence on why it matters for the course.
 // The reply is constrained by a JSON schema, so it can't invent a theme or skip a field.
 // Reads 03-categorize-prompt.md and 02-events-verified.json; writes 03-events-categorized.json.
-//   node --env-file=.env mk-projects/03-ai-and-literature-timeline/operations/03-categorize.mjs
+//   node --env-file=.env 01-use-cases/03-ai-and-literature-timeline/operations/03-categorize.mjs
 import { readFile, writeFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";

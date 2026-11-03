@@ -1,6 +1,6 @@
 // Step 5 (deterministic code): gather every intermediate file into one data object and write it inline into
 // outputs/index.html, so the page opens by double-click (browsers block fetch() of local files under file://).
-// Run from the repo root: node mk-projects/02-frankenstein-translations/operations/05-build-page.mjs
+// Run from the repo root: node 01-use-cases/02-frankenstein-translations/operations/05-build-page.mjs
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { readJSON, parseCSV, ROOT, OPS } from "./lib/openrouter.mjs";

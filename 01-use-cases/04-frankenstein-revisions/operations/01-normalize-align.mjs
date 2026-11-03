@@ -13,7 +13,7 @@
 //   01-alignment.json                      section map with overlap evidence
 //
 // Run from the repo root:
-//   node mk-projects/04-frankenstein-revisions/operations/01-normalize-align.mjs
+//   node 01-use-cases/04-frankenstein-revisions/operations/01-normalize-align.mjs
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';

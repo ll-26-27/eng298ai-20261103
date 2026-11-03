@@ -7,7 +7,7 @@
 // 3. Code searches for those exact words and cuts the passage out. If the words are not in the text the row
 //    fails loudly, so a stored passage is always the translator's text, never a model's paraphrase.
 //
-//   node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/03-locate-passage.mjs
+//   node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/03-locate-passage.mjs
 
 import { join } from "node:path";
 import { existsSync } from "node:fs";

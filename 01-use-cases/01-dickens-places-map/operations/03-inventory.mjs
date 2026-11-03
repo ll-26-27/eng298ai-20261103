@@ -3,7 +3,7 @@
 //  - merges spelling variants of the same place under one key
 //  - counts mentions per place, per novel, and per chapter
 // Run from the repo root:
-//   node mk-projects/01-dickens-places-map/operations/03-inventory.mjs
+//   node 01-use-cases/01-dickens-places-map/operations/03-inventory.mjs
 // Reads  data/02-places-raw.jsonl and data/chunks/*.jsonl
 // Writes 03-places-inventory.csv (one row per place) and data/03-mentions.jsonl (one row per mention)
 

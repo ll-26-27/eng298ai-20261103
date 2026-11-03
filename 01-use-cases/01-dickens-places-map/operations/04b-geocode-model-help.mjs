@@ -5,7 +5,7 @@
 // to check, not a fact.
 //
 // Run from the repo root (after step 4):
-//   node --env-file=.env mk-projects/01-dickens-places-map/operations/04b-geocode-model-help.mjs [--min N]
+//   node --env-file=.env 01-use-cases/01-dickens-places-map/operations/04b-geocode-model-help.mjs [--min N]
 // --min N: only places mentioned at least N times (default 2), to keep the bill small.
 // Answers are cached in data/cache/geocode-model/ and also gathered in data/04b-model-geocodes.jsonl.
 

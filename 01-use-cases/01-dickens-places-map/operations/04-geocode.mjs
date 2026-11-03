@@ -5,7 +5,7 @@
 // every response is saved in data/cache/nominatim/, so a rerun sends no requests for places it has seen.
 //
 // Run from the repo root:
-//   node mk-projects/01-dickens-places-map/operations/04-geocode.mjs [--min N]
+//   node 01-use-cases/01-dickens-places-map/operations/04-geocode.mjs [--min N]
 // --min N geocodes only places mentioned at least N times (default 1: every place).
 // Reads 03-places-inventory.csv; writes 04-places-geocoded.csv.
 //

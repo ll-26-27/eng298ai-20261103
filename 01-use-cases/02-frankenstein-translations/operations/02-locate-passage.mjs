@@ -2,7 +2,7 @@
 // The model reads the translated text and returns the passage's first and last words VERBATIM.
 // Code then searches for those words in the file and cuts out the passage itself, so the text we keep
 // is always the translator's, never the model's paraphrase. If the words aren't found, the row fails loudly.
-// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/02-locate-passage.mjs
+// Run from the repo root: node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/02-locate-passage.mjs
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { chat, readJSON, writeJSON, ROOT, OPS } from "./lib/openrouter.mjs";

@@ -1,7 +1,7 @@
 // Step 4 (model judgment, a chain of three calls): translate -> critique -> revise, for one or two languages.
 // The point is to compare a one-shot translation with one that went through a critique,
 // and both with the historical translator's choices (step 3 back-translates and compares all of them).
-// Run from the repo root: node --env-file=.env mk-projects/02-frankenstein-translations/operations/04-translate-critique-retranslate.mjs
+// Run from the repo root: node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/04-translate-critique-retranslate.mjs
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { chat, readJSON, writeJSON, ROOT, OPS } from "./lib/openrouter.mjs";

@@ -4,7 +4,7 @@
 // listed each one for that chunk. The pattern misses most places (towns, districts, single words),
 // so this measures recall only for this easy, checkable kind of name. It is a spot check, not a score.
 // Run from the repo root:
-//   node mk-projects/01-dickens-places-map/operations/03b-recall-check.mjs
+//   node 01-use-cases/01-dickens-places-map/operations/03b-recall-check.mjs
 // Writes data/03b-recall-misses.csv: names the pattern found that the model did not list.
 
 import { readFile, writeFile, readdir } from 'node:fs/promises';

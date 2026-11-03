@@ -1,7 +1,7 @@
 // Step 8 (script, deterministic): merge the inventory and every step's data into the page template,
 // inline, so outputs/index.html opens by double-click (fetch() of local files fails under file://).
 //
-//   node mk-projects/06-phaedrus-pharmakon/operations/08-build-page.mjs
+//   node 01-use-cases/06-phaedrus-pharmakon/operations/08-build-page.mjs
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
@@ -52,7 +52,7 @@ const method_html = `
 <li><strong>Build this page</strong> (deterministic): <code>08-build-page.mjs</code> inlines all the data into <code>08-page-template.html</code>.</li>
 </ol>
 <p><strong>Distrust:</strong> the categories (an interpretive scheme made for this page); the glosses, back-translations and "what these choices do" notes (a model's readings, which can smooth over what is strange); OCR'd texts (check a word against the page image before quoting it); and any row not marked verified. A ✓ proves the words are the translator's; it does not prove they render the Greek word they are filed under. In-copyright translations appear only as one cited word.</p>
-<p class="small sans">Models: ${[...new Set([R.model, B.model, ...passages.filter(p => p.model).map(p => p.model)].filter(Boolean))].join(", ")} via OpenRouter. Full chain, costs and sources: <code>mk-projects/06-phaedrus-pharmakon/README.md</code>.</p>`;
+<p class="small sans">Models: ${[...new Set([R.model, B.model, ...passages.filter(p => p.model).map(p => p.model)].filter(Boolean))].join(", ")} via OpenRouter. Full chain, costs and sources: <code>01-use-cases/06-phaedrus-pharmakon/README.md</code>.</p>`;
 
 const data = {
   status, greek: pass["grc-burnet"].passage, greek_crib: back["grc-burnet"]?.back_translation,

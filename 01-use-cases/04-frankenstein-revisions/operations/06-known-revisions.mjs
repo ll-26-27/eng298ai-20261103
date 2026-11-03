@@ -15,7 +15,7 @@
 // Writes 06-known-revisions.json.
 //
 // Run from the repo root:
-//   node mk-projects/04-frankenstein-revisions/operations/06-known-revisions.mjs
+//   node 01-use-cases/04-frankenstein-revisions/operations/06-known-revisions.mjs
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';

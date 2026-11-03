@@ -34,13 +34,13 @@ Each step says what kind of thing it is (a prompt, a script, or a data file) and
 From the repository root, with `OPENROUTER_API_KEY` in the root `.env`:
 
 ```
-node mk-projects/02-frankenstein-translations/operations/00-fetch-texts.mjs
-node --env-file=.env mk-projects/02-frankenstein-translations/operations/01a-draft-candidates.mjs
-node mk-projects/02-frankenstein-translations/operations/01c-compare-draft-to-verified.mjs
-node --env-file=.env mk-projects/02-frankenstein-translations/operations/02-locate-passage.mjs
-node --env-file=.env mk-projects/02-frankenstein-translations/operations/04-translate-critique-retranslate.mjs
-node --env-file=.env mk-projects/02-frankenstein-translations/operations/03-backtranslate-compare.mjs
-node mk-projects/02-frankenstein-translations/operations/05-build-page.mjs
+node 01-use-cases/02-frankenstein-translations/operations/00-fetch-texts.mjs
+node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/01a-draft-candidates.mjs
+node 01-use-cases/02-frankenstein-translations/operations/01c-compare-draft-to-verified.mjs
+node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/02-locate-passage.mjs
+node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/04-translate-critique-retranslate.mjs
+node --env-file=.env 01-use-cases/02-frankenstein-translations/operations/03-backtranslate-compare.mjs
+node 01-use-cases/02-frankenstein-translations/operations/05-build-page.mjs
 ```
 
 Step 1b is research, not a script: to redo it, paste `01b-verify-prompt.md` into Claude Code, then edit the CSV by hand. To add a translation's text, add it to `inputs/texts/manifest.json` (public domain only), give its row a `passage_id`, and rerun from step 0. Step 4 runs before step 3 so that step 3 compares the model translations too. With the cache in place, rerunning everything costs nothing.

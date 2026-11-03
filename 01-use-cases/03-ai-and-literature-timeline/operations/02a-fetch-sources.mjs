@@ -7,7 +7,7 @@
 // Then it runs a crude automatic test: does the candidate's year appear in that text?
 // The test only sorts the work. A person (or a research agent) still reads each entry (step 2b).
 // No model is called. Writes 02a-source-extracts.json.
-//   node mk-projects/03-ai-and-literature-timeline/operations/02a-fetch-sources.mjs
+//   node 01-use-cases/03-ai-and-literature-timeline/operations/02a-fetch-sources.mjs
 import { readFile, writeFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";

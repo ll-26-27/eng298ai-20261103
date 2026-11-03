@@ -5,7 +5,7 @@
 // This proves the words are the translator's; it does not prove they render the Greek slot they are filed under.
 // The hand spot-check of that second question is in 05b-spot-check.md.
 //
-//   node mk-projects/06-phaedrus-pharmakon/operations/05-check-renderings.mjs
+//   node 01-use-cases/06-phaedrus-pharmakon/operations/05-check-renderings.mjs
 
 import { join } from "node:path";
 import { OPS, readJSON, writeJSON } from "./lib/openrouter.mjs";

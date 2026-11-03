@@ -2,7 +2,7 @@
 // Originals are saved byte for byte and never edited; later steps read them and write their own files.
 // Existing files are kept, so a rerun only fetches what is missing (pass --force to refetch everything).
 //
-//   node mk-projects/06-phaedrus-pharmakon/operations/02-fetch-texts.mjs
+//   node 01-use-cases/06-phaedrus-pharmakon/operations/02-fetch-texts.mjs
 
 import { existsSync, writeFileSync, statSync } from "node:fs";
 import { join } from "node:path";

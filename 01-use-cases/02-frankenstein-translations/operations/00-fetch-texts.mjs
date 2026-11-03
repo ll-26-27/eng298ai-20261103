@@ -1,6 +1,6 @@
 // Step 0 (deterministic code): download every text listed in inputs/texts/manifest.json,
 // then cut the English anchor passage out of the 1818 and 1831 editions by its first and last words.
-// Run from the repo root: node mk-projects/02-frankenstein-translations/operations/00-fetch-texts.mjs
+// Run from the repo root: node 01-use-cases/02-frankenstein-translations/operations/00-fetch-texts.mjs
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT, readJSON, writeJSON } from "./lib/openrouter.mjs";

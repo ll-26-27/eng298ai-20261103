@@ -3,7 +3,7 @@
 // and 02-events-verified.json (for step 3). A candidate with no verdict is marked unverified.
 // Dropped events are kept in the CSV (so the record shows them) but not passed on.
 // Quotations are removed from anything not marked public-domain.
-//   node mk-projects/03-ai-and-literature-timeline/operations/02c-merge.mjs
+//   node 01-use-cases/03-ai-and-literature-timeline/operations/02c-merge.mjs
 import { readFile, writeFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";

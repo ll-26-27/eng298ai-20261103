@@ -39,13 +39,13 @@ Each step says what kind of thing it is (a prompt, a script, or a data file) and
 From the repository root, with `OPENROUTER_API_KEY` in the root `.env`:
 
 ```
-node mk-projects/06-phaedrus-pharmakon/operations/02-fetch-texts.mjs
-node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/03-locate-passage.mjs
-node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/04-extract-renderings.mjs
-node mk-projects/06-phaedrus-pharmakon/operations/05-check-renderings.mjs
-node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/06-backtranslate.mjs
-node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/07-chain.mjs
-node mk-projects/06-phaedrus-pharmakon/operations/08-build-page.mjs
+node 01-use-cases/06-phaedrus-pharmakon/operations/02-fetch-texts.mjs
+node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/03-locate-passage.mjs
+node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/04-extract-renderings.mjs
+node 01-use-cases/06-phaedrus-pharmakon/operations/05-check-renderings.mjs
+node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/06-backtranslate.mjs
+node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/07-chain.mjs
+node 01-use-cases/06-phaedrus-pharmakon/operations/08-build-page.mjs
 ```
 
 Step 1 is research, not a script: to redo it, give `01-inventory-prompt.md` to Claude Code, then edit the CSV by hand. To add a translation, add it to `inputs/texts/manifest.json` (public domain only: `id`, `language`, `translator`, `year`, `file`, `format` of `txt`, `html` or `tei`, `fetch_url`, and `encoding` if it isn't UTF-8), add a row with the same `id` to the CSV, and rerun from step 2. `03-locate-passage.mjs <id>` reruns one text. Step 5b is a reading, not a script: update it by hand when you add a version.

@@ -2,7 +2,7 @@
 // so a reader without Latin, German or Russian can set the versions side by side. The Greek gets the same
 // treatment, as a reference crib. English translations are not back-translated.
 //
-//   node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/06-backtranslate.mjs
+//   node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/06-backtranslate.mjs
 
 import { join } from "node:path";
 import { ROOT, OPS, chat, readJSON, writeJSON } from "./lib/openrouter.mjs";

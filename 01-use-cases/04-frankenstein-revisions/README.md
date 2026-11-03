@@ -46,13 +46,13 @@ A pipeline that finds every change Mary Shelley made between the 1818 and 1831 e
 From the repo root (the model steps need `OPENROUTER_API_KEY` in the root `.env`):
 
 ```sh
-node mk-projects/04-frankenstein-revisions/operations/01-normalize-align.mjs
-node mk-projects/04-frankenstein-revisions/operations/02-diff.mjs
-node --env-file=.env mk-projects/04-frankenstein-revisions/operations/04-categorize.mjs
-node --env-file=.env mk-projects/04-frankenstein-revisions/operations/05-check-with-stronger-model.mjs
-node mk-projects/04-frankenstein-revisions/operations/06-known-revisions.mjs
-node mk-projects/04-frankenstein-revisions/operations/07-aggregate.mjs
-node mk-projects/04-frankenstein-revisions/operations/08-build-page.mjs
+node 01-use-cases/04-frankenstein-revisions/operations/01-normalize-align.mjs
+node 01-use-cases/04-frankenstein-revisions/operations/02-diff.mjs
+node --env-file=.env 01-use-cases/04-frankenstein-revisions/operations/04-categorize.mjs
+node --env-file=.env 01-use-cases/04-frankenstein-revisions/operations/05-check-with-stronger-model.mjs
+node 01-use-cases/04-frankenstein-revisions/operations/06-known-revisions.mjs
+node 01-use-cases/04-frankenstein-revisions/operations/07-aggregate.mjs
+node 01-use-cases/04-frankenstein-revisions/operations/08-build-page.mjs
 ```
 
 With the caches in place, steps 04 and 05 cost nothing and return the same labels. To try different categories, edit `03-schema-prompt.md` and rerun from 04: every change is re-sent, and the cache keeps only answers for the current prompt. `04-categorize.mjs --limit 5` tries the first five changes only.

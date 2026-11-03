@@ -3,7 +3,7 @@
 // classicist would, with attention to the key words; the first model revises and says which criticisms it
 // accepted. The result sits on the page beside the historical translations, as one more version to judge.
 //
-//   node --env-file=.env mk-projects/06-phaedrus-pharmakon/operations/07-chain.mjs
+//   node --env-file=.env 01-use-cases/06-phaedrus-pharmakon/operations/07-chain.mjs
 
 import { join } from "node:path";
 import { OPS, chat, readJSON, writeJSON } from "./lib/openrouter.mjs";

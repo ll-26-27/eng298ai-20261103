@@ -2,7 +2,7 @@
 // The data is embedded in the page, so it opens by double-clicking (browsers refuse to fetch()
 // local files from a page opened with file://).
 // Run from the repo root:
-//   node mk-projects/01-dickens-places-map/operations/06-build-map.mjs
+//   node 01-use-cases/01-dickens-places-map/operations/06-build-map.mjs
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';

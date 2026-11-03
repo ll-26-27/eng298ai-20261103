@@ -16,7 +16,7 @@
 // Writes 04-categorized.json; appends tokens and cost to cost-log.jsonl.
 //
 // Run from the repo root:
-//   node --env-file=.env mk-projects/04-frankenstein-revisions/operations/04-categorize.mjs [--limit N]
+//   node --env-file=.env 01-use-cases/04-frankenstein-revisions/operations/04-categorize.mjs [--limit N]
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
