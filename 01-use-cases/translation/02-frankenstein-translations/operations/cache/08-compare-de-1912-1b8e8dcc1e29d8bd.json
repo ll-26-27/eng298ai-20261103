@@ -1,0 +1,46 @@
+{
+  "id": "gen-1793710088-9k7TzWknKeMRsdRd1NUH",
+  "object": "chat.completion",
+  "created": 1793710088,
+  "model": "anthropic/claude-sonnet-5.5",
+  "provider": "Azure",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"It was a desolate November night when I saw my work finished lying before me. With an agitation that almost resembled mortal fear, I set about breathing the living breath into the lifeless thing. It was already one o'clock in the morning. The rain slapped hard against the window panes when, by the light of my almost completely burnt-down candle, I saw the dull eye of the creature open. A deep breath stretched the chest and the limbs twitched convulsively.\\n\\nHow could I describe to you what I felt, and portray the monster that I had created there with so much effort and diligence? His limbs were proportioned and I had made his features as beautiful as possible. Beautiful! Great God! His yellowish skin hardly sufficed to cover the web of muscles and veins; his hair was shiny black and long; his teeth like pearls. But all that formed only an all the more striking contrast to the watery eyes, which hardly stood out from the eye sockets, the wrinkled skin and the blackish, narrow lips.\",\"changes\":[{\"shelley\":\"I beheld the accomplishment of my toils\",\"translation\":\"ich mein Werk fertig vor mir liegen sah\",\"back_translation\":\"I saw my work lying finished before me\",\"category\":\"softening\",\"rationale\":\"The abstract, laboured 'accomplishment of my toils' becomes a plain concrete 'finished work', losing the sense of long suffering.\"},{\"shelley\":\"I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet\",\"translation\":\"machte ich mich daran, dem leblosen Dinge den lebendigen Odem einzublasen\",\"back_translation\":\"I set about breathing the living breath into the lifeless thing\",\"category\":\"omission\",\"rationale\":\"The gathering of the instruments of life and the creature lying at his feet are dropped, and 'spark of being' becomes a biblical 'Odem' (breath), which also reads as domestication.\"},{\"shelley\":\"anxiety that almost amounted to agony\",\"translation\":\"Erregung, die fast einer Todesangst glich\",\"back_translation\":\"agitation that almost resembled mortal fear\",\"category\":\"shift in meaning\",\"rationale\":\"'Anxiety' becomes the more neutral 'Erregung' (agitation/excitement) while 'agony' becomes 'Todesangst' (fear of death), shifting the emotion's nature; the two changes partly offset each other.\"},{\"shelley\":\"the rain pattered dismally against the panes\",\"translation\":\"Der Regen klatschte heftig an die Fensterscheiben\",\"back_translation\":\"The rain slapped hard against the window panes\",\"category\":\"shift in meaning\",\"rationale\":\"Gentle 'pattered' with gloomy 'dismally' becomes forceful 'klatschte heftig', changing the quality and mood of the sound (also intensification).\"},{\"shelley\":\"my candle was nearly burnt out, when, by the glimmer of the half-extinguished light\",\"translation\":\"beim Scheine meiner fast ganz herabgebrannten Kerze\",\"back_translation\":\"by the light of my almost completely burnt-down candle\",\"category\":\"omission\",\"rationale\":\"The second image of the 'glimmer of the half-extinguished light' is merged into one, flattening the dwindling light.\"},{\"shelley\":\"dull yellow eye\",\"translation\":\"trübe Auge\",\"back_translation\":\"dull/cloudy eye\",\"category\":\"omission\",\"rationale\":\"The colour 'yellow' is dropped, losing a detail that links to the yellow skin.\"},{\"shelley\":\"it breathed hard, and a convulsive motion agitated its limbs\",\"translation\":\"Ein tiefer Atemzug dehnte die Brust und die Glieder zuckten krampfhaft.\",\"back_translation\":\"A deep breath stretched the chest and the limbs twitched convulsively.\",\"category\":\"shift in meaning\",\"rationale\":\"The creature's laboured breathing becomes a single deep breath, and a chest is added; the creature is less an agent ('it breathed').\"},{\"shelley\":\"How can I describe my emotions at this catastrophe\",\"translation\":\"Wie könnte ich Ihnen beschreiben, was ich empfand\",\"back_translation\":\"How could I describe to you what I felt\",\"category\":\"addition\",\"rationale\":\"'Ihnen' adds an addressee (Walton), while 'catastrophe' is omitted, removing the sense of disaster.\"},{\"shelley\":\"the wretch\",\"translation\":\"das Ungetüm\",\"back_translation\":\"the monster\",\"category\":\"intensification\",\"rationale\":\"'Wretch' (pitiable) becomes 'monster', foreshadowing and anticipating the horror and removing the pathos.\"},{\"shelley\":\"with such infinite pains and care I had endeavoured to form\",\"translation\":\"mit so viel Mühe und Fleiß geschaffen\",\"back_translation\":\"created with so much effort and diligence\",\"category\":\"shift in meaning\",\"rationale\":\"'Endeavoured to form' becomes the achieved 'geschaffen' (created), and 'infinite' is reduced to 'so viel', losing the tentative effort.\"},{\"shelley\":\"his teeth of a pearly whiteness; but these luxuriances only formed a more horrid contrast\",\"translation\":\"seine Zähne wie Perlen. Aber das alles bildete nur einen um so auffallenderen Gegensatz\",\"back_translation\":\"his teeth like pearls. But all that formed only an all the more striking contrast\",\"category\":\"softening\",\"rationale\":\"'More horrid' becomes 'more striking' (auffallender), removing the horror from the contrast.\"},{\"shelley\":\"his shrivelled complexion and straight black lips\",\"translation\":\"der faltigen Haut und den schwärzlichen, schmalen Lippen\",\"back_translation\":\"the wrinkled skin and the blackish, narrow lips\",\"category\":\"shift in meaning\",\"rationale\":\"'Straight' lips become 'narrow', and 'black' becomes 'blackish', slightly altering the description.\"}],\"note\":\"The German is fluent and mostly faithful in outline, but it tends to flatten Shelley's elaborate, emotionally charged diction into plainer, more concrete phrasing (e.g., 'accomplishment of my toils', 'instruments of life', 'catastrophe'). At the same time it makes the creature more openly monstrous ('Ungetüm' for 'wretch') while muting the explicit horror in the contrast of features. These judgments rest on one short passage and may not hold for the translation as a whole.\"}",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1940,
+    "completion_tokens": 2132,
+    "total_tokens": 4072,
+    "cost": 0.0252,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0252,
+      "upstream_inference_prompt_cost": 0.00388,
+      "upstream_inference_completions_cost": 0.02132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

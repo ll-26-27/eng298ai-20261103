@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frankenstein in Translation</title>
+<meta name="description" content="How translators of Mary Shelley's Frankenstein rendered the creature's plea, 'I ought to be thy Adam... misery made me a fiend': verified renderings across languages and periods, their connotations, and a comparison; plus the first translation in each of 25 languages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root {
+  --bg: #fbfaf7; --surface: #ffffff; --surface-2: #f3f1ec; --border: #e2ded5;
+  --ink: #1d1c1a; --ink-2: #55524b; --ink-3: #807c72; --accent: #8a2a1c; --accent-soft: #f4e4df;
+  --mark: #fff1b8; --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100; --c5: #e87ba4; --c6: #008300; --c7: #6250d6; --c-none: #b9b5ab;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif; --sans: Inter, system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161615; --surface: #1e1e1c; --surface-2: #262624; --border: #3a3935;
+    --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #96948b; --accent: #e8836f; --accent-soft: #3a2420;
+    --mark: #5a4a12; --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c-none: #5b5952;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161615; --surface: #1e1e1c; --surface-2: #262624; --border: #3a3935;
+  --ink: #f0efec; --ink-2: #c3c2b7; --ink-3: #96948b; --accent: #e8836f; --accent-soft: #3a2420;
+  --mark: #5a4a12; --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c-none: #5b5952;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 var(--serif); }
+body { overflow-wrap: break-word; }
+main { max-width: 1180px; margin: 0 auto; padding: 0 16px 80px; }
+header.top { padding: 56px 0 24px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+.kicker { font: 500 12px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+h1 { font-weight: 700; font-size: clamp(34px, 5vw, 52px); line-height: 1.05; margin: 0 0 14px; letter-spacing: -.01em; }
+h1 em { font-weight: 400; }
+.lede { font-size: 20px; color: var(--ink-2); max-width: 760px; margin: 0; }
+h2 { font-size: 26px; margin: 56px 0 6px; }
+h2 + .sub { color: var(--ink-2); margin: 0 0 20px; max-width: 780px; }
+h3 { font-size: 19px; margin: 0 0 8px; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px 32px; margin-top: 24px; font-family: var(--sans); }
+.stat b { display: block; font: 600 28px/1.1 var(--serif); }
+.stat span { font-size: 13px; color: var(--ink-3); }
+.sans { font-family: var(--sans); }
+a { color: var(--accent); }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+#timeline svg { display: block; width: 100%; height: auto; font-family: var(--sans); }
+#timeline .row { cursor: pointer; }
+#timeline .row:hover .hit, #timeline .row.sel .hit { fill: var(--surface-2); }
+#timeline .row.sel text.lang { font-weight: 600; fill: var(--accent); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 13px var(--sans); color: var(--ink-2); margin: 10px 0 0; }
+.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; border: 2px solid var(--ink); }
+.legend i.verified { background: var(--ink); }
+.legend i.partly { background: linear-gradient(90deg, var(--ink) 50%, transparent 50%); }
+.legend i.unverified { border-style: dashed; border-color: var(--ink-3); }
+#detail { margin-top: 24px; scroll-margin-top: 16px; }
+.rec { display: grid; grid-template-columns: 150px 1fr; gap: 6px 16px; font-size: 16px; margin: 12px 0 0; }
+.rec dt { font: 500 13px/1.6 var(--sans); color: var(--ink-3); }
+.rec dd { margin: 0; overflow-wrap: anywhere; }
+@media (max-width: 560px) { .rec { grid-template-columns: 1fr; } .rec dt { margin-top: 6px; } }
+.badge { display: inline-block; font: 600 11px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; padding: 5px 8px; border-radius: 99px; border: 1.5px solid currentColor; }
+.badge.verified { color: var(--ink); }
+.badge.partly { color: var(--ink-2); border-style: dotted; }
+.badge.unverified { color: var(--accent); border-style: dashed; }
+.note { background: var(--surface-2); border-radius: 8px; padding: 12px 14px; font-size: 15px; color: var(--ink-2); margin-top: 14px; }
+.tri { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
+@media (max-width: 900px) { .tri { grid-template-columns: minmax(0, 1fr); } }
+.tri .col { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; font-size: 16px; }
+.tri .col h4 { font: 600 12px/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 10px; }
+.tri .col p { margin: 0 0 12px; }
+mark { background: transparent; color: inherit; border-bottom: 2px solid var(--border); transition: background .15s; }
+mark.on { background: var(--mark); border-bottom-color: var(--accent); }
+table { width: 100%; border-collapse: collapse; font: 14px/1.45 var(--sans); }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-3); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
+.changes tr { cursor: default; }
+.changes tr:hover td { background: var(--surface-2); }
+.q { font-family: var(--serif); font-size: 15px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font: 500 12px/1 var(--sans); white-space: nowrap; }
+.chip::before { content: ""; width: 10px; height: 10px; border-radius: 3px; background: var(--cat); }
+.scroll { overflow-x: auto; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; font-family: var(--sans); }
+.tabs button { font: 500 14px var(--sans); background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 99px; padding: 7px 14px; cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.crit { font: 14px/1.5 var(--sans); margin: 0; color: var(--ink-2); max-height: 460px; overflow: auto; }
+.bars { display: grid; grid-template-columns: 150px 1fr; gap: 6px 12px; font: 13px var(--sans); align-items: center; margin-top: 8px; }
+.bars .b { display: flex; gap: 2px; height: 14px; }
+.bars .b span { background: var(--cat); border-radius: 0 4px 4px 0; min-width: 2px; }
+ol.chain li { margin-bottom: 10px; }
+.yes { color: var(--c6); font-weight: 600; } .no { color: var(--accent); font-weight: 600; } .na { color: var(--ink-3); }
+footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--border); font: 13px/1.6 var(--sans); color: var(--ink-3); }
+.empty { color: var(--ink-3); font-style: italic; }
+.passage-en { font-size: 22px; line-height: 1.5; max-width: 860px; margin: 8px 0 0; }
+.passage-en .k { border-bottom: 2px solid var(--accent); }
+.passage-en .k.sel { background: var(--accent-soft); }
+.kwbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 8px; font-family: var(--sans); align-items: center; }
+.kwbar span.lbl { font-size: 13px; color: var(--ink-3); margin-right: 4px; }
+.kwbar button { font: 500 14px var(--sans); background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 99px; padding: 6px 13px; cursor: pointer; }
+.kwbar button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.senses { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 13px var(--sans); color: var(--ink-2); margin: 6px 0 18px; }
+.senses span::before { content: ""; display: inline-block; width: 11px; height: 11px; border-radius: 3px; background: var(--c); margin-right: 6px; vertical-align: -1px; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 900px) { .cards { grid-template-columns: minmax(0, 1fr); } }
+.rcard { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; scroll-margin-top: 16px; }
+.rcard header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; align-items: baseline; }
+.rcard h3 { margin: 0; font-size: 19px; }
+.rcard h3 span { font-weight: 400; color: var(--ink-2); }
+.rcard .cite { font: 12.5px/1.45 var(--sans); color: var(--ink-3); margin: 4px 0 10px; overflow-wrap: anywhere; }
+.rcard .q { font-size: 17px; line-height: 1.55; margin: 0 0 10px; }
+.rcard .bt { font-size: 15px; color: var(--ink-2); margin: 0 0 10px; }
+.rcard .bt::before { content: "Back-translation (model): "; font: 600 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.kw { border-bottom: 2px solid var(--c-none); border-radius: 2px; cursor: help; }
+.kw.sel { background: color-mix(in srgb, var(--c) 26%, transparent); border-bottom-color: var(--c); }
+details.cd summary { font: 600 13px var(--sans); color: var(--accent); cursor: pointer; margin: 4px 0 6px; }
+.conn { list-style: none; margin: 0; padding: 0; font: 14px/1.5 var(--sans); color: var(--ink-2); }
+.conn li { padding: 6px 0; border-top: 1px solid var(--border); }
+.conn b { color: var(--ink); font-weight: 600; }
+.conn .kind { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); margin-right: 6px; }
+.flag { font: 600 11px var(--sans); color: var(--accent); margin-left: 6px; }
+.tag { display: inline-block; font: 600 10.5px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 99px; border: 1.5px solid currentColor; color: var(--ink-2); }
+.tag.cr { color: var(--accent); border-style: dashed; }
+.hl { font: 14px/1.5 var(--sans); margin: 8px 0 0; color: var(--ink-2); }
+.hl b { color: var(--ink); }
+table.mx td.cell { min-width: 120px; }
+table.mx td.cell.sel { background: color-mix(in srgb, var(--c) 22%, transparent); }
+table.mx th.sel { color: var(--accent); }
+table.mx .w { font-family: var(--serif); font-size: 15px; display: block; }
+table.mx .g { color: var(--ink-3); font-size: 12px; display: block; }
+table.mx .s { font-size: 11px; color: var(--ink-2); display: block; margin-top: 2px; }
+.scale { display: grid; grid-template-columns: 110px repeat(5, minmax(0, 1fr)); gap: 4px; font: 12.5px/1.35 var(--sans); }
+.scale .h { color: var(--ink-3); text-align: center; padding: 4px; }
+.scale .rh { color: var(--ink-3); padding: 6px 4px; }
+.scale .c { background: var(--surface-2); border-radius: 6px; padding: 6px; min-height: 44px; }
+.scale .c.mid { outline: 1.5px dashed var(--border); }
+.scale .c a { display: block; color: var(--ink); text-decoration: none; margin-bottom: 3px; }
+.scale .c a:hover { color: var(--accent); }
+@media (max-width: 700px) { .scale { grid-template-columns: 70px repeat(5, minmax(0, 1fr)); font-size: 11px; } }
+.synth p { max-width: 820px; }
+.contrast { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; margin: 14px 0; }
+.dict td, .dict th { font-size: 13.5px; }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <div class="kicker">ENGLISH 298AI · The Frankenstein translations project (translation/02-frankenstein-translations) · inputs → operations → outputs</div>
+    <h1>Adam, angel, <em>fiend</em></h1>
+    <p class="lede">How translators of <i>Frankenstein</i>, across languages and two centuries, have rendered the creature's plea to his maker, and what their words bring with them that Shelley's do not.</p>
+    <div class="stats" id="fstats"></div>
+  </header>
+
+  <section>
+    <h2>The plea</h2>
+    <p class="sub" id="whyline"></p>
+    <p class="passage-en" id="passage-en"></p>
+    <p class="sans" style="font-size:13px;color:var(--ink-3);margin:10px 0 0" id="passage-cite"></p>
+  </section>
+
+  <section>
+    <h2>The translations</h2>
+    <p class="sub">Every rendering below was found in a source we can point to and re-checked by a script where the source allows it; none comes from a model's memory. Translations still in copyright are quoted only for the two key sentences, with a full citation. Pick a key word to colour its rendering in every translation by sense. The back-translations, senses and connotation notes are <b>a model's interpretation</b> (Claude Opus 5.5), not facts; notes marked “check” make claims a dictionary should confirm, and the ones we checked are listed further down.</p>
+    <div class="kwbar" id="kwbar"></div>
+    <div class="senses" id="senses"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section>
+    <h2>Each key word, across the translations</h2>
+    <p class="sub">Rows are renderings in order of first publication; columns are Shelley's key words. Each cell gives the translator's words, a literal gloss, and the sense they were sorted into. The selected column is coloured by sense; click a column heading to switch. A dash means the word falls outside the quoted sentences.</p>
+    <div class="card scroll"><table class="mx" id="matrix"></table></div>
+  </section>
+
+  <section>
+    <h2>More demonic or more pitiable? More biblical or more secular?</h2>
+    <p class="sub">Each rendering placed by the model on two five-point scales relative to Shelley (the centre cell is “as in Shelley”). This is the crudest reading on the page: use it to find renderings worth reading side by side, not as a measurement.</p>
+    <div class="card" id="scale"></div>
+  </section>
+
+  <section>
+    <h2>Compare and contrast</h2>
+    <p class="sub" id="synth-sub"></p>
+    <div class="card synth" id="synth"></div>
+    <div id="contrasts"></div>
+  </section>
+
+  <section>
+    <h2>Checking the surprising claims</h2>
+    <p class="sub">Connotation notes the model flagged for checking, and the ones we looked up in a dictionary or reference work.</p>
+    <div class="card scroll" id="dict"></div>
+  </section>
+
+  <section>
+    <h2 style="margin-top:72px">Where it started: the first translation in each language</h2>
+    <p class="sub">The novel's first translation into each of <span id="nLang"></span> languages, checked against library catalogues and published studies. Filled dots are confirmed in a catalogue or a scholarly source; half-filled are confirmed in part; dashed rings are leads we could not confirm. Click a row for the record.</p>
+    <div class="stats" id="stats" style="margin:0 0 18px"></div>
+
+    <div class="grid2">
+      <div class="card" id="timeline"></div>
+      <div id="detail" class="card" style="margin-top:0"></div>
+    </div>
+    <div class="legend"><span><i class="verified"></i>verified</span><span><i class="partly"></i>partly verified</span><span><i class="unverified"></i>unverified</span></div>
+  </section>
+
+  <section>
+    <h2>A second passage: the awakening, translated four ways</h2>
+    <p class="sub">The opening of the creature's awakening (1818, vol. I, ch. IV), in the 1821 French translation and in translations made for this page by a model, each one-shot and after a critique by a second model. Every version is back-translated into English by a third pass and its departures from Shelley sorted into six categories. Hover a change to see it in both texts. The categories are an interpretive choice for teaching, not an established taxonomy.</p>
+    <div class="tabs" id="ptabs"></div>
+    <div id="pview"></div>
+  </section>
+
+  <section>
+    <h2>Translate, critique, translate again</h2>
+    <p class="sub">A chain instead of a one-shot: one model translates, a different model critiques, the first revises and says which criticisms it accepted.</p>
+    <div class="tabs" id="ctabs"></div>
+    <div id="cview"></div>
+  </section>
+
+  <section>
+    <h2>What the models remembered</h2>
+    <p class="sub">Before any research, two models were asked for the inventory of first translations from memory, with no web access (step 6a). Here is what they said beside what the catalogues say. One model declined most rows; the other answered every row with confidence.</p>
+    <div class="card scroll" id="memory"></div>
+  </section>
+
+  <section>
+    <h2>How this page was made</h2>
+    <div class="card">
+      <ol class="chain" start="0">
+        <li><b>Fetch the texts</b> (deterministic code, step 0): download the public-domain texts and cut Shelley's passages out of the 1818 and 1831 editions.</li>
+        <li><b>Find the renderings</b> (research, step 1): agents with web search looked for the plea in full texts, previews and criticism in many languages, copying each quotation from a page they fetched, with its citation and copyright status. The lead session reconciled them into <code>01-renderings.csv</code>.</li>
+        <li><b>Re-find every quote</b> (deterministic code, step 2): a script re-reads each source (or the local public-domain file) and confirms the quotation is there; sources a script can't read are marked.</li>
+        <li><b>Read each rendering</b> (model judgment with a JSON schema, step 3): back-translation, the translator's word for each key word with a literal gloss and a sense from a fixed list, and notes on the connotations; code checks that each copied word is in the quote.</li>
+        <li><b>Compare and contrast</b> (model judgment, then edited by hand, step 4).</li>
+        <li><b>Check the surprising claims</b> (research, step 5): the flagged connotation claims we looked up in dictionaries.</li>
+        <li><b>The first translations</b> (step 6): two models draft the list from memory (6a); agents verify every row against catalogues and studies (6b); code compares the two (6c).</li>
+        <li><b>The awakening</b> (steps 7 to 9): a model points to the passage in each public-domain translation and code cuts it out (7); a model back-translates and categorizes the changes (8); a translate, critique, revise chain (9).</li>
+        <li><b>Build this page</b> (deterministic code, step 10): all data is embedded inline so the file opens without a server.</li>
+      </ol>
+      <p class="sans" style="font-size:14px;color:var(--ink-2)" id="costline"></p>
+    </div>
+    <div class="note"><b>What to distrust.</b> The connotation notes, senses, scales and back-translations are a model's readings: read the translator's words, and check any claim about a word's history in a dictionary. A dozen or two renderings can suggest a pattern, not prove one. “First translation” depends on what counts: abridgements, serials, and translations of stage or film versions often came earlier than a full translation of the novel, and catalogues miss small presses. Back-translations are a model's reading and can smooth over what makes a translation strange. The change categories are judgments. Rows marked unverified are leads, not facts. Translations still in copyright appear here as metadata and links only.</div>
+  </section>
+
+  <footer>
+    Built <span id="gen"></span> for ENGLISH 298AI, Seminar 9. Texts: Project Gutenberg (public domain). Quotations from translations still in copyright are limited to two sentences each, for comparison, with full citations. Generated by <code>operations/10-build-page.mjs</code>; edit the data files and rerun rather than editing this page.
+  </footer>
+</main>
+
+<script>const DATA = /*__DATA__*/null;</script>
+<script>
+// ---------- the comparison at the centre of the page ----------
+(() => {
+  const F = DATA.fiend; if (!F) return;
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const $ = id => document.getElementById(id);
+  const SLOTS = F.slots;
+  const R = F.renderings.slice().sort((a, b) => (+a.year || 9999) - (+b.year || 9999) || a.language.localeCompare(b.language));
+  let SEL = "fiend";
+  const senseColor = (slot, sense) => {
+    const s = SLOTS.find(x => x.key === slot); const i = s ? s.senses.indexOf(sense) : -1;
+    if (sense === "omitted" || sense === "erased by paraphrase") return "var(--c-none)";
+    if (sense === "other" || i < 0) return "var(--c7)";
+    return `var(--c${Math.min(i + 1, 6)})`;
+  };
+  // A short name for tight spaces: family names come first in Chinese and Japanese.
+  const shortName = r => /not (named|identified)/.test(r.translator) ? "unnamed" : (w => /Chinese|Japanese/.test(r.language) ? w[0] : w[w.length - 1])(r.translator.replace(/\(.*?\)/g, "").trim().split(/\s+/));
+
+  // stats
+  const langs = new Set(R.map(r => r.language)), pd = R.filter(r => /public domain/.test(r.copyright_us)).length;
+  const yrs = R.map(r => +r.year).filter(Boolean);
+  $("fstats").innerHTML = [[R.length, "renderings"], [langs.size, "languages"], [yrs.length ? `${Math.min(...yrs)}–${Math.max(...yrs)}` : "–", "years"], [pd, "public domain, quoted in full"], [R.length - pd, "in copyright, two sentences quoted"]]
+    .map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+
+  // the English
+  $("whyline").innerHTML = F.why;
+  const en = F.passage["en-1818"];
+  const enMarks = SLOTS.map(s => [s.key, s.shelley]);
+  function markEnglish() {
+    let h = esc(en);
+    for (const [k, w] of enMarks) h = h.replace(esc(w), m => `<span class="k${k === SEL ? " sel" : ""}" data-k="${k}">${m}</span>`);
+    $("passage-en").innerHTML = `“${h}”`;
+  }
+  $("passage-cite").innerHTML = `Mary Shelley, <i>Frankenstein; or, The Modern Prometheus</i> (London, 1818), ${esc(F.passage.location["en-1818"])}; the 1831 text (${esc(F.passage.location["en-1831"])}) differs only in punctuation. Text: <a href="https://www.gutenberg.org/ebooks/41445" target="_blank" rel="noopener">Project Gutenberg #41445</a>.`;
+
+  // key-word buttons
+  function renderBar() {
+    $("kwbar").innerHTML = `<span class="lbl">Colour by key word:</span>` + SLOTS.map(s => `<button data-k="${s.key}" aria-pressed="${s.key === SEL}">${esc(s.shelley.replace(/^(thy|the|a|for no|whom thou) /, ""))}</button>`).join("");
+    const s = SLOTS.find(x => x.key === SEL);
+    $("senses").innerHTML = s.senses.map(x => `<span style="--c:${senseColor(SEL, x)}">${esc(x)}</span>`).join("") + `<span style="--c:var(--c-none)">omitted</span>`;
+  }
+  $("kwbar").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (b) { SEL = b.dataset.k; renderAll(); } });
+
+  function markQuote(r) {
+    const text = r.quote, x = r.reading; if (!x) return esc(text);
+    const ranges = [];
+    const fold = t => t.toLowerCase();
+    for (const s of SLOTS) {
+      const sl = x.slots[s.key]; if (!sl || !sl.rendering || !sl.found) continue;
+      let i = text.indexOf(sl.rendering); if (i < 0) i = fold(text).indexOf(fold(sl.rendering)); if (i < 0) continue;
+      const j = i + sl.rendering.length;
+      if (ranges.some(([a, b]) => i < b && j > a)) continue;
+      ranges.push([i, j, s.key, sl]);
+    }
+    ranges.sort((a, b) => a[0] - b[0]);
+    let h = "", p = 0;
+    for (const [i, j, k, sl] of ranges) {
+      h += esc(text.slice(p, i)) + `<span class="kw${k === SEL ? " sel" : ""}" style="--c:${senseColor(k, sl.sense)}" title="${esc(`${SLOTS.find(s => s.key === k).shelley} → “${sl.gloss}” (${sl.sense})`)}">${esc(text.slice(i, j))}</span>`;
+      p = j;
+    }
+    return h + esc(text.slice(p));
+  }
+
+  function renderCards() {
+    $("cards").innerHTML = R.map(r => {
+      const x = r.reading || {}, chk = r.check || {}, per = (F.perRendering || {})[r.id];
+      const cr = !/public domain/.test(r.copyright_us);
+      const status = chk.status ? (chk.status === "found" ? "quote re-found by script" : chk.status === "not checkable by script" ? "source not script-readable: checked by hand" : `script check: ${chk.status}`) : "";
+      const conn = (x.connotations || []).map(c => {
+        const d = (F.dictionary || []).find(d => d.id === r.id && d.word === c.word);
+        return `<li><span class="kind">${esc(c.kind)}</span><b>${esc(c.word)}</b>: ${esc(c.note)}${c.check ? (d ? ` <span class="flag">checked: ${esc(d.verdict)}</span>` : ` <span class="flag">check</span>`) : ""}</li>`;
+      }).join("");
+      return `<article class="rcard" id="r-${esc(r.id)}">
+        <header><h3>${esc(r.language)} <span>${esc(r.year || "n.d.")}</span></h3><span class="tag${cr ? " cr" : ""}">${cr ? "in copyright · quoted" : "public domain"}</span></header>
+        <div class="cite">${esc(r.translator)}. ${esc(r.edition_quoted)}. ${r.source_flag ? `Verified in an online copy that is probably an unauthorised upload, so not linked here.` : `<a href="${esc(r.source_url)}" target="_blank" rel="noopener">source</a> (${esc(r.source_type)}).`} ${esc(status)}</div>
+        <p class="q">${markQuote(r)}</p>
+        ${x.back_translation ? `<p class="bt">${esc(x.back_translation)}</p>` : ""}
+        ${conn ? `<details class="cd"><summary>Connotations: ${(x.connotations || []).length} notes (model interpretation)</summary><ul class="conn">${conn}</ul></details>` : ""}
+        ${per ? `<p class="hl"><b>Highlights:</b> ${esc(per.highlighted)} <b>Mutes:</b> ${esc(per.muted)}</p>` : ""}
+        ${r.notes ? `<p class="hl" style="color:var(--ink-3)">${esc(r.notes)}</p>` : ""}
+      </article>`;
+    }).join("");
+  }
+
+  function renderMatrix() {
+    let h = `<thead><tr><th>year</th><th>language · translator</th>${SLOTS.map(s => `<th data-k="${s.key}" class="${s.key === SEL ? "sel" : ""}" style="cursor:pointer">${esc(s.shelley)}</th>`).join("")}</tr></thead><tbody>`;
+    h += `<tr><td>1818</td><td><b>English · Shelley</b></td>${SLOTS.map(s => `<td class="cell"><span class="w">${esc(s.shelley)}</span></td>`).join("")}</tr>`;
+    for (const r of R) {
+      const x = r.reading; if (!x) continue;
+      h += `<tr><td>${esc(r.year || "n.d.")}</td><td><a href="#r-${esc(r.id)}">${esc(r.language)} · ${esc(r.translator)}</a></td>`;
+      for (const s of SLOTS) {
+        const sl = x.slots[s.key];
+        if (!sl || sl.sense === "not in quote") { h += `<td class="cell"><span class="g">–</span></td>`; continue; }
+        const c = senseColor(s.key, sl.sense);
+        h += `<td class="cell${s.key === SEL ? " sel" : ""}" style="--c:${c}"><span class="w">${sl.rendering ? esc(sl.rendering) : "<em>omitted</em>"}</span><span class="g">${esc(sl.gloss)}</span><span class="s">${esc(sl.sense)}${sl.found === false ? " · not found in quote" : ""}</span></td>`;
+      }
+      h += `</tr>`;
+    }
+    $("matrix").innerHTML = h + "</tbody>";
+    $("matrix").querySelectorAll("th[data-k]").forEach(th => th.onclick = () => { SEL = th.dataset.k; renderAll(); });
+  }
+
+  function renderScale() {
+    const cols = [-2, -1, 0, 1, 2], rows = [-2, -1, 0, 1, 2];
+    const colName = ["much more demonic", "more demonic", "as in Shelley", "more pitiable", "much more pitiable"];
+    const rowName = ["much more biblical", "more biblical", "as in Shelley", "more secular", "much more secular"];
+    let h = `<div class="scale"><div></div>${colName.map(c => `<div class="h">${c}</div>`).join("")}`;
+    rows.forEach((y, yi) => {
+      h += `<div class="rh">${rowName[yi]}</div>`;
+      cols.forEach(xv => {
+        const here = R.filter(r => r.reading && r.reading.demonic_pitiable === xv && r.reading.biblical_secular === y);
+        h += `<div class="c${xv === 0 && y === 0 ? " mid" : ""}">${here.map(r => `<a href="#r-${esc(r.id)}" title="${esc(r.reading.scales_reason)}">${esc(r.language)} ${esc(r.year)}<br><span style="color:var(--ink-3)">${esc(shortName(r))}</span></a>`).join("")}</div>`;
+      });
+    });
+    $("scale").innerHTML = h + `</div><p class="sans" style="font-size:12px;color:var(--ink-3);margin:10px 0 0">Scores by ${esc(R.find(r => r.reading)?.reading.model || "the model")}; hover a name for its reason.</p>`;
+  }
+
+  function renderSynth() {
+    $("synth-sub").innerHTML = F.synthesisNote;
+    $("synth").innerHTML = F.synthesisHtml || `<p class="empty">Not yet written.</p>`;
+    $("contrasts").innerHTML = "";
+    const d = F.dictionary || [];
+    $("dict").innerHTML = d.length ? `<table class="dict"><thead><tr><th>rendering</th><th>word</th><th>the model's claim</th><th>what the reference says</th><th>verdict</th></tr></thead><tbody>${d.map(x => `<tr><td>${esc(x.label)}</td><td class="q">${esc(x.word)}</td><td>${esc(x.claim)}</td><td>${esc(x.finding)} ${x.source_url ? `<a href="${esc(x.source_url)}" target="_blank" rel="noopener">${esc(x.source_label || "source")}</a>` : ""}</td><td><b>${esc(x.verdict)}</b></td></tr>`).join("")}</tbody></table>` : `<p class="empty">No checks recorded yet.</p>`;
+  }
+
+  function renderAll() { renderBar(); markEnglish(); renderCards(); renderMatrix(); }
+  renderAll(); renderScale(); renderSynth();
+})();
+</script>
+<script>
+(() => {
+  const inv = DATA.inventory.slice().sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999) || a.language.localeCompare(b.language));
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const statusKey = s => /^verified/.test(s) ? "verified" : /partly/.test(s) ? "partly" : "unverified";
+  const $ = id => document.getElementById(id);
+  const CAT = ["omission", "addition", "intensification", "softening", "domestication", "shift in meaning"];
+  const catVar = c => `var(--c${CAT.indexOf(c) + 1})`;
+  const passageFor = r => r.passage_id && DATA.passages.find(p => p.id === r.passage_id && p.text);
+
+  $("nLang").textContent = inv.length;
+  $("gen").textContent = DATA.generated;
+  const n = k => inv.filter(r => statusKey(r.status) === k).length;
+  const dated = inv.filter(r => r.year);
+  $("stats").innerHTML = [
+    [inv.length, "languages"], [n("verified"), "verified"], [n("partly"), "partly verified"], [n("unverified"), "unverified"],
+    [dated.length ? `${Math.min(...dated.map(r => r.year))}–${Math.max(...dated.map(r => r.year))}` : "–", "span of first translations"],
+    [DATA.passages.filter(p => p.text).length, "historical passages compared"],
+  ].map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+
+  // ---------- timeline (dot plot: one row per language) ----------
+  const W = 560, rowH = 22, left = 112, right = 46, top = 26;
+  const years = dated.map(r => r.year);
+  const y0 = Math.floor(Math.min(1818, ...years) / 25) * 25, y1 = Math.ceil(Math.max(...years, 1900) / 25) * 25;
+  const x = y => left + (y - y0) / (y1 - y0) * (W - left - right);
+  const H = top + inv.length * rowH + 26;
+  let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Dot plot of first translation year by language">`;
+  for (let y = y0; y <= y1; y += 25) {
+    svg += `<line x1="${x(y)}" x2="${x(y)}" y1="${top - 6}" y2="${H - 22}" stroke="var(--border)" stroke-width="1"/><text x="${x(y)}" y="${top - 12}" text-anchor="middle" font-size="11" fill="var(--ink-3)">${y}</text>`;
+  }
+  svg += `<line x1="${x(1818)}" x2="${x(1818)}" y1="${top - 6}" y2="${H - 22}" stroke="var(--accent)" stroke-dasharray="3 3"/><text x="${x(1818)}" y="${H - 6}" text-anchor="middle" font-size="10.5" fill="var(--accent)">1818: the novel</text>`;
+  inv.forEach((r, i) => {
+    const cy = top + i * rowH + rowH / 2, k = statusKey(r.status);
+    let dot = "";
+    if (r.year) {
+      const cx = x(r.year);
+      if (k === "verified") dot = `<circle cx="${cx}" cy="${cy}" r="5.5" fill="var(--ink)" stroke="var(--surface)" stroke-width="2"/>`;
+      else if (k === "partly") dot = `<circle cx="${cx}" cy="${cy}" r="5" fill="var(--surface)" stroke="var(--ink)" stroke-width="2"/><path d="M${cx},${cy - 5} A5,5 0 0 0 ${cx},${cy + 5} Z" fill="var(--ink)"/>`;
+      else dot = `<circle cx="${cx}" cy="${cy}" r="5" fill="none" stroke="var(--ink-3)" stroke-width="2" stroke-dasharray="2.5 2"/>`;
+      dot += `<text x="${cx + 10}" y="${cy + 4}" font-size="11" fill="var(--ink-2)">${r.year}</text>`;
+    } else {
+      dot = `<text x="${x(1818) + 8}" y="${cy + 4}" font-size="11" fill="var(--ink-3)" font-style="italic">no date confirmed</text>`;
+    }
+    svg += `<g class="row" data-lang="${esc(r.language)}" tabindex="0" role="button" aria-label="${esc(r.language)}, ${r.year || "no date"}, ${k}"><title>${esc(r.language)}: ${esc(r.year || "no date")} · ${esc(r.translator || "translator unknown")} · ${k}</title><rect class="hit" x="0" y="${cy - rowH / 2}" width="${W}" height="${rowH}" fill="transparent" rx="4"/><text class="lang" x="${left - 10}" y="${cy + 4}" text-anchor="end" font-size="12.5" fill="var(--ink)">${esc(r.language)}</text>${dot}</g>`;
+  });
+  $("timeline").innerHTML = svg + "</svg>";
+  $("timeline").querySelectorAll(".row").forEach(g => {
+    g.addEventListener("click", () => select(g.dataset.lang, true));
+    g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(g.dataset.lang, true); } });
+  });
+
+  // ---------- detail ----------
+  function select(lang, scroll) {
+    const r = inv.find(x => x.language === lang); if (!r) return;
+    document.querySelectorAll("#timeline .row").forEach(g => g.classList.toggle("sel", g.dataset.lang === lang));
+    const k = statusKey(r.status), p = passageFor(r);
+    const f = (label, v) => v ? `<dt>${label}</dt><dd>${v}</dd>` : "";
+    $("detail").innerHTML = `
+      <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;justify-content:space-between">
+        <h3 style="font-size:24px;margin:0">${esc(r.language)} <span style="font-weight:400;color:var(--ink-2)">${esc(r.year || "no date confirmed")}</span></h3>
+        <span class="badge ${k}">${esc(r.status)}</span>
+      </div>
+      <dl class="rec">
+        ${f("Title as published", `<i>${esc(r.title)}</i>${r.title_romanized ? ` <span style="color:var(--ink-3)">(${esc(r.title_romanized)})</span>` : ""}`)}
+        ${f("Translator", esc(r.translator))}
+        ${f("Published", esc([r.place, r.publisher].filter(Boolean).join(": ")))}
+        ${f("Form", esc(r.form))}
+        ${f("English text followed", esc(r.source_text))}
+        ${f("Copyright (US)", esc(r.copyright_us))}
+        ${f("Digitized copy", r.digitized_url ? `<a href="${esc(r.digitized_url)}" target="_blank" rel="noopener">${esc(r.digitized_url.replace(/^https?:\/\//, "").slice(0, 70))}</a>` : `<span class="empty">none found</span>`)}
+        ${f("Sources", r.sources.map(s => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>` : esc(s.label)).join("<br>"))}
+      </dl>
+      ${r.notes ? `<div class="note">${esc(r.notes)}</div>` : ""}
+      ${p ? `<p class="sans" style="font-size:14px;margin:14px 0 0">The anchor passage from this translation is compared below. <a href="#ptabs" data-ptab="${esc(p.id)}">Show it</a></p>` : `<p class="sans empty" style="font-size:14px;margin:14px 0 0">${/in copyright/.test(r.copyright_us || "") ? "Still in copyright: metadata and links only, no text." : "No public-domain digitized text was available to us, so no passage."}</p>`}`;
+    $("detail").querySelectorAll("[data-ptab]").forEach(a => a.addEventListener("click", () => showPassage(a.dataset.ptab)));
+    if (scroll) $("detail").scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  // ---------- passages ----------
+  const comps = Object.fromEntries((DATA.comparisons.comparisons || []).map(c => [c.id, c]));
+  const versions = [];
+  for (const p of DATA.passages.filter(p => p.text)) versions.push({ id: p.id, label: `${p.language}, ${p.edition.match(/\b1[89]\d\d\b/g)?.pop() || ""} (historical)`, text: p.text, follows: p.follows, meta: `${p.edition}. Located at lines ${p.line_start}–${p.line_end} of the <a href="${esc(p.source_page)}" target="_blank" rel="noopener">source text</a>. ${esc(p.copyright)}` });
+  for (const c of DATA.chains) {
+    versions.push({ id: `${c.id}-oneshot`, label: `${c.language}, model one-shot`, text: c.one_shot, follows: "1818", meta: `Translated for this page by ${esc(c.translator_model)} in one pass.` });
+    versions.push({ id: `${c.id}-revised`, label: `${c.language}, model after critique`, text: c.revised, follows: "1818", meta: `Revised by ${esc(c.translator_model)} after a critique from ${esc(c.critic_model)}.` });
+  }
+  $("ptabs").innerHTML = versions.map(v => `<button data-id="${esc(v.id)}" aria-pressed="false">${esc(v.label)}</button>`).join("");
+  $("ptabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b) showPassage(b.dataset.id); });
+
+  function markUp(text, phrases, side) {
+    // wrap each quoted phrase (first occurrence, case-insensitive, whitespace-tolerant) in <mark data-i>
+    let html = esc(text);
+    phrases.forEach(([i, ph]) => {
+      if (!ph) return;
+      const pat = esc(ph).replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+      const re = new RegExp(pat, "i");
+      if (re.test(html)) html = html.replace(re, m => `<mark data-${side}="${i}">${m}</mark>`);
+    });
+    return html.split(/\n\n/).map(t => `<p>${t}</p>`).join("");
+  }
+
+  function showPassage(id) {
+    const v = versions.find(x => x.id === id) || versions[0]; if (!v) { $("pview").innerHTML = `<p class="empty">No passages yet.</p>`; return; }
+    $("ptabs").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.id === v.id));
+    const c = comps[v.id], en = DATA.anchor[`en-${v.follows === "1831" ? "1831" : "1818"}`].text;
+    const ch = c ? c.changes : [];
+    const counts = CAT.map(cat => [cat, ch.filter(x => x.category === cat).length]);
+    const max = Math.max(1, ...counts.map(x => x[1]));
+    $("pview").innerHTML = `
+      <p class="sans" style="font-size:14px;color:var(--ink-2);margin:0">${v.meta}</p>
+      <div class="tri">
+        <div class="col"><h4>Shelley, ${v.follows === "1831" ? "1831" : "1818"}</h4>${markUp(en, ch.map((x, i) => [i, x.shelley]), "s")}</div>
+        <div class="col"><h4>Translation</h4>${markUp(v.text, ch.map((x, i) => [i, x.translation]), "t")}</div>
+        <div class="col"><h4>Back-translation (model)</h4>${c ? esc(c.back_translation).split(/\n\n/).map(t => `<p>${t}</p>`).join("") : `<p class="empty">Not yet back-translated.</p>`}</div>
+      </div>
+      ${c ? `<div class="grid2" style="margin-top:18px">
+        <div class="card scroll"><table class="changes"><thead><tr><th>Shelley</th><th>Translation → back-translation</th><th>Category and why</th></tr></thead><tbody>
+          ${ch.map((x, i) => `<tr data-i="${i}"><td class="q">${esc(x.shelley) || "<span class='empty'>(nothing)</span>"}</td><td class="q">${esc(x.translation) || "<span class='empty'>(omitted)</span>"}${x.translation ? `<br><span style="color:var(--ink-3)">“${esc(x.back_translation)}”</span>` : ""}</td><td><span class="chip" style="--cat:${catVar(x.category)}">${esc(x.category)}</span><br>${esc(x.rationale)}${x.shelley_quote_found && x.translation_quote_found ? "" : `<br><span class="no">quote not found verbatim: check</span>`}</td></tr>`).join("")}
+        </tbody></table></div>
+        <div class="card"><h3>Overall tendency (model's note)</h3><p style="margin:0 0 14px">${esc(c.note)}</p>
+          <h3 style="font-size:15px" class="sans">Changes by category</h3>
+          <div class="bars">${counts.map(([cat, k]) => `<span class="chip" style="--cat:${catVar(cat)}">${cat}</span><div class="b" title="${k}"><span style="--cat:${catVar(cat)};width:${k / max * 100}%"></span><b style="margin-left:6px;font-weight:500">${k}</b></div>`).join("")}</div>
+          <p class="sans" style="font-size:12px;color:var(--ink-3);margin:12px 0 0">Back-translation and categories by ${esc(c.model)}. Counts depend on what the model chose to list.</p>
+        </div></div>` : ""}`;
+    $("pview").querySelectorAll("tr[data-i]").forEach(tr => {
+      const on = b => $("pview").querySelectorAll(`mark[data-s="${tr.dataset.i}"],mark[data-t="${tr.dataset.i}"]`).forEach(m => m.classList.toggle("on", b));
+      tr.addEventListener("mouseenter", () => on(true)); tr.addEventListener("mouseleave", () => on(false));
+    });
+    $("pview").querySelectorAll("mark").forEach(m => {
+      const i = m.dataset.s ?? m.dataset.t;
+      const on = b => { $("pview").querySelectorAll(`mark[data-s="${i}"],mark[data-t="${i}"]`).forEach(x => x.classList.toggle("on", b)); const tr = $("pview").querySelector(`tr[data-i="${i}"]`); if (tr) tr.style.background = b ? "var(--surface-2)" : ""; };
+      m.addEventListener("mouseenter", () => on(true)); m.addEventListener("mouseleave", () => on(false));
+    });
+  }
+  showPassage(versions[0]?.id);
+
+  // ---------- chains ----------
+  $("ctabs").innerHTML = DATA.chains.map(c => `<button data-id="${esc(c.id)}" aria-pressed="false">${esc(c.language)}</button>`).join("");
+  $("ctabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b) showChain(b.dataset.id); });
+  function showChain(id) {
+    const c = DATA.chains.find(x => x.id === id) || DATA.chains[0]; if (!c) { $("cview").innerHTML = `<p class="empty">No chains yet.</p>`; return; }
+    $("ctabs").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.id === c.id));
+    const para = t => esc(t).split(/\n\n/).map(x => `<p>${x}</p>`).join("");
+    // just enough Markdown for the critique: **bold**, *italic*, line breaks
+    const md = t => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<i>$2</i>").replace(/\n/g, "<br>");
+    $("cview").innerHTML = `<div class="tri">
+      <div class="col"><h4>1 · One-shot (${esc(c.translator_model)})</h4>${para(c.one_shot)}</div>
+      <div class="col"><h4>2 · Critique (${esc(c.critic_model)})</h4><div class="crit">${md(c.critique)}</div></div>
+      <div class="col"><h4>3 · Revised (${esc(c.translator_model)})</h4>${para(c.revised)}</div>
+    </div>
+    <div class="card" style="margin-top:16px"><h3>What the translator accepted and rejected</h3><div class="crit">${md(c.responses_to_critique || "(no response recorded)")}</div>
+    <p class="sans" style="font-size:13px;color:var(--ink-3);margin:12px 0 0">Compare both versions with the 1821 French in the passage tabs above. In this run the critic asked the French model to echo Shelley's “Beautiful!” as <i>Beaux !</i>, the model declined, and the 1821 translator had written <i>Beaux!...</i>: whether a revision helps is something to judge, not assume.</p></div>`;
+  }
+  showChain(DATA.chains[0]?.id);
+
+  // ---------- model memory ----------
+  const dv = DATA.draftVsVerified;
+  if (dv.length) {
+    const models = Object.keys(dv[0]).filter(k => k.endsWith("_year_match")).map(k => k.replace("_year_match", ""));
+    const cls = v => v === "yes" ? "yes" : v === "no" ? "no" : "na";
+    $("memory").innerHTML = `<table><thead><tr><th>Language</th><th>Verified</th>${models.map(m => `<th>${esc(m)} said</th>`).join("")}</tr></thead><tbody>${dv.map(r => `<tr><td>${esc(r.language)}</td><td>${esc(r.verified_year || "–")} · ${esc(r.verified_translator || "–")}<br><span style="color:var(--ink-3)">${esc(r.status)}</span></td>${models.map(m => r[`${m}_year`] ? `<td>${esc(r[`${m}_year`])} · ${esc(r[`${m}_translator`] || "–")} <span style="color:var(--ink-3)">(${esc(r[`${m}_confidence`])} confidence)</span><br>year: <span class="${cls(r[`${m}_year_match`])}">${esc(r[`${m}_year_match`])}</span> · translator: <span class="${cls(r[`${m}_translator_match`])}">${esc(r[`${m}_translator_match`])}</span></td>` : `<td class="na">declined</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+  } else $("memory").innerHTML = `<p class="empty">Not yet compared.</p>`;
+
+  const cm = DATA.costs;
+  $("costline").textContent = `Model calls: ${cm.calls}, total cost $${cm.total.toFixed(2)} (${Object.entries(cm.byModel).map(([m, c]) => `${m} $${c.toFixed(2)}`).join("; ")}). Research agents' web searches are not included in this figure.`;
+
+  select((inv.find(r => r.passage_id) || inv[0]).language, false);
+})();
+</script>
+</body>
+</html>

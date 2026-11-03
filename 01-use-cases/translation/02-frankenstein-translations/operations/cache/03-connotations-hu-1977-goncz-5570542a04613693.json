@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718969-zL4T49uFnOESOmL1ZddH",
+  "object": "chat.completion",
+  "created": 1793718969,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I ought to be your Adam, but I am like the fallen angel, whom you deprive of every joy, although he did not do anything bad at all. … I wanted good, and I was good. It was misery that carved a demon out of me.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"Ádámodnak\",\"gloss\":\"Adam-your-(dative: 'as your Adam')\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"bukott angyal\",\"gloss\":\"fallen angel\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"megfosztasz minden örömtől\",\"gloss\":\"you-deprive every joy-from\",\"sense\":\"deprived / excluded\"},\"misdeed\":{\"rendering\":\"nem is tett semmi rosszat\",\"gloss\":\"not even did(he) nothing bad\",\"sense\":\"fault / wrong (moral)\"},\"benevolent\":{\"rendering\":\"jót akartam\",\"gloss\":\"good I-wanted\",\"sense\":\"benevolent / well-wishing\"},\"misery\":{\"rendering\":\"nyomorúság\",\"gloss\":\"misery / wretchedness\",\"sense\":\"wretchedness / abjection\"},\"fiend\":{\"rendering\":\"démont\",\"gloss\":\"demon (accusative)\",\"sense\":\"devil / demon\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"faragott\",\"kind\":\"literary echo\",\"note\":\"'Faragni' means to carve or whittle. Misery becomes a sculptor, so the line echoes the novel's theme of being made by someone. It may also invert the Hungarian idiom 'embert faragni valakiből' ('to make a decent person out of someone').\",\"check\":true},{\"word\":\"tett\",\"kind\":\"grammatical\",\"note\":\"The third-person verb ('he did') makes the innocence belong to the fallen angel of the simile rather than to 'I'. The creature argues by analogy instead of pleading his own blamelessness directly.\",\"check\":false},{\"word\":\"olyan vagyok, mint\",\"kind\":\"register / tone\",\"note\":\"'I am like' turns Shelley's identification ('I am rather the fallen angel') into a simile. This softens the creature's self-identification with Satan.\",\"check\":false},{\"word\":\"nyomorúság\",\"kind\":\"other\",\"note\":\"Besides misery, the word commonly covers destitution and material poverty. That gives the creature's fall a hint of social hardship that Shelley's 'misery' carries less strongly.\",\"check\":true},{\"word\":\"nem is tett semmi rosszat\",\"kind\":\"loss\",\"note\":\"'Did nothing bad at all' is an everyday moral phrase. It drops the formal weight of 'misdeed', and its emphatic 'nem is' sounds like a child's protest of innocence.\",\"check\":false}],\"demonic_pitiable\":1,\"biblical_secular\":1,\"scales_reason\":\"The simile, the colloquial protest of innocence and 'jót akartam' make the creature more sympathetic, while the everyday 'rosszat' (instead of sin or crime) and the Greek-derived 'démon' (instead of 'ördög', devil) slightly secularize the language even though Adam and the fallen angel remain.\"}",
+        "refusal": null,
+        "reasoning": "I'm checking the back-translation of the passage, noting how \"olyan vagyok, mint\" creates a simile rather than direct identity, softening the comparison, and how the shift to third person changes who's described as blameless. I'm starting to lay out the slot structure for creature.\n\nFor the remaining slots, I'm noting Adam as named (dative possessive form), \"fallen angel\" as straightforward, \"deprived\" for being excluded from joy, and a paraphrase for \"no wrongdoing\" since the original phrasing is doubled-negative emphatic. \"Benevolent\" maps to the \"wanted good\" phrase, \"misery\" captures nyomorúság's broader sense of wretchedness and poverty, and \"fiend\" corresponds to the demon noun. The \"virtuous\" slot isn't present in this quote.\n\nI'm also considering the connotations of \"faragott\" (carved/sculpted) — this echoes creation imagery and possibly inverts the Hungarian idiom about \"making a proper person\" out of someone, plus I'm noting how the third-person verb form distances the speaker from the angel being described.\n\nLooking at word choice nuances now — \"démon\" reads as more literary/Greek-derived than the folkloric \"ördög,\" and \"nyomorúság\" carries biblical connotations of material destitution alongside misery, while the simile \"olyan vagyok, mint\" hedges the speaker's self-identification rather than asserting it directly. I'm scoring this passage as mostly pitiable (the plea of innocence and good intent) and fairly secular (Adam and fallen angel remain, but the more literary \"démon\" and secular \"rosszat\" instead of \"bűn\" pull it away from biblical register).\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm checking the back-translation of the passage, noting how \"olyan vagyok, mint\" creates a simile rather than direct identity, softening the comparison, and how the shift to third person changes who's described as blameless. I'm starting to lay out the slot structure for creature.\n\nFor the remaining slots, I'm noting Adam as named (dative possessive form), \"fallen angel\" as straightforward, \"deprived\" for being excluded from joy, and a paraphrase for \"no wrongdoing\" since the original phrasing is doubled-negative emphatic. \"Benevolent\" maps to the \"wanted good\" phrase, \"misery\" captures nyomorúság's broader sense of wretchedness and poverty, and \"fiend\" corresponds to the demon noun. The \"virtuous\" slot isn't present in this quote.\n\nI'm also considering the connotations of \"faragott\" (carved/sculpted) — this echoes creation imagery and possibly inverts the Hungarian idiom about \"making a proper person\" out of someone, plus I'm noting how the third-person verb form distances the speaker from the angel being described.\n\nLooking at word choice nuances now — \"démon\" reads as more literary/Greek-derived than the folkloric \"ördög,\" and \"nyomorúság\" carries biblical connotations of material destitution alongside misery, while the simile \"olyan vagyok, mint\" hedges the speaker's self-identification rather than asserting it directly. I'm scoring this passage as mostly pitiable (the plea of innocence and good intent) and fairly secular (Adam and fallen angel remain, but the more literary \"démon\" and secular \"rosszat\" instead of \"bűn\" pull it away from biblical register).\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3871,
+    "completion_tokens": 1892,
+    "total_tokens": 5763,
+    "cost": 0.053324,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.053324,
+      "upstream_inference_prompt_cost": 0.015484,
+      "upstream_inference_completions_cost": 0.03784
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 799,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

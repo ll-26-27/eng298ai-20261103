@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793719054-9NxNtsc2KAyCPYxhaABW",
+  "object": "chat.completion",
+  "created": 1793719054,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I am the one you created; I ought to be your 'Adam', but things turned out contrary to what was wished: I instead became an angel thrown into hell, and for no reason at all I was driven out by you from the paradise of the heavenly kingdom. …… Formerly I too was benevolent and kind; it was only because of unfortunate experiences that I was made to become savage and vicious.\",\"slots\":{\"creature\":{\"rendering\":\"你创造出来的\",\"gloss\":\"you create-out-(particle): (the one) created by you\",\"sense\":\"creature\"},\"adam\":{\"rendering\":\"‘亚当’\",\"gloss\":\"'Adam' (transliterated name, in quotation marks)\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"被打入地狱的天使\",\"gloss\":\"(passive) thrown-into hell (particle) angel: an angel cast into hell\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"被你逐出天国的乐园\",\"gloss\":\"by you expelled-out-of heaven-kingdom (particle) paradise\",\"sense\":\"driven from paradise\"},\"misdeed\":{\"rendering\":\"平白无故地\",\"gloss\":\"plain-blank without-cause (adverbial): for no reason whatsoever\",\"sense\":\"other\"},\"benevolent\":{\"rendering\":\"仁慈\",\"gloss\":\"humane-merciful: benevolent, kind\",\"sense\":\"benevolent / well-wishing\"},\"misery\":{\"rendering\":\"不幸的遭遇\",\"gloss\":\"not-fortunate (particle) encounters: unfortunate experiences\",\"sense\":\"misfortune / bad luck\"},\"fiend\":{\"rendering\":\"凶残歹毒\",\"gloss\":\"fierce-cruel wicked-poisonous: savage and vicious\",\"sense\":\"erased by paraphrase\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"被打入地狱的天使\",\"kind\":\"religious / biblical\",\"note\":\"Shelley's angel has only 'fallen'; the translator makes the fall a punishment into hell. The phrase 打入地狱 recalls the common Chinese idiom 打入十八层地狱 ('cast into the eighteenth level of hell'), which carries a popular Buddhist sense of the underworld.\",\"check\":true},{\"word\":\"天国的乐园\",\"kind\":\"literary echo\",\"note\":\"'Joy' becomes a place, the 'paradise of the heavenly kingdom'. This merges Eden with heaven, and 乐园 echoes 失乐园, the standard Chinese title of Milton's Paradise Lost.\",\"check\":true},{\"word\":\"平白无故地\",\"kind\":\"loss\",\"note\":\"This is a colloquial idiom meaning 'for no reason at all'. It drops the moral and legal weight of 'no misdeed': the creature's innocence of wrongdoing becomes Victor's arbitrariness.\",\"check\":false},{\"word\":\"凶残歹毒\",\"kind\":\"moral\",\"note\":\"This four-character phrase describes human savagery and malice; 毒 means 'poison'. It removes the supernatural 'fiend', so the creature's transformation becomes one of moral character rather than of demonic nature.\",\"check\":false},{\"word\":\"事与愿违\",\"kind\":\"register / tone\",\"note\":\"The translator adds an idiom, 'things went against one's wishes', which lends the speech a resigned, storytelling tone absent from Shelley's direct accusation.\",\"check\":false}],\"demonic_pitiable\":1,\"biblical_secular\":-1,\"scales_reason\":\"The translator adds explicit hell and heaven and stages an expulsion from paradise, which makes the passage more religious, but he turns 'fiend' into human viciousness caused by misfortune, which makes the creature somewhat more human and pitiable.\"}",
+        "refusal": null,
+        "reasoning": "I'm working out the back-translation of the passage about the creature cast out despite being made to be an \"Adam,\" turned cruel by misfortune rather than nature, and breaking down the key phrase \"you created\" into its components for the translation.\n\nI'm also noting the subtle shifts the Chinese adds: \"thrown into hell\" injects a Buddhist-flavored idiom absent from the original, and \"heaven's paradise\" conflates Eden with heaven in a way Shelley's text doesn't.\n\nFor the fiend description, the Chinese loses the supernatural edge, secularizing it into human cruelty while still layering on hell imagery elsewhere. Weighing these additions against the losses, I'm leaning toward scoring the biblical-to-secular shift around -1 overall.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm working out the back-translation of the passage about the creature cast out despite being made to be an \"Adam,\" turned cruel by misfortune rather than nature, and breaking down the key phrase \"you created\" into its components for the translation.\n\nI'm also noting the subtle shifts the Chinese adds: \"thrown into hell\" injects a Buddhist-flavored idiom absent from the original, and \"heaven's paradise\" conflates Eden with heaven in a way Shelley's text doesn't.\n\nFor the fiend description, the Chinese loses the supernatural edge, secularizing it into human cruelty while still layering on hell imagery elsewhere. Weighing these additions against the losses, I'm leaning toward scoring the biblical-to-secular shift around -1 overall.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3869,
+    "completion_tokens": 2155,
+    "total_tokens": 6024,
+    "cost": 0.058576,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.058576,
+      "upstream_inference_prompt_cost": 0.015476,
+      "upstream_inference_completions_cost": 0.0431
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 887,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

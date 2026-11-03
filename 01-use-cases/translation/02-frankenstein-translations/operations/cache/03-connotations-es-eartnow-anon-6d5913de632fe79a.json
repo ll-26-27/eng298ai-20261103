@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718723-UNI9LzjTxHpd1ZP9clK8",
+  "object": "chat.completion",
+  "created": 1793718723,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I was to be your Adam, but I am rather the fallen angel whom you deny all happiness. … I was good and affectionate; suffering has debased me.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"vuestro Adán\",\"gloss\":\"your (formal) Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"el ángel caído\",\"gloss\":\"the angel fallen\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"a quien negáis toda dicha\",\"gloss\":\"to whom you-deny (formal) all happiness\",\"sense\":\"deprived / excluded\"},\"misdeed\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"omitted\"},\"benevolent\":{\"rendering\":\"cariñoso\",\"gloss\":\"affectionate, loving\",\"sense\":\"loving / tender\"},\"misery\":{\"rendering\":\"el sufrimiento\",\"gloss\":\"the suffering\",\"sense\":\"suffering / pain\"},\"fiend\":{\"rendering\":\"me ha envilecido\",\"gloss\":\"me has debased / made vile\",\"sense\":\"erased by paraphrase\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"me ha envilecido\",\"kind\":\"moral\",\"note\":\"Envilecer (from vil, 'base, vile') names moral degradation or loss of dignity, not a change into a demon; Shelley's 'fiend' becomes something closer to 'debasement', and the creature describes a process done to him rather than an identity he has taken on.\",\"check\":true},{\"word\":\"a quien negáis toda dicha\",\"kind\":\"loss\",\"note\":\"The clause 'for no misdeed' is dropped, so the creature's claim of innocence disappears. 'Drivest from' (an expulsion, as from Eden) becomes a refusal ('deny'), which is more static and less Miltonic.\",\"check\":false},{\"word\":\"vuestro / negáis\",\"kind\":\"register / tone\",\"note\":\"The formal vos plural gives the address a distant, ceremonious tone. Shelley's intimate, scriptural 'thy/thou' is replaced by a form that reads as courtly or old-fashioned deference.\",\"check\":false},{\"word\":\"cariñoso\",\"kind\":\"register / tone\",\"note\":\"Cariñoso is a warm, everyday word for affection. It domesticates Shelley's Enlightenment-ethical 'benevolent', making the creature tender and childlike rather than a well-wishing moral agent.\",\"check\":false},{\"word\":\"Debía ser\",\"kind\":\"grammatical\",\"note\":\"The imperfect debía can mean 'I ought to be' or 'I was supposed to be'. It casts the Adam role as a destiny already missed, which sharpens the sense of loss.\",\"check\":false}],\"demonic_pitiable\":1,\"biblical_secular\":1,\"scales_reason\":\"Adán and ángel caído keep the Miltonic frame, but 'fiend' is softened into moral debasement and 'benevolent' into affection, which makes the creature more pitiable and less demonic, though dropping 'for no misdeed' weakens his plea of innocence.\"}",
+        "refusal": null,
+        "reasoning": "I'm mapping the quote to its slots — the creature invokes \"vuestro Adán\" for Adam, then calls himself \"el ángel caído,\" identifying the fallen angel reference, and noting the absence of an explicit \"creature\" term in this particular passage.\n\nTracking what the translation preserves versus drops: \"negáis toda dicha\" captures the deprivation of happiness, but the clause about committing \"no misdeed\" is omitted entirely, which weakens his innocence claim. \"Bueno y cariñoso\" renders benevolent and good but reverses their order, \"el sufrimiento\" stands in cleanly for misery, while \"me ha envilecido\" trades the demonic \"fiend\" for a moral-degradation sense tied to vileness, losing that supernatural connotation. I also notice the formal \"vuestro/negáis\" address carries an archaic, almost biblical register, and \"dicha\" itself has a literary flavor worth flagging as a translation nuance.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm mapping the quote to its slots — the creature invokes \"vuestro Adán\" for Adam, then calls himself \"el ángel caído,\" identifying the fallen angel reference, and noting the absence of an explicit \"creature\" term in this particular passage.\n\nTracking what the translation preserves versus drops: \"negáis toda dicha\" captures the deprivation of happiness, but the clause about committing \"no misdeed\" is omitted entirely, which weakens his innocence claim. \"Bueno y cariñoso\" renders benevolent and good but reverses their order, \"el sufrimiento\" stands in cleanly for misery, while \"me ha envilecido\" trades the demonic \"fiend\" for a moral-degradation sense tied to vileness, losing that supernatural connotation. I also notice the formal \"vuestro/negáis\" address carries an archaic, almost biblical register, and \"dicha\" itself has a literary flavor worth flagging as a translation nuance.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3877,
+    "completion_tokens": 1730,
+    "total_tokens": 5607,
+    "cost": 0.050108,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.050108,
+      "upstream_inference_prompt_cost": 0.015508,
+      "upstream_inference_completions_cost": 0.0346
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 665,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

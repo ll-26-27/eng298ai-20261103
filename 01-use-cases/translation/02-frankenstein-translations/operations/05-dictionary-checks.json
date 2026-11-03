@@ -1,0 +1,85 @@
+{
+  "note": "Step 5 (verified research): connotation claims the model flagged for checking, looked up by the lead session in the dictionaries cited. Not every flagged claim was checked; unchecked ones stay marked 'check' on the page.",
+  "checks": [
+    {
+      "id": "fr-1821-saladin",
+      "label": "French, Saladin 1821",
+      "word": "forfait",
+      "claim": "Forfait is an enormous, heinous crime, much heavier and more juridical than Shelley's 'misdeed'.",
+      "finding": "TLFi (via CNRTL), sense 1: \"Faute grave, sortant de l'ordinaire, commise de façon audacieuse\", seeming the more monstrous for who commits it; examples \"horrible forfait\".",
+      "source_label": "CNRTL, forfait",
+      "source_url": "https://www.cnrtl.fr/definition/forfait",
+      "verdict": "confirmed (gravity); 'juridical' not supported"
+    },
+    {
+      "id": "fr-1821-saladin",
+      "label": "French, Saladin 1821",
+      "word": "semblable au génie du mal",
+      "claim": "'Génie du mal' is a more abstract, literary-Romantic personification of evil than 'fiend'.",
+      "finding": "TLFi (via CNRTL), génie I.A.2: \"Être surnaturel, esprit bon ou mauvais, inspirant une personne et influant sur sa destinée\"; examples include \"mauvais génie\" (Musset) and \"une sorte de génie infernal, de divinité du mal\" (Ponson du Terrail).",
+      "source_label": "CNRTL, génie",
+      "source_url": "https://www.cnrtl.fr/definition/génie",
+      "verdict": "confirmed: a spirit of evil, with a literary pedigree"
+    },
+    {
+      "id": "de-1912-widtmann",
+      "label": "German, Widtmann 1912",
+      "word": "ein Werk deiner Hände",
+      "claim": "Echoes Luther-Bible psalm language for God's handiwork ('deiner Hände Werk').",
+      "finding": "Psalm 8:7 (Lutherbibel 2017): \"Du hast ihn zum Herrn gemacht über deiner Hände Werk\": the psalm about God making man lord over his handiwork, which sharpens the Adam echo.",
+      "source_label": "Bibleserver, Lutherbibel 2017, Ps 8",
+      "source_url": "https://www.bibleserver.com/LUT/Psalm8",
+      "verdict": "confirmed (the phrase is in Luther's psalms)"
+    },
+    {
+      "id": "ja-1953-shishido",
+      "label": "Japanese, Shishido 1953",
+      "word": "鬼",
+      "claim": "Oni is the horned ogre-demon of Japanese folklore, not a Christian devil; 鬼にする also echoes the idiom 心を鬼にする, 'to harden one's heart'.",
+      "finding": "Wiktionary (Japanese 鬼): ghost; oni, evil spirit, demon, ogre. Japanese Wiktionary, 心を鬼にする: to take a harsh attitude while feeling pity for someone.",
+      "source_label": "Wiktionary, 鬼",
+      "source_url": "https://en.wiktionary.org/wiki/%E9%AC%BC",
+      "verdict": "confirmed (the idiom exists; whether the translator meant the echo is interpretation)"
+    },
+    {
+      "id": "ru-1965-aleksandrova",
+      "label": "Russian, Aleksandrova 1965",
+      "word": "отлучил",
+      "claim": "Отлучить is the standard verb of church excommunication, so Victor's act reads as an anathema.",
+      "finding": "Russian Wiktionary, отлучить: (1) to deprive of contact with someone or something; (2) to bar from taking part, to expel from a community 'for religious, ideological or other reasons'.",
+      "source_label": "Викисловарь, отлучить",
+      "source_url": "https://ru.wiktionary.org/wiki/%D0%BE%D1%82%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C",
+      "verdict": "partly confirmed: the religious sense is one use, not the only one"
+    },
+    {
+      "id": "sr-1960-stevovic",
+      "label": "Serbian, Stevović 1960",
+      "word": "rđavim",
+      "claim": "Rđav ('bad, wicked') is often linked to rđa, 'rust'.",
+      "finding": "Wiktionary, rđav: from Proto-Slavic *rъďavъ, cognate with Russian ржавый ('rusty') and Polish rdzawy.",
+      "source_label": "Wiktionary, rđav",
+      "source_url": "https://en.wiktionary.org/wiki/r%C4%91av",
+      "verdict": "confirmed"
+    },
+    {
+      "id": "tr-1996-seber",
+      "label": "Turkish, Seber 1996",
+      "word": "usluydum",
+      "claim": "Uslu is the everyday word for a well-behaved, obedient child.",
+      "finding": "Türk Dil Kurumu dictionary, uslu: not disturbing those around one; well-mannered, polite; the opposite of yaramaz ('naughty').",
+      "source_label": "TDK Güncel Türkçe Sözlük",
+      "source_url": "https://sozluk.gov.tr/",
+      "verdict": "confirmed"
+    },
+    {
+      "id": "tr-1996-seber",
+      "label": "Turkish, Seber 1996",
+      "word": "kabahati",
+      "claim": "Kabahat also names a minor legal offence in Turkish law.",
+      "finding": "Türk Dil Kurumu dictionary, kabahat: (1) improper, unseemly behaviour; (2) an offence punished by light imprisonment, a fine, or suspension from a profession.",
+      "source_label": "TDK Güncel Türkçe Sözlük",
+      "source_url": "https://sozluk.gov.tr/",
+      "verdict": "confirmed"
+    }
+  ]
+}

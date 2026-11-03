@@ -1,0 +1,2220 @@
+{
+  "slots": [
+    {
+      "key": "creature",
+      "shelley": "creature",
+      "senses": [
+        "creature",
+        "made thing / work",
+        "child / offspring",
+        "other"
+      ]
+    },
+    {
+      "key": "adam",
+      "shelley": "thy Adam",
+      "senses": [
+        "Adam, named",
+        "first man / generic",
+        "other"
+      ]
+    },
+    {
+      "key": "fallen_angel",
+      "shelley": "the fallen angel",
+      "senses": [
+        "fallen angel",
+        "Satan / devil",
+        "outcast",
+        "other"
+      ]
+    },
+    {
+      "key": "drivest",
+      "shelley": "whom thou drivest from joy",
+      "senses": [
+        "driven from joy / happiness",
+        "driven from paradise",
+        "deprived / excluded",
+        "other"
+      ]
+    },
+    {
+      "key": "misdeed",
+      "shelley": "for no misdeed",
+      "senses": [
+        "crime (legal)",
+        "sin (religious)",
+        "fault / wrong (moral)",
+        "other"
+      ]
+    },
+    {
+      "key": "benevolent",
+      "shelley": "benevolent",
+      "senses": [
+        "benevolent / well-wishing",
+        "kind / gentle",
+        "loving / tender",
+        "other"
+      ]
+    },
+    {
+      "key": "misery",
+      "shelley": "misery",
+      "senses": [
+        "misfortune / bad luck",
+        "unhappiness",
+        "suffering / pain",
+        "wretchedness / abjection",
+        "other"
+      ]
+    },
+    {
+      "key": "fiend",
+      "shelley": "a fiend",
+      "senses": [
+        "devil / demon",
+        "evil spirit / genius of evil",
+        "monster",
+        "villain / wicked person",
+        "erased by paraphrase",
+        "other"
+      ]
+    },
+    {
+      "key": "virtuous",
+      "shelley": "I shall again be virtuous",
+      "senses": [
+        "virtuous",
+        "good",
+        "quiet / docile",
+        "other"
+      ]
+    }
+  ],
+  "note": "Model readings (interpretation), checked only for whether each copied word occurs in the quote.",
+  "readings": [
+    {
+      "id": "fr-1821-saladin",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "Remember that I am your creature. I ought to be for you an Adam; but I am rather the fallen angel, whom you deprive of happiness, without my having committed any crime. Everywhere I see happiness, from which I alone am irrevocably excluded. I was benevolent and good; misfortune has made me like the genius of evil. Make me happy, and I will practise virtue again",
+      "slots": {
+        "creature": {
+          "rendering": "créature",
+          "gloss": "creature",
+          "sense": "creature",
+          "found": true
+        },
+        "adam": {
+          "rendering": "un Adam",
+          "gloss": "an Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "l'ange déchu",
+          "gloss": "the angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "vous privez du bonheur",
+          "gloss": "you deprive of-the happiness",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "sans que j'aie commis aucun forfait",
+          "gloss": "without that I have committed any heinous-crime",
+          "sense": "crime (legal)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "bienveillant",
+          "gloss": "well-wishing",
+          "sense": "benevolent / well-wishing",
+          "found": true
+        },
+        "misery": {
+          "rendering": "le malheur",
+          "gloss": "the misfortune / unhappiness",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "semblable au génie du mal",
+          "gloss": "similar to-the genius of-the evil",
+          "sense": "evil spirit / genius of evil",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "je pratiquerai encore la vertu",
+          "gloss": "I will-practise again the virtue",
+          "sense": "virtuous",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "votre / vous",
+          "kind": "register / tone",
+          "note": "Saladin uses the polite vous throughout where Shelley has the archaic, scriptural thy/thou; the creature addresses Victor as a social equal or superior rather than in the intimate-biblical register of Adam to his maker.",
+          "check": false,
+          "found": false
+        },
+        {
+          "word": "forfait",
+          "kind": "legal",
+          "note": "Forfait denotes an enormous, heinous crime, much heavier and more juridical than Shelley's mild 'misdeed'; the denial ('aucun forfait') thus disclaims a grave crime rather than any small fault.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "semblable au génie du mal",
+          "kind": "religious / biblical",
+          "note": "The creature does not become a fiend but becomes 'like' the genius of evil: the simile distances him from the transformation, and 'génie du mal' is a more abstract, literary-Romantic personification of evil than the concrete English 'fiend'.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "bonheur",
+          "kind": "loss",
+          "note": "Bonheur renders both 'joy' and 'bliss', so the paradisal, near-theological 'bliss' collapses into ordinary happiness and the echo between the two sentences becomes a repetition.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "exclus",
+          "kind": "grammatical",
+          "note": "The form with final -s is irregular for a masculine singular past participle (standard exclu), reflecting the period spelling or a slip; it does not change the sense.",
+          "check": true,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Turning 'misery made me a fiend' into 'made me like the genius of evil' softens the creature's self-condemnation, while the polite vous and the flattening of 'bliss' into bonheur thin Shelley's scriptural register, though the fallen angel and Adam remain."
+    },
+    {
+      "id": "de-1912-widtmann",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "Consider, after all, that I am a work of your hands! Properly I ought to be the Adam, but I am more the fallen angel, one whom you drive out of Paradise and make wretched. Everywhere I see joy and yet am never to partake of it. I was good and well-wishing; misfortune has made me into what I now am. Procure happiness for me and I will be quiet.",
+      "slots": {
+        "creature": {
+          "rendering": "ein Werk deiner Hände",
+          "gloss": "a work of-your hands",
+          "sense": "made thing / work",
+          "found": true
+        },
+        "adam": {
+          "rendering": "der Adam",
+          "gloss": "the Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "der gefallene Engel",
+          "gloss": "the fallen angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "aus dem Paradies vertreibst",
+          "gloss": "out-of the Paradise drive-away",
+          "sense": "driven from paradise",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "omitted",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "wohlwollend",
+          "gloss": "well-willing",
+          "sense": "benevolent / well-wishing",
+          "found": true
+        },
+        "misery": {
+          "rendering": "das Unglück",
+          "gloss": "the misfortune / un-luck",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "zu dem gemacht, was ich jetzt bin",
+          "gloss": "to that made, what I now am",
+          "sense": "erased by paraphrase",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "stille sein",
+          "gloss": "quiet be",
+          "sense": "quiet / docile",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "ein Werk deiner Hände",
+          "kind": "religious / biblical",
+          "note": "Replaces the neutral 'creature' with a phrase that echoes Luther-Bible psalm and Job language for God's handiwork (e.g. 'deiner Hände Werk'), framing Victor more explicitly as a Creator-God.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "aus dem Paradies vertreibst",
+          "kind": "religious / biblical",
+          "note": "Shelley's creature is driven 'from joy'; Widtmann substitutes the Genesis expulsion from Paradise, which belongs to Adam rather than to the fallen angel, so the two figures blur and the image becomes more scriptural.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "und elend machst",
+          "kind": "loss",
+          "note": "This phrase stands where 'for no misdeed' should be: the creature's claim of innocence, the moral core of the accusation, disappears and is replaced by a plain complaint of being made wretched.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "zu dem gemacht, was ich jetzt bin",
+          "kind": "loss",
+          "note": "The word 'fiend' is erased by a vague circumlocution, so the creature no longer names itself as demonic; his self-judgment is withheld.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "stille sein",
+          "kind": "register / tone",
+          "note": "'Virtuous' becomes 'quiet', a promise of docility like a child's or subordinate's rather than a claim to moral goodness, and the archaic-tinged 'stille' softens the tone further.",
+          "check": true,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": -1,
+      "scales_reason": "Erasing 'fiend' and reducing virtue to quietness make the creature less demonic but more submissive and wretched, while 'Werk deiner Hände' and the expulsion from 'Paradies' add scriptural colouring that Shelley's 'creature' and 'joy' lack."
+    },
+    {
+      "id": "es-pareja",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "[I] should be your Adam, although I am rather the fallen angel, whom you exile from happiness without my having committed any fault. … I was benevolent and good. The sufferings have turned me into a demon.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "Adán",
+          "gloss": "Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "el ángel caído",
+          "gloss": "the angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "destierras de la dicha",
+          "gloss": "(you) exile/banish from the happiness",
+          "sense": "driven from joy / happiness",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "sin que haya cometido falta alguna",
+          "gloss": "without that (I) have committed fault any",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "benévolo",
+          "gloss": "benevolent",
+          "sense": "benevolent / well-wishing",
+          "found": true
+        },
+        "misery": {
+          "rendering": "Los sufrimientos",
+          "gloss": "the sufferings",
+          "sense": "suffering / pain",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "un demonio",
+          "gloss": "a demon",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "destierras",
+          "kind": "religious / biblical",
+          "note": "'Desterrar' means to exile, literally to put out of one's land, a legal and political punishment. It also echoes the Spanish Salve Regina ('los desterrados hijos de Eva'), which ties the creature to humanity's exile from Eden more closely than 'drivest' does.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "falta alguna",
+          "kind": "moral",
+          "note": "'Falta' is a fault or failing rather than a crime. It is the everyday word in Catholic confession for lesser wrongs, and the emphatic postposed 'alguna' ('any fault at all') sharpens the claim of innocence.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "Los sufrimientos",
+          "kind": "loss",
+          "note": "The plural names concrete, repeated sufferings inflicted on him. It loses Shelley's 'misery' as a single state of wretchedness and makes the cause more external and countable.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "un demonio",
+          "kind": "religious / biblical",
+          "note": "'Demonio' is the direct theological word. It lacks the older, broader English 'fiend', which can also mean a cruel or monstrous person, so the result is more plainly infernal.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "me han convertido",
+          "kind": "grammatical",
+          "note": "The present perfect, and the separate sentence the translator creates, present the transformation as a recent and ongoing result. Shelley's compact causal clause becomes a two-step statement.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 0,
+      "scales_reason": "The plural 'sufrimientos' and the emphatic 'falta alguna' heighten the creature's innocence and victimhood, which makes him slightly more pitiable. On the religious scale, the exile resonance of 'destierras' and the explicit 'demonio' roughly offset the secular, moral 'falta', leaving it close to Shelley overall."
+    },
+    {
+      "id": "es-2006-alemany",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to be your Adam instead of seeming the fallen angel, from whom you stole joy without having committed any crime. … I was generous and good; and misfortune turned me into a monster.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "tu Adán",
+          "gloss": "your Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "el ángel caído",
+          "gloss": "the angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "a quien robaste la dicha",
+          "gloss": "to whom you-stole the joy",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "sin haber cometido delito alguno",
+          "gloss": "without having committed crime any",
+          "sense": "crime (legal)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "generoso",
+          "gloss": "generous",
+          "sense": "other",
+          "found": true
+        },
+        "misery": {
+          "rendering": "la desgracia",
+          "gloss": "the misfortune",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "un monstruo",
+          "gloss": "a monster",
+          "sense": "monster",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "parecer",
+          "kind": "other",
+          "note": "'Seeming' the fallen angel, rather than Shelley's 'I am rather the fallen angel', makes the fall a matter of appearance. The creature only looks damned, which softens his self-identification with Satan.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "robaste",
+          "kind": "moral",
+          "note": "'You stole' turns Shelley's Edenic expulsion ('drivest from') into a theft. Victor becomes an active wrongdoer, and the image of being cast out of paradise is lost.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "delito",
+          "kind": "legal",
+          "note": "'Delito' is the ordinary legal word for an offence or crime. It moves Shelley's quieter, archaic 'misdeed' into a courtroom register and strips away any sense of sin.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "desgracia",
+          "kind": "literary echo",
+          "note": "'Desgracia' frames misery as external bad luck rather than wretchedness. It also contains 'gracia' (grace), and the idiom 'caer en desgracia' (fall from favour) faintly echoes the fallen angel.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "monstruo",
+          "kind": "loss",
+          "note": "'Monster' replaces 'fiend' and loses its demonic, infernal sense. It also repeats the label that other characters attach to the creature, so his self-description reads as social rejection rather than damnation.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "'Parecer', 'generoso' and 'monstruo' make the creature less diabolical and more wronged, and although Adán and the ángel caído are kept, the legal 'delito', the theft image and 'desgracia' (misfortune) secularize Shelley's language of sin, fall and fiendishness."
+    },
+    {
+      "id": "es-torres-oliver",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "[I] should be your Adam, but I am rather the fallen angel, whom you deprived of joy without having committed any wrong. … I was affectionate and good, and affliction has turned me into a demon.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "Adán",
+          "gloss": "Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "el ángel caído",
+          "gloss": "the angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "privaste de la alegría",
+          "gloss": "(you) deprived of the joy",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "sin haber cometido mal alguno",
+          "gloss": "without having committed evil any",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "afectuoso",
+          "gloss": "affectionate",
+          "sense": "loving / tender",
+          "found": true
+        },
+        "misery": {
+          "rendering": "la aflicción",
+          "gloss": "the affliction",
+          "sense": "suffering / pain",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "demonio",
+          "gloss": "demon",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "sin haber cometido mal alguno",
+          "kind": "grammatical",
+          "note": "In Spanish an infinitive clause like 'sin haber cometido' normally takes the subject of the main verb (tú), so the phrase can be read as 'without your having done any wrong'. That blurs Shelley's clear point that the creature is the innocent one, although context steers readers toward his innocence. 'Mal' (evil, harm) is also broader and more moral than the near-legal 'misdeed'.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "privaste",
+          "kind": "grammatical",
+          "note": "The preterite makes the expulsion a single, finished act. Shelley's present 'drivest' describes an ongoing driving-out. 'Privar' (to deprive) also loses the physical image of being driven away.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "afectuoso",
+          "kind": "moral",
+          "note": "'Affectionate' replaces Shelley's Enlightenment term 'benevolent' (well-wishing toward others) with personal warmth and a need for love. The creature sounds more tender and more pitiable.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "la aflicción",
+          "kind": "religious / biblical",
+          "note": "'Aflicción' is a frequent word in Spanish Bible translations such as the Reina-Valera (e.g. 'en el mundo tendréis aflicción'), which gives it a scriptural, devotional colouring. Shelley's 'misery' points more to social wretchedness.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "demonio",
+          "kind": "religious / biblical",
+          "note": "'Demonio' names a theological being, like 'fiend', but loses the archaic, Miltonic and generic-villain range of the English word. The present perfect 'me ha convertido' frames the change as a recent transformation that still holds.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 0,
+      "scales_reason": "'Afectuoso' and 'aflicción' make the creature warmer and more suffering than Shelley's 'benevolent' and 'misery', so he reads as more pitiable. 'Demonio' and the biblical tint of 'aflicción' roughly balance the loss of the faintly legal 'misdeed', leaving the religious level about where Shelley has it."
+    },
+    {
+      "id": "es-eartnow-anon",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I was to be your Adam, but I am rather the fallen angel whom you deny all happiness. … I was good and affectionate; suffering has debased me.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "vuestro Adán",
+          "gloss": "your (formal) Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "el ángel caído",
+          "gloss": "the angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "a quien negáis toda dicha",
+          "gloss": "to whom you-deny (formal) all happiness",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "omitted",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "cariñoso",
+          "gloss": "affectionate, loving",
+          "sense": "loving / tender",
+          "found": true
+        },
+        "misery": {
+          "rendering": "el sufrimiento",
+          "gloss": "the suffering",
+          "sense": "suffering / pain",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "me ha envilecido",
+          "gloss": "me has debased / made vile",
+          "sense": "erased by paraphrase",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "me ha envilecido",
+          "kind": "moral",
+          "note": "Envilecer (from vil, 'base, vile') names moral degradation or loss of dignity, not a change into a demon; Shelley's 'fiend' becomes something closer to 'debasement', and the creature describes a process done to him rather than an identity he has taken on.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "a quien negáis toda dicha",
+          "kind": "loss",
+          "note": "The clause 'for no misdeed' is dropped, so the creature's claim of innocence disappears. 'Drivest from' (an expulsion, as from Eden) becomes a refusal ('deny'), which is more static and less Miltonic.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "vuestro / negáis",
+          "kind": "register / tone",
+          "note": "The formal vos plural gives the address a distant, ceremonious tone. Shelley's intimate, scriptural 'thy/thou' is replaced by a form that reads as courtly or old-fashioned deference.",
+          "check": false,
+          "found": false
+        },
+        {
+          "word": "cariñoso",
+          "kind": "register / tone",
+          "note": "Cariñoso is a warm, everyday word for affection. It domesticates Shelley's Enlightenment-ethical 'benevolent', making the creature tender and childlike rather than a well-wishing moral agent.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "Debía ser",
+          "kind": "grammatical",
+          "note": "The imperfect debía can mean 'I ought to be' or 'I was supposed to be'. It casts the Adam role as a destiny already missed, which sharpens the sense of loss.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Adán and ángel caído keep the Miltonic frame, but 'fiend' is softened into moral debasement and 'benevolent' into affection, which makes the creature more pitiable and less demonic, though dropping 'for no misdeed' weakens his plea of innocence."
+    },
+    {
+      "id": "fr-2003-anon",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I should be your Adam but I am only a fallen angel whom you deprive of all joy. … I was generous and good; it is misfortune that has made of me a monster.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "ton Adam",
+          "gloss": "your (familiar) Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "un ange déchu",
+          "gloss": "a fallen angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "que tu prives de toute joie",
+          "gloss": "whom you deprive of all joy",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "omitted",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "généreux",
+          "gloss": "generous / noble-hearted",
+          "sense": "other",
+          "found": true
+        },
+        "misery": {
+          "rendering": "le malheur",
+          "gloss": "the misfortune / unhappiness",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "un monstre",
+          "gloss": "a monster",
+          "sense": "monster",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "un monstre",
+          "kind": "loss",
+          "note": "Shelley's 'fiend' is a devil-word; 'monstre' trades the demonic for the natural-historical sense of a deformed prodigy (Latin monstrum) and echoes the popular name for the creature, so the Satanic arc completing 'fallen angel' is lost.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "je ne suis qu'un ange déchu",
+          "kind": "grammatical",
+          "note": "The restrictive 'ne… que' ('only') and the indefinite 'un' turn Shelley's defiant 'rather the fallen angel' (Milton's Satan specifically) into a plaintive self-diminishment: one fallen angel among others.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "que tu prives de toute joie",
+          "kind": "loss",
+          "note": "'Priver' is deprivation rather than expulsion, and the translator drops 'for no misdeed', so the creature's claim of innocence and the echo of the expulsion from Eden disappear.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "généreux",
+          "kind": "literary echo",
+          "note": "In classical French (Corneille's register) 'généreux' meant noble-spirited or magnanimous rather than simply open-handed, so it lends the creature a heroic nobility that 'benevolent' does not.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "le malheur",
+          "kind": "register / tone",
+          "note": "'Malheur' spans misfortune and unhappiness, and the cleft 'c'est le malheur qui' blames outside bad fortune rather than an inner state of wretchedness.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Replacing 'fiend' with 'monstre' and adding the plaintive 'ne… que' soften the creature and drain the Satanic register, even though Adam and the fallen angel survive and the claim of innocence is dropped."
+    },
+    {
+      "id": "it-2009-maghelli",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to represent your Adam, and instead I am the fallen angel whom you have sent away without my having committed any misdeed. … My good-natured disposition was made vain by an unhappiness that rendered me a demon.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "il tuo Adamo",
+          "gloss": "the your Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "l'angelo caduto",
+          "gloss": "the angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "hai allontanato",
+          "gloss": "(you) have sent-away / distanced",
+          "sense": "other",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "alcun misfatto",
+          "gloss": "any misdeed / evil deed",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "La mia indole bonaria",
+          "gloss": "the my disposition good-natured",
+          "sense": "kind / gentle",
+          "found": true
+        },
+        "misery": {
+          "rendering": "un'infelicità",
+          "gloss": "an unhappiness",
+          "sense": "unhappiness",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "demone",
+          "gloss": "demon",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "hai allontanato",
+          "kind": "loss",
+          "note": "The verb only means 'sent away, distanced', and 'from joy' is dropped, so the Miltonic image of expulsion from bliss disappears. The perfect tense also turns Shelley's ongoing 'drivest' into a finished act.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "indole bonaria",
+          "kind": "register / tone",
+          "note": "'Bonario' suggests easygoing, affable good nature, almost homely, rather than the ethical weight of 'benevolent and good'. Shelley's two adjectives collapse into one milder trait of temperament.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "vanificata",
+          "kind": "register / tone",
+          "note": "'Vanificare' ('to make vain, nullify') is an abstract, somewhat bureaucratic verb that Shelley does not have. It frames misery as cancelling a disposition rather than transforming the creature.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "demone",
+          "kind": "religious / biblical",
+          "note": "Italian 'demone' can carry the classical sense of daimon as well as the Christian devil, unlike 'diavolo' or 'demonio'. It is therefore somewhat less narrowly Christian than 'fiend'.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "misfatto",
+          "kind": "moral",
+          "note": "'Misfatto' is an evil deed or wrongdoing, and it leans more toward a grave act than the light, archaic 'misdeed'. The negation 'alcun' stresses his total innocence.",
+          "check": true,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 0,
+      "biblical_secular": 0,
+      "scales_reason": "Adam, the fallen angel and the demon all survive intact, while the loss of 'from joy' and the softening of 'benevolent and good' into 'bonaria' roughly balance each other in pathos and in religious colour."
+    },
+    {
+      "id": "pt-2023-bonillo",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I should be your Adam, but what I really am is your fallen angel, whom you turn aside from joy for no wrongdoing. … I was charitable and kind; misery made of me an enemy.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "teu Adão",
+          "gloss": "your Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "teu anjo caído",
+          "gloss": "your angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "desvias da alegria",
+          "gloss": "(you) divert/turn-aside from-the joy",
+          "sense": "driven from joy / happiness",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "malfeito",
+          "gloss": "ill-done (thing), wrongdoing",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "caridoso",
+          "gloss": "charitable",
+          "sense": "other",
+          "found": true
+        },
+        "misery": {
+          "rendering": "a miséria",
+          "gloss": "the misery / destitution",
+          "sense": "wretchedness / abjection",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "um inimigo",
+          "gloss": "an enemy",
+          "sense": "other",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "mas sou mesmo é",
+          "kind": "register / tone",
+          "note": "The emphatic 'mesmo é' construction is colloquial spoken Brazilian Portuguese ('what I really am is'). It gives the creature a conversational insistence that sits against the archaic intimacy of 'tu'. The added 'teu' before 'anjo caído' also makes the fallen angel Victor's own, where Shelley's article leaves it impersonal.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "desvias da alegria",
+          "kind": "loss",
+          "note": "'Desviar' means to divert or turn aside. It is gentler than Shelley's 'drivest', so the sense of violent expulsion from Eden is weakened.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "malfeito",
+          "kind": "register / tone",
+          "note": "'Malfeito' is an ordinary word for a wrongdoing. In recent Brazilian usage it gained a political, faintly euphemistic ring through talk of official misconduct around 2011. It carries neither legal 'crime' nor religious 'sin'.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "caridoso",
+          "kind": "religious / biblical",
+          "note": "'Caridoso' ties the creature's former goodness to 'caridade', the Christian virtue of charity (caritas). Shelley's Enlightenment-flavoured 'benevolent' does not carry that theological colouring.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "um inimigo",
+          "kind": "loss",
+          "note": "'Enemy' replaces 'fiend' and drops the demonic sense. The creature becomes an adversary rather than a devil. 'O Inimigo' is a traditional Portuguese epithet for Satan, but the indefinite, lower-case form here barely evokes it. Separately, 'miséria' commonly means material poverty in Brazilian Portuguese, which can socialize the cause of the creature's fall.",
+          "check": true,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Turning 'fiend' into 'inimigo' and softening 'drivest' into 'desvias' make the creature less demonic and the passage more secular, although 'anjo caído' and the Christian 'caridoso' keep some religious resonance."
+    },
+    {
+      "id": "pt-2025-miranda",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "[I] should be your Adam, but I am rather the fallen angel, whom you expel from paradise without any sin. … I was benevolent and good; sadness made a demon of me.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "Adão",
+          "gloss": "Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "anjo caído",
+          "gloss": "angel fallen",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "você expulsa do paraíso",
+          "gloss": "you expel from-the paradise",
+          "sense": "driven from paradise",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "sem nenhum pecado",
+          "gloss": "without no/any sin",
+          "sense": "sin (religious)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "benevolente",
+          "gloss": "benevolent",
+          "sense": "benevolent / well-wishing",
+          "found": true
+        },
+        "misery": {
+          "rendering": "a tristeza",
+          "gloss": "the sadness",
+          "sense": "unhappiness",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "um demônio",
+          "gloss": "a demon",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "expulsa do paraíso",
+          "kind": "religious / biblical",
+          "note": "Shelley's creature is driven 'from joy', a state of feeling; the translation names the place, paraíso, turning the line into the Expulsion from Eden. The fixed phrase 'expulsão do paraíso' is the usual Portuguese name for that scene.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "pecado",
+          "kind": "religious / biblical",
+          "note": "'Misdeed' is a neutral wrongdoing, but pecado is specifically sin against God. Without a possessive, 'sem nenhum pecado' can also be read loosely as 'without any sin' on the expeller's side, which blurs whose guiltlessness is meant.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "a tristeza",
+          "kind": "loss",
+          "note": "Tristeza is sadness, an inner mood. It loses the sense in 'misery' of wretched outward conditions, such as destitution and abjection, which in Shelley drive the creature's fall. Words like 'miséria' or 'desgraça' would have kept that material sense.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "um demônio",
+          "kind": "religious / biblical",
+          "note": "'Fiend' in Shelley's English can mean simply a cruel, malignant being. Demônio names a literal demon and fits the theological frame the translation has already built.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "você",
+          "kind": "register / tone",
+          "note": "The everyday Brazilian você replaces Shelley's archaic, solemn 'thou'. The scriptural cadence of the address is lost, so the religious content stands in a conversational frame.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 0,
+      "biblical_secular": -2,
+      "scales_reason": "Paraíso, pecado and demônio each push a neutral or affective word toward theology, giving a strongly more biblical rendering; the literal 'demon' and the softer, more inward 'sadness' roughly cancel on the demonic–pitiable scale."
+    },
+    {
+      "id": "de-1986-grawe",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to be your Adam, but instead I am the fallen angel whom you, without reason, cast out of Paradise. … I was peaceable and good; misfortune has made me into the devil.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "dein Adam",
+          "gloss": "your Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "der gefallene Engel",
+          "gloss": "the fallen angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "aus dem Paradies verstößt",
+          "gloss": "out-of the Paradise cast-out/disown (present tense)",
+          "sense": "driven from paradise",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "grundlos",
+          "gloss": "groundless(ly), without reason",
+          "sense": "other",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "friedfertig",
+          "gloss": "peace-ready, peaceable",
+          "sense": "other",
+          "found": true
+        },
+        "misery": {
+          "rendering": "das Unglück",
+          "gloss": "the misfortune / the un-luck",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "zum Teufel",
+          "gloss": "to-the devil (into the devil / a devil)",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "aus dem Paradies",
+          "kind": "religious / biblical",
+          "note": "Shelley's angel is driven 'from joy'; the translators name Paradise, which is the place Adam, not the angel, is expelled from in Genesis. That merges the two figures the creature sets against each other.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "verstößt",
+          "kind": "moral",
+          "note": "Verstoßen is the ordinary word for disowning a child or repudiating a wife. It adds a family rejection, a parent casting off his offspring, that the more physical 'drivest' only implies.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "grundlos",
+          "kind": "loss",
+          "note": "'For no misdeed' says the creature committed no wrong. 'Grundlos' only says Victor had no reason, so the vocabulary of guilt drops out.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "friedfertig",
+          "kind": "literary echo",
+          "note": "In place of 'benevolent', friedfertig recalls Luther's Beatitude 'Selig sind die Friedfertigen' (Matthew 5:9). It also shifts the sense from active well-wishing to peaceableness.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "zum Teufel",
+          "kind": "religious / biblical",
+          "note": "Teufel is the theological Devil rather than the looser 'fiend', and the contracted article (zu dem) can read as 'the devil' himself. It also brushes the colloquial curse 'zum Teufel'.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 0,
+      "biblical_secular": -1,
+      "scales_reason": "Teufel makes the creature more starkly diabolical while verstößt and friedfertig make him more of a wronged, rejected child, roughly balancing out, but Paradies, Teufel and the Beatitude echo of friedfertig together push the passage toward explicit biblical language."
+    },
+    {
+      "id": "ru-1965-aleksandrova",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to have been your Adam, but [I] became a fallen angel, whom you, [me being] guiltless, cut off from all joy. … I was meek and kind; misfortunes turned me into a malicious demon.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "Адамом",
+          "gloss": "Adam (instrumental case: 'as Adam')",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "падшим ангелом",
+          "gloss": "fallen angel (instrumental)",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "отлучил от всякой радости",
+          "gloss": "cut-off / excommunicated from all joy",
+          "sense": "driven from joy / happiness",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "безвинно",
+          "gloss": "guiltlessly, without guilt",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "кроток",
+          "gloss": "meek, gentle",
+          "sense": "kind / gentle",
+          "found": true
+        },
+        "misery": {
+          "rendering": "несчастья",
+          "gloss": "misfortunes (plural)",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "злобного демона",
+          "gloss": "malicious / spiteful demon",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "отлучил",
+          "kind": "religious / biblical",
+          "note": "Отлучить is the standard verb of church excommunication (отлучение от церкви), so Victor's act reads as an anathema pronounced by an ecclesiastical power, not merely a driving-out; it also carries the everyday sense of weaning or separating.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "кроток",
+          "kind": "religious / biblical",
+          "note": "Кроткий is the word of the Synodal Beatitude 'Блаженны кроткие' (Matt. 5:5). It makes Shelley's Enlightenment 'benevolent' into Christian meekness, a passive virtue rather than active good will.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "злобного демона",
+          "kind": "literary echo",
+          "note": "The epithet злобный is the translator's addition and intensifies 'fiend' into active malice. Демон in Russian inevitably recalls Lermontov's Demon, the exiled fallen spirit, which neatly rhymes with падший ангел.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "несчастья",
+          "kind": "moral",
+          "note": "The plural 'misfortunes' externalizes the cause as a series of blows of fate, rather than Shelley's singular inner state of misery.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "стал",
+          "kind": "grammatical",
+          "note": "'Became' replaces Shelley's present 'I am rather', turning a present self-description into a narrated transformation.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 0,
+      "biblical_secular": -1,
+      "scales_reason": "The added 'malicious' darkens the fiend, but 'guiltlessly' and 'meek' heighten the innocence before the fall, so the two roughly balance; the churchly 'otluchil' and the Beatitude word 'krotok' tilt the passage toward religious register."
+    },
+    {
+      "id": "cs-1966-korbar",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I should be your Adam, but I am rather a fallen angel, from whom you have taken all joys, although he committed nothing evil. … I was kind and good, and only suffering made me evil.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "(outside the quoted sentences; library notes report it as 'the work of your hands and your brain')",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "Adamem",
+          "gloss": "Adam (instrumental case)",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "padlým andělem",
+          "gloss": "fallen angel (instrumental case)",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "kterému jsi vzal všechny radosti",
+          "gloss": "to-whom you-have taken all joys",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "ačkoli se ničeho zlého nedopustil",
+          "gloss": "although (himself) nothing evil not-committed (he)",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "hodný",
+          "gloss": "kind / good-natured / well-behaved",
+          "sense": "kind / gentle",
+          "found": true
+        },
+        "misery": {
+          "rendering": "utrpení",
+          "gloss": "suffering",
+          "sense": "suffering / pain",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "zlým",
+          "gloss": "evil / bad (adjective, instrumental case)",
+          "sense": "erased by paraphrase",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "(outside the quoted sentences; library notes report it as 'I will change')",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "hodný",
+          "kind": "register / tone",
+          "note": "An everyday word for a kind person, and the usual word for a well-behaved child, as in 'be good'. Where Shelley's Latinate 'benevolent' suggests a moral disposition, hodný makes the creature sound homely and almost childlike.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "zlým",
+          "kind": "loss",
+          "note": "Shelley's 'fiend' names a devil, a figure from Milton. A plain adjective meaning 'evil' or 'bad' replaces it, so the demonic category is lost, and the creature is described morally rather than identified with a devil.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "ačkoli se ničeho zlého nedopustil",
+          "kind": "grammatical",
+          "note": "The verb is in the third person, agreeing with 'the angel'. So the creature speaks of the fallen angel's innocence rather than directly of his own. The idiom 'dopustit se' (to commit a wrong) gives this a moral flavour, not a legal one.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "kterému jsi vzal všechny radosti",
+          "kind": "loss",
+          "note": "Shelley's ongoing present tense, 'drivest from joy', becomes a completed past act: 'you have taken all joys'. The image of the Miltonic expulsion turns into one of dispossession, and 'joy' becomes a plural of many separate pleasures.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "pouze utrpení",
+          "kind": "moral",
+          "note": "The added 'pouze' (only) puts the whole blame on suffering and strengthens the creature's claim to be excused.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Adam and the fallen angel are kept, but 'fiend' becomes a plain 'evil', 'benevolent' becomes the homely 'hodný', and the added 'only' shifts the blame onto suffering; together these make the creature more pitiable and slightly less religious than in Shelley."
+    },
+    {
+      "id": "sr-1960-stevovic",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to be your Adam, but I am more the fallen angel whom you deprive of joy, although I have sinned in nothing. … I was generous and good; trouble made me bad.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "tvoj Adam",
+          "gloss": "your Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "pali anđeo",
+          "gloss": "fallen angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "lišavaš radosti",
+          "gloss": "(you) deprive of-joy",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "iako ništa nisam zgrešio",
+          "gloss": "although nothing not-I-have sinned/erred",
+          "sense": "sin (religious)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "velikodušan",
+          "gloss": "great-souled, generous, magnanimous",
+          "sense": "other",
+          "found": true
+        },
+        "misery": {
+          "rendering": "nevolja",
+          "gloss": "trouble, hardship, misfortune",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "rđavim",
+          "gloss": "bad, wicked (instrumental adjective)",
+          "sense": "erased by paraphrase",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "rđavim",
+          "kind": "loss",
+          "note": "Shelley's noun 'fiend', with its sense of a devil, becomes a plain adjective meaning 'bad' or 'wicked', so the creature turns ill-natured rather than demonic. Rđav is often linked to rđa 'rust', which would suggest corrosion rather than damnation.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "zgrešio",
+          "kind": "religious / biblical",
+          "note": "Zgrešiti is built on greh 'sin', so the verb carries a confessional sense of having sinned. Shelley's neutral 'misdeed' is a Latinate legal-moral word without that colouring. The verb can also mean simply 'to err'.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "velikodušan",
+          "kind": "other",
+          "note": "Velikodušan means 'great-souled' or 'generous' (a calque of magnanimus). It names largeness of spirit rather than the well-wishing of 'benevolent' (bene volens), so the exact Enlightenment moral term is lost.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "nevolja",
+          "kind": "register / tone",
+          "note": "Nevolja is an everyday, folk-register word for trouble or hardship. It makes the cause of the creature's change an outside circumstance rather than the inner wretchedness of 'misery'.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "više",
+          "kind": "other",
+          "note": "'Rather' is rendered as više, 'more'. This makes the identification with the fallen angel a matter of degree rather than a correction of what he ought to be.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Turning 'fiend' into the mild adjective 'bad' and 'misery' into external 'trouble' removes the demonic self-naming and so softens the creature. That secular shift outweighs the faint sin-sense added by zgrešio, while 'Adam' and 'fallen angel' are kept intact."
+    },
+    {
+      "id": "bg-1981-georgieva",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to be your Adam, but I am rather the fallen angel whom, without guilt, you deprive of joy. … I was meek and good, but the evil lot turned me into a demon.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "Адам",
+          "gloss": "Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "падналият ангел",
+          "gloss": "the-fallen angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "лишаваш от радост",
+          "gloss": "(you) deprive of joy",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "без вина",
+          "gloss": "without guilt/fault",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "кротък",
+          "gloss": "meek, gentle",
+          "sense": "kind / gentle",
+          "found": true
+        },
+        "misery": {
+          "rendering": "злата участ",
+          "gloss": "the-evil lot/fate",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "демон",
+          "gloss": "demon",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "кротък",
+          "kind": "religious / biblical",
+          "note": "Replaces Shelley's active 'benevolent' with passive meekness; кротък is the word of the Bulgarian Beatitudes ('Блажени кротките'), lending the creature a Christ-like, lamb-like innocence.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "злата участ",
+          "kind": "folkloric",
+          "note": "Shelley's 'misery' is a condition caused by others' cruelty; 'evil lot/fate' recasts it as destiny, a fatalistic idiom familiar from Bulgarian folk song, shifting blame from society and Victor to fortune.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "лишаваш от радост",
+          "kind": "loss",
+          "note": "'Deprive of joy' loses the physical expulsion of 'drivest', the image of being driven out of Eden like Adam and the rebel angels.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "без вина",
+          "kind": "legal",
+          "note": "Вина means both guilt and fault, so 'without guilt' frames the creature as an innocent wrongly punished, in a more juridical register than 'misdeed'.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "демон",
+          "kind": "literary echo",
+          "note": "Демон is a learned Greek-derived word rather than the folk 'дявол', so it suggests a Romantic demon of the Lermontov kind more than a Satanic fiend.",
+          "check": true,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 0,
+      "scales_reason": "'Meek' and 'evil lot' make the creature more of an innocent victim of fate. The Beatitude echo of кротък is roughly offset by the secular fatalism of 'участ' and the loss of the Edenic 'drivest'."
+    },
+    {
+      "id": "hu-1977-goncz",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to be your Adam, but I am like the fallen angel, whom you deprive of every joy, although he did not do anything bad at all. … I wanted good, and I was good. It was misery that carved a demon out of me.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "Ádámodnak",
+          "gloss": "Adam-your-(dative: 'as your Adam')",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "bukott angyal",
+          "gloss": "fallen angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "megfosztasz minden örömtől",
+          "gloss": "you-deprive every joy-from",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "nem is tett semmi rosszat",
+          "gloss": "not even did(he) nothing bad",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "jót akartam",
+          "gloss": "good I-wanted",
+          "sense": "benevolent / well-wishing",
+          "found": true
+        },
+        "misery": {
+          "rendering": "nyomorúság",
+          "gloss": "misery / wretchedness",
+          "sense": "wretchedness / abjection",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "démont",
+          "gloss": "demon (accusative)",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "faragott",
+          "kind": "literary echo",
+          "note": "'Faragni' means to carve or whittle. Misery becomes a sculptor, so the line echoes the novel's theme of being made by someone. It may also invert the Hungarian idiom 'embert faragni valakiből' ('to make a decent person out of someone').",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "tett",
+          "kind": "grammatical",
+          "note": "The third-person verb ('he did') makes the innocence belong to the fallen angel of the simile rather than to 'I'. The creature argues by analogy instead of pleading his own blamelessness directly.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "olyan vagyok, mint",
+          "kind": "register / tone",
+          "note": "'I am like' turns Shelley's identification ('I am rather the fallen angel') into a simile. This softens the creature's self-identification with Satan.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "nyomorúság",
+          "kind": "other",
+          "note": "Besides misery, the word commonly covers destitution and material poverty. That gives the creature's fall a hint of social hardship that Shelley's 'misery' carries less strongly.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "nem is tett semmi rosszat",
+          "kind": "loss",
+          "note": "'Did nothing bad at all' is an everyday moral phrase. It drops the formal weight of 'misdeed', and its emphatic 'nem is' sounds like a child's protest of innocence.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "The simile, the colloquial protest of innocence and 'jót akartam' make the creature more sympathetic, while the everyday 'rosszat' (instead of sin or crime) and the Greek-derived 'démon' (instead of 'ördög', devil) slightly secularize the language even though Adam and the fallen angel remain."
+    },
+    {
+      "id": "nl-2006-brinkman",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I should be your Adam, but I am rather the fallen angel, to whom you in an unreasonable manner deny every joy. … Misery has made a devil of me",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "uw Adam",
+          "gloss": "your (formal) Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "de gevallen engel",
+          "gloss": "the fallen angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "elke vreugde ontzegt",
+          "gloss": "every joy denies / refuses",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "op onredelijke wijze",
+          "gloss": "in unreasonable manner",
+          "sense": "other",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "misery": {
+          "rendering": "Ellende",
+          "gloss": "misery / wretchedness",
+          "sense": "wretchedness / abjection",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "een duivel",
+          "gloss": "a devil",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "op onredelijke wijze",
+          "kind": "loss",
+          "note": "Shelley's 'for no misdeed' asserts the creature's moral innocence; 'in an unreasonable manner' instead judges Victor's conduct as irrational or unfair, so the creature's own guiltlessness drops out and the claim becomes one about reasonableness rather than sin or fault.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "ontzegt",
+          "kind": "legal",
+          "note": "'Ontzeggen' (to deny or withhold something from someone) is common in official and juridical Dutch, for example when withdrawing a right. It replaces Shelley's physical image of being driven out with an act of refusal.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "Ellende",
+          "kind": "literary echo",
+          "note": "Dutch 'ellende' derives from Middle Dutch 'ellende', meaning a foreign land or exile. This etymology quietly echoes the expulsion Shelley's 'drivest' describes.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "uw",
+          "kind": "register / tone",
+          "note": "The formal 'u/uw' gives neither the intimacy nor the scriptural ring of Shelley's 'thy/thou'. Dutch had a biblical option in 'gij/uw', as in the Statenvertaling, but the plain modern 'u' reads as secular politeness.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "wie",
+          "kind": "grammatical",
+          "note": "'Wie' here serves as an indirect-object relative ('to whom'). Standard Dutch would usually have 'die' or 'aan wie', so the line reads slightly loose or colloquial, though it may be the reviewer's transcription.",
+          "check": true,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": -1,
+      "biblical_secular": 1,
+      "scales_reason": "The creature loses its explicit claim of innocence and 'duivel' is a blunter, more Satanic word than 'fiend', while the plain formal 'u' and the reasoning-based 'onredelijke' pull the plea away from scriptural register, even though 'gevallen engel' and 'Adam' keep the Miltonic frame."
+    },
+    {
+      "id": "ja-1953-shishido",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I am a thing made by you, and I am what you might call your Adam, but if anything I am a fallen angel who was robbed of joy even though I did nothing bad, you know. …… I was warm-hearted and good, but misfortune made me an oni [ogre-demon].",
+      "slots": {
+        "creature": {
+          "rendering": "あんたに造られたもの",
+          "gloss": "by-you made thing",
+          "sense": "made thing / work",
+          "found": true
+        },
+        "adam": {
+          "rendering": "あんたのアダム",
+          "gloss": "you's Adam",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "堕天使",
+          "gloss": "fallen heaven-messenger (fallen angel)",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "悦びを奪われた",
+          "gloss": "joy (object) was-robbed-of",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "悪いこともしないのに",
+          "gloss": "bad thing even not-do although",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "情深くて",
+          "gloss": "feeling-deep and",
+          "sense": "kind / gentle",
+          "found": true
+        },
+        "misery": {
+          "rendering": "不幸",
+          "gloss": "not-happiness, misfortune",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "鬼",
+          "gloss": "oni (ogre-demon)",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "鬼",
+          "kind": "folkloric",
+          "note": "Oni is the horned ogre-demon of Japanese folklore rather than a Christian devil, so Shelley's Miltonic 'fiend' is relocated into native legend; the phrase 鬼にする also echoes the idiom 心を鬼にする, 'to harden one's heart', making the change partly one of heartlessness.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "悦びを奪われた",
+          "kind": "grammatical",
+          "note": "The passive 'was robbed of joy' drops the agent, so Victor is no longer the one who 'drivest' the creature out; the accusation becomes a lament about loss.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "あんた",
+          "kind": "register / tone",
+          "note": "Shelley's solemn biblical 'thou' becomes the familiar, even rough colloquial あんた, which, together with the conversational ですよ and というところ, turns the scriptural cadence into everyday speech.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "悦び",
+          "kind": "religious / biblical",
+          "note": "The kanji 悦 rather than the common 喜 gives 'joy' a slightly literary, rapturous colour (cf. 法悦, religious ecstasy), faintly keeping Shelley's spiritual sense of joy.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "というところなのだが",
+          "kind": "loss",
+          "note": "'I ought to be thy Adam' is softened to 'what you might call your Adam', which loses the moral claim of 'ought'; the imperative 'Remember' is dropped altogether.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Agentless passive deprivation, a hedged and colloquial voice, and the loss of the imperative make the creature more plaintive than accusing, while the folkloric 鬼 and the familiar あんた secularize Shelley's Miltonic register, even though アダム and 堕天使 are kept."
+    },
+    {
+      "id": "zh-liu-xinmin",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I am the one you created; I ought to be your 'Adam', but things turned out contrary to what was wished: I instead became an angel thrown into hell, and for no reason at all I was driven out by you from the paradise of the heavenly kingdom. …… Formerly I too was benevolent and kind; it was only because of unfortunate experiences that I was made to become savage and vicious.",
+      "slots": {
+        "creature": {
+          "rendering": "你创造出来的",
+          "gloss": "you create-out-(particle): (the one) created by you",
+          "sense": "creature",
+          "found": true
+        },
+        "adam": {
+          "rendering": "‘亚当’",
+          "gloss": "'Adam' (transliterated name, in quotation marks)",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "被打入地狱的天使",
+          "gloss": "(passive) thrown-into hell (particle) angel: an angel cast into hell",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "被你逐出天国的乐园",
+          "gloss": "by you expelled-out-of heaven-kingdom (particle) paradise",
+          "sense": "driven from paradise",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "平白无故地",
+          "gloss": "plain-blank without-cause (adverbial): for no reason whatsoever",
+          "sense": "other",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "仁慈",
+          "gloss": "humane-merciful: benevolent, kind",
+          "sense": "benevolent / well-wishing",
+          "found": true
+        },
+        "misery": {
+          "rendering": "不幸的遭遇",
+          "gloss": "not-fortunate (particle) encounters: unfortunate experiences",
+          "sense": "misfortune / bad luck",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "凶残歹毒",
+          "gloss": "fierce-cruel wicked-poisonous: savage and vicious",
+          "sense": "erased by paraphrase",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "被打入地狱的天使",
+          "kind": "religious / biblical",
+          "note": "Shelley's angel has only 'fallen'; the translator makes the fall a punishment into hell. The phrase 打入地狱 recalls the common Chinese idiom 打入十八层地狱 ('cast into the eighteenth level of hell'), which carries a popular Buddhist sense of the underworld.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "天国的乐园",
+          "kind": "literary echo",
+          "note": "'Joy' becomes a place, the 'paradise of the heavenly kingdom'. This merges Eden with heaven, and 乐园 echoes 失乐园, the standard Chinese title of Milton's Paradise Lost.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "平白无故地",
+          "kind": "loss",
+          "note": "This is a colloquial idiom meaning 'for no reason at all'. It drops the moral and legal weight of 'no misdeed': the creature's innocence of wrongdoing becomes Victor's arbitrariness.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "凶残歹毒",
+          "kind": "moral",
+          "note": "This four-character phrase describes human savagery and malice; 毒 means 'poison'. It removes the supernatural 'fiend', so the creature's transformation becomes one of moral character rather than of demonic nature.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "事与愿违",
+          "kind": "register / tone",
+          "note": "The translator adds an idiom, 'things went against one's wishes', which lends the speech a resigned, storytelling tone absent from Shelley's direct accusation.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": -1,
+      "scales_reason": "The translator adds explicit hell and heaven and stages an expulsion from paradise, which makes the passage more religious, but he turns 'fiend' into human viciousness caused by misfortune, which makes the creature somewhat more human and pitiable."
+    },
+    {
+      "id": "zh-unidentified",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I ought to be your 'Adam'! But now I am instead like an angel who has been demoted and banished down to the lower world, deprived of joy by you for no reason at all. …… By my nature I too was benevolent and kind; it was all suffering that made me turn into a demon.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "亚当",
+          "gloss": "Adam (transliterated name)",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "像一个被贬谪下界的天使",
+          "gloss": "like one (passive) demoted-banished down-to-lower-world angel",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "被你剥夺了快乐",
+          "gloss": "(passive) by you stripped-away (perfective) joy",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "无缘无故",
+          "gloss": "without cause, without reason",
+          "sense": "other",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "仁慈",
+          "gloss": "humane-merciful",
+          "sense": "benevolent / well-wishing",
+          "found": true
+        },
+        "misery": {
+          "rendering": "痛苦",
+          "gloss": "pain-bitterness",
+          "sense": "suffering / pain",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "恶魔",
+          "gloss": "evil demon",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "贬谪下界",
+          "kind": "folkloric",
+          "note": "贬谪 is the vocabulary of an official's punitive demotion to a distant post, and 下界 evokes Chinese tales of immortals banished from heaven to the mortal world, such as Zhu Bajie in Journey to the West. This recasts Milton's rebellious fall as a heavenly bureaucracy's exile of an offender.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "无缘无故",
+          "kind": "register / tone",
+          "note": "This is a colloquial set phrase, 'for no reason whatsoever'. It replaces Shelley's claim of innocence ('for no misdeed', implying no wrong was committed) with a complaint that the act was arbitrary, so the moral and legal sense of 'misdeed' is lost.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "本性也是仁慈、善良的",
+          "kind": "moral",
+          "note": "本性 (innate nature) together with 仁慈 (with its Confucian 仁) can recall the Mencian doctrine that human nature is originally good. The plea thus becomes a claim about innate goodness rather than a past condition ('I was').",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "都是痛苦让我变成了恶魔",
+          "kind": "grammatical",
+          "note": "都是 ('it is all…') puts the blame wholly on suffering, and 变成 ('turned into') makes the demon a transformation rather than an identity. This intensifies the self-exculpation.",
+          "check": false,
+          "found": true
+        },
+        {
+          "word": "啊",
+          "kind": "register / tone",
+          "note": "The sentence-final particle 啊 adds an oral, plaintive exclamation absent from Shelley's measured 'I ought to be thy Adam'.",
+          "check": false,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 1,
+      "scales_reason": "Innate goodness (本性), total blame placed on suffering (都是), the hedging simile 像 and the plaintive 啊 make the creature more pitiable, and recasting the Miltonic fall as Chinese celestial banishment (贬谪下界) softens the biblical frame, although 亚当, 天使 and 恶魔 keep it partly in place."
+    },
+    {
+      "id": "tr-1996-seber",
+      "model": "anthropic/claude-opus-5.5",
+      "back_translation": "I should have been your Adam; but I am in fact the fallen angel whom you barred from happiness although he had no fault at all. … I was good-hearted and well-behaved; unhappiness made me a devil.",
+      "slots": {
+        "creature": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        },
+        "adam": {
+          "rendering": "senin Adem’in",
+          "gloss": "your Adam-your",
+          "sense": "Adam, named",
+          "found": true
+        },
+        "fallen_angel": {
+          "rendering": "düşmüş meleğim",
+          "gloss": "fallen angel-I-am",
+          "sense": "fallen angel",
+          "found": true
+        },
+        "drivest": {
+          "rendering": "mutluluktan men ettiğin",
+          "gloss": "from-happiness ban that-you-made",
+          "sense": "deprived / excluded",
+          "found": true
+        },
+        "misdeed": {
+          "rendering": "hiçbir kabahati olmadığı halde",
+          "gloss": "no fault-his existing-not although",
+          "sense": "fault / wrong (moral)",
+          "found": true
+        },
+        "benevolent": {
+          "rendering": "İyi kalpli",
+          "gloss": "good hearted",
+          "sense": "kind / gentle",
+          "found": true
+        },
+        "misery": {
+          "rendering": "mutsuzluk",
+          "gloss": "unhappiness",
+          "sense": "unhappiness",
+          "found": true
+        },
+        "fiend": {
+          "rendering": "bir şeytan",
+          "gloss": "a devil",
+          "sense": "devil / demon",
+          "found": true
+        },
+        "virtuous": {
+          "rendering": "",
+          "gloss": "",
+          "sense": "not in quote",
+          "found": true
+        }
+      },
+      "connotations": [
+        {
+          "word": "usluydum",
+          "kind": "register / tone",
+          "note": "Uslu, used here for Shelley's 'good', is the everyday word for a well-behaved, obedient child. It recasts the creature's former goodness as docility, the obedience a child owes a parent, rather than moral goodness.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "bir şeytan",
+          "kind": "religious / biblical",
+          "note": "Şeytan is the Quranic and Islamic name for Satan, the one who refused to bow before Âdem. Paired with 'Adem', it sets the passage inside a shared Abrahamic story in which the devil's quarrel is specifically about Adam. Colloquially the word is also used of a mischievous child, which sits oddly beside 'uslu'.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "düşmüş meleğim",
+          "kind": "religious / biblical",
+          "note": "The phrase is a literal calque of the Christian and Miltonic 'fallen angel'. In mainstream Islamic teaching angels do not rebel, and Iblis is often counted among the jinn, so the image may read to a Turkish reader as a Western import rather than a native one.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "men ettiğin",
+          "kind": "legal",
+          "note": "Men etmek, of Arabic origin, is a formal word meaning to prohibit or bar, as in an official ban. It replaces Shelley's physical 'drivest' (expulsion) with an administrative interdiction.",
+          "check": true,
+          "found": true
+        },
+        {
+          "word": "kabahati",
+          "kind": "grammatical",
+          "note": "The possessive makes the fault the angel's ('although he had no fault') rather than a description of the act of driving him out. Kabahat also names a minor legal offence in Turkish law, which lightens the weight of 'misdeed'.",
+          "check": true,
+          "found": true
+        }
+      ],
+      "demonic_pitiable": 1,
+      "biblical_secular": 0,
+      "scales_reason": "'İyi kalpli' and the childlike 'uslu' soften the creature toward an obedient, wronged child, while 'şeytan' for 'fiend' and the calqued 'düşmüş melek' keep about as much religious charge as Shelley's diction, only reframed in Islamic-Turkish terms."
+    }
+  ]
+}

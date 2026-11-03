@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793719022-inVJZ4BjBOFEJFicIAaL",
+  "object": "chat.completion",
+  "created": 1793719022,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I am a thing made by you, and I am what you might call your Adam, but if anything I am a fallen angel who was robbed of joy even though I did nothing bad, you know. …… I was warm-hearted and good, but misfortune made me an oni [ogre-demon].\",\"slots\":{\"creature\":{\"rendering\":\"あんたに造られたもの\",\"gloss\":\"by-you made thing\",\"sense\":\"made thing / work\"},\"adam\":{\"rendering\":\"あんたのアダム\",\"gloss\":\"you's Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"堕天使\",\"gloss\":\"fallen heaven-messenger (fallen angel)\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"悦びを奪われた\",\"gloss\":\"joy (object) was-robbed-of\",\"sense\":\"deprived / excluded\"},\"misdeed\":{\"rendering\":\"悪いこともしないのに\",\"gloss\":\"bad thing even not-do although\",\"sense\":\"fault / wrong (moral)\"},\"benevolent\":{\"rendering\":\"情深くて\",\"gloss\":\"feeling-deep and\",\"sense\":\"kind / gentle\"},\"misery\":{\"rendering\":\"不幸\",\"gloss\":\"not-happiness, misfortune\",\"sense\":\"misfortune / bad luck\"},\"fiend\":{\"rendering\":\"鬼\",\"gloss\":\"oni (ogre-demon)\",\"sense\":\"devil / demon\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"鬼\",\"kind\":\"folkloric\",\"note\":\"Oni is the horned ogre-demon of Japanese folklore rather than a Christian devil, so Shelley's Miltonic 'fiend' is relocated into native legend; the phrase 鬼にする also echoes the idiom 心を鬼にする, 'to harden one's heart', making the change partly one of heartlessness.\",\"check\":true},{\"word\":\"悦びを奪われた\",\"kind\":\"grammatical\",\"note\":\"The passive 'was robbed of joy' drops the agent, so Victor is no longer the one who 'drivest' the creature out; the accusation becomes a lament about loss.\",\"check\":false},{\"word\":\"あんた\",\"kind\":\"register / tone\",\"note\":\"Shelley's solemn biblical 'thou' becomes the familiar, even rough colloquial あんた, which, together with the conversational ですよ and というところ, turns the scriptural cadence into everyday speech.\",\"check\":false},{\"word\":\"悦び\",\"kind\":\"religious / biblical\",\"note\":\"The kanji 悦 rather than the common 喜 gives 'joy' a slightly literary, rapturous colour (cf. 法悦, religious ecstasy), faintly keeping Shelley's spiritual sense of joy.\",\"check\":true},{\"word\":\"というところなのだが\",\"kind\":\"loss\",\"note\":\"'I ought to be thy Adam' is softened to 'what you might call your Adam', which loses the moral claim of 'ought'; the imperative 'Remember' is dropped altogether.\",\"check\":false}],\"demonic_pitiable\":1,\"biblical_secular\":1,\"scales_reason\":\"Agentless passive deprivation, a hedged and colloquial voice, and the loss of the imperative make the creature more plaintive than accusing, while the folkloric 鬼 and the familiar あんた secularize Shelley's Miltonic register, even though アダム and 堕天使 are kept.\"}",
+        "refusal": null,
+        "reasoning": "I'm parsing this Japanese passage where the creature calls itself a fallen angel, Adam-like being made by its creator, who was once kind and good but was turned into a demon by misfortune.\n\nI'm weighing word choices: 奪われた drops the agent, making it more passive than \"thou drivest\"; 情深くて leans toward \"compassionate/tender\" rather than simply \"benevolent\"; and 鬼 could render as oni, demon, or even echo the idiom for becoming heartless—I'm leaning toward \"devil/demon\" for the final term.\n\nThe passive \"奪われた\" strips Victor of agency compared to the original, and 鬼 secularizes \"fiend\" into folklore territory, so I'd rate this a 1. Checking the slots, Adam is explicitly named, 堕天使 covers fallen angel, but \"virtuous\" isn't present in this particular quote.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm parsing this Japanese passage where the creature calls itself a fallen angel, Adam-like being made by its creator, who was once kind and good but was turned into a demon by misfortune.\n\nI'm weighing word choices: 奪われた drops the agent, making it more passive than \"thou drivest\"; 情深くて leans toward \"compassionate/tender\" rather than simply \"benevolent\"; and 鬼 could render as oni, demon, or even echo the idiom for becoming heartless—I'm leaning toward \"devil/demon\" for the final term.\n\nThe passive \"奪われた\" strips Victor of agency compared to the original, and 鬼 secularizes \"fiend\" into folklore territory, so I'd rate this a 1. Checking the slots, Adam is explicitly named, 堕天使 covers fallen angel, but \"virtuous\" isn't present in this particular quote.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3925,
+    "completion_tokens": 2197,
+    "total_tokens": 6122,
+    "cost": 0.05964,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.05964,
+      "upstream_inference_prompt_cost": 0.0157,
+      "upstream_inference_completions_cost": 0.04394
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1051,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

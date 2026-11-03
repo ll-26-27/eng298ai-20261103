@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718897-nFIcUHY3kSrZFSfzMD5P",
+  "object": "chat.completion",
+  "created": 1793718897,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I should be your Adam, but I am rather a fallen angel, from whom you have taken all joys, although he committed nothing evil. … I was kind and good, and only suffering made me evil.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"(outside the quoted sentences; library notes report it as 'the work of your hands and your brain')\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"Adamem\",\"gloss\":\"Adam (instrumental case)\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"padlým andělem\",\"gloss\":\"fallen angel (instrumental case)\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"kterému jsi vzal všechny radosti\",\"gloss\":\"to-whom you-have taken all joys\",\"sense\":\"deprived / excluded\"},\"misdeed\":{\"rendering\":\"ačkoli se ničeho zlého nedopustil\",\"gloss\":\"although (himself) nothing evil not-committed (he)\",\"sense\":\"fault / wrong (moral)\"},\"benevolent\":{\"rendering\":\"hodný\",\"gloss\":\"kind / good-natured / well-behaved\",\"sense\":\"kind / gentle\"},\"misery\":{\"rendering\":\"utrpení\",\"gloss\":\"suffering\",\"sense\":\"suffering / pain\"},\"fiend\":{\"rendering\":\"zlým\",\"gloss\":\"evil / bad (adjective, instrumental case)\",\"sense\":\"erased by paraphrase\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"(outside the quoted sentences; library notes report it as 'I will change')\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"hodný\",\"kind\":\"register / tone\",\"note\":\"An everyday word for a kind person, and the usual word for a well-behaved child, as in 'be good'. Where Shelley's Latinate 'benevolent' suggests a moral disposition, hodný makes the creature sound homely and almost childlike.\",\"check\":true},{\"word\":\"zlým\",\"kind\":\"loss\",\"note\":\"Shelley's 'fiend' names a devil, a figure from Milton. A plain adjective meaning 'evil' or 'bad' replaces it, so the demonic category is lost, and the creature is described morally rather than identified with a devil.\",\"check\":false},{\"word\":\"ačkoli se ničeho zlého nedopustil\",\"kind\":\"grammatical\",\"note\":\"The verb is in the third person, agreeing with 'the angel'. So the creature speaks of the fallen angel's innocence rather than directly of his own. The idiom 'dopustit se' (to commit a wrong) gives this a moral flavour, not a legal one.\",\"check\":false},{\"word\":\"kterému jsi vzal všechny radosti\",\"kind\":\"loss\",\"note\":\"Shelley's ongoing present tense, 'drivest from joy', becomes a completed past act: 'you have taken all joys'. The image of the Miltonic expulsion turns into one of dispossession, and 'joy' becomes a plural of many separate pleasures.\",\"check\":false},{\"word\":\"pouze utrpení\",\"kind\":\"moral\",\"note\":\"The added 'pouze' (only) puts the whole blame on suffering and strengthens the creature's claim to be excused.\",\"check\":false}],\"demonic_pitiable\":1,\"biblical_secular\":1,\"scales_reason\":\"Adam and the fallen angel are kept, but 'fiend' becomes a plain 'evil', 'benevolent' becomes the homely 'hodný', and the added 'only' shifts the blame onto suffering; together these make the creature more pitiable and slightly less religious than in Shelley.\"}",
+        "refusal": null,
+        "reasoning": "I need to figure out the JSON slots now — the term \"creature\" doesn't actually appear in the quote itself, only in the notes paraphrasing it, so I should mark its rendering as empty and its sense as \"not in quote\" rather than inventing a translation. I'll likely treat \"virtuous\" the same way since it also seems absent from the actual quoted text.\n\nLooking at the remaining terms, \"misery\" maps to utrpení (suffering), \"fiend\" becomes \"made me evil\" via zlým, and \"benevolent\" renders as hodný, a colloquial, almost childlike \"good\" that loses the original's weightier connotation. \"Misdeed\" corresponds to the phrase about committing nothing evil, and \"drivest\" shows up as a past-tense construction about having taken away all joys, losing Shelley's present-tense urgency. I'm noting how the Czech grammar shifts person and tense compared to the English, and how \"dopustit se\" is a milder, more standard idiom for wrongdoing than \"misdeed\" implies — all of which affects how I'll score the demonic/pitiable and other interpretive scales for this passage.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I need to figure out the JSON slots now — the term \"creature\" doesn't actually appear in the quote itself, only in the notes paraphrasing it, so I should mark its rendering as empty and its sense as \"not in quote\" rather than inventing a translation. I'll likely treat \"virtuous\" the same way since it also seems absent from the actual quoted text.\n\nLooking at the remaining terms, \"misery\" maps to utrpení (suffering), \"fiend\" becomes \"made me evil\" via zlým, and \"benevolent\" renders as hodný, a colloquial, almost childlike \"good\" that loses the original's weightier connotation. \"Misdeed\" corresponds to the phrase about committing nothing evil, and \"drivest\" shows up as a past-tense construction about having taken away all joys, losing Shelley's present-tense urgency. I'm noting how the Czech grammar shifts person and tense compared to the English, and how \"dopustit se\" is a milder, more standard idiom for wrongdoing than \"misdeed\" implies — all of which affects how I'll score the demonic/pitiable and other interpretive scales for this passage.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3888,
+    "completion_tokens": 1868,
+    "total_tokens": 5756,
+    "cost": 0.052912,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.052912,
+      "upstream_inference_prompt_cost": 0.015552,
+      "upstream_inference_completions_cost": 0.03736
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 667,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

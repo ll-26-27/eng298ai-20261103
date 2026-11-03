@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718872-Vn26pnnLLolqHfId1OCf",
+  "object": "chat.completion",
+  "created": 1793718872,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"I ought to have been your Adam, but [I] became a fallen angel, whom you, [me being] guiltless, cut off from all joy. … I was meek and kind; misfortunes turned me into a malicious demon.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"Адамом\",\"gloss\":\"Adam (instrumental case: 'as Adam')\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"падшим ангелом\",\"gloss\":\"fallen angel (instrumental)\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"отлучил от всякой радости\",\"gloss\":\"cut-off / excommunicated from all joy\",\"sense\":\"driven from joy / happiness\"},\"misdeed\":{\"rendering\":\"безвинно\",\"gloss\":\"guiltlessly, without guilt\",\"sense\":\"fault / wrong (moral)\"},\"benevolent\":{\"rendering\":\"кроток\",\"gloss\":\"meek, gentle\",\"sense\":\"kind / gentle\"},\"misery\":{\"rendering\":\"несчастья\",\"gloss\":\"misfortunes (plural)\",\"sense\":\"misfortune / bad luck\"},\"fiend\":{\"rendering\":\"злобного демона\",\"gloss\":\"malicious / spiteful demon\",\"sense\":\"devil / demon\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"отлучил\",\"kind\":\"religious / biblical\",\"note\":\"Отлучить is the standard verb of church excommunication (отлучение от церкви), so Victor's act reads as an anathema pronounced by an ecclesiastical power, not merely a driving-out; it also carries the everyday sense of weaning or separating.\",\"check\":true},{\"word\":\"кроток\",\"kind\":\"religious / biblical\",\"note\":\"Кроткий is the word of the Synodal Beatitude 'Блаженны кроткие' (Matt. 5:5). It makes Shelley's Enlightenment 'benevolent' into Christian meekness, a passive virtue rather than active good will.\",\"check\":true},{\"word\":\"злобного демона\",\"kind\":\"literary echo\",\"note\":\"The epithet злобный is the translator's addition and intensifies 'fiend' into active malice. Демон in Russian inevitably recalls Lermontov's Demon, the exiled fallen spirit, which neatly rhymes with падший ангел.\",\"check\":false},{\"word\":\"несчастья\",\"kind\":\"moral\",\"note\":\"The plural 'misfortunes' externalizes the cause as a series of blows of fate, rather than Shelley's singular inner state of misery.\",\"check\":false},{\"word\":\"стал\",\"kind\":\"grammatical\",\"note\":\"'Became' replaces Shelley's present 'I am rather', turning a present self-description into a narrated transformation.\",\"check\":false}],\"demonic_pitiable\":0,\"biblical_secular\":-1,\"scales_reason\":\"The added 'malicious' darkens the fiend, but 'guiltlessly' and 'meek' heighten the innocence before the fall, so the two roughly balance; the churchly 'otluchil' and the Beatitude word 'krotok' tilt the passage toward religious register.\"}",
+        "refusal": null,
+        "reasoning": "I need to build a JSON structure translating back the quote: \"I ought to have been your Adam, but became a fallen angel, whom you guiltlessly excommunicated from all joy. I was meek and kind; misfortunes turned me into a malicious demon.\" I'm checking which terms are explicitly named in the Russian text—Adam and fallen angel appear directly, while \"creature\" doesn't show up in this quoted portion.\n\nFor \"отлучил от всякой радости,\" I'm leaning toward \"driven from joy/happiness\" since the object is joy itself. For \"безвинно,\" the sense points to \"without guilt,\" so I'll categorize it under fault/wrong in the moral sense. \"Кроток\" maps to meek/gentle, echoing the biblical \"blessed are the meek.\" \"Несчастья\" is plural, meaning misfortunes, and \"злобного демона\" clearly renders as malicious demon or devil. Terms like \"virtuous\" and the \"bliss\" imagery aren't present in this particular quoted segment.\n\nI'm also noting the churchly resonance of \"отлучил\" (excommunication) and \"кроток\" (Beatitudes), plus a possible echo of Lermontov's exiled Demon in \"злобного демона\" — interesting since that figure is also a fallen, exiled spirit. On the demonic_pitiable scale, I'd call it roughly neutral since malice and pity balance out, while biblical_secular tilts slightly toward the religious pole.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I need to build a JSON structure translating back the quote: \"I ought to have been your Adam, but became a fallen angel, whom you guiltlessly excommunicated from all joy. I was meek and kind; misfortunes turned me into a malicious demon.\" I'm checking which terms are explicitly named in the Russian text—Adam and fallen angel appear directly, while \"creature\" doesn't show up in this quoted portion.\n\nFor \"отлучил от всякой радости,\" I'm leaning toward \"driven from joy/happiness\" since the object is joy itself. For \"безвинно,\" the sense points to \"without guilt,\" so I'll categorize it under fault/wrong in the moral sense. \"Кроток\" maps to meek/gentle, echoing the biblical \"blessed are the meek.\" \"Несчастья\" is plural, meaning misfortunes, and \"злобного демона\" clearly renders as malicious demon or devil. Terms like \"virtuous\" and the \"bliss\" imagery aren't present in this particular quoted segment.\n\nI'm also noting the churchly resonance of \"отлучил\" (excommunication) and \"кроток\" (Beatitudes), plus a possible echo of Lermontov's exiled Demon in \"злобного демона\" — interesting since that figure is also a fallen, exiled spirit. On the demonic_pitiable scale, I'd call it roughly neutral since malice and pity balance out, while biblical_secular tilts slightly toward the religious pole.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3853,
+    "completion_tokens": 1947,
+    "total_tokens": 5800,
+    "cost": 0.054352,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.054352,
+      "upstream_inference_prompt_cost": 0.015412,
+      "upstream_inference_completions_cost": 0.03894
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 872,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

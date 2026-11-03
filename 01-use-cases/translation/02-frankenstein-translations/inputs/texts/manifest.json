@@ -27,7 +27,8 @@
       "url": "https://www.gutenberg.org/cache/epub/62404/pg62404.txt",
       "page": "https://www.gutenberg.org/ebooks/62404",
       "copyright": "Public domain (published 1821). Project Gutenberg transcription made from the Gallica (BnF) scans.",
-      "follows": "1818"
+      "follows": "1818",
+      "use": "awakening passage"
     },
     {
       "id": "de-1912",
@@ -38,7 +39,31 @@
       "format": "html-paragraphs",
       "page": "https://projekt-gutenberg.org/authors/mary-shelley/books/frankenstein-oder-der-moderne-prometheus",
       "copyright": "Widtmann's translation was first published in 1912, so it is public domain in the US. The transcription follows a 2009 reprint and has not been checked against the 1912 printing; only this one chapter is kept here.",
-      "follows": "1831"
+      "follows": "1831",
+      "use": "awakening passage"
+    },
+    {
+      "id": "fr-1821-t2",
+      "language": "French",
+      "edition": "Frankenstein, ou le Prométhée moderne, tome second, trans. J. S.*** [Jules Saladin] (Paris: Corréard, 1821)",
+      "file": "pg62405.txt",
+      "url": "https://www.gutenberg.org/cache/epub/62405/pg62405.txt",
+      "page": "https://www.gutenberg.org/ebooks/62405",
+      "copyright": "Public domain (published 1821). Project Gutenberg transcription made from the Gallica (BnF) scans.",
+      "follows": "1818",
+      "use": "fiend passage only"
+    },
+    {
+      "id": "de-1912-ch16",
+      "language": "German",
+      "edition": "Frankenstein oder Der moderne Prometheus, trans. Heinz Widtmann (Leipzig: Max Altmann, 1912); one chapter (the meeting on the glacier), as transcribed by Projekt Gutenberg-DE from a 2009 Fischer Taschenbuch reprint",
+      "file": "de-widtmann-chapter-16.txt",
+      "url": "https://projekt-gutenberg.org/authors/mary-shelley/books/frankenstein-oder-der-moderne-prometheus/chapter/16",
+      "format": "html-paragraphs",
+      "page": "https://projekt-gutenberg.org/authors/mary-shelley/books/frankenstein-oder-der-moderne-prometheus",
+      "copyright": "Widtmann's translation was first published in 1912, so it is public domain in the US. The transcription follows a 2009 reprint and has not been checked against the 1912 printing; only this one chapter is kept here.",
+      "follows": "1831",
+      "use": "fiend passage only"
     }
   ]
 }

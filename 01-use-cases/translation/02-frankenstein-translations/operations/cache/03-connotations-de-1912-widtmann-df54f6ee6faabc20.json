@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793717748-DktZ4g622Aa2hrkq06FE",
+  "object": "chat.completion",
+  "created": 1793717748,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"Consider, after all, that I am a work of your hands! Properly I ought to be the Adam, but I am more the fallen angel, one whom you drive out of Paradise and make wretched. Everywhere I see joy and yet am never to partake of it. I was good and well-wishing; misfortune has made me into what I now am. Procure happiness for me and I will be quiet.\",\"slots\":{\"creature\":{\"rendering\":\"ein Werk deiner Hände\",\"gloss\":\"a work of-your hands\",\"sense\":\"made thing / work\"},\"adam\":{\"rendering\":\"der Adam\",\"gloss\":\"the Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"der gefallene Engel\",\"gloss\":\"the fallen angel\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"aus dem Paradies vertreibst\",\"gloss\":\"out-of the Paradise drive-away\",\"sense\":\"driven from paradise\"},\"misdeed\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"omitted\"},\"benevolent\":{\"rendering\":\"wohlwollend\",\"gloss\":\"well-willing\",\"sense\":\"benevolent / well-wishing\"},\"misery\":{\"rendering\":\"das Unglück\",\"gloss\":\"the misfortune / un-luck\",\"sense\":\"misfortune / bad luck\"},\"fiend\":{\"rendering\":\"zu dem gemacht, was ich jetzt bin\",\"gloss\":\"to that made, what I now am\",\"sense\":\"erased by paraphrase\"},\"virtuous\":{\"rendering\":\"stille sein\",\"gloss\":\"quiet be\",\"sense\":\"quiet / docile\"}},\"connotations\":[{\"word\":\"ein Werk deiner Hände\",\"kind\":\"religious / biblical\",\"note\":\"Replaces the neutral 'creature' with a phrase that echoes Luther-Bible psalm and Job language for God's handiwork (e.g. 'deiner Hände Werk'), framing Victor more explicitly as a Creator-God.\",\"check\":true},{\"word\":\"aus dem Paradies vertreibst\",\"kind\":\"religious / biblical\",\"note\":\"Shelley's creature is driven 'from joy'; Widtmann substitutes the Genesis expulsion from Paradise, which belongs to Adam rather than to the fallen angel, so the two figures blur and the image becomes more scriptural.\",\"check\":false},{\"word\":\"und elend machst\",\"kind\":\"loss\",\"note\":\"This phrase stands where 'for no misdeed' should be: the creature's claim of innocence, the moral core of the accusation, disappears and is replaced by a plain complaint of being made wretched.\",\"check\":false},{\"word\":\"zu dem gemacht, was ich jetzt bin\",\"kind\":\"loss\",\"note\":\"The word 'fiend' is erased by a vague circumlocution, so the creature no longer names itself as demonic; his self-judgment is withheld.\",\"check\":false},{\"word\":\"stille sein\",\"kind\":\"register / tone\",\"note\":\"'Virtuous' becomes 'quiet', a promise of docility like a child's or subordinate's rather than a claim to moral goodness, and the archaic-tinged 'stille' softens the tone further.\",\"check\":true}],\"demonic_pitiable\":1,\"biblical_secular\":-1,\"scales_reason\":\"Erasing 'fiend' and reducing virtue to quietness make the creature less demonic but more submissive and wretched, while 'Werk deiner Hände' and the expulsion from 'Paradies' add scriptural colouring that Shelley's 'creature' and 'joy' lack.\"}",
+        "refusal": null,
+        "reasoning": "I need to produce the JSON output now, working through the back-translation of this passage about the creature comparing itself to Adam and the fallen angel, driven from Paradise despite having been good-natured before misfortune transformed it. I'm identifying key terms to slot in, starting with \"creature\" mapping to \"ein Werk\" in German.\n\n\"Teilhaftig werden\" has that archaic biblical ring too, and \"stille sein\" echoes a similar quiet-submission register, though replacing \"misdeed\" with \"elend\" weakens the moral argument. On balance, erasing \"fiend\" shifts things toward pitiable rather than demonic, while the biblical echoes largely offset the loss of the fiend reference on the secular/biblical scale.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I need to produce the JSON output now, working through the back-translation of this passage about the creature comparing itself to Adam and the fallen angel, driven from Paradise despite having been good-natured before misfortune transformed it. I'm identifying key terms to slot in, starting with \"creature\" mapping to \"ein Werk\" in German.\n\n\"Teilhaftig werden\" has that archaic biblical ring too, and \"stille sein\" echoes a similar quiet-submission register, though replacing \"misdeed\" with \"elend\" weakens the moral argument. On balance, erasing \"fiend\" shifts things toward pitiable rather than demonic, while the biblical echoes largely offset the loss of the fiend reference on the secular/biblical scale.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3950,
+    "completion_tokens": 1982,
+    "total_tokens": 5932,
+    "cost": 0.05544,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.05544,
+      "upstream_inference_prompt_cost": 0.0158,
+      "upstream_inference_completions_cost": 0.03964
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 807,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

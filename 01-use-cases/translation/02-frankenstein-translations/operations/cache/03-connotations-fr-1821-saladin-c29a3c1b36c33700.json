@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793717720-yA5FtgPupPCVAg5jluBG",
+  "object": "chat.completion",
+  "created": 1793717720,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"Remember that I am your creature. I ought to be for you an Adam; but I am rather the fallen angel, whom you deprive of happiness, without my having committed any crime. Everywhere I see happiness, from which I alone am irrevocably excluded. I was benevolent and good; misfortune has made me like the genius of evil. Make me happy, and I will practise virtue again\",\"slots\":{\"creature\":{\"rendering\":\"créature\",\"gloss\":\"creature\",\"sense\":\"creature\"},\"adam\":{\"rendering\":\"un Adam\",\"gloss\":\"an Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"l'ange déchu\",\"gloss\":\"the angel fallen\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"vous privez du bonheur\",\"gloss\":\"you deprive of-the happiness\",\"sense\":\"deprived / excluded\"},\"misdeed\":{\"rendering\":\"sans que j'aie commis aucun forfait\",\"gloss\":\"without that I have committed any heinous-crime\",\"sense\":\"crime (legal)\"},\"benevolent\":{\"rendering\":\"bienveillant\",\"gloss\":\"well-wishing\",\"sense\":\"benevolent / well-wishing\"},\"misery\":{\"rendering\":\"le malheur\",\"gloss\":\"the misfortune / unhappiness\",\"sense\":\"misfortune / bad luck\"},\"fiend\":{\"rendering\":\"semblable au génie du mal\",\"gloss\":\"similar to-the genius of-the evil\",\"sense\":\"evil spirit / genius of evil\"},\"virtuous\":{\"rendering\":\"je pratiquerai encore la vertu\",\"gloss\":\"I will-practise again the virtue\",\"sense\":\"virtuous\"}},\"connotations\":[{\"word\":\"votre / vous\",\"kind\":\"register / tone\",\"note\":\"Saladin uses the polite vous throughout where Shelley has the archaic, scriptural thy/thou; the creature addresses Victor as a social equal or superior rather than in the intimate-biblical register of Adam to his maker.\",\"check\":false},{\"word\":\"forfait\",\"kind\":\"legal\",\"note\":\"Forfait denotes an enormous, heinous crime, much heavier and more juridical than Shelley's mild 'misdeed'; the denial ('aucun forfait') thus disclaims a grave crime rather than any small fault.\",\"check\":true},{\"word\":\"semblable au génie du mal\",\"kind\":\"religious / biblical\",\"note\":\"The creature does not become a fiend but becomes 'like' the genius of evil: the simile distances him from the transformation, and 'génie du mal' is a more abstract, literary-Romantic personification of evil than the concrete English 'fiend'.\",\"check\":true},{\"word\":\"bonheur\",\"kind\":\"loss\",\"note\":\"Bonheur renders both 'joy' and 'bliss', so the paradisal, near-theological 'bliss' collapses into ordinary happiness and the echo between the two sentences becomes a repetition.\",\"check\":false},{\"word\":\"exclus\",\"kind\":\"grammatical\",\"note\":\"The form with final -s is irregular for a masculine singular past participle (standard exclu), reflecting the period spelling or a slip; it does not change the sense.\",\"check\":true}],\"demonic_pitiable\":1,\"biblical_secular\":1,\"scales_reason\":\"Turning 'misery made me a fiend' into 'made me like the genius of evil' softens the creature's self-condemnation, while the polite vous and the flattening of 'bliss' into bonheur thin Shelley's scriptural register, though the fallen angel and Adam remain.\"}",
+        "refusal": null,
+        "reasoning": "I'm working out a literal back-translation of this passage, capturing the creature's lament about being denied happiness despite being made benevolent, and noting the phrase \"Rendez-moi\" needs careful handling in the French rendering.\n\nI see how \"rendre\" shifts between \"make\" and \"give back,\" softening \"forfait\" to a legal sense of crime, and losing the biblical \"thy\" register for \"vous.\" Overall the French version reads less devilish and less archaic—\"génie du mal\" softens the fiend imagery into simile, and the repeated \"bonheur\" collapses the distinction between joy and bliss, so I'm scoring both the demonic-pitiable and biblical-secular shifts as modest but present.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I'm working out a literal back-translation of this passage, capturing the creature's lament about being denied happiness despite being made benevolent, and noting the phrase \"Rendez-moi\" needs careful handling in the French rendering.\n\nI see how \"rendre\" shifts between \"make\" and \"give back,\" softening \"forfait\" to a legal sense of crime, and losing the biblical \"thy\" register for \"vous.\" Overall the French version reads less devilish and less archaic—\"génie du mal\" softens the fiend imagery into simile, and the repeated \"bonheur\" collapses the distinction between joy and bliss, so I'm scoring both the demonic-pitiable and biblical-secular shifts as modest but present.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3880,
+    "completion_tokens": 1793,
+    "total_tokens": 5673,
+    "cost": 0.05138,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.05138,
+      "upstream_inference_prompt_cost": 0.01552,
+      "upstream_inference_completions_cost": 0.03586
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 624,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

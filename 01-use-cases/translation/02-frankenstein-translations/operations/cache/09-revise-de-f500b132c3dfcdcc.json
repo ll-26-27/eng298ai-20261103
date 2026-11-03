@@ -1,0 +1,54 @@
+{
+  "id": "gen-1793709627-nrbwY2XJSTrRT6RdDCQ7",
+  "object": "chat.completion",
+  "created": 1793709627,
+  "model": "google/gemini-3.8-flash",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "Es war in einer trostlosen Novembernacht, als ich die Vollendung meiner Arbeit erblickte. Mit einer Beklommenheit, die beinahe an Qual grenzte, sammelte ich die Instrumente des Lebens um mich, um dem leblosen Ding, das zu meinen Füßen lag, einen Funken des Seins einzuflößen. Es war bereits ein Uhr morgens; der Regen trommelte trostlos gegen die Scheiben, und meine Kerze war fast niedergebrannt, als ich beim Schimmer des halb erloschenen Lichts sah, wie sich das matte gelbe Auge der Kreatur öffnete; sie atmete schwer, und eine krampfhafte Bewegung durchzuckte ihre Glieder.\n\nWie vermag ich meine Gefühle bei dieser Katastrophe zu beschreiben, oder wie den Elenden zu zeichnen, den ich mit so unendlichen Mühen und solcher Sorgfalt zu formen versucht hatte? Seine Glieder waren wohlproportioniert, und ich hatte seine Züge als schön ausgewählt. Schön! – Großer Gott! Seine gelbe Haut bedeckte kaum das Spiel der Muskeln und Arterien darunter; sein Haar war von glänzendem Schwarz und wallend; seine Zähne von perlengleicher Weiße; doch diese Üppigkeiten bildeten nur einen umso grausigeren Kontrast zu seinen wässrigen Augen, die beinahe von derselben Farbe schienen wie die fahlweißen Höhlen, in denen sie saßen, seinem verschrumpelten Teint und den geraden, schwarzen Lippen.\n\n---\n1. Accepted: Changed \"Geflecht\" to \"das Spiel der Muskeln und Arterien darunter\", which better captures the mechanical activity implied by \"work\".\n2. Accepted: Replaced \"auserlesen\" with \"ausgewählt\" to restore the clear sense of deliberate choice without awkward verbal archaism.\n3. Accepted: Changed the first instance from \"Mühen\" to \"Arbeit\" to eliminate the unintended repetition with \"unendlichen Mühen\" and better distinguish \"toils\" from \"pains\".\n4. Accepted: Replaced \"prasselte düster\" with \"trommelte trostlos\", which more accurately reflects the tapping sound of \"pattered\" and the bleak mood of \"dismally\".\n5. Accepted: Changed \"Herrlichkeiten\" to \"Üppigkeiten\", which properly conveys the lush excess and bitter irony inherent in \"luxuriances\".\n6. Accepted: Replaced the overly biblical and stiff construction \"auf dass ich … einflößen möge\" with a natural and flowing \"um … einzuflößen\".\n7. Accepted: Differentiated the adjectives by using \"trostlosen\" for \"dreary\" and \"matte\" for \"dull\", while removing the comma in \"matte gelbe\" to mirror the unified impression of the original.\n8. Accepted: Substituted \"Beklommenheit\" for \"Angst\" to preserve the precise meaning of \"anxiety\" and allow for the escalation toward \"Qual\" (agony).",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "AY89a19XHMZyd4WlREQ8xGifz9eBnXltgpUqixRHvg9sZq8e3P8zc5V1tIcolMQLhfgGJnCdJW4OsJIVimf8T+WTWWAoQsDWsfxgwQF747jIFjEaNwSx",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1639,
+    "completion_tokens": 650,
+    "total_tokens": 2289,
+    "cost": 0.00366675,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00366675,
+      "upstream_inference_prompt_cost": 0.00122925,
+      "upstream_inference_completions_cost": 0.0024375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

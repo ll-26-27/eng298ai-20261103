@@ -1,0 +1,55 @@
+{
+  "id": "gen-1793718822-supZCRBbyEC8F8TlUoyB",
+  "object": "chat.completion",
+  "created": 1793718822,
+  "model": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "end_turn",
+      "message": {
+        "role": "assistant",
+        "content": "{\"back_translation\":\"[I] should be your Adam, but I am rather the fallen angel, whom you expel from paradise without any sin. … I was benevolent and good; sadness made a demon of me.\",\"slots\":{\"creature\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"},\"adam\":{\"rendering\":\"Adão\",\"gloss\":\"Adam\",\"sense\":\"Adam, named\"},\"fallen_angel\":{\"rendering\":\"anjo caído\",\"gloss\":\"angel fallen\",\"sense\":\"fallen angel\"},\"drivest\":{\"rendering\":\"você expulsa do paraíso\",\"gloss\":\"you expel from-the paradise\",\"sense\":\"driven from paradise\"},\"misdeed\":{\"rendering\":\"sem nenhum pecado\",\"gloss\":\"without no/any sin\",\"sense\":\"sin (religious)\"},\"benevolent\":{\"rendering\":\"benevolente\",\"gloss\":\"benevolent\",\"sense\":\"benevolent / well-wishing\"},\"misery\":{\"rendering\":\"a tristeza\",\"gloss\":\"the sadness\",\"sense\":\"unhappiness\"},\"fiend\":{\"rendering\":\"um demônio\",\"gloss\":\"a demon\",\"sense\":\"devil / demon\"},\"virtuous\":{\"rendering\":\"\",\"gloss\":\"\",\"sense\":\"not in quote\"}},\"connotations\":[{\"word\":\"expulsa do paraíso\",\"kind\":\"religious / biblical\",\"note\":\"Shelley's creature is driven 'from joy', a state of feeling; the translation names the place, paraíso, turning the line into the Expulsion from Eden. The fixed phrase 'expulsão do paraíso' is the usual Portuguese name for that scene.\",\"check\":true},{\"word\":\"pecado\",\"kind\":\"religious / biblical\",\"note\":\"'Misdeed' is a neutral wrongdoing, but pecado is specifically sin against God. Without a possessive, 'sem nenhum pecado' can also be read loosely as 'without any sin' on the expeller's side, which blurs whose guiltlessness is meant.\",\"check\":false},{\"word\":\"a tristeza\",\"kind\":\"loss\",\"note\":\"Tristeza is sadness, an inner mood. It loses the sense in 'misery' of wretched outward conditions, such as destitution and abjection, which in Shelley drive the creature's fall. Words like 'miséria' or 'desgraça' would have kept that material sense.\",\"check\":true},{\"word\":\"um demônio\",\"kind\":\"religious / biblical\",\"note\":\"'Fiend' in Shelley's English can mean simply a cruel, malignant being. Demônio names a literal demon and fits the theological frame the translation has already built.\",\"check\":false},{\"word\":\"você\",\"kind\":\"register / tone\",\"note\":\"The everyday Brazilian você replaces Shelley's archaic, solemn 'thou'. The scriptural cadence of the address is lost, so the religious content stands in a conversational frame.\",\"check\":false}],\"demonic_pitiable\":0,\"biblical_secular\":-2,\"scales_reason\":\"Paraíso, pecado and demônio each push a neutral or affective word toward theology, giving a strongly more biblical rendering; the literal 'demon' and the softer, more inward 'sadness' roughly cancel on the demonic–pitiable scale.\"}",
+        "refusal": null,
+        "reasoning": "I need to identify the JSON slots from this quote: it names \"Adão\" explicitly, uses \"anjo caído\" for the fallen angel, \"expulsa do paraíso\" for being driven out, and \"pecado\" for the misdeed - though the creature itself isn't directly named in this passage.\n\nFor the emotional terms, \"tristeza\" is a softer \"sadness\" rather than harsher \"misery,\" and \"demônio\" is more literal \"demon\" than \"fiend.\" The back-translation reads: \"I should be your Adam, but I am rather the fallen angel, whom you expel from paradise without any sin... I was benevolent and good; sadness made of me a demon.\" I'm weighing the connotations - the biblical echoes of \"paraíso\" and \"pecado\" lean theological, while \"tristeza\" softens the creature's suffering compared to a harsher deprivation-focused word, and \"demônio\" keeps the demonic register literal rather than folkloric like \"fiend\" would suggest. On the demonic-pitiable scale, these seem to roughly cancel out, landing near neutral.\n\nWith three separate shifts toward religious vocabulary - \"joy\" becoming \"paraíso,\" \"misdeed\" becoming \"pecado,\" and \"fiend\" becoming \"demônio\" - I'm settling on a strong biblical/secular shift of -2, since all three intensify the theological framing simultaneously.\n\n",
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "text": "I need to identify the JSON slots from this quote: it names \"Adão\" explicitly, uses \"anjo caído\" for the fallen angel, \"expulsa do paraíso\" for being driven out, and \"pecado\" for the misdeed - though the creature itself isn't directly named in this passage.\n\nFor the emotional terms, \"tristeza\" is a softer \"sadness\" rather than harsher \"misery,\" and \"demônio\" is more literal \"demon\" than \"fiend.\" The back-translation reads: \"I should be your Adam, but I am rather the fallen angel, whom you expel from paradise without any sin... I was benevolent and good; sadness made of me a demon.\" I'm weighing the connotations - the biblical echoes of \"paraíso\" and \"pecado\" lean theological, while \"tristeza\" softens the creature's suffering compared to a harsher deprivation-focused word, and \"demônio\" keeps the demonic register literal rather than folkloric like \"fiend\" would suggest. On the demonic-pitiable scale, these seem to roughly cancel out, landing near neutral.\n\nWith three separate shifts toward religious vocabulary - \"joy\" becoming \"paraíso,\" \"misdeed\" becoming \"pecado,\" and \"fiend\" becoming \"demônio\" - I'm settling on a strong biblical/secular shift of -2, since all three intensify the theological framing simultaneously.\n\n",
+            "format": "anthropic-claude-v1",
+            "index": 0,
+            "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3819,
+    "completion_tokens": 1787,
+    "total_tokens": 5606,
+    "cost": 0.051016,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.051016,
+      "upstream_inference_prompt_cost": 0.015276,
+      "upstream_inference_completions_cost": 0.03574
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 722,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

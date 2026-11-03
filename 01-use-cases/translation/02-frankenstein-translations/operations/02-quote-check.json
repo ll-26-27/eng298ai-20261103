@@ -1,0 +1,173 @@
+{
+  "note": "A script re-found each quotation in its source. 'not checkable by script' means the source is a preview, PDF, or page a script can't read; rely on the how_verified note.",
+  "results": [
+    {
+      "id": "fr-1821-saladin",
+      "status": "found",
+      "method": "local file inputs/texts/pg62405.txt",
+      "sentences": 7,
+      "sentences_found": 7,
+      "checked": "2026-11-03T15:09:53.155Z"
+    },
+    {
+      "id": "de-1912-widtmann",
+      "status": "found",
+      "method": "local file inputs/texts/de-widtmann-chapter-16.txt",
+      "sentences": 6,
+      "sentences_found": 6,
+      "checked": "2026-11-03T15:09:53.156Z"
+    },
+    {
+      "id": "es-pareja",
+      "status": "found",
+      "method": "fetched https://archive.org/download/1818-mary-shelley-frankenstein-ilustrado/%5B1818%5D%20Mary%20Shelley%20-%20Frankenstein%20%5BIlustrado%5D_djvu.txt",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:09:54.711Z"
+    },
+    {
+      "id": "es-2006-alemany",
+      "status": "found",
+      "method": "fetched https://archive.org/download/1818-mary-shelley-frankenstein/%5B1818%5D%20Mary%20Shelley%20-%20Frankenstein_djvu.txt",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:09:55.619Z"
+    },
+    {
+      "id": "es-torres-oliver",
+      "status": "found",
+      "method": "fetched https://archive.org/download/shelley-m.-frankenstein-o-el-moderno-prometeo-madrid-2015./Shelley%2C%20M.-Frankenstein%20o%20el%20Moderno%20Prometeo%2C%20Madrid%2C%202015.%20267%20pp._djvu.txt",
+      "sentences": 2,
+      "sentences_found": 2,
+      "checked": "2026-11-03T15:09:57.375Z"
+    },
+    {
+      "id": "es-eartnow-anon",
+      "status": "found",
+      "method": "fetched https://archive.org/download/frankenstein-clasicos-de-la-literatura-spanish-edition/Frankenstein_%20Cl%C3%A1sicos%20de%20la%20literatura%20(Spanish%20Edition)_djvu.txt",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:09:58.604Z"
+    },
+    {
+      "id": "fr-2003-anon",
+      "status": "found",
+      "method": "fetched https://archive.org/download/shelley-frankenstein-www.e-dition-etoile.-com/shelley_frankenstein%20%5BWww.eDitionEtoile.Com%5D_djvu.txt",
+      "sentences": 2,
+      "sentences_found": 2,
+      "checked": "2026-11-03T15:10:00.315Z"
+    },
+    {
+      "id": "it-2009-maghelli",
+      "status": "found",
+      "method": "fetched https://it.wikiquote.org/wiki/Frankenstein_o_il_moderno_Prometeo",
+      "sentences": 2,
+      "sentences_found": 2,
+      "checked": "2026-11-03T15:10:00.413Z"
+    },
+    {
+      "id": "pt-2023-bonillo",
+      "status": "found",
+      "method": "fetched https://archive.org/download/livro-frankenstein/Livro%20Frankenstein_djvu.txt",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:10:01.831Z"
+    },
+    {
+      "id": "pt-2025-miranda",
+      "status": "found",
+      "method": "fetched https://archive.org/download/frankenstein-ou-o-prometeu-moderno-mary-shelley-mina-lima-2026/Frankenstein%20ou%20O%20Prometeu%20moderno%20--%20Mary%20Shelley%2C%20MinaLima%20--%202026_djvu.txt",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:10:03.453Z"
+    },
+    {
+      "id": "de-1986-grawe",
+      "status": "found",
+      "method": "fetched http://www.sandammeer.at/spiritus/frankenstein.htm",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:10:03.676Z"
+    },
+    {
+      "id": "ru-1965-aleksandrova",
+      "status": "found",
+      "method": "fetched https://archive.org/download/2000_20251030/%D0%A8%D0%B5%D0%BB%D0%BB%D0%B8%20%D0%9C.%20-%20%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%B5%D0%BD%D1%88%D1%82%D0%B5%D0%B9%D0%BD%20(%D0%90%D0%B7%D0%B1%D1%83%D0%BA%D0%B0-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0)%20-%202000_djvu.txt",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:10:05.328Z"
+    },
+    {
+      "id": "cs-1966-korbar",
+      "status": "not checkable by script",
+      "method": "fetched https://web2.mlp.cz/koweb/00/04/50/74/33/frankenstein.pdf (status 200, application/PDF)",
+      "sentences": 2,
+      "sentences_found": 0,
+      "checked": "2026-11-03T15:10:05.657Z"
+    },
+    {
+      "id": "sr-1960-stevovic",
+      "status": "not checkable by script",
+      "method": "skip: the item's OCR text is garbled; the quotation was read from the scan's PDF text layer",
+      "sentences": 3,
+      "sentences_found": 0,
+      "checked": "2026-11-03T15:10:05.657Z"
+    },
+    {
+      "id": "bg-1981-georgieva",
+      "status": "found",
+      "method": "fetched ",
+      "sentences": 2,
+      "sentences_found": 2,
+      "checked": "2026-11-03T15:10:05.925Z"
+    },
+    {
+      "id": "hu-1977-goncz",
+      "status": "not checkable by script",
+      "method": "fetched https://www.mek.oszk.hu/02700/02735/02735.pdf (status 200, application/pdf)",
+      "sentences": 3,
+      "sentences_found": 0,
+      "checked": "2026-11-03T15:10:06.257Z"
+    },
+    {
+      "id": "nl-2006-brinkman",
+      "status": "partly found (1 of 2 sentences)",
+      "method": "fetched https://boekenkrant.com/recensie/frankenstein/",
+      "sentences": 2,
+      "sentences_found": 1,
+      "checked": "2026-11-03T15:10:06.617Z"
+    },
+    {
+      "id": "ja-1953-shishido",
+      "status": "found",
+      "method": "fetched https://www.aozora.gr.jp/cards/001176/files/44904_35865.html",
+      "sentences": 2,
+      "sentences_found": 2,
+      "checked": "2026-11-03T15:10:08.735Z"
+    },
+    {
+      "id": "zh-liu-xinmin",
+      "status": "found",
+      "method": "fetched ",
+      "sentences": 2,
+      "sentences_found": 2,
+      "checked": "2026-11-03T15:10:10.306Z"
+    },
+    {
+      "id": "zh-unidentified",
+      "status": "found",
+      "method": "fetched ",
+      "sentences": 3,
+      "sentences_found": 3,
+      "checked": "2026-11-03T15:10:13.344Z"
+    },
+    {
+      "id": "tr-1996-seber",
+      "status": "found",
+      "method": "fetched https://ayrintidergi.com.tr/victor-frankenstein-gaflet-garabet-hezimet/",
+      "sentences": 4,
+      "sentences_found": 4,
+      "checked": "2026-11-03T15:10:14.338Z"
+    }
+  ]
+}

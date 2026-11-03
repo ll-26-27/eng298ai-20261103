@@ -1,0 +1,158 @@
+{
+  "model": "anthropic/claude-opus-5.5",
+  "renderings": 21,
+  "synthesis": [
+    "Across all 21 verified renderings (14 languages, 1821 to 2025), one thing holds without exception: every translator keeps Adam named and keeps a fallen angel. Even so, the frame of that agreement varies. Some strengthen the identification with the angel, as Bonillo's emphatic 'sou mesmo é teu anjo caído' does. Others hedge it. Göncz turns it into a simile ('olyan vagyok, mint a bukott angyal'), Alemany makes it appearance ('parecer el ángel caído'), and the unnamed 2003 French text diminishes it ('je ne suis qu'un ange déchu'). The two Chinese versions relocate the angel. Liu Xinmin has one 'cast into hell' (被打入地狱的天使), and the unidentified translator has one 'banished to the lower world' (被贬谪下界的天使).",
+    "The sharpest split is 'fiend'. Twelve renderings keep a demon or devil word: Pareja and Torres Oliver ('demonio'), Maghelli ('demone'), Miranda ('demônio'), the Grawes ('zum Teufel'), Aleksandrova ('злобного демона', with an added 'malicious'), Georgieva ('демон'), Göncz ('démont'), Brinkman ('duivel'), Seber ('şeytan'), the unidentified Chinese ('恶魔') and Shishido, whose folk ogre-demon '鬼' fits the category only loosely. Two make him a 'monster': Alemany ('monstruo') and the 2003 French ('monstre'). Five reduce the noun to a moral quality or a paraphrase: Widtmann ('was ich jetzt bin'), Korbař ('zlým'), Stevović ('rđavim'), Liu ('凶残歹毒') and the unnamed Spanish text ('me ha envilecido'). Two choose something else. Saladin's 'semblable au génie du mal' is a distancing simile, and Bonillo's 'inimigo' makes the creature an adversary. Around the noun, many translators tilt the creature toward pity. They render 'benevolent' as meekness or childlike goodness: 'кроток'/'кротък', 'hodný', 'uslu', 'cariñoso', 'afectuoso', 'bonaria'. They also render 'misery' as external misfortune or fate: 'malheur', 'Unglück', 'desgracia', 'несчастья', 'nevolja', 'злата участ', '不幸'. Only a few keep wretchedness itself: Göncz's 'nyomorúság', Bonillo's 'miséria', Brinkman's 'Ellende'.",
+    "On the biblical/secular axis, the most consistent move toward scripture is naming Paradise where Shelley has only 'joy'. Widtmann ('aus dem Paradies vertreibst'), the Grawes ('aus dem Paradies verstößt'), Miranda ('expulsa do paraíso') and Liu ('逐出天国的乐园') all do this. Aleksandrova's 'отлучил' adds an excommunication sense. The secularizing moves cluster on 'misdeed'. Three translators drop it: Widtmann, the unnamed Spanish, and the 2003 French. Four turn the creature's innocence into Victor's arbitrariness: the Grawes' 'grundlos', Brinkman's 'op onredelijke wijze', and the two Chinese idioms '平白无故' and '无缘无故'. Two make it a legal crime: Saladin's 'forfait' and Alemany's 'delito'. Only Miranda ('pecado') and Stevović ('zgrešio') make it sin. The model's scores mirror this mix. Most renderings sit at 1 (mildly pitiable, mildly secular). Miranda is the lone -2 on the biblical scale. Brinkman's -1 on the demonic scale rests on a partial quote.",
+    "Patterns by period or language are weak, and the sample cannot support them. Most languages have one or two renderings, and six versions are undated. The 2003 French version's date appears only in its id, not in its year field. Where there are pairs, they cut against tidy narratives. The two German versions (1912, 1986) both add Paradise but split on 'fiend' (erased vs 'Teufel'). The two Portuguese versions (2023, 2025) are near-contemporaries yet sit at opposite poles. The 1960s Slavic texts divide: Korbař and Stevović flatten 'fiend' to an adjective, while Aleksandrova intensifies it. Four Spanish versions yield three different 'fiend' solutions. At most, one can say tentatively that softening 'benevolent' toward meekness or docility and externalizing 'misery' as misfortune recur across languages and decades.",
+    "Before trusting any of this, a reader should check several things. First, the quotes themselves. Only Saladin and Widtmann are full-passage, Brinkman is partial, and some transcriptions show slips (a stray ” in Aleksandrova, a mismatched quotation mark in the unidentified Chinese, Brinkman's 'wie'). Second, editions and attributions: there are undated and unnamed translators, and the source text used for each version is unknown. Third, the model's connotation claims, several of which are speculative: the 'rđa' etymology for 'rđav', the 2011 political ring of 'malfeito', the Lermontov and Mencius echoes. Fourth, the scores, which are coarse and not always consistent with the word choices. Seber's 'şeytan' and Shishido's '鬼' score as pitiable as Korbař's 'zlým', while Aleksandrova's added 'злобного' scores neutral."
+  ],
+  "per_rendering": [
+    {
+      "id": "fr-1821-saladin",
+      "highlighted": "Legal gravity of the denied wrong ('aucun forfait') and exclusion from happiness; keeps 'bienveillant'.",
+      "muted": "Makes 'fiend' a distancing simile ('semblable au génie du mal'), uses polite 'vous' for 'thou', and collapses 'joy'/'bliss' into 'bonheur'."
+    },
+    {
+      "id": "de-1912-widtmann",
+      "highlighted": "Creator-God framing ('ein Werk deiner Hände') and Genesis expulsion ('aus dem Paradies').",
+      "muted": "Drops 'for no misdeed', erases 'fiend' ('was ich jetzt bin'), and turns virtue into docility ('stille sein')."
+    },
+    {
+      "id": "es-pareja",
+      "highlighted": "Exile ('destierras'), emphatic innocence ('falta alguna') and an explicitly infernal 'demonio'.",
+      "muted": "The single state of 'misery', which becomes plural, countable 'sufrimientos'."
+    },
+    {
+      "id": "es-2006-alemany",
+      "highlighted": "Victor as wrongdoer ('robaste la dicha') and legal innocence ('delito alguno').",
+      "muted": "Makes the fall mere appearance ('parecer'), turns the demonic 'fiend' into social 'monstruo', and replaces 'benevolent' with 'generoso'."
+    },
+    {
+      "id": "es-torres-oliver",
+      "highlighted": "Tenderness ('afectuoso'), devotional 'aflicción' and theological 'demonio'.",
+      "muted": "Expulsion, which becomes deprivation ('privaste'); 'sin haber cometido mal alguno' can grammatically blur whose innocence is meant."
+    },
+    {
+      "id": "es-eartnow-anon",
+      "highlighted": "Loving childlike goodness ('cariñoso') and degradation as something done to him ('me ha envilecido').",
+      "muted": "Omits 'for no misdeed', erases 'fiend' as a figure, and uses distant 'vuestro' for 'thy'."
+    },
+    {
+      "id": "fr-2003-anon",
+      "highlighted": "Plaintive self-diminishment ('je ne suis qu'un ange déchu'), noble 'généreux', and blame on 'le malheur'.",
+      "muted": "Omits the misdeed clause and replaces the devil-word with 'monstre'."
+    },
+    {
+      "id": "it-2009-maghelli",
+      "highlighted": "Total innocence ('alcun misfatto') and 'demone'.",
+      "muted": "Expulsion from joy ('hai allontanato', with 'from joy' dropped); 'benevolent and good' shrinks to 'indole bonaria'."
+    },
+    {
+      "id": "pt-2023-bonillo",
+      "highlighted": "Insistent identification ('sou mesmo é teu anjo caído'), Christian charity ('caridoso'), and 'miséria' as possible destitution.",
+      "muted": "The demonic, with 'fiend' becoming 'inimigo'; violent expulsion softened to 'desvias'."
+    },
+    {
+      "id": "pt-2025-miranda",
+      "highlighted": "The most scriptural frame of all: 'expulsa do paraíso', 'sem nenhum pecado', 'demônio'.",
+      "muted": "Outward wretchedness ('a tristeza' for 'misery') and the solemn address ('você')."
+    },
+    {
+      "id": "de-1986-grawe",
+      "highlighted": "Paradise and parental disowning ('verstößt'), Beatitude-tinged 'friedfertig', and 'zum Teufel'.",
+      "muted": "The creature's own guiltlessness, as 'grundlos' shifts the point to Victor's lack of reason."
+    },
+    {
+      "id": "ru-1965-aleksandrova",
+      "highlighted": "Ecclesiastical exclusion ('отлучил'), Christian meekness ('кроток'), and an intensified 'злобного демона'.",
+      "muted": "Active benevolence; 'misery' externalized as plural 'несчастья'."
+    },
+    {
+      "id": "cs-1966-korbar",
+      "highlighted": "Childlike goodness ('hodný') and total blame on suffering ('pouze utrpení').",
+      "muted": "The devil figure ('zlým' for 'fiend'); the innocence is grammatically the angel's, in the third person."
+    },
+    {
+      "id": "sr-1960-stevovic",
+      "highlighted": "Sin-language for innocence ('ništa nisam zgrešio') and magnanimity ('velikodušan').",
+      "muted": "The demonic, as 'fiend' becomes the plain adjective 'rđavim'; expulsion becomes 'lišavaš'."
+    },
+    {
+      "id": "bg-1981-georgieva",
+      "highlighted": "Meekness ('кротък'), fatalism ('злата участ') and a Romantic 'демон'.",
+      "muted": "Physical expulsion ('лишаваш от радост') and the social cause of misery."
+    },
+    {
+      "id": "hu-1977-goncz",
+      "highlighted": "Wretchedness ('nyomorúság'), misery as a carver ('faragott belőlem démont'), and kept benevolence ('jót akartam').",
+      "muted": "Self-identification with Satan, turned into a simile ('olyan vagyok, mint')."
+    },
+    {
+      "id": "nl-2006-brinkman",
+      "highlighted": "Wretchedness ('Ellende') and an explicit 'duivel'.",
+      "muted": "The creature's innocence ('op onredelijke wijze') and scriptural address ('uw'); the quote is partial and lacks 'benevolent and good'."
+    },
+    {
+      "id": "ja-1953-shishido",
+      "highlighted": "Made-ness ('あんたに造られたもの'), loss of joy, and a folkloric 鬼.",
+      "muted": "Victor's agency (passive '奪われた'), the moral 'ought' ('というところ'), and solemn register ('あんた')."
+    },
+    {
+      "id": "zh-liu-xinmin",
+      "highlighted": "Heaven and hell imagery ('打入地狱', '天国的乐园').",
+      "muted": "The supernatural 'fiend', which becomes human viciousness ('凶残歹毒'); innocence becomes arbitrariness ('平白无故')."
+    },
+    {
+      "id": "zh-unidentified",
+      "highlighted": "Innate goodness ('本性…仁慈、善良'), full blame on suffering ('都是痛苦'), and '恶魔'.",
+      "muted": "The Miltonic rebel fall, recast as banishment ('贬谪下界'); moral innocence becomes 'no reason' ('无缘无故')."
+    },
+    {
+      "id": "tr-1996-seber",
+      "highlighted": "An Abrahamic Adem/Şeytan pairing and childlike obedience ('uslu').",
+      "muted": "Expulsion, which becomes an administrative ban ('men ettiğin'); 'misery' becomes plain 'mutsuzluk'."
+    }
+  ],
+  "contrasts": [
+    {
+      "title": "Two Brazilian versions, two years apart, at opposite poles",
+      "ids": [
+        "pt-2023-bonillo",
+        "pt-2025-miranda"
+      ],
+      "text": "Bonillo has 'desvias da alegria por nenhum malfeito… um inimigo', while Miranda has 'expulsa do paraíso sem nenhum pecado… um demônio'. Near-identical date and language produce one secular, adversarial creature and one fully scriptural one, which warns against period or language generalizations."
+    },
+    {
+      "title": "Intensified vs flattened 'fiend' in 1960s Slavic translations",
+      "ids": [
+        "ru-1965-aleksandrova",
+        "cs-1966-korbar",
+        "sr-1960-stevovic"
+      ],
+      "text": "Aleksandrova adds malice ('злобного демона'), whereas Korbař ('mě učinilo zlým') and Stevović ('me je učinila rđavim') reduce the noun to an adjective. Within a few years and a related language family, one translator heightens the demonic while the others turn damnation into moral character."
+    },
+    {
+      "title": "Innocence of the creature vs arbitrariness of Victor",
+      "ids": [
+        "es-pareja",
+        "pt-2025-miranda",
+        "de-1986-grawe",
+        "nl-2006-brinkman",
+        "zh-liu-xinmin"
+      ],
+      "text": "Pareja's 'sin que haya cometido falta alguna' and Miranda's 'sin nenhum pecado' keep a claim about the creature's own guiltlessness. The Grawes' 'grundlos', Brinkman's 'op onredelijke wijze' and Liu's '平白无故' instead judge Victor's act as unreasonable. The accusation's moral center shifts from the accused to the accuser."
+    },
+    {
+      "title": "Insisting on vs hedging the fallen-angel identity",
+      "ids": [
+        "pt-2023-bonillo",
+        "hu-1977-goncz",
+        "es-2006-alemany",
+        "fr-2003-anon"
+      ],
+      "text": "Bonillo insists ('sou mesmo é teu anjo caído'), while Göncz ('olyan vagyok, mint'), Alemany ('parecer') and the 2003 French ('je ne suis qu'un') turn identification into likeness, appearance or diminishment. Shelley's 'I am rather' is a defiant self-placement, and how firmly it is kept shapes whether the creature reads as Satanic or merely wronged."
+    }
+  ]
+}
