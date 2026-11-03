@@ -7,27 +7,14 @@
 Citations match the works-cited list one for one; locations on every
 quotation; one citation style; length within the brief; title.
 
-## 2. The provenance record
+## 2. The note on method
 
-The syllabus requires that AI use be "documented, explained, and reflected
-upon." The folder is the documentation. This step writes the explanation and
-the reflection, as a final section of `final.md` headed `## How this paper
-was written`, in three parts:
-
-- **Documented.** A table of the steps run, with dates, who ran each (you, the
-  model, a script), which model, and the file each produced. Taken from
-  `work/`, not from memory. Say which judges in `W08` were models.
-- **Explained.** For each place the model's work is in the paper, what it
-  contributed: the reading notes it took, the angles it proposed and which
-  you chose, the outline, the draft, the judges' changes. For each place it
-  is not, say so: your seminar notes, your choice of claim, your feedback and
-  the paragraphs you wrote. Point to the files.
-- **Reflected.** A paragraph in your voice (write it yourself, or dictate it
-  and mark it so): what the process made possible, what it made harder, where
-  the model read well and where it read badly, what you would do differently,
-  and what, in the end, you take authorship of.
-
-This section is part of the submission, not an appendix to be skipped.
+The syllabus asks that AI use be documented, explained, and reflected upon.
+Write a short closing section of `final.md` headed `## Note on method`: one
+paragraph, from the files in `work/`, not from memory, saying what the model
+did and what the writer did, step by step, with the model named; what was
+checked and against what; and the files in order. If the writer wants a
+reflection, they write it; otherwise the note stops at the facts.
 
 ## 3. Render
 

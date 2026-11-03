@@ -1,60 +1,49 @@
 ---
-title: "_writing: books, notebook, paper"
-description: A worked pipeline for writing a seminar paper with AI in ENGLISH 298AI, laid out as the humanist has always worked: the books you read, the notebook you keep, the paper you publish. Every step is a file; every use of AI is documented.
+title: "Seminar paper: books, notebook, paper"
+description: An eleven-step pipeline for writing a seminar paper with AI in ENGLISH 298AI, and one complete run of it on the Phaedrus and Shanahan's role-play paper.
 author: claude
 created: 2026-11-03
 ---
 
-# _writing: books → notebook → paper
+# Seminar paper: books → notebook → paper
 
-This folder is the inputs → operations → outputs model in its oldest form.
+The inputs → operations → outputs model in its oldest form.
 
-| Folder | The old name | What goes here |
+| Folder | The old name | What is here |
 |---|---|---|
-| [`books/`](books/) | **Inputs** | The texts you read. Here, a manifest pointing at the course readings and AI papers in [`context/`](../../../context/), plus the syllabus. |
-| [`notebook/`](notebook/) | **Operations** | What you do with them. Eleven numbered steps (`W00` to `W10`): the brief, your reading notes, the brainstorm, the thesis, the quote bank, the outline, the draft, the judges, your feedback, the provenance record. `notebook/work/` holds the notes a run produces. |
-| [`paper/`](paper/) | **Outputs** | What you publish for others to read: `final.md`, `final.html`, and the provenance block the course's AI policy asks for. |
+| [`books/`](books/) | Inputs | A manifest of the course readings and AI papers in [`context/`](../../../context/), with editions. |
+| [`notebook/`](notebook/) | Operations | Eleven numbered steps, `W00` to `W10`. `notebook/work/` holds one complete run. |
+| [`paper/`](paper/) | Outputs | The paper that run produced: [`final.md`](paper/final.md), [`final.html`](paper/final.html). |
 
-Your paper becomes someone else's book. That is the circle the README at the
-top of this repository describes, and this folder is one turn of it.
+## The run
 
-## What this is and is not
+**"One Unvarying Answer: The *Phaedrus* and the Speaker Who Is Not There."**
+About 3,000 words. Socrates says the written word, questioned, "always gives
+one unvarying answer"; Shanahan says a dialogue agent, asked to regenerate,
+names a different object every time. The paper reads 275d–e as three charges,
+shows the living word of 276a answers all three, runs the agent past each,
+and concludes that the agent inverts Socrates's objection rather than
+refuting it, for the cause he names: no one is behind the words.
 
-It is a **template and a worked brief**, not a finished paper. The brief
-(`notebook/work/W00_brief.md`) is filled in from the syllabus. The other
-`work/` files are produced when you run the steps on your own question. Copy
-this folder into `02-your-project/` and run it there, or run it in place.
+What the model did: read Grice, Shanahan et al., and the whole *Phaedrus*
+(with Jowett's introduction); took notes; proposed eight angles; built the
+quote bank; outlined, drafted, judged, revised. What the writer did: chose the
+angle. Every step is a file in `notebook/work/`, so the whole thing can be
+read backwards from the paper to the passages.
 
-It is built for this course's AI policy, which is unusual: *all uses of AI are
-permitted, but they have to be documented, explained, and reflected upon.*
-So the last step is not a confession appended to the paper. It is part of the
-assignment. Every step writes a file, and the files are the documentation.
+## Run it on your own question
 
-## Run order
+Read [`notebook/README.md`](notebook/README.md), then the steps in order.
+Three of them are yours by design: your seminar notes (`W01b`), the choice of
+thesis (`W03`), and your feedback on the draft (`W09`). This run skipped the
+first and third; yours need not.
 
-Read [`notebook/README.md`](notebook/README.md) first. Then `W00` through
-`W10`, in order. Three steps are yours alone and the model never does them:
-your seminar notes (`W01b`), choosing the thesis (`W03`), and your feedback on
-the draft (`W09`). Everything else the model drafts and you check.
+## Rules the folder keeps
 
-## Where the material comes from
+- Texts are read whole. A note that says "read in full" means every line.
+- No quotation enters the draft that is not in the bank with its location.
+- The last step writes a short note on method from the files, so a reader
+  can see what ran. The course asks for that; it is also just useful.
 
-The readings are the course's own: Plato, Confucius, Shelley, Wilde, Čapek,
-Bergson, Grice, Sacks–Schegloff–Jefferson, and the twenty-two AI papers, all
-as Markdown in [`context/`](../../../context/). The seminar's questions supply
-the lenses the brainstorm step uses: the cultural prehistory of AI, dialogue
-as the form of our encounter with machines, the fabricated "assistant"
-persona, role-play, and writing itself as a *pharmakon* of memory.
-
-## Rules the whole folder obeys
-
-- Read texts whole. A note that says "read in full" means every line.
-- No invented quotations. Every verbatim quote must be findable in a file in
-  `context/` or `books/`.
-- The model drafts; you decide. Steps marked **you** stop until you act.
-- Keep API keys, if any step uses one, in the repository's gitignored `.env`.
-
-The shape is adapted from a pipeline built for a Government seminar's
-pre-prospectus; the prompts here are rewritten for literary and philosophical
-argument about texts, and the detector step that pipeline carried is replaced
-by the provenance record this course requires.
+The shape is adapted from a pipeline built for a Government seminar; the
+prompts are rewritten for literary and philosophical argument about texts.

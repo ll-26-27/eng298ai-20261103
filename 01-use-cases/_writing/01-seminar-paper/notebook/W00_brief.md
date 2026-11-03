@@ -4,10 +4,9 @@
 
 ## Standing note
 
-This course permits every use of AI on condition that it is documented,
-explained, and reflected upon. The brief restates that at the top so it
-travels with every downstream file. The pipeline is not a way around the
-assignment; it is the assignment done in the open.
+The course asks that AI use be documented, explained, and reflected upon.
+The brief restates that so it travels with every downstream file; `W10`
+writes the note that satisfies it.
 
 ## What the brief must establish
 

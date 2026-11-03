@@ -7,6 +7,3 @@ and the writer's only decision in it was the choice of angle at `W03`.
 
 `W09_draft_v3.md` is therefore identical to `W08_draft_v2.md`. The provenance
 record in the paper says so.
-
-This is the step the course's writing unit is about, and it is the one this
-run skipped. A student running the pipeline should not.

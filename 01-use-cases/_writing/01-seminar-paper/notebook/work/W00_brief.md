@@ -6,12 +6,9 @@ assignment of Part IV of the course, introduced in Seminar 12 (November 24,
 project (25%, preliminary presentations December 1); if that is the target,
 revise the length and due date below.
 
-**Standing note.** The syllabus permits all uses of AI on condition that they
-are "documented, explained, and reflected upon within the framework of the
-course," and adds that "Undocumented uses of AI are strongly discouraged
-since they are beside the point of the class." Every step of this pipeline
-writes a file, and `W10` turns the files into that documentation. The
-pipeline is the assignment done in the open.
+**Standing note.** The syllabus asks that AI use be "documented, explained,
+and reflected upon within the framework of the course." Every step of this
+pipeline writes a file, and `W10` writes the note on method from them.
 
 ---
 

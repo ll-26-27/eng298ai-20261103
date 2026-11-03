@@ -37,19 +37,13 @@ python3 01-use-cases/_writing/01-seminar-paper/notebook/scripts/render_html.py \
 
 Run from the repository root.
 
-## The policy this notebook is built for
+## Which steps are yours
 
-The syllabus: "All uses of AI are permitted, but they have to be documented,
-explained, and reflected upon within the framework of the course. Undocumented
-uses of AI are strongly discouraged since they are beside the point of the
-class." And on the writing unit: "The point is not to outsource writing to AI.
-The point is to use AI in specific, intentional ways—and to learn when not to
-use it."
-
-So three steps are reserved for you and the model does not do them: `W01b`,
-`W03`, `W09`. The reading notes and the judges' reports are the model's, and
-they are kept so a reader can see what it saw. `W10` turns the folder into the
-documentation the policy asks for.
+`W01b` (seminar notes), `W03` (the choice of thesis), and `W09` (your
+feedback on the draft) are written by you; the model reads them and does not
+write them. The reading notes and the judges' reports are the model's and are
+kept, so a reader can see what it saw. `W10` writes a short note on method
+from the files.
 
 ## Running a step
 

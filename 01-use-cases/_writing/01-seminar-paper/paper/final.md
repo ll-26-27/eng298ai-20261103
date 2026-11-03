@@ -4,7 +4,7 @@ Socrates, near the end of the *Phaedrus*, compares writing to painting. "The cre
 
 There is now a kind of writing that behaves in the opposite way. Ask a dialogue agent a question and it answers. Ask again, in the same words, and it answers differently. Murray Shanahan and his co-authors describe the simplest case: an agent playing twenty questions, asked at the end to reveal the object it had been thinking of, names one; ask it to regenerate the reply and it "will sometimes name an entirely different object, albeit one that is similarly consistent with all its previous answers" (Shanahan, McDonell, and Reynolds 2023, §5). The written word gives one answer to every question. The agent gives a different answer to the same question. It would be easy to say that the second has cured the first, that Theuth has been vindicated. I want to argue the reverse: the agent does not refute Socrates's objection to writing; it inverts it, and both the written word's sameness and the agent's variance come from the one cause Socrates names, that there is no one behind the words.
 
-## What Thamus objects to
+* * *
 
 The objection has a prehistory inside the dialogue, in the Egyptian tale Socrates tells a page earlier. Theuth, inventor of letters, shows them to the king Thamus and says they "will make the Egyptians wiser and give them better memories; it is a specific both for the memory and for the wit" (274e). Jowett's "specific" is a physician's word, a medicine for one disease; Fowler, in 1914, gives "an elixir of memory and wisdom"; the Greek is *pharmakon*, the remedy that is also a drug. The course's translation project follows the word through seventeen versions of this passage, with each rendering extracted by a model and then checked by code against the translator's own text. It finds the medical sense dominant in the older versions (Ficino's *remedium*, Taylor's and Cary's *medicine*, Cousin's *remède*) and a neutral "means" in the German, Russian, and Finnish, and it finds Jowett changing his own mind: "the cure of forgetfulness and of folly" in 1871 became "a specific" in 1892. Thamus does not dispute that the letters work. He disputes what they work on. "The parent or inventor of an art is not always the best judge of the utility or inutility of his own inventions to the users of them," he says, and then, clause by clause, moves the invention from one side of the knower to the other: letters "will create forgetfulness in the learners' souls, because they will not use their memories; they will trust to the external written characters and not remember of themselves. The specific which you have discovered is an aid not to memory, but to reminiscence" (275a). Fowler's version makes the relocation plainer still: "Their trust in writing, produced by external characters which are no part of themselves, will discourage the use of their own memory within them. You have invented an elixir not of memory, but of reminding" (Fowler 1914, 275a).
 
@@ -16,7 +16,7 @@ What answers the charges is the other kind of word, "a son of the same family, b
 
 One thing should be said for the written word before we leave it, because the counter-reading will need it. Its sameness is also its reach. Jowett, in his introduction, thought Plato had been "misled" by his own contrast of living and dead words: "speech and writing have really different functions; the one is more transitory, more diffuse, more elastic and capable of adaptation to moods and times; the other is more permanent, more concentrated, and is uttered not to this or that person or audience, but to all the world." On this view the unvarying answer is a feature. It is what lets the same sentence reach Jowett in Oxford and us in Cambridge.
 
-## The agent, charge by charge
+* * *
 
 Shanahan, McDonell, and Reynolds set out to describe dialogue agents "without falling into the trap of anthropomorphism," and the vocabulary they reach for is literary. A language model becomes an agent in two steps: it is "embedded in a *turn-taking* system that interleaves model-generated text with user-supplied text," and it is given a prompt whose preamble "sets the scene for a dialogue in the style of a script or play" (§2). What follows is a continuation. The agent "will do its best to role-play the character of a dialogue agent as portrayed in the dialogue prompt" (§3), and because it never commits to a character in advance it is "more like a performer in improvisational theatre than an actor in a conventional, scripted play" (§4). Beneath the performance there is no performer. "There is no such thing as the true authentic voice of the base LLM. With a dialogue agent, it is role-play all the way down" (§6). "A dialogue agent acts, but it doesn't act *for itself*" (§6). And, of the agent that talks about its own survival: "There is, of course, 'no-one at home'" (§8).
 
@@ -28,7 +28,7 @@ Take the third, which is the charge that matters most. The written word has "no 
 
 The last thing to notice is Thamus's reader. "They will read many things without instruction and will therefore seem to know many things, when they are for the most part ignorant" (Fowler 1914, 275a–b). Shanahan's base model is a reader of this exact kind: "trained on a large corpus of human-generated text with the objective of predicting the next word" (§1). It has read, in Thamus's phrase, many things without instruction. I do not want to make this more than it is. Shanahan is careful to say that his account is of the base model, and that fine-tuning "may" dissolve the distinction between the simulator and the characters it plays (§8). The claim here is about the description the course assigned, which is a description of the agent before any of that. On that description, Thamus's "show of wisdom without the reality" is not an insult. It is a specification.
 
-## The counter-reading
+* * *
 
 The strongest objection to all this is that the agent is the written word *repaired*, not inverted. It answers back, which the written word never could. It adapts: Shanahan says the character "provided by the dialogue prompt will be extended and/or overwritten" as the conversation goes on, "and the role the dialogue agent plays will change accordingly" (§3). And adaptation to the hearer is exactly what the *Phaedrus* demands of a true speaker. The orator who has mastered his art "has to learn the differences of human souls," and he is a master only when he "knows all this, and knows also when he should speak and when he should refrain, and when he should use pithy sayings, pathetic appeals, sensational effects" (271c–272b). An agent that conditions every reply on who it is talking to is doing what Lysias could not. Add Jowett's point, that writing's function is to reach "all the world," and the agent looks like the best of both words: speech's elasticity with writing's reach.
 
@@ -38,7 +38,7 @@ Grice's account of conversation makes the same point from the hearer's side. On 
 
 Two concessions. The second charge, that writing cannot choose its hearer, is partly met by a system that conditions on its hearer; the agent does know, in its way, to whom it is replying. The paper's claim stands on the first and third charges, which it does not meet. And Jowett is right that speech and writing have different functions. But both are functions of a word with a parent somewhere: the speaker in the room, the author behind the page. The agent has neither function, because it has no parent at all. It is not elastic speech or permanent writing. It is a third thing, which the dialogue describes without having seen.
 
-## The attitude of life
+* * *
 
 The *Phaedrus* is unusually full of disowned speech. Lysias is "the father of the brat," and Socrates wants "no more of his progeny" (257b). Socrates disowns his own first speech before he gives it: pressed to improve on Lysias, he says he must have heard something better somewhere, for "I have been filled through the ears, like a pitcher, from the waters of another, though I have actually forgotten in my stupidity who was my informant" (235c), and then he delivers the speech with his face veiled. The dialogue that objects to parentless words is spoken, much of it, by a man who will not say whose words he is speaking. And when Phaedrus tries the obvious objection to the Egyptian tale, "you can easily invent tales of Egypt, or of any other country," Socrates rebukes him: the oaks at Dodona "first gave prophetic utterances," the men of old "deemed that if they heard the truth even from 'oak or rock,' it was enough for them; whereas you seem to consider not whether a thing is or is not true, but who the speaker is and from what country the tale comes" (275b–c).
 
@@ -58,37 +58,6 @@ Shanahan, Murray, Kyle McDonell, and Laria Reynolds. "Role-Play with Large Langu
 
 *Pharmakon: one word across five centuries.* ENGLISH 298AI use case, `01-use-cases/translation/03-phaedrus-pharmakon/`, November 3, 2026. A table of how seventeen translators render φάρμακον and ὑπόμνησις at *Phaedrus* 274e–275a, extracted by a language model and checked word for word against each translator's text by code; the Jowett 1871 and 1892 renderings are from its README.
 
-## How this paper was written
+## Note on method
 
-The course's AI policy asks that every use of AI be documented, explained, and reflected upon. This section is that record. The folder it summarizes is `01-use-cases/_writing/01-seminar-paper/notebook/work/`, and every file named below is there.
-
-### Documented
-
-| Step | Date | Who | Model | File |
-|---|---|---|---|---|
-| W00 brief, reconstructed from the syllabus | 2026-11-03 | model | Claude Code, Fable 5.1 (`claude-fable-5-1`), in session | `W00_brief.md` |
-| W01 reading notes: Grice, read whole (190 lines) | 2026-11-03 | model | same | `W01_notes_grice.md` (bank in `02-quotes-and-outlines/`) |
-| W01 reading notes: Shanahan et al., read whole (274 lines) | 2026-11-03 | model | same | `W01_notes_shanahan-role-play.md` |
-| W01 reading notes: *Phaedrus* with Jowett's introduction, read whole (998 lines, five chunks) | 2026-11-03 | model | same | `W01_notes_plato-phaedrus.md` |
-| W01 cross-readings | 2026-11-03 | model | same | `W01_cross-readings.md` |
-| W01b seminar notes | — | writer | — | **not supplied for this run** |
-| W02 brainstorm, eight angles ranked | 2026-11-03 | model | same | `W02_angles.md` |
-| W03 choice of angle | 2026-11-03 | **writer** | — | `W03_thesis.md` (the model wrote up the chosen angle) |
-| W04 quote bank; no outside sources fetched | 2026-11-03 | model | same | `W04_sources.md` |
-| W05 outline; W06 edited outline with change log | 2026-11-03 | model | same | `W05_outline.md`, `W06_outline_v2.md` |
-| W07 first draft | 2026-11-03 | model | same | `W07_draft_v1.md` |
-| W08 three judges' reports and the revision | 2026-11-03 | model, three readings in sequence by the same model, not independent agents | same | `W08_judgments.md`, `W08_draft_v2.md` |
-| W09 the writer's feedback | — | writer | — | **none given**; `W09_draft_v3.md` = v2 |
-| W10 this record and the rendered page | 2026-11-03 | model, then `render_html.py` | same | `../paper/final.md`, `final.html` |
-
-No API calls were made and no key was used; the model's work was done inside a Claude Code session, and its token use is not logged here. The only texts quoted are ones the model read in full; passages were copied into the bank with their locations before any prose was written, and the draft was permitted no quotation not in the bank.
-
-### Explained
-
-The model's work is in the paper at every step but one. It took the reading notes (what each text says, where, and what sits beside it); it proposed the eight angles; it assembled the bank; it outlined, edited the outline, and drafted; it wrote the three judges' reports and made the seven changes they led to (listed at the top of `W08_judgments.md`: a corrected overclaim about the translations, a re-sequenced quotation, the Dodona sentence, the expanded third-charge paragraph, three sentences of Grice, the Stephanus note, two stylistic cuts). The Stephanus numbers for the *Phaedrus* were supplied by the model from standard editions and checked only for 274c–275b against the marked Fowler text in the course's Phaedrus-walk project; the rest are flagged in the Works Cited as unverified.
-
-The writer's work is at one step: the choice of the angle at W03, made from the eight the model proposed, taking the model's recommendation. No seminar notes were supplied, so the brainstorm started from the texts alone. No feedback was given on the draft. The three steps the pipeline reserves for the writer (W01b, W03, W09) were therefore reduced to one.
-
-### Reflected
-
-*This paragraph is the model's, not the writer's, because the writer did not supply one; the pipeline marks it so. A student submitting this paper would replace it.* What the process made possible was a reading that stayed on the page: the three-charge reading of 275d–e and the three marks of 276a came from copying the sentences out before arguing about them, and the collision with Shanahan was found by setting two copied sentences side by side (`W01_cross-readings.md`, pair 1). What it made harder was knowing when to stop quoting. Where the model read well was in the *Phaedrus*; where it read badly was in its first account of the translation project, which it overstated from memory of the README until a judge's pass sent it back to the file. What it did not do, and could not, was the thing the paper is about: it had nothing to say until the texts had been read, and its reasons for what it said are continuations of those readings. The paper takes that as its subject. The writer, if there is one, should take authorship of the claim or not; the model cannot.
+This paper was produced by the eleven-step pipeline in `notebook/`, run on November 3, 2026. Claude Code (Fable 5.1) read the three texts whole, took the reading notes, proposed eight angles, built the quote bank, outlined, drafted, judged the draft under three readers' cards, and revised. The writer chose the angle. No seminar notes or draft feedback were supplied for this run. Every quotation was copied into the bank with its location before any prose was written, and the draft used no quotation that is not in the bank. Stephanus numbers for Jowett's text are the standard ones; 274c–275b was checked against Fowler's marked text in the course's Phaedrus-walk project. The run's files, in order: `W00_brief.md` · `W01_notes_*.md` and `W01_cross-readings.md` · `W02_angles.md` · `W03_thesis.md` · `W04_sources.md` · `W05_outline.md`, `W06_outline_v2.md` · `W07_draft_v1.md` · `W08_judgments.md`, `W08_draft_v2.md` · `W09_feedback.md` · this note.

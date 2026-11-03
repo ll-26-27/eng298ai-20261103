@@ -10,7 +10,3 @@ you want to write; the model does not get to rewrite those.
 Then the model applies the notes, lists any note it could not apply and why,
 and makes no other change in this pass. If a note conflicts with a judge's
 change in `W08`, you win.
-
-This is the step the course's writing unit is about: "to use AI in specific,
-intentional ways—and to learn when not to use it." The feedback file is the
-record of where you did not.
