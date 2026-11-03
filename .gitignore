@@ -1,9 +1,22 @@
+# secrets
 .env
 .env.*
 !.env.example
-node_modules/
-.next/
+
+# macOS
 .DS_Store
+._*
+
+# local-only folders
 _raw/
 _media/
 output/
+work/
+__pycache__/
+
+# Node / JS
+node_modules/
+.next/
+
+# editors / tools
+.claude/settings.local.json
