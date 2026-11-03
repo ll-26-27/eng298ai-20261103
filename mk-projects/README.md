@@ -7,7 +7,7 @@ created: 2026-11-03
 
 # mk-projects
 
-Six worked examples of using AI tools to research and present work on texts. Every folder has the same shape: **`inputs/`** (what we start from), **`operations/`** (numbered steps: prompts, scripts, and the in-between data files they pass along), **`outputs/`** (one HTML page; double-click `outputs/index.html`). Each folder's own README has the full chain, sources, costs, and caveats.
+Six worked examples of using AI tools to research and present work on texts. Every folder has the same shape: **`inputs/`** (what we start from), **`operations/`** (numbered steps: prompts, scripts, and the in-between data files they pass along), **`outputs/`** (one HTML page, `outputs/index.html`, to double-click; and `outputs/essay/`, an illustrated essay about the project as Markdown and a printable PDF). Each folder's own README has the full chain, sources, costs, and caveats.
 
 ## 01 · Dickens's places: a map after Moretti
 
