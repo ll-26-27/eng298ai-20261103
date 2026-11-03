@@ -26,7 +26,7 @@ Before there was AI, there was the cultural history, or pre-history, of AI, cent
 **Reading:**
 
 - Mary Shelley, from *Frankenstein*. Required: Read chapters 10-15. Recommended: read up to chapter 15 (and beyond, if you like). Suggested: watch 1931 movie.
-  [[md](course-readings-md/shelley-frankenstein-1818.md)]
+  [[md](course-readings-md/shelley-frankenstein-1818.md) · first French translation, Saladin 1821: [md](course-readings-md/shelley-frankenstein-1821-fr-saladin.md)]
 
 ### Seminar 3, September 22: AI in cultural history 2
 
