@@ -1,6 +1,6 @@
-# Books
+# Inputs
 
-The inputs. Two kinds: a text to count, and the tool being imitated.
+Three kinds: a text to count, a photograph of the pages it was printed on, and the tool being imitated.
 
 ## The text of the worked run
 
@@ -11,6 +11,12 @@ The inputs. Two kinds: a text to count, and the tool being imitated.
 The copy here is the exact passage the scripts counted, so the numbers on the
 page can be checked against it without opening the novel.
 
+## The pages themselves
+
+| Image | Path | Note |
+|---|---|---|
+| The Preface, pages vi–vii of the 1891 book edition | [`wilde-dorian-gray-preface-1891-pp-vi-vii.jpg`](wilde-dorian-gray-preface-1891-pp-vi-vii.jpg) | A photograph of the second opening of the Preface, from "Those who find beautiful meanings in beautiful things are the cultivated" to the signature. The first opening (page v, the first six aphorisms) is not shown. Supplied by the workshop; copy of the book not recorded. Useful for checking the Markdown against the printed page: the italic setting, the hanging indents, "subject-matter" hyphenated, "im-/perfect" broken across a line. |
+
 ## The original Wordle
 
 The thing being rebuilt. Nothing of it is copied here; it is cited.
@@ -19,7 +25,7 @@ The thing being rebuilt. Nothing of it is copied here; it is cited.
 |---|---|---|
 | **Wordle**, Jonathan Feinberg, 2008 | wordle.net, offline | A Java applet: paste text, click, get a cloud. Browsers dropped Java and the site went dark. |
 | San Diego State University, "Wordle," *Teaching with Digital Humanities* | <https://teachdh.sdsu.edu/tools/wordle/> | The page this project started from. Says what Wordle was, that "the original tool is no longer online," and points to EdWordle and Voyant as replacements. |
-| Jonathan Feinberg, "Wordle," in *Beautiful Visualization: Looking at Data Through the Eyes of Experts*, ed. Julie Steele and Noah Iliinsky (O'Reilly, 2010), pp. 37–58 | Author's copy: <https://s3.amazonaws.com/static.mrfeinberg.com/bv_ch03.pdf> | Feinberg's own account of how Wordle works: the word regex (Example 3-1), weight = word count, the playing field, the spiral (Example 3-3), the rectangle constraint (Example 3-4), hierarchical bounding boxes, and his caveats. `operations/C1` and `C2` follow it section by section. In copyright; read, not copied. |
+| Jonathan Feinberg, "Wordle," in *Beautiful Visualization: Looking at Data Through the Eyes of Experts*, ed. Julie Steele and Noah Iliinsky (O'Reilly, 2010), pp. 37–58 | Author's copy: <https://s3.amazonaws.com/static.mrfeinberg.com/bv_ch03.pdf> | Feinberg's own account of how Wordle works: the word regex (Example 3-1), weight = word count, the playing field, the spiral (Example 3-3), the rectangle constraint (Example 3-4), hierarchical bounding boxes, and his design notes. `operations/C1` and `C2` follow it section by section. In copyright; read, not copied. |
 | Viégas, Wattenberg, and Feinberg, "Participatory Visualization with Wordle," *IEEE TVCG* 15.6 (2009): 1137–1144 | doi:10.1109/TVCG.2009.171 | The survey of how people used it. Cited in the chapter; not read for this run. |
 
 Not to be confused with the other Wordle, Josh Wardle's five-letter guessing
