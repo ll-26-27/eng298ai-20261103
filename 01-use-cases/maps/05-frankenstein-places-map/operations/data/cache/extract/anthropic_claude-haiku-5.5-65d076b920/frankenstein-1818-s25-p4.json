@@ -1,0 +1,102 @@
+{
+ "chunk": "frankenstein-1818-s25-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3113,
+  "completion_tokens": 723,
+  "total_tokens": 3836,
+  "cost": 0.0006728,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006728,
+   "upstream_inference_prompt_cost": 0.0003113,
+   "upstream_inference_completions_cost": 0.0003615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "county-town",
+   "normalized": "Ennis? Unclear — county town where the assizes were held (Ireland's Mr. Kirwin context suggests Galway)",
+   "type": "town",
+   "role": "setting",
+   "quote": "I was obliged to travel nearly a hundred miles to the county-town, where the court was held.",
+   "note": "Unnamed in passage; identity uncertain, so a human should verify."
+  },
+  {
+   "as_written": "Orkney Islands",
+   "normalized": "Orkney Islands, Scotland",
+   "type": "island",
+   "role": "mentioned",
+   "quote": "that I was on the Orkney Islands at the hour the body of my friend was found",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "He talked of Geneva, which I should soon visit",
+   "note": ""
+  },
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "as I first saw them in my chamber at Ingolstadt.",
+   "note": ""
+  },
+  {
+   "as_written": "blue lake",
+   "normalized": "Lake Geneva, Switzerland",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "to see once more the blue lake and rapid Rhone",
+   "note": "Lake not named explicitly; identified by context as Lake Geneva."
+  },
+  {
+   "as_written": "Rhone",
+   "normalized": "Rhône River, Switzerland",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "to see once more the blue lake and rapid Rhone",
+   "note": ""
+  },
+  {
+   "as_written": "Dublin",
+   "normalized": "Dublin, Ireland",
+   "type": "town",
+   "role": "setting",
+   "quote": "after having taken leave of Mr. Kirwin, we hastened to Dublin.",
+   "note": ""
+  },
+  {
+   "as_written": "Ireland",
+   "normalized": "Ireland",
+   "type": "country",
+   "role": "setting",
+   "quote": "I hailed the darkness that shut Ireland from my sight",
+   "note": ""
+  },
+  {
+   "as_written": "Holyhead",
+   "normalized": "Holyhead, Wales",
+   "type": "town",
+   "role": "setting",
+   "quote": "pointed to the port of Holyhead, which we were now entering.",
+   "note": ""
+  }
+ ]
+}

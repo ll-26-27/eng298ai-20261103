@@ -1,0 +1,142 @@
+{
+ "chunk": "frankenstein-1831-s23-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3233,
+  "completion_tokens": 2179,
+  "total_tokens": 5412,
+  "cost": 0.0014128,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014128,
+   "upstream_inference_prompt_cost": 0.0003233,
+   "upstream_inference_completions_cost": 0.0010895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1213,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "London was our present point of rest",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "setting",
+   "quote": "We had arrived in England at the beginning of October",
+   "note": ""
+  },
+  {
+   "as_written": "Britain",
+   "normalized": "Great Britain, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "In Britain only could he further the execution of his plan",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "a person in Scotland who had formerly been our visitor at Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Scotland",
+   "normalized": "Scotland, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "we received a letter from a person in Scotland",
+   "note": ""
+  },
+  {
+   "as_written": "Perth",
+   "normalized": "Perth, Scotland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "as far north as Perth, where he resided",
+   "note": ""
+  },
+  {
+   "as_written": "India",
+   "normalized": "India",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "His design was to visit India",
+   "note": ""
+  },
+  {
+   "as_written": "Windsor",
+   "normalized": "Windsor, Berkshire, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "we quitted London on the 27th of March and remained a few days at Windsor",
+   "note": ""
+  },
+  {
+   "as_written": "Oxford",
+   "normalized": "Oxford, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "From thence we proceeded to Oxford",
+   "note": ""
+  },
+  {
+   "as_written": "Isis",
+   "normalized": "River Thames, Oxford, England",
+   "type": "water",
+   "role": "setting",
+   "quote": "the lovely Isis, which flows beside it through meadows of exquisite verdure",
+   "note": "Isis is the Oxford name for the Thames"
+  },
+  {
+   "as_written": "Edinburgh",
+   "normalized": "Edinburgh, Scotland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "the great road to Edinburgh",
+   "note": ""
+  },
+  {
+   "as_written": "Matlock",
+   "normalized": "Matlock, Derbyshire, England",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "to visit Windsor, Oxford, Matlock, and the Cumberland lakes",
+   "note": ""
+  },
+  {
+   "as_written": "Cumberland lakes",
+   "normalized": "Lake District, Cumbria, England",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "to visit Windsor, Oxford, Matlock, and the Cumberland lakes",
+   "note": "Cumberland is an archaic county name"
+  },
+  {
+   "as_written": "northern highlands of Scotland",
+   "normalized": "Scottish Highlands, Scotland",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "resolving to finish my labours in some obscure nook in the northern highlands of Scotland",
+   "note": ""
+  }
+ ]
+}

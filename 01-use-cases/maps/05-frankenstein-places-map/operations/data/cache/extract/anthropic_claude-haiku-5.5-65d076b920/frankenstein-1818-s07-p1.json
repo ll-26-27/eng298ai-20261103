@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1818-s07-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2998,
+  "completion_tokens": 606,
+  "total_tokens": 3604,
+  "cost": 0.0006028,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006028,
+   "upstream_inference_prompt_cost": 0.0002998,
+   "upstream_inference_completions_cost": 0.000303
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 442,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "I had hitherto attended the schools of Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "become a student at the university of Ingolstadt",
+   "note": "Destination of the planned journey; Victor does not arrive in this passage."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "chunk": "frankenstein-1831-s26-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3283,
+  "completion_tokens": 926,
+  "total_tokens": 4209,
+  "cost": 0.0007913,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007913,
+   "upstream_inference_prompt_cost": 0.0003283,
+   "upstream_inference_completions_cost": 0.000463
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 672,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "we returned to Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Como",
+   "normalized": "Lake Como, Italy",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "A small possession on the shores of Como belonged to her.",
+   "note": "Refers to the lake; the lake is not otherwise named in the passage."
+  },
+  {
+   "as_written": "Villa Lavenza",
+   "normalized": "Villa Lavenza, Como, Italy",
+   "type": "building",
+   "role": "mentioned",
+   "quote": "we should proceed to Villa Lavenza and spend our first days of happiness",
+   "note": "Planned destination; location inferred from the Como lakeside."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "chunk": "frankenstein-1831-s21-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3015,
+  "completion_tokens": 255,
+  "total_tokens": 3270,
+  "cost": 0.000429,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000429,
+   "upstream_inference_prompt_cost": 0.0003015,
+   "upstream_inference_completions_cost": 0.0001275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 192,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "South America",
+   "normalized": "South America",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "I will go to the vast wilds of South America.",
+   "note": ""
+  }
+ ]
+}

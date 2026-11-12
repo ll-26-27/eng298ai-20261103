@@ -1,0 +1,18 @@
+check,novel,chapter,chunk,name
+cross,frankenstein-1818,Preface,frankenstein-1818-s01-p1,Paradise
+cross,frankenstein-1818,Letter 1,frankenstein-1818-s02-p1,Paradise
+cross,frankenstein-1818,"Vol. 1, Chapter 4",frankenstein-1818-s09-p2,Vicar of Wakefield
+cross,frankenstein-1818,"Vol. 1, Chapter 6",frankenstein-1818-s11-p2,Juras
+cross,frankenstein-1818,"Vol. 1, Chapter 7",frankenstein-1818-s12-p4,London
+cross,frankenstein-1818,"Vol. 1, Chapter 7",frankenstein-1818-s12-p4,Paradise
+cross,frankenstein-1818,"Vol. 2, Chapter 3",frankenstein-1818-s15-p2,Pandæmonium
+cross,frankenstein-1818,"Vol. 2, Chapter 7",frankenstein-1818-s19-p1,Paradise
+cross,frankenstein-1818,"Vol. 2, Chapter 9",frankenstein-1818-s21-p3,London
+cross,frankenstein-1818,"Vol. 2, Chapter 9",frankenstein-1818-s21-p3,Paradise
+cross,frankenstein-1831,Chapter 15,frankenstein-1831-s19-p1,Paradise
+cross,frankenstein-1831,Chapter 15,frankenstein-1831-s19-p2,Paradise
+pattern,frankenstein-1831,Chapter 18,frankenstein-1831-s22-p3,Tintern Abbey
+cross,frankenstein-1831,Chapter 18,frankenstein-1831-s22-p3,Fairy-land
+cross,frankenstein-1831,Chapter 20,frankenstein-1831-s24-p4,Irish
+cross,frankenstein-1831,Chapter 21,frankenstein-1831-s25-p4,Irish
+cross,frankenstein-1831,Chapter 23,frankenstein-1831-s27-p3,Genevan

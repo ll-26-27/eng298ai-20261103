@@ -1,0 +1,2 @@
+# Text chunks (12 MB) are rebuilt exactly by operations/01 from inputs/; the model-response cache is kept so reruns are free
+operations/data/chunks/

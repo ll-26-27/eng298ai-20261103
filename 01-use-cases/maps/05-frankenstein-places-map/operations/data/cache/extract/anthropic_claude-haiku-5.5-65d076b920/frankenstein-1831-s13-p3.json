@@ -1,0 +1,78 @@
+{
+ "chunk": "frankenstein-1831-s13-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2142,
+  "completion_tokens": 1116,
+  "total_tokens": 3258,
+  "cost": 0.0007722,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007722,
+   "upstream_inference_prompt_cost": 0.0002142,
+   "upstream_inference_completions_cost": 0.000558
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 566,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "bridge of Pélissier",
+   "normalized": "Pont Pélissier, Servoz, France",
+   "type": "building",
+   "role": "setting",
+   "quote": "I passed the bridge of Pélissier, where the ravine, which the river forms, opened before me",
+   "note": "Location approximate; the bridge's modern identity is uncertain."
+  },
+  {
+   "as_written": "Chamounix",
+   "normalized": "Chamonix, France",
+   "type": "region",
+   "role": "setting",
+   "quote": "Soon after, I entered the valley of Chamounix.",
+   "note": "Named as a valley here; the village is named again later."
+  },
+  {
+   "as_written": "Servox",
+   "normalized": "Servoz, France",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "not so beautiful and picturesque as that of Servox, through which I had just passed",
+   "note": "Shelley's spelling of the Servoz valley."
+  },
+  {
+   "as_written": "Mont Blanc",
+   "normalized": "Mont Blanc, France-Italy border",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "Mont Blanc, the supreme and magnificent Mont Blanc, raised itself from the surrounding _aiguilles_",
+   "note": ""
+  },
+  {
+   "as_written": "village of Chamounix",
+   "normalized": "Chamonix, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "At length I arrived at the village of Chamounix.",
+   "note": "Same place as the valley of Chamounix; listed separately as the village."
+  },
+  {
+   "as_written": "Arve",
+   "normalized": "Arve (river), Chamonix, France",
+   "type": "water",
+   "role": "setting",
+   "quote": "listening to the rushing of the Arve, which pursued its noisy way beneath",
+   "note": ""
+  }
+ ]
+}

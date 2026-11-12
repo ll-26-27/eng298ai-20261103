@@ -1,0 +1,134 @@
+place_id,name,type,mentions,setting_mentions,novels,frankenstein-1818,frankenstein-1831,told_by_preface,told_by_walton,told_by_victor,told_by_creature,chapters,unverified_quotes,variants,notes
+geneva,"Geneva, Switzerland",town,55,25,2,29,26,1,0,50,4,34,1,Geneva | Genevan | the town,"The narrator's home city; the family's public life is set there. | Also alluded to as 'my native town'. | Named in Elizabeth's letter, which is headed ""Geneva, March 18th""; the narrated scene itself is set elsewhere."
+england,"England, United Kingdom",country,26,5,2,13,13,0,14,12,0,18,1,England | the heaths of England,Appears in the letter's address line to Mrs. Saville. | Appears in the address line as the recipient's location. | Narrator considers travel there but does not go in this passage.
+ingolstadt,"Ingolstadt, Germany",town,24,15,2,12,12,0,0,22,2,16,0,Ingolstadt,"Destination of the planned journey; Victor does not arrive in this passage. | Victor is studying there; the letter is addressed to him, but the town is only referred to here. | Victor is at Ingolstadt during the narrated scene; the letter is addressed to him there."
+switzerland,Switzerland,country,18,5,2,8,10,0,2,14,2,15,0,Switzerland | our country | your native country,The creature recalls travelling from here; past journey narrated in this passage. | Not named; identified as Switzerland by context of Geneva and 'a true Swiss'. | Identified only by reference to Victor's native land; the text does not name it.
+london,"London, England",town,10,4,2,5,5,0,2,8,0,8,0,London,Planned route avoided; not visited. | Planned onward destination.
+mont blanc,"Mont Blanc, France/Italy",mountain_or_glacier,10,4,2,6,4,0,0,10,0,8,0,Mont Blânc | Mont Blanc,Spelled with circumflex in the text. | Archaic spelling of Mont Blanc. | Shelley's spelling with accent.
+alps,"Alps, Europe",mountain_or_glacier,9,4,2,5,4,1,0,8,0,9,0,the Alps | the mighty Alps | Alps,Friends' journey; narrator not present. | Hypothetical reference; the creature's location is only supposed.
+chamonix,"Chamonix, France",town,9,7,2,4,5,0,0,9,0,7,0,valley of Chamounix | Chamounix | valley,Modern spelling Chamonix-Mont-Blanc; the valley is a region of the Alps. | Spelling is Shelley's; modern spelling is Chamonix. | Shelley's spelling; the village is now Chamonix.
+france,France,country,9,2,2,5,4,0,0,5,4,7,0,France,
+jura mountains,"Jura Mountains, France/Switzerland",mountain_or_glacier,8,1,2,4,4,0,0,6,2,8,0,the mountains of Jura | Jura | mountains of Jura,"Range, named as 'Jura' and 'the Juras'. | Seen from a distance as a view; the Creature is not there."
+americas,Americas,region,7,0,2,4,3,0,1,4,2,7,0,America | American hemisphere | the new world,Continent; likely the Americas; typed as region. | Continent rather than a modern country; type is region. | Named hemisphere rather than a specific place; included as a named region.
+belrive,"Bellerive, Geneva, Switzerland",district,7,5,2,3,4,0,0,7,0,6,0,Belrive,Spelling variant of Bellerive; locality near Geneva. | Promontory on Lake Geneva. | Named family house or estate; locating it precisely is approximate.
+rhine river,"Rhine River, Europe",water,7,4,2,4,3,0,0,7,0,6,1,Rhine | this divine river | the Rhine,River not named in this passage; identified from the journey beyond Cologne.
+scotland,"Scotland, United Kingdom",country,7,4,2,4,3,0,0,7,0,4,0,Scotland | the deserts of Scotland,Named as Scotland; the deserts themselves are unnamed.
+arkhangelsk,"Arkhangelsk, Russia",town,6,3,2,3,3,0,6,0,0,6,0,Archangel,Archaic English name; Walton's destination | Shelley's spelling; the city is now called Arkhangelsk. | Archaic English spelling of the city's name.
+ireland,Ireland,country,6,4,2,4,2,0,0,6,0,5,1,"the Irish | this shore, renowned for its hospitality | Ireland",Not named as a place; Ireland is implied by the nationality. Town itself is unnamed. | Not named in the passage; identified only as 'this shore'. Inferred from the novel's setting. | Scenes of Henry's murder; the country is named only in retrospect.
+paris,"Paris, France",town,6,6,2,3,3,0,0,2,4,4,0,Paris,
+perth,"Perth, Scotland",town,6,2,2,3,3,0,0,6,0,4,0,Perth,Planned meeting place with Clerval; Scottish Perth presumed.
+plainpalais,"Plainpalais, Geneva, Switzerland",district,6,3,2,3,3,0,0,6,0,2,1,Plainpalais,"Walk and disappearance of William happen here, reported in the letter. | Walk described in father's letter; not where narrator is."
+saleve,"Mont Salève, Haute-Savoie, France",mountain_or_glacier,6,3,2,3,3,0,0,6,0,4,0,Salêve | Mont Salêve,
+arve river,"Arve River, Haute-Savoie, France",water,5,5,2,2,3,0,0,5,0,3,0,the river Arve | Arve | ravine of Arve | Arveiron,"Named for the Arve river; the ravine is a valley, not a separate water body. | Shelley's spelling; the Arveiron is a river rising from the Mer de Glace."
+greece,Greece,country,5,0,2,3,2,1,0,4,0,5,0,Greece,"Hypothetical reference to ancient Greece, not a setting."
+italy,Italy,country,5,5,2,2,3,0,0,3,2,4,0,Italy,Father travels there to collect Elizabeth. | Named as the Italian state where the Turk and Safie live; Felix also returns there.
+mer de glace,"Mer de Glace, Chamonix, France",mountain_or_glacier,5,3,2,2,3,0,0,5,0,5,0,the sea of ice | sea of ice,"Descriptive phrase for the Mer de Glace glacier, which is not named outright. | Descriptive name for the glacier; identification is inferred. | Descriptive phrase identifying the Mer de Glace glacier."
+asia,Asia,region,4,0,2,2,2,0,0,2,2,4,0,Asia,"continent | Continent named in comparison; the hills are not otherwise identified. | Continent, used as a named region"
+edinburgh,"Edinburgh, Scotland",town,4,2,2,2,2,0,0,4,0,2,1,Edinburgh,
+europe,Europe,region,4,0,2,2,2,0,0,4,0,4,0,Europe,"Continent, not a country. | Continent. | Continent, not a country; the creature speaks of leaving it."
+germany,Germany,country,4,3,2,2,2,1,0,1,2,4,0,Germany,
+istanbul,"Istanbul, Turkey",town,4,0,2,2,2,0,0,0,4,2,1,Constantinople,Shelley's name for the city; now Istanbul | Former name of Istanbul | Archaic name for Istanbul.
+livorno,"Livorno, Italy",town,4,4,2,2,2,0,0,0,4,2,0,Leghorn,archaic English name for Livorno | Shelley's spelling of Livorno; the quote is taken from the passage's mention of Leghorn: When the news reached Leghorn | Archaic English name for Livorno
+matlock,"Matlock, Derbyshire, England",town,4,2,2,2,2,0,0,4,0,2,0,Matlock,Planned visit only
+mediterranean sea,Mediterranean Sea,water,4,2,2,2,2,0,0,4,0,2,0,Mediterranean,Comparison only; Victor is not there.
+north pole,"North Pole, Arctic",region,4,0,2,2,2,0,4,0,0,4,0,the pole | the northern pole | northern pole,Geographic point rather than a named place; type is approximate. | Walton's stated destination; a pole rather than a named place. | Refers to the North Pole.
+orkney islands,"Orkney Islands, Scotland, United Kingdom",island,4,2,2,2,2,0,0,4,0,4,0,the Orkneys | Orkney Islands | Orkneys,Archipelago; the specific island is unnamed and cannot be located. | Only one unnamed island of the group is meant; the archipelago is named.
+oxford,"Oxford, England",town,4,4,2,2,2,0,0,4,0,2,0,Oxford,
+rhone river,"Rhône River, Switzerland/France",water,4,2,2,2,2,0,0,4,0,4,0,Rhone,The blue lake is not named here; likely Lake Geneva.
+river thames,"River Thames, England",water,4,4,2,2,2,0,0,4,0,4,0,the Thames | the lovely Isis | Thames | Isis,Isis is the name of the Thames at Oxford | Isis is the Oxford name for the Thames
+rotterdam,"Rotterdam, Netherlands",town,4,2,2,2,2,0,0,4,0,2,0,Rotterdam,Planned destination of the voyage.
+russia,Russia,country,4,4,2,2,2,0,2,2,0,4,0,Russia,
+scottish highlands,"Scottish Highlands, Scotland",region,4,1,2,2,2,0,0,4,0,2,0,the northern highlands of Scotland | the northern highlands | northern highlands of Scotland | northern highlands,Named area rather than a specific mountain range. | Region named as traversed on the journey north.
+servoz,"Servoz, France",town,4,1,2,2,2,0,0,4,0,4,0,Servox,Valley of Servox; spelling Servox is Shelley's. | Spelling as in 1818 text; modern Servoz in Savoy. | Shelley's spelling of the Servoz valley.
+st petersburg,"Saint Petersburg, Russia",town,4,2,2,2,2,0,4,0,0,2,0,St. Petersburgh,"Now Saint Petersburg; spelled Petersburgh in the text. | Archaic spelling; Walton is only travelling from it, so setting is arguable | Walton writes from here; the letter is dated from this city."
+evian les bains,"Évian-les-Bains, France",town,3,2,2,2,1,0,0,3,0,2,0,Evian,Spelled without accent in the text.
+great britain,"Great Britain, United Kingdom",country,3,1,2,1,2,0,0,3,0,3,0,Britain,Seen from the sea; cliffs are the white cliffs of Dover.
+lake geneva,"Lake Geneva, Switzerland",water,3,1,2,2,1,0,0,3,0,3,0,the lake | blue lake,Not named in the passage; identified by its context near Geneva and Belrive. | Lake not named explicitly; identified by context as Lake Geneva. | Not named; identified only by context as the lake beside Geneva.
+netherlands,"Holland, Netherlands",region,3,2,2,2,1,0,0,3,0,2,0,Holland | the plains of Holland | plains of Holland,Holland is a region of the Netherlands. | Holland is a historical region of the Netherlands.
+strasbourg,"Strasbourg, France",town,3,2,2,1,2,0,0,3,0,2,0,Strasburgh,"Shelley's spelling of Strasbourg | Spelling as in Shelley's text; the meeting point is planned, not reached in this passage. | Spelling as in Shelley's text."
+unnamed island,Unnamed island where Victor lived,fictional,3,1,2,1,2,0,0,3,0,3,0,the island I had inhabited | isle,"Island is not named in this passage. | Unnamed island in the passage; location inferred from the wider novel, not stated here. | Island is unnamed in this passage; likely the Orkneys, but the text does not say so."
+andes,"Andes, South America",mountain_or_glacier,2,0,2,1,1,0,0,2,0,2,0,the Andes | Andes,Figure of speech for a distant place.
+arthurs seat,"Arthur's Seat, Edinburgh, Scotland",mountain_or_glacier,2,0,2,1,1,0,0,2,0,2,0,Arthur's Seat | Arthur’s Seat,
+atlantic ocean,Atlantic Ocean,water,2,0,2,1,1,0,0,2,0,2,0,Atlantic,Named only as a possible destination of the drifting skiff; the sea itself is otherwise unnamed. | Hypothetical fear of being driven there; he is not actually in the Atlantic.
+black sea,Black Sea,water,2,0,2,1,1,0,0,2,0,2,0,Black Sea,Destination of the ship; not reached in this passage.
+chene bougeries,"Chêne-Bougeries, Geneva, Switzerland",town,2,2,2,1,1,0,0,2,0,2,0,Chêne,"Shelley calls it a village; modern Chêne-Bougeries is a commune near Geneva, so the identification is approximate. | Shelley's village name; modern identification uncertain (Chêne-Bougeries or Chêne-Bourg)"
+church in ingolstadt,"Church in Ingolstadt, Germany",building,2,2,2,1,1,0,0,2,0,2,0,the church of Ingolstadt,Unnamed church; identified only by its town. | Church is identified by its town but has no proper name; it is viewed from the narrator's position.
+cologne,"Cologne, Germany",town,2,2,2,1,1,0,0,2,0,2,0,Cologne,
+coppet,"Coppet, Switzerland",town,2,0,2,1,1,0,0,2,0,2,0,Copêt,Spelled Copêt in text; modern Coppet.
+cumberland,"Cumberland, England",region,2,2,2,1,1,0,0,2,0,2,0,Cumberland,
+cupar,"Cupar, Fife, Scotland",town,2,2,2,1,1,0,0,2,0,2,0,Coupar,Possibly Coupar Angus; ambiguous. | Shelley's spelling of Cupar
+de laceys cottage,"De Lacey's cottage, Germany",fictional,2,2,2,1,1,0,0,0,2,2,0,cottage in Germany | the cottage in Germany,Unlocatable within Germany | Unlocated cottage; the exact place is not named.
+derby,"Derby, England",town,2,2,2,1,1,0,0,2,0,2,0,Derby,
+drance,"Drance, Switzerland",water,2,2,2,1,1,0,0,2,0,2,0,river Drance,
+gravesend,"Gravesend, Kent, England",town,2,2,2,1,1,0,0,2,0,2,0,Gravesend,
+greenland,"Greenland, Denmark",island,2,0,2,1,1,0,2,0,0,2,0,Greenland,Used as an adjective modifying 'whaler'. | Adjectival form used; refers to Greenland waters.
+greenwich,"Greenwich, London, England",district,2,2,2,1,1,0,0,2,0,2,0,Greenwich,
+lake como,"Lake Como, Italy",water,2,1,1,0,2,0,0,2,0,2,0,the Lake of Como | Como,Refers to the lake; the lake is not otherwise named in the passage.
+lake district,"Lake District, Cumbria, England",region,2,0,2,1,1,0,0,2,0,2,0,the Cumberland lakes | Cumberland lakes,Planned visit only | Cumberland is an archaic county name
+lake lucerne,"Lake Lucerne, Switzerland",water,2,0,2,1,1,0,0,2,0,2,0,the lakes of Lucerne and Uri | Lucerne,"Lakes Lucerne and Uri, Switzerland; Lake Uri forms part of Lake Lucerne. | Henry's recollection of an earlier journey."
+lausanne,"Lausanne, Switzerland",town,2,2,2,1,1,0,0,2,0,2,0,Lausanne,
+le havre,"Le Havre, France",town,2,1,2,1,1,0,0,2,0,2,0,Havre | Havre-de-Grace,Archaic English name for Le Havre.
+lucerne,"Lucerne, Switzerland",town,2,2,2,1,1,0,0,2,0,2,0,Lucerne,
+lyon,"Lyon, France",town,2,2,2,1,1,0,0,0,2,2,0,Lyons,
+mainland,"Mainland, Orkney, Scotland, United Kingdom",island,2,0,2,1,1,0,0,2,0,2,0,the main land | mainland,"Refers to Mainland, Orkney; the island itself is unnamed. | Unnamed in text; the Mainland of Orkney is the likely referent, so a human should confirm."
+mainz,"Mainz, Germany",town,2,2,2,1,1,0,0,2,0,2,0,Mayence | Mainz,Archaic French name for Mainz
+mannheim,"Mannheim, Germany",town,2,2,2,1,1,0,0,2,0,2,0,Manheim | Mannheim,Archaic spelling of Mannheim
+mexico,Mexico,country,2,0,2,1,1,0,0,2,0,2,0,Mexico,"Refers to the Aztec Empire, located in modern Mexico. | Refers to the historical Aztec empire in the region of Mexico."
+mont cenis,"Mont Cenis, France/Italy",mountain_or_glacier,2,2,2,1,1,0,0,0,2,2,0,Mont Cenis,alpine pass | Alpine pass on the French-Italian border
+mont mole,"Mont Môle, Haute-Savoie, France",mountain_or_glacier,2,0,2,1,1,0,0,2,0,2,0,Môle | the Môle,
+montalegre,"Montalègre, Cologny, Switzerland",town,2,1,2,1,1,0,0,2,0,2,0,Montalêgre | Montalègre,"Shelley's spelling; modern usage is Montalègre, a lakeshore locality. | Identification uncertain; a named stretch of the lake shore."
+montenvers,"Montenvers, Chamonix, France",mountain_or_glacier,2,2,2,1,1,0,0,2,0,2,0,Montanvert,Modern spelling Montenvers. | Spelling as in text; modern name Montenvers.
+north pacific ocean,North Pacific Ocean,water,2,0,2,1,1,0,2,0,0,2,0,North Pacific Ocean,
+north sea,"North Sea, Europe",water,2,1,2,1,1,0,2,0,0,2,0,North Sea,
+pentland hills,"Pentland Hills, Scotland",mountain_or_glacier,2,0,2,1,1,0,0,2,0,2,0,Pentland Hills,
+peru,Peru,country,2,0,2,1,1,0,0,2,0,2,0,Peru,"Refers to the Inca Empire, located in modern Peru. | Refers to the historical Inca empire in the region of Peru."
+pont pelissier,"Pont de Pélissier, Haute-Savoie, France",building,2,2,2,1,1,0,0,2,0,2,0,the bridge of Pelissier | bridge of Pélissier,Bridge over the Arve; exact modern location uncertain. | Location approximate; the bridge's modern identity is uncertain.
+reuss river,"Reuss River, Lucerne, Switzerland",water,2,2,2,1,1,0,0,2,0,2,0,Reuss,River named as the location of Beaufort's house in Lucerne. | River name; the house was in a street near it.
+river tay,"River Tay, Scotland",water,2,2,2,1,1,0,0,2,0,2,0,Tay,
+rome,"Rome, Italy",town,2,0,2,1,1,0,0,2,0,2,0,Rome,"Refers to Rome as a place of classical poetry, not a visit."
+savoy alps,"Savoy Alps, France",mountain_or_glacier,2,0,2,1,1,0,0,2,0,2,0,the Alps of Savoy,
+secheron,"Sécheron, Geneva, Switzerland",town,2,2,2,1,1,0,0,2,0,2,0,Secheron,"Village, now part of Geneva."
+south america,South America,region,2,0,2,1,1,0,0,2,0,2,0,South America,"Proposed future destination of the creature, not a place where action occurs in this passage."
+st andrews,"St Andrews, Fife, Scotland",town,2,2,2,1,1,0,0,2,0,2,0,St. Andrews | St. Andrew’s,
+st bernards well,"St Bernard's Well, Edinburgh, Scotland",building,2,0,2,1,1,0,0,2,0,2,0,St. Bernard's Well | St. Bernard’s Well,"A well-house structure, not a town. | a well structure near Edinburgh"
+st pauls cathedral,"St Paul's Cathedral, London, England",building,2,2,2,1,1,0,0,2,0,2,0,St. Paul’s,
+tartary,"Tartary, Central Asia",region,2,2,2,1,1,0,0,2,0,2,0,tartary | Tartary,Historical term for a vast region of Central and Northern Asia. | Historical name for a vast region of Central and Northern Asia.
+thonon les bains,"Thonon-les-Bains, France",town,2,2,2,1,1,0,0,2,0,2,0,Thonon,Baths near Thonon; the inn stay is in this area. | Shelley's text names the town; the baths are in Thonon.
+tilbury fort,"Tilbury Fort, Essex, England",building,2,2,2,1,1,0,0,2,0,2,0,Tilbury Fort,
+tower of london,"Tower of London, England",building,2,2,2,1,1,0,0,2,0,2,0,the Tower,
+turkey,Turkey,country,2,0,2,1,1,0,0,0,2,2,0,Turkey,Refers to the Ottoman Empire.
+unnamed town,Unnamed town (name redacted in text),fictional,2,1,2,1,1,0,0,2,0,2,0,the town of ——,Name is blanked with dashes in the text; cannot be located. | Town name is blanked (——) in the text and cannot be located; the inquest and inn are presumably here.
+valais,"Valais, Switzerland",region,2,0,2,1,1,0,0,2,0,2,0,La Valais,
+vaud,"Vaud, Switzerland",region,2,0,2,1,1,0,0,2,0,2,0,the Pays de Vaud | Pays de Vaud,
+wakefield,"Wakefield, England",town,2,0,2,1,1,0,0,2,0,2,0,Wakefield | The Vicar of Wakefield,"Appears only in the title of Goldsmith's novel The Vicar of Wakefield, a book Clerval alludes to. | Place named only within the title of Goldsmith's novel; the village is fictional."
+westmorland,"Westmorland, England",region,2,2,2,1,1,0,0,2,0,2,0,Westmoreland | Westmorland,"Historic county, now part of Cumbria."
+windsor,"Windsor, England",town,2,2,2,1,1,0,0,2,0,2,0,Windsor,Includes Windsor Forest
+woolwich,"Woolwich, London, England",district,2,2,2,1,1,0,0,2,0,2,0,Woolwich,
+africa,"Africa, continent",region,1,0,1,1,0,0,1,0,0,1,0,Africa,"Continent; not a country, so typed as region."
+arctic ocean,Arctic Ocean,water,1,1,1,0,1,0,0,1,0,1,0,Frozen Ocean,Archaic period name for the Arctic Ocean; the pursuit crosses its ice.
+arveyron river,"Arveyron River, Chamonix, France",water,1,1,1,1,0,0,0,1,0,1,0,Arveiron,Spelling as in 1818 text; modern name often Arveyron.
+austria,Austria,country,1,0,1,0,1,0,0,1,0,1,0,Austria,Refers to the Austrian Empire of the period.
+cape agulhas,"Cape Agulhas, South Africa",region,1,0,1,0,1,0,1,0,0,1,0,the most southern cape of Africa,Identified by description; Cape of Good Hope is a common alternative reading.
+cape horn,"Cape Horn, Chile",region,1,0,1,0,1,0,1,0,0,1,0,the most southern cape of Africa or America,Identified by description as the southern cape of South America; the passage's 'America' is ambiguous.
+cologny,"Cologny, Switzerland",town,1,0,1,1,0,0,0,1,0,1,0,Cologny,
+dublin,"Dublin, Ireland",town,1,1,1,1,0,0,0,1,0,1,0,Dublin,
+ennis unclear county town where the assizes were held,Ennis? Unclear — county town where the assizes were held (Ireland's Mr. Kirwin context suggests Galway),town,1,1,1,1,0,0,0,1,0,1,0,county-town,"Unnamed in passage; identity uncertain, so a human should verify."
+fairy land,Fairy-land,fictional,1,0,1,1,0,0,0,1,0,1,0,Fairy-land,"Figurative reference, not a real location."
+forest near ingolstadt,"Forest near Ingolstadt, Germany",region,1,1,1,0,1,0,0,0,1,1,0,the forest near Ingolstadt,Unnamed forest; location is approximate.
+holy sepulchre,"Holy Sepulchre, Jerusalem",building,1,0,1,0,1,0,0,1,0,1,0,the holy sepulchre,
+holyhead,"Holyhead, Wales",town,1,1,1,1,0,0,0,1,0,1,0,Holyhead,
+hovel,hovel,fictional,1,1,1,0,1,0,0,0,1,1,0,hovel,Location of the cottage is not named
+india,India,country,1,0,1,0,1,0,0,1,0,1,0,India,
+lake uri,"Lake Uri (Urnersee), Switzerland",water,1,0,1,0,1,0,0,1,0,1,0,Uri,Arm of Lake Lucerne; may refer to the canton of Uri.
+milan,"Milan, Italy",town,1,0,1,0,1,0,0,1,0,1,0,Milan,Father's journey; the scene itself is elsewhere.
+naples,"Naples, Italy",town,1,0,1,0,1,0,0,1,0,1,0,Naples,"Birthplace; narrator was an infant, so only referred to."
+new town,"New Town, Edinburgh, Scotland",district,1,0,1,1,0,0,0,1,0,1,0,new town of Edinburgh,
+pandaemonium,"Pandaemonium (Milton's capital of Hell, Paradise Lost)",fictional,1,0,1,0,1,0,0,0,1,1,0,Pandæmonium,"Literary place from Milton's Paradise Lost, used as a comparison; not located on earth."
+paradise,Paradise (Garden of Eden),fictional,1,0,1,1,0,0,0,0,1,1,0,Paradise,"Biblical/Miltonic garden, not locatable; figurative reference."
+portsmouth,"Portsmouth, England",town,1,0,1,1,0,0,0,1,0,1,0,Portsmouth,Planned embarkation point; not visited.
+roncesvalles,"Roncesvalles, Navarre, Spain",mountain_or_glacier,1,0,1,0,1,0,0,1,0,1,0,Roncesvalles,"Pass/valley in the Pyrenees, not a town; referenced via legend."
+unexplored polar regions,"Unexplored polar regions (quotation from Coleridge's ""The Rime of the Ancient Mariner"")",fictional,1,0,1,0,1,0,1,0,0,1,0,the land of mist and snow,"Quoted phrase from Coleridge; refers to no specific located place, so may be dropped by a human editor."
+university of ingolstadt,"University of Ingolstadt, Ingolstadt, Germany",building,1,1,1,0,1,0,0,1,0,1,0,the university whither I was going,Not named in the passage; identified as the university at Ingolstadt.
+unnamed inn,"Unnamed inn, Ireland",fictional,1,0,1,1,0,0,0,1,0,1,1,the inn at ——,Name redacted by dash; location inferred from Ireland context.
+uri,"Uri, Switzerland",region,1,0,1,1,0,0,0,1,0,1,0,Uri,Canton of Uri; Lake Uri is part of Lake Lucerne.
+villa lavenza,"Villa Lavenza, Como, Italy",building,1,0,1,0,1,0,0,1,0,1,0,Villa Lavenza,Planned destination; location inferred from the Como lakeside.

@@ -1,0 +1,70 @@
+{
+ "chunk": "frankenstein-1831-s14-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3306,
+  "completion_tokens": 485,
+  "total_tokens": 3791,
+  "cost": 0.0005731,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005731,
+   "upstream_inference_prompt_cost": 0.0003306,
+   "upstream_inference_completions_cost": 0.0002425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "valley",
+   "normalized": "Chamonix valley, France",
+   "type": "region",
+   "role": "setting",
+   "quote": "I spent the following day roaming through the valley.",
+   "note": "Unnamed in passage; identified by context as Chamonix valley."
+  },
+  {
+   "as_written": "Arveiron",
+   "normalized": "Arve River, Chamonix, France",
+   "type": "water",
+   "role": "setting",
+   "quote": "I stood beside the sources of the Arveiron, which take their rise in a glacier",
+   "note": "Shelley's spelling; the Arveiron is a river rising from the Mer de Glace."
+  },
+  {
+   "as_written": "Montanvert",
+   "normalized": "Montenvers, Chamonix, France",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "I resolved to ascend to the summit of Montanvert.",
+   "note": "Spelling as in text; modern name Montenvers."
+  },
+  {
+   "as_written": "Mont Blanc",
+   "normalized": "Mont Blanc, France-Italy border",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "above it rose Mont Blanc, in awful majesty.",
+   "note": ""
+  },
+  {
+   "as_written": "sea of ice",
+   "normalized": "Mer de Glace, Chamonix, France",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "For some time I sat upon the rock that overlooks the sea of ice.",
+   "note": "Descriptive phrase identifying the Mer de Glace glacier."
+  }
+ ]
+}

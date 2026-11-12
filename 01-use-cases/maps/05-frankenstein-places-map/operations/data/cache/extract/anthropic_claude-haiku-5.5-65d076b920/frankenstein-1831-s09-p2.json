@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1831-s09-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3273,
+  "completion_tokens": 765,
+  "total_tokens": 4038,
+  "cost": 0.0007098,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007098,
+   "upstream_inference_prompt_cost": 0.0003273,
+   "upstream_inference_completions_cost": 0.0003825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 562,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "permitted to come to Ingolstadt",
+   "note": ""
+  },
+  {
+   "as_written": "The Vicar of Wakefield",
+   "normalized": "Wakefield, England (fictional, in Goldsmith's The Vicar of Wakefield)",
+   "type": "fictional",
+   "role": "mentioned",
+   "quote": "the Dutch schoolmaster in The Vicar of Wakefield",
+   "note": "Place named only within the title of Goldsmith's novel; the village is fictional."
+  }
+ ]
+}

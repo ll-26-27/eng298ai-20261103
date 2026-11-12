@@ -1,0 +1,94 @@
+{
+ "chunk": "frankenstein-1831-s18-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3116,
+  "completion_tokens": 1256,
+  "total_tokens": 4372,
+  "cost": 0.0009396,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009396,
+   "upstream_inference_prompt_cost": 0.0003116,
+   "upstream_inference_completions_cost": 0.000628
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 658,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "He was descended from a good family in France",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "A few months before my arrival they had lived in a large and luxurious city called Paris",
+   "note": ""
+  },
+  {
+   "as_written": "Constantinople",
+   "normalized": "Istanbul, Turkey",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "the very day that Safie arrived from Constantinople to join him",
+   "note": "Shelley's name for the city; now Istanbul"
+  },
+  {
+   "as_written": "Asia",
+   "normalized": "Asia",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "the mind of Safie, who sickened at the prospect of again returning to Asia",
+   "note": "Continent, used as a named region"
+  },
+  {
+   "as_written": "hovel",
+   "normalized": "hovel",
+   "type": "fictional",
+   "role": "setting",
+   "quote": "during my residence in the hovel, to procure the implements of writing",
+   "note": "Location of the cottage is not named"
+  },
+  {
+   "as_written": "Lyons",
+   "normalized": "Lyon, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "Felix conducted the fugitives through France to Lyons",
+   "note": ""
+  },
+  {
+   "as_written": "Mont Cenis",
+   "normalized": "Mont Cenis, France/Italy",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "across Mont Cenis to Leghorn",
+   "note": "Alpine pass on the French-Italian border"
+  },
+  {
+   "as_written": "Leghorn",
+   "normalized": "Livorno, Italy",
+   "type": "town",
+   "role": "setting",
+   "quote": "across Mont Cenis to Leghorn, where the merchant had decided to wait",
+   "note": "Archaic English name for Livorno"
+  }
+ ]
+}

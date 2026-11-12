@@ -1,0 +1,86 @@
+{
+ "chunk": "frankenstein-1818-s26-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3341,
+  "completion_tokens": 1682,
+  "total_tokens": 5023,
+  "cost": 0.0011751,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011751,
+   "upstream_inference_prompt_cost": 0.0003341,
+   "upstream_inference_completions_cost": 0.000841
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1137,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cologny",
+   "normalized": "Cologny, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "A house was purchased for us near Cologny",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "so near Geneva as to see my father every day",
+   "note": "Walls of Geneva are referenced in the same sentence."
+  },
+  {
+   "as_written": "Evian",
+   "normalized": "Évian-les-Bains, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "should pass the afternoon and night at Evian",
+   "note": ""
+  },
+  {
+   "as_written": "Mont Salêve",
+   "normalized": "Salève, Haute-Savoie, France",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "where we saw Mont Salêve",
+   "note": ""
+  },
+  {
+   "as_written": "Montalêgre",
+   "normalized": "Montalègre, Cologny, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "the pleasant banks of Montalêgre",
+   "note": "Shelley's spelling; modern usage is Montalègre, a lakeshore locality."
+  },
+  {
+   "as_written": "Mont Blânc",
+   "normalized": "Mont Blanc, France/Italy",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "the beautiful Mont Blânc",
+   "note": ""
+  },
+  {
+   "as_written": "Jura",
+   "normalized": "Jura Mountains, France/Switzerland",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "the mighty Jura opposing its dark side",
+   "note": ""
+  }
+ ]
+}

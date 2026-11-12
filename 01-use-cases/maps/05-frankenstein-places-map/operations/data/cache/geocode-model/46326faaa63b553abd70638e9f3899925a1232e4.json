@@ -1,0 +1,93 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "mont mole",
+   "lat": 46.0997,
+   "lon": 6.3994,
+   "confidence": "high",
+   "now": "Le Môle, a peak of about 1,863 m in Haute-Savoie",
+   "reason": "The Môle is the well-known peak near Bonneville, visible from Geneva and the Lake Léman shores, and the gazetteer's Landes mill is unrelated."
+  },
+  {
+   "place_id": "montalegre",
+   "lat": 46.2225,
+   "lon": 6.179,
+   "confidence": "medium",
+   "now": "The Montalègre lakeside slope below Cologny, near the former Maison Chapuis and Villa Diodati",
+   "reason": "Shelley lodged at Maison Chapuis on the Montalègre shore in 1816 and the novel uses the name for this stretch of lakeside; the gazetteer's quay in Cologny is the right area but only approximate."
+  },
+  {
+   "place_id": "pentland hills",
+   "lat": 55.79,
+   "lon": -3.27,
+   "confidence": "high",
+   "now": "Pentland Hills Regional Park, south-west of Edinburgh",
+   "reason": "This is a range, so the point is a central spot near Carnethy Hill and Scald Law, the highest ground; the gazetteer's match is correct but marks only one edge near Carlops."
+  },
+  {
+   "place_id": "pont pelissier",
+   "lat": 45.9,
+   "lon": 6.785,
+   "confidence": "medium",
+   "now": "Pont Pélissier over the Arve gorge between Les Houches and Servoz",
+   "reason": "The route from Sallanches to Chamonix crosses the Arve near here, but I know the area rather than the exact spot of the bridge."
+  },
+  {
+   "place_id": "savoy alps",
+   "lat": 45.8326,
+   "lon": 6.8652,
+   "confidence": "medium",
+   "now": "Mont Blanc massif, on the French-Italian border",
+   "reason": "The Alps of Savoy are a range seen from Geneva, so I chose Mont Blanc, their best-known peak, as the representative point."
+  },
+  {
+   "place_id": "tartary",
+   "lat": 48,
+   "lon": 75,
+   "confidence": "low",
+   "now": "Central Asia, parts of Kazakhstan, Mongolia, and southern Siberia",
+   "reason": "Tartary was an imprecise European name for the steppe lands of inner and northern Asia, so this is only a rough central point; the gazetteer's French hamlet is a modern namesake."
+  },
+  {
+   "place_id": "ennis unclear county town where the assizes were held",
+   "lat": null,
+   "lon": null,
+   "confidence": "none",
+   "now": "no certain site; the novel does not name the Irish county town",
+   "reason": "Shelley never names the Irish coastal town or the county town, so the setting is invented and any particular town such as Galway or Ennis would be guesswork."
+  },
+  {
+   "place_id": "forest near ingolstadt",
+   "lat": 48.73,
+   "lon": 11.44,
+   "confidence": "low",
+   "now": "Danube floodplain woodland south-east of Ingolstadt, Bavaria",
+   "reason": "The novel gives no exact site for this forest, so this is a guess based on the Danube forests near Ingolstadt, and the gazetteer's street is a modern namesake."
+  },
+  {
+   "place_id": "lake uri",
+   "lat": 46.95,
+   "lon": 8.6,
+   "confidence": "high",
+   "now": "Urnersee, the south-eastern arm of Lake Lucerne",
+   "reason": "Lake Uri is the Urnersee between Brunnen and Flüelen, so the point is mid-lake, and the gazetteer's Lake Lucerne match is the parent lake near Gersau."
+  },
+  {
+   "place_id": "roncesvalles",
+   "lat": 43.0089,
+   "lon": -1.3197,
+   "confidence": "high",
+   "now": "Orreaga/Roncesvalles, a pass and village in Navarre",
+   "reason": "This is the Pyrenean pass of the Chanson de Roland battle, and the gazetteer's village is the correct place."
+  },
+  {
+   "place_id": "villa lavenza",
+   "lat": 45.9857,
+   "lon": 9.2615,
+   "confidence": "low",
+   "now": "no certain site; the villa is invented, and Lake Como is only a general setting",
+   "reason": "Villa Lavenza is Shelley's invention and named for Elizabeth's family, with no real building identified, so Bellagio on Lake Como is only a rough area guess."
+  }
+ ]
+}

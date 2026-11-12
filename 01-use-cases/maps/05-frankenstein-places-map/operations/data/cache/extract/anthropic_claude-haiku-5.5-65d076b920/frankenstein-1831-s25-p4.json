@@ -1,0 +1,78 @@
+{
+ "chunk": "frankenstein-1831-s25-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3225,
+  "completion_tokens": 1098,
+  "total_tokens": 4323,
+  "cost": 0.0008715,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008715,
+   "upstream_inference_prompt_cost": 0.0003225,
+   "upstream_inference_completions_cost": 0.000549
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 621,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Orkney Islands",
+   "normalized": "Orkney Islands, Scotland, UK",
+   "type": "island",
+   "role": "mentioned",
+   "quote": "on its being proved that I was on the Orkney Islands at the hour the body of my friend was found",
+   "note": ""
+  },
+  {
+   "as_written": "Ireland",
+   "normalized": "Ireland",
+   "type": "country",
+   "role": "setting",
+   "quote": "as I urged our leaving Ireland with such inquietude and impatience",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "He talked of Geneva, which I should soon visit",
+   "note": ""
+  },
+  {
+   "as_written": "Rhone",
+   "normalized": "Rhône River, Switzerland/France",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "to see once more the blue lake and rapid Rhone",
+   "note": "The blue lake is not named here; likely Lake Geneva."
+  },
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "as I first saw them in my chamber at Ingolstadt",
+   "note": ""
+  },
+  {
+   "as_written": "Havre-de-Grace",
+   "normalized": "Le Havre, France",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "We took our passage on board a vessel bound for Havre-de-Grace",
+   "note": "Archaic English name for Le Havre."
+  }
+ ]
+}

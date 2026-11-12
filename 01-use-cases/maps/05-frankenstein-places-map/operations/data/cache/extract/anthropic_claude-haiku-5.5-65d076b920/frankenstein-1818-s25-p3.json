@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1818-s25-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3142,
+  "completion_tokens": 799,
+  "total_tokens": 3941,
+  "cost": 0.0007137,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007137,
+   "upstream_inference_prompt_cost": 0.0003142,
+   "upstream_inference_completions_cost": 0.0003995
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 618,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "this shore, renowned for its hospitality",
+   "normalized": "Ireland",
+   "type": "country",
+   "role": "setting",
+   "quote": "You were thrown, by some surprising accident, on this shore, renowned for its hospitality",
+   "note": "Not named in the passage; identified only as 'this shore'. Inferred from the novel's setting."
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "I instantly wrote to Geneva",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1831-s04-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3202,
+  "completion_tokens": 716,
+  "total_tokens": 3918,
+  "cost": 0.0006782,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006782,
+   "upstream_inference_prompt_cost": 0.0003202,
+   "upstream_inference_completions_cost": 0.000358
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 540,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "_To Mrs. Saville, England._",
+   "note": "Appears in the letter heading as the recipient's location."
+  },
+  {
+   "as_written": "northern pole",
+   "normalized": "North Pole, Arctic",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "we were on a voyage of discovery towards the northern pole.",
+   "note": "Destination of the voyage; a point rather than an area, so type is approximate."
+  }
+ ]
+}

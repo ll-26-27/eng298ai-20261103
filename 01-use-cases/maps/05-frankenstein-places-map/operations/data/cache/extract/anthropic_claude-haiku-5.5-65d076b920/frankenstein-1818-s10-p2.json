@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1818-s10-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3233,
+  "completion_tokens": 697,
+  "total_tokens": 3930,
+  "cost": 0.0006718,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006718,
+   "upstream_inference_prompt_cost": 0.0003233,
+   "upstream_inference_completions_cost": 0.0003485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 440,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "a few months after your departure for Ingolstadt, Justine was called home by her repentant mother",
+   "note": "Victor is at Ingolstadt during the narrated scene; the letter is addressed to him there."
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "Now, dear Victor, I dare say you wish to be indulged in a little gossip concerning the good people of Geneva.",
+   "note": "Named in Elizabeth's letter, which is headed \"Geneva, March 18th\"; the narrated scene itself is set elsewhere."
+  }
+ ]
+}

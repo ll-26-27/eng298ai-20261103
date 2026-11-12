@@ -1,0 +1,86 @@
+{
+ "chunk": "frankenstein-1831-s26-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2500,
+  "completion_tokens": 1608,
+  "total_tokens": 4108,
+  "cost": 0.001054,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001054,
+   "upstream_inference_prompt_cost": 0.00025,
+   "upstream_inference_completions_cost": 0.000804
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1105,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Evian",
+   "normalized": "Évian-les-Bains, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "sleeping that night at Evian",
+   "note": ""
+  },
+  {
+   "as_written": "Mont Salêve",
+   "normalized": "Mont Salève, Haute-Savoie, France",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "we saw Mont Salêve",
+   "note": ""
+  },
+  {
+   "as_written": "Montalègre",
+   "normalized": "Montalègre, Haute-Savoie, France",
+   "type": "district",
+   "role": "setting",
+   "quote": "the pleasant banks of Montalègre",
+   "note": "Identification uncertain; a named stretch of the lake shore."
+  },
+  {
+   "as_written": "Mont Blanc",
+   "normalized": "Mont Blanc, France/Italy",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "the beautiful Mont Blanc",
+   "note": ""
+  },
+  {
+   "as_written": "Jura",
+   "normalized": "Jura Mountains, France/Switzerland",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "the mighty Jura opposing its dark side",
+   "note": ""
+  },
+  {
+   "as_written": "Alps",
+   "normalized": "Alps, Europe",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "The Alps here come closer to the lake",
+   "note": ""
+  },
+  {
+   "as_written": "river Drance",
+   "normalized": "Drance, Haute-Savoie, France",
+   "type": "water",
+   "role": "setting",
+   "quote": "we passed the river Drance",
+   "note": ""
+  }
+ ]
+}

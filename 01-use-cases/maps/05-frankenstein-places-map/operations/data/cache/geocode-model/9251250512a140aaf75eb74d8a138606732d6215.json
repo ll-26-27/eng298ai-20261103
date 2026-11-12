@@ -1,0 +1,101 @@
+{
+ "model": "anthropic/claude-sonnet-5.5",
+ "places": [
+  {
+   "place_id": "alps",
+   "lat": 45.8326,
+   "lon": 6.8652,
+   "confidence": "medium",
+   "now": "Alps; point is the summit of Mont Blanc",
+   "reason": "Range-level representative point at Mont Blanc, the highest and best-known peak, near Chamonix and Frankenstein's journey to Chamonix and Montanvert."
+  },
+  {
+   "place_id": "jura mountains",
+   "lat": 46.4,
+   "lon": 6.1,
+   "confidence": "medium",
+   "now": "Jura Mountains; point is near the Jura crest above Geneva (Crêt de la Neige area is slightly west)",
+   "reason": "The Jura range lies northwest of Lake Geneva; the point is on the crest visible from Geneva, with the highest peak Crêt de la Neige at about 46.27, 5.94."
+  },
+  {
+   "place_id": "rhine river",
+   "lat": 50.37,
+   "lon": 7.6,
+   "confidence": "medium",
+   "now": "Rhine; point is the middle Rhine near Koblenz",
+   "reason": "Frankenstein and Clerval travel down the Rhine from Strasbourg/Mannheim to Cologne, so the stretch near Koblenz and the Rhine gorge is representative."
+  },
+  {
+   "place_id": "saleve",
+   "lat": 46.1,
+   "lon": 6.1744,
+   "confidence": "high",
+   "now": "Mont Salève, Haute-Savoie, France",
+   "reason": "Salève is the limestone ridge just south of Geneva, visible from Lake Geneva; the point is near its summit (Grand Piton about 1,379 m)."
+  },
+  {
+   "place_id": "north pole",
+   "lat": 90,
+   "lon": 0,
+   "confidence": "high",
+   "now": "Geographic North Pole, in the Arctic Ocean",
+   "reason": "The novel's 'pole' is the geographic North Pole, which Walton hopes to reach; the gazetteer's Alaska town is a modern namesake."
+  },
+  {
+   "place_id": "scottish highlands",
+   "lat": 57.5,
+   "lon": -4.9,
+   "confidence": "low",
+   "now": "Scottish Highlands (northern Highland council area)",
+   "reason": "Region-level point in the northwest Highlands; Victor goes to a remote Orkney island, but 'northern highlands' is a vague region so the point is only representative."
+  },
+  {
+   "place_id": "lake geneva",
+   "lat": 46.4546,
+   "lon": 6.5,
+   "confidence": "high",
+   "now": "Lac Léman / Lake Geneva",
+   "reason": "The large lake on the Swiss-French border near Geneva, where the Frankensteins' home at Belrive and Plainpalais lies on the south shore; the point is mid-lake."
+  },
+  {
+   "place_id": "netherlands",
+   "lat": 52.1,
+   "lon": 4.6,
+   "confidence": "medium",
+   "now": "North and South Holland, Netherlands",
+   "reason": "Holland proper corresponds to the provinces of North and South Holland; the point is near Leiden/The Hague on the western coast."
+  },
+  {
+   "place_id": "andes",
+   "lat": -32.6532,
+   "lon": -70.0109,
+   "confidence": "medium",
+   "now": "Aconcagua, the highest peak of the Andes",
+   "reason": "The 'highest peak of the Andes' in Clerval's wish is Aconcagua (then thought Chimborazo by some, but Aconcagua is the highest); used as the range's representative point."
+  },
+  {
+   "place_id": "church in ingolstadt",
+   "lat": 48.7635,
+   "lon": 11.4237,
+   "confidence": "low",
+   "now": "Probably Liebfrauenmünster (Church of Our Lady) or Moritzkirche in Ingolstadt",
+   "reason": "Shelley's white steeple and clock is not identified; candidates are Moritzkirche (white tower, the gazetteer's guess) or Liebfrauenmünster, so the point is only in the old town."
+  },
+  {
+   "place_id": "greenland",
+   "lat": 72,
+   "lon": -40,
+   "confidence": "high",
+   "now": "Greenland, an autonomous territory of Denmark",
+   "reason": "The island is well known; the point is in the interior, and whalers worked the waters off its coasts."
+  },
+  {
+   "place_id": "mont cenis",
+   "lat": 45.2486,
+   "lon": 6.9,
+   "confidence": "high",
+   "now": "Col du Mont-Cenis, on the French-Italian border, with Lac du Mont-Cenis",
+   "reason": "Mont Cenis is the Alpine pass between Savoy and Piedmont used as the route from France to Italy; the gazetteer's Paris street is a modern namesake."
+  }
+ ]
+}

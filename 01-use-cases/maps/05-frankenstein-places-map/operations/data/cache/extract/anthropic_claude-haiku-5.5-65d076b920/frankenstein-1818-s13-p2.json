@@ -1,0 +1,86 @@
+{
+ "chunk": "frankenstein-1818-s13-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3153,
+  "completion_tokens": 1452,
+  "total_tokens": 4605,
+  "cost": 0.0010413,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010413,
+   "upstream_inference_prompt_cost": 0.0003153,
+   "upstream_inference_completions_cost": 0.000726
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 803,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "we departed from Geneva on this tour about the middle of the month of August",
+   "note": ""
+  },
+  {
+   "as_written": "valley of Chamounix",
+   "normalized": "Chamonix, France",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "he now proposed that we should all make an excursion to the valley of Chamounix",
+   "note": "Modern spelling Chamonix-Mont-Blanc; the valley is a region of the Alps."
+  },
+  {
+   "as_written": "the river Arve",
+   "normalized": "Arve River, Haute-Savoie, France",
+   "type": "water",
+   "role": "setting",
+   "quote": "which was formed by the river Arve, whose course we followed",
+   "note": ""
+  },
+  {
+   "as_written": "Servox",
+   "normalized": "Servoz, Haute-Savoie, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "not so beautiful and picturesque as that of Servox, through which we had just passed",
+   "note": "Valley of Servox; spelling Servox is Shelley's."
+  },
+  {
+   "as_written": "the bridge of Pelissier",
+   "normalized": "Pont de Pélissier, Haute-Savoie, France",
+   "type": "building",
+   "role": "setting",
+   "quote": "We passed the bridge of Pelissier",
+   "note": "Bridge over the Arve; exact modern location uncertain."
+  },
+  {
+   "as_written": "Mont Blânc",
+   "normalized": "Mont Blanc, Chamonix-Mont-Blanc, France",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "Mont Blânc, the supreme and magnificent Mont Blânc, raised itself from the surrounding _aiguilles_",
+   "note": ""
+  },
+  {
+   "as_written": "the mighty Alps",
+   "normalized": "Alps, Europe",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "it was augmented and rendered sublime by the mighty Alps",
+   "note": ""
+  }
+ ]
+}

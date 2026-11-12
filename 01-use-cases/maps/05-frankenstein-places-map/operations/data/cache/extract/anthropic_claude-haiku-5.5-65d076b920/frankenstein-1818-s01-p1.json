@@ -1,0 +1,62 @@
+{
+ "chunk": "frankenstein-1818-s01-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2566,
+  "completion_tokens": 1020,
+  "total_tokens": 3586,
+  "cost": 0.0007666,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007666,
+   "upstream_inference_prompt_cost": 0.0002566,
+   "upstream_inference_completions_cost": 0.00051
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 740,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "some of the physiological writers of Germany",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "I passed the summer of 1816 in the environs of Geneva.",
+   "note": ""
+  },
+  {
+   "as_written": "the Alps",
+   "normalized": "Alps, Switzerland, France, Italy, Austria",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "my two friends left me on a journey among the Alps",
+   "note": "Friends' journey; narrator not present."
+  },
+  {
+   "as_written": "Greece",
+   "normalized": "Greece",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "the tragic poetry of Greece",
+   "note": ""
+  }
+ ]
+}

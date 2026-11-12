@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1818-s11-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3329,
+  "completion_tokens": 809,
+  "total_tokens": 4138,
+  "cost": 0.0007374,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007374,
+   "upstream_inference_prompt_cost": 0.0003329,
+   "upstream_inference_completions_cost": 0.0004045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 628,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Plainpalais",
+   "normalized": "Plainpalais, Geneva, Switzerland",
+   "type": "district",
+   "role": "setting",
+   "quote": "went to walk in Plainpalais",
+   "note": "Walk and disappearance of William happen here, reported in the letter."
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "To go instantly to Geneva",
+   "note": "Destination of Victor's planned journey; also the letter's place of writing."
+  }
+ ]
+}

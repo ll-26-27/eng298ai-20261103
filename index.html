@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Humanities Lab · English 298AI</title>
+<meta name="description" content="Worked examples from the English 298AI seminar on Claude Code and vibe coding for the humanities: maps, translations, distant reading, simulations, and a seminar paper.">
+<style>
+  :root {
+    --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6860; --rule: #e3e0d8;
+    --accent: #7a2e1f; --chip: #f1eee7;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body { margin: 0; color: var(--ink); font: 15px/1.5 var(--sans); background: var(--bg); overflow-x: hidden; }
+  a { color: var(--accent); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 56px 24px 80px; }
+
+  .kicker { font: 600 12px/1.3 var(--sans); text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin: 0 0 14px; }
+  h1 { font: 600 42px/1.1 var(--serif); letter-spacing: -0.015em; margin: 0 0 16px; }
+  .lede { font: 400 19px/1.5 var(--serif); color: var(--ink); max-width: 40em; margin: 0 0 8px; }
+  .sub { color: var(--muted); max-width: 44em; margin: 0; }
+
+  .shape { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin: 36px 0 0; border: 1px solid var(--rule); background: var(--panel); border-radius: 4px; }
+  .shape div { padding: 16px 18px; border-right: 1px solid var(--rule); }
+  .shape div:last-child { border-right: 0; }
+  .shape b { display: block; font: 600 12px/1.2 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 6px; }
+  .shape span { font: 400 15px/1.4 var(--serif); }
+  .loop { font-size: 12.5px; color: var(--muted); margin: 8px 0 0; }
+
+  h2 { font: 600 13px/1.2 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 52px 0 6px; padding-bottom: 8px; border-bottom: 2px solid var(--ink); }
+  .group-note { color: var(--muted); font-size: 13.5px; margin: 10px 0 14px; max-width: 46em; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; margin-top: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--rule); border-radius: 4px; padding: 16px 18px 14px; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--muted); }
+  .num { font: 600 11px/1 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .card h3 { font: 600 20px/1.2 var(--serif); margin: 0 0 8px; }
+  .card h3 a { color: var(--ink); text-decoration: none; }
+  .card h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .card p { margin: 0 0 12px; font-size: 13.5px; color: #3d3b36; flex: 1; }
+  .links { display: flex; flex-wrap: wrap; gap: 6px; }
+  .links a { font-size: 12px; text-decoration: none; padding: 2px 8px; border-radius: 3px; background: var(--chip); color: var(--ink); border: 1px solid var(--rule); }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  .links a.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .links a.primary:hover { color: #fff; opacity: 0.9; }
+
+  .res { columns: 2 280px; column-gap: 32px; margin: 14px 0 0; padding: 0; list-style: none; }
+  .res li { break-inside: avoid; padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 14px; }
+  .res li span { display: block; font-size: 12.5px; color: var(--muted); }
+
+  footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 12.5px; color: var(--muted); }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 36px 16px 56px; }
+    h1 { font-size: 32px; }
+    .lede { font-size: 17px; }
+    .shape { grid-template-columns: 1fr; }
+    .shape div { border-right: 0; border-bottom: 1px solid var(--rule); }
+    .shape div:last-child { border-bottom: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="kicker">English 298AI · Seminar 9 · November 3, 2026 · Bok Center Learning Lab</p>
+  <h1>AI Humanities Lab: Claude Code &amp; vibe coding</h1>
+  <p class="lede">Describe what you want in plain language, have Claude build it with you, then inspect, test, and revise the result. These are the worked examples: books, translations, maps, and conversations, each one a finished page you can open.</p>
+  <p class="sub">Every example follows one familiar shape. Each folder in the repository holds its source material, the numbered steps that ran, and the page below.</p>
+
+  <div class="shape" aria-label="Inputs, operations, outputs">
+    <div><b>Inputs</b><span>the books, articles, and records you start with</span></div>
+    <div><b>Operations</b><span>the prompts, scripts, and checks you run on them</span></div>
+    <div><b>Outputs</b><span>the pages, maps, and essays you make for others</span></div>
+  </div>
+  <p class="loop">Outputs become new inputs: the timeline feeds the talking-machines map, and the <em>pharmakon</em> texts feed the <em>Phaedrus</em> walk.</p>
+
+  <!-- ============ MAPS ============ -->
+  <h2>Maps</h2>
+  <p class="group-note">Places, passages, and dates on a map or a line, with the source for every point one click away. Dashed marks are conjecture or a model's estimate.</p>
+  <div class="cards">
+    <article class="card">
+      <div class="num">Maps · 01</div>
+      <h3><a href="01-use-cases/maps/01-dickens-places-map/outputs/index.html">Dickens’s places</a></h3>
+      <p>Every place named in eight Dickens novels, after Moretti, with the passages behind each point. Filter by novel, search, and read the mentions.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/maps/01-dickens-places-map/outputs/index.html">Open the map</a>
+        <a href="01-use-cases/maps/01-dickens-places-map/outputs/essay/essay-11x17.pdf">Essay (PDF)</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/maps/01-dickens-places-map">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Maps · 02</div>
+      <h3><a href="01-use-cases/maps/02-ai-and-literature-timeline/outputs/index.html">AI and literature timeline</a></h3>
+      <p>A checked timeline of AI, literature, theories of dialogue, and the course readings, from antiquity to 2026, in four lanes.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/maps/02-ai-and-literature-timeline/outputs/index.html">Open the timeline</a>
+        <a href="01-use-cases/maps/02-ai-and-literature-timeline/outputs/essay/essay-11x17.pdf">Essay (PDF)</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/maps/02-ai-and-literature-timeline">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Maps · 03</div>
+      <h3><a href="01-use-cases/maps/03-talking-machines-map/outputs/index.html">Where does the machine speak from?</a></h3>
+      <p>Where talking machines were imagined, built, and trained, from Homer to the papers behind the assistant, with a year slider.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/maps/03-talking-machines-map/outputs/index.html">Open the map</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/maps/03-talking-machines-map">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Maps · 04</div>
+      <h3><a href="01-use-cases/maps/04-phaedrus-walk/outputs/index.html">Walking the <em>Phaedrus</em></a></h3>
+      <p>Socrates and Phaedrus out of the city and up the Ilissos, the text aligned to the map, with two rival sites for the plane tree.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/maps/04-phaedrus-walk/outputs/index.html">Open the walk</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/maps/04-phaedrus-walk">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Maps · 05</div>
+      <h3><a href="01-use-cases/maps/05-frankenstein-places-map/outputs/index.html"><em>Frankenstein</em>’s places</a></h3>
+      <p>The Dickens map forked for <em>Frankenstein</em>: every place in the 1818 and 1831 texts, coloured by narrator, with what the revision added and removed.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/maps/05-frankenstein-places-map/outputs/index.html">Open the map</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/maps/05-frankenstein-places-map">Folder</a>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ TRANSLATION ============ -->
+  <h2>Translation</h2>
+  <p class="group-note">One passage, many hands: a prompt chain you can read step by step, and two projects that follow a single line or word across centuries of translators.</p>
+  <div class="cards">
+    <article class="card">
+      <div class="num">Translation · 01</div>
+      <h3><a href="01-use-cases/translation/01-bergson-laughter-chain/outputs/example/annotated-translation.html">Bergson’s <em>Le Rire</em></a></h3>
+      <p>A French passage through a visible prompt chain, ending in an annotated bilingual page with notes on choices a reader can question.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/translation/01-bergson-laughter-chain/outputs/example/annotated-translation.html">Open the page</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/translation/01-bergson-laughter-chain">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Translation · 02</div>
+      <h3><a href="01-use-cases/translation/02-frankenstein-translations/outputs/index.html"><em>Frankenstein</em> in translation</a></h3>
+      <p>The creature’s plea across 21 translations in 14 languages, back-translated and read for connotation; then the first translations into 25 languages.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/translation/02-frankenstein-translations/outputs/index.html">Open the page</a>
+        <a href="01-use-cases/translation/02-frankenstein-translations/outputs/essay/essay-11x17.pdf">Essay (PDF)</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/translation/02-frankenstein-translations">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Translation · 03</div>
+      <h3><a href="01-use-cases/translation/03-phaedrus-pharmakon/outputs/index.html"><em>Pharmakon</em></a></h3>
+      <p>One word of the <em>Phaedrus</em> across 17 translations in 10 languages and five centuries, Ficino (1484) to Meunier (1922).</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/translation/03-phaedrus-pharmakon/outputs/index.html">Open the page</a>
+        <a href="01-use-cases/translation/03-phaedrus-pharmakon/outputs/essay/essay-11x17.pdf">Essay (PDF)</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/translation/03-phaedrus-pharmakon">Folder</a>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ DISTANT READING ============ -->
+  <h2>Distant reading</h2>
+  <p class="group-note">Count and compare at the scale of a whole text, then go back to the passage.</p>
+  <div class="cards">
+    <article class="card">
+      <div class="num">Distant reading · 01</div>
+      <h3><a href="01-use-cases/distant-reading/01-frankenstein-revisions/outputs/index.html">Every change between the two <em>Frankensteins</em></a></h3>
+      <p>All 550 changes between the 1818 and 1831 editions, categorized and checked, each shown side by side with the edit highlighted.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/distant-reading/01-frankenstein-revisions/outputs/index.html">Open the page</a>
+        <a href="01-use-cases/distant-reading/01-frankenstein-revisions/outputs/essay/essay-11x17.pdf">Essay (PDF)</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/distant-reading/01-frankenstein-revisions">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Distant reading · 02</div>
+      <h3><a href="01-use-cases/distant-reading/02-distant-and-close-reading/outputs/index.html">Scenes of instruction</a></h3>
+      <p>Keyword search set against a model’s reading of 982 passages from four texts, with a close reading of the 15 strongest.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/distant-reading/02-distant-and-close-reading/outputs/index.html">Open the page</a>
+        <a href="01-use-cases/distant-reading/02-distant-and-close-reading/outputs/essay/essay-11x17.pdf">Essay (PDF)</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/distant-reading/02-distant-and-close-reading">Folder</a>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ SIMULATION ============ -->
+  <h2>Simulation</h2>
+  <p class="group-note">Give chatbots a shared room, readings, and memory. Every reply on these pages is an actual model response, with the requests and token counts behind it.</p>
+  <div class="cards">
+    <article class="card">
+      <div class="num">Simulation · 01</div>
+      <h3><a href="01-use-cases/simulation/outputs/index.html">The Common Room</a></h3>
+      <p>A library committee of four personas across twenty turns. Inspect each reply and add a fifth participant.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/simulation/outputs/index.html">Open the meeting</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/simulation">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Simulation · 02</div>
+      <h3><a href="01-use-cases/simulation/02-socratic-classroom/outputs/index.html">A Socratic classroom</a></h3>
+      <p>An imagined Socrates and four students test what counts as learning through definitions, counterexamples, and revisions.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/simulation/02-socratic-classroom/outputs/index.html">Open the classroom</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/simulation/02-socratic-classroom">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Simulation · 03</div>
+      <h3><a href="01-use-cases/simulation/03-ensemble-of-october-20/outputs/index.html">The Ensemble of October 20</a></h3>
+      <p>The 940 messages this class’s chatbots exchanged in one Slack channel: who spoke, who answered whom, how the two hours divide into phases; then an intellectual history of them.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/simulation/03-ensemble-of-october-20/outputs/index.html">Open the page</a>
+        <a href="01-use-cases/simulation/03-ensemble-of-october-20/outputs/essay/essay-11x17.pdf">Essay (PDF)</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/simulation/03-ensemble-of-october-20">Folder</a>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ WRITING ============ -->
+  <h2>Writing</h2>
+  <p class="group-note">Books, notebook, paper: writing a seminar paper start to finish, the smaller art of pulling quotes, and two ways of drawing the same Preface.</p>
+  <div class="cards">
+    <article class="card">
+      <div class="num">Writing · 01</div>
+      <h3><a href="01-use-cases/_writing/01-seminar-paper/paper/final.html">Seminar paper</a></h3>
+      <p>The whole arc in one run: brief, reading notes, thesis, quote bank, outline, draft, revision. Plato, Shanahan, and Grice on dialogue agents.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/_writing/01-seminar-paper/paper/final.html">Read the paper</a>
+        <a href="01-use-cases/_writing/01-seminar-paper/paper/pangram/01-before-close-reading/report.html">Pangram: before</a>
+        <a href="01-use-cases/_writing/01-seminar-paper/paper/pangram/02-complete-rewrite/report.html">Pangram: rewrite</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/_writing/01-seminar-paper">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Writing · 02</div>
+      <h3>Quotes and outlines</h3>
+      <p>Pull the passages out of one text, see its skeleton, sketch three papers. Worked on Grice. Notes and quote banks only, no page.</p>
+      <div class="links">
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/_writing/02-quotes-and-outlines">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Writing · 03</div>
+      <h3><a href="01-use-cases/_writing/03-word-clouds/outputs/index.html">Wilde’s Preface, as a Wordle</a></h3>
+      <p>Jonathan Feinberg’s 2008 Wordle algorithm, rewritten in Python and run on the Preface to <em>Dorian Gray</em>; the picture checked against the counts.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/_writing/03-word-clouds/outputs/index.html">Open the page</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/_writing/03-word-clouds">Folder</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="num">Writing · 04</div>
+      <h3><a href="01-use-cases/_writing/04-vector-wordcloud/outputs/index.html">Wilde’s Preface, by meaning</a></h3>
+      <p>The same Preface laid out by word vectors, so that words near in meaning sit near each other, rather than sized by count.</p>
+      <div class="links">
+        <a class="primary" href="01-use-cases/_writing/04-vector-wordcloud/outputs/index.html">Open the page</a>
+        <a href="https://github.com/ll-26-27/eng298ai-20261103/tree/main/01-use-cases/_writing/04-vector-wordcloud">Folder</a>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ RESOURCES ============ -->
+  <h2>Resources</h2>
+  <ul class="res">
+    <li><a href="resources/glossary/glossary-html/index.html">Glossary</a><span>Agent, context window, prompt chaining, token, and about twenty-five more terms.</span></li>
+    <li><a href="resources/handouts/setup-checklists/code-ide/checklists/index.html">Setup checklists</a><span>Claude Code on macOS and Windows.</span></li>
+    <li><a href="resources/handouts/ai-surfaces/index.html">Three AI work surfaces</a><span>Chat, desktop, and code, side by side.</span></li>
+    <li><a href="resources/handouts/claude-code-commands-and-concepts/claude-code-commands-and-concepts.html">Claude Code: commands and concepts</a></li>
+    <li><a href="resources/handouts/project-plan/project-plan.html">Project plan: inputs, operations, outputs</a></li>
+    <li><a href="resources/handouts/what-you-can-make/what-you-can-make.html">What you can make with desktop AI apps</a></li>
+    <li><a href="resources/handouts/its-all-text/its-all-text.html">It’s all text</a></li>
+    <li><a href="resources/handouts/terminal-refresher/terminal-refresher.html">Terminal refresher</a></li>
+    <li><a href="resources/handouts/security-concerns/security-concerns.html">Security concerns</a></li>
+  </ul>
+
+  <footer>
+    English 298AI · Bok Center Learning Lab, Harvard ·
+    <a href="https://github.com/ll-26-27/eng298ai-20261103">Repository</a>
+    (clone it or <a href="https://github.com/ll-26-27/eng298ai-20261103/archive/refs/heads/main.zip">download the ZIP</a> to run any example yourself)
+  </footer>
+
+</div>
+</body>
+</html>

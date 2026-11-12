@@ -1,0 +1,70 @@
+{
+ "chunk": "frankenstein-1831-s13-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3086,
+  "completion_tokens": 1227,
+  "total_tokens": 4313,
+  "cost": 0.0009221,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009221,
+   "upstream_inference_prompt_cost": 0.0003086,
+   "upstream_inference_completions_cost": 0.0006135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 765,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Alps",
+   "normalized": "Alps, Europe",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "it was augmented and rendered sublime by the mighty Alps",
+   "note": ""
+  },
+  {
+   "as_written": "valley of Chamounix",
+   "normalized": "Chamonix valley, France",
+   "type": "region",
+   "role": "setting",
+   "quote": "My wanderings were directed towards the valley of Chamounix.",
+   "note": "Spelled Chamounix in the 1831 text; the valley is in Haute-Savoie."
+  },
+  {
+   "as_written": "ravine of Arve",
+   "normalized": "Arve River valley, Chamonix, France",
+   "type": "water",
+   "role": "setting",
+   "quote": "as I plunged yet deeper in the ravine of Arve",
+   "note": "Named for the Arve river; the ravine is a valley, not a separate water body."
+  },
+  {
+   "as_written": "the impetuous Arve",
+   "normalized": "Arve River, France",
+   "type": "water",
+   "role": "setting",
+   "quote": "the impetuous Arve, and cottages every here and there",
+   "note": "Same river as 'ravine of Arve'; listed once here as the river."
+  },
+  {
+   "as_written": "your native country",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "setting",
+   "quote": "here in this land of peace and beauty, your native country, we may reap every tranquil blessing",
+   "note": "Identified only by reference to Victor's native land; the text does not name it."
+  }
+ ]
+}

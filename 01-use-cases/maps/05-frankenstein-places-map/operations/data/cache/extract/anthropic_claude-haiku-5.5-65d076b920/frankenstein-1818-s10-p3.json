@@ -1,0 +1,62 @@
+{
+ "chunk": "frankenstein-1818-s10-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3142,
+  "completion_tokens": 858,
+  "total_tokens": 4000,
+  "cost": 0.0007432,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007432,
+   "upstream_inference_prompt_cost": 0.0003142,
+   "upstream_inference_completions_cost": 0.000429
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 573,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "a pedestrian tour in the environs of Ingolstadt",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "on his return to Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Greece",
+   "normalized": "Greece",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "the manly and heroical poetry of Greece and Rome",
+   "note": ""
+  },
+  {
+   "as_written": "Rome",
+   "normalized": "Rome, Italy",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "the manly and heroical poetry of Greece and Rome",
+   "note": "Refers to Rome as a place of classical poetry, not a visit."
+  }
+ ]
+}

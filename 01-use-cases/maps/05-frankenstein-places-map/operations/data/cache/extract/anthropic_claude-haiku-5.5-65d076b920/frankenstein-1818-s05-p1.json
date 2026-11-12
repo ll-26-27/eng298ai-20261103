@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1818-s05-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3233,
+  "completion_tokens": 168,
+  "total_tokens": 3401,
+  "cost": 0.0004073,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004073,
+   "upstream_inference_prompt_cost": 0.0003233,
+   "upstream_inference_completions_cost": 0.000084
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "_To Mrs._ SAVILLE, _England_.",
+   "note": ""
+  },
+  {
+   "as_written": "the northern pole",
+   "normalized": "North Pole, Arctic",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "we were on a voyage of discovery towards the northern pole",
+   "note": "Walton's stated destination; a pole rather than a named place."
+  }
+ ]
+}

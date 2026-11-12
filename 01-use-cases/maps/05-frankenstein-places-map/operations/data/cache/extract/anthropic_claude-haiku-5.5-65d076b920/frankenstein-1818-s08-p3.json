@@ -1,0 +1,62 @@
+{
+ "chunk": "frankenstein-1818-s08-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2546,
+  "completion_tokens": 739,
+  "total_tokens": 3285,
+  "cost": 0.0006241,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006241,
+   "upstream_inference_prompt_cost": 0.0002546,
+   "upstream_inference_completions_cost": 0.0003695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 442,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Greece",
+   "normalized": "Greece",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "Greece had not been enslaved",
+   "note": ""
+  },
+  {
+   "as_written": "America",
+   "normalized": "Americas (continent)",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "America would have been discovered more gradually",
+   "note": "Continent rather than a modern country; type is region."
+  },
+  {
+   "as_written": "Mexico",
+   "normalized": "Mexico",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "the empires of Mexico and Peru had not been destroyed",
+   "note": "Refers to the Aztec Empire, located in modern Mexico."
+  },
+  {
+   "as_written": "Peru",
+   "normalized": "Peru",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "the empires of Mexico and Peru had not been destroyed",
+   "note": "Refers to the Inca Empire, located in modern Peru."
+  }
+ ]
+}

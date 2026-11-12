@@ -1,0 +1,134 @@
+{
+ "chunk": "frankenstein-1831-s11-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2871,
+  "completion_tokens": 2481,
+  "total_tokens": 5352,
+  "cost": 0.0015276,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015276,
+   "upstream_inference_prompt_cost": 0.0002871,
+   "upstream_inference_completions_cost": 0.0012405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1375,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Lausanne",
+   "normalized": "Lausanne, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "I remained two days at Lausanne, in this painful state of mind.",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "I continued my journey towards Geneva.",
+   "note": ""
+  },
+  {
+   "as_written": "Jura",
+   "normalized": "Jura Mountains, France/Switzerland",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "I discovered more distinctly the black sides of Jura",
+   "note": ""
+  },
+  {
+   "as_written": "Mont Blanc",
+   "normalized": "Mont Blanc, France/Italy",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "the bright summit of Mont Blanc",
+   "note": ""
+  },
+  {
+   "as_written": "Secheron",
+   "normalized": "Sécheron, Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "I was obliged to pass the night at Secheron, a village at the distance of half a league from the city.",
+   "note": ""
+  },
+  {
+   "as_written": "Plainpalais",
+   "normalized": "Plainpalais, Geneva, Switzerland",
+   "type": "district",
+   "role": "setting",
+   "quote": "I was obliged to cross the lake in a boat to arrive at Plainpalais.",
+   "note": ""
+  },
+  {
+   "as_written": "Salêve",
+   "normalized": "Salève, Haute-Savoie, France",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "It was echoed from Salêve, the Juras, and the Alps of Savoy",
+   "note": ""
+  },
+  {
+   "as_written": "the Juras",
+   "normalized": "Jura Mountains, France/Switzerland",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "It was echoed from Salêve, the Juras, and the Alps of Savoy",
+   "note": "Same range as Jura; listed separately for the second mention."
+  },
+  {
+   "as_written": "the Alps of Savoy",
+   "normalized": "Savoy Alps, France",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "It was echoed from Salêve, the Juras, and the Alps of Savoy",
+   "note": ""
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "The storm, as is often the case in Switzerland, appeared at once in various parts of the heavens.",
+   "note": ""
+  },
+  {
+   "as_written": "Belrive",
+   "normalized": "Bellerive, Geneva, Switzerland",
+   "type": "district",
+   "role": "mentioned",
+   "quote": "the part of the lake which lies between the promontory of Belrive and the village of Copêt",
+   "note": "Promontory on Lake Geneva; spelled Belrive in the text."
+  },
+  {
+   "as_written": "Copêt",
+   "normalized": "Coppet, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "the part of the lake which lies between the promontory of Belrive and the village of Copêt",
+   "note": ""
+  },
+  {
+   "as_written": "the Môle",
+   "normalized": "Mont Môle, Haute-Savoie, France",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "another darkened and sometimes disclosed the Môle, a peaked mountain to the east of the lake",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "chunk": "frankenstein-1831-s08-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3142,
+  "completion_tokens": 816,
+  "total_tokens": 3958,
+  "cost": 0.0007222,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007222,
+   "upstream_inference_prompt_cost": 0.0003142,
+   "upstream_inference_completions_cost": 0.000408
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 571,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "as depended on the lessons of any of the professors at Ingolstadt",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "during which I paid no visit to Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "my native town",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "I thought of returning to my friends and my native town",
+   "note": "Not named in this sentence; identified as Geneva from the narrator's home and the preceding mention of Geneva."
+  }
+ ]
+}

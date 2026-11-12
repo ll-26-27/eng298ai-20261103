@@ -1,0 +1,118 @@
+{
+ "chunk": "frankenstein-1831-s22-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3341,
+  "completion_tokens": 2164,
+  "total_tokens": 5505,
+  "cost": 0.0014161,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014161,
+   "upstream_inference_prompt_cost": 0.0003341,
+   "upstream_inference_completions_cost": 0.001082
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1328,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Strasburgh",
+   "normalized": "Strasbourg, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "I arrived at Strasburgh, where I waited two days for Clerval.",
+   "note": "Spelling as in Shelley's text."
+  },
+  {
+   "as_written": "Rhine",
+   "normalized": "Rhine River, Germany",
+   "type": "water",
+   "role": "setting",
+   "quote": "We had agreed to descend the Rhine in a boat from Strasburgh to Rotterdam",
+   "note": ""
+  },
+  {
+   "as_written": "Rotterdam",
+   "normalized": "Rotterdam, Netherlands",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "We had agreed to descend the Rhine in a boat from Strasburgh to Rotterdam",
+   "note": "Planned destination of the voyage."
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, United Kingdom",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "whence we might take shipping for London.",
+   "note": "Planned onward destination."
+  },
+  {
+   "as_written": "Mannheim",
+   "normalized": "Mannheim, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "We stayed a day at Mannheim",
+   "note": ""
+  },
+  {
+   "as_written": "Mainz",
+   "normalized": "Mainz, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "arrived at Mainz.",
+   "note": ""
+  },
+  {
+   "as_written": "Lucerne",
+   "normalized": "Lake Lucerne (Vierwaldstättersee), Switzerland",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "I have visited the lakes of Lucerne and Uri",
+   "note": "Henry's recollection of an earlier journey."
+  },
+  {
+   "as_written": "Uri",
+   "normalized": "Lake Uri (Urnersee), Switzerland",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "I have visited the lakes of Lucerne and Uri",
+   "note": "Arm of Lake Lucerne; may refer to the canton of Uri."
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "The mountains of Switzerland are more majestic and strange",
+   "note": ""
+  },
+  {
+   "as_written": "La Valais",
+   "normalized": "Valais, Switzerland",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "I have seen the mountains of La Valais",
+   "note": ""
+  },
+  {
+   "as_written": "Pays de Vaud",
+   "normalized": "Vaud, Switzerland",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "and the Pays de Vaud",
+   "note": ""
+  }
+ ]
+}

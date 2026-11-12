@@ -1,0 +1,38 @@
+{
+ "chunk": "frankenstein-1831-s27-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2740,
+  "completion_tokens": 337,
+  "total_tokens": 3077,
+  "cost": 0.0004425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004425,
+   "upstream_inference_prompt_cost": 0.000274,
+   "upstream_inference_completions_cost": 0.0001685
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 225,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the Alps",
+   "normalized": "Alps, Europe",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "if he has indeed taken refuge in the Alps, he may be hunted like the chamois",
+   "note": "Hypothetical reference; the creature's location is only supposed."
+  }
+ ]
+}

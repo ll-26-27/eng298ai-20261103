@@ -1,0 +1,38 @@
+{
+ "chunk": "frankenstein-1831-s28-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3036,
+  "completion_tokens": 469,
+  "total_tokens": 3505,
+  "cost": 0.0005381,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005381,
+   "upstream_inference_prompt_cost": 0.0003036,
+   "upstream_inference_completions_cost": 0.0002345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 348,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Frozen Ocean",
+   "normalized": "Arctic Ocean",
+   "type": "water",
+   "role": "setting",
+   "quote": "I exchanged my land-sledge for one fashioned for the inequalities of the Frozen Ocean",
+   "note": "Archaic period name for the Arctic Ocean; the pursuit crosses its ice."
+  }
+ ]
+}

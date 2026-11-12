@@ -1,0 +1,94 @@
+{
+ "chunk": "frankenstein-1818-s26-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3253,
+  "completion_tokens": 1446,
+  "total_tokens": 4699,
+  "cost": 0.0010483,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010483,
+   "upstream_inference_prompt_cost": 0.0003253,
+   "upstream_inference_completions_cost": 0.000723
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 854,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "We had resolved not to go to London, but to cross the country to Portsmouth",
+   "note": "Planned route avoided; not visited."
+  },
+  {
+   "as_written": "Portsmouth",
+   "normalized": "Portsmouth, England",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "We had resolved not to go to London, but to cross the country to Portsmouth",
+   "note": "Planned embarkation point; not visited."
+  },
+  {
+   "as_written": "Havre",
+   "normalized": "Le Havre, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "We arrived at Havre on the 8th of May",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "instantly proceeded to Paris, where my father had some business",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "than when you quitted Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Ireland",
+   "normalized": "Ireland",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "the scenes that had taken place in Ireland",
+   "note": ""
+  },
+  {
+   "as_written": "the sea of ice",
+   "normalized": "Mer de Glace, Chamonix, France",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "my journey to the sea of ice",
+   "note": "Descriptive name for the glacier; identification is inferred."
+  },
+  {
+   "as_written": "the inn at ——",
+   "normalized": "Unnamed inn, Ireland",
+   "type": "fictional",
+   "role": "mentioned",
+   "quote": "the lifeless form in the inn at ——",
+   "note": "Name redacted by dash; location inferred from Ireland context."
+  }
+ ]
+}

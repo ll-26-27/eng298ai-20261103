@@ -1,0 +1,54 @@
+{
+ "chunk": "frankenstein-1831-s20-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3279,
+  "completion_tokens": 239,
+  "total_tokens": 3518,
+  "cost": 0.0004474,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004474,
+   "upstream_inference_prompt_cost": 0.0003279,
+   "upstream_inference_completions_cost": 0.0001195
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "wood",
+   "normalized": "",
+   "type": "fictional",
+   "role": "setting",
+   "quote": "I continued to wind among the paths of the wood, until I came to its boundary",
+   "note": "Unnamed wood; generic, not a named place."
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "in two months from this time I reached the environs of Geneva.",
+   "note": ""
+  },
+  {
+   "as_written": "Jura",
+   "normalized": "Jura Mountains, France/Switzerland",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "the prospect of the sun setting behind the stupendous mountains of Jura.",
+   "note": ""
+  }
+ ]
+}

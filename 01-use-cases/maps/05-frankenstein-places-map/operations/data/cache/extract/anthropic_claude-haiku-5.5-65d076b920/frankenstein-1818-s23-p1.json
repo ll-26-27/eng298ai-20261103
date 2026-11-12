@@ -1,0 +1,126 @@
+{
+ "chunk": "frankenstein-1818-s23-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3163,
+  "completion_tokens": 2211,
+  "total_tokens": 5374,
+  "cost": 0.0014218,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014218,
+   "upstream_inference_prompt_cost": 0.0003163,
+   "upstream_inference_completions_cost": 0.0011055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1397,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "London was our present point of rest",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England",
+   "type": "country",
+   "role": "setting",
+   "quote": "We had arrived in England at the beginning of October",
+   "note": ""
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "who had formerly been our visitor at Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Scotland",
+   "normalized": "Scotland",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "a letter from a person in Scotland",
+   "note": ""
+  },
+  {
+   "as_written": "Perth",
+   "normalized": "Perth, Scotland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "as far north as Perth, where he resided",
+   "note": ""
+  },
+  {
+   "as_written": "Edinburgh",
+   "normalized": "Edinburgh, Scotland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "not to follow the great road to Edinburgh",
+   "note": ""
+  },
+  {
+   "as_written": "the northern highlands of Scotland",
+   "normalized": "Scottish Highlands, Scotland",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "in the northern highlands of Scotland",
+   "note": ""
+  },
+  {
+   "as_written": "Windsor",
+   "normalized": "Windsor, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "remained a few days at Windsor, rambling in its beautiful forest",
+   "note": "Includes Windsor Forest"
+  },
+  {
+   "as_written": "Oxford",
+   "normalized": "Oxford, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "From thence we proceeded to Oxford",
+   "note": ""
+  },
+  {
+   "as_written": "Matlock",
+   "normalized": "Matlock, Derbyshire, England",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "to visit Windsor, Oxford, Matlock, and the Cumberland lakes",
+   "note": "Planned visit only"
+  },
+  {
+   "as_written": "the Cumberland lakes",
+   "normalized": "Lake District, Cumbria, England",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "and the Cumberland lakes",
+   "note": "Planned visit only"
+  },
+  {
+   "as_written": "the lovely Isis",
+   "normalized": "River Thames, Oxford, England",
+   "type": "water",
+   "role": "setting",
+   "quote": "the lovely Isis, which flows beside it through meadows of exquisite verdure",
+   "note": "Isis is the name of the Thames at Oxford"
+  }
+ ]
+}

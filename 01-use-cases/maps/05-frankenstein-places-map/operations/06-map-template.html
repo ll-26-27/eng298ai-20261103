@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frankenstein's Places</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+  :root {
+    --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6860; --rule: #e3e0d8;
+    --accent: #7a2e1f; --chip: #f1eee7;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow-x: hidden; background: var(--bg); color: var(--ink); font: 14px/1.45 var(--sans); }
+  .app { display: grid; grid-template-columns: 380px 1fr; height: 100vh; }
+  aside { overflow-y: auto; border-right: 1px solid var(--rule); background: var(--panel); padding: 20px 20px 40px; }
+  #map { height: 100%; background: #e8e6e1; }
+  h1 { font: 600 26px/1.15 var(--serif); margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font: 600 13px/1.2 var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 22px 0 8px; }
+  h3 { font: 600 20px/1.2 var(--serif); margin: 0 0 4px; }
+  p { margin: 0 0 8px; }
+  .lede { color: var(--muted); font-size: 13.5px; }
+  a { color: var(--accent); }
+  .views { display: flex; gap: 6px; flex-wrap: wrap; }
+  button { font: inherit; border: 1px solid var(--rule); background: var(--chip); color: var(--ink); border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+  button:hover { border-color: var(--muted); }
+  button.on { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+  .groups label { display: grid; grid-template-columns: 18px 12px 1fr auto; gap: 8px; align-items: center; padding: 3px 0; cursor: pointer; }
+  .swatch { width: 12px; height: 12px; border-radius: 50%; }
+  .swatch.off { visibility: hidden; }
+  .num { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .row { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+  .row input[type=range] { flex: 1; }
+  .small { font-size: 12.5px; color: var(--muted); }
+  .legend { display: grid; grid-template-columns: 22px 1fr; gap: 4px 8px; align-items: center; font-size: 12.5px; color: var(--muted); }
+  .legend svg { display: block; }
+  input[type=search] { width: 100%; font: inherit; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 4px; background: var(--bg); }
+  #detail { border-top: 2px solid var(--ink); margin-top: 22px; padding-top: 14px; }
+  #detail:empty { display: none; }
+  .meta { font-size: 12.5px; color: var(--muted); margin-bottom: 8px; }
+  .tag { display: inline-block; font-size: 11px; padding: 0 6px; border-radius: 3px; background: var(--chip); color: var(--muted); margin-right: 4px; }
+  .tag.setting { background: #e7efe4; color: #2f5d27; }
+  .tag.warn { background: #f7e9d7; color: #7a4a10; }
+  .tag.who { color: #fff; }
+  .mention { padding: 6px 0; border-bottom: 1px solid var(--rule); }
+  .mention q { font-family: var(--serif); font-size: 14.5px; }
+  .novel-head { font: 600 15px/1.3 var(--serif); margin: 12px 0 2px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  td, th { text-align: left; padding: 3px 4px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; }
+  td a { cursor: pointer; }
+  details summary { cursor: pointer; color: var(--accent); margin: 6px 0; }
+  .osm-muted { filter: grayscale(0.9) contrast(0.85) brightness(1.06); }
+  .leaflet-popup-content { font: 13px/1.4 var(--sans); }
+  @media (max-width: 800px) {
+    .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: 60vh auto; height: auto; }
+    aside { min-width: 0; overflow-x: hidden; }
+    table { table-layout: fixed; word-wrap: break-word; }
+    #map { height: 60vh; order: -1; }
+    aside { border-right: 0; padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <h1>Frankenstein's Places</h1>
+    <p class="lede">Every named place in the 1818 and 1831 texts of Mary Shelley's <em>Frankenstein</em>, found passage by passage by a language model, counted, and located with a gazetteer. Each passage is tagged with its narrator: Walton's letters hold Victor's story, which holds the Creature's. Click a circle to read the passages. After Franco Moretti's <em>Atlas of the European Novel, 1800–1900</em>.</p>
+
+    <h2>View</h2>
+    <div class="views">
+      <button data-view="europe">Europe</button>
+      <button data-view="geneva">Geneva &amp; the Alps</button>
+      <button data-view="rhine">The Rhine</button>
+      <button data-view="britain">Britain</button>
+      <button data-view="arctic">The Arctic</button>
+      <button data-view="world">The world</button>
+    </div>
+
+    <h2>Colour by</h2>
+    <div class="views">
+      <button data-colour="narrator" class="on">Narrator</button>
+      <button data-colour="edition">Edition</button>
+    </div>
+
+    <h2>Narrators</h2>
+    <div class="groups" id="narrators"></div>
+
+    <h2>Editions</h2>
+    <div class="groups" id="editions"></div>
+
+    <h2>Count</h2>
+    <div class="row"><input type="checkbox" id="settings"><label for="settings">Only scenes set there <span class="small">(not passing mentions)</span></label></div>
+    <div class="row"><input type="checkbox" id="model" checked><label for="model">Include model-estimated locations</label></div>
+    <div class="row"><input type="checkbox" id="areas" checked><label for="areas">Include countries, continents, and seas</label></div>
+    <div class="row"><label for="min" class="small">Minimum mentions</label><input type="range" id="min" min="1" max="20" value="1"><span id="min-v" class="num">1</span></div>
+
+    <h2>Find a place</h2>
+    <input type="search" id="find" list="place-list" placeholder="e.g. Mont Blanc, Ingolstadt, Orkney">
+    <datalist id="place-list"></datalist>
+
+    <div id="detail"></div>
+
+    <h2>Key</h2>
+    <div class="legend">
+      <svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="#555" fill-opacity=".6" stroke="#fff"/></svg><span>a town, district, building, mountain, glacier, island, or river: located by the OpenStreetMap gazetteer</span>
+      <svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="#555" fill-opacity=".12" stroke="#555"/></svg><span>a country, region, continent, or sea (an area drawn as a point)</span>
+      <svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="#555" fill-opacity=".35" stroke="#555" stroke-dasharray="3 2"/></svg><span>model-estimated location; the source note records the estimate</span>
+      <svg width="22" height="22"><circle cx="11" cy="11" r="8" fill="#3d3b36" fill-opacity=".6" stroke="#fff"/></svg><span>a tie: named as often by two narrators (or in both editions, which is the usual case when colouring by edition)</span>
+      <span></span><span>Circle area is proportional to the number of mentions in the selected narrators and editions; a mention is one passage of about 1,000 words that names the place, so repeats within a passage count once. Colour is the narrator (or edition) with the most mentions there.</span>
+    </div>
+
+    <h2>Who names which places</h2>
+    <table id="stats"></table>
+
+    <h2>Between the editions</h2>
+    <p class="small" id="diff-sum"></p>
+    <table id="diff"></table>
+
+    <h2>Not on the map</h2>
+    <p class="small" id="unmapped-sum"></p>
+    <details><summary>List them</summary><table id="unmapped"></table></details>
+
+    <h2>About</h2>
+    <p class="small" id="about"></p>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+const map = L.map('map', { preferCanvas: false, zoomSnap: 0.5, worldCopyJump: true });
+const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19, className: 'osm-muted', // greyed with CSS so the coloured circles stand out
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+});
+// Esri's light gray canvas is the default: it needs no API key and loads from a page opened by
+// double-clicking (file://). OpenStreetMap's own tile servers can refuse such requests
+// ("403 Access blocked"), and CARTO's basemaps now require an API key.
+const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+const ESRI_ATTR = 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors';
+const gray = L.layerGroup([
+  L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16, attribution: ESRI_ATTR }),
+  L.tileLayer(ESRI + 'Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }),
+]);
+const terrain = L.tileLayer(ESRI + 'World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', { maxZoom: 13, attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>' });
+const streets = L.tileLayer(ESRI + 'World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: ESRI_ATTR });
+gray.addTo(map);
+L.control.layers({ 'Quiet base map (Esri light gray)': gray, 'Shaded relief, for the Alps (Esri)': terrain, 'Street map (Esri)': streets, 'OpenStreetMap (may be blocked from file://)': osm }, null, { position: 'topright' }).addTo(map);
+L.control.scale({ imperial: true, metric: true }).addTo(map);
+
+const VIEWS = {
+  europe: [[38, -11], [66, 42]],
+  geneva: [[45.75, 5.85], [46.55, 7.05]],
+  rhine: [[47.4, 3.8], [52.2, 9.8]],
+  britain: [[50.0, -10.5], [59.4, 2.0]],
+  arctic: [[55, -45], [84.5, 60]],
+  world: [[-50, -125], [80, 150]],
+};
+const fit = (v) => map.fitBounds(VIEWS[v]);
+fit('europe');
+document.querySelectorAll('[data-view]').forEach((b) => b.onclick = () => fit(b.dataset.view));
+
+const AREA = new Set(['region', 'country', 'water']);
+const BIG = new Set(['region', 'country']); // plus seas and oceans, below
+const isBig = (p) => BIG.has(p.t) || (p.t === 'water' && /sea|ocean/i.test(p.n));
+const TYPE_LABEL = { street: 'street', district: 'district', building: 'building or estate', town: 'town or city', region: 'region or continent', country: 'country', mountain_or_glacier: 'mountain, glacier, or range', water: 'lake, river, or sea', island: 'island', fictional: 'fictional or unlocatable' };
+const eds = DATA.novels, nars = DATA.narrators, NN = nars.length;
+// Counts are stored per (edition, narrator) pair: index e * NN + n.
+const selE = new Set(eds.map((_, i) => i));
+const selN = new Set(nars.map((_, i) => i));
+const state = { settings: false, model: true, areas: true, min: 1, colour: 'narrator' };
+const groupsFor = () => state.colour === 'narrator' ? nars : eds;
+const TIE_COLOUR = '#3d3b36'; // as many mentions in two or more of the coloured groups
+
+function checkboxes(id, list, sel) {
+  const box = document.getElementById(id);
+  list.forEach((g, i) => {
+    const lab = document.createElement('label');
+    lab.innerHTML = `<input type="checkbox" checked data-i="${i}"><span class="swatch" data-sw="${id}" style="background:${g.color}"></span><span>${g.html}</span><span class="num" id="${id}-cnt-${i}" title="mentions of places on the map"></span>`;
+    box.appendChild(lab);
+  });
+  box.addEventListener('change', (e) => {
+    const i = Number(e.target.dataset.i);
+    e.target.checked ? sel.add(i) : sel.delete(i);
+    draw();
+  });
+}
+eds.forEach((e) => { e.html = `<em>Frankenstein</em> <span class="small">${e.year} text, Gutenberg #${e.ebook}</span>`; });
+nars.forEach((n) => { n.html = n.label; });
+checkboxes('narrators', nars, selN);
+checkboxes('editions', eds, selE);
+
+document.querySelectorAll('[data-colour]').forEach((b) => b.onclick = () => {
+  state.colour = b.dataset.colour;
+  document.querySelectorAll('[data-colour]').forEach((x) => x.classList.toggle('on', x === b));
+  document.querySelectorAll('[data-sw="narrators"]').forEach((s) => s.classList.toggle('off', state.colour !== 'narrator'));
+  document.querySelectorAll('[data-sw="editions"]').forEach((s) => s.classList.toggle('off', state.colour !== 'edition'));
+  draw();
+});
+document.querySelectorAll('[data-sw="editions"]').forEach((s) => s.classList.add('off'));
+document.getElementById('settings').onchange = (e) => { state.settings = e.target.checked; draw(); };
+document.getElementById('model').onchange = (e) => { state.model = e.target.checked; draw(); };
+document.getElementById('areas').onchange = (e) => { state.areas = e.target.checked; draw(); };
+document.getElementById('min').oninput = (e) => { state.min = Number(e.target.value); document.getElementById('min-v').textContent = state.min; draw(); };
+
+const layer = L.layerGroup().addTo(map);
+const byId = new Map(DATA.places.map((p) => [p.id, p]));
+
+function countFor(p) {
+  const arr = state.settings ? p.s : p.k;
+  const per = new Array(groupsFor().length).fill(0);
+  let total = 0;
+  for (const e of selE) for (const n of selN) {
+    const c = arr[e * NN + n];
+    total += c;
+    per[state.colour === 'narrator' ? n : e] += c;
+  }
+  let best = -1, bestN = 0;
+  per.forEach((c, i) => { if (c > bestN) { bestN = c; best = i; } });
+  const tie = bestN > 0 && per.filter((c) => c === bestN).length > 1;
+  return { total, best, tie };
+}
+
+function draw() {
+  layer.clearLayers();
+  const groups = groupsFor();
+  const visible = [];
+  for (const p of DATA.places) {
+    if (p.src === 'm' && !state.model) continue;
+    if (!state.areas && isBig(p)) continue;
+    const { total, best, tie } = countFor(p);
+    if (total < state.min || best < 0) continue;
+    visible.push([p, total, best, tie]);
+  }
+  visible.sort((a, b) => b[1] - a[1]); // big circles underneath
+  for (const [p, total, best, tie] of visible) {
+    const area = AREA.has(p.t) && isBig(p);
+    const colour = tie ? TIE_COLOUR : groups[best].color;
+    const m = L.circleMarker([p.lat, p.lon], {
+      radius: Math.min(48, 3 + 2.6 * Math.sqrt(total)),
+      color: area || p.src === 'm' ? colour : '#ffffff',
+      weight: area ? 1.5 : 1,
+      dashArray: p.src === 'm' ? '4 3' : null,
+      fillColor: colour,
+      fillOpacity: area ? 0.12 : (p.src === 'm' ? 0.35 : 0.65),
+    });
+    m.bindTooltip(`<strong>${esc(p.n)}</strong><br>${total} mention${total === 1 ? '' : 's'}${p.drawn ? `<br><span class="small">${esc(p.drawn)}</span>` : ''}`, { direction: 'top' });
+    m.on('click', () => show(p.id));
+    m.addTo(layer);
+  }
+  const tally = (pick) => { let t = 0; for (const p of DATA.places) { const arr = state.settings ? p.s : p.k; for (let e = 0; e < eds.length; e++) for (let n = 0; n < NN; n++) if (pick(e, n)) t += arr[e * NN + n]; } return t; };
+  nars.forEach((_, i) => { document.getElementById(`narrators-cnt-${i}`).textContent = tally((e, n) => n === i && selE.has(e)).toLocaleString(); });
+  eds.forEach((_, i) => { document.getElementById(`editions-cnt-${i}`).textContent = tally((e, n) => e === i && selN.has(n)).toLocaleString(); });
+}
+
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function show(id) {
+  const p = byId.get(id);
+  if (!p) return;
+  const ms = (DATA.mentions[id] || []).filter((m) => selE.has(m[0]) && selN.has(m[5]) && (!state.settings || m[2] === 's'));
+  const src = p.src === 'g'
+    ? `Located by the OpenStreetMap gazetteer (${p.c} name match): ${esc(p.match)}${p.osm ? ` · <a href="${p.osm}" target="_blank" rel="noopener">OSM</a>` : ''}`
+    : `<span class="tag warn">model estimate</span> Not found in the gazetteer; location estimated by ${esc(DATA.meta.geocodeModel)} (confidence ${p.c}). ${esc(p.note)}`;
+  const groups = new Map();
+  for (const m of ms) { if (!groups.has(m[0])) groups.set(m[0], []); groups.get(m[0]).push(m); }
+  const variants = p.v.split(' | ');
+  let html = `<h3>${esc(p.n)}</h3><div class="meta">${TYPE_LABEL[p.t] || p.t} · ${ms.length} mention${ms.length === 1 ? '' : 's'} shown · as written: ${esc(variants.join(' | '))}</div><div class="meta">${src}${p.drawn ? ` <span class="tag warn">${esc(p.drawn)}</span>` : ''}</div>`;
+  for (const [ei, list] of groups) {
+    html += `<div class="novel-head" style="color:${eds[ei].color}"><em>Frankenstein</em>, ${eds[ei].year} text <span class="num">${list.length}</span></div>`;
+    for (const m of list) {
+      const who = nars[m[5]];
+      html += `<div class="mention"><span class="small">${esc(m[1])}</span> <span class="tag who" style="background:${who.color}">${esc(who.label)}</span>${m[2] === 's' ? '<span class="tag setting">setting</span>' : '<span class="tag">mentioned</span>'}${m[4] ? '' : '<span class="tag warn">quote not found verbatim</span>'}<br><q>${esc(m[3])}</q></div>`;
+    }
+  }
+  const d = document.getElementById('detail');
+  d.innerHTML = html;
+  d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function go(p) {
+  map.setView([p.lat, p.lon], Math.max(map.getZoom(), isBig(p) ? 4 : 9));
+  show(p.id);
+}
+
+// Search
+const dl = document.getElementById('place-list');
+for (const p of DATA.places) { const o = document.createElement('option'); o.value = p.n; dl.appendChild(o); }
+document.getElementById('find').addEventListener('change', (e) => {
+  const q = e.target.value.toLowerCase();
+  const p = DATA.places.find((x) => x.n.toLowerCase() === q) || DATA.places.find((x) => x.n.toLowerCase().includes(q) || x.v.toLowerCase().includes(q));
+  if (p) go(p);
+});
+
+const placeLink = (p) => `<a data-go="${esc(p.id)}">${esc(p.n.replace(/, (Switzerland|France|Germany|Scotland|England|United Kingdom|Italy|Russia)$/, ''))}</a>`;
+document.addEventListener('click', (e) => { const id = e.target.dataset?.go; if (id && byId.has(id)) go(byId.get(id)); });
+
+// Tables: who names which places, and what changed between the editions.
+function stats() {
+  const all = [...DATA.places.map((p) => ({ ...p, mapped: true })), ...DATA.unmapped];
+  let html = '<tr><th>Narrator</th>' + eds.map((e) => `<th class="n">${e.year}</th>`).join('') + '<th>most-named places (both texts)</th></tr>';
+  nars.forEach((n, ni) => {
+    const top = [];
+    const cells = eds.map((_, ei) => { let t = 0; for (const p of all) t += p.k[ei * NN + ni]; return t; });
+    for (const p of DATA.places) { const c = eds.reduce((a, _, ei) => a + p.k[ei * NN + ni], 0); if (c && !isBig(p)) top.push([c, p]); }
+    top.sort((a, b) => b[0] - a[0]);
+    html += `<tr><td><span class="swatch" style="display:inline-block;background:${n.color}"></span> ${esc(n.label)}</td>${cells.map((c) => `<td class="n">${c}</td>`).join('')}<td>${top.slice(0, 4).map((t) => placeLink(t[1])).join('; ')}</td></tr>`;
+  });
+  html += `<tr><td colspan="${eds.length + 2}" class="small">Mentions (one per passage) of every place, mapped or not. "Most-named" leaves out countries, continents, and seas.</td></tr>`;
+  document.getElementById('stats').innerHTML = html;
+
+  const byEd = (p, ei) => nars.reduce((a, _, ni) => a + p.k[ei * NN + ni], 0);
+  const only = (ei) => all.filter((p) => byEd(p, ei) > 0 && eds.every((_, ej) => ej === ei || byEd(p, ej) === 0));
+  const name = (p) => p.mapped ? placeLink(p) : esc(p.n);
+  document.getElementById('diff-sum').innerHTML = `Places the model found in one text and not the other. Shelley revised the novel for the 1831 edition; plain entries are names that the other text does not contain (a revision). <span style="color:var(--muted)">Grey entries</span> are names that are in both texts, which the model listed in only one: a difference in the reading, not in the novel (step 3c).`;
+  document.getElementById('diff').innerHTML = eds.map((e, ei) => {
+    const list = only(ei).sort((a, b) => byEd(b, ei) - byEd(a, ei));
+    list.sort((a, b) => (a.ed === 'm') - (b.ed === 'm'));
+    const item = (p) => `${p.ed === 'm' ? '<span style="color:var(--muted)">' : '<span>'}${name(p)}${byEd(p, ei) > 1 ? ` <span class="num">${byEd(p, ei)}</span>` : ''}</span>`;
+    const revised = list.filter((p) => p.ed !== 'm').length;
+    return `<tr><th>Only in ${e.year} <span class="num">${revised} in the text, ${list.length - revised} in the reading</span></th></tr><tr><td>${list.map(item).join('; ') || '—'}</td></tr>`;
+  }).join('');
+
+  const u = DATA.unmapped;
+  const um = u.reduce((a, x) => a + x.m, 0);
+  document.getElementById('unmapped-sum').textContent = `${u.length.toLocaleString()} places (${um.toLocaleString()} mentions) are not drawn: unnamed or invented places, places outside the world's maps (Paradise, Pandæmonium), and real places that neither the gazetteer nor the model could locate.`;
+  document.getElementById('unmapped').innerHTML = '<tr><th>Place</th><th>type</th><th class="n">mentions</th><th>why</th></tr>' +
+    u.map((x) => `<tr><td>${esc(x.n)}</td><td>${TYPE_LABEL[x.t] || x.t}</td><td class="n">${x.m}</td><td class="small">${esc(x.why)}</td></tr>`).join('');
+}
+
+document.getElementById('about').innerHTML = DATA.meta.about;
+stats();
+draw();
+
+// Links like index.html#place=mer%20de%20glace open a place directly (ids are in 04-places-geocoded.csv).
+function fromHash() {
+  const m = location.hash.match(/^#place=(.+)$/);
+  if (!m) return;
+  const p = byId.get(decodeURIComponent(m[1]));
+  if (p) go(p);
+}
+window.addEventListener('hashchange', fromHash);
+fromHash();
+</script>
+</body>
+</html>

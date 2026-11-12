@@ -1,0 +1,134 @@
+{
+ "chunk": "frankenstein-1831-s22-p4",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1781,
+  "completion_tokens": 1487,
+  "total_tokens": 3268,
+  "cost": 0.0009216,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009216,
+   "upstream_inference_prompt_cost": 0.0001781,
+   "upstream_inference_completions_cost": 0.0007435
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 609,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Cologne",
+   "normalized": "Cologne, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "Beyond Cologne we descended to the plains of Holland",
+   "note": ""
+  },
+  {
+   "as_written": "plains of Holland",
+   "normalized": "Holland (North and South Holland), Netherlands",
+   "type": "region",
+   "role": "setting",
+   "quote": "we descended to the plains of Holland",
+   "note": "Holland is a historical region of the Netherlands."
+  },
+  {
+   "as_written": "Rotterdam",
+   "normalized": "Rotterdam, Netherlands",
+   "type": "town",
+   "role": "setting",
+   "quote": "we arrived in a few days at Rotterdam",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "setting",
+   "quote": "whence we proceeded by sea to England",
+   "note": ""
+  },
+  {
+   "as_written": "Britain",
+   "normalized": "Great Britain, United Kingdom",
+   "type": "country",
+   "role": "setting",
+   "quote": "I first saw the white cliffs of Britain",
+   "note": "Seen from the sea; cliffs are the white cliffs of Dover."
+  },
+  {
+   "as_written": "Thames",
+   "normalized": "River Thames, England",
+   "type": "water",
+   "role": "setting",
+   "quote": "The banks of the Thames presented a new scene",
+   "note": ""
+  },
+  {
+   "as_written": "Tilbury Fort",
+   "normalized": "Tilbury Fort, Tilbury, England",
+   "type": "building",
+   "role": "setting",
+   "quote": "We saw Tilbury Fort and remembered the Spanish Armada",
+   "note": ""
+  },
+  {
+   "as_written": "Gravesend",
+   "normalized": "Gravesend, Kent, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "Gravesend, Woolwich, and Greenwich",
+   "note": ""
+  },
+  {
+   "as_written": "Woolwich",
+   "normalized": "Woolwich, London, England",
+   "type": "district",
+   "role": "setting",
+   "quote": "Gravesend, Woolwich, and Greenwich",
+   "note": ""
+  },
+  {
+   "as_written": "Greenwich",
+   "normalized": "Greenwich, London, England",
+   "type": "district",
+   "role": "setting",
+   "quote": "Gravesend, Woolwich, and Greenwich",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "At length we saw the numerous steeples of London",
+   "note": ""
+  },
+  {
+   "as_written": "St. Paul’s",
+   "normalized": "St Paul's Cathedral, London, England",
+   "type": "building",
+   "role": "setting",
+   "quote": "St. Paul’s towering above all",
+   "note": ""
+  },
+  {
+   "as_written": "the Tower",
+   "normalized": "Tower of London, London, England",
+   "type": "building",
+   "role": "setting",
+   "quote": "the Tower famed in English history",
+   "note": ""
+  }
+ ]
+}

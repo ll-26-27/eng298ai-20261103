@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1831-s15-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3092,
+  "completion_tokens": 645,
+  "total_tokens": 3737,
+  "cost": 0.0006317,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006317,
+   "upstream_inference_prompt_cost": 0.0003092,
+   "upstream_inference_completions_cost": 0.0003225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 458,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Ingolstadt",
+   "normalized": "Ingolstadt, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "This was the forest near Ingolstadt",
+   "note": "Creature wakes in the forest near Ingolstadt, where Victor studied."
+  },
+  {
+   "as_written": "the forest near Ingolstadt",
+   "normalized": "Forest near Ingolstadt, Germany",
+   "type": "region",
+   "role": "setting",
+   "quote": "This was the forest near Ingolstadt",
+   "note": "Unnamed forest; location is approximate."
+  }
+ ]
+}

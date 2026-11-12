@@ -1,0 +1,110 @@
+{
+ "chunk": "frankenstein-1818-s22-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3193,
+  "completion_tokens": 1858,
+  "total_tokens": 5051,
+  "cost": 0.0012483,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012483,
+   "upstream_inference_prompt_cost": 0.0003193,
+   "upstream_inference_completions_cost": 0.000929
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1220,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "immediately on my return to Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "I expressed a wish to visit England",
+   "note": ""
+  },
+  {
+   "as_written": "Strasburgh",
+   "normalized": "Strasbourg, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "I arrived at Strasburgh, where I waited two days for Clerval",
+   "note": "Shelley's spelling of Strasbourg"
+  },
+  {
+   "as_written": "Holland",
+   "normalized": "Holland, Netherlands",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "Some short time would be spent in the towns of Holland",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "We should return by France",
+   "note": ""
+  },
+  {
+   "as_written": "Rhine",
+   "normalized": "Rhine River, Germany and France",
+   "type": "water",
+   "role": "setting",
+   "quote": "reflected in the Rhine",
+   "note": ""
+  },
+  {
+   "as_written": "Rotterdam",
+   "normalized": "Rotterdam, Netherlands",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "from Strasburgh to Rotterdam",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, United Kingdom",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "whence we might take shipping for London",
+   "note": ""
+  },
+  {
+   "as_written": "Manheim",
+   "normalized": "Mannheim, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "We staid a day at Manheim",
+   "note": "Archaic spelling of Mannheim"
+  },
+  {
+   "as_written": "Mayence",
+   "normalized": "Mainz, Germany",
+   "type": "town",
+   "role": "setting",
+   "quote": "arrived at Mayence",
+   "note": "Archaic French name for Mainz"
+  }
+ ]
+}

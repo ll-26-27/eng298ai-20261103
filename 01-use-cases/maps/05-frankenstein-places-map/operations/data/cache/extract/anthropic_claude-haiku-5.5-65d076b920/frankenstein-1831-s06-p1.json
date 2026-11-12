@@ -1,0 +1,70 @@
+{
+ "chunk": "frankenstein-1831-s06-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3163,
+  "completion_tokens": 1599,
+  "total_tokens": 4762,
+  "cost": 0.0011158,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011158,
+   "upstream_inference_prompt_cost": 0.0003163,
+   "upstream_inference_completions_cost": 0.0007995
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1159,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "We possessed a house in Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Belrive",
+   "normalized": "Bellerive, Geneva, Switzerland",
+   "type": "district",
+   "role": "setting",
+   "quote": "a _campagne_ on Belrive, the eastern shore of the lake",
+   "note": "Spelling as written; modern form likely Bellerive."
+  },
+  {
+   "as_written": "the lake",
+   "normalized": "Lake Geneva (Lac Léman), Switzerland",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "the eastern shore of the lake",
+   "note": "Not named; identified only by context as the lake beside Geneva."
+  },
+  {
+   "as_written": "Roncesvalles",
+   "normalized": "Roncesvalles, Navarre, Spain",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "the heroes of Roncesvalles",
+   "note": "Pass/valley in the Pyrenees, not a town; referenced via legend."
+  },
+  {
+   "as_written": "the holy sepulchre",
+   "normalized": "Holy Sepulchre, Jerusalem",
+   "type": "building",
+   "role": "mentioned",
+   "quote": "to redeem the holy sepulchre from the hands of the infidels",
+   "note": ""
+  }
+ ]
+}

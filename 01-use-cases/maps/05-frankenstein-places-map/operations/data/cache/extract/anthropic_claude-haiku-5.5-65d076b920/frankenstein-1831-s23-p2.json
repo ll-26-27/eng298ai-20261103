@@ -1,0 +1,182 @@
+{
+ "chunk": "frankenstein-1831-s23-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3312,
+  "completion_tokens": 3648,
+  "total_tokens": 6960,
+  "cost": 0.0021552,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0021552,
+   "upstream_inference_prompt_cost": 0.0003312,
+   "upstream_inference_completions_cost": 0.001824
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2200,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Oxford",
+   "normalized": "Oxford, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "We passed a considerable period at Oxford",
+   "note": ""
+  },
+  {
+   "as_written": "Matlock",
+   "normalized": "Matlock, Derbyshire, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "proceeded to Matlock, which was our next place of rest",
+   "note": ""
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "The country in the neighbourhood of this village resembled, to a greater degree, the scenery of Switzerland",
+   "note": ""
+  },
+  {
+   "as_written": "Alps",
+   "normalized": "Alps, Europe",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "the green hills want the crown of distant white Alps",
+   "note": ""
+  },
+  {
+   "as_written": "Servox",
+   "normalized": "Servoz, France",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "the collections at Servox and Chamounix",
+   "note": "Shelley's spelling"
+  },
+  {
+   "as_written": "Chamounix",
+   "normalized": "Chamonix, France",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "The latter name made me tremble when pronounced by Henry",
+   "note": "Shelley's spelling; the name itself is mentioned, not visited here"
+  },
+  {
+   "as_written": "Derby",
+   "normalized": "Derby, England",
+   "type": "town",
+   "role": "setting",
+   "quote": "From Derby, still journeying northwards, we passed two months in Cumberland and Westmorland",
+   "note": ""
+  },
+  {
+   "as_written": "Cumberland",
+   "normalized": "Cumberland, England",
+   "type": "region",
+   "role": "setting",
+   "quote": "we passed two months in Cumberland and Westmorland",
+   "note": ""
+  },
+  {
+   "as_written": "Westmorland",
+   "normalized": "Westmorland, England",
+   "type": "region",
+   "role": "setting",
+   "quote": "we passed two months in Cumberland and Westmorland",
+   "note": ""
+  },
+  {
+   "as_written": "Rhine",
+   "normalized": "Rhine River, Europe",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "and among these mountains I should scarcely regret Switzerland and the Rhine.",
+   "note": ""
+  },
+  {
+   "as_written": "Scotland",
+   "normalized": "Scotland, United Kingdom",
+   "type": "country",
+   "role": "setting",
+   "quote": "I wished to make the tour of Scotland alone",
+   "note": ""
+  },
+  {
+   "as_written": "Edinburgh",
+   "normalized": "Edinburgh, Scotland",
+   "type": "town",
+   "role": "setting",
+   "quote": "I visited Edinburgh with languid eyes and mind",
+   "note": ""
+  },
+  {
+   "as_written": "Arthur’s Seat",
+   "normalized": "Arthur's Seat, Edinburgh, Scotland",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "Arthur’s Seat, St. Bernard’s Well, and the Pentland Hills",
+   "note": ""
+  },
+  {
+   "as_written": "St. Bernard’s Well",
+   "normalized": "St Bernard's Well, Edinburgh, Scotland",
+   "type": "building",
+   "role": "mentioned",
+   "quote": "Arthur’s Seat, St. Bernard’s Well, and the Pentland Hills",
+   "note": "a well structure near Edinburgh"
+  },
+  {
+   "as_written": "Pentland Hills",
+   "normalized": "Pentland Hills, Scotland",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "Arthur’s Seat, St. Bernard’s Well, and the Pentland Hills",
+   "note": ""
+  },
+  {
+   "as_written": "Coupar",
+   "normalized": "Cupar, Fife, Scotland",
+   "type": "town",
+   "role": "setting",
+   "quote": "passing through Coupar, St. Andrew’s, and along the banks of the Tay, to Perth",
+   "note": "Shelley's spelling of Cupar"
+  },
+  {
+   "as_written": "St. Andrew’s",
+   "normalized": "St Andrews, Fife, Scotland",
+   "type": "town",
+   "role": "setting",
+   "quote": "passing through Coupar, St. Andrew’s, and along the banks of the Tay, to Perth",
+   "note": ""
+  },
+  {
+   "as_written": "Tay",
+   "normalized": "River Tay, Scotland",
+   "type": "water",
+   "role": "setting",
+   "quote": "along the banks of the Tay",
+   "note": ""
+  },
+  {
+   "as_written": "Perth",
+   "normalized": "Perth, Scotland",
+   "type": "town",
+   "role": "setting",
+   "quote": "to Perth, where our friend expected us",
+   "note": ""
+  }
+ ]
+}

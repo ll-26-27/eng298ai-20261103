@@ -1,0 +1,94 @@
+{
+ "chunk": "frankenstein-1831-s18-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3113,
+  "completion_tokens": 2091,
+  "total_tokens": 5204,
+  "cost": 0.0013568,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013568,
+   "upstream_inference_prompt_cost": 0.0003113,
+   "upstream_inference_completions_cost": 0.0010455
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1493,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "setting",
+   "quote": "had quitted Italy with his daughter, insultingly sending Felix a pittance of money",
+   "note": "Named as the Italian state where the Turk and Safie live; Felix also returns there."
+  },
+  {
+   "as_written": "Leghorn",
+   "normalized": "Livorno, Italy",
+   "type": "town",
+   "role": "setting",
+   "quote": "Safie should remain as a boarder at a convent at Leghorn",
+   "note": "Archaic English name for Livorno."
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "the news which arrived from Paris",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "The government of France were greatly enraged at the escape of their victim",
+   "note": ""
+  },
+  {
+   "as_written": "the cottage in Germany",
+   "normalized": "De Lacey's cottage, Germany",
+   "type": "fictional",
+   "role": "setting",
+   "quote": "They found a miserable asylum in the cottage in Germany, where I discovered them.",
+   "note": "Unlocated cottage; the exact place is not named."
+  },
+  {
+   "as_written": "Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "setting",
+   "quote": "and departed for Germany",
+   "note": ""
+  },
+  {
+   "as_written": "Turkey",
+   "normalized": "Turkey",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "A residence in Turkey was abhorrent to her",
+   "note": "Refers to the Ottoman Empire."
+  },
+  {
+   "as_written": "Constantinople",
+   "normalized": "Istanbul, Turkey",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "he had consequently hired a vessel to convey him to Constantinople",
+   "note": "Archaic name for Istanbul."
+  }
+ ]
+}

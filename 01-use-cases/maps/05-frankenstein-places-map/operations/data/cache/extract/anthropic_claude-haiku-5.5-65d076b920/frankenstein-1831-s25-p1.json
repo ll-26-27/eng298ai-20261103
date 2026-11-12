@@ -1,0 +1,46 @@
+{
+ "chunk": "frankenstein-1831-s25-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 2984,
+  "completion_tokens": 852,
+  "total_tokens": 3836,
+  "cost": 0.0007244,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007244,
+   "upstream_inference_prompt_cost": 0.0002984,
+   "upstream_inference_completions_cost": 0.000426
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 605,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "the town of ——",
+   "normalized": "Unnamed town, Ireland (location not given in text)",
+   "type": "fictional",
+   "role": "setting",
+   "quote": "I might have put into the harbour ignorant of the distance of the town of ——",
+   "note": "Town name is blanked (——) in the text and cannot be located; the inquest and inn are presumably here."
+  },
+  {
+   "as_written": "the island I had inhabited",
+   "normalized": "Unnamed island, Orkney Islands, Scotland (not named in text)",
+   "type": "fictional",
+   "role": "mentioned",
+   "quote": "knowing that I had been conversing with several persons in the island I had inhabited",
+   "note": "Island is unnamed in this passage; likely the Orkneys, but the text does not say so."
+  }
+ ]
+}

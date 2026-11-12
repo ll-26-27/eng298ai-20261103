@@ -1,0 +1,62 @@
+{
+ "chunk": "frankenstein-1818-s21-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3196,
+  "completion_tokens": 1036,
+  "total_tokens": 4232,
+  "cost": 0.0008376,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008376,
+   "upstream_inference_prompt_cost": 0.0003196,
+   "upstream_inference_completions_cost": 0.000518
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 706,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chamounix",
+   "normalized": "Chamonix, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "Morning dawned before I arrived at the village of Chamounix",
+   "note": "Shelley's spelling; the village is now Chamonix."
+  },
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "The following day we returned to Geneva.",
+   "note": ""
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "on your solemn oath to quit Europe for ever",
+   "note": "Continent, not a country."
+  },
+  {
+   "as_written": "the sea of ice",
+   "normalized": "Mer de Glace, Chamonix, France",
+   "type": "mountain_or_glacier",
+   "role": "setting",
+   "quote": "quickly lost him among the undulations of the sea of ice.",
+   "note": "Descriptive phrase for the Mer de Glace glacier, which is not named outright."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "chunk": "frankenstein-1818-s24-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3208,
+  "completion_tokens": 1171,
+  "total_tokens": 4379,
+  "cost": 0.0009063,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009063,
+   "upstream_inference_prompt_cost": 0.0003208,
+   "upstream_inference_completions_cost": 0.0005855
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 733,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "setting",
+   "quote": "I left Switzerland with you",
+   "note": "The creature recalls travelling from here; past journey narrated in this passage."
+  },
+  {
+   "as_written": "the Rhine",
+   "normalized": "Rhine River, Europe",
+   "type": "water",
+   "role": "setting",
+   "quote": "I crept along the shores of the Rhine",
+   "note": ""
+  },
+  {
+   "as_written": "the heaths of England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "setting",
+   "quote": "I have dwelt many months in the heaths of England",
+   "note": "Named as England; the heaths themselves are unnamed."
+  },
+  {
+   "as_written": "the deserts of Scotland",
+   "normalized": "Scotland, United Kingdom",
+   "type": "country",
+   "role": "setting",
+   "quote": "among the deserts of Scotland",
+   "note": "Named as Scotland; the deserts themselves are unnamed."
+  },
+  {
+   "as_written": "Europe",
+   "normalized": "Europe",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "if they were to leave Europe",
+   "note": "Continent."
+  },
+  {
+   "as_written": "the new world",
+   "normalized": "Americas",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "inhabit the deserts of the new world",
+   "note": "Vague older name for the Americas; loosely identified."
+  }
+ ]
+}

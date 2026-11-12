@@ -1,0 +1,62 @@
+{
+ "chunk": "frankenstein-1818-s24-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3139,
+  "completion_tokens": 848,
+  "total_tokens": 3987,
+  "cost": 0.0007379,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007379,
+   "upstream_inference_prompt_cost": 0.0003139,
+   "upstream_inference_completions_cost": 0.000424
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 584,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "it contained letters from Geneva",
+   "note": ""
+  },
+  {
+   "as_written": "Switzerland",
+   "normalized": "Switzerland",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "since we had quitted Switzerland",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "France was yet unvisited",
+   "note": ""
+  },
+  {
+   "as_written": "Perth",
+   "normalized": "Perth, Scotland, United Kingdom",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "meet him at Perth, in a week from that time",
+   "note": "Planned meeting place with Clerval; Scottish Perth presumed."
+  }
+ ]
+}

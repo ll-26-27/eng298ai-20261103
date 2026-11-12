@@ -1,0 +1,94 @@
+{
+ "chunk": "frankenstein-1818-s18-p2",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3159,
+  "completion_tokens": 1711,
+  "total_tokens": 4870,
+  "cost": 0.0011714,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011714,
+   "upstream_inference_prompt_cost": 0.0003159,
+   "upstream_inference_completions_cost": 0.0008555
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1169,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Italy",
+   "normalized": "Italy",
+   "type": "country",
+   "role": "setting",
+   "quote": "she quitted Italy, with an attendant",
+   "note": ""
+  },
+  {
+   "as_written": "Paris",
+   "normalized": "Paris, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "he hastened to Paris, and delivered himself up",
+   "note": ""
+  },
+  {
+   "as_written": "France",
+   "normalized": "France",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "The government of France were greatly enraged",
+   "note": ""
+  },
+  {
+   "as_written": "Leghorn",
+   "normalized": "Livorno, Italy",
+   "type": "town",
+   "role": "setting",
+   "quote": "The news reached Felix",
+   "note": "Shelley's spelling of Livorno; the quote is taken from the passage's mention of Leghorn: When the news reached Leghorn"
+  },
+  {
+   "as_written": "Constantinople",
+   "normalized": "Istanbul, Turkey",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "he had hired a vessel to convey him to Constantinople",
+   "note": "Former name of Istanbul"
+  },
+  {
+   "as_written": "Turkey",
+   "normalized": "Turkey",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "A residence in Turkey was abhorrent to her",
+   "note": ""
+  },
+  {
+   "as_written": "Germany",
+   "normalized": "Germany",
+   "type": "country",
+   "role": "setting",
+   "quote": "and departed for Germany.",
+   "note": ""
+  },
+  {
+   "as_written": "cottage in Germany",
+   "normalized": "De Lacey's cottage, Germany",
+   "type": "fictional",
+   "role": "setting",
+   "quote": "They found a miserable asylum in the cottage in Germany",
+   "note": "Unlocatable within Germany"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "chunk": "frankenstein-1818-s13-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 1813,
+  "completion_tokens": 639,
+  "total_tokens": 2452,
+  "cost": 0.0005008,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005008,
+   "upstream_inference_prompt_cost": 0.0001813,
+   "upstream_inference_completions_cost": 0.0003195
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 374,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Chamounix",
+   "normalized": "Chamonix, France",
+   "type": "town",
+   "role": "setting",
+   "quote": "At eight in the evening I arrived at Chamounix.",
+   "note": "Spelling is Shelley's; modern spelling is Chamonix."
+  },
+  {
+   "as_written": "Mont Blânc",
+   "normalized": "Mont Blanc, France-Italy border",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "watching the pallid lightning that played above Mont Blânc",
+   "note": "Spelled with circumflex in the text."
+  },
+  {
+   "as_written": "Arve",
+   "normalized": "Arve River, Haute-Savoie, France",
+   "type": "water",
+   "role": "setting",
+   "quote": "listening to the rushing of the Arve, which ran below my window.",
+   "note": ""
+  }
+ ]
+}

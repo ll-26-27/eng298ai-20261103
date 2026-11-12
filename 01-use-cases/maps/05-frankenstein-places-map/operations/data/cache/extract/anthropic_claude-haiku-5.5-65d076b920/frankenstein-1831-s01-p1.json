@@ -1,0 +1,94 @@
+{
+ "chunk": "frankenstein-1831-s01-p1",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3227,
+  "completion_tokens": 1260,
+  "total_tokens": 4487,
+  "cost": 0.0009527,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009527,
+   "upstream_inference_prompt_cost": 0.0003227,
+   "upstream_inference_completions_cost": 0.00063
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 638,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "St. Petersburgh",
+   "normalized": "Saint Petersburg, Russia",
+   "type": "town",
+   "role": "setting",
+   "quote": "St. Petersburgh, Dec. 11th, 17—.",
+   "note": "Walton writes from here; the letter is dated from this city."
+  },
+  {
+   "as_written": "Petersburgh",
+   "normalized": "Saint Petersburg, Russia",
+   "type": "town",
+   "role": "setting",
+   "quote": "as I walk in the streets of Petersburgh, I feel a cold northern breeze",
+   "note": ""
+  },
+  {
+   "as_written": "London",
+   "normalized": "London, England",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "I am already far north of London",
+   "note": ""
+  },
+  {
+   "as_written": "England",
+   "normalized": "England, United Kingdom",
+   "type": "country",
+   "role": "mentioned",
+   "quote": "To Mrs. Saville, England.",
+   "note": "Address line; the recipient's location."
+  },
+  {
+   "as_written": "the pole",
+   "normalized": "North Pole, Arctic",
+   "type": "region",
+   "role": "mentioned",
+   "quote": "I try in vain to be persuaded that the pole is the seat of frost and desolation",
+   "note": "Refers to the North Pole."
+  },
+  {
+   "as_written": "North Pacific Ocean",
+   "normalized": "North Pacific Ocean",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "arriving at the North Pacific Ocean through the seas which surround the pole",
+   "note": ""
+  },
+  {
+   "as_written": "North Sea",
+   "normalized": "North Sea, Europe",
+   "type": "water",
+   "role": "mentioned",
+   "quote": "I accompanied the whale-fishers on several expeditions to the North Sea",
+   "note": ""
+  },
+  {
+   "as_written": "Greenland",
+   "normalized": "Greenland, Denmark",
+   "type": "island",
+   "role": "mentioned",
+   "quote": "Twice I actually hired myself as an under-mate in a Greenland whaler",
+   "note": "Adjectival form used; refers to Greenland waters."
+  }
+ ]
+}

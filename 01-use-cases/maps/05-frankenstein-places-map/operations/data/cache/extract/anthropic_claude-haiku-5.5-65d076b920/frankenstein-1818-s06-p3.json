@@ -1,0 +1,54 @@
+{
+ "chunk": "frankenstein-1818-s06-p3",
+ "model": "anthropic/claude-haiku-5.5",
+ "provider": "Azure",
+ "usage": {
+  "prompt_tokens": 3264,
+  "completion_tokens": 870,
+  "total_tokens": 4134,
+  "cost": 0.0007614,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007614,
+   "upstream_inference_prompt_cost": 0.0003264,
+   "upstream_inference_completions_cost": 0.000435
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 591,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "places": [
+  {
+   "as_written": "Geneva",
+   "normalized": "Geneva, Switzerland",
+   "type": "town",
+   "role": "mentioned",
+   "quote": "I had not attended any of the lectures given at the schools of Geneva.",
+   "note": ""
+  },
+  {
+   "as_written": "Belrive",
+   "normalized": "Belrive (Bellerive), near Geneva, Switzerland",
+   "type": "town",
+   "role": "setting",
+   "quote": "we had retired to our house near Belrive, when we witnessed a most violent and terrible thunder-storm.",
+   "note": "Spelling variant of Bellerive; locality near Geneva."
+  },
+  {
+   "as_written": "the mountains of Jura",
+   "normalized": "Jura Mountains, France/Switzerland",
+   "type": "mountain_or_glacier",
+   "role": "mentioned",
+   "quote": "It advanced from behind the mountains of Jura;",
+   "note": ""
+  }
+ ]
+}
